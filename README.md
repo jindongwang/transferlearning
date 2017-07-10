@@ -15,6 +15,7 @@ _ _ _
 * [迁移学习代表性研究学者](#4迁移学习代表性研究学者)
 * [迁移学习相关的硕博士论文](#5迁移学习相关的硕博士论文)
 * [Domain adaptation相关的文章](https://github.com/jindongwang/transferlearning/blob/master/doc/domain_adaptation.md)
+* [代表方法及文章解读](#代表性的方法及文章)
 * [迁移学习用于行为识别的文章总结](https://github.com/jindongwang/activityrecognition/blob/master/notes/%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0%E7%94%A8%E4%BA%8E%E8%A1%8C%E4%B8%BA%E8%AF%86%E5%88%AB.md)
 * [常用数据集](https://github.com/jindongwang/transferlearning/blob/master/doc/dataset.md)
 * [Contributing]()
@@ -92,6 +93,28 @@ _ _ _
 
 Domain adaptation是迁移学习领域比较热的研究方向，在这里整理了一些经典的文章和说明：[Domain adaptation](https://github.com/jindongwang/transferlearning/blob/master/doc/domain_adaptation.md)
 
+#### 代表性的方法及文章
+
+- 迁移成分分析方法(Transfer component analysis, TCA)
+	- [Domain adaptation via tranfer component analysis](https://mega.nz/#!JTwElLrL!j5-TanhHCMESsGBNvY6I_hX6uspsrTxyopw8bPQ2azU)
+	- 发表在IEEE Trans. Neural Network期刊上（现改名为IEEE trans. Neural Network and Learning System），前作会议文章发在AAAI-09上
+	- [我的解读](https://zhuanlan.zhihu.com/p/26764147?group_id=844611188275965952)
+
+- 联合分布适配方法（joint distribution adaptation，JDA）
+	- [Transfer Feature Learning with Joint Distribution Adaptation](http://ise.thss.tsinghua.edu.cn/~mlong/doc/joint-distribution-adaptation-iccv13.pdf)
+	- 发表在2013年的ICCV上
+	- [我的解读](https://zhuanlan.zhihu.com/p/27336930)
+
+- 测地线流式核方法(Geodesic flow kernel, GFK)
+	- [Geodesic flow kernel for unsupervised domain adaptation](https://mega.nz/#!tDY1lCSD!flMSgl-0uIswpSFL3sdZgKi6fOyFVLtcO8P6SE0OUPU)
+	- 发表在CVPR-12上
+	- [我的解读](https://zhuanlan.zhihu.com/p/27782708)
+- 领域不变性迁移核学习(Transfer Kernel Learning, TKL)
+	- [Domain invariant transfer kernel learning](https://mega.nz/#!tOoCCRhB!YyoorOUcp6XIPPd6A0s7qglYnaSiRJFEQBphtZ2c58Q)
+	- 发表在IEEE Trans. Knowledge and Data Engineering期刊上
+- 深度适配网络（Deep Adaptation Network, DAN）
+	- 发表在ICML-15上：learning transferable features with deep adaptation networks
+	- [我的解读](https://zhuanlan.zhihu.com/p/27657910)
 _ _ _
 
 ### [记与迁移学习大牛杨强教授的第二次会面](https://zhuanlan.zhihu.com/p/26260083)

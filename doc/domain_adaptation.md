@@ -49,6 +49,7 @@ Domain adaptation可以算是迁移学习领域最火的研究点了。因此，
 - 测地线流式核方法(Geodesic flow kernel, GFK)
 	- [Geodesic flow kernel for unsupervised domain adaptation](https://mega.nz/#!tDY1lCSD!flMSgl-0uIswpSFL3sdZgKi6fOyFVLtcO8P6SE0OUPU)
 	- 发表在CVPR-12上
+	- [我的解读](https://zhuanlan.zhihu.com/p/27782708)
 - 领域不变性迁移核学习(Transfer Kernel Learning, TKL)
 	- [Domain invariant transfer kernel learning](https://mega.nz/#!tOoCCRhB!YyoorOUcp6XIPPd6A0s7qglYnaSiRJFEQBphtZ2c58Q)
 	- 发表在IEEE Trans. Knowledge and Data Engineering期刊上
