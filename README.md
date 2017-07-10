@@ -18,7 +18,7 @@ _ _ _
 * [代表方法及文章解读](#代表性的方法及文章)
 * [迁移学习用于行为识别的文章总结](https://github.com/jindongwang/activityrecognition/blob/master/notes/%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0%E7%94%A8%E4%BA%8E%E8%A1%8C%E4%B8%BA%E8%AF%86%E5%88%AB.md)
 * [常用数据集](https://github.com/jindongwang/transferlearning/blob/master/doc/dataset.md)
-* [Contributing]()
+* [Contributing](#contributing)
 
 - - -
 
@@ -143,7 +143,7 @@ _ _ _
 
 ### Contributing
 
-如果你感兴趣，非常欢迎你加入这个项目！如果需要有超链接指向文件，请不要直接上传到项目中，否则会造成git版本库过大；正确的做法是先把它的超链接（如paper会有自己的主页）放上来，然后我会根据链接把文章放到云端硬盘上。
+如果你对本项目感兴趣，非常欢迎你加入！如果需要有超链接指向文件，请不要直接上传到项目中，否则会造成git版本库过大；正确的做法是先把它的超链接（如paper会有自己的主页）放上来，然后我会根据链接把文章放到云端硬盘上。如果你有别的需要分享的大文件，可以在http://mega.nz 创建一个账号分享出来。
 
 Welcome!
 
