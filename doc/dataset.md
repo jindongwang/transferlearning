@@ -66,9 +66,9 @@ This dataset was first introduced by Gong et al. [1]. I got the SURF features fr
 
 #### Download
 
-[Download Office+Caltech SURF dataset](https://www.jianguoyun.com/p/DWNPUA0QjKnsBRjygi4)
+[Download Office+Caltech SURF dataset](https://mega.nz/#F!AaJTGIzD!XHM2XMsSd9V-ljVi0EtvFg)
 
-[Download Office+Caltech DeCAF dataset](https://www.jianguoyun.com/p/DRn57qkQjKnsBRj0gi4)
+[Download Office+Caltech DeCAF dataset](https://mega.nz/#F!QDxBBC4J!LizxWbE1_JEwPSrA2mrrrw)
 
 
 - - -
@@ -80,7 +80,7 @@ This dataset was first introduced by Gong et al. [1]. I got the SURF features fr
 
 It is also popular. It contains randomly selected samples from MNIST and USPS. Then the source and target domains are constructed using each other.
 
-[Download MNIST+USPS SURF dataset](https://www.jianguoyun.com/p/DQNVR8IQjKnsBRj2gi4)
+[Download MNIST+USPS SURF dataset](https://mega.nz/#F!oHJ2UCoK!r62nRoZ0gH8NXIcgmyWReA)
 
 
 - - -
@@ -92,7 +92,7 @@ It is also popular. It contains randomly selected samples from MNIST and USPS. T
 
 It contains 20 classes. There are two datasets extracted: COIL1 and COIL2.
 
-[Download COIL20 SURF dataset](https://www.jianguoyun.com/p/DYkJdrEQjKnsBRj4gi4)
+[Download COIL20 SURF dataset](https://mega.nz/#F!xWxyTDaZ!MWamSH17Uu065XbDNYymkQ)
 
 
 - - -
@@ -104,7 +104,7 @@ It contains 20 classes. There are two datasets extracted: COIL1 and COIL2.
 
 It is a relatively large dataset with many classes.
 
-[Download PIE SURF dataset](https://www.jianguoyun.com/p/DfhzbUwQjKnsBRj5gi4)
+[Download PIE SURF dataset](https://mega.nz/#F!lPgmkZQB!z2QuBEmCzj2XR5AAQaIj7Q)
 
 
 - - -
@@ -117,7 +117,7 @@ It is a relatively large dataset with many classes.
 
 It contains four domains: V(VOC2007), L(LabelMe), S(SUN09) and C(Caltech). There are 5 classes: 'bird', 'car', 'chair', 'dog', 'person'.
 
-[Download the VLSC DeCAF dataset](https://www.jianguoyun.com/p/DdaInQ0QjKnsBRj6gi4)
+[Download the VLSC DeCAF dataset](https://mega.nz/#F!gTJxGTJK!w9UJjZVq3ClqGj4mBDmT4A)
 
 
 - - -
@@ -128,7 +128,7 @@ It contains four domains: V(VOC2007), L(LabelMe), S(SUN09) and C(Caltech). There
 
 It is selected from imagenet challange.
 
-[Download the IMAGENET DeCAF dataset](https://www.jianguoyun.com/p/DZCNd0oQjKnsBRj8gi4)
+[Download the IMAGENET DeCAF dataset](https://mega.nz/#!IeZ0yIQZ!spaZ0L3lbpsTykRJf5CNx6zk4kUk-p5MlqPAlGkPbu8)
 
 
 - - -
@@ -136,7 +136,7 @@ It is selected from imagenet challange.
 
 ### Animals-with-Attributes
 
-[Download the SURF/SIFT/DeCAF features](https://www.jianguoyun.com/p/DcRl38EQjKnsBRj_gi4)
+[Download the SURF/SIFT/DeCAF features](https://mega.nz/#F!Na5jyLiC!LT29_gyoPsd_eEoym3CgMg)
 
 
 - - -
