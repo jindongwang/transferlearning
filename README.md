@@ -73,17 +73,18 @@ _ _ _
 
 ### 5.迁移学习相关的硕博士论文
 
-硕博士论文可以让我们很快地对迁移学习的相关领域做一些了解，同时，也能很快地了解概括相关研究者的工作。包括了中英文的一些迁移学习相关的硕博士论文。其中，诸如杨强的学生，像
+硕博士论文可以让我们很快地对迁移学习的相关领域做一些了解，同时，也能很快地了解概括相关研究者的工作。其中，比较有名的有
 
 - [Sinno Jialin Pan](https://mega.nz/#!xCwBALCb!exNKlFh6Mi_bvzmclBd6rWOeIwqUuwR7thYIsFK1J5U)
+- [Boqing Gong](https://pdfs.semanticscholar.org/71b0/38958df0b7855fc7b8b8e7dcde8537a7c1ad.pdf)：提出GFK的
 - [Hao Hu](https://mega.nz/#!IaQzlIAY!HpvK6YYv37EngofqZDgdRpMLErSPAmgz8Ln9hWPAJSw)
 - [Wenchen Zheng](https://mega.nz/#!QDJFUA4Z!3lBYHH1YzmWI9nTecvaSsR65aWSUmTiUN6Wmjk8y-vc)
 
 等的博士论文都是关于迁移学习的。中文方面，
 
-- 中科院计算所[赵中堂](https://mega.nz/#!cKowSJSD!NLPQ01oSBYXughH9F1toFqdFoYY7JsPQMZlIYtn2-LA)
 - 清华大学[龙明盛](https://mega.nz/#!kDBTjDQZ!VZMu4f57N0GBKVcaJs1WNxNkA1JOmp4NcYiVDoDqIJM)
-- 以及上海交通大学的[戴文渊](https://mega.nz/#!UehghTCK!9KPD4FwWpHoZmYCmweF0y67Sft7KzTi8F_ZIUA15-QE)是比较代表性的文章。
+- 上海交通大学的[戴文渊](https://mega.nz/#!UehghTCK!9KPD4FwWpHoZmYCmweF0y67Sft7KzTi8F_ZIUA15-QE)
+- 中科院计算所[赵中堂](https://mega.nz/#!cKowSJSD!NLPQ01oSBYXughH9F1toFqdFoYY7JsPQMZlIYtn2-LA)
 
 其他的文章，请见[完整版](https://mega.nz/#F!YHIFxJAL!Ts413E2dbEc_2az4dhb_Jg)。
 
