@@ -36,7 +36,9 @@ _ _ _
 
 - 其中，最具代表性的综述是[A survey on transfer learning](https://mega.nz/#!hapCXZjQ!p9PpMK0VYWy6Li7QBZ3eVDgaHYUc1MewRFMcjfXAA7s)，对迁移学习进行了比较权威的定义。
 
-- 最新的综述是[A survey of transfer learning](https://mega.nz/#!RfwwiBYS!7mM4juZY-oslxNtG_mv1XhV4zJknzpDM4QkD14S91_s)，写于2015-2016年。其中交代了一些比较经典的如同构、异构等学习方法代表性文章。包括了很多方法介绍，值得一看。
+- 最新的综述是[Cross-dataset recognition: a survey](https://arxiv.org/abs/1705.04396)，目前刚发在arXiv上，作者是澳大利亚卧龙岗大学的在读博士生，迁移学习领域做的不错。
+
+- 还有一篇较新的综述是[A survey of transfer learning](https://mega.nz/#!RfwwiBYS!7mM4juZY-oslxNtG_mv1XhV4zJknzpDM4QkD14S91_s)，写于2015-2016年。其中交代了一些比较经典的如同构、异构等学习方法代表性文章。包括了很多方法介绍，值得一看。
 
 - 此外，还包括[迁移学习应用于行为识别](https://mega.nz/#!RfwwiBYS!7mM4juZY-oslxNtG_mv1XhV4zJknzpDM4QkD14S91_s)、[迁移学习与增强学习](https://mega.nz/#!RDpiRDCL!LSMgyjV69YEiFE2D0quKkrr_t7bEOYtsnx8BkTxniKo)结合等。
 - 关于[多个源域进行迁移的综述](https://mega.nz/#!UPRTBIAS!HcjUwI_yGe3IrWCFfBxHF9nd8CFt0GTzjIyMMxdUuv0)、[视觉domain adaptation综述](https://mega.nz/#!hWQ3HLhJ!GTCIUTVDcmnn3f7-Ulhjs_MxGv6xnFyp1nayemt9Nis)也十分有用。
