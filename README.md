@@ -57,6 +57,8 @@ _ _ _
 
 ![Matlab](https://raw.githubusercontent.com/jindongwang/transferlearning/master/png/matlab.png)
 
+[这里](https://github.com/jindongwang/transferlearning/tree/master/code/matlab)有我整理后*更好用*的的Matlab版本的TCA代码。
+
 #### - Python：[我写的工具包](https://github.com/jindongwang/transferlearning/tree/master/code/python)
 
 **我写的python版本工具包，目前刚完成了transfer component analysis （TCA）方法。也请有意愿的同学来一起加入这个项目。**
