@@ -53,11 +53,15 @@ _ _ _
 
 #### - Matlab：[domain adaptation toolbox](https://github.com/viggin/domain-adaptation-toolbox)
 
-这是一份用matlab写的domain adaptation工具包，内包含了以下的9种迁移学习方法。
+Code for [JDA:Joint distribution adaptation](https://github.com/jindongwang/transferlearning/blob/master/code/matlab/MyJDA.m)
+
+
+Code for [TCA:Transfer component analysis](https://github.com/jindongwang/transferlearning/tree/master/code/matlab)
+
+[这个来自网络]这是一份用matlab写的domain adaptation工具包，内包含了以下的9种迁移学习方法。
 
 ![Matlab](https://raw.githubusercontent.com/jindongwang/transferlearning/master/png/matlab.png)
 
-[这里](https://github.com/jindongwang/transferlearning/tree/master/code/matlab)有我整理后*更好用*的的Matlab版本的TCA代码。
 
 #### - Python：[我写的工具包](https://github.com/jindongwang/transferlearning/tree/master/code/python)
 
