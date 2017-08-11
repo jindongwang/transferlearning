@@ -56,7 +56,9 @@ _ _ _
 Code for [JDA:Joint distribution adaptation](https://github.com/jindongwang/transferlearning/blob/master/code/matlab/MyJDA.m)
 
 
-Code for [TCA:Transfer component analysis](https://github.com/jindongwang/transferlearning/tree/master/code/matlab)
+Code for [TCA:Transfer component analysis](https://github.com/jindongwang/transferlearning/tree/master/code/matlab/MyTCA)
+
+Code for [GFK:Geodesic flow kernel](https://github.com/jindongwang/transferlearning/blob/master/code/matlab/MyGFK.m)
 
 [这个来自网络]这是一份用matlab写的domain adaptation工具包，内包含了以下的9种迁移学习方法。
 
