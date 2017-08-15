@@ -126,6 +126,11 @@ Domain adaptation是迁移学习领域比较热的研究方向，在这里整理
 - 深度适配网络（Deep Adaptation Network, DAN）
 	- 发表在ICML-15上：learning transferable features with deep adaptation networks
 	- [我的解读](https://zhuanlan.zhihu.com/p/27657910)
+
+- [深度联合适配网络](http://proceedings.mlr.press/v70/long17a.html)（Joint Adaptation Network, JAN）
+	- Deep Transfer Learning with Joint Adaptation Networks
+	- 发表在ICML 2017上，作者也是龙明盛
+	- 延续了之前的DAN工作，这次考虑联合适配
 _ _ _
 
 ### [记与迁移学习大牛杨强教授的第二次会面](https://zhuanlan.zhihu.com/p/26260083)
