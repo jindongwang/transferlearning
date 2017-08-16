@@ -11,7 +11,7 @@ _ _ _
 
 * [迁移学习简介](#1迁移学习简介)
 * [迁移学习的综述文章](#2迁移学习的综述文章)
-* [Matlab和Python代码](#3代码)
+* [Matlab和Python代码](https://github.com/jindongwang/transferlearning/tree/master/code)
 * [迁移学习代表性研究学者](#4迁移学习代表性研究学者)
 * [迁移学习相关的硕博士论文](#5迁移学习相关的硕博士论文)
 * [Domain adaptation相关的文章](https://github.com/jindongwang/transferlearning/blob/master/doc/domain_adaptation.md)
@@ -49,25 +49,7 @@ _ _ _
 
 ### 3.代码
 
-#### - [香港科技大学总结的一些迁移学习方法工具包](http://www.cse.ust.hk/TL/)
-
-#### - Matlab：[domain adaptation toolbox](https://github.com/viggin/domain-adaptation-toolbox)
-
-Code for [JDA:Joint distribution adaptation](https://github.com/jindongwang/transferlearning/blob/master/code/matlab/MyJDA.m)
-
-
-Code for [TCA:Transfer component analysis](https://github.com/jindongwang/transferlearning/tree/master/code/matlab/MyTCA)
-
-Code for [GFK:Geodesic flow kernel](https://github.com/jindongwang/transferlearning/blob/master/code/matlab/MyGFK.m)
-
-[这个来自网络]这是一份用matlab写的domain adaptation工具包，内包含了以下的9种迁移学习方法。
-
-![Matlab](https://raw.githubusercontent.com/jindongwang/transferlearning/master/png/matlab.png)
-
-
-#### - Python：[我写的工具包](https://github.com/jindongwang/transferlearning/tree/master/code/python)
-
-**我写的python版本工具包，目前刚完成了transfer component analysis （TCA）方法。也请有意愿的同学来一起加入这个项目。**
+请见[这里](https://github.com/jindongwang/transferlearning/tree/master/code)
 
 _ _ _
 
