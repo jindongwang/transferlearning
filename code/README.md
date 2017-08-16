@@ -5,6 +5,9 @@ Transfer learning toolbox; some useful transfer learning and domain adaptation c
 Availiable codes for:
 
 - TCA (Transfer Component Anaysis)
-	Both Matlab and Python versions
+	- [Matlab](https://github.com/jindongwang/transferlearning/blob/master/code/MyTCA.m)
+	- [Python](https://github.com/jindongwang/transferlearning/tree/master/code/TCA_python)
 - GFK (Geodesic Flow Kernel)
+	- [Matlab](https://github.com/jindongwang/transferlearning/blob/master/code/MyGFK.m)
 - JDA (Joint Distribution Adaptation)
+	- [Matlab](https://github.com/jindongwang/transferlearning/blob/master/code/MyJDA.m)
