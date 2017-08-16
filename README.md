@@ -159,7 +159,12 @@ _ _ _
 
 ### Contributing
 
-如果你对本项目感兴趣，非常欢迎你加入！如果需要有超链接指向文件，请不要直接上传到项目中，否则会造成git版本库过大；正确的做法是先把它的超链接（如paper会有自己的主页）放上来，然后我会根据链接把文章放到云端硬盘上。如果你有别的需要分享的大文件，可以在http://mega.nz 创建一个账号分享出来。
+如果你对本项目感兴趣，非常欢迎你加入！
+
+- 正常参与：请直接fork、pull都可以
+- 如果要上传文件：请***不要***直接上传到项目中，否则会造成git版本库过大。正确的方法是上传它的**超链接**。如果你要上传的文件本身就在网络中（如paper都会有链接），直接上传即可；如果是自己想分享的一些文件、数据等，鉴于国内网盘的情况，请按照如下方式上传：
+	- 首先在[UPLOAD](https://my.pcloud.com/#page=puplink&code=4e9Z0Vwpmfzvx0y2OqTTTMzkrRUz8q9V) 直接上传（**不**需要注册账号）
+	- 上传成功后，在[DOWNLOAD](https://my.pcloud.com/publink/show?code=kZWtboZbDDVguCHGV49QkmlLliNPJRMHrFX)里找到你刚上传的文件，共享链接即可。
 
 Welcome!
 
