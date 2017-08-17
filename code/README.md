@@ -2,18 +2,28 @@
 
 Transfer learning toolbox; some useful transfer learning and domain adaptation codes
 
+- - -
+
 ### Availiable codes for:
 
-- TCA (Transfer Component Anaysis)[1]
+- **TCA** (Transfer Component Anaysis)[1]
 	- [Matlab](https://github.com/jindongwang/transferlearning/blob/master/code/MyTCA.m) | [Python](https://github.com/jindongwang/transferlearning/tree/master/code/TCA_python)
-- GFK (Geodesic Flow Kernel)[2]
+- **GFK** (Geodesic Flow Kernel)[2]
 	- [Matlab](https://github.com/jindongwang/transferlearning/blob/master/code/MyGFK.m)
-- JDA (Joint Distribution Adaptation)[3]
+- **JDA** (Joint Distribution Adaptation)[3]
 	- [Matlab](https://github.com/jindongwang/transferlearning/blob/master/code/MyJDA.m)
-- TJM (Transfer Joint Matching)[4]
+- **TJM** (Transfer Joint Matching)[4]
 	- [Matlab](https://github.com/jindongwang/transferlearning/blob/master/code/MyTJM.m)
+- **CORAL** (CORrelation ALignment) [5]
+	- [Matlab](https://github.com/jindongwang/transferlearning/blob/master/code/MyCORAL.m)
+- **JGSA** (Joint Geometrical and Statistical Alignment) [6]
+	- [Matlab](https://github.com/jindongwang/transferlearning/blob/master/code/MyJGSA.m)
+
+- - -
 
 #### [Code from HKUST](http://www.cse.ust.hk/TL/) [a bit old]
+
+- - -
 
 #### References
 
@@ -24,3 +34,7 @@ Transfer learning toolbox; some useful transfer learning and domain adaptation c
 [3] Long M, Wang J, Ding G, et al. Transfer feature learning with joint distribution adaptation[C]//Proceedings of the IEEE international conference on computer vision. 2013: 2200-2207.
 
 [4] Long M, Wang J, Ding G, et al. Transfer joint matching for unsupervised domain adaptation[C]//Proceedings of the IEEE conference on computer vision and pattern recognition. 2014: 1410-1417.
+
+[5] Sun B, Feng J, Saenko K. Return of Frustratingly Easy Domain Adaptation[C]//AAAI. 2016, 6(7): 8.
+
+[6] Zhang J, Li W, Ogunbona P. Joint Geometrical and Statistical Alignment for Visual Domain Adaptation[C]//CVPR 2017.
