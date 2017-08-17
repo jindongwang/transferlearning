@@ -1,6 +1,9 @@
 # code_transfer_learning
 
-Transfer learning toolbox; some useful transfer learning and domain adaptation codes
+*Transfer learning toolbox; some useful transfer learning and domain adaptation codes*
+
+> It is a waste of time looking for the codes from others. So I **clean** and **reimplement** them here in a way that you can **easily understand** and use. The following are some of the popular transfer learning {domain adaptation) methods in recent years, and I know most of them will be chosen to compare with your own method.
+> It is still ++on the go++. You are welcome to contribute and suggest other methods.
 
 - - -
 
