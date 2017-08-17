@@ -2,12 +2,11 @@
 
 关于机器学习和行为识别的资料，请见我的下面两个仓库：
 
-- [行为识别](https://github.com/jindongwang/activityrecognition)
-- [机器学习](https://github.com/jindongwang/MachineLearning)
+- [行为识别](https://github.com/jindongwang/activityrecognition)｜[机器学习](https://github.com/jindongwang/MachineLearning)
 
 _ _ _
 
-目录
+#### 目录 Table of contents
 
 * [迁移学习简介](#1迁移学习简介)
 * [迁移学习的综述文章](#2迁移学习的综述文章)
@@ -37,6 +36,8 @@ _ _ _
 - 其中，最具代表性的综述是[A survey on transfer learning](https://mega.nz/#!hapCXZjQ!p9PpMK0VYWy6Li7QBZ3eVDgaHYUc1MewRFMcjfXAA7s)，对迁移学习进行了比较权威的定义。
 
 - 最新的综述是[Cross-dataset recognition: a survey](https://arxiv.org/abs/1705.04396)，目前刚发在arXiv上，作者是澳大利亚卧龙岗大学的在读博士生，迁移学习领域做的不错。
+
+- 来自香港科技大学Qiang Yang老师团队的最新综述[A survey on multi-task learning](https://arxiv.org/abs/1707.08114)
 
 - 还有一篇较新的综述是[A survey of transfer learning](https://mega.nz/#!RfwwiBYS!7mM4juZY-oslxNtG_mv1XhV4zJknzpDM4QkD14S91_s)，写于2015-2016年。其中交代了一些比较经典的如同构、异构等学习方法代表性文章。包括了很多方法介绍，值得一看。
 
