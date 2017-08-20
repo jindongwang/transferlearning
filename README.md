@@ -8,15 +8,15 @@ _ _ _
 
 #### 目录 Table of contents
 
-* [迁移学习简介](#1迁移学习简介)
-* [迁移学习的综述文章](#2迁移学习的综述文章)
-* [Matlab和Python代码](https://github.com/jindongwang/transferlearning/tree/master/code)
-* [迁移学习代表性研究学者](#4迁移学习代表性研究学者)
-* [迁移学习相关的硕博士论文](#5迁移学习相关的硕博士论文)
-* [Domain adaptation相关的文章](https://github.com/jindongwang/transferlearning/blob/master/doc/domain_adaptation.md)
-* [代表方法及文章解读](#代表性的方法及文章)
-* [迁移学习用于行为识别的文章总结](https://github.com/jindongwang/activityrecognition/blob/master/notes/%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0%E7%94%A8%E4%BA%8E%E8%A1%8C%E4%B8%BA%E8%AF%86%E5%88%AB.md)
-* [常用数据集](https://github.com/jindongwang/transferlearning/blob/master/doc/dataset.md)
+* [迁移学习简介 Introduction to transfer learning](#1迁移学习简介)
+* [迁移学习的综述文章 Survey papers for transfer learning](#2迁移学习的综述文章)
+* [Matlab和Python代码 Available codes](https://github.com/jindongwang/transferlearning/tree/master/code)
+* [迁移学习代表性研究学者 Scholars](#4迁移学习代表性研究学者)
+* [迁移学习相关的硕博士论文 Thesis](#5迁移学习相关的硕博士论文)
+* [Domain adaptation相关的文章 Domain adaptation articles](https://github.com/jindongwang/transferlearning/blob/master/doc/domain_adaptation.md)
+* [代表方法及文章解读 Popular methods and my explanations](#代表性的方法及文章)
+* [迁移学习用于行为识别的文章总结 Transfer learningfor activity recognition](https://github.com/jindongwang/activityrecognition/blob/master/notes/%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0%E7%94%A8%E4%BA%8E%E8%A1%8C%E4%B8%BA%E8%AF%86%E5%88%AB.md)
+* [常用数据集 Datasets](https://github.com/jindongwang/transferlearning/blob/master/doc/dataset.md)
 * [Contributing](#contributing)
 
 - - -
@@ -131,10 +131,6 @@ _ _ _
 迁移学习、transfer learning、domain adaptation相关的我看过的一些论文:
 
 - 深度迁移学习
-- 迁移学习用于行为识别
-- 多源迁移学习
-
-以及我已经写好的一些总结
 
 
 - - -
