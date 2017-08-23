@@ -21,6 +21,8 @@
 	- [Matlab](https://github.com/jindongwang/transferlearning/blob/master/code/MyCORAL.m)
 - **JGSA** (Joint Geometrical and Statistical Alignment) [6]
 	- [Matlab](https://github.com/jindongwang/transferlearning/blob/master/code/MyJGSA.m)
+- **ARTL** (Adaptation Regularization) [7]
+	- [Matlab](https://github.com/jindongwang/transferlearning/tree/master/code/MyARTL)
 
 - - -
 
@@ -45,3 +47,5 @@ Testing **dataset** can be found [here](https://github.com/jindongwang/transferl
 [5] Sun B, Feng J, Saenko K. Return of Frustratingly Easy Domain Adaptation[C]//AAAI. 2016, 6(7): 8.
 
 [6] Zhang J, Li W, Ogunbona P. Joint Geometrical and Statistical Alignment for Visual Domain Adaptation[C]//CVPR 2017.
+
+[7] Long M, Wang J, Ding G, et al. Adaptation regularization: A general framework for transfer learning[J]. IEEE Transactions on Knowledge and Data Engineering, 2014, 26(5): 1076-1089.
