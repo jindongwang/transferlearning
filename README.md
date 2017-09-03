@@ -8,7 +8,7 @@ _ _ _
 
 #### 目录 Table of contents
 
-* [最新 Latest](#0Latest)
+* [最新 Latest](#0latest)
 * [迁移学习简介 Introduction to transfer learning](#1迁移学习简介)
 * [迁移学习的综述文章 Survey papers for transfer learning](#2迁移学习的综述文章)
 * [Matlab和Python代码 Available codes](https://github.com/jindongwang/transferlearning/tree/master/code)
