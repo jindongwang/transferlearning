@@ -1,13 +1,14 @@
 ## 关于迁移学习的一些资料
 
-关于机器学习和行为识别的资料，请见我的下面两个仓库：
+> 关于机器学习和行为识别的资料，请见我的下面两个仓库：
 
-- [行为识别](https://github.com/jindongwang/activityrecognition)｜[机器学习](https://github.com/jindongwang/MachineLearning)
+> - [行为识别](https://github.com/jindongwang/activityrecognition)｜[机器学习](https://github.com/jindongwang/MachineLearning)
 
 _ _ _
 
 #### 目录 Table of contents
 
+* [最新 Latest](#0Latest)
 * [迁移学习简介 Introduction to transfer learning](#1迁移学习简介)
 * [迁移学习的综述文章 Survey papers for transfer learning](#2迁移学习的综述文章)
 * [Matlab和Python代码 Available codes](https://github.com/jindongwang/transferlearning/tree/master/code)
@@ -20,6 +21,15 @@ _ _ _
 * [Contributing](#contributing)
 
 - - -
+
+### 0.Latest
+
+- 20170812 香港科技大学的最新文章：[Learning To Transfer](https://arxiv.org/abs/1708.05629)，将迁移学习和增量学习的思想结合起来，为迁移学习的发展开辟了一个崭新的研究方向。[我的解读](https://zhuanlan.zhihu.com/p/28888554)
+- 2017-ICML 清华大学龙明盛最新发在ICML 2017的深度迁移学习文章：[Deep Transfer Learning with Joint Adaptation Networks](Long M, Wang J, Jordan M I. Deep transfer learning with joint adaptation networks[J]. arXiv preprint arXiv:1605.06636, 2016.)，在深度网络中最小化联合概率，还支持adversarial。 [代码](https://github.com/thuml/transfer-caffe)
+
+
+- - -
+
 
 ### 1.迁移学习简介
 
@@ -61,7 +71,7 @@ _ _ _
 - [Wenyuan Dai](https://scholar.google.com.sg/citations?user=AGR9pP0AAAAJ&hl=zh-CN)：中文名戴文渊，上海交通大学硕士，现任第四范式人工智能创业公司CEO。迁移学习领域著名的牛人，每篇论文引用量巨大，在顶级会议上发表多篇高水平文章。
 - [Fuzhen Zhuang](http://www.intsci.ac.cn/users/zhuangfuzhen/)：中文名庄福振，中科院计算所博士，现任中科院计算所副研究员。[[Google scholar](https://scholar.google.com/citations?user=klJBYrAAAAAJ&hl=zh-CN&oi=ao)]
 - [Mingsheng Long](http://ise.thss.tsinghua.edu.cn/~mlong/)：中文名龙明盛，清华大学博士，现任清华大学助理研究员。[[Google scholar](https://scholar.google.com/citations?view_op=search_authors&mauthors=mingsheng+long&hl=zh-CN&oi=ao)]
-- [Lixin Duan](http://www.lxduan.info/)：中文名段立新，新加坡南阳理工大学博士，现就职于亚马逊。
+- [Lixin Duan](http://www.lxduan.info/)：中文名段立新，新加坡南洋理工大学博士，现就职于亚马逊。
 _ _ _
 
 ### 5.迁移学习相关的硕博士论文
