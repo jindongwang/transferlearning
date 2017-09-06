@@ -20,13 +20,15 @@
 - **TJM** (Transfer Joint Matching) [4]
 	- [Matlab](https://github.com/jindongwang/transferlearning/blob/master/code/MyTJM.m)
 - **CORAL** (CORrelation ALignment) [5]
-	- [Matlab](https://github.com/jindongwang/transferlearning/blob/master/code/MyCORAL.m)
+	- [Matlab](https://github.com/jindongwang/transferlearning/blob/master/code/MyCORAL.m) | [Github](https://github.com/VisionLearningGroup/CORAL)
 - **JGSA** (Joint Geometrical and Statistical Alignment) [6]
 	- [Matlab](https://github.com/jindongwang/transferlearning/blob/master/code/MyJGSA.m)
 - **ARTL** (Adaptation Regularization) [7]
 	- [Matlab](https://github.com/jindongwang/transferlearning/tree/master/code/MyARTL)
 - **TrAdaBoost** [8]
 	- [Python](https://github.com/chenchiwei/tradaboost)
+- **SA** (Subspace Alignment) [11]
+	- [Matlab](http://users.cecs.anu.edu.au/~basura/DA_SA/)
 
 #### Deep learning
 
@@ -64,3 +66,5 @@ Testing **dataset** can be found [here](https://github.com/jindongwang/transferl
 [9] Long M, Cao Y, Wang J, et al. Learning transferable features with deep adaptation networks[C]//International Conference on Machine Learning. 2015: 97-105.
 
 [10] Long M, Wang J, Jordan M I. Deep transfer learning with joint adaptation networks[J]. arXiv preprint arXiv:1605.06636, 2016.
+
+[11] Fernando B, Habrard A, Sebban M, et al. Unsupervised visual domain adaptation using subspace alignment[C]//Proceedings of the IEEE international conference on computer vision. 2013: 2960-2967.
