@@ -66,9 +66,9 @@ This dataset was first introduced by Gong et al. [1]. I got the SURF features fr
 
 #### Download
 
-[Download Office+Caltech SURF dataset](https://mega.nz/#F!AaJTGIzD!XHM2XMsSd9V-ljVi0EtvFg)
+[Download Office+Caltech SURF dataset](https://my.pcloud.com/publink/show?code=kZFrXk7ZifluxAGy3gjdstJBIcJv3fORIkHk)
 
-[Download Office+Caltech DeCAF dataset](https://mega.nz/#F!QDxBBC4J!LizxWbE1_JEwPSrA2mrrrw)
+[Download Office+Caltech DeCAF dataset](https://my.pcloud.com/publink/show?code=kZprXk7Z1OmGWUuYioSJbWx3jWeCAhom5FPy)
 
 
 - - -
@@ -80,7 +80,7 @@ This dataset was first introduced by Gong et al. [1]. I got the SURF features fr
 
 It is also popular. It contains randomly selected samples from MNIST and USPS. Then the source and target domains are constructed using each other.
 
-[Download MNIST+USPS SURF dataset](https://mega.nz/#F!oHJ2UCoK!r62nRoZ0gH8NXIcgmyWReA)
+[Download MNIST+USPS SURF dataset](https://my.pcloud.com/publink/show?code=kZHrXk7ZdIfYsBuRVtkPoAqvxL87qhgNw10V)
 
 
 - - -
@@ -92,7 +92,7 @@ It is also popular. It contains randomly selected samples from MNIST and USPS. T
 
 It contains 20 classes. There are two datasets extracted: COIL1 and COIL2.
 
-[Download COIL20 SURF dataset](https://mega.nz/#F!xWxyTDaZ!MWamSH17Uu065XbDNYymkQ)
+[Download COIL20 SURF dataset](https://my.pcloud.com/publink/show?code=kZzrXk7ZQw37wqJsNSJVzN1DzH0FH7e3tOYV)
 
 
 - - -
@@ -104,7 +104,7 @@ It contains 20 classes. There are two datasets extracted: COIL1 and COIL2.
 
 It is a relatively large dataset with many classes.
 
-[Download PIE SURF dataset](https://mega.nz/#F!lPgmkZQB!z2QuBEmCzj2XR5AAQaIj7Q)
+[Download PIE SURF dataset](https://my.pcloud.com/publink/show?code=kZRrXk7ZwvHA9LPSyqSz7WSlECK5A0hNMR6X)
 
 
 - - -
@@ -117,7 +117,7 @@ It is a relatively large dataset with many classes.
 
 It contains four domains: V(VOC2007), L(LabelMe), S(SUN09) and C(Caltech). There are 5 classes: 'bird', 'car', 'chair', 'dog', 'person'.
 
-[Download the VLSC DeCAF dataset](https://mega.nz/#F!gTJxGTJK!w9UJjZVq3ClqGj4mBDmT4A)
+[Download the VLSC DeCAF dataset](https://my.pcloud.com/publink/show?code=kZ8rXk7ZORx8jhQ6CzyItAp2qQHmMbFiyRW7)
 
 
 - - -
@@ -128,7 +128,7 @@ It contains four domains: V(VOC2007), L(LabelMe), S(SUN09) and C(Caltech). There
 
 It is selected from imagenet challange.
 
-[Download the IMAGENET DeCAF dataset](https://mega.nz/#!IeZ0yIQZ!spaZ0L3lbpsTykRJf5CNx6zk4kUk-p5MlqPAlGkPbu8)
+[Download the IMAGENET DeCAF dataset](https://my.pcloud.com/publink/show?code=kZ8rXk7ZORx8jhQ6CzyItAp2qQHmMbFiyRW7)
 
 
 - - -
@@ -136,7 +136,7 @@ It is selected from imagenet challange.
 
 ### Animals-with-Attributes
 
-[Download the SURF/SIFT/DeCAF features](https://mega.nz/#F!Na5jyLiC!LT29_gyoPsd_eEoym3CgMg)
+[Download the SURF/SIFT/DeCAF features](https://my.pcloud.com/publink/show?code=kZbrXk7ZYAgHIKa0Qa5W1Gi9VXbnMhzIo9GX)
 
 
 - - -
