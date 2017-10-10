@@ -33,8 +33,9 @@
 #### Deep learning
 
 - **DAN/JAN** (Deep Adaptation Network/Joint Adaptation Network) [9,10] 
-	- [Caffe](https://github.com/thuml/transfer-caffe)
-
+	- [Caffe](https://github.com/thuml/Xlearn)
+- **RTN** (Unsupervised Domain Adaptation with Residual Transfer Networks) [12]
+	- [Caffe](https://github.com/thuml/Xlearn)
 - - -
 
 #### [Code from HKUST](http://www.cse.ust.hk/TL/) [a bit old]
@@ -68,3 +69,5 @@ Testing **dataset** can be found [here](https://github.com/jindongwang/transferl
 [10] Long M, Wang J, Jordan M I. Deep transfer learning with joint adaptation networks[J]//ICML 2017.
 
 [11] Fernando B, Habrard A, Sebban M, et al. Unsupervised visual domain adaptation using subspace alignment[C]//ICCV. 2013: 2960-2967.
+
+[12] Long M, Zhu H, Wang J, et al. Unsupervised domain adaptation with residual transfer networks[C]//NIPS. 2016.
