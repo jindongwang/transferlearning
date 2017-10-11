@@ -36,7 +36,8 @@ _ _ _
 [文档](https://github.com/jindongwang/transferlearning/blob/master/doc/%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0%E7%AE%80%E4%BB%8B.md)   ||   [PPT(英文)](http://jd92.wang/assets/files/l03_transferlearning.pdf)   ||  [PPT(中文)](http://jd92.wang/assets/files/l08_tl_zh.pdf)
 
 台湾大学李宏毅的视频讲解，非常不错：https://www.youtube.com/watch?v=qD6iD4TFsdQ
-
+ 
+什么是[负迁移(negative transfer)](https://www.zhihu.com/question/66492194/answer/242870418)？
 - - -
 
 ### 2.迁移学习的综述文章
