@@ -52,20 +52,20 @@ _ _ _
 
 ### 2.迁移学习的综述文章
 
-[一些迁移学习的综述文章](https://mega.nz/#F!sb4ChYoa!37LU6HGJ6LhQC1OYYBglIw)，中文英文都有。
+[一些迁移学习的综述文章](https://pan.baidu.com/s/1c19TTfU)，中文英文都有。
 
-- 其中，最具代表性的综述是[A survey on transfer learning](https://mega.nz/#!hapCXZjQ!p9PpMK0VYWy6Li7QBZ3eVDgaHYUc1MewRFMcjfXAA7s)，对迁移学习进行了比较权威的定义。
+- 其中，最具代表性的综述是[A survey on transfer learning](https://pan.baidu.com/s/1i5AFO7z)，对迁移学习进行了比较权威的定义。
 
 - 最新的综述是[Cross-dataset recognition: a survey](https://arxiv.org/abs/1705.04396)，目前刚发在arXiv上，作者是澳大利亚卧龙岗大学的在读博士生，迁移学习领域做的不错。
 
 - 来自香港科技大学Qiang Yang老师团队的最新综述[A survey on multi-task learning](https://arxiv.org/abs/1707.08114)
 
-- 还有一篇较新的综述是[A survey of transfer learning](https://mega.nz/#!RfwwiBYS!7mM4juZY-oslxNtG_mv1XhV4zJknzpDM4QkD14S91_s)，写于2015-2016年。其中交代了一些比较经典的如同构、异构等学习方法代表性文章。包括了很多方法介绍，值得一看。
+- 还有一篇较新的综述是[A survey of transfer learning](https://pan.baidu.com/s/1gfgXLXT)，写于2015-2016年。其中交代了一些比较经典的如同构、异构等学习方法代表性文章。包括了很多方法介绍，值得一看。
 
-- 此外，还包括[迁移学习应用于行为识别](https://mega.nz/#!RfwwiBYS!7mM4juZY-oslxNtG_mv1XhV4zJknzpDM4QkD14S91_s)、[迁移学习与增强学习](https://mega.nz/#!RDpiRDCL!LSMgyjV69YEiFE2D0quKkrr_t7bEOYtsnx8BkTxniKo)结合等。
-- 关于[多个源域进行迁移的综述](https://mega.nz/#!UPRTBIAS!HcjUwI_yGe3IrWCFfBxHF9nd8CFt0GTzjIyMMxdUuv0)、[视觉domain adaptation综述](https://mega.nz/#!hWQ3HLhJ!GTCIUTVDcmnn3f7-Ulhjs_MxGv6xnFyp1nayemt9Nis)也十分有用。
-- 中文方面，[迁移学习研究进展](https://mega.nz/#!xPBB2CrZ!QXfJAbmM3DgURIIqB22kgzTARxXIr3TThILgGWXOmPE)是一篇不错的中文综述。
-- 关于迁移学习的理论方面，有三篇连贯式的理论分析文章连续发表在NIPS和Machine Learning上：[理论分析](https://mega.nz/#F!ULoGFYDK!O3TQRZwrNeqTncNMIfXNTg)
+- 此外，还包括[迁移学习应用于行为识别](https://pan.baidu.com/s/1kVABOYr)、[迁移学习与增强学习](https://pan.baidu.com/s/1slfr0w1)结合等。
+- 关于[多个源域进行迁移的综述](https://pan.baidu.com/s/1eSGREF4)、[视觉domain adaptation综述](https://pan.baidu.com/s/1o8BR7Vc)也十分有用。
+- 中文方面，[迁移学习研究进展](https://pan.baidu.com/s/1bpautob)是一篇不错的中文综述。
+- 关于迁移学习的**理论**方面，有三篇连贯式的理论分析文章连续发表在NIPS和Machine Learning上：[理论分析](https://pan.baidu.com/s/1jIotlTc)
 
 _ _ _
 
@@ -89,18 +89,15 @@ _ _ _
 
 硕博士论文可以让我们很快地对迁移学习的相关领域做一些了解，同时，也能很快地了解概括相关研究者的工作。其中，比较有名的有
 
-- [Sinno Jialin Pan](https://mega.nz/#!xCwBALCb!exNKlFh6Mi_bvzmclBd6rWOeIwqUuwR7thYIsFK1J5U)
-- [Boqing Gong](https://pdfs.semanticscholar.org/71b0/38958df0b7855fc7b8b8e7dcde8537a7c1ad.pdf)：提出GFK的
-- [Hao Hu](https://mega.nz/#!IaQzlIAY!HpvK6YYv37EngofqZDgdRpMLErSPAmgz8Ln9hWPAJSw)
-- [Wenchen Zheng](https://mega.nz/#!QDJFUA4Z!3lBYHH1YzmWI9nTecvaSsR65aWSUmTiUN6Wmjk8y-vc)
+- 杨强的学生Sinno Jialin Pan的[Feature-based Transfer Learning and Its Applications](https://pan.baidu.com/s/1bUqMfW)
+- 南加州大学的Boqing Gong的[Kernel Methods for Unsupervised Domain Adaptation](https://pan.baidu.com/s/1bpbawv9)
+- 杨强的学生Hao Hu的[Learning based Activity Recognition](https://pan.baidu.com/s/1bp2K9HX)
+- 杨强的学生Wencheng Zheng的[Learning with Limited Data in Sensor-based Human Behavior Prediction](https://pan.baidu.com/s/1o8MbbBk)
+- 清华大学龙明盛的[迁移学习问题与方法研究](https://pan.baidu.com/s/1pLiJzIV)
+- 上海交通大学戴文渊的[基于实例和特征的迁移学习算法研究](https://pan.baidu.com/s/1i4Vyygd)
+- 中科院计算所赵中堂的[自适应行为识别中的迁移学习方法研究](https://pan.baidu.com/s/1kVqYXnh)
 
-等的博士论文都是关于迁移学习的。中文方面，
-
-- 清华大学[龙明盛](https://mega.nz/#!kDBTjDQZ!VZMu4f57N0GBKVcaJs1WNxNkA1JOmp4NcYiVDoDqIJM)
-- 上海交通大学的[戴文渊](https://mega.nz/#!UehghTCK!9KPD4FwWpHoZmYCmweF0y67Sft7KzTi8F_ZIUA15-QE)
-- 中科院计算所[赵中堂](https://mega.nz/#!cKowSJSD!NLPQ01oSBYXughH9F1toFqdFoYY7JsPQMZlIYtn2-LA)
-
-其他的文章，请见[完整版](https://mega.nz/#F!YHIFxJAL!Ts413E2dbEc_2az4dhb_Jg)。
+其他的文章，请见[完整版](https://pan.baidu.com/s/1mizKzna)。
 
 - - -
 
@@ -135,6 +132,10 @@ Domain adaptation是迁移学习领域比较热的研究方向，在这里整理
 	- Deep Transfer Learning with Joint Adaptation Networks
 	- 发表在ICML 2017上，作者也是龙明盛
 	- 延续了之前的DAN工作，这次考虑联合适配
+ 
+- [学习迁移](https://arxiv.org/abs/1708.05629)(Learning to Transfer, L2T)
+	- 迁移学习领域的新方向：与在线、增量学习结合
+	- [我的解读](https://zhuanlan.zhihu.com/p/28888554)
 _ _ _
 
 ### [记与迁移学习大牛杨强教授的第二次会面](https://zhuanlan.zhihu.com/p/26260083)
@@ -146,15 +147,6 @@ _ _ _
 我写的迁移学习应用于行为识别领域的文章小总结。目前不知道为什么markdown表格的格式错乱，未来会修正。
 
 _ _ _
-
-### 未来计划：
-
-迁移学习、transfer learning、domain adaptation相关的我看过的一些论文:
-
-- 深度迁移学习
-
-
-- - -
 
 
 ### Contributing
