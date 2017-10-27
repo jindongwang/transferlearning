@@ -68,9 +68,9 @@ This dataset was first introduced by Gong et al. [1]. I got the SURF features fr
 
 #### Download
 
-Download Office+Caltech SURF dataset [[pCloud](https://my.pcloud.com/publink/show?code=kZFrXk7ZifluxAGy3gjdstJBIcJv3fORIkHk)]
+Download Office+Caltech SURF dataset [[pCloud](https://my.pcloud.com/publink/show?code=kZFrXk7ZifluxAGy3gjdstJBIcJv3fORIkHk)|[Baiduyun](https://pan.baidu.com/s/1bp4g7Av)]
 
-Download Office+Caltech DeCAF dataset [[pCloud](https://my.pcloud.com/publink/show?code=kZprXk7Z1OmGWUuYioSJbWx3jWeCAhom5FPy)]
+Download Office+Caltech DeCAF dataset [[pCloud](https://my.pcloud.com/publink/show?code=kZprXk7Z1OmGWUuYioSJbWx3jWeCAhom5FPy)|[Baiduyun](https://pan.baidu.com/s/1nvn7eUd)]
 
 
 - - -
@@ -82,7 +82,7 @@ Download Office+Caltech DeCAF dataset [[pCloud](https://my.pcloud.com/publink/sh
 
 It is also popular. It contains randomly selected samples from MNIST and USPS. Then the source and target domains are constructed using each other.
 
-Download MNIST+USPS SURF dataset [[pCloud](https://my.pcloud.com/publink/show?code=kZHrXk7ZdIfYsBuRVtkPoAqvxL87qhgNw10V)]
+Download MNIST+USPS SURF dataset [[pCloud](https://my.pcloud.com/publink/show?code=kZHrXk7ZdIfYsBuRVtkPoAqvxL87qhgNw10V)|[Baiduyun](https://pan.baidu.com/s/1c8mwdo)]
 
 
 - - -
@@ -94,7 +94,7 @@ Download MNIST+USPS SURF dataset [[pCloud](https://my.pcloud.com/publink/show?co
 
 It contains 20 classes. There are two datasets extracted: COIL1 and COIL2.
 
-Download COIL20 SURF dataset [[pCloud](https://my.pcloud.com/publink/show?code=kZzrXk7ZQw37wqJsNSJVzN1DzH0FH7e3tOYV)]
+Download COIL20 SURF dataset [[pCloud](https://my.pcloud.com/publink/show?code=kZzrXk7ZQw37wqJsNSJVzN1DzH0FH7e3tOYV)|[Baiduyun](https://pan.baidu.com/s/1c8mwdo)]
 
 
 - - -
@@ -106,7 +106,7 @@ Download COIL20 SURF dataset [[pCloud](https://my.pcloud.com/publink/show?code=k
 
 It is a relatively large dataset with many classes.
 
-Download PIE SURF dataset [[pCloud](https://my.pcloud.com/publink/show?code=kZRrXk7ZwvHA9LPSyqSz7WSlECK5A0hNMR6X)]
+Download PIE SURF dataset [[pCloud](https://my.pcloud.com/publink/show?code=kZRrXk7ZwvHA9LPSyqSz7WSlECK5A0hNMR6X)|[Baiduyun](https://pan.baidu.com/s/1o8KFgtO)]
 
 
 - - -
@@ -119,7 +119,7 @@ Download PIE SURF dataset [[pCloud](https://my.pcloud.com/publink/show?code=kZRr
 
 It contains four domains: V(VOC2007), L(LabelMe), S(SUN09) and C(Caltech). There are 5 classes: 'bird', 'car', 'chair', 'dog', 'person'.
 
-Download the VLSC DeCAF dataset [[pCloud](https://my.pcloud.com/publink/show?code=kZ8rXk7ZORx8jhQ6CzyItAp2qQHmMbFiyRW7)]
+Download the VLSC DeCAF dataset [[pCloud](https://my.pcloud.com/publink/show?code=kZ8rXk7ZORx8jhQ6CzyItAp2qQHmMbFiyRW7)|[Baiduyun](https://pan.baidu.com/s/1nuNiJ0l)]
 
 
 - - -
@@ -130,7 +130,7 @@ Download the VLSC DeCAF dataset [[pCloud](https://my.pcloud.com/publink/show?cod
 
 It is selected from imagenet challange.
 
-Download the IMAGENET DeCAF dataset [[pCloud](https://my.pcloud.com/publink/show?code=kZ8rXk7ZORx8jhQ6CzyItAp2qQHmMbFiyRW7)]
+Download the IMAGENET DeCAF dataset [[pCloud](https://my.pcloud.com/publink/show?code=kZ8rXk7ZORx8jhQ6CzyItAp2qQHmMbFiyRW7)|[Baiduyun](https://pan.baidu.com/s/1nuNiJ0l)]
 
 
 - - -
@@ -138,7 +138,7 @@ Download the IMAGENET DeCAF dataset [[pCloud](https://my.pcloud.com/publink/show
 
 ### Animals-with-Attributes
 
-Download the SURF/SIFT/DeCAF features [[pCloud](https://my.pcloud.com/publink/show?code=kZbrXk7ZYAgHIKa0Qa5W1Gi9VXbnMhzIo9GX)]
+Download the SURF/SIFT/DeCAF features [[pCloud](https://my.pcloud.com/publink/show?code=kZbrXk7ZYAgHIKa0Qa5W1Gi9VXbnMhzIo9GX)|[Baiduyun](https://pan.baidu.com/s/1mi7RYQW)]
 
 
 - - -
