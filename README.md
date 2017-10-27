@@ -45,7 +45,6 @@ _ _ _
 [文档](https://github.com/jindongwang/transferlearning/blob/master/doc/%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0%E7%AE%80%E4%BB%8B.md)   ||   [PPT(英文)](http://jd92.wang/assets/files/l03_transferlearning.pdf)   ||  [PPT(中文)](http://jd92.wang/assets/files/l08_tl_zh.pdf)
 
 台湾大学李宏毅的视频讲解，非常不错：https://www.youtube.com/watch?v=qD6iD4TFsdQ
- 
 
 什么是[负迁移(negative transfer)](https://www.zhihu.com/question/66492194/answer/242870418)？
 - - -
@@ -132,8 +131,7 @@ Domain adaptation是迁移学习领域比较热的研究方向，在这里整理
 	- Deep Transfer Learning with Joint Adaptation Networks
 	- 发表在ICML 2017上，作者也是龙明盛
 	- 延续了之前的DAN工作，这次考虑联合适配
- 
- 
+
 - [学习迁移](https://arxiv.org/abs/1708.05629)(Learning to Transfer, L2T)
 	- 迁移学习领域的新方向：与在线、增量学习结合
 	- [我的解读](https://zhuanlan.zhihu.com/p/28888554)
