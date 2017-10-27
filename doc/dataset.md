@@ -1,5 +1,7 @@
 ## Datasets for domain adaptation and transfer learning
 
+*[I understand the fact that some of the users may fail to download the datasets since the cloud service is overseas, so I tried to make a copy to some Chinese cloud services. Please wait]*
+
 - *How many times have you been* ++struggling to find++ the useful datasets?
 - *How much time have you been wasting to* ++preprocess datasets++?
 - *How burdersome is it to compare with other methods*? Will you re-run their code? or there is no code?
@@ -66,9 +68,9 @@ This dataset was first introduced by Gong et al. [1]. I got the SURF features fr
 
 #### Download
 
-[Download Office+Caltech SURF dataset](https://my.pcloud.com/publink/show?code=kZFrXk7ZifluxAGy3gjdstJBIcJv3fORIkHk)
+Download Office+Caltech SURF dataset [[pCloud](https://my.pcloud.com/publink/show?code=kZFrXk7ZifluxAGy3gjdstJBIcJv3fORIkHk)]
 
-[Download Office+Caltech DeCAF dataset](https://my.pcloud.com/publink/show?code=kZprXk7Z1OmGWUuYioSJbWx3jWeCAhom5FPy)
+Download Office+Caltech DeCAF dataset [[pCloud](https://my.pcloud.com/publink/show?code=kZprXk7Z1OmGWUuYioSJbWx3jWeCAhom5FPy)]
 
 
 - - -
@@ -80,7 +82,7 @@ This dataset was first introduced by Gong et al. [1]. I got the SURF features fr
 
 It is also popular. It contains randomly selected samples from MNIST and USPS. Then the source and target domains are constructed using each other.
 
-[Download MNIST+USPS SURF dataset](https://my.pcloud.com/publink/show?code=kZHrXk7ZdIfYsBuRVtkPoAqvxL87qhgNw10V)
+Download MNIST+USPS SURF dataset [[pCloud](https://my.pcloud.com/publink/show?code=kZHrXk7ZdIfYsBuRVtkPoAqvxL87qhgNw10V)]
 
 
 - - -
@@ -92,7 +94,7 @@ It is also popular. It contains randomly selected samples from MNIST and USPS. T
 
 It contains 20 classes. There are two datasets extracted: COIL1 and COIL2.
 
-[Download COIL20 SURF dataset](https://my.pcloud.com/publink/show?code=kZzrXk7ZQw37wqJsNSJVzN1DzH0FH7e3tOYV)
+Download COIL20 SURF dataset [[pCloud](https://my.pcloud.com/publink/show?code=kZzrXk7ZQw37wqJsNSJVzN1DzH0FH7e3tOYV)]
 
 
 - - -
@@ -104,7 +106,7 @@ It contains 20 classes. There are two datasets extracted: COIL1 and COIL2.
 
 It is a relatively large dataset with many classes.
 
-[Download PIE SURF dataset](https://my.pcloud.com/publink/show?code=kZRrXk7ZwvHA9LPSyqSz7WSlECK5A0hNMR6X)
+Download PIE SURF dataset [[pCloud](https://my.pcloud.com/publink/show?code=kZRrXk7ZwvHA9LPSyqSz7WSlECK5A0hNMR6X)]
 
 
 - - -
@@ -117,7 +119,7 @@ It is a relatively large dataset with many classes.
 
 It contains four domains: V(VOC2007), L(LabelMe), S(SUN09) and C(Caltech). There are 5 classes: 'bird', 'car', 'chair', 'dog', 'person'.
 
-[Download the VLSC DeCAF dataset](https://my.pcloud.com/publink/show?code=kZ8rXk7ZORx8jhQ6CzyItAp2qQHmMbFiyRW7)
+Download the VLSC DeCAF dataset [[pCloud](https://my.pcloud.com/publink/show?code=kZ8rXk7ZORx8jhQ6CzyItAp2qQHmMbFiyRW7)]
 
 
 - - -
@@ -128,7 +130,7 @@ It contains four domains: V(VOC2007), L(LabelMe), S(SUN09) and C(Caltech). There
 
 It is selected from imagenet challange.
 
-[Download the IMAGENET DeCAF dataset](https://my.pcloud.com/publink/show?code=kZ8rXk7ZORx8jhQ6CzyItAp2qQHmMbFiyRW7)
+Download the IMAGENET DeCAF dataset [[pCloud](https://my.pcloud.com/publink/show?code=kZ8rXk7ZORx8jhQ6CzyItAp2qQHmMbFiyRW7)]
 
 
 - - -
@@ -136,7 +138,7 @@ It is selected from imagenet challange.
 
 ### Animals-with-Attributes
 
-[Download the SURF/SIFT/DeCAF features](https://my.pcloud.com/publink/show?code=kZbrXk7ZYAgHIKa0Qa5W1Gi9VXbnMhzIo9GX)
+Download the SURF/SIFT/DeCAF features [[pCloud](https://my.pcloud.com/publink/show?code=kZbrXk7ZYAgHIKa0Qa5W1Gi9VXbnMhzIo9GX)]
 
 
 - - -
