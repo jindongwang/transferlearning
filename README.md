@@ -133,6 +133,7 @@ Domain adaptation是迁移学习领域比较热的研究方向，在这里整理
 	- 发表在ICML 2017上，作者也是龙明盛
 	- 延续了之前的DAN工作，这次考虑联合适配
  
+ 
 - [学习迁移](https://arxiv.org/abs/1708.05629)(Learning to Transfer, L2T)
 	- 迁移学习领域的新方向：与在线、增量学习结合
 	- [我的解读](https://zhuanlan.zhihu.com/p/28888554)
