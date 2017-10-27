@@ -1,7 +1,5 @@
 ## Datasets for domain adaptation and transfer learning
 
-*[I understand the fact that some of the users may fail to download the datasets since the cloud service is overseas, so I tried to make a copy to some Chinese cloud services. Please wait]*
-
 - *How many times have you been* ++struggling to find++ the useful datasets?
 - *How much time have you been wasting to* ++preprocess datasets++?
 - *How burdersome is it to compare with other methods*? Will you re-run their code? or there is no code?
