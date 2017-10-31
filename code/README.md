@@ -7,12 +7,12 @@
 
 - - -
 
-### Availiable codes for:
+## Availiable codes for:
 
 #### Non-deep learning
 
 - **TCA** (Transfer Component Anaysis) [1]
-	- [Matlab](https://github.com/jindongwang/transferlearning/blob/master/code/MyTCA.m) | [Python](https://github.com/jindongwang/transferlearning/tree/master/code/TCA_python)
+	- [Matlab(Recommended!)](https://github.com/jindongwang/transferlearning/blob/master/code/MyTCA.m) | [Python](https://github.com/jindongwang/transferlearning/tree/master/code/TCA_python)
 - **GFK** (Geodesic Flow Kernel) [2]
 	- [Matlab](https://github.com/jindongwang/transferlearning/blob/master/code/MyGFK.m)
 - **JDA** (Joint Distribution Adaptation) [3]
@@ -29,13 +29,20 @@
 	- [Python](https://github.com/chenchiwei/tradaboost)
 - **SA** (Subspace Alignment) [11]
 	- [Matlab](http://users.cecs.anu.edu.au/~basura/DA_SA/)
+- **BDA** (Balanced Distribution Adaptation for Transfer Learning) [15]
+	- [Matlab](https://github.com/jindongwang/transferlearning/tree/master/code/BDA)
 
 #### Deep learning
 
-- **DAN/JAN** (Deep Adaptation Network/Joint Adaptation Network) [9,10] 
+- **DAN/JAN** (Deep Adaptation Network/Joint Adaptation Network) [9,10]
 	- [Caffe](https://github.com/thuml/Xlearn)
 - **RTN** (Unsupervised Domain Adaptation with Residual Transfer Networks) [12]
 	- [Caffe](https://github.com/thuml/Xlearn)
+- **ADDA** (Adversarial Discriminative Domain Adaptation) [13]
+	- [Python(Tensorflow)](https://github.com/erictzeng/adda)
+- Unsupervised Domain Adaptation by Backpropagation [14]
+	- [Python(Tensorflow)](https://github.com/shucunt/domain_adaptation)
+
 - - -
 
 #### [Code from HKUST](http://www.cse.ust.hk/TL/) [a bit old]
@@ -71,3 +78,9 @@ Testing **dataset** can be found [here](https://github.com/jindongwang/transferl
 [11] Fernando B, Habrard A, Sebban M, et al. Unsupervised visual domain adaptation using subspace alignment[C]//ICCV. 2013: 2960-2967.
 
 [12] Long M, Zhu H, Wang J, et al. Unsupervised domain adaptation with residual transfer networks[C]//NIPS. 2016.
+
+[13] Tzeng E, Hoffman J, Saenko K, et al. Adversarial discriminative domain adaptation[J]. arXiv preprint arXiv:1702.05464, 2017.
+
+[14] Ganin Y, Lempitsky V. Unsupervised domain adaptation by backpropagation[C]//International Conference on Machine Learning. 2015: 1180-1189.
+
+[15] Jindong Wang, Yiqiang Chen, Shuji Hao, Wenjie Feng, and Zhiqi Shen. Balanced Distribution Adaptation for Transfer Learning. ICDM 2017.
