@@ -14,10 +14,10 @@ _ _ _
 * [Matlab和Python代码 Available codes](https://github.com/jindongwang/transferlearning/tree/master/code)
 * [迁移学习代表性研究学者 Scholars](#4迁移学习代表性研究学者)
 * [迁移学习相关的硕博士论文 Thesis](#5迁移学习相关的硕博士论文)
-* [Domain adaptation相关的文章 Domain adaptation articles](https://github.com/jindongwang/transferlearning/blob/master/doc/domain_adaptation.md)
-* [代表方法及文章解读 Popular methods and my explanations](#代表性的方法及文章)
+* [代表性文章阅读](#6代表性文章阅读)
 * [迁移学习用于行为识别的文章总结 Transfer learningfor activity recognition](https://github.com/jindongwang/activityrecognition/blob/master/notes/%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0%E7%94%A8%E4%BA%8E%E8%A1%8C%E4%B8%BA%E8%AF%86%E5%88%AB.md)
 * [常用数据集 Datasets](https://github.com/jindongwang/transferlearning/blob/master/doc/dataset.md)
+
 * [Contributing](#contributing)
 
 - - -
@@ -95,14 +95,17 @@ _ _ _
 - 清华大学龙明盛的[迁移学习问题与方法研究](https://pan.baidu.com/s/1pLiJzIV)
 - 上海交通大学戴文渊的[基于实例和特征的迁移学习算法研究](https://pan.baidu.com/s/1i4Vyygd)
 - 中科院计算所赵中堂的[自适应行为识别中的迁移学习方法研究](https://pan.baidu.com/s/1kVqYXnh)
-- Baochen Sun的[Correlation Alignment for Domain Adaptation](http://www.cs.uml.edu/~bsun/papers/baochen_phd_thesis.pdf)
+- Baochen Sun的[Correlation Alignment for Domain Adaptation](http://www.cs.uml.edu/~bsun/papers/baochen_phd_thesis.pdf)
+
 其他的文章，请见[完整版](https://pan.baidu.com/s/1mizKzna)。
 
 - - -
 
-### 6.Domain adaptation相关的文章
+### 6.代表性文章阅读
 
 Domain adaptation是迁移学习领域比较热的研究方向，在这里整理了一些经典的文章和说明：[Domain adaptation](https://github.com/jindongwang/transferlearning/blob/master/doc/domain_adaptation.md)
+
+最近一个推荐、分享论文的网站比较好，我在上面会持续整理相关的文章并分享阅读笔记。详情请见[paperweekly](http://www.paperweekly.site/collections/231/papers)。
 
 #### 代表性的方法及文章
 
@@ -132,21 +135,24 @@ Domain adaptation是迁移学习领域比较热的研究方向，在这里整理
 	- 发表在ICML 2017上，作者也是龙明盛
 	- 延续了之前的DAN工作，这次考虑联合适配
 
-- [学习迁移](https://arxiv.org/abs/1708.05629)(Learning to Transfer, L2T)
+- [学习迁移](https://arxiv.org/abs/1708.05629)(Learning to Transfer, L2T)
 	- 迁移学习领域的新方向：与在线、增量学习结合
 	- [我的解读](https://zhuanlan.zhihu.com/p/28888554)
-_ _ _
 
-### [记与迁移学习大牛杨强教授的第二次会面](https://zhuanlan.zhihu.com/p/26260083)
-
+- [Simultaneous Deep Transfer Across Domains and Tasks](https://www.cv-foundation.org/openaccess/content_iccv_2015/html/Tzeng_Simultaneous_Deep_Transfer_ICCV_2015_paper.html)
+	- 发表在ICCV-15上，在传统深度迁移方法上又加了新东西
+	- [我的解读](https://zhuanlan.zhihu.com/p/30621691)
 _ _ _
 
 ### [迁移学习用于行为识别的文章总结](https://github.com/jindongwang/activityrecognition/blob/master/notes/%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0%E7%94%A8%E4%BA%8E%E8%A1%8C%E4%B8%BA%E8%AF%86%E5%88%AB.md)
 
-我写的迁移学习应用于行为识别领域的文章小总结。目前不知道为什么markdown表格的格式错乱，未来会修正。
+我写的迁移学习应用于行为识别领域的文章小总结。
 
 _ _ _
 
+### [记与迁移学习大牛杨强教授的第二次会面](https://zhuanlan.zhihu.com/p/26260083)
+
+- - -
 
 ### Contributing
 
@@ -154,9 +160,9 @@ _ _ _
 
 - 正常参与：请直接fork、pull都可以
 - 如果要上传文件：请**不要**直接上传到项目中，否则会造成git版本库过大。正确的方法是上传它的**超链接**。如果你要上传的文件本身就在网络中（如paper都会有链接），直接上传即可；如果是自己想分享的一些文件、数据等，鉴于国内网盘的情况，请按照如下方式上传：
-	- 首先在[UPLOAD](https://my.pcloud.com/#page=puplink&code=4e9Z0Vwpmfzvx0y2OqTTTMzkrRUz8q9V) 直接上传（**不**需要注册账号）
-	- 上传成功后，在[DOWNLOAD](https://my.pcloud.com/publink/show?code=kZWtboZbDDVguCHGV49QkmlLliNPJRMHrFX)里找到你刚上传的文件，共享链接即可。
+	- (墙内)目前没有找到比较好的方式，只能通过链接，或者自己网盘的链接来做。
+	- (墙外)首先在[UPLOAD](https://my.pcloud.com/#page=puplink&code=4e9Z0Vwpmfzvx0y2OqTTTMzkrRUz8q9V)直接上传（**不**需要注册账号）；上传成功后，在[DOWNLOAD](https://my.pcloud.com/publink/show?code=kZWtboZbDDVguCHGV49QkmlLliNPJRMHrFX)里找到你刚上传的文件，共享链接即可。
 
 Welcome!
 
-> ***[文章版权声明]这篇文档是我开源到github上的，可以遵守相关的开源协议进行使用，如果使用时能加上我的名字就更好了。这个仓库中包含有很多研究者的论文、硕博士论文等，都来源于在网上的下载。我对其中一些文章都写了自己的浅见，希望能很好地帮助理解。这些文章的版权属于相应的出版社。如果作者或出版社有异议，请联系我进行删除（本来应该只放文章链接的，但是由于时间关系来不及）。一切都是为了更好地学术！***
+> ***[文章版权声明]这个仓库是我开源到github上的，可以遵守相关的开源协议进行使用，如果使用时能加上我的名字就更好了。这个仓库中包含有很多研究者的论文、硕博士论文等，都来源于在网上的下载。我对其中一些文章都写了自己的浅见，希望能很好地帮助理解。这些文章的版权属于相应的出版社。如果作者或出版社有异议，请联系我进行删除（本来应该只放文章链接的，但是由于时间关系来不及）。一切都是为了更好地学术！***
