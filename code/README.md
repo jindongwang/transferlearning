@@ -3,6 +3,7 @@
 *Transfer learning toolbox; some useful transfer learning and domain adaptation codes*
 
 > It is a waste of time looking for the codes from others. So I **clean** and **reimplement** them here in a way that you can **easily understand** and use. The following are some of the popular transfer learning (domain adaptation) methods in recent years, and I know most of them will be chosen to compare with your own method.
+
 > It is still **on the go**. You are welcome to contribute and suggest other methods.
 
 - - -
@@ -31,6 +32,8 @@
 	- [Matlab](http://users.cecs.anu.edu.au/~basura/DA_SA/)
 - **BDA** (Balanced Distribution Adaptation for Transfer Learning) [15]
 	- [Matlab](https://github.com/jindongwang/transferlearning/tree/master/code/BDA)
+- **MTLF** (Metric Transfer Learning) [16]
+	- [Matlab](https://github.com/xyh2016/MTLF)
 
 #### Deep learning
 
@@ -84,3 +87,5 @@ Testing **dataset** can be found [here](https://github.com/jindongwang/transferl
 [14] Ganin Y, Lempitsky V. Unsupervised domain adaptation by backpropagation[C]//International Conference on Machine Learning. 2015: 1180-1189.
 
 [15] Jindong Wang, Yiqiang Chen, Shuji Hao, Wenjie Feng, and Zhiqi Shen. Balanced Distribution Adaptation for Transfer Learning. ICDM 2017.
+
+[16] Y. Xu et al., "A Unified Framework for Metric Transfer Learning," in IEEE Transactions on Knowledge and Data Engineering, vol. 29, no. 6, pp. 1158-1171, June 1 2017. doi: 10.1109/TKDE.2017.2669193
