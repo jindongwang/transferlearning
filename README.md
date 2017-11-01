@@ -10,12 +10,12 @@ _ _ _
 
 * [最新 Latest](#0latest)
 * [迁移学习简介 Introduction to transfer learning](#1迁移学习简介)
-* [迁移学习的综述文章 Survey papers for transfer learning](#2迁移学习的综述文章)
-* [Matlab和Python代码 Available codes](https://github.com/jindongwang/transferlearning/tree/master/code)
+* [迁移学习的综述文章 Survey papers](#2迁移学习的综述文章)
+* [迁移学习相关代码 Available codes](https://github.com/jindongwang/transferlearning/tree/master/code)
 * [迁移学习代表性研究学者 Scholars](#4迁移学习代表性研究学者)
 * [迁移学习相关的硕博士论文 Thesis](#5迁移学习相关的硕博士论文)
-* [代表性文章阅读](#6代表性文章阅读)
-* [迁移学习用于行为识别的文章总结 Transfer learningfor activity recognition](https://github.com/jindongwang/activityrecognition/blob/master/notes/%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0%E7%94%A8%E4%BA%8E%E8%A1%8C%E4%B8%BA%E8%AF%86%E5%88%AB.md)
+* [代表性文章阅读 Paper reading](#6代表性文章阅读)
+* [迁移学习用于行为识别 Transfer learning for activity recognition](https://github.com/jindongwang/activityrecognition/blob/master/notes/%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0%E7%94%A8%E4%BA%8E%E8%A1%8C%E4%B8%BA%E8%AF%86%E5%88%AB.md)
 * [常用数据集 Datasets](https://github.com/jindongwang/transferlearning/blob/master/doc/dataset.md)
 
 * [Contributing](#contributing)
@@ -24,8 +24,8 @@ _ _ _
 
 ### 0.Latest
 
-- 201710 [Domain Adaptation in Computer Vision Applications](https://books.google.com.hk/books?id=7181DwAAQBAJ&pg=PA95&lpg=PA95&dq=Learning+Domain+Invariant+Embeddings+by+Matching%E2%80%A6&source=bl&ots=fSc1yvZxU3&sig=XxmGZkrfbJ2zSsJcsHhdfRpjaqk&hl=zh-CN&sa=X&ved=0ahUKEwjzvODqkI3XAhUCE5QKHYStBywQ6AEIRDAE#v=onepage&q=Learning%20Domain%20Invariant%20Embeddings%20by%20Matching%E2%80%A6&f=false) 里面收录了若干篇domain adaptation的文章，是一个集成
-
+- 201710 [Domain Adaptation in Computer Vision Applications](https://books.google.com.hk/books?id=7181DwAAQBAJ&pg=PA95&lpg=PA95&dq=Learning+Domain+Invariant+Embeddings+by+Matching%E2%80%A6&source=bl&ots=fSc1yvZxU3&sig=XxmGZkrfbJ2zSsJcsHhdfRpjaqk&hl=zh-CN&sa=X&ved=0ahUKEwjzvODqkI3XAhUCE5QKHYStBywQ6AEIRDAE#v=onepage&q=Learning%20Domain%20Invariant%20Embeddings%20by%20Matching%E2%80%A6&f=false) 里面收录了若干篇domain adaptation的文章，可以大概看看。
+ 
 - 201707 [Adversarial Representation Learning For Domain Adaptation](https://arxiv.org/abs/1707.01217)
 
 - 201707 [Mutual Alignment Transfer Learning](https://arxiv.org/abs/1707.07907)
