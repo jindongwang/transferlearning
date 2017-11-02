@@ -6,20 +6,20 @@
 
 ### 1. [Qiang Yang](https://www.google.com.hk/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwj2kqCb3p_XAhUDJ5QKHVbmCZcQFggoMAA&url=http%3A%2F%2Fwww.cs.ust.hk%2F~qyang%2F&usg=AOvVaw3KdNXmoIZgeYil--7c4w3P) @ HKUST
 
-迁移学习领域权威大牛。他所在的课题组基本都做迁移学习方面的研究。迁移学习综述《A survey on transfer learning》就出自杨强老师课题组。
+迁移学习领域权威大牛。他所在的课题组基本都做迁移学习方面的研究。迁移学习综述《A survey on transfer learning》就出自杨强老师课题组。他的学生们：
 
-#### 1. Sinno J. Pan
+#### 1). Sinno J. Pan
 
 现为老师，详细介绍见第二条。
 
-#### 2. Ben Tan
+#### 2). Ben Tan
 
 主要研究传递迁移学习(transitive transfer learning)。代表文章：
 
 - Transitive Transfer Learning. KDD 2015.
 - Distant Domain Transfer Learning. AAAI 2017.
 
-#### 3. [Derek Hao Hu](https://scholar.google.com/citations?user=Ks81aO0AAAAJ&hl=zh-CN&oi=ao)
+#### 3). [Derek Hao Hu](https://scholar.google.com/citations?user=Ks81aO0AAAAJ&hl=zh-CN&oi=ao)
 
 主要研究迁移学习与行为识别结合，目前在Snap公司。代表文章：
 
@@ -27,7 +27,7 @@
 - Cross-domain activity recognition via transfer learning. PMC 2011.
 - Bridging domains using world wide knowledge for transfer learning. TKDE 2010.
 
-#### 4. [Vencent Wencheng Zheng](https://sites.google.com/site/vincentwzheng/)
+#### 4). [Vencent Wencheng Zheng](https://sites.google.com/site/vincentwzheng/)
 
 也做行为识别与迁移学习的结合，目前在新加坡一个研究所当研究科学家。
 
@@ -40,7 +40,7 @@
 - Cross-Domain Activity Recognition. Ubicomp 2009.
 - Collaborative Location and Activity Recommendations with GPS History Data. WWW 2010.
 
-#### 5. Ying Wei
+#### 5). Ying Wei
 
 做迁移学习与数据挖掘相关的研究。代表工作：
 
