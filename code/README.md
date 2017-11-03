@@ -1,6 +1,6 @@
 # code_transfer_learning
 
-*Transfer learning toolbox; some useful transfer learning and domain adaptation codes*
+*Some useful transfer learning and domain adaptation codes*
 
 > It is a waste of time looking for the codes from others. So I **clean** and **reimplement** them here in a way that you can **easily understand** and use. The following are some of the popular transfer learning (domain adaptation) methods in recent years, and I know most of them will be chosen to compare with your own method.
 
@@ -44,7 +44,9 @@
 - **ADDA** (Adversarial Discriminative Domain Adaptation) [13]
 	- [Python(Tensorflow)](https://github.com/erictzeng/adda)
 - Unsupervised Domain Adaptation by Backpropagation [14]
-	- [Python(Tensorflow)](https://github.com/shucunt/domain_adaptation)
+	- [Caffe(from author)](https://github.com/ddtm/caffe/tree/grl)|[Tensorflow(third party)](https://github.com/shucunt/domain_adaptation)
+- Domain-Adversarial Training of Neural Networks [17] 
+	- [Tensorflow](https://github.com/pumpikano/tf-dann)
 
 - - -
 
@@ -89,3 +91,5 @@ Testing **dataset** can be found [here](https://github.com/jindongwang/transferl
 [15] Jindong Wang, Yiqiang Chen, Shuji Hao, Wenjie Feng, and Zhiqi Shen. Balanced Distribution Adaptation for Transfer Learning. ICDM 2017.
 
 [16] Y. Xu et al., "A Unified Framework for Metric Transfer Learning," in IEEE Transactions on Knowledge and Data Engineering, vol. 29, no. 6, pp. 1158-1171, June 1 2017. doi: 10.1109/TKDE.2017.2669193
+
+[17] Ganin Y, Ustinova E, Ajakan H, et al. Domain-adversarial training of neural networks[J]. Journal of Machine Learning Research, 2016, 17(59): 1-35.
