@@ -53,7 +53,7 @@ function [acc,acc_list,A] = MyTJM(X_src,Y_src,X_tar,Y_tar,options)
                 N = N + e*e';
             end
         end
-        M = (1 - mu) * M + mu * N;
+        M = M + N;
         
         M = M/norm(M,'fro');
         
