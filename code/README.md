@@ -46,7 +46,7 @@
 - Unsupervised Domain Adaptation by Backpropagation [14]
 	- [Caffe(from author)](https://github.com/ddtm/caffe/tree/grl)|[Tensorflow(third party)](https://github.com/shucunt/domain_adaptation)
 - Domain-Adversarial Training of Neural Networks [17] 
-	- [Tensorflow](https://github.com/pumpikano/tf-dann)
+	- [Tensorflow](https://github.com/jindongwang/tf-dann)
 
 - - -
 
