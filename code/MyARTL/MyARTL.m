@@ -1,95 +1,139 @@
-function [acc,acc_ite,Alpha] = MyARTL(X_src,Y_src,X_tar,Y_tar,options)
-    % Inputs:
-    %%% X_src  :source feature matrix, ns * m
-    %%% Y_src  :source label vector, ns * 1
-    %%% X_tar  :target feature matrix, nt * m
-    %%% Y_tar  :target label vector, nt * 1
-    %%% options:option struct
-    % Outputs:
-    %%% acc    :final accuracy using knn, float
-    %%% acc_ite:list of all accuracies during iterations
-    %%% A      :final adaptation matrix, (ns + nt) * (ns + nt)
-    
-	%% Set options
-	lambda = options.lambda;              %% lambda for the regularization
-	kernel_type = options.kernel_type;    %% kernel_type is the kernel name, primal|linear|rbf
-	T = options.T;                        %% iteration number
-    n_neighbor = options.n_neighbor;
-    sigma = options.sigma;
-    gamma = options.gamma; 
-    
-    X = [X_src',X_tar'];
-    Y = [Y_src;Y_tar];
-	X = X*diag(sparse(1./sqrt(sum(X.^2))));
-	ns = size(X_src,1);
-	nt = size(X_tar,1);
-    nm = ns + nt;
-	e = [1/ns*ones(ns,1);-1/nt*ones(nt,1)];
-	C = length(unique(Y_src));
-    E = diag(sparse([ones(ns,1);zeros(nt,1)]));
-    YY = [];
-    for c = reshape(unique(Y),1,length(unique(Y)))
-        YY = [YY,Y==c];
-    end
-    
-    %% Construct graph laplacian
-    manifold.k = options.n_neighbor;
+function [Acc,iter,Alpha,obj] = MyARTL(Xs,Ys,Xt,Yt,options)
+% Adaptation Regularization algorithm based on Long's article.
+
+% Inputs:
+%%% Xs  :source feature matrix, ns * m
+%%% Ys  :source label vector, ns * 1
+%%% Xt  :target feature matrix, nt * m
+%%% Yt  :target label vector, nt * 1
+%%% options:option struct
+% Outputs:
+%%%   acc  :  final accuracy using knn, float
+%%%   ite  :  list of all accuracies during iterations
+%%% Alpha  :  final coefficient matrix
+%%%   obj  :  the value of object function f
+
+%% Load algorithm options
+addpath(genpath('mk-mmd/'));
+iter = [];
+if nargin < 5
+    error('Algorithm parameters should be set!');
+end
+if ~isfield(options,'p')
+    options.p = 10;
+end
+if ~isfield(options,'sigma')
+    options.sigma = 0.1;
+end
+if ~isfield(options,'lambda')
+    options.lambda = 1.0;
+end
+if ~isfield(options,'gamma')
+    options.gamma = 1.0;
+end
+if ~isfield(options,'ker')
+    options.ker = 'linear';
+end
+if ~isfield(options,'T')
+    options.T = 10;
+end
+if ~isfield(options,'data')
+    options.data = 'default';
+end
+Xs = Xs';
+Xt = Xt';
+p = options.n_neighbor;
+sigma = options.sigma;
+lambda = options.lambda;
+gamma = options.gamma;
+kernel_type = options.kernel_type;
+T = options.T;
+mu = options.mu;
+
+% fprintf('Algorithm tARRLS started...\n');
+% fprintf('data=%s  p=%d  sigma=%f  lambda=%f  gamma=%f\n',data,p,sigma,lambda,gamma);
+
+%% Set predefined variables
+X = [Xs,Xt];
+Y = [Ys;Yt];
+n = size(Xs,2);
+m = size(Xt,2);
+nm = n+m;
+E = diag(sparse([ones(n,1);zeros(m,1)]));
+YY = [];
+for c = reshape(unique(Y),1,length(unique(Y)))
+    YY = [YY,Y==c];
+end
+[~,Y] = max(YY,[],2);
+
+%% Data normalization
+X = X*diag(sparse(1./sqrt(sum(X.^2))));
+
+%% Construct graph Laplacian
+if gamma 
+    manifold.k = p;
     manifold.Metric = 'Cosine';
     manifold.NeighborMode = 'KNN';
     manifold.WeightMode = 'Cosine';
-    [W,Dw,L] = construct_lapgraph(X',manifold);
-	%%% M0
-	M = e * e' * C;  %multiply C for better normalization
+    W = lapgraph(X',manifold);
+    Dw = diag(sparse(sqrt(1./sum(W))));
+    L = speye(nm)-Dw*W*Dw;
+else
+    L = 0;
+end
 
-    acc_ite = [];
-    Y_tar_pseudo = [];
-    % If want to include conditional distribution in iteration 1, then open
-    % this
+% Generate pseudo labels for the target domain
+if ~isfield(options,'Yt0')
+% Neural network
+%     model = train(Y(1:n),sparse(X(:,1:n)'),'-s 0 -c 1 -q 1');
+%     [Cls,~] = predict(Y(n+1:end),sparse(X(:,n+1:end)'),model);
+% SVM
+%     model = svmtrain(Y(1:n),X(:,1:n)','-c 10');
+%     [Cls,~,~] = svmpredict(Y(n+1:end),X(:,n+1:end)',model);
+% 1NN
+    knn_model = fitcknn(sparse(X(:,1:n)'),Y(1:n),'NumNeighbors',1);
+    Cls = knn_model.predict(sparse(X(:,n+1:end)'));
+% random guessing
+%     Cls = randi(10,length(Yt),1);
+else
+    Cls = options.Yt0;
+end
+
+%% Begin iteration. Iteration makes the results better.
+
+Acc = 0;
+Alpha = 0;
+iter = [];
+for t = 1:T 
+    e = [1/n*ones(n,1);-1/m*ones(m,1)];
+    M = e*e'*length(unique(Y(1:n)));
+    N = 0;
+    for c = reshape(unique(Y(1:n)),1,length(unique(Y(1:n))))
+        e = zeros(n+m,1);
+        e(Y(1:n)==c) = 1/length(find(Y(1:n)==c));
+        e(n+find(Cls==c)) = -1/length(find(Cls==c));
+        e(isinf(e)) = 0;
+        N = N + e*e';
+    end
+    M = M + N;
+    M = M/norm(M,'fro');
+
+	K = kernel_artl(kernel_type,X,sqrt(sum(sum(X.^2).^0.5)/nm));
+	Alpha = ((E+lambda*M+gamma*L)*K+sigma*speye(nm,nm))\(E*YY);
+	F = K*Alpha;
     
-%     if ~isfield(options,'Yt0')
-% %         model = train(Y(1:ns),sparse(X(:,1:ns)'),'-s 0 -c 1 -q 1');
-% %         [Y_tar_pseudo,~] = predict(Y(ns+1:end),sparse(X(:,ns+1:end)'),model);
-%         knn_model = fitcknn(X_src,Y_src,'NumNeighbors',1);
-%         Y_tar_pseudo = knn_model.predict(X_tar);
-%     else
-%         Y_tar_pseudo = options.Yt0;
-%     end
+    [~,Cls] = max(F,[],2);
+    norms = norm((Y' - Cls') * E,'fro');
+    obj = norms * norms + sigma * trace(Alpha' * K * Alpha) + trace(Alpha' * K * (lambda * M + gamma * L)* K * Alpha);
 
-	%% Iteration
-	for i = 1 : T
-        %%% Mc
-        N = 0;
-        if ~isempty(Y_tar_pseudo) && length(Y_tar_pseudo)==nt
-            for c = reshape(unique(Y_src),1,C)
-                e = zeros(nm,1);
-                e(Y_src==c) = 1 / length(find(Y_src==c));
-                e(ns+find(Y_tar_pseudo==c)) = -1 / length(find(Y_tar_pseudo==c));
-                e(isinf(e)) = 0;
-                N = N + e*e';
-            end
-        end
-
-        M = M + N;
-        M = M / norm(M,'fro');
-        
-        %% Calculation
-        K = kernel_artl(kernel_type,X,sqrt(sum(sum(X.^2).^0.5)/nm));
-        Alpha = ((E + lambda * M + gamma * L) * K + sigma * speye(nm,nm)) \ (E * YY);
-        F = K * Alpha;
-        [~,Cls] = max(F,[],2);
-
-        Acc = numel(find(Cls(ns+1:end)==Y(ns+1:end)))/nt;
-        Y_tar_pseudo = Cls(ns+1:end);
-        fprintf('Iteration [%2d]:ARTL=%0.4f\n',i,Acc);
-        acc_ite = [acc_ite;Acc];
-	end
+    %% Compute accuracy
+    Acc = numel(find(Cls(n+1:end)==Y(n+1:end)))/m;
+    Cls = Cls(n+1:end);
+    iter = [iter;Acc];
+    fprintf('Iteration:[%02d]>>Acc=%f,obj:%f\n',t,Acc,obj);
 
 end
 
-function [W,Dw,L] = construct_lapgraph(X,options)
-    W = lapgraph(X,options);
-    Dw = diag(sparse(sqrt(1./sum(W))));
-    L = speye(size(X,1)) - Dw * W * Dw;
 end
 
 function K = kernel_artl(ker,X,sigma)
@@ -116,3 +160,5 @@ function K = kernel_artl(ker,X,sigma)
             error(['Unsupported kernel ' ker])
     end
 end
+
+
