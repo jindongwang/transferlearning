@@ -23,6 +23,8 @@ _ _ _
 - - -
 
 ### 0.Latest
+ 
+- 201711 一个很好的深度学习+迁移学习的实践教程，有代码有数据，可以直接上手：[基于深度学习和迁移学习的识花实践](https://cosx.org/2017/10/transfer-learning/)
 
 - 201710 Google最新论文：[Learning Transferable Architectures for Scalable Image Recognition](https://arxiv.org/abs/1707.07012)
 
