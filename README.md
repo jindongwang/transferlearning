@@ -1,8 +1,6 @@
 ## 关于迁移学习的一些资料
 
-> 关于机器学习和行为识别的资料，请见我的下面两个仓库：
-
-> - [行为识别](https://github.com/jindongwang/activityrecognition)｜[机器学习](https://github.com/jindongwang/MachineLearning)
+> 关于机器学习和行为识别的资料，请参考：[行为识别](https://github.com/jindongwang/activityrecognition)｜[机器学习](https://github.com/jindongwang/MachineLearning)
 
 _ _ _
 
