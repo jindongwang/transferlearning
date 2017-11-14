@@ -1,4 +1,6 @@
 ## 关于迁移学习的一些资料
+ 
+这个仓库包含关于迁移学习一些资料，包括：介绍，综述文章，代表工作及其代码，常用数据集，硕博士论文等等。欢迎一起贡献！
 
 > 关于机器学习和行为识别的资料，请参考：[行为识别](https://github.com/jindongwang/activityrecognition)｜[机器学习](https://github.com/jindongwang/MachineLearning)
 
