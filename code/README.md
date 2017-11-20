@@ -47,6 +47,8 @@
 	- [Caffe(from author)](https://github.com/ddtm/caffe/tree/grl)|[Tensorflow(third party)](https://github.com/shucunt/domain_adaptation)
 - Domain-Adversarial Training of Neural Networks [17] 
 	- [Tensorflow](https://github.com/jindongwang/tf-dann)
+- Associative Domain Adaptation [18]
+	- [Tensorflow](https://github.com/haeusser/learning_by_association)
 
 - - -
 
@@ -93,3 +95,5 @@ Testing **dataset** can be found [here](https://github.com/jindongwang/transferl
 [16] Y. Xu et al., "A Unified Framework for Metric Transfer Learning," in IEEE Transactions on Knowledge and Data Engineering, vol. 29, no. 6, pp. 1158-1171, June 1 2017. doi: 10.1109/TKDE.2017.2669193
 
 [17] Ganin Y, Ustinova E, Ajakan H, et al. Domain-adversarial training of neural networks[J]. Journal of Machine Learning Research, 2016, 17(59): 1-35.
+
+[18] Haeusser P, Frerix T, Mordvintsev A, et al. Associative Domain Adaptation[C]. ICCV, 2017.
