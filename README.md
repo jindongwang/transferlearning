@@ -1,5 +1,5 @@
 ## 关于迁移学习的一些资料
- 
+
 这个仓库包含关于迁移学习一些资料，包括：介绍，综述文章，代表工作及其代码，常用数据集，硕博士论文等等。欢迎一起贡献！
 
 > 关于机器学习和行为识别的资料，请参考：[行为识别](https://github.com/jindongwang/activityrecognition)｜[机器学习](https://github.com/jindongwang/MachineLearning)
@@ -23,6 +23,8 @@ _ _ _
 - - -
 
 ### 0.Latest
+ 
+- 201711 ICCV 2017发表的文章：[Open set domain adaptation](http://openaccess.thecvf.com/content_iccv_2017/html/Busto_Open_Set_Domain_ICCV_2017_paper.html)。当source和target只共享某一些类别时，什么处理？有意思。
  
 - 201711 一个很好的深度学习+迁移学习的实践教程，有代码有数据，可以直接上手：[基于深度学习和迁移学习的识花实践](https://cosx.org/2017/10/transfer-learning/)
 
