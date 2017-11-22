@@ -17,6 +17,7 @@
 |     Dataset    |        Area        | #Sample |       #Feature      | #Class |   Subdomain  | Reference |
 |:--------------:|:------------------:|:-------:|:-------------------:|:------:|:------------:|:--------:|
 | [Office+Caltech](#office+caltech) | Object recognition |   2533  | SURF:800 DeCAF:4096 |   10   |  C, A, W, D  |   [1]       |
+| [Office-31](#office-31) | Object recognition |   4110  | SURF:800 DeCAF:4096 |   31   |  A, W, D  |   [1]       |
 |   [MNIST+USPS](#mnist+usps)   |  Digit recognition |   3800  |         256         |   10   |  USPS, MNIST |    [4]      |
 |     [COIL20](#coil20)     | Object recognition |   1440  |         1024        |   20   | COIL1, COIL2 |    [4]      |
 |       [PIE](#pie)      |  Face recognition  |  11554  |         1024        |   68   |   PIE1~PIE5  |     [6]     |
@@ -73,6 +74,21 @@ Download Office+Caltech DeCAF dataset [[pCloud](https://my.pcloud.com/publink/sh
 
 - - -
 
+### Office-31
+
+This is the full Office dataset, which contains 31 categories from Amazon, webcam and DSLR.
+
+#### Download
+
+[Download Office-31 raw images](https://pan.baidu.com/s/1o8igXT4)
+
+[Download Office-31 DeCAF6 and DeCAF7 features](https://pan.baidu.com/s/1o7XrAzw)
+
+[Download Office-31 DeCAF features by Frame](https://pan.baidu.com/s/1i5KkNxb)
+
+[Download Office-31 SURF features](https://pan.baidu.com/s/1kU6tv4F)
+
+- - -
 
 ### MNIST+USPS
 
