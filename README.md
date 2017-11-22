@@ -23,8 +23,8 @@ _ _ _
 - - -
 
 ### 0.Latest
- 
-- 201711 ICCV 2017发表的文章：[Open set domain adaptation](http://openaccess.thecvf.com/content_iccv_2017/html/Busto_Open_Set_Domain_ICCV_2017_paper.html)。当source和target只共享某一些类别时，什么处理？有意思。
+
+- 201711 ICCV 2017发表的文章：[Open set domain adaptation](http://openaccess.thecvf.com/content_iccv_2017/html/Busto_Open_Set_Domain_ICCV_2017_paper.html)。当source和target只共享某一些类别时，怎么处理？这个文章获得了ICCV 2017的Marr Prize Honorable Mention，值得好好研究。[我的解读](https://zhuanlan.zhihu.com/p/31230331)
  
 - 201711 一个很好的深度学习+迁移学习的实践教程，有代码有数据，可以直接上手：[基于深度学习和迁移学习的识花实践](https://cosx.org/2017/10/transfer-learning/)
 
