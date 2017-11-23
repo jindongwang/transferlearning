@@ -16,7 +16,7 @@ The method in the paper contains 2 main processes:
 
 Due to some reasons, part 2 is hard to understand. So I could only re-implement the part 1, which is basically an integer programming. I hope to get more information about part 2, so I will add this soon.
 
-The code is written in Matlab.
+The code is written in Matlab. You can run `open_set_da.m` using the data of office+caltech (see [here](https://github.com/jindongwang/transferlearning/tree/master/code/BDA/data)).
 
 ## Get label assignment
 
