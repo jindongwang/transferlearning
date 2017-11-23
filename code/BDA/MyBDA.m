@@ -10,10 +10,10 @@ function [acc,acc_ite,A] = MyBDA(X_src,Y_src,X_tar,Y_tar,options)
     %%% acc_ite:list of all accuracies during iterations
     %%% A      :final adaptation matrix, (ns + nt) * (ns + nt)
     
-    %%% Reference:
-    %%% Jindong Wang, Yiqiang Chen, Shuji Hao, and Zhiqi Shen.
-    %%% Balanced distribution adaptation for transfer learning.
-    %%% ICDM 2017.
+    % Reference:
+    % Jindong Wang, Yiqiang Chen, Shuji Hao, and Zhiqi Shen.
+    % Balanced distribution adaptation for transfer learning.
+    % ICDM 2017.
     
 	%% Set options
 	lambda = options.lambda;              %% lambda for the regularization
@@ -22,6 +22,7 @@ function [acc,acc_ite,A] = MyBDA(X_src,Y_src,X_tar,Y_tar,options)
 	gamma = options.gamma;                %% gamma is the bandwidth of rbf kernel
 	T = options.T;                        %% iteration number
     mu = options.mu;                      %% balance factor \mu
+    mode = options.mode;                  %% 'BDA' or 'W-BDA'
 
     X = [X_src',X_tar'];
 	X = X*diag(sparse(1./sqrt(sum(X.^2))));
@@ -33,7 +34,6 @@ function [acc,acc_ite,A] = MyBDA(X_src,Y_src,X_tar,Y_tar,options)
 
     %% Centering matrix H
 	H = eye(n) - 1/n * ones(n,n);
-    gamma = sqrt(sum(sum(X.^2).^0.5)/(ns + nt));
 	%%% M0
 	M = e * e' * C;  %multiply C for better normalization
 
@@ -47,10 +47,15 @@ function [acc,acc_ite,A] = MyBDA(X_src,Y_src,X_tar,Y_tar,options)
         if ~isempty(Y_tar_pseudo) && length(Y_tar_pseudo)==nt
             for c = reshape(unique(Y_src),1,C)
                 e = zeros(n,1);
-                Ns = length(Y_src(Y_src==c,:));
-                Nt = length(Y_tar_pseudo(Y_tar_pseudo == c,:));
-                Ps = Ns / length(Y_src);
-                Pt = Nt / length(Y_tar_pseudo);
+                if strcmp(mode,'W-BDA')
+                    Ns = length(Y_src(Y_src==c,:));
+                    Nt = length(Y_tar_pseudo(Y_tar_pseudo == c,:));
+                    Ps = Ns / length(Y_src);
+                    Pt = Nt / length(Y_tar_pseudo);
+                else
+                    Ps = 1;
+                    Pt = 1;
+                end
                 e(Y_src==c) = sqrt(Ps) / length(find(Y_src==c));
                 e(ns+find(Y_tar_pseudo==c)) = -sqrt(Pt) / length(find(Y_tar_pseudo==c));
                 e(isinf(e)) = 0;
