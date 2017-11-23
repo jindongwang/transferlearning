@@ -24,7 +24,9 @@ The code is just in `get_label_binary.m`. For the meaning of this function, plea
 
 ## Get the mapping $W$
 
-To be added.
+I don't understand this process. So this part depends on the authors. But I've implemented most procedures of this process (since a lot details is mising in the paper). Only the last step (i.e. how to get $W$) is not reliable.
+
+The code is as `feature_map.m`.
 
 ## My understanding (in Chinese)
 
