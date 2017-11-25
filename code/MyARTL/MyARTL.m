@@ -1,45 +1,30 @@
 function [Acc,iter,Alpha,obj] = MyARTL(Xs,Ys,Xt,Yt,options)
-% Adaptation Regularization algorithm based on Long's article.
+% This is the implementation of Adaptation Regularization.
+% Reference: Mingsheng Long et al. daptation Regularization: a general framework for tansfer learning. TKDE 2014.
 
 % Inputs:
-%%% Xs  :source feature matrix, ns * m
-%%% Ys  :source label vector, ns * 1
-%%% Xt  :target feature matrix, nt * m
-%%% Yt  :target label vector, nt * 1
-%%% options:option struct
+%%% Xs             :     source feature matrix, ns * n_feature
+%%% Ys             :     source label vector, ns * 1
+%%% Xt             :     target feature matrix, nt * n_feature      
+%%% Yt             :     target label vector, nt * 1
+%%% options        :     option struct
+%%%%% lambda       :     regularization parameter
+%%%%% p            :     number of neighbors
+%%%%% sigma        :     parameter
+%%%%% dim          :     dimension after adaptation, dim <= n_feature
+%%%%% kernel_tpye  :     kernel name, choose from 'primal' | 'linear' | 'rbf'
+%%%%% gamma        :     bandwidth for rbf kernel, can be missed for other kernels
+%%%%% T            :     n_iterations, T >= 1. T <= 10 is suffice
+
 % Outputs:
 %%%   acc  :  final accuracy using knn, float
 %%%   ite  :  list of all accuracies during iterations
 %%% Alpha  :  final coefficient matrix
 %%%   obj  :  the value of object function f
 
-%% Load algorithm options
-addpath(genpath('mk-mmd/'));
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 iter = [];
-if nargin < 5
-    error('Algorithm parameters should be set!');
-end
-if ~isfield(options,'p')
-    options.p = 10;
-end
-if ~isfield(options,'sigma')
-    options.sigma = 0.1;
-end
-if ~isfield(options,'lambda')
-    options.lambda = 1.0;
-end
-if ~isfield(options,'gamma')
-    options.gamma = 1.0;
-end
-if ~isfield(options,'ker')
-    options.ker = 'linear';
-end
-if ~isfield(options,'T')
-    options.T = 10;
-end
-if ~isfield(options,'data')
-    options.data = 'default';
-end
 Xs = Xs';
 Xt = Xt';
 p = options.n_neighbor;
@@ -48,7 +33,6 @@ lambda = options.lambda;
 gamma = options.gamma;
 kernel_type = options.kernel_type;
 T = options.T;
-mu = options.mu;
 
 % fprintf('Algorithm tARRLS started...\n');
 % fprintf('data=%s  p=%d  sigma=%f  lambda=%f  gamma=%f\n',data,p,sigma,lambda,gamma);

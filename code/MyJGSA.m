@@ -1,16 +1,28 @@
 function [acc,acc_list,A,B] = MyJGSA(X_src,Y_src,X_tar,Y_tar,options)
-%% Joint Geometrical and Statistic Adaptation
+% This is the implementation of Joint Geometrical and Statistic Adaptation.
+% Reference: Jing Zhang, et al. Joint Geometrical and Statistic Adaptation for visual domain adaptation. CVPR 2017.
+
 % Inputs:
-%%% X_src  :source feature matrix, ns * m
-%%% Y_src  :source label vector, ns * 1
-%%% X_tar  :target feature matrix, nt * m
-%%% Y_tar  :target label vector, nt * 1
-%%% options:option struct
+%%% X_src         :   source feature matrix, ns * n_feature
+%%% Y_src         :   source label vector, ns * 1
+%%% X_tar         :   target feature matrix, nt * n_feature
+%%% Y_tar         :   target label vector, nt * 1
+%%% options       :   option struct
+%%%%% dim         :   dimension after adaptation, dim <= n_feature
+%%%%% alpha       :   alpha in the paper
+%%%%% beta        :   beta in the paper
+%%%%% mu          :   mu in the paper
+%%%%% gamma       :   kernel bandwidth for rbf kernel
+%%%%% kernel_type :   kernel name, choose from 'primal' | 'linear' | 'rbf'
+%%%%% T           :   number of iterations
+
 % Outputs:
-%%% acc    :final accuracy using knn, float
-%%% acc_list:list of all accuracies during iterations
-%%% A      :final adaptation matrix for source domain, m * dim
-%%% B      :final adaptation matrix for target domain, m * dim
+%%% acc           :   final accuracy using knn, float
+%%% acc_list      :   list of all accuracies during iterations
+%%% A             :   final adaptation matrix for source domain, m * dim
+%%% B             :   final adaptation matrix for target domain, m * dim
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
     alpha = options.alpha;
 	mu = options.mu;

@@ -1,15 +1,26 @@
 function [acc,acc_list,A] = MyTJM(X_src,Y_src,X_tar,Y_tar,options)
-	% Inputs:
-    %%% X_src  :source feature matrix, ns * m
-    %%% Y_src  :source label vector, ns * 1
-    %%% X_tar  :target feature matrix, nt * m
-    %%% Y_tar  :target label vector, nt * 1
-    %%% options:option struct
-    % Outputs:
-    %%% acc    :final accuracy using knn, float
-    %%% acc_list:list of all accuracies during iterations
-    %%% A      :final adaptation matrix, (ns + nt) * (ns + nt)
+% This is the implementation of Transfer Joint Matching.
+% Reference: Mingsheng Long. Transfer Joing Matching for visual domain adaptation. CVPR 2014.
+
+% Inputs:
+%%% X_src          :     source feature matrix, ns * n_feature
+%%% Y_src          :     source label vector, ns * 1
+%%% X_tar          :     target feature matrix, nt * n_feature
+%%% Y_tar          :     target label vector, nt * 1
+%%% options        :     option struct
+%%%%% lambda       :     regularization parameter
+%%%%% dim          :     dimension after adaptation, dim <= n_feature
+%%%%% kernel_tpye  :     kernel name, choose from 'primal' | 'linear' | 'rbf'
+%%%%% gamma        :     bandwidth for rbf kernel, can be missed for other kernels
+%%%%% T            :     n_iterations, T >= 1. T <= 10 is suffice
+
+% Outputs:
+%%% acc            :     final accuracy using knn, float
+%%% acc_list       :     list of all accuracies during iterations
+%%% A              :     final adaptation matrix, (ns + nt) * (ns + nt)
     
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 	%% Set options
 	lambda = options.lambda;              %% lambda for the regularization
 	dim = options.dim;                    %% dim is the dimension after adaptation, dim <= m

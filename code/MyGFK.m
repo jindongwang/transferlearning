@@ -1,20 +1,28 @@
-function [acc,G] = MyGFK(X_src,Y_src,X_tar,Y_tar,dim)
-    % Inputs:
-    %%% X_src  :source feature matrix, ns * m
-    %%% Y_src  :source label vector, ns * 1
-    %%% X_tar  :target feature matrix, nt * m
-    %%% Y_tar  :target label vector, nt * 1
-    % Outputs:
-    %%% acc    :accuracy after GFK and 1NN
-    %%% G      :geodesic flow kernel matrix
-    
+function [acc,G,Cls] = MyGFK(X_src,Y_src,X_tar,Y_tar,dim)
+% This is the implementation of Geodesic Flow Kernel.
+% Reference: Boqing Gong et al. Geodesic flow kernel for Unsupervised Domain Adaptation. CVPR 2012.
+   
+% Inputs:
+%%% X_src  :   source feature matrix, ns * n_feature
+%%% Y_src  :   source label vector, ns * 1
+%%% X_tar  :   target feature matrix, nt * n_feature
+%%% Y_tar  :   target label vector, nt * 1
+%%% dim    :   dimension of geodesic flow kernel, dim <= 0.5 * n_feature
+
+% Outputs:
+%%% acc    :   accuracy after GFK and 1NN
+%%% G      :   geodesic flow kernel matrix
+%%% Cls    :   prediction labels for target, nt * 1
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
     Ps = pca(X_src);
     Pt = pca(X_tar);
     G = GFK_core([Ps,null(Ps')], Pt(:,1:dim));
-    [~, acc] = my_kernel_knn(G, X_src, Y_src, X_tar, Y_tar);
+    [Cls, acc] = my_kernel_knn(G, X_src, Y_src, X_tar, Y_tar);
 end
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 function [prediction,accuracy] = my_kernel_knn(M, Xr, Yr, Xt, Yt)
     dist = repmat(diag(Xr*M*Xr'),1,length(Yt)) ...
         + repmat(diag(Xt*M*Xt')',length(Yr),1)...

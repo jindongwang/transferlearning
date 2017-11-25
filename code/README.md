@@ -12,43 +12,43 @@
 
 #### Non-deep learning
 
-- **TCA** (Transfer Component Anaysis) [1]
+- **TCA** (Transfer Component Anaysis, TNN-11) [1]
 	- [Matlab(Recommended!)](https://github.com/jindongwang/transferlearning/blob/master/code/MyTCA.m) | [Python](https://github.com/jindongwang/transferlearning/tree/master/code/TCA_python)
-- **GFK** (Geodesic Flow Kernel) [2]
+- **GFK** (Geodesic Flow Kernel, CVPR-12) [2]
 	- [Matlab](https://github.com/jindongwang/transferlearning/blob/master/code/MyGFK.m)
-- **JDA** (Joint Distribution Adaptation) [3]
+- **JDA** (Joint Distribution Adaptation, ICCV-13) [3]
 	- [Matlab](https://github.com/jindongwang/transferlearning/blob/master/code/MyJDA.m)
-- **TJM** (Transfer Joint Matching) [4]
+- **TJM** (Transfer Joint Matching, CVPR-14) [4]
 	- [Matlab](https://github.com/jindongwang/transferlearning/blob/master/code/MyTJM.m)
-- **CORAL** (CORrelation ALignment) [5]
+- **CORAL** (CORrelation ALignment, AAAI-15) [5]
 	- [Matlab](https://github.com/jindongwang/transferlearning/blob/master/code/MyCORAL.m) | [Github](https://github.com/VisionLearningGroup/CORAL)
-- **JGSA** (Joint Geometrical and Statistical Alignment) [6]
+- **JGSA** (Joint Geometrical and Statistical Alignment, CVPR-17) [6]
 	- [Matlab](https://github.com/jindongwang/transferlearning/blob/master/code/MyJGSA.m)
-- **ARTL** (Adaptation Regularization) [7]
+- **ARTL** (Adaptation Regularization, TKDE-14) [7]
 	- [Matlab](https://github.com/jindongwang/transferlearning/tree/master/code/MyARTL)
-- **TrAdaBoost** [8]
+- **TrAdaBoost** (ICML-07)[8]
 	- [Python](https://github.com/chenchiwei/tradaboost)
-- **SA** (Subspace Alignment) [11]
+- **SA** (Subspace Alignment, ICCV-13) [11]
 	- [Matlab](http://users.cecs.anu.edu.au/~basura/DA_SA/)
-- **BDA** (Balanced Distribution Adaptation for Transfer Learning) [15]
+- **BDA** (Balanced Distribution Adaptation for Transfer Learning, ICDM-17) [15]
 	- [Matlab](https://github.com/jindongwang/transferlearning/tree/master/code/BDA)
-- **MTLF** (Metric Transfer Learning) [16]
+- **MTLF** (Metric Transfer Learning, TKDE-17) [16]
 	- [Matlab](https://github.com/xyh2016/MTLF)
-- **Open Set Domain Adaptation** [19]
+- **Open Set Domain Adaptation** (ICCV-17) [19]
 	- [Matlab(official, but not available now)](https://github.com/Heliot7/open-set-da) | [Matlab(My implementation)](https://github.com/jindongwang/transferlearning/tree/master/code/open_set_da)
 #### Deep learning
 
-- **DAN/JAN** (Deep Adaptation Network/Joint Adaptation Network) [9,10]
+- **DAN/JAN** (Deep Adaptation Network/Joint Adaptation Network, ICML-15,17) [9,10]
 	- [Caffe](https://github.com/thuml/Xlearn)
-- **RTN** (Unsupervised Domain Adaptation with Residual Transfer Networks) [12]
+- **RTN** (Unsupervised Domain Adaptation with Residual Transfer Networks, NIPS-16) [12]
 	- [Caffe](https://github.com/thuml/Xlearn)
-- **ADDA** (Adversarial Discriminative Domain Adaptation) [13]
+- **ADDA** (Adversarial Discriminative Domain Adaptation, arXiv-17) [13]
 	- [Python(Tensorflow)](https://github.com/erictzeng/adda)
-- Unsupervised Domain Adaptation by Backpropagation [14]
+- Unsupervised Domain Adaptation by Backpropagation (ICML-15) [14]
 	- [Caffe(from author)](https://github.com/ddtm/caffe/tree/grl)|[Tensorflow(third party)](https://github.com/shucunt/domain_adaptation)
-- Domain-Adversarial Training of Neural Networks [17] 
+- Domain-Adversarial Training of Neural Networks (JMLR-16)[17] 
 	- [Tensorflow](https://github.com/jindongwang/tf-dann)
-- Associative Domain Adaptation [18]
+- Associative Domain Adaptation (ICCV-17) [18]
 	- [Tensorflow](https://github.com/haeusser/learning_by_association)
 
 - - -

@@ -1,21 +1,32 @@
 function [acc,acc_ite,A] = MyJDA(X_src,Y_src,X_tar,Y_tar,options)
-    % Inputs:
-    %%% X_src  :source feature matrix, ns * m
-    %%% Y_src  :source label vector, ns * 1
-    %%% X_tar  :target feature matrix, nt * m
-    %%% Y_tar  :target label vector, nt * 1
-    %%% options:option struct
-    % Outputs:
-    %%% acc    :final accuracy using knn, float
-    %%% acc_ite:list of all accuracies during iterations
-    %%% A      :final adaptation matrix, (ns + nt) * (ns + nt)
+% This is the implementation of Joint Distribution Adaptation.
+% Reference: Mingsheng Long et al. Transfer feature learning with joint distribution adaptation. ICCV 2013.
+
+% Inputs:
+%%% X_src          :     source feature matrix, ns * n_feature
+%%% Y_src          :     source label vector, ns * 1
+%%% X_tar          :     target feature matrix, nt * n_feature
+%%% Y_tar          :     target label vector, nt * 1
+%%% options        :     option struct
+%%%%% lambda       :     regularization parameter
+%%%%% dim          :     dimension after adaptation, dim <= n_feature
+%%%%% kernel_tpye  :     kernel name, choose from 'primal' | 'linear' | 'rbf'
+%%%%% gamma        :     bandwidth for rbf kernel, can be missed for other kernels
+%%%%% T            :     n_iterations, T >= 1. T <= 10 is suffice
+
+% Outputs:
+%%% acc            :     final accuracy using knn, float
+%%% acc_ite        :     list of all accuracies during iterations
+%%% A              :     final adaptation matrix, (ns + nt) * (ns + nt)
     
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 	%% Set options
-	lambda = options.lambda;              %% lambda for the regularization
-	dim = options.dim;                    %% dim is the dimension after adaptation, dim <= m
-	kernel_type = options.kernel_type;    %% kernel_type is the kernel name, primal|linear|rbf
-	gamma = options.gamma;                %% gamma is the bandwidth of rbf kernel
-	T = options.T;                        %% iteration number
+	lambda = options.lambda;              
+	dim = options.dim;                    
+	kernel_type = options.kernel_type;    
+	gamma = options.gamma;               
+	T = options.T;                        
 
 	acc_ite = [];
 	Y_tar_pseudo = [];
