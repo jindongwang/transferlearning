@@ -1,6 +1,6 @@
-## 关于迁移学习的一些资料
+# 迁移学习 Transfer Learning
 
-这个仓库包含关于迁移学习一些资料，包括：介绍，综述文章，代表工作及其代码，常用数据集，硕博士论文等等。欢迎一起贡献！
+关于迁移学习资料汇总，包括：介绍，综述文章，代表工作及其代码，常用数据集，硕博士论文等等。欢迎一起贡献！
 
 > 关于机器学习和行为识别的资料，请参考：[行为识别](https://github.com/jindongwang/activityrecognition)｜[机器学习](https://github.com/jindongwang/MachineLearning)
 
@@ -17,13 +17,13 @@ _ _ _
 * [代表性文章阅读 Paper reading](#6代表性文章阅读)
 * [迁移学习用于行为识别 Transfer learning for activity recognition](https://github.com/jindongwang/activityrecognition/blob/master/notes/%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0%E7%94%A8%E4%BA%8E%E8%A1%8C%E4%B8%BA%E8%AF%86%E5%88%AB.md)
 * [常用数据集 Datasets](https://github.com/jindongwang/transferlearning/blob/master/doc/dataset.md)
-
 * [Contributing](#contributing)
 
 - - -
 
 ### 0.Latest
 
+- 20171126 李飞飞小组发在NIPS 2017的文章：[Label Efficient Learning of Transferable Representations acrosss Domains and Tasks](http://papers.nips.cc/paper/6621-label-efficient-learning-of-transferable-representations-acrosss-domains-and-tasks)。针对不同的domain、不同的feature、不同的label space，统一学习一个深度网络进行表征。
 - 201711 ICCV 2017发表的文章：[Open set domain adaptation](http://openaccess.thecvf.com/content_iccv_2017/html/Busto_Open_Set_Domain_ICCV_2017_paper.html)。当source和target只共享某一些类别时，怎么处理？这个文章获得了ICCV 2017的Marr Prize Honorable Mention，值得好好研究。[我的解读](https://zhuanlan.zhihu.com/p/31230331)
  
 - 201711 一个很好的深度学习+迁移学习的实践教程，有代码有数据，可以直接上手：[基于深度学习和迁移学习的识花实践](https://cosx.org/2017/10/transfer-learning/)
