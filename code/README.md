@@ -2,7 +2,7 @@
 
 *Some useful transfer learning and domain adaptation codes*
 
-> It is a waste of time looking for the codes from others. So I **clean** and **reimplement** them here in a way that you can **easily understand** and use. The following are some of the popular transfer learning (domain adaptation) methods in recent years, and I know most of them will be chosen to compare with your own method.
+> It is a waste of time looking for the codes from others. So I **collect** or **reimplement** them here in a way that you can **easily** use. The following are some of the popular transfer learning (domain adaptation) methods in recent years, and I know most of them will be chosen to compare with your own method.
 
 > It is still **on the go**. You are welcome to contribute and suggest other methods.
 
@@ -50,7 +50,8 @@
 	- [Tensorflow](https://github.com/jindongwang/tf-dann)
 - Associative Domain Adaptation (ICCV-17) [18]
 	- [Tensorflow](https://github.com/haeusser/learning_by_association)
-
+- Deep Hashing Network for Unsupervised Domain (CVPR-17) [20]
+	- [Matlab](https://github.com/hemanthdv/da-hash)
 - - -
 
 #### [Code from HKUST](http://www.cse.ust.hk/TL/) [a bit old]
@@ -100,3 +101,5 @@ Testing **dataset** can be found [here](https://github.com/jindongwang/transferl
 [18] Haeusser P, Frerix T, Mordvintsev A, et al. Associative Domain Adaptation[C]. ICCV, 2017.
 
 [19] Pau Panareda Busto, Juergen Gall. Open set domain adaptation. ICCV 2017.
+
+[20] Venkateswara H, Eusebio J, Chakraborty S, et al. Deep hashing network for unsupervised domain adaptation[C]. CVPR 2017.
