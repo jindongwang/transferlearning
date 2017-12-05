@@ -4,6 +4,9 @@ Let's read some awesome transfer learning / domain adaptation papers!
 
 - - -
 
+- 201711 ICLR-18 [GENERALIZING ACROSS DOMAINS VIA CROSS-GRADIENT TRAINING](https://openreview.net/pdf?id=r1Dx7fbCW)
+    - 由于双盲审的缘故，目前处于匿名状态。不同于以往的工作，本文运用贝叶斯网络建模label和domain的依赖关系，抓住training、inference 两个过程，有效引入domain perturbation来实现domain adaptation。
+
 - 20171128 NIPS-17 [Learning Multiple Tasks with Multilinear Relationship Networks](http://papers.nips.cc/paper/6757-learning-multiple-tasks-with-deep-relationship-networks) 
     - 清华大学龙明盛发表在NIPS 17上的文章。利用tensor normal distribution进行深度多任务学习，同时学习多任务的特征表达和任务之间的关系。
 
