@@ -4,7 +4,7 @@ Let's read some awesome transfer learning / domain adaptation papers!
 
 - - -
 
-##经典论文推荐：
+## 经典论文推荐：
 
 - 201711 ICLR-18 [GENERALIZING ACROSS DOMAINS VIA CROSS-GRADIENT TRAINING](https://openreview.net/pdf?id=r1Dx7fbCW)
     - 由于双盲审的缘故，目前处于匿名状态。不同于以往的工作，本文运用贝叶斯网络建模label和domain的依赖关系，抓住training、inference 两个过程，有效引入domain perturbation来实现domain adaptation。
@@ -34,7 +34,7 @@ Let's read some awesome transfer learning / domain adaptation papers!
 
 - 2017-ICML 清华大学龙明盛最新发在ICML 2017的深度迁移学习文章：[Deep Transfer Learning with Joint Adaptation Networks](https://2017.icml.cc/Conferences/2017/Schedule?showEvent=1117)，在深度网络中最小化联合概率，还支持adversarial。 [代码](https://github.com/thuml/transfer-caffe)
 
-##近年论文汇总：
+## 近年论文汇总：
 
 - ICLR-18 [generalizing across domains via cross-gradient training](https://openreview.net/pdf?id=r1Dx7fbCW)
 
