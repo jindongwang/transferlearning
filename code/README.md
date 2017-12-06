@@ -36,6 +36,11 @@
 	- [Matlab](https://github.com/xyh2016/MTLF)
 - **Open Set Domain Adaptation** (ICCV-17) [19]
 	- [Matlab(official, but not available now)](https://github.com/Heliot7/open-set-da) | [Matlab(My implementation)](https://github.com/jindongwang/transferlearning/tree/master/code/open_set_da)
+- **TAISL** (When Unsupervised Domain Adaptation Meets Tensor Representations, ICCV-17) [21]
+	- [Matlab(official)](https://github.com/poppinace/TAISL)
+
+
+
 #### Deep learning
 
 - **DAN/JAN** (Deep Adaptation Network/Joint Adaptation Network, ICML-15,17) [9,10]
@@ -103,3 +108,5 @@ Testing **dataset** can be found [here](https://github.com/jindongwang/transferl
 [19] Pau Panareda Busto, Juergen Gall. Open set domain adaptation. ICCV 2017.
 
 [20] Venkateswara H, Eusebio J, Chakraborty S, et al. Deep hashing network for unsupervised domain adaptation[C]. CVPR 2017.
+
+[21] H. Lu, L. Zhang, et al. When Unsupervised Domain Adaptation Meets Tensor Representations. ICCV 2017.
