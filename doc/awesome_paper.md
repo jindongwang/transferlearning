@@ -6,6 +6,9 @@ Let's read some awesome transfer learning / domain adaptation papers!
 
 ### 论文推荐：
 
+- 20171214 arXiv [Investigating the Impact of Data Volume and Domain Similarity on Transfer Learning Applications](https://arxiv.org/abs/1712.04008)
+    - 在实验中探索了数据量多少，和相似度这两个因素对迁移学习效果的影响
+
 - 20171210 AAAI-18 [Learning to Generalize: Meta-Learning for Domain Generalization](https://arxiv.org/pdf/1710.03463.pdf) 
     - 将Meta-Learning与domain generalization结合的文章，可以联系到近期较为流行的few-shot learning进行下一步思考。
 
