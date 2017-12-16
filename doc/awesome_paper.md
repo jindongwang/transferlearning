@@ -6,6 +6,9 @@ Let's read some awesome transfer learning / domain adaptation papers!
 
 ### 论文推荐：
 
+- 20171216 arXiv [Zero-Shot Deep Domain Adaptation](https://arxiv.org/abs/1707.01922)
+    - 当target domain的数据不可用时，如何用相关domain的数据进行辅助学习？
+
 - 20171214 arXiv [Investigating the Impact of Data Volume and Domain Similarity on Transfer Learning Applications](https://arxiv.org/abs/1712.04008)
     - 在实验中探索了数据量多少，和相似度这两个因素对迁移学习效果的影响
 

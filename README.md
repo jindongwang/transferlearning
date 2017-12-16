@@ -26,6 +26,8 @@ _ _ _
 
 [迁移学习文章 Awesome transfer learning papers](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
+- 20171216 当target domain的数据不可用时，如何用相关domain的数据进行辅助学习？[Zero-Shot Deep Domain Adaptation](https://arxiv.org/abs/1707.01922)
+
 - 20171201 第一篇将Tensor与domain adaptation结合的文章：[When Unsupervised Domain Adaptation Meets Tensor Representations](http://openaccess.thecvf.com/content_iccv_2017/html/Lu_When_Unsupervised_Domain_ICCV_2017_paper.html) | [我的解读](https://zhuanlan.zhihu.com/p/31834244)
 - 201712 将Meta-Learning与domain generalization结合的文章：[Learning to Generalize: Meta-Learning for Domain Generalization](https://arxiv.org/pdf/1710.03463.pdf) 
 - 201711 运用贝叶斯网络建模label和domain的依赖关系：[GENERALIZING ACROSS DOMAINS VIA CROSS-GRADIENT TRAINING](https://openreview.net/pdf?id=r1Dx7fbCW)
