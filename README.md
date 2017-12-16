@@ -54,6 +54,8 @@ _ _ _
 [迁移学习领域的著名学者、代表工作及实验室介绍](https://github.com/jindongwang/transferlearning/blob/master/doc/scholar_TL.md)
 
 什么是[负迁移(negative transfer)](https://www.zhihu.com/question/66492194/answer/242870418)？
+
+[迁移学习中的领域自适应方法](http://jd92.wang/assets/files/l12_da.pdf)
 - - -
 
 ### 2.迁移学习的综述文章
