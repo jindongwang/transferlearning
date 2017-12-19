@@ -6,6 +6,9 @@ Let's read some awesome transfer learning / domain adaptation papers!
 
 ### 论文推荐：
 
+- 20171218 arXiv [Partial Transfer Learning with Selective Adversarial Networks](https://arxiv.org/abs/1707.07901)
+    - 假设target domain中的class是包含在source domain中，然后进行选择性的对抗学习
+
 - 20171216 arXiv [Zero-Shot Deep Domain Adaptation](https://arxiv.org/abs/1707.01922)
     - 当target domain的数据不可用时，如何用相关domain的数据进行辅助学习？
 
