@@ -38,6 +38,8 @@
 	- [Matlab(official, but not available now)](https://github.com/Heliot7/open-set-da) | [Matlab(My implementation)](https://github.com/jindongwang/transferlearning/tree/master/code/open_set_da)
 - **TAISL** (When Unsupervised Domain Adaptation Meets Tensor Representations, ICCV-17) [21]
 	- [Matlab(official)](https://github.com/poppinace/TAISL)
+- **STL** (Stratified Transfer Learning for Cross-domain Activity Recognition, PerCom-18) [22]
+	- [Matlab](https://github.com/jindongwang/activityrecognition/tree/master/code/percom18_stl)
 
 
 
@@ -110,3 +112,5 @@ Testing **dataset** can be found [here](https://github.com/jindongwang/transferl
 [20] Venkateswara H, Eusebio J, Chakraborty S, et al. Deep hashing network for unsupervised domain adaptation[C]. CVPR 2017.
 
 [21] H. Lu, L. Zhang, et al. When Unsupervised Domain Adaptation Meets Tensor Representations. ICCV 2017.
+
+[22] J. Wang, Y. Chen, L. Hu, X. Peng, and P. Yu. Stratified Transfer Learning for Cross-domain Activity Recognition. 2018 IEEE International Conference on Pervasive Computing and Communications (PerCom).
