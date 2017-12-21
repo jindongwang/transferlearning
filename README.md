@@ -35,10 +35,9 @@ _ _ _
 - 201711 运用贝叶斯网络建模label和domain的依赖关系：[GENERALIZING ACROSS DOMAINS VIA CROSS-GRADIENT TRAINING](https://openreview.net/pdf?id=r1Dx7fbCW)
 - 20171126 李飞飞小组发在NIPS 2017的文章：[Label Efficient Learning of Transferable Representations acrosss Domains and Tasks](http://papers.nips.cc/paper/6621-label-efficient-learning-of-transferable-representations-acrosss-domains-and-tasks)。针对不同的domain、不同的feature、不同的label space，统一学习一个深度网络进行表征。
 - 201711 ICCV 2017发表的文章：[Open set domain adaptation](http://openaccess.thecvf.com/content_iccv_2017/html/Busto_Open_Set_Domain_ICCV_2017_paper.html)。当source和target只共享某一些类别时，怎么处理？这个文章获得了ICCV 2017的Marr Prize Honorable Mention，值得好好研究。[我的解读](https://zhuanlan.zhihu.com/p/31230331)
- 
-- 201711 一个很好的深度学习+迁移学习的实践教程，有代码有数据，可以直接上手：[基于深度学习和迁移学习的识花实践](https://cosx.org/2017/10/transfer-learning/)
 
-[更多...]((https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md))
+
+[更多...](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
 - - -
 
@@ -54,6 +53,9 @@ _ _ _
 什么是[负迁移(negative transfer)](https://www.zhihu.com/question/66492194/answer/242870418)？
 
 [迁移学习中的领域自适应方法](http://jd92.wang/assets/files/l12_da.pdf)
+
+动手教程：很好的深度学习+迁移学习的实践教程，有代码有数据，可以直接上手：[基于深度学习和迁移学习的识花实践(Tensorflow)](https://cosx.org/2017/10/transfer-learning/)  |  [基于Pytorch的图像分类](https://github.com/miguelgfierro/sciblog_support/blob/master/A_Gentle_Introduction_to_Transfer_Learning/Intro_Transfer_Learning.ipynb)
+
 - - -
 
 ### 2.迁移学习的综述文章
