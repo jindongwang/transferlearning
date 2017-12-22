@@ -61,7 +61,8 @@
 	- [Matlab](https://github.com/hemanthdv/da-hash)
 - **CCSL** (Unified Deep Supervised Domain Adaptation and Generalization, ICCV-17) [23]
 	- [Python(Keras)](https://github.com/samotiian/CCSA)
-
+- **MRN** (Learning Multiple Tasks with Multilinear Relationship Networks, NIPS-17) [24]
+	- [Pytorch](https://github.com/thuml/MTlearn)
 - - -
 
 #### [Code from HKUST](http://www.cse.ust.hk/TL/) [a bit old]
@@ -119,3 +120,5 @@ Testing **dataset** can be found [here](https://github.com/jindongwang/transferl
 [22] J. Wang, Y. Chen, L. Hu, X. Peng, and P. Yu. Stratified Transfer Learning for Cross-domain Activity Recognition. 2018 IEEE International Conference on Pervasive Computing and Communications (PerCom).
 
 [23] Motiian S, Piccirilli M, Adjeroh D A, et al. Unified deep supervised domain adaptation and generalization[C]//The IEEE International Conference on Computer Vision (ICCV). 2017, 2.
+
+[24] Long M, Cao Z, Wang J, et al. Learning Multiple Tasks with Multilinear Relationship Networks[C]//Advances in Neural Information Processing Systems. 2017: 1593-1602.
