@@ -26,16 +26,14 @@ _ _ _
 
 [迁移学习文章 Awesome transfer learning papers](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
+- 20171222 NIPS 2017 用adversarial网络，当target中有很少量的label时如何进行domain adaptation：[Few-Shot Adversarial Domain Adaptation](http://papers.nips.cc/paper/7244-few-shot-adversarial-domain-adaptation)
+
+- 20171222 ICCV 2017 对于target中只有很少量的标记数据，用深度网络结合孪生网络的思想进行泛化：[Unified Deep Supervised Domain Adaptation and Generalization](http://openaccess.thecvf.com/content_ICCV_2017/papers/Motiian_Unified_Deep_Supervised_ICCV_2017_paper.pdf) | [代码和数据](https://github.com/samotiian/CCSA)
+
 - 20171218 假设target domain中的class是包含在source domain中，然后进行选择性的对抗学习：[Partial Transfer Learning with Selective Adversarial Networks](https://arxiv.org/abs/1707.07901)
 
-- 20171216 当target domain的数据不可用时，如何用相关domain的数据进行辅助学习？[Zero-Shot Deep Domain Adaptation](https://arxiv.org/abs/1707.01922)
-
 - 20171201 第一篇将Tensor与domain adaptation结合的文章：[When Unsupervised Domain Adaptation Meets Tensor Representations](http://openaccess.thecvf.com/content_iccv_2017/html/Lu_When_Unsupervised_Domain_ICCV_2017_paper.html) | [我的解读](https://zhuanlan.zhihu.com/p/31834244)
-- 201712 将Meta-Learning与domain generalization结合的文章：[Learning to Generalize: Meta-Learning for Domain Generalization](https://arxiv.org/pdf/1710.03463.pdf) 
-- 201711 运用贝叶斯网络建模label和domain的依赖关系：[GENERALIZING ACROSS DOMAINS VIA CROSS-GRADIENT TRAINING](https://openreview.net/pdf?id=r1Dx7fbCW)
-- 20171126 李飞飞小组发在NIPS 2017的文章：[Label Efficient Learning of Transferable Representations acrosss Domains and Tasks](http://papers.nips.cc/paper/6621-label-efficient-learning-of-transferable-representations-acrosss-domains-and-tasks)。针对不同的domain、不同的feature、不同的label space，统一学习一个深度网络进行表征。
-- 201711 ICCV 2017发表的文章：[Open set domain adaptation](http://openaccess.thecvf.com/content_iccv_2017/html/Busto_Open_Set_Domain_ICCV_2017_paper.html)。当source和target只共享某一些类别时，怎么处理？这个文章获得了ICCV 2017的Marr Prize Honorable Mention，值得好好研究。[我的解读](https://zhuanlan.zhihu.com/p/31230331)
-
+- 201712 将Meta-Learning与domain generalization结合的文章：[Learning to Generalize: Meta-Learning for Domain Generalization](https://arxiv.org/pdf/1710.03463.pdf)
 
 [更多...](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
