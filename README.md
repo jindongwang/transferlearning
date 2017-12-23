@@ -62,6 +62,8 @@ _ _ _
 
 - 其中，最具代表性的综述是[A survey on transfer learning](https://pan.baidu.com/s/1i5AFO7z)，对迁移学习进行了比较权威的定义。
 
+- 关于迁移学习的**理论**方面，有三篇连贯式的理论分析文章连续发表在NIPS和Machine Learning上：[理论分析](https://pan.baidu.com/s/1jIotlTc)
+
 - 最新的综述是[Cross-dataset recognition: a survey](https://arxiv.org/abs/1705.04396)，目前刚发在arXiv上，作者是澳大利亚卧龙岗大学的在读博士生，迁移学习领域做的不错。
 
 - 来自香港科技大学Qiang Yang老师团队的最新综述[A survey on multi-task learning](https://arxiv.org/abs/1707.08114)
@@ -71,7 +73,6 @@ _ _ _
 - 此外，还包括[迁移学习应用于行为识别](https://pan.baidu.com/s/1kVABOYr)、[迁移学习与增强学习](https://pan.baidu.com/s/1slfr0w1)结合等。
 - 关于[多个源域进行迁移的综述](https://pan.baidu.com/s/1eSGREF4)、[视觉domain adaptation综述](https://pan.baidu.com/s/1o8BR7Vc)也十分有用。
 - 中文方面，[迁移学习研究进展](https://pan.baidu.com/s/1bpautob)是一篇不错的中文综述。
-- 关于迁移学习的**理论**方面，有三篇连贯式的理论分析文章连续发表在NIPS和Machine Learning上：[理论分析](https://pan.baidu.com/s/1jIotlTc)
 
 _ _ _
 
@@ -93,6 +94,7 @@ _ _ _
 - [Lixin Duan](http://www.lxduan.info/)：中文名段立新，新加坡南洋理工大学博士，现就职于电子科技大学，教授。
 - [Fuzhen Zhuang](http://www.intsci.ac.cn/users/zhuangfuzhen/)：中文名庄福振，中科院计算所博士，现任中科院计算所副研究员。[[Google scholar](https://scholar.google.com/citations?user=klJBYrAAAAAJ&hl=zh-CN&oi=ao)]
 - [Mingsheng Long](http://ise.thss.tsinghua.edu.cn/~mlong/)：中文名龙明盛，清华大学博士，现任清华大学助理教授、博士生导师。[[Google scholar](https://scholar.google.com/citations?view_op=search_authors&mauthors=mingsheng+long&hl=zh-CN&oi=ao)]
+
 _ _ _
 
 ### 5.迁移学习相关的硕博士论文
