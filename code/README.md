@@ -2,7 +2,7 @@
 
 *Some useful transfer learning and domain adaptation codes*
 
-> It is a waste of time looking for the codes from others. So I **collect** or **reimplement** them here in a way that you can **easily** use. The following are some of the popular transfer learning (domain adaptation) methods in recent years, and I know most of them will be chosen to compare with your own method.
+> It is a waste of time looking for the codes from others. So I **collect** or **reimplement** them here in a way that you can **easily** use. The following are some of the popular transfer learning (domain adaptation) methods in recent years, and I know most of them will be chosen to **compare** with your own method.
 
 > It is still **on the go**. You are welcome to contribute and suggest other methods.
 
@@ -63,6 +63,10 @@
 	- [Python(Keras)](https://github.com/samotiian/CCSA)
 - **MRN** (Learning Multiple Tasks with Multilinear Relationship Networks, NIPS-17) [24]
 	- [Pytorch](https://github.com/thuml/MTlearn)
+- **AutoDIAL** (Automatic DomaIn Alignment Layers, ICCV-17) [25]
+	- [Caffe](https://github.com/ducksoup/autodial)
+
+
 - - -
 
 #### [Code from HKUST](http://www.cse.ust.hk/TL/) [a bit old]
@@ -122,3 +126,5 @@ Testing **dataset** can be found [here](https://github.com/jindongwang/transferl
 [23] Motiian S, Piccirilli M, Adjeroh D A, et al. Unified deep supervised domain adaptation and generalization[C]//The IEEE International Conference on Computer Vision (ICCV). 2017, 2.
 
 [24] Long M, Cao Z, Wang J, et al. Learning Multiple Tasks with Multilinear Relationship Networks[C]//Advances in Neural Information Processing Systems. 2017: 1593-1602.
+
+[25] Maria Carlucci F, Porzi L, Caputo B, et al. AutoDIAL: Automatic DomaIn Alignment Layers[C]//Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2017: 5067-5075.
