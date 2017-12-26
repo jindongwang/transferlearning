@@ -67,7 +67,10 @@
 	- [Caffe](https://github.com/ducksoup/autodial)
 - **DSN** (Domain Separation Networks, NIPS-16) [26]
 	- [Tensorflow](https://github.com/tensorflow/models/tree/master/research/domain_adaptation)
-
+- **DRCN** (Deep Reconstruction-Classification Networks for Unsupervised Domain Adaptation, ECCV-16) [27]
+	- [Keras](https://github.com/ghif/drcn)
+- Multi-task Autoencoders for Domain Generalization (ICCV-15) [28]
+	- [Keras](https://github.com/ghif/mtae)
 - - -
 
 #### [Code from HKUST](http://www.cse.ust.hk/TL/) [a bit old]
@@ -131,3 +134,9 @@ Testing **dataset** can be found [here](https://github.com/jindongwang/transferl
 [25] Maria Carlucci F, Porzi L, Caputo B, et al. AutoDIAL: Automatic DomaIn Alignment Layers[C]//Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2017: 5067-5075.
 
 [26] Bousmalis K, Trigeorgis G, Silberman N, et al. Domain separation networks[C]//Advances in Neural Information Processing Systems. 2016: 343-351.
+
+[27] M. Ghifary, W. B. Kleijn, M. Zhang, D. Balduzzi, and W. Li. "Deep Reconstruction-Classification Networks for Unsupervised Domain Adaptation (DRCN)", European Conference on Computer Vision (ECCV), 2016
+
+[28] M. Ghifary, W. B. Kleijn, M. Zhang, D. Balduzzi.
+Domain Generalization for Object Recognition with Multi-task Autoencoders,
+accepted in International Conference on Computer Vision (ICCV 2015), Santiago, Chile.
