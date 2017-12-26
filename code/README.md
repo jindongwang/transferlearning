@@ -65,7 +65,8 @@
 	- [Pytorch](https://github.com/thuml/MTlearn)
 - **AutoDIAL** (Automatic DomaIn Alignment Layers, ICCV-17) [25]
 	- [Caffe](https://github.com/ducksoup/autodial)
-
+- **DSN** (Domain Separation Networks, NIPS-16) [26]
+	- [Tensorflow](https://github.com/tensorflow/models/tree/master/research/domain_adaptation)
 
 - - -
 
@@ -128,3 +129,5 @@ Testing **dataset** can be found [here](https://github.com/jindongwang/transferl
 [24] Long M, Cao Z, Wang J, et al. Learning Multiple Tasks with Multilinear Relationship Networks[C]//Advances in Neural Information Processing Systems. 2017: 1593-1602.
 
 [25] Maria Carlucci F, Porzi L, Caputo B, et al. AutoDIAL: Automatic DomaIn Alignment Layers[C]//Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2017: 5067-5075.
+
+[26] Bousmalis K, Trigeorgis G, Silberman N, et al. Domain separation networks[C]//Advances in Neural Information Processing Systems. 2016: 343-351.
