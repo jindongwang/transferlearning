@@ -40,7 +40,8 @@
 	- [Matlab(official)](https://github.com/poppinace/TAISL)
 - **STL** (Stratified Transfer Learning for Cross-domain Activity Recognition, PerCom-18) [22]
 	- [Matlab](https://github.com/jindongwang/activityrecognition/tree/master/code/percom18_stl)
-
+- **LSA** (Landmarks-based kernelized subspace alignment for unsupervised domain adaptation, CVPR-15) [29]
+	- [Matlab](http://homes.esat.kuleuven.be/~raljundi/papers/LSA%20Clean%20Code.zip)
 
 
 #### Deep learning
@@ -71,6 +72,10 @@
 	- [Keras](https://github.com/ghif/drcn)
 - Multi-task Autoencoders for Domain Generalization (ICCV-15) [28]
 	- [Keras](https://github.com/ghif/mtae)
+- Encoder based lifelong learning (ICCV-17) [30]
+	- [Matlab](https://github.com/rahafaljundi/Encoder-Based-Lifelong-learning)
+
+
 - - -
 
 #### [Code from HKUST](http://www.cse.ust.hk/TL/) [a bit old]
@@ -140,3 +145,7 @@ Testing **dataset** can be found [here](https://github.com/jindongwang/transferl
 [28] M. Ghifary, W. B. Kleijn, M. Zhang, D. Balduzzi.
 Domain Generalization for Object Recognition with Multi-task Autoencoders,
 accepted in International Conference on Computer Vision (ICCV 2015), Santiago, Chile.
+
+[29] Aljundi R, Emonet R, Muselet D, et al. Landmarks-based kernelized subspace alignment for unsupervised domain adaptation[C]//Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2015: 56-63.
+
+[30] Rannen A, Aljundi R, Blaschko M B, et al. Encoder based lifelong learning[C]//Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2017: 1320-1328.
