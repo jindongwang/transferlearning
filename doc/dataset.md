@@ -27,7 +27,8 @@
 |   [Caltech101](#vlsc)   |       Object recognition      |   1415  |      DeCAF:4096     |    5   |       C      |    [3]      |
 |    [IMAGENET](#imagenet)    |       Object recognition      |   7341  |      DeCAF:4096     |    5   |       I      |     [7]     |
 |    [AWA](#animals-with-attributes)    |       Animal recognition      |   30475  |      DeCAF:4096 SIFT/SURF:2000    |    50   |       I      |    [5]      |
-|    [Office-Home](#office-home)    |       Object recognition      |   30475  |      Original Images    |    65   |       65 domains      |    [10]      |
+|    [Office-Home](#office-home)    |       Object recognition      |   30475  |      Original Images    |    65   |       4 domains      |    [10]      |
+|    [Cross-dataset Testbed](#testbed)    |       Image Classification      |   *  |      Decaf7    |    40   |       3 domains     |    [15]      |
 
 
 
@@ -171,6 +172,11 @@ The project home page is: http://hemanthdv.org/OfficeHome-Dataset/, the dataset 
 
 - - -
 
+### Cross-dataset Testbed
+
+This is a Decaf7 based cross-dataset image classification dataset. It contains 40 categories of images from 3 domains: 3,847 images in Caltech256(C), 4,000 images in ImageNet(I), and 2,626 images for SUN(S).
+
+[Download the Cross-dataset testbed](https://pan.baidu.com/s/1o8MeVUi)
 
 ## Benchmark
 
@@ -249,3 +255,5 @@ TOCOMPLETE
 [13] Long M, Wang J, Sun J, et al. Domain invariant transfer kernel learning[J]. IEEE Transactions on Knowledge and Data Engineering, 2015, 27(6): 1519-1532.
 
 [14] Venkateswara H, Eusebio J, Chakraborty S, et al. Deep hashing network for unsupervised domain adaptation[C]. CVPR 2017.
+
+[15] Daumé III H. Frustratingly easy domain adaptation[J]. arXiv preprint arXiv:0907.1815, 2009.
