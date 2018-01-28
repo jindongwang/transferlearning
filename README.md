@@ -62,15 +62,14 @@ _ _ _
 
 ### 2.迁移学习的综述文章
 
-[一些迁移学习的综述文章](https://pan.baidu.com/s/1c19TTfU)，中文英文都有。
-
-- 其中，最具代表性的综述是[A survey on transfer learning](https://pan.baidu.com/s/1i5AFO7z)，对迁移学习进行了比较权威的定义。
+- 迁移学习领域最具代表性的综述是[A survey on transfer learning](http://ieeexplore.ieee.org/abstract/document/5288526/)，对迁移学习进行了比较权威的定义。
 
 - 关于迁移学习的**理论**方面，有三篇连贯式的理论分析文章连续发表在NIPS和Machine Learning上：[理论分析](https://pan.baidu.com/s/1jIotlTc)
 
-- 最新的综述是[Cross-dataset recognition: a survey](https://arxiv.org/abs/1705.04396)，目前刚发在arXiv上，作者是澳大利亚卧龙岗大学的在读博士生，迁移学习领域做的不错。
-
-- 来自香港科技大学Qiang Yang老师团队的最新综述[A survey on multi-task learning](https://arxiv.org/abs/1707.08114)
+- 2017年较新的综述：
+	- 关于多任务学习的综述，来自香港科技大学杨强团队：[A survey on multi-task learning](https://arxiv.org/abs/1707.08114)
+	- 关于异构迁移学习的综述：[A survey on heterogeneous transfer learning](https://link.springer.com/article/10.1186/s40537-017-0089-0)
+	- 关于跨领域数据识别的综述：[Cross-dataset recognition: a survey](https://arxiv.org/abs/1705.04396)
 
 - 还有一篇较新的综述是[A survey of transfer learning](https://pan.baidu.com/s/1gfgXLXT)，写于2015-2016年。其中交代了一些比较经典的如同构、异构等学习方法代表性文章。包括了很多方法介绍，值得一看。
 
