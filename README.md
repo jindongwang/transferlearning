@@ -1,14 +1,14 @@
 # 迁移学习 Transfer Learning
 
-关于迁移学习资料汇总，包括：介绍，综述文章，代表工作及其代码，常用数据集，硕博士论文等等。欢迎一起贡献！
+关于迁移学习资料汇总，包括：介绍、综述文章、最新文章、代表工作及其代码、常用数据集、硕博士论文等等。欢迎一起贡献！(可能是目前最全的迁移学习资料库？)
 
-> 关于机器学习和行为识别的资料，请参考：[行为识别](https://github.com/jindongwang/activityrecognition)｜[机器学习](https://github.com/jindongwang/MachineLearning)
+Resources about Transfer Learning (Probably the most complete directory?). Your contribution is highly valued!
 
 _ _ _
 
 #### 目录 Table of contents
 
-* [最新 Latest](#0latest)
+* [最新文章 Latest](#0latest)
 
 * [迁移学习简介 Introduction to transfer learning](#1迁移学习简介)
 
@@ -28,6 +28,8 @@ _ _ _
 
 * [Contributing](#contributing)
 
+> 关于机器学习和行为识别的资料，请参考：[行为识别](https://github.com/jindongwang/activityrecognition)｜[机器学习](https://github.com/jindongwang/MachineLearning)
+
 - - -
 
 ### 0.Latest
@@ -46,41 +48,27 @@ _ _ _
 
 - - -
 
-
 ### 1.迁移学习简介
 
-[文档](https://github.com/jindongwang/transferlearning/blob/master/doc/%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0%E7%AE%80%E4%BB%8B.md)   |   [PPT(英文)](http://jd92.wang/assets/files/l03_transferlearning.pdf)   |  [PPT(中文)](http://jd92.wang/assets/files/l08_tl_zh.pdf)
+- 简介文字资料
+	- [简单的中文简介](https://github.com/jindongwang/transferlearning/blob/master/doc/%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0%E7%AE%80%E4%BB%8B.md)
+	- [英文PPT](http://jd92.wang/assets/files/l03_transferlearning.pdf)
+	- [中文PPT](http://jd92.wang/assets/files/l08_tl_zh.pdf)
+	- 迁移学习中的领域自适应方法: [PDF](http://jd92.wang/assets/files/l12_da.pdf) ｜ [Video](http://mp.weixin.qq.com/s?__biz=MzI5MDUyMDIxNA==&mid=2247484940&idx=2&sn=35e64e07fde9a96afbb65dbf40a945eb&chksm=ec1febf5db6862e38d5e02ff3278c61b376932a46c5628c7d9cb1769c572bfd31819c13dd468&mpshare=1&scene=1&srcid=1219JpTNZFiNDCHsTUrUxwqy#rd)
 
-台湾大学李宏毅的视频讲解，非常不错：https://www.youtube.com/watch?v=qD6iD4TFsdQ
+- 视频教程
+	- [台湾大学李宏毅的视频讲解(中文视频)](https://www.youtube.com/watch?v=qD6iD4TFsdQ)
+	- [迁移学习中的领域自适应方法(中文)](http://mp.weixin.qq.com/s?__biz=MzI5MDUyMDIxNA==&mid=2247484940&idx=2&sn=35e64e07fde9a96afbb65dbf40a945eb&chksm=ec1febf5db6862e38d5e02ff3278c61b376932a46c5628c7d9cb1769c572bfd31819c13dd468&mpshare=1&scene=1&srcid=1219JpTNZFiNDCHsTUrUxwqy#rd)
 
-[迁移学习领域的著名学者、代表工作及实验室介绍](https://github.com/jindongwang/transferlearning/blob/master/doc/scholar_TL.md)
+- [迁移学习领域的著名学者、代表工作及实验室介绍](https://github.com/jindongwang/transferlearning/blob/master/doc/scholar_TL.md)
 
-什么是[负迁移(negative transfer)](https://www.zhihu.com/question/66492194/answer/242870418)？
+- 什么是[负迁移(negative transfer)](https://www.zhihu.com/question/66492194/answer/242870418)？
 
-迁移学习中的领域自适应方法: [PDF](http://jd92.wang/assets/files/l12_da.pdf) ｜ [Video](http://mp.weixin.qq.com/s?__biz=MzI5MDUyMDIxNA==&mid=2247484940&idx=2&sn=35e64e07fde9a96afbb65dbf40a945eb&chksm=ec1febf5db6862e38d5e02ff3278c61b376932a46c5628c7d9cb1769c572bfd31819c13dd468&mpshare=1&scene=1&srcid=1219JpTNZFiNDCHsTUrUxwqy#rd)
-
-动手教程：很好的深度学习+迁移学习的实践教程，有代码有数据，可以直接上手：[基于深度学习和迁移学习的识花实践(Tensorflow)](https://cosx.org/2017/10/transfer-learning/)  |  [基于Pytorch的图像分类](https://github.com/miguelgfierro/sciblog_support/blob/master/A_Gentle_Introduction_to_Transfer_Learning/Intro_Transfer_Learning.ipynb)
+- 动手教程、代码、数据
+	- [基于深度学习和迁移学习的识花实践(Tensorflow)](https://cosx.org/2017/10/transfer-learning/)
+	- [基于Pytorch的图像分类](https://github.com/miguelgfierro/sciblog_support/blob/master/A_Gentle_Introduction_to_Transfer_Learning/Intro_Transfer_Learning.ipynb)
 
 - - -
-
-### 2.迁移学习的综述文章
-
-- 迁移学习领域最具代表性的综述是[A survey on transfer learning](http://ieeexplore.ieee.org/abstract/document/5288526/)，对迁移学习进行了比较权威的定义。
-
-- 关于迁移学习的**理论**方面，有三篇连贯式的理论分析文章连续发表在NIPS和Machine Learning上：[理论分析](https://pan.baidu.com/s/1jIotlTc)
-
-- 2017年较新的综述：
-	- 关于多任务学习的综述，来自香港科技大学杨强团队：[A survey on multi-task learning](https://arxiv.org/abs/1707.08114)
-	- 关于异构迁移学习的综述：[A survey on heterogeneous transfer learning](https://link.springer.com/article/10.1186/s40537-017-0089-0)
-	- 关于跨领域数据识别的综述：[Cross-dataset recognition: a survey](https://arxiv.org/abs/1705.04396)
-
-- 还有一篇较新的综述是[A survey of transfer learning](https://pan.baidu.com/s/1gfgXLXT)，写于2015-2016年。其中交代了一些比较经典的如同构、异构等学习方法代表性文章。包括了很多方法介绍，值得一看。
-
-- 此外，还包括[迁移学习应用于行为识别](https://pan.baidu.com/s/1kVABOYr)、[迁移学习与增强学习](https://pan.baidu.com/s/1slfr0w1)结合等。
-- 关于[多个源域进行迁移的综述](https://pan.baidu.com/s/1eSGREF4)、[视觉domain adaptation综述](https://pan.baidu.com/s/1o8BR7Vc)也十分有用。
-- 中文方面，[迁移学习研究进展](https://pan.baidu.com/s/1bpautob)是一篇不错的中文综述。
-
-_ _ _
 
 ### 迁移学习研究领域与相关文章
 
@@ -107,6 +95,37 @@ Related articles by research areas:
 一个推荐、分享论文的网站比较好，我在上面会持续整理相关的文章并分享阅读笔记。详情请见[paperweekly](http://www.paperweekly.site/collections/231/papers)。
 
 - - -
+
+### 2.迁移学习的综述文章
+
+- 迁移学习领域最具代表性的综述是[A survey on transfer learning](http://ieeexplore.ieee.org/abstract/document/5288526/)，发表于2010年，对迁移学习进行了比较权威的定义。
+
+- 迁移学习的**理论分析**：
+
+	- 迁移学习方面一直以来都比较缺乏理论分析与证明的文章，以下三篇连贯式的理论文章成为了经典：
+		- NIPS-06 [Analysis of Representations for Domain Adaptation](https://dl.acm.org/citation.cfm?id=2976474)
+		- ML-10 [A Theory of Learning from Different Domains](https://link.springer.com/article/10.1007/s10994-009-5152-4)
+		- NIPS-08 [Learning Bounds for Domain Adaptation](http://papers.nips.cc/paper/3212-learning-bounds-for-domain-adaptation)
+
+	- 许多研究者在迁移学习的研究中会应用MMD(Maximum Mean Discrepancy)这个最大均值差异来衡量不同domain之间的距离。MMD的理论文章是：
+		- MMD的提出：[A Hilbert Space Embedding for Distributions(https://link.springer.com/chapter/10.1007/978-3-540-75225-7_5) | [A Kernel Two-Sample Test](http://www.jmlr.org/papers/v13/gretton12a.html)
+		- 多核MMD(MK-MMD)：[Optimal kernel choice for large-scale two-sample tests](http://papers.nips.cc/paper/4727-optimal-kernel-choice-for-large-scale-two-sample-tests)
+	- 理论研究方面，重点关于Alex Smola、Ben-David、Bernhard Schölkopf、Arthur Gretton等人的研究即可。
+
+- 较新的综述：
+	- 2017 多任务学习的综述，来自香港科技大学杨强团队：[A survey on multi-task learning](https://arxiv.org/abs/1707.08114)
+	- 2017 异构迁移学习的综述：[A survey on heterogeneous transfer learning](https://link.springer.com/article/10.1186/s40537-017-0089-0)
+	- 2017 跨领域数据识别的综述：[Cross-dataset recognition: a survey](https://arxiv.org/abs/1705.04396)
+	- 2016 [A survey of transfer learning](https://pan.baidu.com/s/1gfgXLXT)。其中交代了一些比较经典的如同构、异构等学习方法代表性文章。包括了很多方法介绍，值得一看。
+	- 2015 中文综述：[迁移学习研究进展](https://pan.baidu.com/s/1bpautob)
+
+- 迁移学习与应用领域结合
+	- 视觉domain adaptation综述：[Visual Domain Adaptation: A Survey of Recent Advances](https://pan.baidu.com/s/1o8BR7Vc)
+	- 迁移学习应用于行为识别综述：[Transfer Learning for Activity Recognition: A Survey](https://pan.baidu.com/s/1kVABOYr)
+	- 迁移学习与增强学习：[Transfer Learning for Reinforcement Learning Domains: A Survey](https://pan.baidu.com/s/1slfr0w1)
+	- 多个源域进行迁移的综述：[A Survey of Multi-source Domain Adaptation](https://pan.baidu.com/s/1eSGREF4)。
+
+_ _ _
 
 ### 3.代码
 
@@ -168,11 +187,11 @@ _ _ _
 
 如果你对本项目感兴趣，非常欢迎你加入！
 
-- 正常参与：请直接fork、pull都可以
-- 如果要上传文件：请**不要**直接上传到项目中，否则会造成git版本库过大。正确的方法是上传它的**超链接**。如果你要上传的文件本身就在网络中（如paper都会有链接），直接上传即可；如果是自己想分享的一些文件、数据等，鉴于国内网盘的情况，请按照如下方式上传：
+- 正常参与：请直接fork、pull request，或者与我联系我把你加入合作者中
+- 如果要上传文件：请**不要**直接上传到项目中，否则会造成git版本库过大。正确的方法是上传它的**超链接**。请按照如下方式上传：
 	- (墙内)目前没有找到比较好的方式，只能通过链接，或者自己网盘的链接来做。
 	- (墙外)首先在[UPLOAD](https://my.pcloud.com/#page=puplink&code=4e9Z0Vwpmfzvx0y2OqTTTMzkrRUz8q9V)直接上传（**不**需要注册账号）；上传成功后，在[DOWNLOAD](https://my.pcloud.com/publink/show?code=kZWtboZbDDVguCHGV49QkmlLliNPJRMHrFX)里找到你刚上传的文件，共享链接即可。
 
 Welcome!
 
-> ***[文章版权声明]这个仓库是我开源到Github上的，可以遵守相关的开源协议进行使用。这个仓库中包含有很多研究者的论文、硕博士论文等，都来源于在网上的下载，仅作为学术研究使用。我对其中一些文章都写了自己的浅见，希望能很好地帮助理解。这些文章的版权属于相应的出版社。如果作者或出版社有异议，请联系我进行删除（本来应该只放文章链接的，但是由于时间关系来不及）。一切都是为了更好地学术！***
+> ***[文章版权声明]这个仓库是我开源到Github上的，可以遵守相关的开源协议进行使用。这个仓库中包含有很多研究者的论文、硕博士论文等，都来源于在网上的下载，仅作为学术研究使用。我对其中一些文章都写了自己的浅见，希望能很好地帮助理解。这些文章的版权属于相应的出版社。如果作者或出版社有异议，请联系我进行删除。一切都是为了更好地学术！***
