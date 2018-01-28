@@ -9,15 +9,23 @@ _ _ _
 #### 目录 Table of contents
 
 * [最新 Latest](#0latest)
+
 * [迁移学习简介 Introduction to transfer learning](#1迁移学习简介)
+
 * [迁移学习的综述文章 Survey papers](#2迁移学习的综述文章)
-* [迁移学习文章 Awesome transfer learning papers](#迁移学习文章) 
-* [迁移学习相关代码 Available codes](https://github.com/jindongwang/transferlearning/tree/master/code)
+
+* [研究领域与相关文章 Research articles by area](#迁移学习研究领域与相关文章) 
+
+* [相关代码 Available codes](https://github.com/jindongwang/transferlearning/tree/master/code)
+
 * [迁移学习代表性研究学者 Scholars](#4迁移学习代表性研究学者)
-* [迁移学习相关的硕博士论文 Thesis](#5迁移学习相关的硕博士论文)
-* [代表性文章阅读 Paper reading](#6代表性文章阅读)
-* [迁移学习用于行为识别 Transfer learning for activity recognition](https://github.com/jindongwang/activityrecognition/blob/master/notes/%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0%E7%94%A8%E4%BA%8E%E8%A1%8C%E4%B8%BA%E8%AF%86%E5%88%AB.md)
+
+* [相关的硕博士论文 Thesis](#5迁移学习相关的硕博士论文)
+
+* [其他 Miscellaneous](#其他)
+
 * [常用数据集 Datasets](https://github.com/jindongwang/transferlearning/blob/master/doc/dataset.md)
+
 * [Contributing](#contributing)
 
 - - -
@@ -33,11 +41,6 @@ _ _ _
 - 20180126 IJCAI-17 用判别关联子空间（DCA）的方法进行异构的domain adaptaition：[Learning Discriminative Correlation Subspace for Heterogeneous Domain Adaptation](https://www.ijcai.org/proceedings/2017/454)
 - 20180116 ICLR-18 用对偶的形式替代对抗训练中原始问题的表达，从而进行分布对齐 [Stable Distribution Alignment using the Dual of the Adversarial Distance](https://arxiv.org/abs/1707.04046)
 - 20180111 arXiv 一种新的终身学习框架，与L2T的思路有一些类似 [Lifelong Learning for Sentiment Classification](https://arxiv.org/abs/1801.02808)
-- 20180111 arXiv 在GAN中用原始问题的对偶问题替换max问题，使得梯度更好收敛 [Stable Distribution Alignment Using the Dual of the Adversarial Distance](https://arxiv.org/abs/1707.04046)
-- 20180110 AAAI-18 将Wasserstein GAN用到domain adaptaiton中 [Wasserstein Distance Guided Representation Learning for Domain Adaptation](https://arxiv.org/abs/1707.01217)
-- 20180110 arXiv 一篇比较新的传统方法做domain adaptation的文章 [Close Yet Discriminative Domain Adaptation](https://arxiv.org/abs/1704.04235)
-- 20180105 arXiv 最优的贝叶斯迁移学习 [Optimal Bayesian Transfer Learning](https://arxiv.org/abs/1801.00857)
-
 
 [更多...](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
@@ -46,7 +49,7 @@ _ _ _
 
 ### 1.迁移学习简介
 
-[文档](https://github.com/jindongwang/transferlearning/blob/master/doc/%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0%E7%AE%80%E4%BB%8B.md)   ||   [PPT(英文)](http://jd92.wang/assets/files/l03_transferlearning.pdf)   ||  [PPT(中文)](http://jd92.wang/assets/files/l08_tl_zh.pdf)
+[文档](https://github.com/jindongwang/transferlearning/blob/master/doc/%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0%E7%AE%80%E4%BB%8B.md)   |   [PPT(英文)](http://jd92.wang/assets/files/l03_transferlearning.pdf)   |  [PPT(中文)](http://jd92.wang/assets/files/l08_tl_zh.pdf)
 
 台湾大学李宏毅的视频讲解，非常不错：https://www.youtube.com/watch?v=qD6iD4TFsdQ
 
@@ -54,7 +57,7 @@ _ _ _
 
 什么是[负迁移(negative transfer)](https://www.zhihu.com/question/66492194/answer/242870418)？
 
-[迁移学习中的领域自适应方法](http://jd92.wang/assets/files/l12_da.pdf)
+迁移学习中的领域自适应方法: [PDF](http://jd92.wang/assets/files/l12_da.pdf) ｜ [Video](http://mp.weixin.qq.com/s?__biz=MzI5MDUyMDIxNA==&mid=2247484940&idx=2&sn=35e64e07fde9a96afbb65dbf40a945eb&chksm=ec1febf5db6862e38d5e02ff3278c61b376932a46c5628c7d9cb1769c572bfd31819c13dd468&mpshare=1&scene=1&srcid=1219JpTNZFiNDCHsTUrUxwqy#rd)
 
 动手教程：很好的深度学习+迁移学习的实践教程，有代码有数据，可以直接上手：[基于深度学习和迁移学习的识花实践(Tensorflow)](https://cosx.org/2017/10/transfer-learning/)  |  [基于Pytorch的图像分类](https://github.com/miguelgfierro/sciblog_support/blob/master/A_Gentle_Introduction_to_Transfer_Learning/Intro_Transfer_Learning.ipynb)
 
@@ -79,11 +82,35 @@ _ _ _
 
 _ _ _
 
-### [迁移学习文章](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
+### 迁移学习研究领域与相关文章
+
+Related articles by research areas:
+
+- [领域自适应(非深度) Domain Adaptation (Shallow)](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#领域自适应)
+	- Domain adaptation介绍：[Domain adaptation](https://github.com/jindongwang/transferlearning/blob/master/doc/domain_adaptation.md)
+	- 完整版：这个目录主要是非深度方法，深度方法在下面。[领域自适应(非深度) Domain Adaptation (Shallow)](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#领域自适应)
+
+- [在线迁移学习 Online transfer learning](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#在线迁移学习)
+
+- [终身迁移学习 Lifelong transfer learning](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#终身迁移学习)
+
+- [异构迁移学习 Heterogeneous Transfer Learning](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#异构迁移学习)
+
+- [深度迁移学习 Deep Transfer Learning](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#深度迁移学习)
+    
+    - [深度对抗迁移迁移学习 Deep Adversarial transfer learning](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#对抗迁移学习)
+
+- [传递迁移学习 Transitive Transfer Learning](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#传递迁移学习)
+
+- [迁移学习用于行为识别 Transfer learning for activity recognition](https://github.com/jindongwang/activityrecognition/blob/master/notes/%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0%E7%94%A8%E4%BA%8E%E8%A1%8C%E4%B8%BA%E8%AF%86%E5%88%AB.md)
+
+一个推荐、分享论文的网站比较好，我在上面会持续整理相关的文章并分享阅读笔记。详情请见[paperweekly](http://www.paperweekly.site/collections/231/papers)。
+
+- - -
 
 ### 3.代码
 
-请见[这里](https://github.com/jindongwang/transferlearning/tree/master/code)
+请见[这里](https://github.com/jindongwang/transferlearning/tree/master/code) | Please see [HERE](https://github.com/jindongwang/transferlearning/tree/master/code) for some popular transfer learning codes.
 
 _ _ _
 
@@ -92,11 +119,17 @@ _ _ _
 **全部列表以及代表工作性见[这里](https://github.com/jindongwang/transferlearning/blob/master/doc/scholar_TL.md)**
 
 - [Qiang Yang](http://www.cs.ust.hk/~qyang/)：中文名杨强。香港科技大学计算机系主任，教授，大数据中心主任。迁移学习领域世界性专家。IEEE/AAAI/IAPR/AAAS fellow。[[Google scholar](https://scholar.google.com/citations?user=1LxWZLQAAAAJ&hl=zh-CN)]
+
 - [Sinno Jialin Pan](http://www.ntu.edu.sg/home/sinnopan/)：杨强的学生，香港科技大学博士，现任新加坡南洋理工大学助理教授。迁移学习领域代表性综述A survey on transfer learning的第一作者（Qiang Yang是二作）。[[Google scholar](https://scholar.google.com/citations?user=P6WcnfkAAAAJ&hl=zh-CN)]
+
 - [Wenyuan Dai](https://scholar.google.com.sg/citations?user=AGR9pP0AAAAJ&hl=zh-CN)：中文名戴文渊，上海交通大学硕士，现任第四范式人工智能创业公司CEO。迁移学习领域著名的牛人，在顶级会议上发表多篇高水平文章，每篇论文引用量巨大。
+
 - [Lixin Duan](http://www.lxduan.info/)：中文名段立新，新加坡南洋理工大学博士，现就职于电子科技大学，教授。
+
 - [Fuzhen Zhuang](http://www.intsci.ac.cn/users/zhuangfuzhen/)：中文名庄福振，中科院计算所博士，现任中科院计算所副研究员。[[Google scholar](https://scholar.google.com/citations?user=klJBYrAAAAAJ&hl=zh-CN&oi=ao)]
+
 - [Mingsheng Long](http://ise.thss.tsinghua.edu.cn/~mlong/)：中文名龙明盛，清华大学博士，现任清华大学助理教授、博士生导师。[[Google scholar](https://scholar.google.com/citations?view_op=search_authors&mauthors=mingsheng+long&hl=zh-CN&oi=ao)]
+
 - [Qingyao Wu](https://sites.google.com/site/qysite/)：中文名吴庆耀，现任华南理工大学副教授。主要做在线迁移学习、异构迁移学习方面的研究。
 
 _ _ _
@@ -105,69 +138,29 @@ _ _ _
 
 硕博士论文可以让我们很快地对迁移学习的相关领域做一些了解，同时，也能很快地了解概括相关研究者的工作。其中，比较有名的有
 
-- 杨强的学生Sinno Jialin Pan的[Feature-based Transfer Learning and Its Applications](https://pan.baidu.com/s/1bUqMfW)
-- 南加州大学的Boqing Gong的[Kernel Methods for Unsupervised Domain Adaptation](https://pan.baidu.com/s/1bpbawv9)
-- 杨强的学生Hao Hu的[Learning based Activity Recognition](https://pan.baidu.com/s/1bp2K9HX)
-- 杨强的学生Wencheng Zheng的[Learning with Limited Data in Sensor-based Human Behavior Prediction](https://pan.baidu.com/s/1o8MbbBk)
-- 清华大学龙明盛的[迁移学习问题与方法研究](https://pan.baidu.com/s/1pLiJzIV)
-- 上海交通大学戴文渊的[基于实例和特征的迁移学习算法研究](https://pan.baidu.com/s/1i4Vyygd)
-- 中科院计算所赵中堂的[自适应行为识别中的迁移学习方法研究](https://pan.baidu.com/s/1kVqYXnh)
-- Baochen Sun的[Correlation Alignment for Domain Adaptation](http://www.cs.uml.edu/~bsun/papers/baochen_phd_thesis.pdf)
+- 2016 Baochen Sun的[Correlation Alignment for Domain Adaptation](http://www.cs.uml.edu/~bsun/papers/baochen_phd_thesis.pdf)
+
+- 2014 南加州大学的Boqing Gong的[Kernel Methods for Unsupervised Domain Adaptation](https://pan.baidu.com/s/1bpbawv9)
+
+- 2014 清华大学龙明盛的[迁移学习问题与方法研究](http://ise.thss.tsinghua.edu.cn/~mlong/doc/phd-thesis-mingsheng-long.pdf)
+
+- 2014 中科院计算所赵中堂的[自适应行为识别中的迁移学习方法研究](https://pan.baidu.com/s/1kVqYXnh)
+
+- 2012 杨强的学生Hao Hu的[Learning based Activity Recognition](https://pan.baidu.com/s/1bp2K9HX)
+
+- 2012 杨强的学生Wencheng Zheng的[Learning with Limited Data in Sensor-based Human Behavior Prediction](https://pan.baidu.com/s/1o8MbbBk)
+
+- 2010 杨强的学生Sinno Jialin Pan的[Feature-based Transfer Learning and Its Applications](https://pan.baidu.com/s/1bUqMfW)
+
+- 2009 上海交通大学戴文渊的[基于实例和特征的迁移学习算法研究](https://pan.baidu.com/s/1i4Vyygd)
 
 其他的文章，请见[完整版](https://pan.baidu.com/s/1mizKzna)。
 
 - - -
 
-### 6.代表性文章阅读
+### 其他
 
-Domain adaptation是迁移学习领域比较热的研究方向，在这里整理了一些经典的文章和说明：[Domain adaptation](https://github.com/jindongwang/transferlearning/blob/master/doc/domain_adaptation.md)
-
-最近一个推荐、分享论文的网站比较好，我在上面会持续整理相关的文章并分享阅读笔记。详情请见[paperweekly](http://www.paperweekly.site/collections/231/papers)。
-
-#### 代表性的方法及文章
-
-- 迁移成分分析方法(Transfer component analysis, TCA)
-	- [Domain adaptation via tranfer component analysis](https://mega.nz/#!JTwElLrL!j5-TanhHCMESsGBNvY6I_hX6uspsrTxyopw8bPQ2azU)
-	- 发表在IEEE Trans. Neural Network期刊上（现改名为IEEE trans. Neural Network and Learning System），前作会议文章发在AAAI-09上
-	- [我的解读](https://zhuanlan.zhihu.com/p/26764147?group_id=844611188275965952)
-
-- 联合分布适配方法（joint distribution adaptation，JDA）
-	- [Transfer Feature Learning with Joint Distribution Adaptation](http://ise.thss.tsinghua.edu.cn/~mlong/doc/joint-distribution-adaptation-iccv13.pdf)
-	- 发表在2013年的ICCV上
-	- [我的解读](https://zhuanlan.zhihu.com/p/27336930)
-
-- 测地线流式核方法(Geodesic flow kernel, GFK)
-	- [Geodesic flow kernel for unsupervised domain adaptation](https://mega.nz/#!tDY1lCSD!flMSgl-0uIswpSFL3sdZgKi6fOyFVLtcO8P6SE0OUPU)
-	- 发表在CVPR-12上
-	- [我的解读](https://zhuanlan.zhihu.com/p/27782708)
-- 领域不变性迁移核学习(Transfer Kernel Learning, TKL)
-	- [Domain invariant transfer kernel learning](https://mega.nz/#!tOoCCRhB!YyoorOUcp6XIPPd6A0s7qglYnaSiRJFEQBphtZ2c58Q)
-	- 发表在IEEE Trans. Knowledge and Data Engineering期刊上
-- 深度适配网络（Deep Adaptation Network, DAN）
-	- 发表在ICML-15上：learning transferable features with deep adaptation networks
-	- [我的解读](https://zhuanlan.zhihu.com/p/27657910)
-
-- [深度联合适配网络](http://proceedings.mlr.press/v70/long17a.html)（Joint Adaptation Network, JAN）
-	- Deep Transfer Learning with Joint Adaptation Networks
-	- 发表在ICML 2017上，作者也是龙明盛
-	- 延续了之前的DAN工作，这次考虑联合适配
-
-- [学习迁移](https://arxiv.org/abs/1708.05629)(Learning to Transfer, L2T)
-	- 迁移学习领域的新方向：与在线、增量学习结合
-	- [我的解读](https://zhuanlan.zhihu.com/p/28888554)
-
-- [Simultaneous Deep Transfer Across Domains and Tasks](https://www.cv-foundation.org/openaccess/content_iccv_2015/html/Tzeng_Simultaneous_Deep_Transfer_ICCV_2015_paper.html)
-	- 发表在ICCV-15上，在传统深度迁移方法上又加了新东西
-	- [我的解读](https://zhuanlan.zhihu.com/p/30621691)
-_ _ _
-
-### [迁移学习用于行为识别的文章总结](https://github.com/jindongwang/activityrecognition/blob/master/notes/%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0%E7%94%A8%E4%BA%8E%E8%A1%8C%E4%B8%BA%E8%AF%86%E5%88%AB.md)
-
-我写的迁移学习应用于行为识别领域的文章小总结。
-
-_ _ _
-
-### [记与迁移学习大牛杨强教授的第二次会面](https://zhuanlan.zhihu.com/p/26260083)
+[记与迁移学习大牛杨强教授的第二次会面](https://zhuanlan.zhihu.com/p/26260083)
 
 - - -
 

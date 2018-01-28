@@ -52,6 +52,10 @@ Let's read some awesome transfer learning / domain adaptation papers!
 
 - 201710 [Domain Adaptation in Computer Vision Applications](https://books.google.com.hk/books?id=7181DwAAQBAJ&pg=PA95&lpg=PA95&dq=Learning+Domain+Invariant+Embeddings+by+Matching%E2%80%A6&source=bl&ots=fSc1yvZxU3&sig=XxmGZkrfbJ2zSsJcsHhdfRpjaqk&hl=zh-CN&sa=X&ved=0ahUKEwjzvODqkI3XAhUCE5QKHYStBywQ6AEIRDAE#v=onepage&q=Learning%20Domain%20Invariant%20Embeddings%20by%20Matching%E2%80%A6&f=false) 里面收录了若干篇domain adaptation的文章，可以大概看看。
 
+- [学习迁移](https://arxiv.org/abs/1708.05629)(Learning to Transfer, L2T)
+	- 迁移学习领域的新方向：与在线、增量学习结合
+	- [我的解读](https://zhuanlan.zhihu.com/p/28888554)
+    
 - 201707 [Mutual Alignment Transfer Learning](https://arxiv.org/abs/1707.07907)
 
 - 201708 [Learning Invariant Riemannian Geometric Representations Using Deep Nets](https://arxiv.org/abs/1708.09485)
@@ -77,6 +81,29 @@ Let's read some awesome transfer learning / domain adaptation papers!
 - CVPR-14 [Transfer Joint Matching for Unsupervised Domain Adaptation](http://ise.thss.tsinghua.edu.cn/~mlong/doc/transfer-joint-matching-cvpr14.pdf)
 
 - ICCV-13 [Transfer Feature Learning with Joint Distribution Adaptation](http://ise.thss.tsinghua.edu.cn/~mlong/doc/joint-distribution-adaptation-iccv13.pdf)
+
+- 迁移成分分析方法(Transfer component analysis, TCA)
+	- [Domain adaptation via tranfer component analysis](https://mega.nz/#!JTwElLrL!j5-TanhHCMESsGBNvY6I_hX6uspsrTxyopw8bPQ2azU)
+	- 发表在IEEE Trans. Neural Network期刊上（现改名为IEEE trans. Neural Network and Learning System），前作会议文章发在AAAI-09上
+	- [我的解读](https://zhuanlan.zhihu.com/p/26764147?group_id=844611188275965952)
+
+- 联合分布适配方法（joint distribution adaptation，JDA）
+	- [Transfer Feature Learning with Joint Distribution Adaptation](http://ise.thss.tsinghua.edu.cn/~mlong/doc/joint-distribution-adaptation-iccv13.pdf)
+	- 发表在2013年的ICCV上
+	- [我的解读](https://zhuanlan.zhihu.com/p/27336930)
+
+- 测地线流式核方法(Geodesic flow kernel, GFK)
+	- [Geodesic flow kernel for unsupervised domain adaptation](https://mega.nz/#!tDY1lCSD!flMSgl-0uIswpSFL3sdZgKi6fOyFVLtcO8P6SE0OUPU)
+	- 发表在CVPR-12上
+	- [我的解读](https://zhuanlan.zhihu.com/p/27782708)
+
+- 领域不变性迁移核学习(Transfer Kernel Learning, TKL)
+	- [Domain invariant transfer kernel learning](https://mega.nz/#!tOoCCRhB!YyoorOUcp6XIPPd6A0s7qglYnaSiRJFEQBphtZ2c58Q)
+	- 发表在IEEE Trans. Knowledge and Data Engineering期刊上
+	- 
+- 深度适配网络（Deep Adaptation Network, DAN）
+	- 发表在ICML-15上：learning transferable features with deep adaptation networks
+	- [我的解读](https://zhuanlan.zhihu.com/p/27657910)
 
 - - -
 
@@ -151,6 +178,18 @@ Let's read some awesome transfer learning / domain adaptation papers!
 
 - ICML-14 著名的DeCAF特征：[DeCAF: A Deep Convolutional Activation Feature for Generic Visual Recognition](https://arxiv.org/abs/1310.1531.pdf)
 
+- [Simultaneous Deep Transfer Across Domains and Tasks](https://www.cv-foundation.org/openaccess/content_iccv_2015/html/Tzeng_Simultaneous_Deep_Transfer_ICCV_2015_paper.html)
+	- 发表在ICCV-15上，在传统深度迁移方法上又加了新东西
+	- [我的解读](https://zhuanlan.zhihu.com/p/30621691)
+
+- 深度适配网络（Deep Adaptation Network, DAN）
+	- 发表在ICML-15上：learning transferable features with deep adaptation networks
+	- [我的解读](https://zhuanlan.zhihu.com/p/27657910)
+
+- [深度联合适配网络](http://proceedings.mlr.press/v70/long17a.html)（Joint Adaptation Network, JAN）
+	- Deep Transfer Learning with Joint Adaptation Networks
+	- 发表在ICML 2017上，作者也是龙明盛
+	- 延续了之前的DAN工作，这次考虑联合适配
 - - -
 
 #### 对抗迁移学习
