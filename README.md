@@ -108,9 +108,9 @@ Related articles by research areas:
 		- NIPS-08 [Learning Bounds for Domain Adaptation](http://papers.nips.cc/paper/3212-learning-bounds-for-domain-adaptation)
 
 	- 许多研究者在迁移学习的研究中会应用MMD(Maximum Mean Discrepancy)这个最大均值差异来衡量不同domain之间的距离。MMD的理论文章是：
-		- MMD的提出：[A Hilbert Space Embedding for Distributions(https://link.springer.com/chapter/10.1007/978-3-540-75225-7_5) | [A Kernel Two-Sample Test](http://www.jmlr.org/papers/v13/gretton12a.html)
+		- MMD的提出：[A Hilbert Space Embedding for Distributions](https://link.springer.com/chapter/10.1007/978-3-540-75225-7_5) | [A Kernel Two-Sample Test](http://www.jmlr.org/papers/v13/gretton12a.html)
 		- 多核MMD(MK-MMD)：[Optimal kernel choice for large-scale two-sample tests](http://papers.nips.cc/paper/4727-optimal-kernel-choice-for-large-scale-two-sample-tests)
-	- 理论研究方面，重点关于Alex Smola、Ben-David、Bernhard Schölkopf、Arthur Gretton等人的研究即可。
+	- 理论研究方面，重点关注Alex Smola、Ben-David、Bernhard Schölkopf、Arthur Gretton等人的研究即可。
 
 - 较新的综述：
 	- 2017 多任务学习的综述，来自香港科技大学杨强团队：[A survey on multi-task learning](https://arxiv.org/abs/1707.08114)
