@@ -6,7 +6,7 @@ Resources about Transfer Learning (Probably the most complete directory?). Your 
 
 _ _ _
 
-#### 目录 Table of contents
+## 目录 Table of contents
 
 * [最新文章 Latest](#0latest)
 
@@ -22,9 +22,9 @@ _ _ _
 
 * [相关的硕博士论文 Thesis](#5迁移学习相关的硕博士论文)
 
-* [其他 Miscellaneous](#其他)
+* [常用数据集 Datasets](#数据集)
 
-* [常用数据集 Datasets](https://github.com/jindongwang/transferlearning/blob/master/doc/dataset.md)
+* [其他 Miscellaneous](#其他)
 
 * [Contributing](#contributing)
 
@@ -174,6 +174,14 @@ _ _ _
 - 2009 上海交通大学戴文渊的[基于实例和特征的迁移学习算法研究](https://pan.baidu.com/s/1i4Vyygd)
 
 其他的文章，请见[完整版](https://pan.baidu.com/s/1mizKzna)。
+
+- - -
+
+### 数据集
+
+迁移学习领域有一些公开的数据集，用来对比算法的表现。我们在[这里](https://github.com/jindongwang/transferlearning/blob/master/doc/dataset.md)整理了常用的公开数据集。
+
+Please see [HERE](https://github.com/jindongwang/transferlearning/blob/master/doc/dataset.md) for the popular transfer learning datasets.
 
 - - -
 
