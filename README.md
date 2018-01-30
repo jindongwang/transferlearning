@@ -1,8 +1,8 @@
 # 迁移学习 Transfer Learning
 
-关于迁移学习资料汇总，包括：介绍、综述文章、最新文章、代表工作及其代码、常用数据集、硕博士论文等等。欢迎一起贡献！(可能是目前最全的迁移学习资料库？)
+关于迁移学习的所有资料，包括：介绍、综述文章、最新文章、代表工作及其代码、常用数据集、硕博士论文等等。欢迎一起贡献！(可能是目前最全的迁移学习资料库？)
 
-Resources about Transfer Learning (Probably the most complete directory?). Your contribution is highly valued!
+Everything about Transfer Learning (Probably the most complete directory?). Your contribution is highly valued!
 
 _ _ _
 
