@@ -43,7 +43,7 @@
 - **LSA** (Landmarks-based kernelized subspace alignment for unsupervised domain adaptation, CVPR-15) [29]
 	- [Matlab](http://homes.esat.kuleuven.be/~raljundi/papers/LSA%20Clean%20Code.zip)
 - **OTL** (Online Transfer Learning, ICML-10) [31]
-	- [Matlab(official)](http://www.mysmu.edu.sg/faculty/chhoi/OTL/OTL_AIJ_code.zip)
+	- [Matlab(official)](http://stevenhoi.org/otl)
 
 
 #### Deep learning

@@ -109,8 +109,10 @@ Let's read some awesome transfer learning / domain adaptation papers!
 
 ### 在线迁移学习
 
-- 20180128 **第一篇**在线迁移学习的文章，发表在ICML-10上，系统性地定义了在线迁移学习的任务，给出了进行在线同构和异构迁移学习的两种学习模式。[Online Transfer Learning](https://dl.acm.org/citation.cfm?id=3104478)
+- 20180128 **第一篇**在线迁移学习的文章，发表在ICML-10上，系统性地定义了在线迁移学习的任务，给出了进行在线同构和异构迁移学习的两种学习模式。[Online Transfer Learning](https://dl.acm.org/citation.cfm?id=3104478) 
     - 扩充的期刊文章发在2014年的AIJ上：[Online Transfer Learning](https://www.sciencedirect.com/science/article/pii/S0004370214000800)
+    - [我的解读](https://zhuanlan.zhihu.com/p/33557802?group_id=943152232741535744)
+	- 文章代码：[OTL](http://stevenhoi.org/otl)
 
 - 20180126 两篇在线迁移学习：
 	- [Online transfer learning by leveraging multiple source domains](https://link.springer.com/article/10.1007/s10115-016-1021-1)
