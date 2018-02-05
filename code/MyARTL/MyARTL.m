@@ -1,43 +1,29 @@
 function [Acc,iter,Alpha,obj] = MyARTL(Xs,Ys,Xt,Yt,options)
-% This is the implementation of Adaptation Regularization.
-% Reference: Mingsheng Long et al. daptation Regularization: a general framework for tansfer learning. TKDE 2014.
-
+% Adaptation Regularization
 % Inputs:
-%%% Xs             :     source feature matrix, ns * n_feature
-%%% Ys             :     source label vector, ns * 1
-%%% Xt             :     target feature matrix, nt * n_feature      
-%%% Yt             :     target label vector, nt * 1
-%%% options        :     option struct
-%%%%% lambda       :     regularization parameter
-%%%%% p            :     number of neighbors
-%%%%% sigma        :     parameter
-%%%%% dim          :     dimension after adaptation, dim <= n_feature
-%%%%% kernel_tpye  :     kernel name, choose from 'primal' | 'linear' | 'rbf'
-%%%%% gamma        :     bandwidth for rbf kernel, can be missed for other kernels
-%%%%% T            :     n_iterations, T >= 1. T <= 10 is suffice
-
+%%% Xs  :   source feature matrix, ns * m
+%%% Ys  :   source label vector, ns * 1
+%%% Xt  :   target feature matrix, nt * m
+%%% Yt  :   target label vector, nt * 1
+%%% options:option struct
 % Outputs:
-%%%   acc  :  final accuracy using knn, float
-%%%   ite  :  list of all accuracies during iterations
-%%% Alpha  :  final coefficient matrix
-%%%   obj  :  the value of object function f
+%%% Acc    :   final accuracy using knn, float
+%%% iter   :   list of all accuracies during iterations
+%%% Alpha  :   coefficient matrix
+%%% obj    :   objective value of f
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Load algorithm options
+p = options.n_neighbor;      % number of neighbors in algorithm (p)
+sigma = options.sigma;       % refer to the paper
+lambda = options.lambda;     % refer to the paper
+gamma = options.gamma;       % refer to the paper
+kernel_type = options.kernel_type;   % Kernel type: rbf | linear
+T = options.T;               % number of iteration
 
-iter = [];
+fprintf('Algorithm ARTL started...\n');
+%% Set predefined variables
 Xs = Xs';
 Xt = Xt';
-p = options.n_neighbor;
-sigma = options.sigma;
-lambda = options.lambda;
-gamma = options.gamma;
-kernel_type = options.kernel_type;
-T = options.T;
-
-% fprintf('Algorithm tARRLS started...\n');
-% fprintf('data=%s  p=%d  sigma=%f  lambda=%f  gamma=%f\n',data,p,sigma,lambda,gamma);
-
-%% Set predefined variables
 X = [Xs,Xt];
 Y = [Ys;Yt];
 n = size(Xs,2);
@@ -67,7 +53,10 @@ else
 end
 
 % Generate pseudo labels for the target domain
-if ~isfield(options,'Yt0')
+if ~isfield(options,'Yt0')    
+% base classifier for target, default is 1NN
+% can be changed by following codes
+
 % Neural network
 %     model = train(Y(1:n),sparse(X(:,1:n)'),'-s 0 -c 1 -q 1');
 %     [Cls,~] = predict(Y(n+1:end),sparse(X(:,n+1:end)'),model);
@@ -77,18 +66,17 @@ if ~isfield(options,'Yt0')
 % 1NN
     knn_model = fitcknn(sparse(X(:,1:n)'),Y(1:n),'NumNeighbors',1);
     Cls = knn_model.predict(sparse(X(:,n+1:end)'));
-% random guessing
+%random
 %     Cls = randi(10,length(Yt),1);
 else
     Cls = options.Yt0;
 end
 
-%% Begin iteration. Iteration makes the results better.
-
 Acc = 0;
 Alpha = 0;
 iter = [];
-for t = 1:T 
+for t = 1:T
+    %% Construct MMD matrix
     e = [1/n*ones(n,1);-1/m*ones(m,1)];
     M = e*e'*length(unique(Y(1:n)));
     N = 0;
@@ -102,6 +90,7 @@ for t = 1:T
     M = M + N;
     M = M/norm(M,'fro');
 
+    %% Adaptation Regularization based Transfer Learning
 	K = kernel_artl(kernel_type,X,sqrt(sum(sum(X.^2).^0.5)/nm));
 	Alpha = ((E+lambda*M+gamma*L)*K+sigma*speye(nm,nm))\(E*YY);
 	F = K*Alpha;

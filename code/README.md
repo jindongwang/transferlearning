@@ -21,7 +21,7 @@
 - **TJM** (Transfer Joint Matching, CVPR-14) [4]
 	- [Matlab](https://github.com/jindongwang/transferlearning/blob/master/code/MyTJM.m)
 - **CORAL** (CORrelation ALignment, AAAI-15) [5]
-	- [Matlab](https://github.com/jindongwang/transferlearning/blob/master/code/MyCORAL.m) | [Github](https://github.com/VisionLearningGroup/CORAL)
+	- [Matlab](https://github.com/jindongwang/transferlearning/blob/master/code/CORAL) | [Github](https://github.com/VisionLearningGroup/CORAL)
 - **JGSA** (Joint Geometrical and Statistical Alignment, CVPR-17) [6]
 	- [Matlab](https://github.com/jindongwang/transferlearning/blob/master/code/MyJGSA.m)
 - **ARTL** (Adaptation Regularization, TKDE-14) [7]
