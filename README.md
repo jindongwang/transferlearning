@@ -173,7 +173,7 @@ _ _ _
 
 - 2009 上海交通大学戴文渊的[基于实例和特征的迁移学习算法研究](https://pan.baidu.com/s/1i4Vyygd)
 
-其他的文章，请见[完整版](https://pan.baidu.com/s/1mizKzna)。
+其他的文章，请见[完整版](https://pan.baidu.com/s/1bqXEASn)。
 
 - - -
 
