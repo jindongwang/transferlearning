@@ -9,7 +9,7 @@ function [acc,acc_list,A,B] = MyJGSA(X_src,Y_src,X_tar,Y_tar,options)
 %%% Y_tar         :   target label vector, nt * 1
 %%% options       :   option struct
 %%%%% dim         :   dimension after adaptation, dim <= n_feature
-%%%%% alpha       :   alpha in the paper
+%%%%% lambda      :   lambda in the paper
 %%%%% beta        :   beta in the paper
 %%%%% mu          :   mu in the paper
 %%%%% gamma       :   kernel bandwidth for rbf kernel
@@ -24,7 +24,7 @@ function [acc,acc_list,A,B] = MyJGSA(X_src,Y_src,X_tar,Y_tar,options)
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-    alpha = options.alpha;
+    lambda = options.lambda;
 	mu = options.mu;
 	beta = options.beta;
 	gamma = options.gamma;
@@ -62,8 +62,8 @@ function [acc,acc_list,A,B] = MyJGSA(X_src,Y_src,X_tar,Y_tar,options)
 	        H = [zeros(ns,ns),zeros(ns,nt);zeros(nt,ns),Ht];
 
 	        Smax = mu * X * H * X' + beta * P;
-	        Smin = [Ts+alpha*eye(m)+beta*Q, Tst-alpha*eye(m) ; ...
-                Tts-alpha*eye(m),  Tt+(alpha+mu)*eye(m)];
+	        Smin = [Ts+lambda*eye(m)+beta*Q, Tst-lambda*eye(m) ; ...
+                Tts-lambda*eye(m),  Tt+(lambda+mu)*eye(m)];
             mm = 1e-9*eye(2*m);
 	        [W,~] = eigs(Smax,Smin + mm,dim,'LM');
 	        As = W(1:m,:);
@@ -100,8 +100,8 @@ function [acc,acc_list,A,B] = MyJGSA(X_src,Y_src,X_tar,Y_tar,options)
 	        K = [zeros(ns,nst), zeros(ns,nst); zeros(nt,nst), Kt];
 	        Smax =  mu*K'*K+beta*P;
 	        
-	        Smin = [Ts+alpha*Kst+beta*Q, Tst-alpha*Kst;...
-	                Tts-alpha*Kst, Tt+mu*Kst+alpha*Kst];
+	        Smin = [Ts+lambda*Kst+beta*Q, Tst-lambda*Kst;...
+	                Tts-lambda*Kst, Tt+mu*Kst+lambda*Kst];
 	        [W,~] = eigs(Smax, Smin+1e-9*eye(2*nst), dim, 'LM');
 	        W = real(W);
 
