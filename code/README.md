@@ -12,6 +12,8 @@
 
 #### Non-deep learning
 
+- **SVM** (baseline)
+	- [Matlab](https://github.com/jindongwang/transferlearning/tree/master/code/SVM.m)
 - **TCA** (Transfer Component Anaysis, TNN-11) [1]
 	- [Matlab(Recommended!)](https://github.com/jindongwang/transferlearning/blob/master/code/MyTCA.m) | [Python](https://github.com/jindongwang/transferlearning/tree/master/code/TCA_python)
 - **GFK** (Geodesic Flow Kernel, CVPR-12) [2]
@@ -23,19 +25,19 @@
 - **CORAL** (CORrelation ALignment, AAAI-15) [5]
 	- [Matlab](https://github.com/jindongwang/transferlearning/blob/master/code/CORAL) | [Github](https://github.com/VisionLearningGroup/CORAL)
 - **JGSA** (Joint Geometrical and Statistical Alignment, CVPR-17) [6]
-	- [Matlab](https://github.com/jindongwang/transferlearning/blob/master/code/MyJGSA.m)
+	- [Matlab](https://www.uow.edu.au/~jz960/codes/JGSA-r.rar)
 - **ARTL** (Adaptation Regularization, TKDE-14) [7]
 	- [Matlab](https://github.com/jindongwang/transferlearning/tree/master/code/MyARTL)
 - **TrAdaBoost** (ICML-07)[8]
 	- [Python](https://github.com/chenchiwei/tradaboost)
 - **SA** (Subspace Alignment, ICCV-13) [11]
-	- [Matlab](http://users.cecs.anu.edu.au/~basura/DA_SA/)
+	- [Matlab(official)](http://users.cecs.anu.edu.au/~basura/DA_SA/) | [Matlab](https://github.com/jindongwang/transferlearning/tree/master/code/SA_SVM.m)
 - **BDA** (Balanced Distribution Adaptation for Transfer Learning, ICDM-17) [15]
 	- [Matlab](https://github.com/jindongwang/transferlearning/tree/master/code/BDA)
 - **MTLF** (Metric Transfer Learning, TKDE-17) [16]
 	- [Matlab](https://github.com/xyh2016/MTLF)
 - **Open Set Domain Adaptation** (ICCV-17) [19]
-	- [Matlab(official, but not available now)](https://github.com/Heliot7/open-set-da) | [Matlab(My implementation)](https://github.com/jindongwang/transferlearning/tree/master/code/open_set_da)
+	- [Matlab(official)](https://github.com/Heliot7/open-set-da)
 - **TAISL** (When Unsupervised Domain Adaptation Meets Tensor Representations, ICCV-17) [21]
 	- [Matlab(official)](https://github.com/poppinace/TAISL)
 - **STL** (Stratified Transfer Learning for Cross-domain Activity Recognition, PerCom-18) [22]

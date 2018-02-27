@@ -1,4 +1,7 @@
 function [acc,y_pred,time_pass] = CORAL_SVM(Xs,Ys,Xt,Yt)
+%% This combines CORAL and SVM. Very simple, very easy to use.
+%% Please download libsvm and add it to Matlab path before using SVM.
+
     time_start = clock();
     %CORAL
     Xs = double(Xs);
