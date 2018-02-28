@@ -1,9 +1,8 @@
 # 迁移学习 Transfer Learning
 
-关于迁移学习的所有资料，包括：介绍、综述文章、最新文章、代表工作及其代码、常用数据集、硕博士论文等等。欢迎一起贡献！(可能是目前最全的迁移学习资料库？)
+关于迁移学习的所有资料，包括：介绍、综述文章、最新文章、代表工作及其代码、常用数据集、硕博士论文等等。(可能是**目前最全**的迁移学习资料库？) *欢迎一起贡献！*
 
-Everything about Transfer Learning (Probably the most complete directory?). Your contribution is highly valued!
-
+Everything about Transfer Learning (Probably the **most complete** repository?). *Your contribution is highly valued!*
 _ _ _
 
 ## 目录 Table of contents
@@ -12,17 +11,17 @@ _ _ _
 
 * [迁移学习简介 Introduction to transfer learning](#1迁移学习简介)
 
-* [迁移学习的综述文章 Survey papers](#2迁移学习的综述文章)
+* [研究领域与相关文章 Research articles by area](#2迁移学习研究领域与相关文章) 
 
-* [研究领域与相关文章 Research articles by area](#迁移学习研究领域与相关文章) 
+* [迁移学习的综述文章 Survey papers](#3迁移学习的综述文章)
 
-* [相关代码 Available codes](https://github.com/jindongwang/transferlearning/tree/master/code)
+* [相关代码 Available codes](#4代码)
 
-* [迁移学习代表性研究学者 Scholars](#4迁移学习代表性研究学者)
+* [迁移学习代表性研究学者 Scholars](#5迁移学习代表性研究学者)
 
-* [相关的硕博士论文 Thesis](#5迁移学习相关的硕博士论文)
+* [相关的硕博士论文 Thesis](#6迁移学习相关的硕博士论文)
 
-* [常用数据集及算法结果 Datasets and benchmark](#数据集)
+* [常用公开数据集及算法结果 Datasets and benchmark](#7公开数据集及实验结果)
 
 * [其他 Miscellaneous](#其他)
 
@@ -35,7 +34,6 @@ _ _ _
 ### 0.Latest
 
 [迁移学习文章 Awesome transfer learning papers](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
-
 
 - 20180228 arXiv 一篇通过标签一致性和MMD准则进行domain adaptation的文章: [Discriminative Label Consistent Domain Adaptation](https://arxiv.org/abs/1802.08077)
 - 2018 arXiv 最新发表在arXiv上的深度domain adaptation的综述：[Deep Visual Domain Adaptation: A Survey](https://arxiv.org/abs/1802.03601)
@@ -72,7 +70,7 @@ _ _ _
 
 - - -
 
-### 迁移学习研究领域与相关文章
+### 2.迁移学习研究领域与相关文章
 
 Related articles by research areas:
 
@@ -98,7 +96,7 @@ Related articles by research areas:
 
 - - -
 
-### 2.迁移学习的综述文章
+### 3.迁移学习的综述文章
 
 - 迁移学习领域最具代表性的综述是[A survey on transfer learning](http://ieeexplore.ieee.org/abstract/document/5288526/)，发表于2010年，对迁移学习进行了比较权威的定义。
 
@@ -130,13 +128,13 @@ Related articles by research areas:
 
 _ _ _
 
-### 3.代码
+### 4.代码
 
 请见[这里](https://github.com/jindongwang/transferlearning/tree/master/code) | Please see [HERE](https://github.com/jindongwang/transferlearning/tree/master/code) for some popular transfer learning codes.
 
 _ _ _
 
-### 4.迁移学习代表性研究学者
+### 5.迁移学习代表性研究学者
 
 **全部列表以及代表工作性见[这里](https://github.com/jindongwang/transferlearning/blob/master/doc/scholar_TL.md)**
 
@@ -156,7 +154,7 @@ _ _ _
 
 _ _ _
 
-### 5.迁移学习相关的硕博士论文
+### 6.迁移学习相关的硕博士论文
 
 硕博士论文可以让我们很快地对迁移学习的相关领域做一些了解，同时，也能很快地了解概括相关研究者的工作。其中，比较有名的有
 
@@ -180,7 +178,7 @@ _ _ _
 
 - - -
 
-### 数据集
+### 7.公开数据集及实验结果
 
 迁移学习领域有一些公开的数据集，用来对比算法的表现。
 
