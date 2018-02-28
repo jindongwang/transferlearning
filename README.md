@@ -22,7 +22,7 @@ _ _ _
 
 * [相关的硕博士论文 Thesis](#5迁移学习相关的硕博士论文)
 
-* [常用数据集 Datasets](#数据集)
+* [常用数据集及算法结果 Datasets and benchmark](#数据集)
 
 * [其他 Miscellaneous](#其他)
 
@@ -181,9 +181,12 @@ _ _ _
 
 ### 数据集
 
-迁移学习领域有一些公开的数据集，用来对比算法的表现。我们在[这里](https://github.com/jindongwang/transferlearning/blob/master/doc/dataset.md)整理了常用的公开数据集。
+迁移学习领域有一些公开的数据集，用来对比算法的表现。
 
-Please see [HERE](https://github.com/jindongwang/transferlearning/blob/master/doc/dataset.md) for the popular transfer learning datasets.
+- [这里](https://github.com/jindongwang/transferlearning/blob/master/doc/dataset.md)整理了常用的公开数据集
+- [这里](https://github.com/jindongwang/transferlearning/blob/master/doc/benchmark.md)整理汇总了一些已发表的文章在这些数据集上的实验结果。
+
+Please see [HERE](https://github.com/jindongwang/transferlearning/blob/master/doc/dataset.md) for the popular transfer learning datasets and [HERE](https://github.com/jindongwang/transferlearning/blob/master/doc/benchmark.md) for some benchmark results.
 
 - - -
 
