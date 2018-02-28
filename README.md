@@ -55,6 +55,7 @@ _ _ _
 	- [英文PPT](http://jd92.wang/assets/files/l03_transferlearning.pdf)
 	- [中文PPT](http://jd92.wang/assets/files/l08_tl_zh.pdf)
 	- 迁移学习中的领域自适应方法: [PDF](http://jd92.wang/assets/files/l12_da.pdf) ｜ [Video](http://mp.weixin.qq.com/s?__biz=MzI5MDUyMDIxNA==&mid=2247484940&idx=2&sn=35e64e07fde9a96afbb65dbf40a945eb&chksm=ec1febf5db6862e38d5e02ff3278c61b376932a46c5628c7d9cb1769c572bfd31819c13dd468&mpshare=1&scene=1&srcid=1219JpTNZFiNDCHsTUrUxwqy#rd)
+	- 清华大学龙明盛老师的深度迁移学习报告：[PPT](http://ise.thss.tsinghua.edu.cn/~mlong/doc/transfer-learning-talk.pdf)
 
 - 视频教程
 	- [台湾大学李宏毅的视频讲解(中文视频)](https://www.youtube.com/watch?v=qD6iD4TFsdQ)
