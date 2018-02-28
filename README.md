@@ -3,6 +3,7 @@
 关于迁移学习的所有资料，包括：介绍、综述文章、最新文章、代表工作及其代码、常用数据集、硕博士论文等等。(可能是**目前最全**的迁移学习资料库？) *欢迎一起贡献！*
 
 Everything about Transfer Learning (Probably the **most complete** repository?). *Your contribution is highly valued!*
+
 _ _ _
 
 ## 目录 Table of contents
@@ -13,7 +14,7 @@ _ _ _
 
 * [研究领域与相关文章 Research articles by area](#2迁移学习研究领域与相关文章) 
 
-* [迁移学习的综述文章 Survey papers](#3迁移学习的综述文章)
+* [理论与综述文章 Theoretical and survey papers](#3理论与综述文章)
 
 * [相关代码 Available codes](#4代码)
 
@@ -77,7 +78,7 @@ Related articles by research areas:
 
 - [领域自适应(非深度) Domain Adaptation (Shallow)](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#领域自适应)
 	- Domain adaptation介绍：[Domain adaptation](https://github.com/jindongwang/transferlearning/blob/master/doc/domain_adaptation.md)
-	- 完整版：这个目录主要是非深度方法，深度方法在下面。[领域自适应(非深度) Domain Adaptation (Shallow)](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#领域自适应)
+	- 这个目录主要是非深度方法，深度方法在下面。
 
 - [在线迁移学习 Online transfer learning](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#在线迁移学习)
 
@@ -97,7 +98,7 @@ Related articles by research areas:
 
 - - -
 
-### 3.迁移学习的综述文章
+### 3.理论与综述文章
 
 - 迁移学习领域最具代表性的综述是[A survey on transfer learning](http://ieeexplore.ieee.org/abstract/document/5288526/)，发表于2010年，对迁移学习进行了比较权威的定义。
 
@@ -109,7 +110,7 @@ Related articles by research areas:
 		- NIPS-08 [Learning Bounds for Domain Adaptation](http://papers.nips.cc/paper/3212-learning-bounds-for-domain-adaptation)
 
 	- 许多研究者在迁移学习的研究中会应用MMD(Maximum Mean Discrepancy)这个最大均值差异来衡量不同domain之间的距离。MMD的理论文章是：
-		- MMD的提出：[A Hilbert Space Embedding for Distributions](https://link.springer.com/chapter/10.1007/978-3-540-75225-7_5) | [A Kernel Two-Sample Test](http://www.jmlr.org/papers/v13/gretton12a.html)
+		- MMD的提出：[A Hilbert Space Embedding for Distributions](https://link.springer.com/chapter/10.1007/978-3-540-75225-7_5) 以及 [A Kernel Two-Sample Test](http://www.jmlr.org/papers/v13/gretton12a.html)
 		- 多核MMD(MK-MMD)：[Optimal kernel choice for large-scale two-sample tests](http://papers.nips.cc/paper/4727-optimal-kernel-choice-for-large-scale-two-sample-tests)
 	- 理论研究方面，重点关注Alex Smola、Ben-David、Bernhard Schölkopf、Arthur Gretton等人的研究即可。
 
