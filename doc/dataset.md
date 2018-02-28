@@ -225,6 +225,11 @@ TOCOMPLETE
 
 - - -
 
+### Office+Caltech10 Decaf6
+
+Luckily, there is one article [16] that gathers the results of many popular methods on Decaf6 features. The benchmark is as the following image from that article:
+
+![](https://raw.githubusercontent.com/jindongwang/transferlearning/master/png/result_office_caltech_decaf.jpg)
 
 ### References
 
@@ -257,3 +262,5 @@ TOCOMPLETE
 [14] Venkateswara H, Eusebio J, Chakraborty S, et al. Deep hashing network for unsupervised domain adaptation[C]. CVPR 2017.
 
 [15] Daumé III H. Frustratingly easy domain adaptation[J]. arXiv preprint arXiv:0907.1815, 2009.
+
+[16] Luo L, Chen L, Hu S. Discriminative Label Consistent Domain Adaptation[J]. arXiv preprint arXiv:1802.08077, 2018.
