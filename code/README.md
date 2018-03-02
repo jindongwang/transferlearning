@@ -78,6 +78,8 @@
 	- [Keras](https://github.com/ghif/mtae)
 - Encoder based lifelong learning (ICCV-17) [30]
 	- [Matlab](https://github.com/rahafaljundi/Encoder-Based-Lifelong-learning)
+- **MECA** (Minimal-Entropy Correlation Alignment, ICLR-18) [32]
+	- [Python](https://github.com/pmorerio/minimal-entropy-correlation-alignment)	
 
 
 - - -
@@ -155,3 +157,5 @@ accepted in International Conference on Computer Vision (ICCV 2015), Santiago, C
 [30] Rannen A, Aljundi R, Blaschko M B, et al. Encoder based lifelong learning[C]//Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2017: 1320-1328.
 
 [31] Peilin Zhao and Steven C.H. Hoi. OTL: A Framework of Online Transfer Learning. ICML 2010.
+
+[32] Pietro Morerio, Jacopo Cavazza, Vittorio Murino. Minimal-Entropy Correlation Alignment for Unsupervised Deep Domain Adaptation. ICLR 2018.
