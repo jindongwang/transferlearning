@@ -81,7 +81,9 @@
 - Encoder based lifelong learning (ICCV-17) [30]
 	- [Matlab](https://github.com/rahafaljundi/Encoder-Based-Lifelong-learning)
 - **MECA** (Minimal-Entropy Correlation Alignment, ICLR-18) [32]
-	- [Python](https://github.com/pmorerio/minimal-entropy-correlation-alignment)	
+	- [Python](https://github.com/pmorerio/minimal-entropy-correlation-alignment)
+- **WAE** (Wasserstein Auto-Encoders, ICLR-18) [34]
+	- [Python(Tensorflow)](https://github.com/tolstikhin/wae)
 
 
 - - -
@@ -163,3 +165,5 @@ accepted in International Conference on Computer Vision (ICCV 2015), Santiago, C
 [32] Pietro Morerio, Jacopo Cavazza, Vittorio Murino. Minimal-Entropy Correlation Alignment for Unsupervised Deep Domain Adaptation. ICLR 2018.
 
 [33] Sun B, Saenko K. Deep coral: Correlation alignment for deep domain adaptation[C]//European Conference on Computer Vision. Springer, Cham, 2016: 443-450.
+
+[34] Tolstikhin I, Bousquet O, Gelly S, et al. Wasserstein Auto-Encoders[J]. arXiv preprint arXiv:1711.01558, 2017.
