@@ -53,13 +53,13 @@
 - **DeepCORAL** (Deep CORAL: Correlation Alignment for Deep Domain Adaptation) [33]
 	- [PyTorch](https://github.com/SSARCandy/DeepCORAL) | [中文解读](https://ssarcandy.tw/2017/10/31/deep-coral/)
 - **DAN/JAN** (Deep Adaptation Network/Joint Adaptation Network, ICML-15,17) [9,10]
-	- [Caffe](https://github.com/thuml/Xlearn)
+	- [Caffe(Official)](https://github.com/thuml/Xlearn)
 - **RTN** (Unsupervised Domain Adaptation with Residual Transfer Networks, NIPS-16) [12]
 	- [Caffe](https://github.com/thuml/Xlearn)
 - **ADDA** (Adversarial Discriminative Domain Adaptation, arXiv-17) [13]
-	- [Python(Tensorflow)](https://github.com/erictzeng/adda)
+	- [Tensorflow(Official)](https://github.com/erictzeng/adda) | [Pytorch](https://github.com/corenel/pytorch-adda)
 - Unsupervised Domain Adaptation by Backpropagation (ICML-15) [14]
-	- [Caffe(from author)](https://github.com/ddtm/caffe/tree/grl)|[Tensorflow(third party)](https://github.com/shucunt/domain_adaptation)
+	- [Caffe(Official)](https://github.com/ddtm/caffe/tree/grl)|[Tensorflow(third party)](https://github.com/shucunt/domain_adaptation)
 - Domain-Adversarial Training of Neural Networks (JMLR-16)[17] 
 	- [Tensorflow](https://github.com/jindongwang/tf-dann)
 - Associative Domain Adaptation (ICCV-17) [18]
@@ -84,7 +84,12 @@
 	- [Python](https://github.com/pmorerio/minimal-entropy-correlation-alignment)
 - **WAE** (Wasserstein Auto-Encoders, ICLR-18) [34]
 	- [Python(Tensorflow)](https://github.com/tolstikhin/wae)
-
+- **ATDA** (Asymmetric Tri-training for Unsupervised Domain Adaptation, ICML-15) [35]
+	- [Pytorch](https://github.com/corenel/pytorch-atda#pytorch-atda)
+- **PixelDA_GAN** (Unsupervised pixel-level domain adaptation with GAN, CVPR-17) [36]
+	- [Pytorch](https://github.com/vaibhavnaagar/pixelDA_GAN)
+- **ARDA** (Adversarial Representation Learning for Domain Adaptation) [37]
+	- [Pytorch](https://github.com/corenel/pytorch-arda)
 
 - - -
 
@@ -167,3 +172,9 @@ accepted in International Conference on Computer Vision (ICCV 2015), Santiago, C
 [33] Sun B, Saenko K. Deep coral: Correlation alignment for deep domain adaptation[C]//European Conference on Computer Vision. Springer, Cham, 2016: 443-450.
 
 [34] Tolstikhin I, Bousquet O, Gelly S, et al. Wasserstein Auto-Encoders[J]. arXiv preprint arXiv:1711.01558, 2017.
+
+[35] Saito K, Ushiku Y, Harada T. Asymmetric tri-training for unsupervised domain adaptation[J]. arXiv preprint arXiv:1702.08400, 2017.
+
+[36] Bousmalis K, Silberman N, Dohan D, et al. Unsupervised pixel-level domain adaptation with generative adversarial networks[C]//The IEEE Conference on Computer Vision and Pattern Recognition (CVPR). 2017, 1(2): 7.
+
+[37] Shen J, Qu Y, Zhang W, et al. Adversarial representation learning for domain adaptation[J]. arXiv preprint arXiv:1707.01217, 2017.
