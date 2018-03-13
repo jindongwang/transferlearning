@@ -10,7 +10,7 @@
 
 - - -
 
-**Some widely used datasets for domain adaptation and transfer learning are listed here. The benchmark results of several popular algorithms can be cound in [benchmark](https://github.com/jindongwang/transferlearning/blob/master/doc/benchmark.md).**
+**If you are tired of repeating the experiments of other methods, you can directly use the [benchmark](https://github.com/jindongwang/transferlearning/blob/master/doc/benchmark.md).**
 
 *Only image datasets are listed, text datasets are to be added*
 
@@ -67,6 +67,8 @@ And the dimension of features is:
 
 This dataset was first introduced by Gong et al. [1]. I got the SURF features from the website of [1], while DeCAF features from [10].
 
+See benchmark results of many popular methods [here(SURF)](https://github.com/jindongwang/transferlearning/blob/master/doc/benchmark.md#officecaltech-surf) and [here(DeCaf)](https://github.com/jindongwang/transferlearning/blob/master/doc/benchmark.md#officecaltech10-decaf6).
+
 #### Download
 
 Download Office+Caltech SURF dataset [[pCloud](https://my.pcloud.com/publink/show?code=kZFrXk7ZifluxAGy3gjdstJBIcJv3fORIkHk)|[Baiduyun](https://pan.baidu.com/s/1bp4g7Av)]
@@ -79,6 +81,8 @@ Download Office+Caltech DeCAF dataset [[pCloud](https://my.pcloud.com/publink/sh
 ### Office-31
 
 This is the full Office dataset, which contains 31 categories from Amazon, webcam and DSLR.
+
+See benchmarks on Office-31 datasets [here](https://github.com/jindongwang/transferlearning/blob/master/doc/benchmark.md#office-31).
 
 #### Download
 
