@@ -53,6 +53,31 @@ Luckily, there is one article [16] that gathers the results of many popular meth
 
 ![](https://raw.githubusercontent.com/jindongwang/transferlearning/master/png/result_office_caltech_decaf.jpg)
 
+## Office-31
+
+More and more researches chose to compare the accuracy on Office-31 datasets. Here is the comparison of both traditional and deep methods:
+
+| Method | A - D | A - W | D - A | D - W | W-A | W-D | Average |
+|:--------------:|:-----:|:-----:|:-----:|:-----:|:----:|:----:|:-------:|
+| SVM | 55.7 | 50.6 | 46.5 | 93.1 | 43.0 | 97.4 | 64.4 |
+| TCA | 45.4 | 40.5 | 36.5 | 78.2 | 34.1 | 84.0 | 53.1 |
+| GFK | 52.0 | 48.2 | 41.8 | 86.5 | 38.6 | 87.5 | 59.1 |
+| SA | 46.2 | 42.5 | 39.3 | 78.9 | 36.3 | 80.6 | 54.0 |
+| DANN | 34.0 | 34.1 | 20.1 | 62.0 | 21.2 | 64.4 | 39.3 |
+| CORAL | 57.1 | 53.1 | 51.1 | 94.6 | 47.3 | 98.2 | 66.9 |
+| AlexNet | 63.8 | 61.6 | 51.1 | 95.4 | 49.8 | 99.0 | 70.1 |
+| ResNet | 68.9 | 68.4 | 62.5 | 96.7 | 60.7 | 99.3 | 76.1 |
+| DDC | 64.4 | 61.8 | 52.1 | 95.0 | 52.2 | 98.5 | 70.6 |
+| DAN | 67.0 | 68.5 | 54.0 | 96.0 | 53.1 | 99.0 | 72.9 |
+| RTN | 71.0 | 73.3 | 50.5 | 96.8 | 51.0 | 99.6 | 73.7 |
+| RevGrad | 72.3 | 73.0 | 53.4 | 96.4 | 51.2 | 99.2 | 74.3 |
+| DCORAL | 66.4 | 66.8 | 52.8 | 95.7 | 51.5 | 99.2 | 72.1 |
+| DUCDA | 68.3 | 68.3 | 53.6 | 96.2 | 51.6 | 99.7 | 73.0 |
+| JAN(AlexNet) | 71.8 | 74.9 | 58.3 | 96.6 | 55.0 | 99.5 | 76.0 |
+| JAN-A(AlexNet) | 72.8 | 75.2 | 57.5 | 96.6 | 56.3 | 99.6 | 76.3 |
+| JAN(ResNet) | 84.7 | 85.4 | 68.6 | 97.4 | 70.0 | 99.8 | 84.3 |
+| JAN-A(ResNet) | 85.1 | 86.0 | 69.2 | 96.7 | 70.7 | 99.7 | 84.6 |
+
 ### References
 
 [1] Gong B, Shi Y, Sha F, et al. Geodesic flow kernel for unsupervised domain adaptation[C]//Computer Vision and Pattern Recognition (CVPR), 2012 IEEE Conference on. IEEE, 2012: 2066-2073.
