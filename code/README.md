@@ -10,7 +10,11 @@
 
 ## Availiable codes for:
 
-#### Non-deep learning
+### Theory
+
+- MMD及多核MMD代码：[Matlab](https://github.com/lopezpaz/classifier_tests/tree/master/code/unit_test_mmd)
+
+### Traditional transfer learning methods
 
 - **SVM** (baseline)
 	- [Matlab](https://github.com/jindongwang/transferlearning/tree/master/code/SVM.m)
@@ -48,7 +52,7 @@
 	- [Matlab(official)](http://stevenhoi.org/otl)
 
 
-#### Deep learning
+### Deep transfer learning methods
 
 - **DeepCORAL** (Deep CORAL: Correlation Alignment for Deep Domain Adaptation) [33]
 	- [PyTorch](https://github.com/SSARCandy/DeepCORAL) | [中文解读](https://ssarcandy.tw/2017/10/31/deep-coral/)
