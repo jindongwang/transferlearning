@@ -93,7 +93,9 @@
 - **PixelDA_GAN** (Unsupervised pixel-level domain adaptation with GAN, CVPR-17) [36]
 	- [Pytorch](https://github.com/vaibhavnaagar/pixelDA_GAN)
 - **ARDA** (Adversarial Representation Learning for Domain Adaptation) [37]
-	- [Pytorch](https://github.com/corenel/pytorch-arda)
+	- [Pytorch](https://github.com/corenel/pytorch-arda)
+- **DiscoGAN** (Learning to Discover Cross-Domain Relations with Generative Adversarial Networks) [38]
+	- [Pytorch](https://github.com/carpedm20/DiscoGAN-pytorch)
 
 - - -
 
@@ -182,3 +184,5 @@ accepted in International Conference on Computer Vision (ICCV 2015), Santiago, C
 [36] Bousmalis K, Silberman N, Dohan D, et al. Unsupervised pixel-level domain adaptation with generative adversarial networks[C]//The IEEE Conference on Computer Vision and Pattern Recognition (CVPR). 2017, 1(2): 7.
 
 [37] Shen J, Qu Y, Zhang W, et al. Adversarial representation learning for domain adaptation[J]. arXiv preprint arXiv:1707.01217, 2017.
+
+[38] Kim T, Cha M, Kim H, et al. Learning to discover cross-domain relations with generative adversarial networks[J]. arXiv preprint arXiv:1703.05192, 2017.
