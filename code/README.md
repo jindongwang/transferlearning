@@ -62,10 +62,10 @@
 	- [Caffe](https://github.com/thuml/Xlearn)
 - **ADDA** (Adversarial Discriminative Domain Adaptation, arXiv-17) [13]
 	- [Tensorflow(Official)](https://github.com/erictzeng/adda) | [Pytorch](https://github.com/corenel/pytorch-adda)
-- Unsupervised Domain Adaptation by Backpropagation (ICML-15) [14]
-	- [Caffe(Official)](https://github.com/ddtm/caffe/tree/grl)|[Tensorflow(third party)](https://github.com/shucunt/domain_adaptation)
-- Domain-Adversarial Training of Neural Networks (JMLR-16)[17] 
-	- [Tensorflow](https://github.com/jindongwang/tf-dann)
+- **RevGrad** (Unsupervised Domain Adaptation by Backpropagation, ICML-15) [14]
+	- [Caffe(Official)](https://github.com/ddtm/caffe/tree/grl)|[Tensorflow(third party)](https://github.com/shucunt/domain_adaptation) | [PyTorch](https://github.com/fungtion/DANN)
+- **DANN** Domain-Adversarial Training of Neural Networks (JMLR-16)[17] 
+	- [Python(pure)](https://github.com/GRAAL-Research/domain_adversarial_neural_network) | [Tensorflow](https://github.com/jindongwang/tf-dann)
 - Associative Domain Adaptation (ICCV-17) [18]
 	- [Tensorflow](https://github.com/haeusser/learning_by_association)
 - Deep Hashing Network for Unsupervised Domain (CVPR-17) [20]
