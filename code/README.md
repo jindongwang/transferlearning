@@ -98,6 +98,8 @@
 	- [Pytorch](https://github.com/corenel/pytorch-arda)
 - **DiscoGAN** (Learning to Discover Cross-Domain Relations with Generative Adversarial Networks) [38]
 	- [Pytorch](https://github.com/carpedm20/DiscoGAN-pytorch)
+- **MADA** (Multi-Adversarial Domain Adaptation, AAAI-18) [40]
+	- [Caffe(official)](https://github.com/thuml/mada)
 
 - - -
 
@@ -190,3 +192,5 @@ accepted in International Conference on Computer Vision (ICCV 2015), Santiago, C
 [38] Kim T, Cha M, Kim H, et al. Learning to discover cross-domain relations with generative adversarial networks[J]. arXiv preprint arXiv:1703.05192, 2017.
 
 [39] Tommasi T, Caputo B. Frustratingly Easy NBNN Domain Adaptation[C]. international conference on computer vision, 2013: 897-904.
+
+[40] Pei Z, Cao Z, Long M, et al. Multi-Adversarial Domain Adaptation[C] // AAAI 2018.
