@@ -29,6 +29,7 @@
 |    [AWA](#animals-with-attributes)    |       Animal recognition      |   30475  |      DeCAF:4096 SIFT/SURF:2000    |    50   |       I      |    [5]      |
 |    [Office-Home](#office-home)    |       Object recognition      |   30475  |      Original Images    |    65   |       4 domains      |    [10]      |
 |    [Cross-dataset Testbed](#testbed)    |       Image Classification      |   *  |      Decaf7    |    40   |       3 domains     |    [15]      |
+|    [ImageCLEF](#imageclef)    |       Image Classification      |   *  |      raw    |    12   |       3 domains     |       [17]  |
 
 
 
@@ -177,6 +178,14 @@ This is a Decaf7 based cross-dataset image classification dataset. It contains 4
 [Download the Cross-dataset testbed](https://pan.baidu.com/s/1o8MeVUi)
 
 - - -
+
+### ImageCLEF
+
+This is a dataset from ImageCLEF 2014 challenge.
+
+[Download the ImageCLEF dataset](https://pan.baidu.com/s/1lx2u1SMlSamsHnAPWrAHWA)
+
+- - -
  
 For more image datasets, please refer to https://sites.google.com/site/crossdataset/home/files
 
@@ -213,3 +222,5 @@ For more image datasets, please refer to https://sites.google.com/site/crossdat
 [15] Daumé III H. Frustratingly easy domain adaptation[J]. arXiv preprint arXiv:0907.1815, 2009.
 
 [16] Luo L, Chen L, Hu S. Discriminative Label Consistent Domain Adaptation[J]. arXiv preprint arXiv:1802.08077, 2018.
+
+[17] http://imageclef.org/2014/adaptation
