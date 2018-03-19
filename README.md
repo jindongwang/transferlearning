@@ -70,6 +70,7 @@ _ _ _
 - 动手教程、代码、数据
 	- [基于深度学习和迁移学习的识花实践(Tensorflow)](https://cosx.org/2017/10/transfer-learning/)
 	- [基于Pytorch的图像分类](https://github.com/miguelgfierro/sciblog_support/blob/master/A_Gentle_Introduction_to_Transfer_Learning/Intro_Transfer_Learning.ipynb)
+	- [使用Pytorch进行finetune](https://github.com/Spandan-Madan/Pytorch_fine_tuning_Tutorial)
 
 - - -
 
