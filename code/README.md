@@ -61,7 +61,7 @@
 - **DeepCORAL** (Deep CORAL: Correlation Alignment for Deep Domain Adaptation) [33]
 	- [PyTorch](https://github.com/SSARCandy/DeepCORAL) | [中文解读](https://ssarcandy.tw/2017/10/31/deep-coral/)
 - **DAN/JAN** (Deep Adaptation Network/Joint Adaptation Network, ICML-15,17) [9,10]
-	- [Caffe(Official)](https://github.com/thuml/Xlearn)
+	- [PyTorch(Official)](https://github.com/thuml/Xlearn/tree/master/pytorch) | [Caffe(Official)](https://github.com/thuml/Xlearn)
 - **RTN** (Unsupervised Domain Adaptation with Residual Transfer Networks, NIPS-16) [12]
 	- [Caffe](https://github.com/thuml/Xlearn)
 - **ADDA** (Adversarial Discriminative Domain Adaptation, arXiv-17) [13]
