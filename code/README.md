@@ -56,6 +56,8 @@
 
 ### Deep transfer learning methods
 
+- **DaNN** (Domain Adaptive Neural Network, PRICAI-14) [41]
+	- [PyTorch](https://github.com/jindongwang/transferlearning/tree/master/code/deep/DaNN)
 - **DeepCORAL** (Deep CORAL: Correlation Alignment for Deep Domain Adaptation) [33]
 	- [PyTorch](https://github.com/SSARCandy/DeepCORAL) | [中文解读](https://ssarcandy.tw/2017/10/31/deep-coral/)
 - **DAN/JAN** (Deep Adaptation Network/Joint Adaptation Network, ICML-15,17) [9,10]
@@ -194,3 +196,5 @@ accepted in International Conference on Computer Vision (ICCV 2015), Santiago, C
 [39] Tommasi T, Caputo B. Frustratingly Easy NBNN Domain Adaptation[C]. international conference on computer vision, 2013: 897-904.
 
 [40] Pei Z, Cao Z, Long M, et al. Multi-Adversarial Domain Adaptation[C] // AAAI 2018.
+
+[41] Ghifary M, Kleijn W B, Zhang M. Domain adaptive neural networks for object recognition[C]//Pacific Rim International Conference on Artificial Intelligence. Springer, Cham, 2014: 898-904.
