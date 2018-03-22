@@ -30,7 +30,7 @@ Let's read some awesome transfer learning / domain adaptation papers!
 
 - 20180316 arXiv 用optimal transport解决domain adaptation中类别不平衡的问题：[Optimal Transport for Multi-source Domain Adaptation under Target Shift](https://arxiv.org/abs/1803.04899)
 
-- 20180315 ICLR-17 一篇综合进行two-sample test的文章：[Revisiting Classifier Two-Sample Tests](https://arxiv.org/abs/1610.06545)
+- 20180315 ICLR-17 一篇综合进行two-sample stest的文章：[Revisiting Classifier Two-Sample Tests](https://arxiv.org/abs/1610.06545)
 
 - 20180228 arXiv 一篇通过标签一致性和MMD准则进行domain adaptation的文章: [Discriminative Label Consistent Domain Adaptation](https://arxiv.org/abs/1802.08077)
 
