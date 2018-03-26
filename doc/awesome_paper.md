@@ -8,6 +8,8 @@ Let's read some awesome transfer learning / domain adaptation papers!
 
 ## 目录
 
+- [普通迁移学习 General Transfer Learning](#普通迁移学习) 
+
 - [领域自适应(非深度) Domain Adaptation (Shallow)](#领域自适应)
 
 - [在线迁移学习 Online transfer learning](#在线迁移学习)
@@ -24,7 +26,15 @@ Let's read some awesome transfer learning / domain adaptation papers!
 
 - - -
 
+### 普通迁移学习
+
+- 20180326 ICMLA-17 在类别不平衡情况下比较了一些迁移学习和传统方法的性能，并做出一些结论：[Comparing Transfer Learning and Traditional Learning Under Domain Class Imbalance](http://ieeexplore.ieee.org/abstract/document/8260654/)
+
+- - - 
+
 ### 领域自适应
+
+- 20180326 ICMLA-17 利用subsapce alignment进行迁移学习：[Transfer Learning for Large Scale Data Using Subspace Alignment](http://ieeexplore.ieee.org/abstract/document/8260772)
 
 - 20180321 CVPR-18 构建了一个迁移学习算法，用于解决跨数据集之间的person-reidenfication: [Unsupervised Cross-dataset Person Re-identification by Transfer Learning of Spatial-Temporal Patterns](https://arxiv.org/abs/1803.07293)
 
@@ -119,6 +129,8 @@ Let's read some awesome transfer learning / domain adaptation papers!
 
 ### 在线迁移学习
 
+- 20180326 考虑主动获取label的budget情况下的在线迁移学习：[Online domain adaptation by exploiting labeled features and pro-active learning](https://dl.acm.org/citation.cfm?id=3152507)
+
 - 20180128 **第一篇**在线迁移学习的文章，发表在ICML-10上，系统性地定义了在线迁移学习的任务，给出了进行在线同构和异构迁移学习的两种学习模式。[Online Transfer Learning](https://dl.acm.org/citation.cfm?id=3104478) 
     - 扩充的期刊文章发在2014年的AIJ上：[Online Transfer Learning](https://www.sciencedirect.com/science/article/pii/S0004370214000800)
     - [我的解读](https://zhuanlan.zhihu.com/p/33557802?group_id=943152232741535744)
@@ -171,6 +183,12 @@ Let's read some awesome transfer learning / domain adaptation papers!
 - - -
 
 ### 深度迁移学习
+
+- 20180326 Pattern Recognition-17 多标签迁移学习方法应用于脸部属性分类：[Multi-label Learning Based Deep Transfer Neural Network for Facial Attribute Classification](https://www.sciencedirect.com/science/article/pii/S0031320318301080)
+
+- 20180326 类似于ResNet的思想，在传统layer的ReLU之前加一个additive layer进行domain adaptation，思想简洁，效果非常好：[Layer-wise domain correction for unsupervised domain adaptation](https://link.springer.com/article/10.1631/FITEE.1700774)
+
+- 20180326 Pattern Recognition-17 基于Batch normalization提出了AdaBN，很简单：[Adaptive Batch Normalization for practical domain adaptation](http://ieeexplore.ieee.org/abstract/document/8168121/)
 
 - 20180309 arXiv 利用已有网络的先验知识来加速目标网络的训练：[Transfer Automatic Machine Learning](https://arxiv.org/abs/1803.02780)
 
@@ -234,6 +252,10 @@ Let's read some awesome transfer learning / domain adaptation papers!
 - - -
 
 #### 对抗迁移学习
+
+- 20180326 MLSP-17 把domain separation network和对抗结合起来，提出了一个对抗网络进行迁移学习：[Adversarial domain separation and adaptation](http://ieeexplore.ieee.org/abstract/document/8168121/)
+
+- 20180326 ICIP-17 类似于domain separation network，加入了对抗判别训练，同时优化分类、判别、相似度三个loss：[Semi-supervised domain adaptation via convolutional neural network](http://ieeexplore.ieee.org/abstract/document/8296801/)
 
 - 20180312 arXiv 来自Google Brain团队的[Wasserstein Auto-Encoders](https://arxiv.org/abs/1711.01558) [代码](https://arxiv.org/abs/1711.01558)
 
