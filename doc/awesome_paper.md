@@ -24,7 +24,10 @@ Let's read some awesome transfer learning / domain adaptation papers!
 
 - [传递迁移学习 Transitive Transfer Learning](#传递迁移学习)
 
+- [迁移学习用于强化学习 Transfer Learning with Reinforcement Learning](#强化迁移学习)
+
 - [应用 Applications](#应用)
+
 - - -
 
 ### 普通迁移学习
@@ -315,7 +318,16 @@ Let's read some awesome transfer learning / domain adaptation papers!
 
 - - -
 
+### 强化迁移学习
+
+- 20180404 IEEE TETCI-18 用迁移学习来玩星际争霸游戏：[StarCraft Micromanagement with Reinforcement Learning and Curriculum Transfer Learning](https://arxiv.org/abs/1804.00810)
+
+- - -
+
+
 ### 应用
+
+- 20180404 arXiv 用迁移学习进行物体检测：[Transferring Common-Sense Knowledge for Object Detection](https://arxiv.org/abs/1804.01077)
 
 - 20180402 arXiv 将迁移学习用于癌症检测：[Improve the performance of transfer learning without fine-tuning using dissimilarity-based multi-view learning for breast cancer histology images](https://arxiv.org/abs/1803.11241)
 
