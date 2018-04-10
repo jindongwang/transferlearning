@@ -327,6 +327,8 @@ Let's read some awesome transfer learning / domain adaptation papers!
 
 ### 应用
 
+- 20180410 arXiv 用迁移学习进行犯罪现场的图像匹配：[Cross-Domain Image Matching with Deep Feature Maps](https://arxiv.org/abs/1804.02367)
+
 - 20180408 ASRU-18 用迁移学习中的domain separation network进行speech recognition：[Unsupervised Adaptation with Domain Separation Networks for Robust Speech Recognition](https://arxiv.org/abs/1711.08010)
 
 - 20180408 arXiv 小数据集上的迁移学习手写体识别：[Boosting Handwriting Text Recognition in Small Databases with Transfer Learning](https://arxiv.org/abs/1804.01527)
