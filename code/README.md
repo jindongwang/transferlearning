@@ -102,7 +102,8 @@
 	- [Pytorch](https://github.com/carpedm20/DiscoGAN-pytorch)
 - **MADA** (Multi-Adversarial Domain Adaptation, AAAI-18) [40]
 	- [Caffe(official)](https://github.com/thuml/mada)
-
+- **MCD** (Maximum Classifier Discrepancy, CVPR-18) [42]
+	- [Pytorch(official)](https://github.com/mil-tokyo/MCD_DA)
 - - -
 
 #### [Code from HKUST](http://www.cse.ust.hk/TL/) [a bit old]
@@ -198,3 +199,5 @@ accepted in International Conference on Computer Vision (ICCV 2015), Santiago, C
 [40] Pei Z, Cao Z, Long M, et al. Multi-Adversarial Domain Adaptation[C] // AAAI 2018.
 
 [41] Ghifary M, Kleijn W B, Zhang M. Domain adaptive neural networks for object recognition[C]//Pacific Rim International Conference on Artificial Intelligence. Springer, Cham, 2014: 898-904.
+
+[42] Saito K, Watanabe K, Ushiku Y, et al. Maximum Classifier Discrepancy for Unsupervised Domain Adaptation[J]. arXiv preprint arXiv:1712.02560, 2017.

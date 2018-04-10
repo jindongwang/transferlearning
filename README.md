@@ -36,6 +36,7 @@ _ _ _
 
 [迁移学习文章 Awesome transfer learning papers](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
+- 20180410 CVPR-18(oral) 用两个分类器进行对抗迁移：[Maximum Classifier Discrepancy for Unsupervised Domain Adaptation](https://arxiv.org/abs/1712.02560) [代码](https://github.com/mil-tokyo/MCD_DA)
 - 20180410 arXiv 用迁移学习进行犯罪现场的图像匹配：[Cross-Domain Image Matching with Deep Feature Maps](https://arxiv.org/abs/1804.02367)
 - 20180408 ASRU-18 用迁移学习中的domain separation network进行speech recognition：[Unsupervised Adaptation with Domain Separation Networks for Robust Speech Recognition](https://arxiv.org/abs/1711.08010)
 - 20180408 arXiv 小数据集上的迁移学习手写体识别：[Boosting Handwriting Text Recognition in Small Databases with Transfer Learning](https://arxiv.org/abs/1804.01527)
@@ -43,7 +44,6 @@ _ _ _
 - 20180404 arXiv 用迁移学习进行物体检测：[Transferring Common-Sense Knowledge for Object Detection](https://arxiv.org/abs/1804.01077)
 - 20180403 arXiv 本地和云端CNN迁移融合的图片分类：[Hierarchical Transfer Convolutional Neural Networks for Image Classification](https://arxiv.org/abs/1804.00021)
 - 20180403 arXiv 选择最优的子类生成方便迁移的特征：[Class Subset Selection for Transfer Learning using Submodularity](https://arxiv.org/abs/1804.00060)
-- 20180403 CVPR-18 将样本权重应用于对抗partial transfer中：[Importance Weighted Adversarial Nets for Partial Domain Adaptation](https://arxiv.org/abs/1803.09210)
 
 [更多...](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
