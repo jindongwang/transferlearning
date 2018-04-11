@@ -196,7 +196,7 @@ This is a dataset from VisDA 2017 challenge. It contains two subdatasets, one fo
 
 [Download the VisDA-classification dataset](http://csr.bu.edu/ftp/visda17/clf/)
 
-[Download the VisDA-segmentation dataset](http://csr.bu.edu/ftp/visda17/clf/)
+[Download the VisDA-segmentation dataset](http://csr.bu.edu/ftp/visda17/seg/)
 
 - - -
  
