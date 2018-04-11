@@ -30,6 +30,7 @@
 |    [Office-Home](#office-home)    |       Object recognition      |   30475  |      Original Images    |    65   |       4 domains      |    [10]      |
 |    [Cross-dataset Testbed](#testbed)    |       Image Classification      |   *  |      Decaf7    |    40   |       3 domains     |    [15]      |
 |    [ImageCLEF](#imageclef)    |       Image Classification      |   *  |      raw    |    12   |       3 domains     |       [17]  |
+|    [VisDA](#VisDA)    |       Image Classification / segmentation      |   *  |      raw    |    12/19   |       3 domains/3 domain     |       [18]  |
 
 
 
@@ -188,6 +189,16 @@ This is a dataset from ImageCLEF 2014 challenge.
 [Download the ImageCLEF dataset](https://pan.baidu.com/s/1lx2u1SMlSamsHnAPWrAHWA)
 
 - - -
+
+### VisDA
+
+This is a dataset from VisDA 2017 challenge. It contains two subdatasets, one for image classification tasks and the other for image segmentation tasks.
+
+[Download the VisDA-classification dataset](http://csr.bu.edu/ftp/visda17/clf/)
+
+[Download the VisDA-segmentation dataset](http://csr.bu.edu/ftp/visda17/seg/)
+
+- - -
  
 For more image datasets, please refer to https://sites.google.com/site/crossdataset/home/files
 
@@ -226,3 +237,5 @@ For more image datasets, please refer to https://sites.google.com/site/crossdat
 [16] Luo L, Chen L, Hu S. Discriminative Label Consistent Domain Adaptation[J]. arXiv preprint arXiv:1802.08077, 2018.
 
 [17] http://imageclef.org/2014/adaptation
+
+[18] Peng X. VisDA: The Visual Domain Adaptation Challenge. arXiv preprint arXiv:1710.06924.
