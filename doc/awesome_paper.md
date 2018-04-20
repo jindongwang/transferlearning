@@ -337,6 +337,8 @@ Let's read some awesome transfer learning / domain adaptation papers!
 
 ### 应用
 
+- 20180419 arXiv 跨领域的推荐系统：[CoNet: Collaborative Cross Networks for Cross-Domain Recommendation](https://arxiv.org/abs/1804.06769)
+
 - 20180413 arXiv 跨模态检索：[Cross-Modal Retrieval with Implicit Concept Association](https://arxiv.org/abs/1804.04318)
 
 - 20180410 arXiv 用迁移学习进行犯罪现场的图像匹配：[Cross-Domain Image Matching with Deep Feature Maps](https://arxiv.org/abs/1804.02367)
