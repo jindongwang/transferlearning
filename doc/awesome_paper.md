@@ -337,6 +337,8 @@ Let's read some awesome transfer learning / domain adaptation papers!
 
 ### 应用
 
+- 20180421 arXiv 采用联合分布适配的深度迁移网络用于工业生产中的错误诊断：[Deep Transfer Network with Joint Distribution Adaptation: A New Intelligent Fault Diagnosis Framework for Industry Application](https://arxiv.org/abs/1804.07265)
+
 - 20180419 arXiv 跨领域的推荐系统：[CoNet: Collaborative Cross Networks for Cross-Domain Recommendation](https://arxiv.org/abs/1804.06769)
 
 - 20180413 arXiv 跨模态检索：[Cross-Modal Retrieval with Implicit Concept Association](https://arxiv.org/abs/1804.04318)
