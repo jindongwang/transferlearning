@@ -6,15 +6,28 @@
 
 > It is still **on the go**. You are welcome to contribute and suggest other methods.
 
+This document contains codes from several aspects: **tutorial**, **theory**, **traditional** methods, and **deep** methods.
+
 - - -
 
-## Availiable codes for:
+## Tutorial
 
-### Theory
+- [基于深度学习和迁移学习的识花实践(Tensorflow)](https://cosx.org/2017/10/transfer-learning/)
+
+- [基于Pytorch的图像分类](https://github.com/miguelgfierro/sciblog_support/blob/master/A_Gentle_Introduction_to_Transfer_Learning/Intro_Transfer_Learning.ipynb)
+
+- [使用Pytorch进行finetune](https://github.com/Spandan-Madan/Pytorch_fine_tuning_Tutorial)
+
+- **Tensorflow Hub** (Tensorflow library released by Google for transfer learning)
+	- [Tensorflow](https://github.com/tensorflow/hub)
+- **Pytorch CNN finetune** (Finetune tutorial for pytorch)
+	- [Pytorch](https://github.com/creafz/pytorch-cnn-finetune)
+
+## Theory
 
 - MMD及多核MMD代码：[Matlab](https://github.com/lopezpaz/classifier_tests/tree/master/code/unit_test_mmd) | [Python](https://github.com/jindongwang/transferlearning/tree/master/code/basic/mmd.py)
 
-### Traditional transfer learning methods
+## Traditional transfer learning methods
 
 - **SVM** (baseline)
 	- [Matlab](https://github.com/jindongwang/transferlearning/tree/master/code/SVM.m)
@@ -54,7 +67,7 @@
 	- [Matlab(official)](http://stevenhoi.org/otl)
 
 
-### Deep transfer learning methods
+## Deep transfer learning methods
 
 - **DaNN** (Domain Adaptive Neural Network, PRICAI-14) [41]
 	- [PyTorch](https://github.com/jindongwang/transferlearning/tree/master/code/deep/DaNN)
@@ -104,6 +117,9 @@
 	- [Caffe(official)](https://github.com/thuml/mada)
 - **MCD** (Maximum Classifier Discrepancy, CVPR-18) [42]
 	- [Pytorch(official)](https://github.com/mil-tokyo/MCD_DA)
+- Adversarial Feature Augmentation for Unsupervised Domain Adaptation (CVPR-18) [43]
+	- [Tensorflow](https://github.com/ricvolpi/adversarial-feature-augmentation)
+
 - - -
 
 #### [Code from HKUST](http://www.cse.ust.hk/TL/) [a bit old]
@@ -201,3 +217,5 @@ accepted in International Conference on Computer Vision (ICCV 2015), Santiago, C
 [41] Ghifary M, Kleijn W B, Zhang M. Domain adaptive neural networks for object recognition[C]//Pacific Rim International Conference on Artificial Intelligence. Springer, Cham, 2014: 898-904.
 
 [42] Saito K, Watanabe K, Ushiku Y, et al. Maximum Classifier Discrepancy for Unsupervised Domain Adaptation[J]. arXiv preprint arXiv:1712.02560, 2017.
+
+[43] Volpi R, Morerio P, Savarese S, et al. Adversarial Feature Augmentation for Unsupervised Domain Adaptation[J]. arXiv preprint arXiv:1711.08561, 2017.
