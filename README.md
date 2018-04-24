@@ -34,21 +34,26 @@ _ _ _
 
 ### 0.Latest
 
-[迁移学习文章 Awesome transfer learning papers](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
+[迁移学习文章汇总 Awesome transfer learning papers](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
-- 20180421 arXiv 采用联合分布适配的深度迁移网络用于工业生产中的错误诊断：[Deep Transfer Network with Joint Distribution Adaptation: A New Intelligent Fault Diagnosis Framework for Industry Application](https://arxiv.org/abs/1804.07265)
+- **arXiv专区** (arXiv上的文章较新，但未经过peer-review，慎重看待)
 
-- 20180419 arXiv 跨领域的推荐系统：[CoNet: Collaborative Cross Networks for Cross-Domain Recommendation](https://arxiv.org/abs/1804.06769)
+	- 20180424 arXiv 不同的MRI设备所带来的模型漂移问题用迁移学习方法来解决：[MR Acquisition-Invariant Representation Learning](https://arxiv.org/abs/1709.07944)
 
-- 20180419 arXiv Neural style transfer的一个survey：[Neural Style Transfer: A Review](https://arxiv.org/abs/1705.04058)
+	- 20180424 arXiv 迁移学习与课程学习(curriculum learning)结合进行了一些深度方面的探索：[Curriculum Learning by Transfer Learning: Theory and Experiments with Deep Networks](https://arxiv.org/abs/1802.03796)
 
-- 20180413 arXiv 跨模态检索：[Cross-Modal Retrieval with Implicit Concept Association](https://arxiv.org/abs/1804.04318)
+	- 20180424 arXiv 跨领域推荐，来自杨强团队：[CoNet: Collaborative Cross Networks for Cross-Domain Recommendation](https://arxiv.org/abs/1804.06769)
 
-- 20180413 NIPS-17 基于后继特征迁移的强化学习：[Successor Features for Transfer in Reinforcement Learning](https://arxiv.org/abs/1606.05312)
+	- 20180424 arXiv 跨领域对话策略迁移，来自杨强团队：[Cross-domain Dialogue Policy Transfer via Simultaneous Speech-act and Slot Alignment](https://arxiv.org/abs/1804.07691)
 
-- 20180413 arXiv 一种思想非常简单的深度迁移方法，仅考虑进行domain之间的类别概率矫正就能取得非常好的效果：[Simple Domain Adaptation with Class Prediction Uncertainty Alignment](https://arxiv.org/abs/1804.04448)
+	- 20180421 arXiv 采用联合分布适配的深度迁移网络用于工业生产中的错误诊断：[Deep Transfer Network with Joint Distribution Adaptation: A New Intelligent Fault Diagnosis Framework for Industry Application](https://arxiv.org/abs/1804.07265)
 
-[更多...](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
+
+- **最新发表论文**
+	- 20180413 NIPS-17 基于后继特征迁移的强化学习：[Successor Features for Transfer in Reinforcement Learning](https://arxiv.org/abs/1606.05312)
+
+
+[**更多...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
 - - -
 
