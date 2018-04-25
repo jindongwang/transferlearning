@@ -212,6 +212,10 @@ arXiv上的文章较新，但未经过peer-review，慎重看待
 
 ### 深度迁移学习
 
+- 20180425 CVPR-18(oral) 对不同的视觉任务进行建模，从而可以进行深层次的transfer：[Taskonomy: Disentangling Task Transfer Learning](https://arxiv.org/abs/1804.08328)
+
+- 20180425 arXiv 探索各个层对于迁移任务的作用，方便以后的迁移。比较有意思：[CactusNets: Layer Applicability as a Metric for Transfer Learning](https://arxiv.org/abs/1804.07846)
+
 - 20180410 ICLR-17 第一篇用可变RNN进行多维时间序列迁移的文章：[Variational Recurrent Adversarial Deep Domain Adaptation](https://openreview.net/forum?id=rk9eAFcxg&noteId=SJN7BGyPl)
 
 - 20180403 arXiv 本地和云端CNN迁移融合的图片分类：[Hierarchical Transfer Convolutional Neural Networks for Image Classification](https://arxiv.org/abs/1804.00021)
@@ -356,6 +360,10 @@ arXiv上的文章较新，但未经过peer-review，慎重看待
 
 
 ### 应用
+
+- 20180425 arXiv 将bagging和dropping结合起来进行迁移的一个深度网络：[A New Channel Boosted Convolution Neural Network using Transfer Learning](https://arxiv.org/abs/1804.08528)
+
+- 20180425 arXiv 迁移学习应用于自然语言任务：[Dropping Networks for Transfer Learning](Dropping Networks for Transfer Learning)
 
 - 20180421 arXiv 采用联合分布适配的深度迁移网络用于工业生产中的错误诊断：[Deep Transfer Network with Joint Distribution Adaptation: A New Intelligent Fault Diagnosis Framework for Industry Application](https://arxiv.org/abs/1804.07265)
 

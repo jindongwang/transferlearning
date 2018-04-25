@@ -36,24 +36,26 @@ _ _ _
 
 [迁移学习文章汇总 Awesome transfer learning papers](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
-- **arXiv专区** (arXiv上的文章较新，但未经过peer-review，慎重看待)
-
-	- 20180424 arXiv 不同的MRI设备所带来的模型漂移问题用迁移学习方法来解决：[MR Acquisition-Invariant Representation Learning](https://arxiv.org/abs/1709.07944)
-
-	- 20180424 arXiv 迁移学习与课程学习(curriculum learning)结合进行了一些深度方面的探索：[Curriculum Learning by Transfer Learning: Theory and Experiments with Deep Networks](https://arxiv.org/abs/1802.03796)
-
-	- 20180424 arXiv 跨领域推荐，来自杨强团队：[CoNet: Collaborative Cross Networks for Cross-Domain Recommendation](https://arxiv.org/abs/1804.06769)
-
-	- 20180424 arXiv 跨领域对话策略迁移，来自杨强团队：[Cross-domain Dialogue Policy Transfer via Simultaneous Speech-act and Slot Alignment](https://arxiv.org/abs/1804.07691)
-
-	- 20180421 arXiv 采用联合分布适配的深度迁移网络用于工业生产中的错误诊断：[Deep Transfer Network with Joint Distribution Adaptation: A New Intelligent Fault Diagnosis Framework for Industry Application](https://arxiv.org/abs/1804.07265)
-
 
 - **最新发表论文**
+
+	- 20180425 CVPR-18(oral) 对不同的视觉任务进行建模，从而可以进行深层次的transfer：[Taskonomy: Disentangling Task Transfer Learning](https://arxiv.org/abs/1804.08328)
 
 	- 20180424 CVPR-18 用GAN和迁移学习进行图像增强：[Adversarial Feature Augmentation for Unsupervised Domain Adaptation](https://arxiv.org/pdf/1711.08561.pdf)
 
 	- 20180413 NIPS-17 基于后继特征迁移的强化学习：[Successor Features for Transfer in Reinforcement Learning](https://arxiv.org/abs/1606.05312)
+
+- **arXiv专区** (arXiv上的文章较新，但未经过peer-review，慎重看待)
+
+	- 20180425 arXiv 探索各个层对于迁移任务的作用，方便以后的迁移。比较有意思：[CactusNets: Layer Applicability as a Metric for Transfer Learning](https://arxiv.org/abs/1804.07846)
+
+	- 20180425 arXiv 将bagging和dropping结合起来进行迁移的一个深度网络：[A New Channel Boosted Convolution Neural Network using Transfer Learning](https://arxiv.org/abs/1804.08528)
+
+	- 20180425 arXiv 迁移学习应用于自然语言任务：[Dropping Networks for Transfer Learning](Dropping Networks for Transfer Learning)
+
+	- 20180424 arXiv 不同的MRI设备所带来的模型漂移问题用迁移学习方法来解决：[MR Acquisition-Invariant Representation Learning](https://arxiv.org/abs/1709.07944)
+
+	- 20180424 arXiv 迁移学习与课程学习(curriculum learning)结合进行了一些深度方面的探索：[Curriculum Learning by Transfer Learning: Theory and Experiments with Deep Networks](https://arxiv.org/abs/1802.03796)
 
 
 [**更多...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
