@@ -32,22 +32,6 @@ Let's read some awesome transfer learning / domain adaptation papers!
 
 - - -
 
-### arXiv专区
-
-arXiv上的文章较新，但未经过peer-review，慎重看待
-
-- 20180424 arXiv 不同的MRI设备所带来的模型漂移问题用迁移学习方法来解决：[MR Acquisition-Invariant Representation Learning](https://arxiv.org/abs/1709.07944)
-
-- 20180424 arXiv 迁移学习与课程学习(curriculum learning)结合进行了一些深度方面的探索：[Curriculum Learning by Transfer Learning: Theory and Experiments with Deep Networks](https://arxiv.org/abs/1802.03796)
-
-- 20180424 arXiv 跨领域推荐，来自杨强团队：[CoNet: Collaborative Cross Networks for Cross-Domain Recommendation](https://arxiv.org/abs/1804.06769)
-
-- 20180424 arXiv 跨领域对话策略迁移，来自杨强团队：[Cross-domain Dialogue Policy Transfer via Simultaneous Speech-act and Slot Alignment](https://arxiv.org/abs/1804.07691)
-
-- 20180421 arXiv 采用联合分布适配的深度迁移网络用于工业生产中的错误诊断：[Deep Transfer Network with Joint Distribution Adaptation: A New Intelligent Fault Diagnosis Framework for Industry Application](https://arxiv.org/abs/1804.07265)
-
-- - -
-
 ### 普通迁移学习
 
 - 20180403 arXiv 选择最优的子类生成方便迁移的特征：[Class Subset Selection for Transfer Learning using Submodularity](https://arxiv.org/abs/1804.00060)
@@ -297,6 +281,8 @@ arXiv上的文章较新，但未经过peer-review，慎重看待
 
 #### 对抗迁移学习
 
+- 20180427 arXiv 提出了adversarial residual的概念，进行深度对抗迁移：[Unsupervised Domain Adaptation with Adversarial Residual Transform Networks](https://arxiv.org/abs/1804.09578)
+
 - 20180424 CVPR-18 用GAN和迁移学习进行图像增强：[Adversarial Feature Augmentation for Unsupervised Domain Adaptation](https://arxiv.org/pdf/1711.08561.pdf)
 
 - 20180413 arXiv 一种思想非常简单的深度迁移方法，仅考虑进行domain之间的类别概率矫正就能取得非常好的效果：[Simple Domain Adaptation with Class Prediction Uncertainty Alignment](https://arxiv.org/abs/1804.04448)
@@ -362,6 +348,8 @@ arXiv上的文章较新，但未经过peer-review，慎重看待
 
 
 ### 应用
+
+- 20180427 CVPR-18(workshop) 将深度迁移学习用于Person-reidentification： [Adaptation and Re-Identification Network: An Unsupervised Deep Transfer Learning Approach to Person Re-Identification](https://arxiv.org/abs/1804.09347)
 
 - 20180426 arXiv 迁移学习用于医学名字实体检测；[Label-aware Double Transfer Learning for Cross-Specialty Medical Named Entity Recognition](https://arxiv.org/abs/1804.09021)
 
