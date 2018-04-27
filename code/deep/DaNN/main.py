@@ -1,16 +1,14 @@
+import DaNN
+import numpy as np
 import torch
 import torch.nn as nn
 import torch.optim as optim
-import torchvision
-from torch.autograd import Variable
-import torch.nn.functional as F
-import data_loader
-import DaNN
-import mmd
-import numpy as np
 from tqdm import tqdm
 
-CUDA = True if torch.cuda.is_available() else False
+import data_loader
+import mmd
+
+DEVICE = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 LEARNING_RATE = 0.02
 MOMEMTUN = 0.05
 L2_WEIGHT = 0.003
@@ -37,13 +35,9 @@ def train(model, optimizer, epoch, data_src, data_tar):
     list_src, list_tar = list(enumerate(data_src)), list(enumerate(data_tar))
     for batch_id, (data, target) in enumerate(data_src):
         _, (x_tar, y_target) = list_tar[batch_j]
-        if CUDA:
-            model = model.cuda()
-            data, target = data.cuda(), target.cuda()
-            x_tar, y_target = x_tar.cuda(), y_target.cuda()
+        data, target = data.data.view(-1, 28 * 28).to(DEVICE), target.to(DEVICE)
+        x_tar, y_target = x_tar.view(-1, 28 * 28).to(DEVICE), y_target.to(DEVICE)
         model.train()
-        data, target = Variable(data.view(-1, 28 * 28)), Variable(target)
-        x_tar, y_target = Variable(x_tar.view(-1, 28 * 28)), Variable(y_target)
         y_src, x_src_mmd, x_tar_mmd = model(data, x_tar)
 
         loss_c = criterion(y_src, target)
@@ -54,9 +48,9 @@ def train(model, optimizer, epoch, data_src, data_tar):
         optimizer.zero_grad()
         loss.backward()
         optimizer.step()
-        total_loss_train += loss.data[0]
+        total_loss_train += loss.data
         res_i = 'Epoch: [{}/{}], Batch: [{}/{}], loss: {:.6f}'.format(
-            epoch, N_EPOCH, batch_id + 1, len(data_src), loss.data[0]
+            epoch, N_EPOCH, batch_id + 1, len(data_src), loss.data
         )
     total_loss_train /= len(data_src)
     acc = correct * 100. / len(data_src.dataset)
@@ -73,34 +67,33 @@ def test(model, data_tar, e):
     total_loss_test = 0
     correct = 0
     criterion = nn.CrossEntropyLoss()
-    for batch_id, (data, target) in enumerate(data_tar):
-        if CUDA:
-            model = model.cuda()
-            data, target = data.cuda(), target.cuda()
-        model.eval()
-        data, target = Variable(data.view(-1, 28 * 28), volatile=True), Variable(target)
-        ypred, _, _ = model(data, data)
-        loss = criterion(ypred, target)
-        pred = ypred.data.max(1)[1]  # get the index of the max log-probability
-        correct += pred.eq(target.data.view_as(pred)).cpu().sum()
-        total_loss_test += loss.data[0]
-    accuracy = correct * 100. / len(data_tar.dataset)
-    res = 'Test: total loss: {:.6f}, correct: [{}/{}], testing accuracy: {:.4f}%'.format(
-        total_loss_test, correct, len(data_tar.dataset), accuracy
-    )
+    with torch.no_grad():
+        for batch_id, (data, target) in enumerate(data_tar):
+            data, target = data.view(-1,28 * 28).to(DEVICE),target.to(DEVICE)
+            model.eval()
+            ypred, _, _ = model(data, data)
+            loss = criterion(ypred, target)
+            pred = ypred.data.max(1)[1]  # get the index of the max log-probability
+            correct += pred.eq(target.data.view_as(pred)).cpu().sum()
+            total_loss_test += loss.data
+        accuracy = correct * 100. / len(data_tar.dataset)
+        res = 'Test: total loss: {:.6f}, correct: [{}/{}], testing accuracy: {:.4f}%'.format(
+            total_loss_test, correct, len(data_tar.dataset), accuracy
+        )
     tqdm.write(res)
     RESULT_TEST.append([e, total_loss_test, accuracy])
     log_test.write(res + '\n')
 
 
 if __name__ == '__main__':
-    rootdir = '../../data/office_caltech_10/'
+    rootdir = '../../../data/office_caltech_10/'
     torch.manual_seed(1)
     data_src = data_loader.load_data(
         root_dir=rootdir, domain='amazon', batch_size=BATCH_SIZE[0])
     data_tar = data_loader.load_test(
         root_dir=rootdir, domain='webcam', batch_size=BATCH_SIZE[1])
     model = DaNN.DaNN(n_input=28 * 28, n_hidden=256, n_class=10)
+    model = model.to(DEVICE)
     optimizer = optim.SGD(
         model.parameters(),
         lr=LEARNING_RATE,
