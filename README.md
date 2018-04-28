@@ -39,6 +39,8 @@ _ _ _
 
 - **最新发表论文**
 
+	- 20180428 IJCAI-18 将knowledge distilation用于transfer learning，然后进行视频分类：[Better and Faster: Knowledge Transfer from Multiple Self-supervised Learning Tasks via Graph Distillation for Video Classification](https://arxiv.org/abs/1804.10069)
+
 	- 20180427 CVPR-18(workshop) 将深度迁移学习用于Person-reidentification： [Adaptation and Re-Identification Network: An Unsupervised Deep Transfer Learning Approach to Person Re-Identification](https://arxiv.org/abs/1804.09347)
 
 	- 20180425 CVPR-18(oral) 对不同的视觉任务进行建模，从而可以进行深层次的transfer：[Taskonomy: Disentangling Task Transfer Learning](https://arxiv.org/abs/1804.08328)
@@ -58,12 +60,6 @@ _ _ _
 	- 20180425 arXiv 探索各个层对于迁移任务的作用，方便以后的迁移。比较有意思：[CactusNets: Layer Applicability as a Metric for Transfer Learning](https://arxiv.org/abs/1804.07846)
 
 	- 20180425 arXiv 将bagging和dropping结合起来进行迁移的一个深度网络：[A New Channel Boosted Convolution Neural Network using Transfer Learning](https://arxiv.org/abs/1804.08528)
-
-	- 20180425 arXiv 迁移学习应用于自然语言任务：[Dropping Networks for Transfer Learning](Dropping Networks for Transfer Learning)
-
-	- 20180424 arXiv 不同的MRI设备所带来的模型漂移问题用迁移学习方法来解决：[MR Acquisition-Invariant Representation Learning](https://arxiv.org/abs/1709.07944)
-
-	- 20180424 arXiv 迁移学习与课程学习(curriculum learning)结合进行了一些深度方面的探索：[Curriculum Learning by Transfer Learning: Theory and Experiments with Deep Networks](https://arxiv.org/abs/1802.03796)
 
 
 [**更多...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
