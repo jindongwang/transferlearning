@@ -119,6 +119,10 @@ This document contains codes from several aspects: **tutorial**, **theory**, **t
 	- [Pytorch(official)](https://github.com/mil-tokyo/MCD_DA)
 - Adversarial Feature Augmentation for Unsupervised Domain Adaptation (CVPR-18) [43]
 	- [Tensorflow](https://github.com/ricvolpi/adversarial-feature-augmentation)
+- Deep Mutual Learning (CVPR 2018) [44]
+	- [Tensorflow](https://github.com/YingZhangDUT/Deep-Mutual-Learning)
+- Self-ensembling for visual domain adaptation (ICLR 2018) [45]
+	- [Pytorch](https://github.com/Britefury/self-ensemble-visual-domain-adapt)
 
 - - -
 
@@ -219,3 +223,7 @@ accepted in International Conference on Computer Vision (ICCV 2015), Santiago, C
 [42] Saito K, Watanabe K, Ushiku Y, et al. Maximum Classifier Discrepancy for Unsupervised Domain Adaptation[J]. arXiv preprint arXiv:1712.02560, 2017.
 
 [43] Volpi R, Morerio P, Savarese S, et al. Adversarial Feature Augmentation for Unsupervised Domain Adaptation[J]. arXiv preprint arXiv:1711.08561, 2017.
+
+[44] Zhang Y, Xiang T, Hospedales T M, et al. Deep Mutual Learning[C]. CVPR 2018.
+
+[45] French G, Mackiewicz M, Fisher M. Self-ensembling for visual domain adaptation[C]//International Conference on Learning Representations. 2018.
