@@ -357,6 +357,8 @@ Let's read some awesome transfer learning / domain adaptation papers!
 
 ### 应用
 
+- 20180504 arXiv 用迁移学习进行心脏病检测分类：[ECG Heartbeat Classification: A Deep Transferable Representation](https://arxiv.org/abs/1805.00794)
+
 - 20180427 CVPR-18(workshop) 将深度迁移学习用于Person-reidentification： [Adaptation and Re-Identification Network: An Unsupervised Deep Transfer Learning Approach to Person Re-Identification](https://arxiv.org/abs/1804.09347)
 
 - 20180426 arXiv 迁移学习用于医学名字实体检测；[Label-aware Double Transfer Learning for Cross-Specialty Medical Named Entity Recognition](https://arxiv.org/abs/1804.09021)

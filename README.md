@@ -53,6 +53,8 @@ _ _ _
 
 - **arXiv专区** (arXiv上的文章较新，但未经过peer-review，慎重看待)
 
+	- 20180504 arXiv 用迁移学习进行心脏病检测分类：[ECG Heartbeat Classification: A Deep Transferable Representation](https://arxiv.org/abs/1805.00794)
+
 	- 20180501 arXiv Open set domain adaptation的对抗网络版本：[Open Set Domain Adaptation by Backpropagation](https://arxiv.org/abs/1804.10427)
 
 	- 20180427 arXiv 提出了adversarial residual的概念，进行深度对抗迁移：[Unsupervised Domain Adaptation with Adversarial Residual Transform Networks](https://arxiv.org/abs/1804.09578)
@@ -60,10 +62,6 @@ _ _ _
 	- 20180426 arXiv 深度学习中的参数如何进行迁移？（杨强团队）：[Parameter Transfer Unit for Deep Neural Networks](https://arxiv.org/abs/1804.08613)
 
 	- 20180426 arXiv 迁移学习用于医学名字实体检测；[Label-aware Double Transfer Learning for Cross-Specialty Medical Named Entity Recognition](https://arxiv.org/abs/1804.09021)
-
-	- 20180425 arXiv 探索各个层对于迁移任务的作用，方便以后的迁移。比较有意思：[CactusNets: Layer Applicability as a Metric for Transfer Learning](https://arxiv.org/abs/1804.07846)
-
-	- 20180425 arXiv 将bagging和dropping结合起来进行迁移的一个深度网络：[A New Channel Boosted Convolution Neural Network using Transfer Learning](https://arxiv.org/abs/1804.08528)
 
 
 [**更多...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
