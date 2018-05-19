@@ -51,6 +51,8 @@ _ _ _
 
 - **arXiv专区** (arXiv上的文章较新，但未经过peer-review，慎重看待)
 
+	- 20180519 arXiv 用迁移学习进行肢体语言识别：[Optimization of Transfer Learning for Sign Language Recognition Targeting Mobile Platform](https://arxiv.org/abs/1805.06618)
+
 	- 20180516 arXiv 探索了强化学习中的任务迁移：[Adversarial Task Transfer from Preference](https://arxiv.org/abs/1805.04686)
 
 	- 20180508 arXiv 利用GAN，从有限数据中生成另一个domain的数据：[Transferring GANs: generating images from limited data](https://arxiv.org/abs/1805.01677)
@@ -60,10 +62,6 @@ _ _ _
 	- 20180501 arXiv Open set domain adaptation的对抗网络版本：[Open Set Domain Adaptation by Backpropagation](https://arxiv.org/abs/1804.10427)
 
 	- 20180427 arXiv 提出了adversarial residual的概念，进行深度对抗迁移：[Unsupervised Domain Adaptation with Adversarial Residual Transform Networks](https://arxiv.org/abs/1804.09578)
-
-	- 20180426 arXiv 深度学习中的参数如何进行迁移？（杨强团队）：[Parameter Transfer Unit for Deep Neural Networks](https://arxiv.org/abs/1804.08613)
-
-	- 20180426 arXiv 迁移学习用于医学名字实体检测；[Label-aware Double Transfer Learning for Cross-Specialty Medical Named Entity Recognition](https://arxiv.org/abs/1804.09021)
 
 
 [**更多...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
