@@ -371,6 +371,8 @@ Let's read some awesome transfer learning / domain adaptation papers!
 
 ### 应用
 
+- 20180529 arXiv 迁移学习用于表情识别：[Meta Transfer Learning for Facial Emotion Recognition](https://arxiv.org/abs/1805.09946)
+
 - 20180524 KDD-18 用迁移学习方法进行人们的ID迁移：[Learning and Transferring IDs Representation in E-commerce](https://arxiv.org/abs/1712.08289)
 
 - 20180519 arXiv 用迁移学习进行物体检测，200帧/秒：[Object detection at 200 Frames Per Second](https://arxiv.org/abs/1804.04775)
