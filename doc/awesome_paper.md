@@ -202,6 +202,8 @@ Let's read some awesome transfer learning / domain adaptation papers!
 
 ### 深度迁移学习
 
+- 20180530 arXiv 用于深度网络的鲁棒性domain adaptation方法：[Robust Unsupervised Domain Adaptation for Neural Networks via Moment Alignment](https://arxiv.org/abs/1711.06114)
+
 - 20180522 arXiv 用CNN进行跨领域的属性学习：[Cross-domain attribute representation based on convolutional neural network](https://arxiv.org/abs/1805.07295)
 
 - 20180428 CVPR-18 相互协同学习：[Deep Mutual Learning](https://github.com/YingZhangDUT/Deep-Mutual-Learning)
@@ -358,6 +360,8 @@ Let's read some awesome transfer learning / domain adaptation papers!
 
 ### 强化迁移学习
 
+- 20180530 ICML-18 强化迁移学习：[Importance Weighted Transfer of Samples in Reinforcement Learning](https://arxiv.org/abs/1805.10886)
+
 - 20180524 arXiv 用深度强化学习的方法学习domain adaptation中的采样策略：[Learning Sampling Policies for Domain Adaptation](https://arxiv.org/abs/1805.07641)
 
 - 20180516 arXiv 探索了强化学习中的任务迁移：[Adversarial Task Transfer from Preference](https://arxiv.org/abs/1805.04686)
@@ -370,6 +374,8 @@ Let's read some awesome transfer learning / domain adaptation papers!
 
 
 ### 应用
+
+- 20180530 MNRAS 用迁移学习检测银河星系兼并：[Using transfer learning to detect galaxy mergers](https://arxiv.org/abs/1805.10289)
 
 - 20180529 arXiv 迁移学习用于表情识别：[Meta Transfer Learning for Facial Emotion Recognition](https://arxiv.org/abs/1805.09946)
 

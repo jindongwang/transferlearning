@@ -39,6 +39,10 @@ _ _ _
 
 - **最新发表论文**
 
+	- 20180530 ICML-18 强化迁移学习：[Importance Weighted Transfer of Samples in Reinforcement Learning](https://arxiv.org/abs/1805.10886)
+
+	- 20180530 MNRAS 用迁移学习检测银河星系兼并：[Using transfer learning to detect galaxy mergers](https://arxiv.org/abs/1805.10289)
+
 	- 20180524 KDD-18 用迁移学习方法进行人们的ID迁移：[Learning and Transferring IDs Representation in E-commerce](https://arxiv.org/abs/1712.08289)
 
 	- 20180516 ACL-18 将对抗迁移学习用于危机状态下的舆情分析：[Domain Adaptation with Adversarial Training and Graph Embeddings](https://arxiv.org/abs/1805.05151)
@@ -47,11 +51,9 @@ _ _ _
 
 	- 20180428 CVPR-18 相互协同学习：[Deep Mutual Learning](https://github.com/YingZhangDUT/Deep-Mutual-Learning)
 
-	- 20180428 ICLR-18 自集成学习用于domain adaptation：[Self-ensembling for visual domain adaptation](https://github.com/Britefury/self-ensemble-visual-domain-adapt)
-
-	- 20180428 IJCAI-18 将knowledge distilation用于transfer learning，然后进行视频分类：[Better and Faster: Knowledge Transfer from Multiple Self-supervised Learning Tasks via Graph Distillation for Video Classification](https://arxiv.org/abs/1804.10069)
-
 - **arXiv专区** (arXiv上的文章较新，但未经过peer-review，慎重看待)
+
+	- 20180530 arXiv 用于深度网络的鲁棒性domain adaptation方法：[Robust Unsupervised Domain Adaptation for Neural Networks via Moment Alignment](https://arxiv.org/abs/1711.06114)
 
 	- 20180529 arXiv 迁移学习用于表情识别：[Meta Transfer Learning for Facial Emotion Recognition](https://arxiv.org/abs/1805.09946)
 
@@ -66,12 +68,6 @@ _ _ _
 	- 20180519 arXiv 用迁移学习进行物体检测，200帧/秒：[Object detection at 200 Frames Per Second](https://arxiv.org/abs/1804.04775)
 
 	- 20180519 arXiv 用迁移学习进行肢体语言识别：[Optimization of Transfer Learning for Sign Language Recognition Targeting Mobile Platform](https://arxiv.org/abs/1805.06618)
-
-	- 20180516 arXiv 探索了强化学习中的任务迁移：[Adversarial Task Transfer from Preference](https://arxiv.org/abs/1805.04686)
-
-	- 20180508 arXiv 利用GAN，从有限数据中生成另一个domain的数据：[Transferring GANs: generating images from limited data](https://arxiv.org/abs/1805.01677)
-
-	- 20180504 arXiv 用迁移学习进行心脏病检测分类：[ECG Heartbeat Classification: A Deep Transferable Representation](https://arxiv.org/abs/1805.00794)
 
 
 [**更多...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
