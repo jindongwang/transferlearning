@@ -34,6 +34,8 @@ Let's read some awesome transfer learning / domain adaptation papers!
 
 ### 普通迁移学习
 
+- 20180605 arXiv 解决federated learning中的数据不同分布的问题：[Federated Learning with Non-IID Data](https://arxiv.org/abs/1806.00582)
+
 - 20180604 arXiv 在Open set domain adaptation中，用共享和私有部分重建进行问题的解决：[Learning Factorized Representations for Open-set Domain Adaptation](https://arxiv.org/abs/1805.12277)
 
 - 20180524 arXiv 探索了Multi-source迁移学习的一些理论：[Algorithms and Theory for Multiple-Source Adaptation](https://arxiv.org/abs/1805.08727)
@@ -299,6 +301,8 @@ Let's read some awesome transfer learning / domain adaptation papers!
 
 #### 对抗迁移学习
 
+- 20180605 arXiv [NAM: Non-Adversarial Unsupervised Domain Mapping](https://arxiv.org/abs/1806.00804)
+
 - 20180508 arXiv 利用GAN，从有限数据中生成另一个domain的数据：[Transferring GANs: generating images from limited data](https://arxiv.org/abs/1805.01677)
 
 - 20180501 arXiv Open set domain adaptation的对抗网络版本：[Open Set Domain Adaptation by Backpropagation](https://arxiv.org/abs/1804.10427)
@@ -376,6 +380,8 @@ Let's read some awesome transfer learning / domain adaptation papers!
 
 
 ### 应用
+
+- 20180605 arXiv 迁移学习应用于胸X光片分割：[Semantic-Aware Generative Adversarial Nets for Unsupervised Domain Adaptation in Chest X-ray Segmentation](https://arxiv.org/abs/1806.00600)
 
 - 20180604 arXiv 用CNN迁移学习进行硬化症检测：[One-shot domain adaptation in multiple sclerosis lesion segmentation using convolutional neural networks](https://arxiv.org/abs/1805.12415)
 

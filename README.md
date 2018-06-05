@@ -53,6 +53,12 @@ _ _ _
 
 - **arXiv专区** (arXiv上的文章较新，但未经过peer-review，慎重看待)
 
+	- 20180605 arXiv 解决federated learning中的数据不同分布的问题：[Federated Learning with Non-IID Data](https://arxiv.org/abs/1806.00582)
+
+	- 20180605 arXiv [NAM: Non-Adversarial Unsupervised Domain Mapping](https://arxiv.org/abs/1806.00804)
+
+	- 20180605 arXiv 迁移学习应用于胸X光片分割：[Semantic-Aware Generative Adversarial Nets for Unsupervised Domain Adaptation in Chest X-ray Segmentation](https://arxiv.org/abs/1806.00600)
+
 	- 20180604 arXiv 在Open set domain adaptation中，用共享和私有部分重建进行问题的解决：[Learning Factorized Representations for Open-set Domain Adaptation](https://arxiv.org/abs/1805.12277)
 
 	- 20180604 arXiv 用CNN迁移学习进行硬化症检测：[One-shot domain adaptation in multiple sclerosis lesion segmentation using convolutional neural networks](https://arxiv.org/abs/1805.12415)
@@ -60,18 +66,6 @@ _ _ _
 	- 20180530 arXiv 用于深度网络的鲁棒性domain adaptation方法：[Robust Unsupervised Domain Adaptation for Neural Networks via Moment Alignment](https://arxiv.org/abs/1711.06114)
 
 	- 20180529 arXiv 迁移学习用于表情识别：[Meta Transfer Learning for Facial Emotion Recognition](https://arxiv.org/abs/1805.09946)
-
-	- 20180524 arXiv 探索了Multi-source迁移学习的一些理论：[Algorithms and Theory for Multiple-Source Adaptation](https://arxiv.org/abs/1805.08727)
-
-	- 20180524 arXiv 用深度强化学习的方法学习domain adaptation中的采样策略：[Learning Sampling Policies for Domain Adaptation](https://arxiv.org/abs/1805.07641)
-
-	- 20180524 arXiv 杨强团队、与之前的learning to learning类似，这里提供了一个从经验中学习的learning to multitask框架：[Learning to Multitask](https://arxiv.org/abs/1805.07541)
-
-	- 20180522 arXiv 用CNN进行跨领域的属性学习：[Cross-domain attribute representation based on convolutional neural network](https://arxiv.org/abs/1805.07295)
-
-	- 20180519 arXiv 用迁移学习进行物体检测，200帧/秒：[Object detection at 200 Frames Per Second](https://arxiv.org/abs/1804.04775)
-
-	- 20180519 arXiv 用迁移学习进行肢体语言识别：[Optimization of Transfer Learning for Sign Language Recognition Targeting Mobile Platform](https://arxiv.org/abs/1805.06618)
 
 
 [**更多...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
