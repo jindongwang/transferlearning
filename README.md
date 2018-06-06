@@ -53,6 +53,10 @@ _ _ _
 
 - **arXiv专区** (arXiv上的文章较新，但未经过peer-review，慎重看待)
 
+	- 20180606 arXiv 将流形和统计信息联合起来构成一个domain adaptation框架：[A Unified Framework for Domain Adaptation using Metric Learning on Manifolds](https://arxiv.org/abs/1804.10834)
+
+	- 20180606 arXiv 一篇最近的非对称情况下的异构迁移学习综述：[Asymmetric Heterogeneous Transfer Learning: A Survey](https://arxiv.org/abs/1804.10834)
+
 	- 20180605 arXiv 解决federated learning中的数据不同分布的问题：[Federated Learning with Non-IID Data](https://arxiv.org/abs/1806.00582)
 
 	- 20180605 arXiv [NAM: Non-Adversarial Unsupervised Domain Mapping](https://arxiv.org/abs/1806.00804)
@@ -62,10 +66,6 @@ _ _ _
 	- 20180604 arXiv 在Open set domain adaptation中，用共享和私有部分重建进行问题的解决：[Learning Factorized Representations for Open-set Domain Adaptation](https://arxiv.org/abs/1805.12277)
 
 	- 20180604 arXiv 用CNN迁移学习进行硬化症检测：[One-shot domain adaptation in multiple sclerosis lesion segmentation using convolutional neural networks](https://arxiv.org/abs/1805.12415)
-
-	- 20180530 arXiv 用于深度网络的鲁棒性domain adaptation方法：[Robust Unsupervised Domain Adaptation for Neural Networks via Moment Alignment](https://arxiv.org/abs/1711.06114)
-
-	- 20180529 arXiv 迁移学习用于表情识别：[Meta Transfer Learning for Facial Emotion Recognition](https://arxiv.org/abs/1805.09946)
 
 
 [**更多...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
@@ -145,6 +145,8 @@ Related articles by research areas:
 	- 理论研究方面，重点关注Alex Smola、Ben-David、Bernhard Schölkopf、Arthur Gretton等人的研究即可。
 
 - 较新的综述：
+
+	- 20180606 一篇最近的非对称情况下的异构迁移学习综述：[Asymmetric Heterogeneous Transfer Learning: A Survey](https://arxiv.org/abs/1804.10834)
 	- 20180419 arXiv Neural style transfer的一个survey：[Neural Style Transfer: A Review](https://arxiv.org/abs/1705.04058)
 	- 2018 arXiv 最新发表在arXiv上的深度domain adaptation的综述：[Deep Visual Domain Adaptation: A Survey](https://arxiv.org/abs/1802.03601)
 	- 2017 多任务学习的综述，来自香港科技大学杨强团队：[A survey on multi-task learning](https://arxiv.org/abs/1707.08114)
