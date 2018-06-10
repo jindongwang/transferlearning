@@ -389,6 +389,14 @@ Let's read some awesome transfer learning / domain adaptation papers!
 
 ### 应用
 
+- 20180610 CEIG-17 将迁移学习用于插图分类：[Transfer Learning for Illustration Classification](https://arxiv.org/abs/1806.02682)
+
+- 20180610 BioNLP-18 将迁移学习用于病人实体分类：[Embedding Transfer for Low-Resource Medical Named Entity Recognition: A Case Study on Patient Mobility](https://arxiv.org/abs/1806.02814)
+
+- 20180610 MICCAI-18 将迁移学习用于前列腺图分类：[Adversarial Domain Adaptation for Classification of Prostate Histopathology Whole-Slide Images](https://arxiv.org/abs/1806.01357)
+
+- 20180610 arXiv 迁移学习用于Coffee crop分类：【A Comparative Study on Unsupervised Domain Adaptation Approaches for Coffee Crop Mapping](https://arxiv.org/abs/1806.02400)
+
 - 20180605 arXiv 迁移学习应用于胸X光片分割：[Semantic-Aware Generative Adversarial Nets for Unsupervised Domain Adaptation in Chest X-ray Segmentation](https://arxiv.org/abs/1806.00600)
 
 - 20180604 arXiv 用CNN迁移学习进行硬化症检测：[One-shot domain adaptation in multiple sclerosis lesion segmentation using convolutional neural networks](https://arxiv.org/abs/1805.12415)
