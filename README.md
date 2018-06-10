@@ -52,7 +52,7 @@ _ _ _
 
 - **arXiv专区** (arXiv上的文章较新，但未经过peer-review，慎重看待)
 
-	- 20180610 arXiv 迁移学习用于Coffee crop分类：【A Comparative Study on Unsupervised Domain Adaptation Approaches for Coffee Crop Mapping](https://arxiv.org/abs/1806.02400)
+	- 20180610 arXiv 迁移学习用于Coffee crop分类：[A Comparative Study on Unsupervised Domain Adaptation Approaches for Coffee Crop Mapping](https://arxiv.org/abs/1806.02400)
 
 	- 20180606 arXiv 将流形和统计信息联合起来构成一个domain adaptation框架：[A Unified Framework for Domain Adaptation using Metric Learning on Manifolds](https://arxiv.org/abs/1804.10834)
 
