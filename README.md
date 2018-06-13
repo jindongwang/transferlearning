@@ -39,6 +39,10 @@ _ _ _
 
 - **最新发表论文**
 
+	- 20180613 SIGIR-18 多任务学习用于推荐系统：[Explainable Recommendation via Multi-Task Learning in Opinionated Text Data](https://arxiv.org/abs/1806.03568)
+
+	- 20180613 CVPR-18 跨数据集的VQA：[Cross-Dataset Adaptation for Visual Question Answering](https://arxiv.org/abs/1806.03726)
+
 	- 20180612 ICASSP-18 迁移学习用于资源少的情感分类：[Semi-supervised and Transfer learning approaches for low resource sentiment classification](https://arxiv.org/abs/1806.02863)
 
 	- 20180612 KDD-18 多任务学习用于ICU病人数据挖掘：[Learning Tasks for Multitask Learning: Heterogenous Patient Populations in the ICU](https://arxiv.org/abs/1806.02878)
