@@ -4,6 +4,16 @@
 
 Everything about Transfer Learning (Probably the **most complete** repository?). *Your contribution is highly valued!*
 
+如果认为本仓库有用，请在你的论文和其他出版物中进行引用！ If you find this repo is helpful, please cite it as follows:
+
+```
+@Misc{transferlearning.xyz,
+howpublished = {\url{http://transferlearning.xyz}},   
+title = {Everything about Transfer Learning and Domain Adapation},  
+author = {Wang, Jindong and others}  
+}  
+```
+
 _ _ _
 
 ## 目录 Table of contents
