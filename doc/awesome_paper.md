@@ -395,6 +395,10 @@ Let's read some awesome transfer learning / domain adaptation papers!
 
 ### 应用
 
+- 20180615 Interspeech-18 很全面地探索了很多类方法在语音识别上的应用：[A Study of Enhancement, Augmentation, and Autoencoder Methods for Domain Adaptation in Distant Speech Recognition](https://arxiv.org/abs/1806.04841)
+
+- 20180615 Interspeech-18 对话中的语音识别：[Unsupervised Adaptation with Interpretable Disentangled Representations for Distant Conversational Speech Recognition](https://arxiv.org/abs/1806.04872)
+
 - 20180614 arXiv 跨数据集的person reid：[Cross-dataset Person Re-Identification Using Similarity Preserved Generative Adversarial Networks](https://arxiv.org/abs/1806.04533)
 
 - 20180614 arXiv 将迁移学习应用于多个speaker的文字到语音：[Transfer Learning from Speaker Verification to Multispeaker Text-To-Speech Synthesis](https://arxiv.org/abs/1806.04558)

@@ -39,6 +39,10 @@ _ _ _
 
 - **最新发表论文**
 
+	- 20180615 Interspeech-18 很全面地探索了很多类方法在语音识别上的应用：[A Study of Enhancement, Augmentation, and Autoencoder Methods for Domain Adaptation in Distant Speech Recognition](https://arxiv.org/abs/1806.04841)
+
+	- 20180615 Interspeech-18 对话中的语音识别：[Unsupervised Adaptation with Interpretable Disentangled Representations for Distant Conversational Speech Recognition](https://arxiv.org/abs/1806.04872)
+
 	- 20180613 SIGIR-18 多任务学习用于推荐系统：[Explainable Recommendation via Multi-Task Learning in Opinionated Text Data](https://arxiv.org/abs/1806.03568)
 
 	- 20180613 CVPR-18 跨数据集的VQA：[Cross-Dataset Adaptation for Visual Question Answering](https://arxiv.org/abs/1806.03726)
@@ -46,10 +50,6 @@ _ _ _
 	- 20180612 ICASSP-18 迁移学习用于资源少的情感分类：[Semi-supervised and Transfer learning approaches for low resource sentiment classification](https://arxiv.org/abs/1806.02863)
 
 	- 20180612 KDD-18 多任务学习用于ICU病人数据挖掘：[Learning Tasks for Multitask Learning: Heterogenous Patient Populations in the ICU](https://arxiv.org/abs/1806.02878)
-
-	- 20180612 ICML-18 利用GAN进行多个domain的联合分布优化：[JointGAN: Multi-Domain Joint Distribution Learning with Generative Adversarial Nets](https://arxiv.org/abs/1806.02978)
-
-	- 20180612 CVPR-18 泛化的Zero-shot learning：[Generalized Zero-Shot Learning via Synthesized Examples](https://arxiv.org/abs/1712.03878)
 
 
 - **arXiv专区** (arXiv上的文章较新，但未经过peer-review，慎重看待)
