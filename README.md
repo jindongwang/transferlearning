@@ -4,7 +4,7 @@
 
 Everything about Transfer Learning (Probably the **most complete** repository?). *Your contribution is highly valued!*
 
-如果认为本仓库有用，请在你的论文和其他出版物中进行引用！ If you find this repo is helpful, please cite it as follows:
+如果认为本仓库有用，请在你的论文和其他出版物中进行引用！ If you find this repo helpful, please cite it as follows:
 
 ```
 @Misc{transferlearning.xyz,
