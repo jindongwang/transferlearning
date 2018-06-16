@@ -49,6 +49,8 @@ _ _ _
 
 - **最新发表论文**
 
+	- 20180616 CVPR-18 用GAN进行domain adaptation：[Generate To Adapt: Aligning Domains using Generative Adversarial Networks](https://arxiv.org/abs/1704.01705)
+
 	- 20180615 Interspeech-18 很全面地探索了很多类方法在语音识别上的应用：[A Study of Enhancement, Augmentation, and Autoencoder Methods for Domain Adaptation in Distant Speech Recognition](https://arxiv.org/abs/1806.04841)
 
 	- 20180615 Interspeech-18 对话中的语音识别：[Unsupervised Adaptation with Interpretable Disentangled Representations for Distant Conversational Speech Recognition](https://arxiv.org/abs/1806.04872)
