@@ -49,6 +49,8 @@ _ _ _
 
 - **最新发表论文**
 
+	- 20180619 CVPR-18 将optimal transport加入adversarial中进行domain adaptation：[Re-weighted Adversarial Adaptation Network for Unsupervised Domain Adaptation](http://openaccess.thecvf.com/content_cvpr_2018/CameraReady/1224.pdf)
+
 	- 20180616 CVPR-18 用GAN进行domain adaptation：[Generate To Adapt: Aligning Domains using Generative Adversarial Networks](https://arxiv.org/abs/1704.01705)
 
 	- 20180615 Interspeech-18 很全面地探索了很多类方法在语音识别上的应用：[A Study of Enhancement, Augmentation, and Autoencoder Methods for Domain Adaptation in Distant Speech Recognition](https://arxiv.org/abs/1806.04841)
@@ -58,11 +60,6 @@ _ _ _
 	- 20180613 SIGIR-18 多任务学习用于推荐系统：[Explainable Recommendation via Multi-Task Learning in Opinionated Text Data](https://arxiv.org/abs/1806.03568)
 
 	- 20180613 CVPR-18 跨数据集的VQA：[Cross-Dataset Adaptation for Visual Question Answering](https://arxiv.org/abs/1806.03726)
-
-	- 20180612 ICASSP-18 迁移学习用于资源少的情感分类：[Semi-supervised and Transfer learning approaches for low resource sentiment classification](https://arxiv.org/abs/1806.02863)
-
-	- 20180612 KDD-18 多任务学习用于ICU病人数据挖掘：[Learning Tasks for Multitask Learning: Heterogenous Patient Populations in the ICU](https://arxiv.org/abs/1806.02878)
-
 
 - **arXiv专区** (arXiv上的文章较新，但未经过peer-review，慎重看待)
 

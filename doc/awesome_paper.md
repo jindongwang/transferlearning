@@ -311,6 +311,8 @@ Let's read some awesome transfer learning / domain adaptation papers!
 
 #### 对抗迁移学习
 
+- 20180619 CVPR-18 将optimal transport加入adversarial中进行domain adaptation：[Re-weighted Adversarial Adaptation Network for Unsupervised Domain Adaptation](http://openaccess.thecvf.com/content_cvpr_2018/CameraReady/1224.pdf)
+
 - 20180616 CVPR-18 用GAN进行domain adaptation：[Generate To Adapt: Aligning Domains using Generative Adversarial Networks](https://arxiv.org/abs/1704.01705)
 
 - 20180612 ICML-18 利用多个数据集辅助，从而提高目标领域的学习能力：[RadialGAN: Leveraging multiple datasets to improve target-specific predictive models using Generative Adversarial Networks](https://arxiv.org/abs/1802.06403)
