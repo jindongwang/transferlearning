@@ -76,5 +76,5 @@ def alexnet(pretrained=False, **kwargs):
     """
     model = AlexNet(**kwargs)
     if pretrained:
-        model.load_state_dict(torch.load('alexnet-owt-4df8aa71.pth'))
+        model.load_state_dict(model_zoo.load_url(model_urls['alexnet']))
     return model
