@@ -34,6 +34,10 @@ Let's read some awesome transfer learning / domain adaptation papers!
 
 ### 普通迁移学习
 
+- 20180622 arXiv 探索了多任务迁移学习中的不确定性：[Uncertainty in Multitask Transfer Learning](https://arxiv.org/abs/1806.07528)
+
+- 20180622 arXiv 基于深度迁移学习的度量学习：[DEFRAG: Deep Euclidean Feature Representations through Adaptation on the Grassmann Manifold](https://arxiv.org/abs/1806.07688)
+
 - 20180612 CVPR-18 泛化的Zero-shot learning：[Generalized Zero-Shot Learning via Synthesized Examples](https://arxiv.org/abs/1712.03878)
 
 - 20180605 KDD-10 迁移度量学习：[Transfer metric learning by learning task relationships](https://dl.acm.org/citation.cfm?id=1835954)
@@ -400,6 +404,8 @@ Let's read some awesome transfer learning / domain adaptation papers!
 
 
 ### 应用
+
+- 20180622 arXiv 跨领域的人脸识别用于银行认证系统：[Cross-Domain Deep Face Matching for Real Banking Security Systems](https://arxiv.org/abs/1806.07644)
 
 - 20180621 arXiv 迁移学习用于角膜组织的分类：[Transfer Learning with Human Corneal Tissues: An Analysis of Optimal Cut-Off Layer](https://arxiv.org/abs/1806.07073)
 

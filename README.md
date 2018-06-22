@@ -61,21 +61,19 @@ _ _ _
 
 	- 20180613 SIGIR-18 多任务学习用于推荐系统：[Explainable Recommendation via Multi-Task Learning in Opinionated Text Data](https://arxiv.org/abs/1806.03568)
 
-	- 20180613 CVPR-18 跨数据集的VQA：[Cross-Dataset Adaptation for Visual Question Answering](https://arxiv.org/abs/1806.03726)
-
 - **arXiv专区** (arXiv上的文章较新，但未经过peer-review，慎重看待)
+
+	- 20180622 arXiv 基于深度迁移学习的度量学习：[DEFRAG: Deep Euclidean Feature Representations through Adaptation on the Grassmann Manifold](https://arxiv.org/abs/1806.07688)
+
+	- 20180622 arXiv 跨领域的人脸识别用于银行认证系统：[Cross-Domain Deep Face Matching for Real Banking Security Systems](https://arxiv.org/abs/1806.07644)
+
+	- 20180622 arXiv 探索了多任务迁移学习中的不确定性：[Uncertainty in Multitask Transfer Learning](https://arxiv.org/abs/1806.07528)
 
 	- 20180621 arXiv 迁移学习用于角膜组织的分类：[Transfer Learning with Human Corneal Tissues: An Analysis of Optimal Cut-Off Layer](https://arxiv.org/abs/1806.07073)
 
 	- 20180621 arXiv 迁移学习用于强化学习中的图像翻译：[Transfer Learning for Related Reinforcement Learning Tasks via Image-to-Image Translation](https://arxiv.org/abs/1806.07377)
 
 	- 20180614 arXiv 跨数据集的person reid：[Cross-dataset Person Re-Identification Using Similarity Preserved Generative Adversarial Networks](https://arxiv.org/abs/1806.04533)
-
-	- 20180614 arXiv 将迁移学习应用于多个speaker的文字到语音：[Transfer Learning from Speaker Verification to Multispeaker Text-To-Speech Synthesis](https://arxiv.org/abs/1806.04558)
-
-	- 20180610 arXiv 迁移学习用于Coffee crop分类：[A Comparative Study on Unsupervised Domain Adaptation Approaches for Coffee Crop Mapping](https://arxiv.org/abs/1806.02400)
-
-	- 20180606 arXiv 将流形和统计信息联合起来构成一个domain adaptation框架：[A Unified Framework for Domain Adaptation using Metric Learning on Manifolds](https://arxiv.org/abs/1804.10834)
 
 
 [**更多...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
