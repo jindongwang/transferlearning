@@ -2,7 +2,7 @@
 
 This file contains some benchmark results of popular transfer learning (domain adaptation) methods gathered from published papers. Right now there are only results of the most popular Office+Caltech10 datasets. You're welcome to add more results.
 
-The full list of datasets can be found in [datasets](https://github.com/jindongwang/transferlearning/blob/master/doc/dataset.md).
+The full list of datasets can be found in [datasets](https://github.com/jindongwang/transferlearning/blob/master/data/dataset.md).
 
 ## Office+Caltech SURF
 

@@ -228,10 +228,9 @@ _ _ _
 
 迁移学习领域有一些公开的数据集，用来对比算法的表现。
 
-- [这里](https://github.com/jindongwang/transferlearning/blob/master/doc/dataset.md)整理了常用的公开数据集
-- [这里](https://github.com/jindongwang/transferlearning/blob/master/doc/benchmark.md)整理汇总了一些已发表的文章在这些数据集上的实验结果。
+[这里](https://github.com/jindongwang/transferlearning/blob/master/data)整理了常用的公开数据集和一些已发表的文章在这些数据集上的实验结果。
 
-Please see [HERE](https://github.com/jindongwang/transferlearning/blob/master/doc/dataset.md) for the popular transfer learning datasets and [HERE](https://github.com/jindongwang/transferlearning/blob/master/doc/benchmark.md) for some benchmark results.
+Please see [HERE](https://github.com/jindongwang/transferlearning/blob/master/data) for the popular transfer learning datasets and certain benchmark results.
 
 - - -
 

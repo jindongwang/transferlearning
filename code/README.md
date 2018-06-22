@@ -69,6 +69,8 @@ This document contains codes from several aspects: **tutorial**, **theory**, **t
 
 ## Deep transfer learning methods
 
+- **AlexNet** and **ResNet** fine-tune
+	- [PyTorch](https://github.com/jindongwang/transferlearning/tree/master/code/deep/AlexNet_ResNet)
 - **DaNN** (Domain Adaptive Neural Network, PRICAI-14) [41]
 	- [PyTorch](https://github.com/jindongwang/transferlearning/tree/master/code/deep/DaNN)
 - **DeepCORAL** (Deep CORAL: Correlation Alignment for Deep Domain Adaptation) [33]

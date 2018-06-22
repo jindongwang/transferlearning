@@ -10,7 +10,7 @@
 
 - - -
 
-**If you are tired of repeating the experiments of other methods, you can directly use the [benchmark](https://github.com/jindongwang/transferlearning/blob/master/doc/benchmark.md).**
+**If you are tired of repeating the experiments of other methods, you can directly use the [benchmark](https://github.com/jindongwang/transferlearning/blob/master/data/benchmark.md).**
 
 *Only image datasets are listed, text datasets are to be added*
 
