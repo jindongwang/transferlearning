@@ -10,7 +10,10 @@ This document contains codes from several aspects: **tutorial**, **theory**, **t
 
 - - -
 
-## Tutorial
+## Fine-tune 最简单的深度迁移学习
+
+- Fine-tune using **AlexNet** and **ResNet**
+	- [PyTorch](https://github.com/jindongwang/transferlearning/tree/master/code/AlexNet_ResNet)
 
 - [基于深度学习和迁移学习的识花实践(Tensorflow)](https://cosx.org/2017/10/transfer-learning/)
 
@@ -23,36 +26,38 @@ This document contains codes from several aspects: **tutorial**, **theory**, **t
 - **Pytorch CNN finetune** (Finetune tutorial for pytorch)
 	- [Pytorch](https://github.com/creafz/pytorch-cnn-finetune)
 
-## Theory
+## Basic distance 常用的距离度量
 
-- MMD及多核MMD代码：[Matlab](https://github.com/lopezpaz/classifier_tests/tree/master/code/unit_test_mmd) | [Python](https://github.com/jindongwang/transferlearning/tree/master/code/basic/mmd.py)
+- MMD and MK-MMD：[Matlab](https://github.com/lopezpaz/classifier_tests/tree/master/code/unit_test_mmd) | [Python](https://github.com/jindongwang/transferlearning/tree/master/code/distance/mmd.py)
+- $A$-distance: [Python](https://github.com/jindongwang/transferlearning/tree/master/code/distance/proxy_a_distance.py)
+- CORAL loss: [Python](https://github.com/jindongwang/transferlearning/tree/master/code/distance/coral_loss.py)
 
-## Traditional transfer learning methods
+## Traditional transfer learning methods  非深度迁移
 
 - **SVM** (baseline)
-	- [Matlab](https://github.com/jindongwang/transferlearning/tree/master/code/SVM.m)
+	- [Matlab](https://github.com/jindongwang/transferlearning/tree/master/code/traditional/SVM.m)
 - **TCA** (Transfer Component Anaysis, TNN-11) [1]
-	- [Matlab(Recommended!)](https://github.com/jindongwang/transferlearning/blob/master/code/MyTCA.m) | [Python](https://github.com/jindongwang/transferlearning/tree/master/code/TCA_python)
+	- [Matlab(Recommended!)](https://github.com/jindongwang/transferlearning/blob/master/code/traditional/MyTCA.m) | [Python](https://github.com/jindongwang/transferlearning/tree/master/code/traditional/TCA_python)
 - **GFK** (Geodesic Flow Kernel, CVPR-12) [2]
-	- [Matlab](https://github.com/jindongwang/transferlearning/blob/master/code/MyGFK.m)
+	- [Matlab](https://github.com/jindongwang/transferlearning/blob/master/code/traditional/MyGFK.m)
 - **DA-NBNN** (Frustratingly Easy NBNN Domain Adaptation, ICCV-13) [39]
 	- [Matlab](https://github.com/enoonIT/nbnn-nbnl/tree/master/DANBNN_demo)
 - **JDA** (Joint Distribution Adaptation, ICCV-13) [3]
-	- [Matlab](https://github.com/jindongwang/transferlearning/blob/master/code/MyJDA.m)
+	- [Matlab](https://github.com/jindongwang/transferlearning/blob/master/code/traditional/MyJDA.m)
 - **TJM** (Transfer Joint Matching, CVPR-14) [4]
-	- [Matlab](https://github.com/jindongwang/transferlearning/blob/master/code/MyTJM.m)
+	- [Matlab](https://github.com/jindongwang/transferlearning/blob/master/code/traditional/MyTJM.m)
 - **CORAL** (CORrelation ALignment, AAAI-15) [5]
-	- [Matlab](https://github.com/jindongwang/transferlearning/blob/master/code/CORAL) | [Github](https://github.com/VisionLearningGroup/CORAL)
+	- [Matlab](https://github.com/jindongwang/transferlearning/blob/master/code/traditional/CORAL) | [Github](https://github.com/VisionLearningGroup/CORAL)
 - **JGSA** (Joint Geometrical and Statistical Alignment, CVPR-17) [6]
-	- [Matlab](https://www.uow.edu.au/~jz960/codes/JGSA-r.rar)
+	- [Matlab(official)](https://www.uow.edu.au/~jz960/codes/JGSA-r.rar) | [Matlab(easy)](https://github.com/jindongwang/transferlearning/blob/master/code/traditional/CORA/MyJGSA.m)
 - **ARTL** (Adaptation Regularization, TKDE-14) [7]
-	- [Matlab](https://github.com/jindongwang/transferlearning/tree/master/code/MyARTL)
+	- [Matlab](https://github.com/jindongwang/transferlearning/tree/master/code/traditional/MyARTL)
 - **TrAdaBoost** (ICML-07)[8]
 	- [Python](https://github.com/chenchiwei/tradaboost)
 - **SA** (Subspace Alignment, ICCV-13) [11]
-	- [Matlab(official)](http://users.cecs.anu.edu.au/~basura/DA_SA/) | [Matlab](https://github.com/jindongwang/transferlearning/tree/master/code/SA_SVM.m)
+	- [Matlab(official)](http://users.cecs.anu.edu.au/~basura/DA_SA/) | [Matlab](https://github.com/jindongwang/transferlearning/tree/master/code/traditional/SA_SVM.m)
 - **BDA** (Balanced Distribution Adaptation for Transfer Learning, ICDM-17) [15]
-	- [Matlab](https://github.com/jindongwang/transferlearning/tree/master/code/BDA)
+	- [Matlab(official)](https://github.com/jindongwang/transferlearning/tree/master/code/BDA)
 - **MTLF** (Metric Transfer Learning, TKDE-17) [16]
 	- [Matlab](https://github.com/xyh2016/MTLF)
 - **Open Set Domain Adaptation** (ICCV-17) [19]
@@ -67,10 +72,8 @@ This document contains codes from several aspects: **tutorial**, **theory**, **t
 	- [Matlab(official)](http://stevenhoi.org/otl)
 
 
-## Deep transfer learning methods
+## Deep transfer learning methods  深度迁移
 
-- **AlexNet** and **ResNet** fine-tune
-	- [PyTorch](https://github.com/jindongwang/transferlearning/tree/master/code/AlexNet_ResNet)
 - **DaNN** (Domain Adaptive Neural Network, PRICAI-14) [41]
 	- [PyTorch](https://github.com/jindongwang/transferlearning/tree/master/code/deep/DaNN)
 - **DeepCORAL** (Deep CORAL: Correlation Alignment for Deep Domain Adaptation) [33]
@@ -84,12 +87,12 @@ This document contains codes from several aspects: **tutorial**, **theory**, **t
 - **RevGrad** (Unsupervised Domain Adaptation by Backpropagation, ICML-15) [14]
 	- [Caffe(Official)](https://github.com/ddtm/caffe/tree/grl)|[Tensorflow(third party)](https://github.com/shucunt/domain_adaptation) | [PyTorch](https://github.com/fungtion/DANN)
 - **DANN** Domain-Adversarial Training of Neural Networks (JMLR-16)[17] 
-	- [Python(pure)](https://github.com/GRAAL-Research/domain_adversarial_neural_network) | [Tensorflow](https://github.com/jindongwang/tf-dann)
+	- [Python(official)](https://github.com/GRAAL-Research/domain_adversarial_neural_network) | [Tensorflow](https://github.com/jindongwang/tf-dann)
 - Associative Domain Adaptation (ICCV-17) [18]
 	- [Tensorflow](https://github.com/haeusser/learning_by_association)
 - Deep Hashing Network for Unsupervised Domain (CVPR-17) [20]
 	- [Matlab](https://github.com/hemanthdv/da-hash)
-- **CCSL** (Unified Deep Supervised Domain Adaptation and Generalization, ICCV-17) [23]
+- **CCSA** (Unified Deep Supervised Domain Adaptation and Generalization, ICCV-17) [23]
 	- [Python(Keras)](https://github.com/samotiian/CCSA)
 - **MRN** (Learning Multiple Tasks with Multilinear Relationship Networks, NIPS-17) [24]
 	- [Pytorch](https://github.com/thuml/MTlearn)
@@ -121,7 +124,7 @@ This document contains codes from several aspects: **tutorial**, **theory**, **t
 	- [Pytorch(official)](https://github.com/mil-tokyo/MCD_DA)
 - Adversarial Feature Augmentation for Unsupervised Domain Adaptation (CVPR-18) [43]
 	- [Tensorflow](https://github.com/ricvolpi/adversarial-feature-augmentation)
-- Deep Mutual Learning (CVPR 2018) [44]
+- **DML** (Deep Mutual Learning, CVPR-18) [44]
 	- [Tensorflow](https://github.com/YingZhangDUT/Deep-Mutual-Learning)
 - Self-ensembling for visual domain adaptation (ICLR 2018) [45]
 	- [Pytorch](https://github.com/Britefury/self-ensemble-visual-domain-adapt)
