@@ -8,8 +8,6 @@ Let's read some awesome transfer learning / domain adaptation papers!
 
 ## 目录
 
-- [arXiv专区](#arXiv专区)
-
 - [普通迁移学习 General Transfer Learning](#普通迁移学习) 
 
 - [领域自适应(非深度) Domain Adaptation (Shallow)](#领域自适应)
@@ -405,6 +403,10 @@ Let's read some awesome transfer learning / domain adaptation papers!
 
 ### 应用
 
+- 20180627 arXiv 用迁移学习进行感染预测：[Domain Adaptation for Infection Prediction from Symptoms Based on Data from Different Study Designs and Contexts](https://arxiv.org/abs/1806.08835)
+
+- 20180627 arXiv 生成模型用于姿态迁移：[Generative Models for Pose Transfer](https://arxiv.org/abs/1806.09070)
+
 - 20180622 arXiv 跨领域的人脸识别用于银行认证系统：[Cross-Domain Deep Face Matching for Real Banking Security Systems](https://arxiv.org/abs/1806.07644)
 
 - 20180621 arXiv 迁移学习用于角膜组织的分类：[Transfer Learning with Human Corneal Tissues: An Analysis of Optimal Cut-Off Layer](https://arxiv.org/abs/1806.07073)
@@ -459,7 +461,7 @@ Let's read some awesome transfer learning / domain adaptation papers!
 
 - 20180425 arXiv 将bagging和dropping结合起来进行迁移的一个深度网络：[A New Channel Boosted Convolution Neural Network using Transfer Learning](https://arxiv.org/abs/1804.08528)
 
-- 20180425 arXiv 迁移学习应用于自然语言任务：[Dropping Networks for Transfer Learning](Dropping Networks for Transfer Learning)
+- 20180425 arXiv 迁移学习应用于自然语言任务：[Dropping Networks for Transfer Learning](https://arxiv.org/abs/1804.08501)
 
 - 20180421 arXiv 采用联合分布适配的深度迁移网络用于工业生产中的错误诊断：[Deep Transfer Network with Joint Distribution Adaptation: A New Intelligent Fault Diagnosis Framework for Industry Application](https://arxiv.org/abs/1804.07265)
 
