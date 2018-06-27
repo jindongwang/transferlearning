@@ -13,7 +13,7 @@ This document contains codes from several aspects: **tutorial**, **theory**, **t
 ## Fine-tune 最简单的深度迁移学习
 
 - Fine-tune using **AlexNet** and **ResNet**
-	- [PyTorch](https://github.com/jindongwang/transferlearning/tree/master/code/finetune_AlexNet_ResNet)
+	- [PyTorch](https://github.com/jindongwang/transferlearning/tree/master/code/deep/finetune_AlexNet_ResNet)
 
 - [基于深度学习和迁移学习的识花实践(Tensorflow)](https://cosx.org/2017/10/transfer-learning/)
 
