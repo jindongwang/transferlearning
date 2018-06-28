@@ -32,6 +32,8 @@ Let's read some awesome transfer learning / domain adaptation papers!
 
 ### 普通迁移学习
 
+- 20180628 arXiv 提出Office数据集的实验室又放出一个数据集用于close set、open set、以及object detection的迁移学习：[Syn2Real: A New Benchmark forSynthetic-to-Real Visual Domain Adaptation](https://arxiv.org/abs/1806.09755)
+
 - 20180622 arXiv 探索了多任务迁移学习中的不确定性：[Uncertainty in Multitask Transfer Learning](https://arxiv.org/abs/1806.07528)
 
 - 20180622 arXiv 基于深度迁移学习的度量学习：[DEFRAG: Deep Euclidean Feature Representations through Adaptation on the Grassmann Manifold](https://arxiv.org/abs/1806.07688)

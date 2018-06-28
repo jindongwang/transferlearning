@@ -63,6 +63,8 @@ _ _ _
 
 - **arXiv专区** (arXiv上的文章较新，但未经过peer-review，慎重看待)
 
+	- 20180628 arXiv 提出Office数据集的实验室又放出一个数据集用于close set、open set、以及object detection的迁移学习：[Syn2Real: A New Benchmark forSynthetic-to-Real Visual Domain Adaptation](https://arxiv.org/abs/1806.09755)
+
 	- 20180627 arXiv 用迁移学习进行感染预测：[Domain Adaptation for Infection Prediction from Symptoms Based on Data from Different Study Designs and Contexts](https://arxiv.org/abs/1806.08835)
 
 	- 20180627 arXiv 生成模型用于姿态迁移：[Generative Models for Pose Transfer](https://arxiv.org/abs/1806.09070)

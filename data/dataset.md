@@ -33,6 +33,8 @@
 |    [VisDA](#VisDA)    |       Image Classification / segmentation      |   *  |      raw    |    12/19   |       3 domains/3 domain     |       [18]  |
 
 
+**NEW** A new dataset released by Stanford and UC Berkeley: [Syn2Real: A New Benchmark forSynthetic-to-Real Visual Domain Adaptation](https://arxiv.org/abs/1806.09755)
+
 
 - - -
 
