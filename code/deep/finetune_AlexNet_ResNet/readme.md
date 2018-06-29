@@ -29,7 +29,15 @@ The code consists of 4 `.py` files:
 
 ## Results
 
-Currently, for task A $\rightarrow$ W, the results for AlexNet is around 46%, while ResNet reaches 66%. In contrast, the results reported in DDC (Deep domain confusion) paper said AlexNet should be 60%. In DAN (deep adaptation network), ResNet should be 80%.
+*Update: Thanks to @Wogong, I changed the data precessing step. The current accuracy is around 51%.*
+
+|             Method            | A - W |
+|:-----------------------------:|:-----:|
+| AlexNet (DDC, DAN, JAN paper) | 61.6% |
+|          Our AlexNet          |  51%  |
+|    ResNet (DAN, JAN paper)    |  80%  |
+|           Our ResNet          |  67%  |
+
 
 This is a **mystery**. I tried so hard to change the learning rate, batch size, and weight decay, but I failed to reimplement the results reported in most articles. In fact, I did **NOT** see any efforts in Pytorch to reimplement them successfully.
 

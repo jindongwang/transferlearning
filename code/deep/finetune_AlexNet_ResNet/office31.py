@@ -22,8 +22,8 @@ os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 DEVICE = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 CUDA = True if torch.cuda.is_available() else False
 LEARNING_RATE = 0.001
-BATCH_SIZE_SRC = 36
-BATCH_SIZE_TAR = 36
+BATCH_SIZE_SRC = 64
+BATCH_SIZE_TAR = 64
 L2_DECAY = 5e-4
 DROPOUT = 0.5
 N_EPOCH = 200
@@ -93,26 +93,36 @@ def load_model(name='alexnet'):
 def lr_decay(LR, n_epoch, e):
     return LR / math.pow((1 + 10 * e / n_epoch), 0.75)
 
+def get_optimizer(model_name='alexnet', learning_rate=0.0001):
+    optimizer = None
+    if model_name == 'alexnet':
+        optimizer = optim.SGD(params=[
+            {'params': model.features.parameters()},
+            {'params': model.classifier.parameters()},
+            {'params': model.nfc.parameters(), 'lr': learning_rate * 10}
+        ], lr=learning_rate, momentum=MOMENTUM, weight_decay=L2_DECAY)
+    elif model_name == 'resnet':
+        optimizer = optim.SGD(params=[
+            {'params': model.features.parameters()},
+            {'params': model.nfc.parameters(), 'lr': learning_rate * 10}
+        ], lr=learning_rate, momentum=MOMENTUM, weight_decay=L2_DECAY)
+    assert optimizer is not None
+    return optimizer
 
 if __name__ == '__main__':
     torch.manual_seed(10)
     root_dir = 'data/OFFICE31/'
     src, tar = 'amazon', 'webcam'
+    model_name = 'alexnet'
     data_src, data_tar = data_loader.load_training(root_dir, src, BATCH_SIZE_SRC), \
                          data_loader.load_testing(root_dir, tar, BATCH_SIZE_TAR)
     print('Source:{}, target:{}'.format(src, tar))
 
-    model = load_model('resnet').to(DEVICE)
-    # model = load_model('alexnet').to(DEVICE)
-    # for para in model.features.parameters():
-    #     para.requires_grad = False
+    model = load_model(model_name).to(DEVICE)
+    lrs = LEARNING_RATE
     for e in tqdm(range(1, N_EPOCH + 1)):
-        lrs = lr_decay(LEARNING_RATE, N_EPOCH, epoch)
-        optimizer = optim.SGD(params=[
-            {'params': model.features.parameters()},
-            # {'params': model.classifier.parameters()},
-            {'params': model.nfc.parameters(), 'lr': lrs * 10}
-        ], lr=lrs, momentum=MOMENTUM, weight_decay=L2_DECAY)
         tqdm.write('learning rate: ' + str(lrs))
+        get_optimizer(model_name,learning_rate=lrs)
         train(e, model, optimizer, data_src)
         test(e, model, data_tar)
+        lrs = lr_decay(1e-4, N_EPOCH, e)
