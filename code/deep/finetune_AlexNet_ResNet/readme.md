@@ -29,21 +29,18 @@ The code consists of 4 `.py` files:
 
 ## Results
 
-*Update: Thanks to @Wogong, I changed the data precessing step. The current accuracy is around 51%.*
+**Protocol**: We use a **full-training** protocol, which is taking all the samples from one domain as the source or target domain. Another similar protocol is **down-sample** protocol, which is choosing 20 or 8 samples per category to use as the domain data. Almost all the famous deep transfer learning methods (DDC, DAN, JAN, RTN, DCORAL etc.) are adopting the **down-sample** protocol. The results from two protocols are absolutely **different**.
+
+However, some publised papers are just copying the results (mostly the down-sample results) without paying attention to the protocols.
+
+Here's our results.
 
 |             Method            | A - W |
 |:-----------------------------:|:-----:|
-| AlexNet (DDC, DAN, JAN paper) | 61.6% |
-|          Our AlexNet          |  51%  |
-|    ResNet (DAN, JAN paper)    |  80%  |
-|           Our ResNet          |  67%  |
-
-
-This is a **mystery**. I tried so hard to change the learning rate, batch size, and weight decay, but I failed to reimplement the results reported in most articles. In fact, I did **NOT** see any efforts in Pytorch to reimplement them successfully.
-
-Current learning rate is set according to DDC and DAN. The learning rate of last layer is 10 times of the rest of network. And it decays according to a certain formula. (see the code)
-
-If anyone successfully reimplements the results in the paper, **PLEASE** contact me ASAP!
+|          Our AlexNet (full-training)          |  51%  |
+|           Our ResNet (full-training)        |  71%  |
+|           AlexNet in DDC, DAN, JAN, DCORAL... (down-sample)        |  61%  |
+|           ResNet in DAN, JAN... (down-sample)        |  80%  |
 
 ## References
 
