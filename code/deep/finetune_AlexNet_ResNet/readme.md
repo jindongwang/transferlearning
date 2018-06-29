@@ -29,9 +29,7 @@ The code consists of 4 `.py` files:
 
 ## Results
 
-**Protocol**: We use a **full-training** protocol, which is taking all the samples from one domain as the source or target domain. Another similar protocol is **down-sample** protocol, which is choosing 20 or 8 samples per category to use as the domain data. Almost all the famous deep transfer learning methods (DDC, DAN, JAN, RTN, DCORAL etc.) are adopting the **down-sample** protocol for Office dataset. The results from two protocols are absolutely **different**.
-
-However, some publised papers are just copying the results (mostly the down-sample results) without paying attention to the protocols.
+**Protocol**: We use a **full-training** protocol, which is taking all the samples from one domain as the source or target domain. Another similar protocol is **down-sample** protocol, which is choosing 20 or 8 samples per category to use as the domain dataThe results from two protocols are absolutely **different**.
 
 Here are our results.
 
@@ -39,8 +37,10 @@ Here are our results.
 |:-----------------------------:|:-----:|
 |          Our AlexNet (full-training)          |  51%  |
 |           Our ResNet (full-training)        |  71%  |
-|           AlexNet in DDC, DAN, JAN, DCORAL... (down-sample)        |  61%  |
-|           ResNet in DAN, JAN... (down-sample)        |  80%  |
+|           AlexNet in DDC, DAN, JAN, DCORAL... (full-training)        |  61%  |
+|           ResNet in DAN, JAN... (full-training)        |  80%  |
+
+The results are clearly much lower than the results reported in exising papers such as DDC and DAN. I don't know why. Anyone who can successfully reimplement the results, **PLEASE** contact me!
 
 ## References
 
