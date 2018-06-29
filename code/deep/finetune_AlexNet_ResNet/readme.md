@@ -33,7 +33,7 @@ The code consists of 4 `.py` files:
 
 However, some publised papers are just copying the results (mostly the down-sample results) without paying attention to the protocols.
 
-Here's our results.
+Here are our results.
 
 |             Method            | A - W |
 |:-----------------------------:|:-----:|
