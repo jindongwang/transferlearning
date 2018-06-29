@@ -29,7 +29,7 @@ The code consists of 4 `.py` files:
 
 ## Results
 
-**Protocol**: We use a **full-training** protocol, which is taking all the samples from one domain as the source or target domain. Another similar protocol is **down-sample** protocol, which is choosing 20 or 8 samples per category to use as the domain data. Almost all the famous deep transfer learning methods (DDC, DAN, JAN, RTN, DCORAL etc.) are adopting the **down-sample** protocol. The results from two protocols are absolutely **different**.
+**Protocol**: We use a **full-training** protocol, which is taking all the samples from one domain as the source or target domain. Another similar protocol is **down-sample** protocol, which is choosing 20 or 8 samples per category to use as the domain data. Almost all the famous deep transfer learning methods (DDC, DAN, JAN, RTN, DCORAL etc.) are adopting the **down-sample** protocol for Office dataset. The results from two protocols are absolutely **different**.
 
 However, some publised papers are just copying the results (mostly the down-sample results) without paying attention to the protocols.
 
