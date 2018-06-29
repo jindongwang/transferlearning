@@ -122,7 +122,7 @@ if __name__ == '__main__':
     lrs = LEARNING_RATE
     for e in tqdm(range(1, N_EPOCH + 1)):
         tqdm.write('learning rate: ' + str(lrs))
-        get_optimizer(model_name,learning_rate=lrs)
+        optimizer = get_optimizer(model_name,learning_rate=lrs)
         train(e, model, optimizer, data_src)
         test(e, model, data_tar)
         lrs = lr_decay(1e-4, N_EPOCH, e)
