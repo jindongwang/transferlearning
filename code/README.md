@@ -70,6 +70,8 @@ This document contains codes from several aspects: **tutorial**, **theory**, **t
 	- [Matlab](http://homes.esat.kuleuven.be/~raljundi/papers/LSA%20Clean%20Code.zip)
 - **OTL** (Online Transfer Learning, ICML-10) [31]
 	- [Matlab(official)](http://stevenhoi.org/otl)
+- **RWA** (Random Walking, arXiv, simple but powerful) [46]
+	- [Matlab](https://github.com/twanvl/rwa-da/tree/master/src)
 
 
 ## Deep transfer learning methods  深度迁移
@@ -232,3 +234,5 @@ accepted in International Conference on Computer Vision (ICCV 2015), Santiago, C
 [44] Zhang Y, Xiang T, Hospedales T M, et al. Deep Mutual Learning[C]. CVPR 2018.
 
 [45] French G, Mackiewicz M, Fisher M. Self-ensembling for visual domain adaptation[C]//International Conference on Learning Representations. 2018.
+
+[46] van Laarhoven T, Marchiori E. Unsupervised Domain Adaptation with Random Walks on Target Labelings[J]. arXiv preprint arXiv:1706.05335, 2017.
