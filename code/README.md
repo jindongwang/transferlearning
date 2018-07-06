@@ -72,6 +72,8 @@ This document contains codes from several aspects: **tutorial**, **theory**, **t
 	- [Matlab(official)](http://stevenhoi.org/otl)
 - **RWA** (Random Walking, arXiv, simple but powerful) [46]
 	- [Matlab](https://github.com/twanvl/rwa-da/tree/master/src)
+- **MEDA** (Manifold Embedded Distribution Alignment, ACM MM-18) [47]
+	- [Matlab(Official)](https://github.com/jindongwang/transferlearning/tree/master/code/traditional/MEDA)
 
 
 ## Deep transfer learning methods  深度迁移
@@ -236,3 +238,5 @@ accepted in International Conference on Computer Vision (ICCV 2015), Santiago, C
 [45] French G, Mackiewicz M, Fisher M. Self-ensembling for visual domain adaptation[C]//International Conference on Learning Representations. 2018.
 
 [46] van Laarhoven T, Marchiori E. Unsupervised Domain Adaptation with Random Walks on Target Labelings[J]. arXiv preprint arXiv:1706.05335, 2017.
+
+[47] Jindong Wang, Wenjie Feng, Yiqiang Chen, Han Yu, Meiyu Huang, Philip S. Yu. Visual Domain Adaptation with Manifold Embedded Distribution Alignment. ACM Multimedia conference 2018.
