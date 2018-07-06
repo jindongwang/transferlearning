@@ -18,9 +18,9 @@ MEDA achieved **state-of-the-art** performances compared to a lot of traditional
 
 The following results are from the original paper and its supplementary file.
 
-![](https://github.com/jindongwang/transferlearning/tree/master/code/traditional/MEDA/results/result1.jpg)
+![](https://github.com/jindongwang/transferlearning/tree/master/code/traditional/MEDA/results/result1.png)
 
-![](https://github.com/jindongwang/transferlearning/tree/master/code/traditional/MEDA/results/result2.jpg)
+![](https://github.com/jindongwang/transferlearning/tree/master/code/traditional/MEDA/results/result2.png)
 
 ## Reference
 
