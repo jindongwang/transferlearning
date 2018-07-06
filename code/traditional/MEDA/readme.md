@@ -18,15 +18,17 @@ MEDA achieved **state-of-the-art** performances compared to a lot of traditional
 
 The following results are from the original paper and its supplementary file.
 
-![](https://github.com/jindongwang/transferlearning/tree/master/code/traditional/MEDA/results/result1.png)
+![](https://raw.githubusercontent.com/jindongwang/transferlearning/master/code/traditional/MEDA/results/result2.png)
 
-![](https://github.com/jindongwang/transferlearning/tree/master/code/traditional/MEDA/results/result2.png)
+![](https://raw.githubusercontent.com/jindongwang/transferlearning/master/code/traditional/MEDA/results/result1.png)
 
 ## Reference
 
-```
+If you use this code, please cite it as:
+
+`
 Jindong Wang, Wenjie Feng, Yiqiang Chen, Han Yu, Meiyu Huang, Philip S. Yu. Visual Domain Adaptation with Manifold Embedded Distribution Alignment. ACM Multimedia conference 2018.
-```
+`
 
 Or in bibtex style:
 
