@@ -1,7 +1,8 @@
 # Deep Transfer Learning on PyTorch
-This is a PyTorch library for deep transfer learning. I have implemented some deep transfer methods as follows:
-* DAN: Learning Transferable Features with Deep Adaptation Networks
-* Deep Coral: Deep CORAL Correlation Alignment for Deep Domain Adaptation
+* [DaNN：Domain-adaptive Neural Network](https://github.com/jindongwang/transferlearning/tree/master/code/deep/DaNN)
+* [DAN: Learning Transferable Features with Deep Adaptation Networks](https://github.com/jindongwang/transferlearning/tree/master/code/deep/DAN)
+* [Deep Coral: Deep CORAL Correlation Alignment for Deep Domain Adaptation](https://github.com/jindongwang/transferlearning/tree/master/code/deep/DeepCoral)
+* [Finetune: finetune using AlexNet and ResNet](https://github.com/jindongwang/transferlearning/tree/master/code/deep/finetune_AlexNet_ResNet)
 
 ## Results on Office31
 | Method | A - W | D - W | W - D | A - D | D - A | W - A | Average |
