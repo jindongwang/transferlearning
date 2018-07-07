@@ -1,6 +1,6 @@
 # MEDA: Manifold Embedded Distribution Alignment
 
-This directory contains the code for paper [Visual Domain Adaptation with Manifold Embedded Distribution Alignment](http://jd92.wang) published at ACM Multimedia conference (ACM MM) 2018 as an Oral presentation. This paper is also lucky to be ranked as Top 10 papers.
+This directory contains the code for paper [Visual Domain Adaptation with Manifold Embedded Distribution Alignment](http://jd92.wang/assets/files/a11_mm18.pdf) published at ACM Multimedia conference (ACM MM) 2018 as an Oral presentation. This paper is also lucky to be ranked as Top 10 papers.
 
 ## Requirements
 
@@ -16,7 +16,7 @@ Run `demo_office_caltech_surf.m`.
 
 MEDA achieved **state-of-the-art** performances compared to a lot of traditional and deep methods as of 2018. The testing datasets are most popular domain adaptation and transfer learning datasets: Office+Caltech10, Office-31, USPS+MNIST, ImageNet+VOC2007.
 
-The following results are from the original paper and its supplementary file.
+The following results are from the original paper and its [supplementary file](https://www.jianguoyun.com/p/DRuWOFkQjKnsBRjkr2E).
 
 ![](https://raw.githubusercontent.com/jindongwang/transferlearning/master/code/traditional/MEDA/results/result2.png)
 
