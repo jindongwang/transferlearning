@@ -3,18 +3,6 @@
 
 import torch
 
-# Consider linear time MMD with a linear kernel:
-# K(f(x), f(y)) = f(x)^Tf(y)
-# h(z_i, z_j) = k(x_i, x_j) + k(y_i, y_j) - k(x_i, y_j) - k(x_j, y_i)
-#             = [f(x_i) - f(y_i)]^T[f(x_j) - f(y_j)]
-#
-# f_of_X: batch_size * k
-# f_of_Y: batch_size * k
-def mmd_linear(f_of_X, f_of_Y):
-    delta = f_of_X - f_of_Y
-    loss = torch.mean(torch.mm(delta, torch.transpose(delta, 0, 1)))
-    return loss
-
 def guassian_kernel(source, target, kernel_mul=2.0, kernel_num=5, fix_sigma=None):
     n_samples = int(source.size()[0])+int(target.size()[0])
     total = torch.cat([source, target], dim=0)
