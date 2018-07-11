@@ -3,6 +3,7 @@ This is a PyTorch library for deep transfer learning. And this is a part of anot
 * DDC：Deep Domain Confusion Maximizing for Domain Invariance
 * DAN: Learning Transferable Features with Deep Adaptation Networks
 * Deep Coral: Deep CORAL Correlation Alignment for Deep Domain Adaptation
+* Revgrad: Unsupervised Domain Adaptation with Adversarial Residual Transform Networks
 
 ## Results on Office31
 | Method | A - W | D - W | W - D | A - D | D - A | W - A | Average |
@@ -13,6 +14,8 @@ This is a PyTorch library for deep transfer learning. And this is a part of anot
 | DAN | 83.8±0.4 | 96.8±0.2 | 99.5±0.1 | 78.4±0.2 | 66.7±0.3 | 62.7±0.2 | 81.3 |
 | DANthis | 82.6±0.7 | 97.7±0.1 | 100.0±0.0 | 83.1±0.9 | 66.8±0.3 | 66.6±0.4 | 82.8 |
 | DCORALthis | 79.0±0.5 | 98.0±0.2 | 100.0±0.0 | 82.7±0.1 | 65.3±0.3 | 64.5±0.3 | 81.6 |
+| Revgrad | 82.0±0.4 | 96.9±0.2 | 99.1±0.1 | 79.7±0.4 | 68.2±0.4 | 67.4±0.5 | 82.2 |
+| Revgradthis | 82.6±0.9 | 97.8±0.2 | 100.0±0.0 | 83.3±0.9 | 66.8±0.1 | 66.1±0.5 | 82.8 |
 
 > Note that the results without **this** comes from [paper](http://ise.thss.tsinghua.edu.cn/~mlong/doc/multi-adversarial-domain-adaptation-aaai18.pdf). The results with **this** are run by myself with the code. 
 
