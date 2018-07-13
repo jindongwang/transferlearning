@@ -132,6 +132,8 @@ This document contains codes from several aspects: **tutorial**, **theory**, **t
 	- [Tensorflow](https://github.com/YingZhangDUT/Deep-Mutual-Learning)
 - Self-ensembling for visual domain adaptation (ICLR 2018) [45]
 	- [Pytorch](https://github.com/Britefury/self-ensemble-visual-domain-adapt)
+- **CyCADA** (Cycle Consistent Adversarial Domain Adaptation, ICML-18) [48]
+	- [Pytorch (Official)](https://github.com/jhoffman/cycada_release)
 
 - - -
 
@@ -240,3 +242,5 @@ accepted in International Conference on Computer Vision (ICCV 2015), Santiago, C
 [46] van Laarhoven T, Marchiori E. Unsupervised Domain Adaptation with Random Walks on Target Labelings[J]. arXiv preprint arXiv:1706.05335, 2017.
 
 [47] Jindong Wang, Wenjie Feng, Yiqiang Chen, Han Yu, Meiyu Huang, Philip S. Yu. Visual Domain Adaptation with Manifold Embedded Distribution Alignment. ACM Multimedia conference 2018.
+
+[48] Hoffman J, Tzeng E, Park T, et al. Cycada: Cycle-consistent adversarial domain adaptation[J]. arXiv preprint arXiv:1711.03213, 2017.
