@@ -49,6 +49,8 @@ _ _ _
 
 - **最新发表论文**
 
+	- 20180720 ACMMM-18 The state-of-the-art results of domain adaptation: [Visual Domain Adaptation with Manifold Embedded Distribution Alignment](https://arxiv.org/abs/1807.07258) [Code](http://transferlearning.xyz)
+
 	- 20180719 ACL-18 将迁移学习用于深度情感分析：[A Helping Hand: Transfer Learning for Deep Sentiment Analysis](http://www.aclweb.org/anthology/P18-1235)
 	
 	- 20180719 ACL-18 [Recursive Neural Structural Correspondence Network for Cross-domain Aspect and Opinion Co-Extraction](http://www.aclweb.org/anthology/P18-1202)
