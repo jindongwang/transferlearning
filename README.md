@@ -49,31 +49,46 @@ _ _ _
 
 - **最新发表论文**
 
-	- 20180720 ACMMM-18 The state-of-the-art results of domain adaptation: [Visual Domain Adaptation with Manifold Embedded Distribution Alignment](https://arxiv.org/abs/1807.07258) [Code](http://transferlearning.xyz)
+	- 20180724 ACMMM-18 [Visual Domain Adaptation with Manifold Embedded Distribution Alignment](https://arxiv.org/abs/1807.07258)
+		- English: The state-of-the-art results of domain adaptation, better than most traditional and deep methods
+		- 中文：目前效果最好的非深度迁移学习方法，领先绝大多数最近的方法
+		- Code: [MEDA](http://transferlearning.xyz)
 
-	- 20180719 ACL-18 将迁移学习用于深度情感分析：[A Helping Hand: Transfer Learning for Deep Sentiment Analysis](http://www.aclweb.org/anthology/P18-1235)
-	
-	- 20180719 ACL-18 [Recursive Neural Structural Correspondence Network for Cross-domain Aspect and Opinion Co-Extraction](http://www.aclweb.org/anthology/P18-1202)
+	- 20180724 ECCV-18 [Zero-Shot Deep Domain Adaptation](https://arxiv.org/abs/1707.01922)
+		- English: Perform zero-shot domain adaptation when there is no target domain data available 
+		- 中文：当目标领域的数据不可用时如何进行domain adaptation :
 
-	- 20180628 ICML-18 Pixel-level和feature-level的domain adaptation：[CyCADA: Cycle-Consistent Adversarial Domain Adaptation](https://arxiv.org/abs/1711.03213)
+	- 20180724 ICCSE-18 [Deep Transfer Learning for Cross-domain Activity Recognition](https://arxiv.org/abs/1807.07963)
+		- English: Provide source domain selection and activity recognition for cross-domain activity recognition
+		- 中文：提出了跨领域行为识别中的深度方法模型，以及相关的领域选择方法
 
-	- 20180620 CVPR-18 用迁移学习进行fine tune：[Large Scale Fine-Grained Categorization and Domain-Specific Transfer Learning](https://arxiv.org/abs/1806.06193)
+	- 20180724 ECCV-18 [Unsupervised Image-to-Image Translation with Stacked Cycle-Consistent Adversarial Networks](https://arxiv.org/abs/1807.08536)
+		- English: Using stacked CycleGAN to perform image-to-image translation
+		- 中文：用stacked cycleGAN进行image-to-image的翻译
+  
+	- 20180724 AIAI-18 [Improving Deep Models of Person Re-identification for Cross-Dataset Usage](https://arxiv.org/abs/1807.08526)
+		- English: apply deep models to cross-dataset RE-ID
+		- 中文：将深度迁移学习应用于跨数据集的Re-ID
 
-	- 20180619 CVPR-18 将optimal transport加入adversarial中进行domain adaptation：[Re-weighted Adversarial Adaptation Network for Unsupervised Domain Adaptation](http://openaccess.thecvf.com/content_cvpr_2018/CameraReady/1224.pdf)
+	- 20180724 ICPKR-18 [Knowledge-based Transfer Learning Explanation](https://arxiv.org/abs/1807.08372)
+		- English: Explain transfer learning things with some knowledge-based theory
+		- 中文：用一些基于knowledge的方法解释迁移学习
 
 - **arXiv专区** (arXiv上的文章较新，但未经过peer-review，慎重看待)
+
+	- 20180724 arXiv [Generalization Bounds for Unsupervised Cross-Domain Mapping with WGANs](https://arxiv.org/abs/1807.08501)
+		- English: Provide a generalization bound for unsupervised WGAN in transfer learning
+		- 中文：对迁移学习中无监督的WGAN进行了一些理论上的分析
+
+	- 20180724 arXiv [Domain Generalization via Conditional Invariant Representation](https://arxiv.org/abs/1807.08479)
+		- English: Using Conditional Invariant Representation for domain generalization
+		- 中文：生成条件不变的特征表达，用于domain generalization问题
 
 	- 20180705 arXiv 将迁移学习应用于自动驾驶中的不同天气适配：[Modular Vehicle Control for Transferring Semantic Information to Unseen Weather Conditions using GANs](https://arxiv.org/abs/1807.01001)
 
 	- 20180703 arXiv 一个使用了random walk的domain adaptation方法，异常简单，但是比绝大多数深度方法都好：[https://arxiv.org/abs/1706.05335v2](https://arxiv.org/abs/1706.05335v2) | [代码](https://github.com/twanvl/rwa-da/tree/master/src)
 
 	- 20180701 arXiv 对domain adaptation问题，基于optimal transport提出一种新的特征选择方法：[Feature Selection for Unsupervised Domain Adaptation using Optimal Transport](https://arxiv.org/abs/1806.10861)
-
-	- 20180701 arXiv 做迁移时，只用source数据，不用target数据训练：[Generalizing to Unseen Domains via Adversarial Data Augmentation](https://arxiv.org/abs/1805.12018)
-
-	- 20180628 arXiv 提出Office数据集的实验室又放出一个数据集用于close set、open set、以及object detection的迁移学习：[Syn2Real: A New Benchmark forSynthetic-to-Real Visual Domain Adaptation](https://arxiv.org/abs/1806.09755)
-
-	- 20180627 arXiv 用迁移学习进行感染预测：[Domain Adaptation for Infection Prediction from Symptoms Based on Data from Different Study Designs and Contexts](https://arxiv.org/abs/1806.08835)
 
 
 [**更多...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
@@ -83,28 +98,28 @@ _ _ _
 ### 1.迁移学习简介
 
 - 简介文字资料
-	- [简单的中文简介](https://github.com/jindongwang/transferlearning/blob/master/doc/%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0%E7%AE%80%E4%BB%8B.md)
-	- [英文PPT](http://jd92.wang/assets/files/l03_transferlearning.pdf)
-	- [中文PPT](http://jd92.wang/assets/files/l08_tl_zh.pdf)
-	- 迁移学习中的领域自适应方法: [PDF](http://jd92.wang/assets/files/l12_da.pdf) ｜ [Video](http://mp.weixin.qq.com/s?__biz=MzI5MDUyMDIxNA==&mid=2247484940&idx=2&sn=35e64e07fde9a96afbb65dbf40a945eb&chksm=ec1febf5db6862e38d5e02ff3278c61b376932a46c5628c7d9cb1769c572bfd31819c13dd468&mpshare=1&scene=1&srcid=1219JpTNZFiNDCHsTUrUxwqy#rd)
-	- 清华大学龙明盛老师的深度迁移学习报告：[PPT(三星研究院)](http://ise.thss.tsinghua.edu.cn/~mlong/doc/transfer-learning-talk.pdf)、[PPT(Google China)](http://ise.thss.tsinghua.edu.cn/~mlong/doc/deep-transfer-learning-talk.pdf)
+	- [简单的中文简介 Chinese introduction](https://github.com/jindongwang/transferlearning/blob/master/doc/%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0%E7%AE%80%E4%BB%8B.md)
+	- [PPT(English)](http://jd92.wang/assets/files/l03_transferlearning.pdf)
+	- [PPT(中文)](http://jd92.wang/assets/files/l08_tl_zh.pdf)
+	- 迁移学习中的领域自适应方法 Domain adaptation: [PDF](http://jd92.wang/assets/files/l12_da.pdf) ｜ [Video](http://mp.weixin.qq.com/s?__biz=MzI5MDUyMDIxNA==&mid=2247484940&idx=2&sn=35e64e07fde9a96afbb65dbf40a945eb&chksm=ec1febf5db6862e38d5e02ff3278c61b376932a46c5628c7d9cb1769c572bfd31819c13dd468&mpshare=1&scene=1&srcid=1219JpTNZFiNDCHsTUrUxwqy#rd)
+	- 清华大学龙明盛老师的深度迁移学习报告 Transfer learning report by Mingsheng Long @ THU：[PPT(Samsung)](http://ise.thss.tsinghua.edu.cn/~mlong/doc/transfer-learning-talk.pdf)、[PPT(Google China)](http://ise.thss.tsinghua.edu.cn/~mlong/doc/deep-transfer-learning-talk.pdf)
 
 - 入门教程
-	- [**《迁移学习简明手册》**](https://zhuanlan.zhihu.com/p/35352154) [开发维护地址](https://github.com/jindongwang/transferlearning-tutorial)
+	- [**《迁移学习简明手册》Transfer Learning Tutorial**](https://zhuanlan.zhihu.com/p/35352154) [开发维护地址](https://github.com/jindongwang/transferlearning-tutorial)
 
 - 视频教程
 	- [台湾大学李宏毅的视频讲解(中文视频)](https://www.youtube.com/watch?v=qD6iD4TFsdQ)
 	- [迁移学习中的领域自适应方法(中文)](http://mp.weixin.qq.com/s?__biz=MzI5MDUyMDIxNA==&mid=2247484940&idx=2&sn=35e64e07fde9a96afbb65dbf40a945eb&chksm=ec1febf5db6862e38d5e02ff3278c61b376932a46c5628c7d9cb1769c572bfd31819c13dd468&mpshare=1&scene=1&srcid=1219JpTNZFiNDCHsTUrUxwqy#rd)
 
-- [迁移学习领域的著名学者、代表工作及实验室介绍](https://github.com/jindongwang/transferlearning/blob/master/doc/scholar_TL.md)
+- [迁移学习领域的著名学者、代表工作及实验室介绍 Transfer Learning Scholars and Labs](https://github.com/jindongwang/transferlearning/blob/master/doc/scholar_TL.md)
 
 - 什么是[负迁移(negative transfer)](https://www.zhihu.com/question/66492194/answer/242870418)？
 
-- 动手教程、代码、数据
-	- [基于深度学习和迁移学习的识花实践(Tensorflow)](https://cosx.org/2017/10/transfer-learning/)
-	- [基于Pytorch的图像分类](https://github.com/miguelgfierro/sciblog_support/blob/master/A_Gentle_Introduction_to_Transfer_Learning/Intro_Transfer_Learning.ipynb)
-	- [使用Pytorch进行finetune](https://github.com/Spandan-Madan/Pytorch_fine_tuning_Tutorial)
-	- [基于AlexNet和ResNet的finetune](https://github.com/jindongwang/transferlearning/tree/master/code/AlexNet_ResNet)
+- 动手教程、代码、数据 Hands-on Codes
+	- [基于深度学习和迁移学习的识花实践 Using Transfer Learning for Flower Recognition](https://cosx.org/2017/10/transfer-learning/)
+	- [基于Pytorch的图像分类 Using Transfer Learning for Image Classification](https://github.com/miguelgfierro/sciblog_support/blob/master/A_Gentle_Introduction_to_Transfer_Learning/Intro_Transfer_Learning.ipynb)
+	- [使用Pytorch进行finetune Using Pytorch for Fine-tune](https://github.com/Spandan-Madan/Pytorch_fine_tuning_Tutorial)
+	- [基于AlexNet和ResNet的finetune Fine-tune based on Alexnet and Resnet](https://github.com/jindongwang/transferlearning/tree/master/code/AlexNet_ResNet)
 
 - - -
 
@@ -139,11 +154,13 @@ Related articles by research areas:
 
 ### 3.理论与综述文章
 
-- 迁移学习领域最具代表性的综述是[A survey on transfer learning](http://ieeexplore.ieee.org/abstract/document/5288526/)，发表于2010年，对迁移学习进行了比较权威的定义。
+Here are some articles on transfer learning theory and survey.
 
-- 迁移学习的**理论分析**：
+- 迁移学习领域最具代表性的综述是[A survey on transfer learning](http://ieeexplore.ieee.org/abstract/document/5288526/)，发表于2010年，对迁移学习进行了比较权威的定义。 -- The most influential survey on transfer learning.
 
-	- 迁移学习方面一直以来都比较缺乏理论分析与证明的文章，以下三篇连贯式的理论文章成为了经典：
+- 迁移学习的**理论分析** Transfer Learning Theory：
+
+	- 迁移学习方面一直以来都比较缺乏理论分析与证明的文章，以下三篇连贯式的理论文章成为了经典 Transfer learning theory：
 		- NIPS-06 [Analysis of Representations for Domain Adaptation](https://dl.acm.org/citation.cfm?id=2976474)
 		- ML-10 [A Theory of Learning from Different Domains](https://link.springer.com/article/10.1007/s10994-009-5152-4)
 		- NIPS-08 [Learning Bounds for Domain Adaptation](http://papers.nips.cc/paper/3212-learning-bounds-for-domain-adaptation)
@@ -154,7 +171,7 @@ Related articles by research areas:
 		- MMD及多核MMD代码：[Matlab](https://github.com/lopezpaz/classifier_tests/tree/master/code/unit_test_mmd) | [Python](https://github.com/jindongwang/transferlearning/tree/master/code/basic/mmd.py)
 	- 理论研究方面，重点关注Alex Smola、Ben-David、Bernhard Schölkopf、Arthur Gretton等人的研究即可。
 
-- 较新的综述：
+- 较新的综述 Latest survey：
 
 	- 2018 一篇最近的非对称情况下的异构迁移学习综述：[Asymmetric Heterogeneous Transfer Learning: A Survey](https://arxiv.org/abs/1804.10834)
 	- 2018 Neural style transfer的一个survey：[Neural Style Transfer: A Review](https://arxiv.org/abs/1705.04058)
@@ -181,7 +198,11 @@ _ _ _
 
 ### 5.迁移学习代表性研究学者
 
+Here are some transfer learning scholars and labs.
+
 **全部列表以及代表工作性见[这里](https://github.com/jindongwang/transferlearning/blob/master/doc/scholar_TL.md)**
+
+Please refer to [here](https://github.com/jindongwang/transferlearning/blob/master/doc/scholar_TL.md) to see a complete list.
 
 - [Qiang Yang](http://www.cs.ust.hk/~qyang/)：中文名杨强。香港科技大学计算机系讲座教授，迁移学习领域世界性专家。IEEE/ACM/AAAI/IAPR/AAAS fellow。[[Google scholar](https://scholar.google.com/citations?user=1LxWZLQAAAAJ&hl=zh-CN)]
 
@@ -203,6 +224,8 @@ _ _ _
 _ _ _
 
 ### 6.迁移学习相关的硕博士论文
+
+Here are some popular thesis on transfer learning.
 
 硕博士论文可以让我们很快地对迁移学习的相关领域做一些了解，同时，也能很快地了解概括相关研究者的工作。其中，比较有名的有
 
@@ -230,9 +253,11 @@ _ _ _
 
 迁移学习领域有一些公开的数据集，用来对比算法的表现。
 
+Please see [HERE](https://github.com/jindongwang/transferlearning/blob/master/data) for the popular transfer learning **datasets and certain benchmark** results.
+
 [这里](https://github.com/jindongwang/transferlearning/blob/master/data)整理了常用的公开数据集和一些已发表的文章在这些数据集上的实验结果。
 
-Please see [HERE](https://github.com/jindongwang/transferlearning/blob/master/data) for the popular transfer learning datasets and certain benchmark results.
+
 
 - - -
 

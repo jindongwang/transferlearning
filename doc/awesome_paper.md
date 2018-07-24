@@ -32,6 +32,14 @@ Let's read some awesome transfer learning / domain adaptation papers!
 
 ### 普通迁移学习
 
+- 20180724 arXiv [Domain Generalization via Conditional Invariant Representation](https://arxiv.org/abs/1807.08479)
+	- English: Using Conditional Invariant Representation for domain generalization
+	- 中文：生成条件不变的特征表达，用于domain generalization问题
+
+- 20180724 ICPKR-18 [Knowledge-based Transfer Learning Explanation](https://arxiv.org/abs/1807.08372)
+	- English: Explain transfer learning things with some knowledge-based theory
+	- 中文：用一些基于knowledge的方法解释迁移学习
+
 - 20180628 arXiv 提出Office数据集的实验室又放出一个数据集用于close set、open set、以及object detection的迁移学习：[Syn2Real: A New Benchmark forSynthetic-to-Real Visual Domain Adaptation](https://arxiv.org/abs/1806.09755)
 
 - 20180622 arXiv 探索了多任务迁移学习中的不确定性：[Uncertainty in Multitask Transfer Learning](https://arxiv.org/abs/1806.07528)
@@ -59,6 +67,11 @@ Let's read some awesome transfer learning / domain adaptation papers!
 - - - 
 
 ### 领域自适应
+
+- 20180724 ACMMM-18 [Visual Domain Adaptation with Manifold Embedded Distribution Alignment](https://arxiv.org/abs/1807.07258)
+	- English: The state-of-the-art results of domain adaptation, better than most traditional and deep methods
+	- 中文：目前效果最好的非深度迁移学习方法，领先绝大多数最近的方法
+	- Code: [MEDA](https://github.com/jindongwang/transferlearning/tree/master/code/traditional/MEDA)
 
 - 20180701 arXiv 对domain adaptation问题，基于optimal transport提出一种新的特征选择方法：[Feature Selection for Unsupervised Domain Adaptation using Optimal Transport](https://arxiv.org/abs/1806.10861)
 
@@ -224,6 +237,18 @@ Let's read some awesome transfer learning / domain adaptation papers!
 
 ### 深度迁移学习
 
+- 20180724 AIAI-18 [Improving Deep Models of Person Re-identification for Cross-Dataset Usage](https://arxiv.org/abs/1807.08526)
+	- English: apply deep models to cross-dataset RE-ID
+	- 中文：将深度迁移学习应用于跨数据集的Re-ID
+
+- 20180724 ECCV-18 [Zero-Shot Deep Domain Adaptation](https://arxiv.org/abs/1707.01922)
+	- English: Perform zero-shot domain adaptation when there is no target domain data available 
+	- 中文：当目标领域的数据不可用时如何进行domain adaptation :
+
+- 20180724 ICCSE-18 [Deep Transfer Learning for Cross-domain Activity Recognition](https://arxiv.org/abs/1807.07963)
+	- English: Provide source domain selection and activity recognition for cross-domain activity recognition
+	- 中文：提出了跨领域行为识别中的深度方法模型，以及相关的领域选择方法
+
 - 20180605 CVPR-15 深度度量迁移学习：[Deep metric transfer learning](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Hu_Deep_Transfer_Metric_2015_CVPR_paper.pdf)
 
 - 20180530 arXiv 用于深度网络的鲁棒性domain adaptation方法：[Robust Unsupervised Domain Adaptation for Neural Networks via Moment Alignment](https://arxiv.org/abs/1711.06114)
@@ -320,6 +345,14 @@ Let's read some awesome transfer learning / domain adaptation papers!
 - - -
 
 #### 对抗迁移学习
+
+- 20180724 arXiv [Generalization Bounds for Unsupervised Cross-Domain Mapping with WGANs](https://arxiv.org/abs/1807.08501)
+	- English: Provide a generalization bound for unsupervised WGAN in transfer learning
+	- 中文：对迁移学习中无监督的WGAN进行了一些理论上的分析
+
+- 20180724 ECCV-18 [Unsupervised Image-to-Image Translation with Stacked Cycle-Consistent Adversarial Networks](https://arxiv.org/abs/1807.08536)
+	- English: Using stacked CycleGAN to perform image-to-image translation
+	- 中文：用stacked cycleGAN进行image-to-image的翻译
 
 - 20180628 ICML-18 Pixel-level和feature-level的domain adaptation：[CyCADA: Cycle-Consistent Adversarial Domain Adaptation](https://arxiv.org/abs/1711.03213)
 
