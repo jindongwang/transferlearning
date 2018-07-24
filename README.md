@@ -46,8 +46,9 @@ _ _ _
 
 [迁移学习文章汇总 Awesome transfer learning papers](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
+Now we provide some preview:
 
-- **最新发表论文**
+- **最新发表论文** Latest published (accepted) papers:
 
 	- 20180724 ACMMM-18 [Visual Domain Adaptation with Manifold Embedded Distribution Alignment](https://arxiv.org/abs/1807.07258)
 		- English: The state-of-the-art results of domain adaptation, better than most traditional and deep methods
@@ -74,7 +75,7 @@ _ _ _
 		- English: Explain transfer learning things with some knowledge-based theory
 		- 中文：用一些基于knowledge的方法解释迁移学习
 
-- **arXiv专区** (arXiv上的文章较新，但未经过peer-review，慎重看待)
+- **arXiv专区** (papers on arXiv, but not accepted yet)
 
 	- 20180724 arXiv [Generalization Bounds for Unsupervised Cross-Domain Mapping with WGANs](https://arxiv.org/abs/1807.08501)
 		- English: Provide a generalization bound for unsupervised WGAN in transfer learning
