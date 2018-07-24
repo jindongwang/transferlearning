@@ -1,6 +1,6 @@
 # 迁移学习 Transfer Learning
 
-关于迁移学习的所有资料，包括：介绍、综述文章、最新文章、代表工作及其代码、常用数据集、硕博士论文等等。(可能是**目前最全**的迁移学习资料库？) *欢迎一起贡献！*
+关于迁移学习的所有资料，包括：介绍、综述文章、最新文章、代表工作及其代码、常用数据集、硕博士论文、比赛等等。(可能是**目前最全**的迁移学习资料库？) *欢迎一起贡献！*
 
 Everything about Transfer Learning (Probably the **most complete** repository?). *Your contribution is highly valued!*
 
@@ -34,6 +34,8 @@ _ _ _
 
 * [常用公开数据集及算法结果 Datasets and benchmark](#7公开数据集及实验结果)
 
+* [比赛 Challenges and competitions](#8比赛)
+
 * [其他 Miscellaneous](#其他)
 
 * [Contributing](#contributing)
@@ -42,18 +44,17 @@ _ _ _
 
 - - -
 
-### 0.Latest
+## 0.Latest
 
 [迁移学习文章汇总 Awesome transfer learning papers](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
-Now we provide some preview:
 
-- **最新发表论文** Latest published (accepted) papers:
+- **最新发表论文**
 
 	- 20180724 ACMMM-18 [Visual Domain Adaptation with Manifold Embedded Distribution Alignment](https://arxiv.org/abs/1807.07258)
 		- English: The state-of-the-art results of domain adaptation, better than most traditional and deep methods
 		- 中文：目前效果最好的非深度迁移学习方法，领先绝大多数最近的方法
-		- Code: [MEDA](http://transferlearning.xyz)
+		- Code: [MEDA](https://github.com/jindongwang/transferlearning/tree/master/code/traditional/MEDA)
 
 	- 20180724 ECCV-18 [Zero-Shot Deep Domain Adaptation](https://arxiv.org/abs/1707.01922)
 		- English: Perform zero-shot domain adaptation when there is no target domain data available 
@@ -75,7 +76,7 @@ Now we provide some preview:
 		- English: Explain transfer learning things with some knowledge-based theory
 		- 中文：用一些基于knowledge的方法解释迁移学习
 
-- **arXiv专区** (papers on arXiv, but not accepted yet)
+- **arXiv专区** (arXiv上的文章较新，但未经过peer-review，慎重看待)
 
 	- 20180724 arXiv [Generalization Bounds for Unsupervised Cross-Domain Mapping with WGANs](https://arxiv.org/abs/1807.08501)
 		- English: Provide a generalization bound for unsupervised WGAN in transfer learning
@@ -96,7 +97,7 @@ Now we provide some preview:
 
 - - -
 
-### 1.迁移学习简介
+## 1.迁移学习简介
 
 - 简介文字资料
 	- [简单的中文简介 Chinese introduction](https://github.com/jindongwang/transferlearning/blob/master/doc/%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0%E7%AE%80%E4%BB%8B.md)
@@ -124,7 +125,7 @@ Now we provide some preview:
 
 - - -
 
-### 2.迁移学习研究领域与相关文章
+## 2.迁移学习研究领域与相关文章
 
 Related articles by research areas:
 
@@ -153,7 +154,7 @@ Related articles by research areas:
 
 - - -
 
-### 3.理论与综述文章
+## 3.理论与综述文章
 
 Here are some articles on transfer learning theory and survey.
 
@@ -191,13 +192,13 @@ Here are some articles on transfer learning theory and survey.
 
 _ _ _
 
-### 4.代码
+## 4.代码
 
 请见[这里](https://github.com/jindongwang/transferlearning/tree/master/code) | Please see [HERE](https://github.com/jindongwang/transferlearning/tree/master/code) for some popular transfer learning codes.
 
 _ _ _
 
-### 5.迁移学习代表性研究学者
+## 5.迁移学习代表性研究学者
 
 Here are some transfer learning scholars and labs.
 
@@ -224,7 +225,7 @@ Please refer to [here](https://github.com/jindongwang/transferlearning/blob/mast
 - [Tongliang Liu](http://ieeexplore.ieee.org/abstract/document/8259375/)：中文名刘同亮，现任悉尼大学助理教授。主要做迁移学习的一些理论方面的工作。[[Google scholar](https://scholar.google.com.hk/citations?hl=zh-CN&user=EiLdZ_YAAAAJ)]
 _ _ _
 
-### 6.迁移学习相关的硕博士论文
+## 6.迁移学习相关的硕博士论文
 
 Here are some popular thesis on transfer learning.
 
@@ -250,7 +251,7 @@ Here are some popular thesis on transfer learning.
 
 - - -
 
-### 7.公开数据集及实验结果
+## 7.公开数据集及实验结果
 
 迁移学习领域有一些公开的数据集，用来对比算法的表现。
 
@@ -258,17 +259,23 @@ Please see [HERE](https://github.com/jindongwang/transferlearning/blob/master/da
 
 [这里](https://github.com/jindongwang/transferlearning/blob/master/data)整理了常用的公开数据集和一些已发表的文章在这些数据集上的实验结果。
 
-
-
 - - -
 
-### 其他
+## 8.比赛
+
+Here are some popular challenges on transfer learning. 一些关于迁移学习的国际比赛。
+
+- [Visual Domain Adaptation Challenge (VisDA)](http://ai.bu.edu/visda-2018/)
+
+- - -
+  
+## 其他
 
 [记与迁移学习大牛杨强教授的第二次会面](https://zhuanlan.zhihu.com/p/26260083)
 
 - - -
 
-### Contributing
+## Contributing
 
 如果你对本项目感兴趣，非常欢迎你加入！
 
