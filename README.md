@@ -77,6 +77,10 @@ _ _ _
 		- 中文：用一些基于knowledge的方法解释迁移学习
 
 - **arXiv专区** (arXiv上的文章较新，但未经过peer-review，慎重看待)
+	
+	- 20180728 arXiv [Meta-learning autoencoders for few-shot prediction](https://arxiv.org/abs/1807.09912)
+		- English: Using meta-learning for few-shot transfer learning
+		- 中文：用元学习进行迁移学习
 
 	- 20180724 arXiv [Generalization Bounds for Unsupervised Cross-Domain Mapping with WGANs](https://arxiv.org/abs/1807.08501)
 		- English: Provide a generalization bound for unsupervised WGAN in transfer learning
@@ -90,10 +94,7 @@ _ _ _
 
 	- 20180703 arXiv 一个使用了random walk的domain adaptation方法，异常简单，但是比绝大多数深度方法都好：[https://arxiv.org/abs/1706.05335v2](https://arxiv.org/abs/1706.05335v2) | [代码](https://github.com/twanvl/rwa-da/tree/master/src)
 
-	- 20180701 arXiv 对domain adaptation问题，基于optimal transport提出一种新的特征选择方法：[Feature Selection for Unsupervised Domain Adaptation using Optimal Transport](https://arxiv.org/abs/1806.10861)
-
-
-[**更多...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
+[**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
 - - -
 
@@ -140,7 +141,7 @@ Related articles by research areas:
 - [异构迁移学习 Heterogeneous Transfer Learning](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#异构迁移学习)
 
 - [深度迁移学习 Deep Transfer Learning](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#深度迁移学习)
-    
+  
     - [深度对抗迁移迁移学习 Deep Adversarial transfer learning](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#对抗迁移学习)
 
 - [传递迁移学习 Transitive Transfer Learning](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#传递迁移学习)

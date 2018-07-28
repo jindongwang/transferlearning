@@ -32,6 +32,10 @@ Let's read some awesome transfer learning / domain adaptation papers!
 
 ### 普通迁移学习
 
+- 20180728 arXiv [Meta-learning autoencoders for few-shot prediction](https://arxiv.org/abs/1807.09912)
+	- English: Using meta-learning for few-shot transfer learning
+	- 中文：用元学习进行迁移学习
+
 - 20180724 arXiv [Domain Generalization via Conditional Invariant Representation](https://arxiv.org/abs/1807.08479)
 	- English: Using Conditional Invariant Representation for domain generalization
 	- 中文：生成条件不变的特征表达，用于domain generalization问题
