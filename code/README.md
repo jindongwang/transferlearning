@@ -87,9 +87,9 @@ This document contains codes from several aspects: **tutorial**, **theory**, **t
 - **RTN** (Unsupervised Domain Adaptation with Residual Transfer Networks, NIPS-16) [12]
 	- [Caffe](https://github.com/thuml/Xlearn)
 - **ADDA** (Adversarial Discriminative Domain Adaptation, arXiv-17) [13]
-	- [Tensorflow(Official)](https://github.com/erictzeng/adda) | [Pytorch](https://github.com/corenel/pytorch-adda)
+	- [Tensorflow(Official)](https://github.com/erictzeng/adda) | [Pytorch](https://github.com/corenel/pytorch-adda) | [Pytorch(another)](https://github.com/jvanvugt/pytorch-domain-adaptation/blob/master/adda.py)
 - **RevGrad** (Unsupervised Domain Adaptation by Backpropagation, ICML-15) [14]
-	- [Caffe(Official)](https://github.com/ddtm/caffe/tree/grl)|[Tensorflow(third party)](https://github.com/shucunt/domain_adaptation) | [PyTorch](https://github.com/fungtion/DANN)
+	- [Caffe(Official)](https://github.com/ddtm/caffe/tree/grl)|[Tensorflow(third party)](https://github.com/shucunt/domain_adaptation) | [PyTorch](https://github.com/fungtion/DANN) | [Pytorch(another)](https://github.com/jvanvugt/pytorch-domain-adaptation/blob/master/revgrad.py)
 - **DANN** Domain-Adversarial Training of Neural Networks (JMLR-16)[17] 
 	- [Python(official)](https://github.com/GRAAL-Research/domain_adversarial_neural_network) | [Tensorflow](https://github.com/jindongwang/tf-dann)
 - Associative Domain Adaptation (ICCV-17) [18]
@@ -132,6 +132,16 @@ This document contains codes from several aspects: **tutorial**, **theory**, **t
 	- [Tensorflow](https://github.com/YingZhangDUT/Deep-Mutual-Learning)
 - Self-ensembling for visual domain adaptation (ICLR 2018) [45]
 	- [Pytorch](https://github.com/Britefury/self-ensemble-visual-domain-adapt)
+- **PADA** (Partial Adversarial Domain Adaptation, ECCV-18) [48]
+	- [Pytorch(Official)](https://github.com/thuml/PADA)
+- **iCAN** (Incremental Collaborative and Adversarial Network for Unsupervised Domain Adaptation, CVPR-18) [49]
+	- [Pytorch](https://github.com/mahfuj9346449/iCAN)
+- **WeightedGAN** (Importance Weighted Adversarial Nets for Partial Domain Adaptation, CVPR-18) [50]
+	- [Caffe](https://github.com/hellojing89/weightedGANpartialDA)
+- **OpenSet** (Open Set Domain Adaptation by Backpropagation) [51]
+	- [Tensorflow](https://github.com/Mid-Push/Open_set_domain_adaptation)
+- **WDGRL** (Wasserstein Distance Guided Representation Learning, AAAI-18) [52]
+	- [Pytorch](https://github.com/jvanvugt/pytorch-domain-adaptation/blob/master/wdgrl.py)
 
 - - -
 
@@ -240,3 +250,13 @@ accepted in International Conference on Computer Vision (ICCV 2015), Santiago, C
 [46] van Laarhoven T, Marchiori E. Unsupervised Domain Adaptation with Random Walks on Target Labelings[J]. arXiv preprint arXiv:1706.05335, 2017.
 
 [47] Jindong Wang, Wenjie Feng, Yiqiang Chen, Han Yu, Meiyu Huang, Philip S. Yu. Visual Domain Adaptation with Manifold Embedded Distribution Alignment. ACM Multimedia conference 2018.
+
+[48] Zhangjie Cao, Mingsheng Long, et al. Partial Adversarial Domain Adaptation. ECCV 2018.
+
+[49] Zhang W, Ouyang W, Li W, et al. Collaborative and Adversarial Network for Unsupervised domain adaptation[C]//Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2018: 3801-3809.
+
+[50] Zhang J, Ding Z, Li W, et al. Importance Weighted Adversarial Nets for Partial Domain Adaptation[C]//Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2018: 8156-8164.
+
+[51] Saito K, Yamamoto S, Ushiku Y, et al. Open Set Domain Adaptation by Backpropagation[J]. arXiv preprint arXiv:1804.10427, 2018.
+
+[52] Shen J, Qu Y, Zhang W, et al. Wasserstein Distance Guided Representation Learning for Domain Adaptation[C]//AAAI. 2018.
