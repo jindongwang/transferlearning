@@ -51,30 +51,28 @@ _ _ _
 
 - **最新发表论文**
 
+	- 20180731 ECCV-18 [Dist-GAN: An Improved GAN using Distance Constraints](https://arxiv.org/abs/1803.08887)
+		- English: Embed an autoencoder in GAN to improve its stability in training and propose two distances
+		- 中文：将autoencoder集成到GAN中，提出相应的两种距离进行度量，提高了GAN的稳定性
+		- Code: [Tensorflow](https://github.com/tntrung/gan)
+	
+	- 20180731 ECCV-18 [DeepJDOT: Deep Joint Distribution Optimal Transport for Unsupervised Domain Adaptation](https://arxiv.org/abs/1803.10081)
+		- English: Deep + Joint distribution adaptation + optimal transport
+		- 中文：深度 + 联合分布适配 + optimal transport
+	
+	- 20180731 ICLR-18 [Few Shot Learning with Simplex](https://arxiv.org/abs/1807.10726)
+		- English: Represent deep learning using the simplex
+		- 中文：用单纯性表征深度学习
+
+	- 20180731 ICANN-18 [Metric Embedding Autoencoders for Unsupervised Cross-Dataset Transfer Learning](https://arxiv.org/abs/1807.10591)
+		- English: Deep transfer learning for Re-ID
+		- 中文：将深度迁移学习用于Re-ID
+
 	- 20180724 ACMMM-18 [Visual Domain Adaptation with Manifold Embedded Distribution Alignment](https://arxiv.org/abs/1807.07258)
 		- English: The state-of-the-art results of domain adaptation, better than most traditional and deep methods
 		- 中文：目前效果最好的非深度迁移学习方法，领先绝大多数最近的方法
 		- Code: [MEDA](https://github.com/jindongwang/transferlearning/tree/master/code/traditional/MEDA)
 
-	- 20180724 ECCV-18 [Zero-Shot Deep Domain Adaptation](https://arxiv.org/abs/1707.01922)
-		- English: Perform zero-shot domain adaptation when there is no target domain data available 
-		- 中文：当目标领域的数据不可用时如何进行domain adaptation :
-
-	- 20180724 ICCSE-18 [Deep Transfer Learning for Cross-domain Activity Recognition](https://arxiv.org/abs/1807.07963)
-		- English: Provide source domain selection and activity recognition for cross-domain activity recognition
-		- 中文：提出了跨领域行为识别中的深度方法模型，以及相关的领域选择方法
-
-	- 20180724 ECCV-18 [Unsupervised Image-to-Image Translation with Stacked Cycle-Consistent Adversarial Networks](https://arxiv.org/abs/1807.08536)
-		- English: Using stacked CycleGAN to perform image-to-image translation
-		- 中文：用stacked cycleGAN进行image-to-image的翻译
-  
-	- 20180724 AIAI-18 [Improving Deep Models of Person Re-identification for Cross-Dataset Usage](https://arxiv.org/abs/1807.08526)
-		- English: apply deep models to cross-dataset RE-ID
-		- 中文：将深度迁移学习应用于跨数据集的Re-ID
-
-	- 20180724 ICPKR-18 [Knowledge-based Transfer Learning Explanation](https://arxiv.org/abs/1807.08372)
-		- English: Explain transfer learning things with some knowledge-based theory
-		- 中文：用一些基于knowledge的方法解释迁移学习
 
 - **arXiv专区** (arXiv上的文章较新，但未经过peer-review，慎重看待)
 	

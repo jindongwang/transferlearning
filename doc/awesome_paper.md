@@ -241,6 +241,14 @@ Let's read some awesome transfer learning / domain adaptation papers!
 
 ### 深度迁移学习
 
+- 20180731 ECCV-18 [DeepJDOT: Deep Joint Distribution Optimal Transport for Unsupervised Domain Adaptation](https://arxiv.org/abs/1803.10081)
+	- English: Deep + Joint distribution adaptation + optimal transport
+	- 中文：深度 + 联合分布适配 + optimal transport
+	
+- 20180731 ICLR-18 [Few Shot Learning with Simplex](https://arxiv.org/abs/1807.10726)
+	- English: Represent deep learning using the simplex
+	- 中文：用单纯性表征深度学习
+
 - 20180724 AIAI-18 [Improving Deep Models of Person Re-identification for Cross-Dataset Usage](https://arxiv.org/abs/1807.08526)
 	- English: apply deep models to cross-dataset RE-ID
 	- 中文：将深度迁移学习应用于跨数据集的Re-ID
@@ -350,6 +358,11 @@ Let's read some awesome transfer learning / domain adaptation papers!
 
 #### 对抗迁移学习
 
+- 20180731 ECCV-18 [Dist-GAN: An Improved GAN using Distance Constraints](https://arxiv.org/abs/1803.08887)
+	- English: Embed an autoencoder in GAN to improve its stability in training and propose two distances
+	- 中文：将autoencoder集成到GAN中，提出相应的两种距离进行度量，提高了GAN的稳定性
+	- Code: [Tensorflow](https://github.com/tntrung/gan)
+
 - 20180724 arXiv [Generalization Bounds for Unsupervised Cross-Domain Mapping with WGANs](https://arxiv.org/abs/1807.08501)
 	- English: Provide a generalization bound for unsupervised WGAN in transfer learning
 	- 中文：对迁移学习中无监督的WGAN进行了一些理论上的分析
@@ -447,6 +460,10 @@ Let's read some awesome transfer learning / domain adaptation papers!
 
 
 ### 应用
+
+- 20180731 ICANN-18 [Metric Embedding Autoencoders for Unsupervised Cross-Dataset Transfer Learning](https://arxiv.org/abs/1807.10591)
+	- English: Deep transfer learning for Re-ID
+	- 中文：将深度迁移学习用于Re-ID
 
 - 20180705 arXiv 将迁移学习应用于自动驾驶中的不同天气适配：[Modular Vehicle Control for Transferring Semantic Information to Unseen Weather Conditions using GANs](https://arxiv.org/abs/1807.01001)
 
