@@ -51,22 +51,22 @@ _ _ _
 
 - **最新发表论文**
 
+	- 20180801 MICCAI-18 [Leveraging Unlabeled Whole-Slide-Images for Mitosis Detection](https://arxiv.org/abs/1807.11677)
+		- English: Use unlabeled images for mitosis detection
+		- 中文：用未标记的图片进行细胞有丝分裂的检测
+
+	- 20180801 ECCV-18 [DOCK: Detecting Objects by transferring Common-sense Knowledge](https://arxiv.org/abs/1804.01077)
+		- English: A method called DOCK for object detection using transfer learning
+		- 中文：提出一个叫做DOCK的方法进行基于迁移学习的目标检测
+
+	- 20180801 ECCV-18 [A Zero-Shot Framework for Sketch-based Image Retrieval](https://arxiv.org/abs/1807.11724)
+		- English: A Zero-Shot Framework for Sketch-based Image Retrieval
+		- 中文：一个针对于简笔画图像检索的zero-shot框架
+
 	- 20180731 ECCV-18 [Dist-GAN: An Improved GAN using Distance Constraints](https://arxiv.org/abs/1803.08887)
 		- English: Embed an autoencoder in GAN to improve its stability in training and propose two distances
 		- 中文：将autoencoder集成到GAN中，提出相应的两种距离进行度量，提高了GAN的稳定性
 		- Code: [Tensorflow](https://github.com/tntrung/gan)
-	
-	- 20180731 ECCV-18 [DeepJDOT: Deep Joint Distribution Optimal Transport for Unsupervised Domain Adaptation](https://arxiv.org/abs/1803.10081)
-		- English: Deep + Joint distribution adaptation + optimal transport
-		- 中文：深度 + 联合分布适配 + optimal transport
-	
-	- 20180731 ICLR-18 [Few Shot Learning with Simplex](https://arxiv.org/abs/1807.10726)
-		- English: Represent deep learning using the simplex
-		- 中文：用单纯性表征深度学习
-
-	- 20180731 ICANN-18 [Metric Embedding Autoencoders for Unsupervised Cross-Dataset Transfer Learning](https://arxiv.org/abs/1807.10591)
-		- English: Deep transfer learning for Re-ID
-		- 中文：将深度迁移学习用于Re-ID
 
 	- 20180724 ACMMM-18 [Visual Domain Adaptation with Manifold Embedded Distribution Alignment](https://arxiv.org/abs/1807.07258)
 		- English: The state-of-the-art results of domain adaptation, better than most traditional and deep methods
@@ -76,19 +76,17 @@ _ _ _
 
 - **arXiv专区** (arXiv上的文章较新，但未经过peer-review，慎重看待)
 	
+	- 20180801 arXiv [Multimodal Deep Domain Adaptation](https://arxiv.org/abs/1807.11697)
+		- English: Use multi-modal DA in robotic vision
+		- 中文：在机器人视觉中使用多模态的domain adaptation
+	
+	- 20180801 arXiv [Rank and Rate: Multi-task Learning for Recommender Systems](https://arxiv.org/abs/1807.11698)
+		- English: A multi-task system for recommendation
+		- 中文：一个针对于推荐系统的多任务学习
+
 	- 20180728 arXiv [Meta-learning autoencoders for few-shot prediction](https://arxiv.org/abs/1807.09912)
 		- English: Using meta-learning for few-shot transfer learning
 		- 中文：用元学习进行迁移学习
-
-	- 20180724 arXiv [Generalization Bounds for Unsupervised Cross-Domain Mapping with WGANs](https://arxiv.org/abs/1807.08501)
-		- English: Provide a generalization bound for unsupervised WGAN in transfer learning
-		- 中文：对迁移学习中无监督的WGAN进行了一些理论上的分析
-
-	- 20180724 arXiv [Domain Generalization via Conditional Invariant Representation](https://arxiv.org/abs/1807.08479)
-		- English: Using Conditional Invariant Representation for domain generalization
-		- 中文：生成条件不变的特征表达，用于domain generalization问题
-
-	- 20180705 arXiv 将迁移学习应用于自动驾驶中的不同天气适配：[Modular Vehicle Control for Transferring Semantic Information to Unseen Weather Conditions using GANs](https://arxiv.org/abs/1807.01001)
 
 	- 20180703 arXiv 一个使用了random walk的domain adaptation方法，异常简单，但是比绝大多数深度方法都好：[https://arxiv.org/abs/1706.05335v2](https://arxiv.org/abs/1706.05335v2) | [代码](https://github.com/twanvl/rwa-da/tree/master/src)
 

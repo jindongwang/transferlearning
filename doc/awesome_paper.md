@@ -461,6 +461,26 @@ Let's read some awesome transfer learning / domain adaptation papers!
 
 ### 应用
 
+- 20180801 arXiv [Multimodal Deep Domain Adaptation](https://arxiv.org/abs/1807.11697)
+	- English: Use multi-modal DA in robotic vision
+	- 中文：在机器人视觉中使用多模态的domain adaptation
+	
+- 20180801 arXiv [Rank and Rate: Multi-task Learning for Recommender Systems](https://arxiv.org/abs/1807.11698)
+	- English: A multi-task system for recommendation
+	- 中文：一个针对于推荐系统的多任务学习
+
+- 20180801 MICCAI-18 [Leveraging Unlabeled Whole-Slide-Images for Mitosis Detection](https://arxiv.org/abs/1807.11677)
+	- English: Use unlabeled images for mitosis detection
+	- 中文：用未标记的图片进行细胞有丝分裂的检测
+
+- 20180801 ECCV-18 [DOCK: Detecting Objects by transferring Common-sense Knowledge](https://arxiv.org/abs/1804.01077)
+	- English: A method called DOCK for object detection using transfer learning
+	- 中文：提出一个叫做DOCK的方法进行基于迁移学习的目标检测
+
+- 20180801 ECCV-18 [A Zero-Shot Framework for Sketch-based Image Retrieval](https://arxiv.org/abs/1807.11724)
+	- English: A Zero-Shot Framework for Sketch-based Image Retrieval
+	- 中文：一个针对于简笔画图像检索的zero-shot框架
+
 - 20180731 ICANN-18 [Metric Embedding Autoencoders for Unsupervised Cross-Dataset Transfer Learning](https://arxiv.org/abs/1807.10591)
 	- English: Deep transfer learning for Re-ID
 	- 中文：将深度迁移学习用于Re-ID
