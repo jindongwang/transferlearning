@@ -241,6 +241,10 @@ Let's read some awesome transfer learning / domain adaptation papers!
 
 ### 深度迁移学习
 
+- 20180819 arXiv [Conceptual Domain Adaptation Using Deep Learning](https://arxiv.org/abs/1808.05355)
+	- English: A search framework for deep transfer learning
+	- 中文：提出一个可以搜索的framework进行迁移学习
+
 - 20180731 ECCV-18 [DeepJDOT: Deep Joint Distribution Optimal Transport for Unsupervised Domain Adaptation](https://arxiv.org/abs/1803.10081)
 	- English: Deep + Joint distribution adaptation + optimal transport
 	- 中文：深度 + 联合分布适配 + optimal transport
@@ -460,6 +464,14 @@ Let's read some awesome transfer learning / domain adaptation papers!
 
 
 ### 应用
+
+- 20180819 arXiv [Transfer Learning and Organic Computing for Autonomous Vehicles](https://arxiv.org/abs/1808.05443)
+	- English: Propose different transfer learning methods to adapt the situation of autonomous driving
+	- 中文：提出一些不同的迁移学习方法应用于自动驾驶的环境适配
+
+- 20180819 arXiv [Transfer Learning for Brain-Computer Interfaces: An Euclidean Space Data Alignment Approach](https://arxiv.org/abs/1808.05464)
+	- English: Propose to align the different distributions of EEG signals using transfer learning
+	- 中文：针对EEG信号不同人分布不一样的问题提出迁移学习和数据增强的方式加以解决
 
 - 20180801 arXiv [Multimodal Deep Domain Adaptation](https://arxiv.org/abs/1807.11697)
 	- English: Use multi-modal DA in robotic vision
