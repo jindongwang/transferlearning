@@ -51,6 +51,10 @@ _ _ _
 
 - **最新发表论文**
 
+	- 20180819 LNCS-2018 [Distant Domain Adaptation for Text Classification](https://link.springer.com/chapter/10.1007/978-3-319-99365-2_5)
+		- English: Propose a selected algorithm for distant domain text classification
+		- 中文：提出一个用于远域的文本分类方法
+
 	- 20180801 MICCAI-18 [Leveraging Unlabeled Whole-Slide-Images for Mitosis Detection](https://arxiv.org/abs/1807.11677)
 		- English: Use unlabeled images for mitosis detection
 		- 中文：用未标记的图片进行细胞有丝分裂的检测
@@ -58,15 +62,6 @@ _ _ _
 	- 20180801 ECCV-18 [DOCK: Detecting Objects by transferring Common-sense Knowledge](https://arxiv.org/abs/1804.01077)
 		- English: A method called DOCK for object detection using transfer learning
 		- 中文：提出一个叫做DOCK的方法进行基于迁移学习的目标检测
-
-	- 20180801 ECCV-18 [A Zero-Shot Framework for Sketch-based Image Retrieval](https://arxiv.org/abs/1807.11724)
-		- English: A Zero-Shot Framework for Sketch-based Image Retrieval
-		- 中文：一个针对于简笔画图像检索的zero-shot框架
-
-	- 20180731 ECCV-18 [Dist-GAN: An Improved GAN using Distance Constraints](https://arxiv.org/abs/1803.08887)
-		- English: Embed an autoencoder in GAN to improve its stability in training and propose two distances
-		- 中文：将autoencoder集成到GAN中，提出相应的两种距离进行度量，提高了GAN的稳定性
-		- Code: [Tensorflow](https://github.com/tntrung/gan)
 
 	- 20180724 ACMMM-18 [Visual Domain Adaptation with Manifold Embedded Distribution Alignment](https://arxiv.org/abs/1807.07258)
 		- English: The state-of-the-art results of domain adaptation, better than most traditional and deep methods

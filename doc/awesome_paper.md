@@ -72,6 +72,10 @@ Let's read some awesome transfer learning / domain adaptation papers!
 
 ### 领域自适应
 
+- 20180819 LNCS-2018 [Distant Domain Adaptation for Text Classification](https://link.springer.com/chapter/10.1007/978-3-319-99365-2_5)
+	- English: Propose a selected algorithm for distant domain text classification
+	- 中文：提出一个用于远域的文本分类方法
+
 - 20180724 ACMMM-18 [Visual Domain Adaptation with Manifold Embedded Distribution Alignment](https://arxiv.org/abs/1807.07258)
 	- English: The state-of-the-art results of domain adaptation, better than most traditional and deep methods
 	- 中文：目前效果最好的非深度迁移学习方法，领先绝大多数最近的方法
