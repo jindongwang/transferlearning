@@ -71,6 +71,10 @@ _ _ _
 
 - **arXiv专区** (arXiv上的文章较新，但未经过peer-review，慎重看待)
 	
+	- 20180821 arXiv [Unsupervised adversarial domain adaptation for acoustic scene classification](https://arxiv.org/abs/1808.05777)
+		- English: Using transfer learning for acoustic classification
+		- 中文：迁移学习用于声音场景分类
+
 	- 20180819 arXiv [Conceptual Domain Adaptation Using Deep Learning](https://arxiv.org/abs/1808.05355)
 		- English: A search framework for deep transfer learning
 		- 中文：提出一个可以搜索的framework进行迁移学习
