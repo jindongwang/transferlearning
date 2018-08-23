@@ -51,6 +51,10 @@ _ _ _
 
 - **最新发表论文**
 
+	- 20180823 ICPR-18 [Multi-task multiple kernel machines for personalized pain recognition from functional near-infrared spectroscopy brain signals](https://arxiv.org/abs/1808.06774)
+		- English: A multi-task method to recognize pains
+		- 中文：提出一个multi-task框架来检测pain
+
 	- 20180819 LNCS-2018 [Distant Domain Adaptation for Text Classification](https://link.springer.com/chapter/10.1007/978-3-319-99365-2_5)
 		- English: Propose a selected algorithm for distant domain text classification
 		- 中文：提出一个用于远域的文本分类方法

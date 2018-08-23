@@ -2,41 +2,47 @@
 
 迁移学习的应用
 
+- 20180823 ICPR-18 [Multi-task multiple kernel machines for personalized pain recognition from functional near-infrared spectroscopy brain signals](https://arxiv.org/abs/1808.06774)
+  - English: A multi-task method to recognize pains
+
+  - 中文：提出一个multi-task框架来检测pain
+
 - 20180821 arXiv [Unsupervised adversarial domain adaptation for acoustic scene classification](https://arxiv.org/abs/1808.05777)
-	- English: Using transfer learning for acoustic classification
-	- 中文：迁移学习用于声音场景分类
+  - English: Using transfer learning for acoustic classification
+  - 中文：迁移学习用于声音场景分类
 
 - 20180819 arXiv [Transfer Learning and Organic Computing for Autonomous Vehicles](https://arxiv.org/abs/1808.05443)
-	- English: Propose different transfer learning methods to adapt the situation of autonomous driving
-	- 中文：提出一些不同的迁移学习方法应用于自动驾驶的环境适配
+
+  - English: Propose different transfer learning methods to adapt the situation of autonomous driving
+  - 中文：提出一些不同的迁移学习方法应用于自动驾驶的环境适配
 
 - 20180819 arXiv [Transfer Learning for Brain-Computer Interfaces: An Euclidean Space Data Alignment Approach](https://arxiv.org/abs/1808.05464)
-	- English: Propose to align the different distributions of EEG signals using transfer learning
-	- 中文：针对EEG信号不同人分布不一样的问题提出迁移学习和数据增强的方式加以解决
+  - English: Propose to align the different distributions of EEG signals using transfer learning
+  - 中文：针对EEG信号不同人分布不一样的问题提出迁移学习和数据增强的方式加以解决
 
 - 20180801 arXiv [Multimodal Deep Domain Adaptation](https://arxiv.org/abs/1807.11697)
-	- English: Use multi-modal DA in robotic vision
-	- 中文：在机器人视觉中使用多模态的domain adaptation
-	
+  - English: Use multi-modal DA in robotic vision
+  - 中文：在机器人视觉中使用多模态的domain adaptation
+
 - 20180801 arXiv [Rank and Rate: Multi-task Learning for Recommender Systems](https://arxiv.org/abs/1807.11698)
-	- English: A multi-task system for recommendation
-	- 中文：一个针对于推荐系统的多任务学习
+  - English: A multi-task system for recommendation
+  - 中文：一个针对于推荐系统的多任务学习
 
 - 20180801 MICCAI-18 [Leveraging Unlabeled Whole-Slide-Images for Mitosis Detection](https://arxiv.org/abs/1807.11677)
-	- English: Use unlabeled images for mitosis detection
-	- 中文：用未标记的图片进行细胞有丝分裂的检测
+  - English: Use unlabeled images for mitosis detection
+  - 中文：用未标记的图片进行细胞有丝分裂的检测
 
 - 20180801 ECCV-18 [DOCK: Detecting Objects by transferring Common-sense Knowledge](https://arxiv.org/abs/1804.01077)
-	- English: A method called DOCK for object detection using transfer learning
-	- 中文：提出一个叫做DOCK的方法进行基于迁移学习的目标检测
+  - English: A method called DOCK for object detection using transfer learning
+  - 中文：提出一个叫做DOCK的方法进行基于迁移学习的目标检测
 
 - 20180801 ECCV-18 [A Zero-Shot Framework for Sketch-based Image Retrieval](https://arxiv.org/abs/1807.11724)
-	- English: A Zero-Shot Framework for Sketch-based Image Retrieval
-	- 中文：一个针对于简笔画图像检索的zero-shot框架
+  - English: A Zero-Shot Framework for Sketch-based Image Retrieval
+  - 中文：一个针对于简笔画图像检索的zero-shot框架
 
 - 20180731 ICANN-18 [Metric Embedding Autoencoders for Unsupervised Cross-Dataset Transfer Learning](https://arxiv.org/abs/1807.10591)
-	- English: Deep transfer learning for Re-ID
-	- 中文：将深度迁移学习用于Re-ID
+  - English: Deep transfer learning for Re-ID
+  - 中文：将深度迁移学习用于Re-ID
 
 - 20180705 arXiv 将迁移学习应用于自动驾驶中的不同天气适配：[Modular Vehicle Control for Transferring Semantic Information to Unseen Weather Conditions using GANs](https://arxiv.org/abs/1807.01001)
 
