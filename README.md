@@ -51,6 +51,10 @@ _ _ _
 
 - **最新发表论文**
 
+	- 20180826 ISPRS journal [Deep multi-task learning for a geographically-regularized semantic segmentation of aerial images](https://arxiv.org/abs/1808.07675)
+		- English: a multi-task learning network for remote sensing
+		- 中文：提出一个多任务的深度网络用于遥感图像检测
+
 	- 20180823 ICPR-18 [Multi-task multiple kernel machines for personalized pain recognition from functional near-infrared spectroscopy brain signals](https://arxiv.org/abs/1808.06774)
 		- English: A multi-task method to recognize pains
 		- 中文：提出一个multi-task框架来检测pain
@@ -67,14 +71,13 @@ _ _ _
 		- English: A method called DOCK for object detection using transfer learning
 		- 中文：提出一个叫做DOCK的方法进行基于迁移学习的目标检测
 
-	- 20180724 ACMMM-18 [Visual Domain Adaptation with Manifold Embedded Distribution Alignment](https://arxiv.org/abs/1807.07258)
-		- English: The state-of-the-art results of domain adaptation, better than most traditional and deep methods
-		- 中文：目前效果最好的非深度迁移学习方法，领先绝大多数最近的方法
-		- Code: [MEDA](https://github.com/jindongwang/transferlearning/tree/master/code/traditional/MEDA)
-
 
 - **arXiv专区** (arXiv上的文章较新，但未经过peer-review，慎重看待)
 	
+	- 20180825 arXiv [Transfer Learning for Estimating Causal Effects using Neural Networks](https://arxiv.org/abs/1808.07804)
+		- English: Using transfer learning for casual effect learning
+		- 中文：用迁移学习进行因果推理
+
 	- 20180821 arXiv [Unsupervised adversarial domain adaptation for acoustic scene classification](https://arxiv.org/abs/1808.05777)
 		- English: Using transfer learning for acoustic classification
 		- 中文：迁移学习用于声音场景分类
@@ -90,14 +93,6 @@ _ _ _
 	- 20180819 arXiv [Transfer Learning for Brain-Computer Interfaces: An Euclidean Space Data Alignment Approach](https://arxiv.org/abs/1808.05464)
 		- English: Propose to align the different distributions of EEG signals using transfer learning
 		- 中文：针对EEG信号不同人分布不一样的问题提出迁移学习和数据增强的方式加以解决
-
-	- 20180801 arXiv [Multimodal Deep Domain Adaptation](https://arxiv.org/abs/1807.11697)
-		- English: Use multi-modal DA in robotic vision
-		- 中文：在机器人视觉中使用多模态的domain adaptation
-	
-	- 20180801 arXiv [Rank and Rate: Multi-task Learning for Recommender Systems](https://arxiv.org/abs/1807.11698)
-		- English: A multi-task system for recommendation
-		- 中文：一个针对于推荐系统的多任务学习
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 

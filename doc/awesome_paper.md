@@ -32,6 +32,10 @@ Let's read some awesome transfer learning / domain adaptation papers!
 
 ### 普通迁移学习
 
+- 20180825 arXiv [Transfer Learning for Estimating Causal Effects using Neural Networks](https://arxiv.org/abs/1808.07804)
+	- English: Using transfer learning for casual effect learning
+	- 中文：用迁移学习进行因果推理
+
 - 20180728 arXiv [Meta-learning autoencoders for few-shot prediction](https://arxiv.org/abs/1807.09912)
 	- English: Using meta-learning for few-shot transfer learning
 	- 中文：用元学习进行迁移学习

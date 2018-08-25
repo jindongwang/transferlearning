@@ -2,9 +2,12 @@
 
 迁移学习的应用
 
+- 20180826 ISPRS journal [Deep multi-task learning for a geographically-regularized semantic segmentation of aerial images](https://arxiv.org/abs/1808.07675)
+	- English: a multi-task learning network for remote sensing
+	- 中文：提出一个多任务的深度网络用于遥感图像检测
+
 - 20180823 ICPR-18 [Multi-task multiple kernel machines for personalized pain recognition from functional near-infrared spectroscopy brain signals](https://arxiv.org/abs/1808.06774)
   - English: A multi-task method to recognize pains
-
   - 中文：提出一个multi-task框架来检测pain
 
 - 20180821 arXiv [Unsupervised adversarial domain adaptation for acoustic scene classification](https://arxiv.org/abs/1808.05777)
