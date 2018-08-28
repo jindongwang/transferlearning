@@ -74,6 +74,10 @@ _ _ _
 
 - **arXiv专区** (arXiv上的文章较新，但未经过peer-review，慎重看待)
 	
+	- 20180828 arXiv [Self-Paced Multi-Task Clustering](https://arxiv.org/abs/1808.08068)
+		- English: Multi-task clustering
+		- 中文：多任务聚类
+
 	- 20180825 arXiv [Transfer Learning for Estimating Causal Effects using Neural Networks](https://arxiv.org/abs/1808.07804)
 		- English: Using transfer learning for casual effect learning
 		- 中文：用迁移学习进行因果推理
@@ -89,10 +93,6 @@ _ _ _
 	- 20180819 arXiv [Transfer Learning and Organic Computing for Autonomous Vehicles](https://arxiv.org/abs/1808.05443)
 		- English: Propose different transfer learning methods to adapt the situation of autonomous driving
 		- 中文：提出一些不同的迁移学习方法应用于自动驾驶的环境适配
-
-	- 20180819 arXiv [Transfer Learning for Brain-Computer Interfaces: An Euclidean Space Data Alignment Approach](https://arxiv.org/abs/1808.05464)
-		- English: Propose to align the different distributions of EEG signals using transfer learning
-		- 中文：针对EEG信号不同人分布不一样的问题提出迁移学习和数据增强的方式加以解决
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 

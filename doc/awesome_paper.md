@@ -32,6 +32,10 @@ Let's read some awesome transfer learning / domain adaptation papers!
 
 ### 普通迁移学习
 
+- 20180828 arXiv [Self-Paced Multi-Task Clustering](https://arxiv.org/abs/1808.08068)
+	- English: Multi-task clustering
+	- 中文：多任务聚类
+
 - 20180825 arXiv [Transfer Learning for Estimating Causal Effects using Neural Networks](https://arxiv.org/abs/1808.07804)
 	- English: Using transfer learning for casual effect learning
 	- 中文：用迁移学习进行因果推理
