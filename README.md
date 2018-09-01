@@ -51,6 +51,14 @@ _ _ _
 
 - **最新发表论文**
 
+	- 20180901 TKDE [A General Domain Specific Feature Transfer Framework for Hybrid Domain Adaptation](https://ieeexplore.ieee.org/abstract/document/8432087/)
+		- English: Hybrid DA: special case in Heterogeneous DA
+		- 中文：提出一种新的混合DA问题和方法
+
+	- 20180901 KBS [Transfer subspace learning via low-rank and discriminative reconstruction matrix](https://www.sciencedirect.com/science/article/pii/S0950705118304222)
+		- English: Transfer subspace learning via low-rank and discriminative reconstruction matrix
+		- 中文：通过低秩和重构进行迁移学习
+
 	- 20180826 ISPRS journal [Deep multi-task learning for a geographically-regularized semantic segmentation of aerial images](https://arxiv.org/abs/1808.07675)
 		- English: a multi-task learning network for remote sensing
 		- 中文：提出一个多任务的深度网络用于遥感图像检测
@@ -59,21 +67,21 @@ _ _ _
 		- English: A multi-task method to recognize pains
 		- 中文：提出一个multi-task框架来检测pain
 
-	- 20180819 LNCS-2018 [Distant Domain Adaptation for Text Classification](https://link.springer.com/chapter/10.1007/978-3-319-99365-2_5)
-		- English: Propose a selected algorithm for distant domain text classification
-		- 中文：提出一个用于远域的文本分类方法
-
-	- 20180801 MICCAI-18 [Leveraging Unlabeled Whole-Slide-Images for Mitosis Detection](https://arxiv.org/abs/1807.11677)
-		- English: Use unlabeled images for mitosis detection
-		- 中文：用未标记的图片进行细胞有丝分裂的检测
-
-	- 20180801 ECCV-18 [DOCK: Detecting Objects by transferring Common-sense Knowledge](https://arxiv.org/abs/1804.01077)
-		- English: A method called DOCK for object detection using transfer learning
-		- 中文：提出一个叫做DOCK的方法进行基于迁移学习的目标检测
-
 
 - **arXiv专区** (arXiv上的文章较新，但未经过peer-review，慎重看待)
 	
+	- 20180901 arXiv [Distance Based Source Domain Selection for Sentiment Classification](https://arxiv.org/abs/1808.09271)
+		- English: Propose a new domain selection method by combining existing distance functions
+		- 中文：提出一种混合已有多种距离公式的源领域选择方法
+
+	- 20180901 arXiv [Joint Domain Alignment and Discriminative Feature Learning for Unsupervised Deep Domain Adaptation](https://arxiv.org/abs/1808.09347)
+		- English: deep domain adaptation + intra-class / inter-class distance
+		- 中文：深度domain adaptation再加上类内类间距离学习
+
+	- 20180901 arXiv [TLR: Transfer Latent Representation for Unsupervised Domain Adaptation](https://arxiv.org/abs/1808.06206)
+		- English: Learn the latent transfer space via an autoencoder
+		- 中文：通过一个自动编码器来学习迁移隐含空间
+
 	- 20180828 arXiv [Self-Paced Multi-Task Clustering](https://arxiv.org/abs/1808.08068)
 		- English: Multi-task clustering
 		- 中文：多任务聚类
@@ -81,18 +89,6 @@ _ _ _
 	- 20180825 arXiv [Transfer Learning for Estimating Causal Effects using Neural Networks](https://arxiv.org/abs/1808.07804)
 		- English: Using transfer learning for casual effect learning
 		- 中文：用迁移学习进行因果推理
-
-	- 20180821 arXiv [Unsupervised adversarial domain adaptation for acoustic scene classification](https://arxiv.org/abs/1808.05777)
-		- English: Using transfer learning for acoustic classification
-		- 中文：迁移学习用于声音场景分类
-
-	- 20180819 arXiv [Conceptual Domain Adaptation Using Deep Learning](https://arxiv.org/abs/1808.05355)
-		- English: A search framework for deep transfer learning
-		- 中文：提出一个可以搜索的framework进行迁移学习
-
-	- 20180819 arXiv [Transfer Learning and Organic Computing for Autonomous Vehicles](https://arxiv.org/abs/1808.05443)
-		- English: Propose different transfer learning methods to adapt the situation of autonomous driving
-		- 中文：提出一些不同的迁移学习方法应用于自动驾驶的环境适配
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 

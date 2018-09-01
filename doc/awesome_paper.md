@@ -32,6 +32,18 @@ Let's read some awesome transfer learning / domain adaptation papers!
 
 ### 普通迁移学习
 
+- 20180901 arXiv [Distance Based Source Domain Selection for Sentiment Classification](https://arxiv.org/abs/1808.09271)
+	- English: Propose a new domain selection method by combining existing distance functions
+	- 中文：提出一种混合已有多种距离公式的源领域选择方法
+
+- 20180901 arXiv [TLR: Transfer Latent Representation for Unsupervised Domain Adaptation](https://arxiv.org/abs/1808.06206)
+	- English: Learn the latent transfer space via an autoencoder
+	- 中文：通过一个自动编码器来学习迁移隐含空间
+
+- 20180901 KBS [Transfer subspace learning via low-rank and discriminative reconstruction matrix](https://www.sciencedirect.com/science/article/pii/S0950705118304222)
+	- English: Transfer subspace learning via low-rank and discriminative reconstruction matrix
+	- 中文：通过低秩和重构进行迁移学习
+
 - 20180828 arXiv [Self-Paced Multi-Task Clustering](https://arxiv.org/abs/1808.08068)
 	- English: Multi-task clustering
 	- 中文：多任务聚类
@@ -242,6 +254,10 @@ Let's read some awesome transfer learning / domain adaptation papers!
 
 ### 异构迁移学习
 
+- 20180901 TKDE [A General Domain Specific Feature Transfer Framework for Hybrid Domain Adaptation](https://ieeexplore.ieee.org/abstract/document/8432087/)
+	- English: Hybrid DA: special case in Heterogeneous DA
+	- 中文：提出一种新的混合DA问题和方法
+
 - 20180606 arXiv 一篇最近的对非对称情况下的异构迁移学习综述：[Asymmetric Heterogeneous Transfer Learning: A Survey](https://arxiv.org/abs/1804.10834)
 
 - 20180403 Neural Processing Letters-18 异构迁移学习：[Label Space Embedding of Manifold Alignment for Domain Adaption](https://link.springer.com/article/10.1007/s11063-018-9822-8)
@@ -252,6 +268,10 @@ Let's read some awesome transfer learning / domain adaptation papers!
 - - -
 
 ### 深度迁移学习
+
+- 20180901 arXiv [Joint Domain Alignment and Discriminative Feature Learning for Unsupervised Deep Domain Adaptation](https://arxiv.org/abs/1808.09347)
+	- English: deep domain adaptation + intra-class / inter-class distance
+	- 中文：深度domain adaptation再加上类内类间距离学习
 
 - 20180819 arXiv [Conceptual Domain Adaptation Using Deep Learning](https://arxiv.org/abs/1808.05355)
 	- English: A search framework for deep transfer learning
