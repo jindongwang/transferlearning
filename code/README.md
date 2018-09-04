@@ -142,6 +142,8 @@ This document contains codes from several aspects: **tutorial**, **theory**, **t
 	- [Tensorflow](https://github.com/Mid-Push/Open_set_domain_adaptation)
 - **WDGRL** (Wasserstein Distance Guided Representation Learning, AAAI-18) [52]
 	- [Pytorch](https://github.com/jvanvugt/pytorch-domain-adaptation/blob/master/wdgrl.py)
+- **JDDA** (Joint Domain Alignment and Discriminative Feature Learning) [53]
+	- [Tensorflow](https://github.com/A-bone1/JDDA)
 
 - - -
 
@@ -260,3 +262,5 @@ accepted in International Conference on Computer Vision (ICCV 2015), Santiago, C
 [51] Saito K, Yamamoto S, Ushiku Y, et al. Open Set Domain Adaptation by Backpropagation[J]. arXiv preprint arXiv:1804.10427, 2018.
 
 [52] Shen J, Qu Y, Zhang W, et al. Wasserstein Distance Guided Representation Learning for Domain Adaptation[C]//AAAI. 2018.
+
+[53] Chen C, Chen Z, Jiang B, et al. Joint Domain Alignment and Discriminative Feature Learning for Unsupervised Deep Domain Adaptation[J]. arXiv preprint arXiv:1808.09347, 2018.
