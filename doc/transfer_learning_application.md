@@ -2,6 +2,14 @@
 
 迁移学习的应用
 
+- 20180904 EMBC-18 [Multi-Cell Multi-Task Convolutional Neural Networks for Diabetic Retinopathy Grading Kang](https://arxiv.org/abs/1808.10564)
+	- English: Use multi-task CNN for Diabetic Retinopathy Grading Kang
+	- 中文：用多任务的CNN进行糖尿病的视网膜粒度检查
+
+- 20180904 ICPR-18 [Document Image Classification with Intra-Domain Transfer Learning and Stacked Generalization of Deep Convolutional Neural Networks](https://arxiv.org/abs/1801.09321)
+	- English: Document image classification using transfer learning
+	- 中文：使用迁移学习进行文档图像的分类
+
 - 20180826 ISPRS journal [Deep multi-task learning for a geographically-regularized semantic segmentation of aerial images](https://arxiv.org/abs/1808.07675)
 	- English: a multi-task learning network for remote sensing
 	- 中文：提出一个多任务的深度网络用于遥感图像检测

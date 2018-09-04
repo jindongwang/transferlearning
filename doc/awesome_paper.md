@@ -32,6 +32,14 @@ Let's read some awesome transfer learning / domain adaptation papers!
 
 ### 普通迁移学习
 
+- 20190904 arXiv [On the Minimal Supervision for Training Any Binary Classifier from Only Unlabeled Data](https://arxiv.org/abs/1808.10585)
+	- English: Train binary classifiers from only unlabeled data
+	- 中文：仅从无标记数据训练二分类器
+
+- 20180904 arXiv [Learning Data-adaptive Nonparametric Kernels](https://arxiv.org/abs/1808.10724)
+	- English: Learn a kernel that can do adaptation
+	- 中文：学习一个可以自适应的kernel
+
 - 20180901 arXiv [Distance Based Source Domain Selection for Sentiment Classification](https://arxiv.org/abs/1808.09271)
 	- English: Propose a new domain selection method by combining existing distance functions
 	- 中文：提出一种混合已有多种距离公式的源领域选择方法

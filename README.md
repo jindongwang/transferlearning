@@ -51,6 +51,14 @@ _ _ _
 
 - **最新发表论文**
 
+	- 20180904 EMBC-18 [Multi-Cell Multi-Task Convolutional Neural Networks for Diabetic Retinopathy Grading Kang](https://arxiv.org/abs/1808.10564)
+		- English: Use multi-task CNN for Diabetic Retinopathy Grading Kang
+		- 中文：用多任务的CNN进行糖尿病的视网膜粒度检查
+
+	- 20180904 ICPR-18 [Document Image Classification with Intra-Domain Transfer Learning and Stacked Generalization of Deep Convolutional Neural Networks](https://arxiv.org/abs/1801.09321)
+		- English: Document image classification using transfer learning
+		- 中文：使用迁移学习进行文档图像的分类
+
 	- 20180901 TKDE [A General Domain Specific Feature Transfer Framework for Hybrid Domain Adaptation](https://ieeexplore.ieee.org/abstract/document/8432087/)
 		- English: Hybrid DA: special case in Heterogeneous DA
 		- 中文：提出一种新的混合DA问题和方法
@@ -59,17 +67,17 @@ _ _ _
 		- English: Transfer subspace learning via low-rank and discriminative reconstruction matrix
 		- 中文：通过低秩和重构进行迁移学习
 
-	- 20180826 ISPRS journal [Deep multi-task learning for a geographically-regularized semantic segmentation of aerial images](https://arxiv.org/abs/1808.07675)
-		- English: a multi-task learning network for remote sensing
-		- 中文：提出一个多任务的深度网络用于遥感图像检测
-
-	- 20180823 ICPR-18 [Multi-task multiple kernel machines for personalized pain recognition from functional near-infrared spectroscopy brain signals](https://arxiv.org/abs/1808.06774)
-		- English: A multi-task method to recognize pains
-		- 中文：提出一个multi-task框架来检测pain
-
 
 - **arXiv专区** (arXiv上的文章较新，但未经过peer-review，慎重看待)
 	
+	- 20190904 arXiv [On the Minimal Supervision for Training Any Binary Classifier from Only Unlabeled Data](https://arxiv.org/abs/1808.10585)
+		- English: Train binary classifiers from only unlabeled data
+		- 中文：仅从无标记数据训练二分类器
+
+	- 20180904 arXiv [Learning Data-adaptive Nonparametric Kernels](https://arxiv.org/abs/1808.10724)
+		- English: Learn a kernel that can do adaptation
+		- 中文：学习一个可以自适应的kernel
+
 	- 20180901 arXiv [Distance Based Source Domain Selection for Sentiment Classification](https://arxiv.org/abs/1808.09271)
 		- English: Propose a new domain selection method by combining existing distance functions
 		- 中文：提出一种混合已有多种距离公式的源领域选择方法
@@ -77,18 +85,6 @@ _ _ _
 	- 20180901 arXiv [Joint Domain Alignment and Discriminative Feature Learning for Unsupervised Deep Domain Adaptation](https://arxiv.org/abs/1808.09347)
 		- English: deep domain adaptation + intra-class / inter-class distance
 		- 中文：深度domain adaptation再加上类内类间距离学习
-
-	- 20180901 arXiv [TLR: Transfer Latent Representation for Unsupervised Domain Adaptation](https://arxiv.org/abs/1808.06206)
-		- English: Learn the latent transfer space via an autoencoder
-		- 中文：通过一个自动编码器来学习迁移隐含空间
-
-	- 20180828 arXiv [Self-Paced Multi-Task Clustering](https://arxiv.org/abs/1808.08068)
-		- English: Multi-task clustering
-		- 中文：多任务聚类
-
-	- 20180825 arXiv [Transfer Learning for Estimating Causal Effects using Neural Networks](https://arxiv.org/abs/1808.07804)
-		- English: Using transfer learning for casual effect learning
-		- 中文：用迁移学习进行因果推理
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
