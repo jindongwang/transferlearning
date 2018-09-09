@@ -277,6 +277,10 @@ Let's read some awesome transfer learning / domain adaptation papers!
 
 ### 深度迁移学习
 
+- 20180909 arXiv [A Survey on Deep Transfer Learning](https://arxiv.org/abs/1808.01974)
+	- English: A survey on deep transfer learning
+	- 中文：深度迁移学习的survey
+
 - 20180901 arXiv [Joint Domain Alignment and Discriminative Feature Learning for Unsupervised Deep Domain Adaptation](https://arxiv.org/abs/1808.09347)
 	- English: deep domain adaptation + intra-class / inter-class distance
 	- 中文：深度domain adaptation再加上类内类间距离学习
@@ -489,6 +493,10 @@ Let's read some awesome transfer learning / domain adaptation papers!
 - - -
 
 ### 强化迁移学习
+
+- 20180909 arXiv [Transferring Deep Reinforcement Learning with Adversarial Objective and Augmentation](https://arxiv.org/abs/1809.00770)
+	- English: deep + adversarial + reinforcement learning transfer
+	- 中文：深度对抗迁移学习用于强化学习
 
 - 20180530 ICML-18 强化迁移学习：[Importance Weighted Transfer of Samples in Reinforcement Learning](https://arxiv.org/abs/1805.10886)
 

@@ -70,21 +70,21 @@ _ _ _
 
 - **arXiv专区** (arXiv上的文章较新，但未经过peer-review，慎重看待)
 	
-	- 20190904 arXiv [On the Minimal Supervision for Training Any Binary Classifier from Only Unlabeled Data](https://arxiv.org/abs/1808.10585)
-		- English: Train binary classifiers from only unlabeled data
-		- 中文：仅从无标记数据训练二分类器
+	- 20180909 arXiv [A Survey on Deep Transfer Learning](https://arxiv.org/abs/1808.01974)
+		- English: A survey on deep transfer learning
+		- 中文：深度迁移学习的survey
 
-	- 20180904 arXiv [Learning Data-adaptive Nonparametric Kernels](https://arxiv.org/abs/1808.10724)
-		- English: Learn a kernel that can do adaptation
-		- 中文：学习一个可以自适应的kernel
+	- 20180909 arXiv [Driving Experience Transfer Method for End-to-End Control of Self-Driving Cars](https://arxiv.org/abs/1809.01822)
+		- English: Driving experience transfer on self-driving cars
+		- 中文：自动驾驶车上的驾驶经验迁移
 
-	- 20180901 arXiv [Distance Based Source Domain Selection for Sentiment Classification](https://arxiv.org/abs/1808.09271)
-		- English: Propose a new domain selection method by combining existing distance functions
-		- 中文：提出一种混合已有多种距离公式的源领域选择方法
+	- 20180909 arXiv [Transferring Deep Reinforcement Learning with Adversarial Objective and Augmentation](https://arxiv.org/abs/1809.00770)
+		- English: deep + adversarial + reinforcement learning transfer
+		- 中文：深度对抗迁移学习用于强化学习
 
-	- 20180901 arXiv [Joint Domain Alignment and Discriminative Feature Learning for Unsupervised Deep Domain Adaptation](https://arxiv.org/abs/1808.09347)
-		- English: deep domain adaptation + intra-class / inter-class distance
-		- 中文：深度domain adaptation再加上类内类间距离学习
+	- 20180909 arXiv [Deep Learning for Domain Adaption: Engagement Recognition](https://arxiv.org/abs/1808.02324)
+		- English: deep transfer learning for engagement recognition
+		- 中文：用深度迁移学习进行人机交互中的engagement识别
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
@@ -168,6 +168,7 @@ Here are some articles on transfer learning theory and survey.
 
 - 较新的综述 Latest survey：
 
+	- 2018 清华大学团队最新的深度迁移学习综述：[A Survey on Deep Transfer Learning](https://arxiv.org/abs/1808.01974)
 	- 2018 一篇最近的非对称情况下的异构迁移学习综述：[Asymmetric Heterogeneous Transfer Learning: A Survey](https://arxiv.org/abs/1804.10834)
 	- 2018 Neural style transfer的一个survey：[Neural Style Transfer: A Review](https://arxiv.org/abs/1705.04058)
 	- 2018 深度domain adaptation的一个综述：[Deep Visual Domain Adaptation: A Survey](https://www.sciencedirect.com/science/article/pii/S0925231218306684)

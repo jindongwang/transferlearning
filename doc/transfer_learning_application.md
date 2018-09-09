@@ -2,6 +2,14 @@
 
 迁移学习的应用
 
+- 20180909 arXiv [Driving Experience Transfer Method for End-to-End Control of Self-Driving Cars](https://arxiv.org/abs/1809.01822)
+	- English: Driving experience transfer on self-driving cars
+	- 中文：自动驾驶车上的驾驶经验迁移
+
+- 20180909 arXiv [Deep Learning for Domain Adaption: Engagement Recognition](https://arxiv.org/abs/1808.02324)
+	- English: deep transfer learning for engagement recognition
+	- 中文：用深度迁移学习进行人机交互中的engagement识别
+
 - 20180904 EMBC-18 [Multi-Cell Multi-Task Convolutional Neural Networks for Diabetic Retinopathy Grading Kang](https://arxiv.org/abs/1808.10564)
 	- English: Use multi-task CNN for Diabetic Retinopathy Grading Kang
 	- 中文：用多任务的CNN进行糖尿病的视网膜粒度检查
