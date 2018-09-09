@@ -51,6 +51,10 @@ _ _ _
 
 - **最新发表论文**
 
+	- 20180909 ICANN-18 [A Survey on Deep Transfer Learning](https://arxiv.org/abs/1808.01974)
+		- English: A survey on deep transfer learning
+		- 中文：深度迁移学习的survey
+
 	- 20180904 EMBC-18 [Multi-Cell Multi-Task Convolutional Neural Networks for Diabetic Retinopathy Grading Kang](https://arxiv.org/abs/1808.10564)
 		- English: Use multi-task CNN for Diabetic Retinopathy Grading Kang
 		- 中文：用多任务的CNN进行糖尿病的视网膜粒度检查
@@ -69,10 +73,6 @@ _ _ _
 
 
 - **arXiv专区** (arXiv上的文章较新，但未经过peer-review，慎重看待)
-	
-	- 20180909 arXiv [A Survey on Deep Transfer Learning](https://arxiv.org/abs/1808.01974)
-		- English: A survey on deep transfer learning
-		- 中文：深度迁移学习的survey
 
 	- 20180909 arXiv [Driving Experience Transfer Method for End-to-End Control of Self-Driving Cars](https://arxiv.org/abs/1809.01822)
 		- English: Driving experience transfer on self-driving cars
