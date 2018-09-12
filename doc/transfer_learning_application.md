@@ -2,6 +2,18 @@
 
 迁移学习的应用
 
+- 20180912 PervasiveHealth-18 [Transfer Learning and Data Fusion Approach to Recognize Activities of Daily Life](https://dl.acm.org/citation.cfm?id=3240949)
+    - English: Transfer learning to perform activity recognition using multi-model sensors
+    - 中文：用多模态传感器进行迁移学习，用于行为识别
+
+- 20180912 ICIP-18 [Adversarial Domain Adaptation with a Domain Similarity Discriminator for Semantic Segmentation of Urban Areas](https://ieeexplore.ieee.org/abstract/document/8451010/)
+    - English: Semantic segmentation using transfer learning
+    - 中文：用迁移学习进行语义分割
+
+- 20180912 arXiv [Tensor Alignment Based Domain Adaptation for Hyperspectral Image Classification](https://arxiv.org/abs/1808.09769)
+    - English: Hyperspectral image classification using domain adaptation
+    - 中文：用domain adaptation进行图像分类
+
 - 20180909 arXiv [Driving Experience Transfer Method for End-to-End Control of Self-Driving Cars](https://arxiv.org/abs/1809.01822)
 	- English: Driving experience transfer on self-driving cars
 	- 中文：自动驾驶车上的驾驶经验迁移

@@ -50,28 +50,35 @@ _ _ _
 
 - **最新发表论文**
 
-	- 20180909 ICANN-18 [A Survey on Deep Transfer Learning](https://arxiv.org/abs/1808.01974)
-		- English: A survey on deep transfer learning
-		- 中文：深度迁移学习的survey
+	- 20180912 ICIP-18 [Structural Domain Adaptation with Latent Graph Alignment](https://ieeexplore.ieee.org/abstract/document/8451245/)
+		- English: Using graph alignment for domain adaptation
+		- 中文：使用图对齐方式进行domain adaptation
 
-	- 20180904 EMBC-18 [Multi-Cell Multi-Task Convolutional Neural Networks for Diabetic Retinopathy Grading Kang](https://arxiv.org/abs/1808.10564)
-		- English: Use multi-task CNN for Diabetic Retinopathy Grading Kang
-		- 中文：用多任务的CNN进行糖尿病的视网膜粒度检查
+	- 20180912 PervasiveHealth-18 [Transfer Learning and Data Fusion Approach to Recognize Activities of Daily Life](https://dl.acm.org/citation.cfm?id=3240949)
+		- English: Transfer learning to perform activity recognition using multi-model sensors
+		- 中文：用多模态传感器进行迁移学习，用于行为识别
 
-	- 20180904 ICPR-18 [Document Image Classification with Intra-Domain Transfer Learning and Stacked Generalization of Deep Convolutional Neural Networks](https://arxiv.org/abs/1801.09321)
-		- English: Document image classification using transfer learning
-		- 中文：使用迁移学习进行文档图像的分类
+	- 20180912 ICIP-18 [Adversarial Domain Adaptation with a Domain Similarity Discriminator for Semantic Segmentation of Urban Areas](https://ieeexplore.ieee.org/abstract/document/8451010/)
+		- English: Semantic segmentation using transfer learning
+		- 中文：用迁移学习进行语义分割
 
-	- 20180901 TKDE [A General Domain Specific Feature Transfer Framework for Hybrid Domain Adaptation](https://ieeexplore.ieee.org/abstract/document/8432087/)
-		- English: Hybrid DA: special case in Heterogeneous DA
-		- 中文：提出一种新的混合DA问题和方法
+	- 20180912 IEEE Access [Unsupervised Domain Adaptation by Mapped Correlation Alignment](https://ieeexplore.ieee.org/abstract/document/8434290/)
+		- English: Mapped correlation alignment for domain adaptation
+		- 中文：用映射的关联对齐进行domain adaptation
 
-	- 20180901 KBS [Transfer subspace learning via low-rank and discriminative reconstruction matrix](https://www.sciencedirect.com/science/article/pii/S0950705118304222)
-		- English: Transfer subspace learning via low-rank and discriminative reconstruction matrix
-		- 中文：通过低秩和重构进行迁移学习
-
+	- 20180912 ICALIP-18 [Domain Adaptation for Gaussian Process Classification](https://ieeexplore.ieee.org/abstract/document/8455721/)
+		- English: Domain Adaptation for Gaussian Process Classification
+		- 中文：在高斯过程分类中进行domain adaptation
 
 - **arXiv专区** (arXiv上的文章较新，但未经过peer-review，慎重看待)
+
+	- 20180912 arXiv [Tensor Alignment Based Domain Adaptation for Hyperspectral Image Classification](https://arxiv.org/abs/1808.09769)
+		- English: Hyperspectral image classification using domain adaptation
+		- 中文：用domain adaptation进行图像分类
+
+	- 20180912 arXiv [Multi-target Unsupervised Domain Adaptation without Exactly Shared Categories](https://arxiv.org/abs/1809.00852)
+		- English: Multi-target domain adaptation
+		- 中文：多目标的domain adaptation
 
 	- 20180912 arXiv [VPE: Variational Policy Embedding for Transfer Reinforcement Learning](https://arxiv.org/abs/1809.03548)
 		- English: Policy transfer in reinforcement learning
@@ -84,14 +91,6 @@ _ _ _
 	- 20180912 arXiv [Transfer Learning with Neural AutoML](https://arxiv.org/abs/1803.02780)
 		- English: Applying transfer learning into autoML search
 		- 中文：将迁移学习思想应用于automl
-
-	- 20180912 arXiv [Improving Adversarial Discriminative Domain Adaptation](https://arxiv.org/abs/1809.03625)
-		- English: Improve ADDA using source domain labels
-		- 中文：提高ADDA方法的精度，使用source domain的label
-
-	- 20180909 arXiv [Driving Experience Transfer Method for End-to-End Control of Self-Driving Cars](https://arxiv.org/abs/1809.01822)
-		- English: Driving experience transfer on self-driving cars
-		- 中文：自动驾驶车上的驾驶经验迁移
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 

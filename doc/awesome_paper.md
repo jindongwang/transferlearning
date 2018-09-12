@@ -107,6 +107,21 @@ Let's read some awesome transfer learning / domain adaptation papers!
 - - - 
 
 ### 领域自适应
+- 20180912 ICIP-18 [Structural Domain Adaptation with Latent Graph Alignment](https://ieeexplore.ieee.org/abstract/document/8451245/)
+    - English: Using graph alignment for domain adaptation
+    - 中文：使用图对齐方式进行domain adaptation
+
+- 20180912 arXiv [Multi-target Unsupervised Domain Adaptation without Exactly Shared Categories](https://arxiv.org/abs/1809.00852)
+    - English: Multi-target domain adaptation
+    - 中文：多目标的domain adaptation
+
+- 20180912 IEEE Access [Unsupervised Domain Adaptation by Mapped Correlation Alignment](https://ieeexplore.ieee.org/abstract/document/8434290/)
+    - English: Mapped correlation alignment for domain adaptation
+    - 中文：用映射的关联对齐进行domain adaptation
+
+- 20180912 ICALIP-18 [Domain Adaptation for Gaussian Process Classification](https://ieeexplore.ieee.org/abstract/document/8455721/)
+    - English: Domain Adaptation for Gaussian Process Classification
+    - 中文：在高斯过程分类中进行domain adaptation
 
 - 20180819 LNCS-2018 [Distant Domain Adaptation for Text Classification](https://link.springer.com/chapter/10.1007/978-3-319-99365-2_5)
 	- English: Propose a selected algorithm for distant domain text classification
