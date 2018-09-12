@@ -48,7 +48,6 @@ _ _ _
 
 [迁移学习文章汇总 Awesome transfer learning papers](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
-
 - **最新发表论文**
 
 	- 20180909 ICANN-18 [A Survey on Deep Transfer Learning](https://arxiv.org/abs/1808.01974)
@@ -74,17 +73,25 @@ _ _ _
 
 - **arXiv专区** (arXiv上的文章较新，但未经过peer-review，慎重看待)
 
+	- 20180912 arXiv [VPE: Variational Policy Embedding for Transfer Reinforcement Learning](https://arxiv.org/abs/1809.03548)
+		- English: Policy transfer in reinforcement learning
+		- 中文：增强学习中的策略迁移
+
+	- 20180912 arXiv [Unsupervised Domain Adaptation Based on Source-guided Discrepancy](https://arxiv.org/abs/1809.03839)
+		- English: Using source domain information to help domain adaptation
+		- 中文：使用源领域数据辅助目标领域进行domain adaptation
+
+	- 20180912 arXiv [Transfer Learning with Neural AutoML](https://arxiv.org/abs/1803.02780)
+		- English: Applying transfer learning into autoML search
+		- 中文：将迁移学习思想应用于automl
+
+	- 20180912 arXiv [Improving Adversarial Discriminative Domain Adaptation](https://arxiv.org/abs/1809.03625)
+		- English: Improve ADDA using source domain labels
+		- 中文：提高ADDA方法的精度，使用source domain的label
+
 	- 20180909 arXiv [Driving Experience Transfer Method for End-to-End Control of Self-Driving Cars](https://arxiv.org/abs/1809.01822)
 		- English: Driving experience transfer on self-driving cars
 		- 中文：自动驾驶车上的驾驶经验迁移
-
-	- 20180909 arXiv [Transferring Deep Reinforcement Learning with Adversarial Objective and Augmentation](https://arxiv.org/abs/1809.00770)
-		- English: deep + adversarial + reinforcement learning transfer
-		- 中文：深度对抗迁移学习用于强化学习
-
-	- 20180909 arXiv [Deep Learning for Domain Adaption: Engagement Recognition](https://arxiv.org/abs/1808.02324)
-		- English: deep transfer learning for engagement recognition
-		- 中文：用深度迁移学习进行人机交互中的engagement识别
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 

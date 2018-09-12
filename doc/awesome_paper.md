@@ -32,6 +32,14 @@ Let's read some awesome transfer learning / domain adaptation papers!
 
 ### 普通迁移学习
 
+- 20180912 arXiv [Unsupervised Domain Adaptation Based on Source-guided Discrepancy](https://arxiv.org/abs/1809.03839)
+	- English: Using source domain information to help domain adaptation
+	- 中文：使用源领域数据辅助目标领域进行domain adaptation
+
+- 20180912 arXiv [Transfer Learning with Neural AutoML](https://arxiv.org/abs/1803.02780)
+	- English: Applying transfer learning into autoML search
+	- 中文：将迁移学习思想应用于automl
+
 - 20190904 arXiv [On the Minimal Supervision for Training Any Binary Classifier from Only Unlabeled Data](https://arxiv.org/abs/1808.10585)
 	- English: Train binary classifiers from only unlabeled data
 	- 中文：仅从无标记数据训练二分类器
@@ -406,6 +414,10 @@ Let's read some awesome transfer learning / domain adaptation papers!
 
 #### 对抗迁移学习
 
+- 20180912 arXiv [Improving Adversarial Discriminative Domain Adaptation](https://arxiv.org/abs/1809.03625)
+	- English: Improve ADDA using source domain labels
+	- 中文：提高ADDA方法的精度，使用source domain的label
+
 - 20180731 ECCV-18 [Dist-GAN: An Improved GAN using Distance Constraints](https://arxiv.org/abs/1803.08887)
 	- English: Embed an autoencoder in GAN to improve its stability in training and propose two distances
 	- 中文：将autoencoder集成到GAN中，提出相应的两种距离进行度量，提高了GAN的稳定性
@@ -493,6 +505,10 @@ Let's read some awesome transfer learning / domain adaptation papers!
 - - -
 
 ### 强化迁移学习
+
+- 20180912 arXiv [VPE: Variational Policy Embedding for Transfer Reinforcement Learning](https://arxiv.org/abs/1809.03548)
+	- English: Policy transfer in reinforcement learning
+	- 中文：增强学习中的策略迁移
 
 - 20180909 arXiv [Transferring Deep Reinforcement Learning with Adversarial Objective and Augmentation](https://arxiv.org/abs/1809.00770)
 	- English: deep + adversarial + reinforcement learning transfer
