@@ -50,6 +50,10 @@ _ _ _
 
 - **最新发表论文**
 
+	- 20180919 JMLR [Invariant Models for Causal Transfer Learning](http://jmlr.csail.mit.edu/papers/volume19/16-432/16-432.pdf)
+		- English: Invariant models for causal transfer learning
+		- 中文：针对causal transfer learning提出不变模型
+
 	- 20180912 ICIP-18 [Structural Domain Adaptation with Latent Graph Alignment](https://ieeexplore.ieee.org/abstract/document/8451245/)
 		- English: Using graph alignment for domain adaptation
 		- 中文：使用图对齐方式进行domain adaptation
@@ -65,10 +69,6 @@ _ _ _
 	- 20180912 IEEE Access [Unsupervised Domain Adaptation by Mapped Correlation Alignment](https://ieeexplore.ieee.org/abstract/document/8434290/)
 		- English: Mapped correlation alignment for domain adaptation
 		- 中文：用映射的关联对齐进行domain adaptation
-
-	- 20180912 ICALIP-18 [Domain Adaptation for Gaussian Process Classification](https://ieeexplore.ieee.org/abstract/document/8455721/)
-		- English: Domain Adaptation for Gaussian Process Classification
-		- 中文：在高斯过程分类中进行domain adaptation
 
 - **arXiv专区** (arXiv上的文章较新，但未经过peer-review，慎重看待)
 

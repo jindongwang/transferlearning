@@ -32,6 +32,10 @@ Let's read some awesome transfer learning / domain adaptation papers!
 
 ### 普通迁移学习
 
+- 20180919 JMLR [Invariant Models for Causal Transfer Learning](http://jmlr.csail.mit.edu/papers/volume19/16-432/16-432.pdf)
+	- English: Invariant models for causal transfer learning
+	- 中文：针对causal transfer learning提出不变模型
+
 - 20180912 arXiv [Unsupervised Domain Adaptation Based on Source-guided Discrepancy](https://arxiv.org/abs/1809.03839)
 	- English: Using source domain information to help domain adaptation
 	- 中文：使用源领域数据辅助目标领域进行domain adaptation
