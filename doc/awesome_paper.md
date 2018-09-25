@@ -32,6 +32,10 @@ Let's read some awesome transfer learning / domain adaptation papers!
 
 ### 普通迁移学习
 
+- 20180925 arXiv [DT-LET: Deep Transfer Learning by Exploring where to Transfer](https://arxiv.org/pdf/1809.08541.pdf)
+	- English: Explore the suitable layers to transfer
+	- 中文：探索深度网络中效果表现好的对应的迁移层
+
 - 20180919 JMLR [Invariant Models for Causal Transfer Learning](http://jmlr.csail.mit.edu/papers/volume19/16-432/16-432.pdf)
 	- English: Invariant models for causal transfer learning
 	- 中文：针对causal transfer learning提出不变模型

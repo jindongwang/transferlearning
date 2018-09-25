@@ -72,6 +72,10 @@ _ _ _
 
 - **arXiv专区** (arXiv上的文章较新，但未经过peer-review，慎重看待)
 
+	- 20180925 arXiv [DT-LET: Deep Transfer Learning by Exploring where to Transfer](https://arxiv.org/pdf/1809.08541.pdf)
+		- English: Explore the suitable layers to transfer
+		- 中文：探索深度网络中效果表现好的对应的迁移层
+
 	- 20180912 arXiv [Tensor Alignment Based Domain Adaptation for Hyperspectral Image Classification](https://arxiv.org/abs/1808.09769)
 		- English: Hyperspectral image classification using domain adaptation
 		- 中文：用domain adaptation进行图像分类
@@ -87,10 +91,6 @@ _ _ _
 	- 20180912 arXiv [Unsupervised Domain Adaptation Based on Source-guided Discrepancy](https://arxiv.org/abs/1809.03839)
 		- English: Using source domain information to help domain adaptation
 		- 中文：使用源领域数据辅助目标领域进行domain adaptation
-
-	- 20180912 arXiv [Transfer Learning with Neural AutoML](https://arxiv.org/abs/1803.02780)
-		- English: Applying transfer learning into autoML search
-		- 中文：将迁移学习思想应用于automl
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
