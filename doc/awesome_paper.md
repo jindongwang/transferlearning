@@ -115,6 +115,11 @@ Let's read some awesome transfer learning / domain adaptation papers!
 - - - 
 
 ### 领域自适应
+
+- 20180926 ICLR-18 [Self-ensembling for visual domain adaptation](https://arxiv.org/abs/1706.05208)
+	- English: Self-ensembling for domain adaptation
+	- 中文：将self-ensembling应用于da
+
 - 20180912 ICIP-18 [Structural Domain Adaptation with Latent Graph Alignment](https://ieeexplore.ieee.org/abstract/document/8451245/)
     - English: Using graph alignment for domain adaptation
     - 中文：使用图对齐方式进行domain adaptation
@@ -528,6 +533,14 @@ Let's read some awesome transfer learning / domain adaptation papers!
 - - -
 
 ### 强化迁移学习
+
+- 20180926 arXiv [Target Transfer Q-Learning and Its Convergence Analysis](https://arxiv.org/abs/1809.08923)
+	- English: Analyze the risk of transfer q-learning
+	- 中文：提供了在Q learning的任务迁移中一些理论分析
+
+- 20180926 arXiv [Domain Adaptation in Robot Fault Diagnostic Systems](https://arxiv.org/abs/1809.08626)
+	- English: Apply domain adaptation in robot fault diagnostic system
+	- 中文：将domain adaptation应用于机器人故障检测系统
 
 - 20180912 arXiv [VPE: Variational Policy Embedding for Transfer Reinforcement Learning](https://arxiv.org/abs/1809.03548)
 	- English: Policy transfer in reinforcement learning

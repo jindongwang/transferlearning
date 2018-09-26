@@ -50,6 +50,10 @@ _ _ _
 
 - **最新发表论文**
 
+	- 20180926 ICLR-18 [Self-ensembling for visual domain adaptation](https://arxiv.org/abs/1706.05208)
+		- English: Self-ensembling for domain adaptation
+		- 中文：将self-ensembling应用于da
+
 	- 20180919 JMLR [Invariant Models for Causal Transfer Learning](http://jmlr.csail.mit.edu/papers/volume19/16-432/16-432.pdf)
 		- English: Invariant models for causal transfer learning
 		- 中文：针对causal transfer learning提出不变模型
@@ -66,11 +70,15 @@ _ _ _
 		- English: Semantic segmentation using transfer learning
 		- 中文：用迁移学习进行语义分割
 
-	- 20180912 IEEE Access [Unsupervised Domain Adaptation by Mapped Correlation Alignment](https://ieeexplore.ieee.org/abstract/document/8434290/)
-		- English: Mapped correlation alignment for domain adaptation
-		- 中文：用映射的关联对齐进行domain adaptation
-
 - **arXiv专区** (arXiv上的文章较新，但未经过peer-review，慎重看待)
+
+	- 20180926 arXiv [Target Transfer Q-Learning and Its Convergence Analysis](https://arxiv.org/abs/1809.08923)
+		- English: Analyze the risk of transfer q-learning
+		- 中文：提供了在Q learning的任务迁移中一些理论分析
+
+	- 20180926 arXiv [Domain Adaptation in Robot Fault Diagnostic Systems](https://arxiv.org/abs/1809.08626)
+		- English: Apply domain adaptation in robot fault diagnostic system
+		- 中文：将domain adaptation应用于机器人故障检测系统
 
 	- 20180925 arXiv [DT-LET: Deep Transfer Learning by Exploring where to Transfer](https://arxiv.org/pdf/1809.08541.pdf)
 		- English: Explore the suitable layers to transfer
@@ -87,10 +95,6 @@ _ _ _
 	- 20180912 arXiv [VPE: Variational Policy Embedding for Transfer Reinforcement Learning](https://arxiv.org/abs/1809.03548)
 		- English: Policy transfer in reinforcement learning
 		- 中文：增强学习中的策略迁移
-
-	- 20180912 arXiv [Unsupervised Domain Adaptation Based on Source-guided Discrepancy](https://arxiv.org/abs/1809.03839)
-		- English: Using source domain information to help domain adaptation
-		- 中文：使用源领域数据辅助目标领域进行domain adaptation
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
