@@ -50,6 +50,10 @@ _ _ _
 
 - **最新发表论文**
 
+	- 20180929 AIPR-17 [Vector Learning for Cross Domain Representations](https://arxiv.org/abs/1809.10312)
+		- English: Vector learning in VQA
+		- 中文：寻找caption和image之间的表达
+
 	- 20180926 ICLR-18 [Self-ensembling for visual domain adaptation](https://arxiv.org/abs/1706.05208)
 		- English: Self-ensembling for domain adaptation
 		- 中文：将self-ensembling应用于da
@@ -66,15 +70,15 @@ _ _ _
 		- English: Transfer learning to perform activity recognition using multi-model sensors
 		- 中文：用多模态传感器进行迁移学习，用于行为识别
 
-	- 20180912 ICIP-18 [Adversarial Domain Adaptation with a Domain Similarity Discriminator for Semantic Segmentation of Urban Areas](https://ieeexplore.ieee.org/abstract/document/8451010/)
-		- English: Semantic segmentation using transfer learning
-		- 中文：用迁移学习进行语义分割
-
 - **arXiv专区** (arXiv上的文章较新，但未经过peer-review，慎重看待)
+
+	- 20180929 arXiv [Taking A Closer Look at Domain Shift: Category-level Adversaries for Semantics Consistent Domain Adaptation](https://arxiv.org/abs/1809.09478)
+		- English: Category level adversarial domain adaptation
+		- 中文：针对每个class进行domain adaptation
 
 	- 20180926 arXiv [Target Transfer Q-Learning and Its Convergence Analysis](https://arxiv.org/abs/1809.08923)
 		- English: Analyze the risk of transfer q-learning
-		- 中文：提供了在Q learning的任务迁移中一些理论分析
+		- 中文：提供了在Q learning的任务迁移中一些理论分析
 
 	- 20180926 arXiv [Domain Adaptation in Robot Fault Diagnostic Systems](https://arxiv.org/abs/1809.08626)
 		- English: Apply domain adaptation in robot fault diagnostic system
@@ -91,10 +95,6 @@ _ _ _
 	- 20180912 arXiv [Multi-target Unsupervised Domain Adaptation without Exactly Shared Categories](https://arxiv.org/abs/1809.00852)
 		- English: Multi-target domain adaptation
 		- 中文：多目标的domain adaptation
-
-	- 20180912 arXiv [VPE: Variational Policy Embedding for Transfer Reinforcement Learning](https://arxiv.org/abs/1809.03548)
-		- English: Policy transfer in reinforcement learning
-		- 中文：增强学习中的策略迁移
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
