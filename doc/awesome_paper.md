@@ -32,6 +32,18 @@ Let's read some awesome transfer learning / domain adaptation papers!
 
 ### 普通迁移学习
 
+- 20181008 PSB-19 [The Effectiveness of Multitask Learning for Phenotyping with Electronic Health Records Data](https://arxiv.org/abs/1808.03331)
+	- English: Evaluate the effectiveness of multitask learning for phenotyping
+	- 中文：评估多任务学习对于表型的作用
+
+- 20181008 arXiv [Unsupervised Learning via Meta-Learning](https://arxiv.org/abs/1810.02334)
+	- English: Meta-learning for unsupervised learning
+	- 中文：用于无监督学习的元学习
+
+- 20101008 arXiv [Concept-drifting Data Streams are Time Series; The Case for Continuous Adaptation](https://arxiv.org/abs/1810.02266)
+	- English: Continuous adaptation for time series data
+	- 中文：对时间序列进行连续adaptation
+
 - 20180925 arXiv [DT-LET: Deep Transfer Learning by Exploring where to Transfer](https://arxiv.org/pdf/1809.08541.pdf)
 	- English: Explore the suitable layers to transfer
 	- 中文：探索深度网络中效果表现好的对应的迁移层

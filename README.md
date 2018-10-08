@@ -50,6 +50,10 @@ _ _ _
 
 - **最新发表论文**
 
+	- 20181008 PSB-19 [The Effectiveness of Multitask Learning for Phenotyping with Electronic Health Records Data](https://arxiv.org/abs/1808.03331)
+		- English: Evaluate the effectiveness of multitask learning for phenotyping
+		- 中文：评估多任务学习对于表型的作用
+
 	- 20180929 AIPR-17 [Vector Learning for Cross Domain Representations](https://arxiv.org/abs/1809.10312)
 		- English: Vector learning in VQA
 		- 中文：寻找caption和image之间的表达
@@ -62,15 +66,15 @@ _ _ _
 		- English: Invariant models for causal transfer learning
 		- 中文：针对causal transfer learning提出不变模型
 
-	- 20180912 ICIP-18 [Structural Domain Adaptation with Latent Graph Alignment](https://ieeexplore.ieee.org/abstract/document/8451245/)
-		- English: Using graph alignment for domain adaptation
-		- 中文：使用图对齐方式进行domain adaptation
-
-	- 20180912 PervasiveHealth-18 [Transfer Learning and Data Fusion Approach to Recognize Activities of Daily Life](https://dl.acm.org/citation.cfm?id=3240949)
-		- English: Transfer learning to perform activity recognition using multi-model sensors
-		- 中文：用多模态传感器进行迁移学习，用于行为识别
-
 - **arXiv专区** (arXiv上的文章较新，但未经过peer-review，慎重看待)
+
+	- 20181008 arXiv [Unsupervised Learning via Meta-Learning](https://arxiv.org/abs/1810.02334)
+		- English: Meta-learning for unsupervised learning
+		- 中文：用于无监督学习的元学习
+
+	- 20101008 arXiv [Concept-drifting Data Streams are Time Series; The Case for Continuous Adaptation](https://arxiv.org/abs/1810.02266)
+		- English: Continuous adaptation for time series data
+		- 中文：对时间序列进行连续adaptation
 
 	- 20180929 arXiv [Taking A Closer Look at Domain Shift: Category-level Adversaries for Semantics Consistent Domain Adaptation](https://arxiv.org/abs/1809.09478)
 		- English: Category level adversarial domain adaptation
@@ -83,18 +87,6 @@ _ _ _
 	- 20180926 arXiv [Domain Adaptation in Robot Fault Diagnostic Systems](https://arxiv.org/abs/1809.08626)
 		- English: Apply domain adaptation in robot fault diagnostic system
 		- 中文：将domain adaptation应用于机器人故障检测系统
-
-	- 20180925 arXiv [DT-LET: Deep Transfer Learning by Exploring where to Transfer](https://arxiv.org/pdf/1809.08541.pdf)
-		- English: Explore the suitable layers to transfer
-		- 中文：探索深度网络中效果表现好的对应的迁移层
-
-	- 20180912 arXiv [Tensor Alignment Based Domain Adaptation for Hyperspectral Image Classification](https://arxiv.org/abs/1808.09769)
-		- English: Hyperspectral image classification using domain adaptation
-		- 中文：用domain adaptation进行图像分类
-
-	- 20180912 arXiv [Multi-target Unsupervised Domain Adaptation without Exactly Shared Categories](https://arxiv.org/abs/1809.00852)
-		- English: Multi-target domain adaptation
-		- 中文：多目标的domain adaptation
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
