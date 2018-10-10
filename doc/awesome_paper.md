@@ -32,6 +32,26 @@ Let's read some awesome transfer learning / domain adaptation papers!
 
 ### 普通迁移学习
 
+- 20181008 PSB-19 [The Effectiveness of Multitask Learning for Phenotyping with Electronic Health Records Data](https://arxiv.org/abs/1808.03331)
+	- English: Evaluate the effectiveness of multitask learning for phenotyping
+	- 中文：评估多任务学习对于表型的作用
+
+- 20181008 arXiv [Unsupervised Learning via Meta-Learning](https://arxiv.org/abs/1810.02334)
+	- English: Meta-learning for unsupervised learning
+	- 中文：用于无监督学习的元学习
+
+- 20101008 arXiv [Concept-drifting Data Streams are Time Series; The Case for Continuous Adaptation](https://arxiv.org/abs/1810.02266)
+	- English: Continuous adaptation for time series data
+	- 中文：对时间序列进行连续adaptation
+
+- 20180925 arXiv [DT-LET: Deep Transfer Learning by Exploring where to Transfer](https://arxiv.org/pdf/1809.08541.pdf)
+	- English: Explore the suitable layers to transfer
+	- 中文：探索深度网络中效果表现好的对应的迁移层
+
+- 20180919 JMLR [Invariant Models for Causal Transfer Learning](http://jmlr.csail.mit.edu/papers/volume19/16-432/16-432.pdf)
+	- English: Invariant models for causal transfer learning
+	- 中文：针对causal transfer learning提出不变模型
+
 - 20180912 arXiv [Unsupervised Domain Adaptation Based on Source-guided Discrepancy](https://arxiv.org/abs/1809.03839)
 	- English: Using source domain information to help domain adaptation
 	- 中文：使用源领域数据辅助目标领域进行domain adaptation
@@ -107,6 +127,11 @@ Let's read some awesome transfer learning / domain adaptation papers!
 - - - 
 
 ### 领域自适应
+
+- 20180926 ICLR-18 [Self-ensembling for visual domain adaptation](https://arxiv.org/abs/1706.05208)
+	- English: Self-ensembling for domain adaptation
+	- 中文：将self-ensembling应用于da
+
 - 20180912 ICIP-18 [Structural Domain Adaptation with Latent Graph Alignment](https://ieeexplore.ieee.org/abstract/document/8451245/)
     - English: Using graph alignment for domain adaptation
     - 中文：使用图对齐方式进行domain adaptation
@@ -520,6 +545,14 @@ Let's read some awesome transfer learning / domain adaptation papers!
 - - -
 
 ### 强化迁移学习
+
+- 20180926 arXiv [Target Transfer Q-Learning and Its Convergence Analysis](https://arxiv.org/abs/1809.08923)
+	- English: Analyze the risk of transfer q-learning
+	- 中文：提供了在Q learning的任务迁移中一些理论分析
+
+- 20180926 arXiv [Domain Adaptation in Robot Fault Diagnostic Systems](https://arxiv.org/abs/1809.08626)
+	- English: Apply domain adaptation in robot fault diagnostic system
+	- 中文：将domain adaptation应用于机器人故障检测系统
 
 - 20180912 arXiv [VPE: Variational Policy Embedding for Transfer Reinforcement Learning](https://arxiv.org/abs/1809.03548)
 	- English: Policy transfer in reinforcement learning

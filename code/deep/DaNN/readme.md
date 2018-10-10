@@ -10,7 +10,7 @@ I think if you are beginning to learn **deep transfer learning**, it is better t
 
 ## Dataset
 
-The original paper adopted the popular *Office+Caltech10* dataset. You can download them [HERE](https://github.com/jindongwang/transferlearning/blob/master/doc/dataset.md#download) and put them into a new folder named `data`.
+The original paper adopted the popular *Office+Caltech10* dataset. You can download them [HERE](https://github.com/jindongwang/transferlearning/blob/master/data/dataset.md#download) and put them into a new folder named `data`.
 
 - - -
 
