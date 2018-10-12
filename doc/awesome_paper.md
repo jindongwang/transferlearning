@@ -32,6 +32,14 @@ Let's read some awesome transfer learning / domain adaptation papers!
 
 ### 普通迁移学习
 
+- 20181012 arXiv [Transfer Metric Learning: Algorithms, Applications and Outlooks](https://arxiv.org/abs/1810.03944)
+	- English: A survey on transfer metric learning
+	- 中文：一篇迁移度量学习的综述
+	
+- 20181012 NIPS-18 [Multi-Task Learning as Multi-Objective Optimization](https://arxiv.org/abs/1810.04650)
+	- English: Solve the multi-task learning as a multi-objective optimization problem
+	- 中文：将多任务问题看成一个多目标优化问题进行求解
+
 - 20181008 PSB-19 [The Effectiveness of Multitask Learning for Phenotyping with Electronic Health Records Data](https://arxiv.org/abs/1808.03331)
 	- English: Evaluate the effectiveness of multitask learning for phenotyping
 	- 中文：评估多任务学习对于表型的作用
@@ -453,6 +461,10 @@ Let's read some awesome transfer learning / domain adaptation papers!
 - - -
 
 #### 对抗迁移学习
+
+- 20181012 arXiv [Domain Confusion with Self Ensembling for Unsupervised Adaptation](https://arxiv.org/abs/1810.04472)
+	- English: Domain confusion and self-ensembling for DA
+	- 中文：用于Domain adaptation的confusion和self-ensembling方法
 
 - 20180912 arXiv [Improving Adversarial Discriminative Domain Adaptation](https://arxiv.org/abs/1809.03625)
 	- English: Improve ADDA using source domain labels

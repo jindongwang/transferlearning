@@ -48,45 +48,41 @@ _ _ _
 
 [迁移学习文章汇总 Awesome transfer learning papers](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
-- **最新发表论文**
+- **Latest published (accepted) papers**
+
+	- 20181012 NIPS-18 [Multi-Task Learning as Multi-Objective Optimization](https://arxiv.org/abs/1810.04650)
+		- English: Solve the multi-task learning as a multi-objective optimization problem
+		- 中文：将多任务问题看成一个多目标优化问题进行求解
+
+	- 20181012 ICMLA-18 [Virtual Battery Parameter Identification using Transfer Learning based Stacked Autoencoder](https://arxiv.org/abs/1810.04642)
+		- English: Using transfer learning for calculating the virtual battery in a thermostatics load
+		- 中文：用迁移学习进行恒温器的电量估计
 
 	- 20181008 PSB-19 [The Effectiveness of Multitask Learning for Phenotyping with Electronic Health Records Data](https://arxiv.org/abs/1808.03331)
 		- English: Evaluate the effectiveness of multitask learning for phenotyping
 		- 中文：评估多任务学习对于表型的作用
 
-	- 20180929 AIPR-17 [Vector Learning for Cross Domain Representations](https://arxiv.org/abs/1809.10312)
-		- English: Vector learning in VQA
-		- 中文：寻找caption和image之间的表达
+- **arXiv** (Not peer-reviewed, please be cautious)
 
-	- 20180926 ICLR-18 [Self-ensembling for visual domain adaptation](https://arxiv.org/abs/1706.05208)
-		- English: Self-ensembling for domain adaptation
-		- 中文：将self-ensembling应用于da
+	- 20181012 arXiv [Transfer Metric Learning: Algorithms, Applications and Outlooks](https://arxiv.org/abs/1810.03944)
+		- English: A survey on transfer metric learning
+		- 中文：一篇迁移度量学习的综述
+		
+	- 20181012 arXiv [Bird Species Classification using Transfer Learning with Multistage Training](https://arxiv.org/abs/1810.04250)
+		- English: Using transfer learning for bird species classification
+		- 中文：用迁移学习进行鸟类分类
+		
+	- 20181012 arXiv [Survival prediction using ensemble tumor segmentation and transfer learning](https://arxiv.org/abs/1810.04274)
+		- English: Predicting the survival of the tumor patient using transfer learning
+		- 中文：用迁移学习估计肿瘤病人存活时间
 
-	- 20180919 JMLR [Invariant Models for Causal Transfer Learning](http://jmlr.csail.mit.edu/papers/volume19/16-432/16-432.pdf)
-		- English: Invariant models for causal transfer learning
-		- 中文：针对causal transfer learning提出不变模型
-
-- **arXiv专区** (arXiv上的文章较新，但未经过peer-review，慎重看待)
+	- 20181012 arXiv [Domain Confusion with Self Ensembling for Unsupervised Adaptation](https://arxiv.org/abs/1810.04472)
+		- English: Domain confusion and self-ensembling for DA
+		- 中文：用于Domain adaptation的confusion和self-ensembling方法
 
 	- 20181008 arXiv [Unsupervised Learning via Meta-Learning](https://arxiv.org/abs/1810.02334)
 		- English: Meta-learning for unsupervised learning
 		- 中文：用于无监督学习的元学习
-
-	- 20101008 arXiv [Concept-drifting Data Streams are Time Series; The Case for Continuous Adaptation](https://arxiv.org/abs/1810.02266)
-		- English: Continuous adaptation for time series data
-		- 中文：对时间序列进行连续adaptation
-
-	- 20180929 arXiv [Taking A Closer Look at Domain Shift: Category-level Adversaries for Semantics Consistent Domain Adaptation](https://arxiv.org/abs/1809.09478)
-		- English: Category level adversarial domain adaptation
-		- 中文：针对每个class进行domain adaptation
-
-	- 20180926 arXiv [Target Transfer Q-Learning and Its Convergence Analysis](https://arxiv.org/abs/1809.08923)
-		- English: Analyze the risk of transfer q-learning
-		- 中文：提供了在Q learning的任务迁移中一些理论分析
-
-	- 20180926 arXiv [Domain Adaptation in Robot Fault Diagnostic Systems](https://arxiv.org/abs/1809.08626)
-		- English: Apply domain adaptation in robot fault diagnostic system
-		- 中文：将domain adaptation应用于机器人故障检测系统
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
@@ -170,7 +166,7 @@ Here are some articles on transfer learning theory and survey.
 
 - 较新的综述 Latest survey：
 
-	- 2018 清华大学团队最新的深度迁移学习综述：[A Survey on Deep Transfer Learning](https://arxiv.org/abs/1808.01974)
+	- 2018 一篇迁移度量学习的综述: [Transfer Metric Learning: Algorithms, Applications and Outlooks](https://arxiv.org/abs/1810.03944)
 	- 2018 一篇最近的非对称情况下的异构迁移学习综述：[Asymmetric Heterogeneous Transfer Learning: A Survey](https://arxiv.org/abs/1804.10834)
 	- 2018 Neural style transfer的一个survey：[Neural Style Transfer: A Review](https://arxiv.org/abs/1705.04058)
 	- 2018 深度domain adaptation的一个综述：[Deep Visual Domain Adaptation: A Survey](https://www.sciencedirect.com/science/article/pii/S0925231218306684)
@@ -269,7 +265,10 @@ Here are some popular challenges on transfer learning. 一些关于迁移学习�
   
 ## 其他
 
-[记与迁移学习大牛杨强教授的第二次会面](https://zhuanlan.zhihu.com/p/26260083)
+Related projects:
+
+- A semi-supervised domain adaptation library: https://domainadaptation.org
+
 
 - - -
 

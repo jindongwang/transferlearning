@@ -2,6 +2,18 @@
 
 迁移学习的应用
 
+- 20181012 arXiv [Bird Species Classification using Transfer Learning with Multistage Training](https://arxiv.org/abs/1810.04250)
+	- English: Using transfer learning for bird species classification
+	- 中文：用迁移学习进行鸟类分类
+		
+- 20181012 arXiv [Survival prediction using ensemble tumor segmentation and transfer learning](https://arxiv.org/abs/1810.04274)
+	- English: Predicting the survival of the tumor patient using transfer learning
+	- 中文：用迁移学习估计肿瘤病人存活时间
+
+- 20181012 ICMLA-18 [Virtual Battery Parameter Identification using Transfer Learning based Stacked Autoencoder](https://arxiv.org/abs/1810.04642)
+	- English: Using transfer learning for calculating the virtual battery in a thermostatics load
+	- 中文：用迁移学习进行恒温器的电量估计
+
 - 20180912 PervasiveHealth-18 [Transfer Learning and Data Fusion Approach to Recognize Activities of Daily Life](https://dl.acm.org/citation.cfm?id=3240949)
     - English: Transfer learning to perform activity recognition using multi-model sensors
     - 中文：用多模态传感器进行迁移学习，用于行为识别
