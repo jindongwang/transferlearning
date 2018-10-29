@@ -31,6 +31,7 @@ This document contains codes from several aspects: **tutorial**, **theory**, **t
 - MMD and MK-MMD：[Matlab](https://github.com/lopezpaz/classifier_tests/tree/master/code/unit_test_mmd) | [Python](https://github.com/jindongwang/transferlearning/tree/master/code/distance/mmd.py)
 - $A$-distance: [Python](https://github.com/jindongwang/transferlearning/tree/master/code/distance/proxy_a_distance.py)
 - CORAL loss: [Python](https://github.com/jindongwang/transferlearning/tree/master/code/distance/coral_loss.py)
+- Metric learning: [Python](https://github.com/metric-learn/metric-learn)
 
 ## Traditional transfer learning methods  非深度迁移
 
