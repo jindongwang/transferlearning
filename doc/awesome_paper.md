@@ -333,6 +333,14 @@ Let's read some awesome transfer learning / domain adaptation papers!
 
 ### 深度迁移学习
 
+- 20181105 SIGGRAPI-18 [Unsupervised representation learning using convolutional and stacked auto-encoders: a domain and cross-domain feature space analysis](https://arxiv.org/abs/1811.00473)
+	- English: Representation learning for cross-domains
+	- 中文：跨领域的特征学习
+
+- 20181105 arXiv [Progressive Memory Banks for Incremental Domain Adaptation](https://arxiv.org/abs/1811.00239)
+	- English: Progressive memory bank in RNN for incremental DA
+	- 中文：针对增量的domain adaptation，进行记忆单元的RNN学习
+
 - 20180909 arXiv [A Survey on Deep Transfer Learning](https://arxiv.org/abs/1808.01974)
 	- English: A survey on deep transfer learning
 	- 中文：深度迁移学习的survey
@@ -461,6 +469,10 @@ Let's read some awesome transfer learning / domain adaptation papers!
 - - -
 
 #### 对抗迁移学习
+
+- 20181105 arXiv [Efficient Multi-Domain Dictionary Learning with GANs](https://arxiv.org/abs/1811.00274)
+	- English: Dictionary learning for multi-domains using GAN
+	- 中文：用GAN进行多个domain的字典学习
 
 - 20181012 arXiv [Domain Confusion with Self Ensembling for Unsupervised Adaptation](https://arxiv.org/abs/1810.04472)
 	- English: Domain confusion and self-ensembling for DA

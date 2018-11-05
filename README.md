@@ -50,6 +50,10 @@ _ _ _
 
 - **Latest published (accepted) papers**
 
+	- 20181105 SIGGRAPI-18 [Unsupervised representation learning using convolutional and stacked auto-encoders: a domain and cross-domain feature space analysis](https://arxiv.org/abs/1811.00473)
+		- English: Representation learning for cross-domains
+		- 中文：跨领域的特征学习
+
 	- 20181012 NIPS-18 [Multi-Task Learning as Multi-Objective Optimization](https://arxiv.org/abs/1810.04650)
 		- English: Solve the multi-task learning as a multi-objective optimization problem
 		- 中文：将多任务问题看成一个多目标优化问题进行求解
@@ -64,6 +68,14 @@ _ _ _
 
 - **arXiv** (Not peer-reviewed, please be cautious)
 
+	- 20181105 arXiv [Progressive Memory Banks for Incremental Domain Adaptation](https://arxiv.org/abs/1811.00239)
+		- English: Progressive memory bank in RNN for incremental DA
+		- 中文：针对增量的domain adaptation，进行记忆单元的RNN学习
+
+	- 20181105 arXiv [Efficient Multi-Domain Dictionary Learning with GANs](https://arxiv.org/abs/1811.00274)
+		- English: Dictionary learning for multi-domains using GAN
+		- 中文：用GAN进行多个domain的字典学习
+
 	- 20181012 arXiv [Transfer Metric Learning: Algorithms, Applications and Outlooks](https://arxiv.org/abs/1810.03944)
 		- English: A survey on transfer metric learning
 		- 中文：一篇迁移度量学习的综述
@@ -75,14 +87,6 @@ _ _ _
 	- 20181012 arXiv [Survival prediction using ensemble tumor segmentation and transfer learning](https://arxiv.org/abs/1810.04274)
 		- English: Predicting the survival of the tumor patient using transfer learning
 		- 中文：用迁移学习估计肿瘤病人存活时间
-
-	- 20181012 arXiv [Domain Confusion with Self Ensembling for Unsupervised Adaptation](https://arxiv.org/abs/1810.04472)
-		- English: Domain confusion and self-ensembling for DA
-		- 中文：用于Domain adaptation的confusion和self-ensembling方法
-
-	- 20181008 arXiv [Unsupervised Learning via Meta-Learning](https://arxiv.org/abs/1810.02334)
-		- English: Meta-learning for unsupervised learning
-		- 中文：用于无监督学习的元学习
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
