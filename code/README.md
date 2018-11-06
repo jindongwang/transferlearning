@@ -104,7 +104,7 @@ This document contains codes from several aspects: **tutorial**, **theory**, **t
 - **AutoDIAL** (Automatic DomaIn Alignment Layers, ICCV-17) [25]
 	- [Caffe](https://github.com/ducksoup/autodial)
 - **DSN** (Domain Separation Networks, NIPS-16) [26]
-	- [Tensorflow](https://github.com/tensorflow/models/tree/master/research/domain_adaptation)
+	- [Pytorch](https://github.com/fungtion/DSN) | [Tensorflow](https://github.com/tensorflow/models/tree/master/research/domain_adaptation)
 - **DRCN** (Deep Reconstruction-Classification Networks for Unsupervised Domain Adaptation, ECCV-16) [27]
 	- [Keras](https://github.com/ghif/drcn) | [Pytorch](https://github.com/fungtion/DRCN)
 - Multi-task Autoencoders for Domain Generalization (ICCV-15) [28]
@@ -145,6 +145,12 @@ This document contains codes from several aspects: **tutorial**, **theory**, **t
 	- [Pytorch](https://github.com/jvanvugt/pytorch-domain-adaptation/blob/master/wdgrl.py)
 - **JDDA** (Joint Domain Alignment and Discriminative Feature Learning) [53]
 	- [Tensorflow](https://github.com/A-bone1/JDDA)
+- Multi-modal Cycle-consistent Generalized Zero-Shot Learning (ECCV-18) [54]
+	- [Tensorflow](https://github.com/rfelixmg/frwgan-eccv18)
+- **MSTN** (Moving Semantic Transfer Network, ICML-18) [55]
+	- [Tensorflow](https://github.com/Mid-Push/Moving-Semantic-Transfer-Network)
+- **SAN** (Partial Transfer Learning With Selective Adversarial Networks, CVPR-18) [56]
+	- [Caffe, Pytorch](https://github.com/thuml/SAN)
 
 - - -
 
@@ -265,3 +271,9 @@ accepted in International Conference on Computer Vision (ICCV 2015), Santiago, C
 [52] Shen J, Qu Y, Zhang W, et al. Wasserstein Distance Guided Representation Learning for Domain Adaptation[C]//AAAI. 2018.
 
 [53] Chen C, Chen Z, Jiang B, et al. Joint Domain Alignment and Discriminative Feature Learning for Unsupervised Deep Domain Adaptation[J]. arXiv preprint arXiv:1808.09347, 2018.
+
+[54] Felix R, Vijay Kumar B G, Reid I, et al. Multi-modal Cycle-consistent Generalized Zero-Shot Learning. ECCV 2018.
+
+[55] Xie S, Zheng Z, Chen L, et al. Learning Semantic Representations for Unsupervised Domain Adaptation[C]//International Conference on Machine Learning. 2018: 5419-5428.
+
+[56] Cao Z, Long M, Wang J, et al. Partial transfer learning with selective adversarial networks. CVPR 2018.
