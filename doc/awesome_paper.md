@@ -32,6 +32,10 @@ Let's read some awesome transfer learning / domain adaptation papers!
 
 ### 普通迁移学习
 
+- 20181106 arXiv [Zero-Shot Transfer VQA Dataset](https://arxiv.org/abs/1811.00692)
+	- English: A dataset for zero-shot VQA transfer
+	- 中文：一个针对zero-shot VQA的迁移学习数据集
+
 - 20181012 arXiv [Transfer Metric Learning: Algorithms, Applications and Outlooks](https://arxiv.org/abs/1810.03944)
 	- English: A survey on transfer metric learning
 	- 中文：一篇迁移度量学习的综述

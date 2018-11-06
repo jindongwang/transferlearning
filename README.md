@@ -68,6 +68,10 @@ _ _ _
 
 - **arXiv** (Not peer-reviewed, please be cautious)
 
+	- 20181106 arXiv [Zero-Shot Transfer VQA Dataset](https://arxiv.org/abs/1811.00692)
+		- English: A dataset for zero-shot VQA transfer
+		- 中文：一个针对zero-shot VQA的迁移学习数据集
+
 	- 20181105 arXiv [Progressive Memory Banks for Incremental Domain Adaptation](https://arxiv.org/abs/1811.00239)
 		- English: Progressive memory bank in RNN for incremental DA
 		- 中文：针对增量的domain adaptation，进行记忆单元的RNN学习
