@@ -1,5 +1,7 @@
 # 迁移学习 Transfer Learning
 
+[![MIT License](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT) 
+
 关于迁移学习的所有资料，包括：介绍、综述文章、最新文章、代表工作及其代码、常用数据集、硕博士论文、比赛等等。(可能是**目前最全**的迁移学习资料库？) *欢迎一起贡献！*
 
 Everything about Transfer Learning (Probably the **most complete** repository?). *Your contribution is highly valued!*
