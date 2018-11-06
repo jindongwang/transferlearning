@@ -48,23 +48,27 @@ _ _ _
 
 [迁移学习文章汇总 Awesome transfer learning papers](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
-- **Latest published (accepted) papers**
+- **Latest publications**
+
+	- 20181106 workshop [GENERALIZATION BOUNDS FOR DOMAIN ADAPTATION VIA DOMAIN TRANSFORMATIONS](https://ieeexplore.ieee.org/abstract/document/8517092)
+		- English: Analyze some generalization bound for domain adaptation
+		- 中文：对domain adaptation进行了一些理论上的分析
+
+	- 20181106 PRCV-18 [Deep Local Descriptors with Domain Adaptation](https://link.springer.com/chapter/10.1007/978-3-030-03335-4_30)
+		- English: Adding MMD layers to conv and fc layers
+		- 中文：在卷积和全连接层都加入MMD
+
+	- 20181106 LNCS-18 [LSTN: Latent Subspace Transfer Network for Unsupervised Domain Adaptation](https://link.springer.com/chapter/10.1007/978-3-030-03335-4_24)
+		- English: Combine subspace learning and neural network for DA
+		- 中文：将子空间表示和深度网络结合起来用于DA
+
+	- 20181106 PRCV-18 [Domain Attention Model for Domain Generalization in Object Detection](https://link.springer.com/chapter/10.1007/978-3-030-03341-5_3)
+		- English: Adding attention for domain generalization
+		- 中文：在domain generalization中加入了attention机制
 
 	- 20181105 SIGGRAPI-18 [Unsupervised representation learning using convolutional and stacked auto-encoders: a domain and cross-domain feature space analysis](https://arxiv.org/abs/1811.00473)
 		- English: Representation learning for cross-domains
 		- 中文：跨领域的特征学习
-
-	- 20181012 NIPS-18 [Multi-Task Learning as Multi-Objective Optimization](https://arxiv.org/abs/1810.04650)
-		- English: Solve the multi-task learning as a multi-objective optimization problem
-		- 中文：将多任务问题看成一个多目标优化问题进行求解
-
-	- 20181012 ICMLA-18 [Virtual Battery Parameter Identification using Transfer Learning based Stacked Autoencoder](https://arxiv.org/abs/1810.04642)
-		- English: Using transfer learning for calculating the virtual battery in a thermostatics load
-		- 中文：用迁移学习进行恒温器的电量估计
-
-	- 20181008 PSB-19 [The Effectiveness of Multitask Learning for Phenotyping with Electronic Health Records Data](https://arxiv.org/abs/1808.03331)
-		- English: Evaluate the effectiveness of multitask learning for phenotyping
-		- 中文：评估多任务学习对于表型的作用
 
 - **arXiv** (Not peer-reviewed, please be cautious)
 

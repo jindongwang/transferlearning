@@ -32,6 +32,10 @@ Let's read some awesome transfer learning / domain adaptation papers!
 
 ### 普通迁移学习
 
+- 20181106 workshop [GENERALIZATION BOUNDS FOR DOMAIN ADAPTATION VIA DOMAIN TRANSFORMATIONS](https://ieeexplore.ieee.org/abstract/document/8517092)
+	- English: Analyze some generalization bound for domain adaptation
+	- 中文：对domain adaptation进行了一些理论上的分析
+
 - 20181106 arXiv [Zero-Shot Transfer VQA Dataset](https://arxiv.org/abs/1811.00692)
 	- English: A dataset for zero-shot VQA transfer
 	- 中文：一个针对zero-shot VQA的迁移学习数据集
@@ -336,6 +340,18 @@ Let's read some awesome transfer learning / domain adaptation papers!
 - - -
 
 ### 深度迁移学习
+
+- 20181106 PRCV-18 [Deep Local Descriptors with Domain Adaptation](https://link.springer.com/chapter/10.1007/978-3-030-03335-4_30)
+	- English: Adding MMD layers to conv and fc layers
+	- 中文：在卷积和全连接层都加入MMD
+
+- 20181106 LNCS-18 [LSTN: Latent Subspace Transfer Network for Unsupervised Domain Adaptation](https://link.springer.com/chapter/10.1007/978-3-030-03335-4_24)
+	- English: Combine subspace learning and neural network for DA
+	- 中文：将子空间表示和深度网络结合起来用于DA
+
+- 20181106 PRCV-18 [Domain Attention Model for Domain Generalization in Object Detection](https://link.springer.com/chapter/10.1007/978-3-030-03341-5_3)
+	- English: Adding attention for domain generalization
+	- 中文：在domain generalization中加入了attention机制
 
 - 20181105 SIGGRAPI-18 [Unsupervised representation learning using convolutional and stacked auto-encoders: a domain and cross-domain feature space analysis](https://arxiv.org/abs/1811.00473)
 	- English: Representation learning for cross-domains
