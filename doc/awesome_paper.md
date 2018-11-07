@@ -341,6 +341,10 @@ Let's read some awesome transfer learning / domain adaptation papers!
 
 ### 深度迁移学习
 
+- 20181107 BigData-18 [Transfer learning for time series classification](https://arxiv.org/abs/1811.01533)
+	- English: First work on deep transfer learning for time series classification
+	- 中文：第一个将深度迁移学习用于时间序列分类
+
 - 20181106 PRCV-18 [Deep Local Descriptors with Domain Adaptation](https://link.springer.com/chapter/10.1007/978-3-030-03335-4_30)
 	- English: Adding MMD layers to conv and fc layers
 	- 中文：在卷积和全连接层都加入MMD
@@ -489,6 +493,10 @@ Let's read some awesome transfer learning / domain adaptation papers!
 - - -
 
 #### 对抗迁移学习
+
+- 20181107 NIPS-18 [Invariant Representations without Adversarial Training](https://arxiv.org/abs/1805.09458)
+	- English: Get invariant representations without adversarial training
+	- 中文：不进行对抗训练获得不变特征表达
 
 - 20181105 arXiv [Efficient Multi-Domain Dictionary Learning with GANs](https://arxiv.org/abs/1811.00274)
 	- English: Dictionary learning for multi-domains using GAN

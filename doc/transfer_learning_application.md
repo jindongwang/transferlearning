@@ -2,6 +2,10 @@
 
 迁移学习的应用
 
+- 20181107 ICONIP-18 [Transductive Learning with String Kernels for Cross-Domain Text Classification](https://arxiv.org/abs/1811.01734)
+	- English: String kernel for cross-domain text classification using transfer learning
+	- 中文：用string kernel进行迁移学习跨领域文本分类
+
 - 20181012 arXiv [Bird Species Classification using Transfer Learning with Multistage Training](https://arxiv.org/abs/1810.04250)
 	- English: Using transfer learning for bird species classification
 	- 中文：用迁移学习进行鸟类分类

@@ -52,6 +52,18 @@ _ _ _
 
 - **Latest publications**
 
+	- 20181107 BigData-18 [Transfer learning for time series classification](https://arxiv.org/abs/1811.01533)
+		- English: First work on deep transfer learning for time series classification
+		- 中文：第一个将深度迁移学习用于时间序列分类
+
+	- 20181107 ICONIP-18 [Transductive Learning with String Kernels for Cross-Domain Text Classification](https://arxiv.org/abs/1811.01734)
+		- English: String kernel for cross-domain text classification using transfer learning
+		- 中文：用string kernel进行迁移学习跨领域文本分类
+
+	- 20181107 NIPS-18 [Invariant Representations without Adversarial Training](https://arxiv.org/abs/1805.09458)
+		- English: Get invariant representations without adversarial training
+		- 中文：不进行对抗训练获得不变特征表达
+
 	- 20181106 workshop [GENERALIZATION BOUNDS FOR DOMAIN ADAPTATION VIA DOMAIN TRANSFORMATIONS](https://ieeexplore.ieee.org/abstract/document/8517092)
 		- English: Analyze some generalization bound for domain adaptation
 		- 中文：对domain adaptation进行了一些理论上的分析
