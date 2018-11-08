@@ -86,6 +86,10 @@ _ _ _
 
 - **arXiv** (Not peer-reviewed, please be cautious)
 
+	- 20181108 arXiv [Deep feature transfer between localization and segmentation tasks](https://arxiv.org/abs/1811.02539)
+		- English: Feature transfer between localization and segmentation
+		- 中文：在定位与分割任务间进行迁移
+
 	- 20181106 arXiv [Zero-Shot Transfer VQA Dataset](https://arxiv.org/abs/1811.00692)
 		- English: A dataset for zero-shot VQA transfer
 		- 中文：一个针对zero-shot VQA的迁移学习数据集

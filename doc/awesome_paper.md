@@ -341,6 +341,10 @@ Let's read some awesome transfer learning / domain adaptation papers!
 
 ### 深度迁移学习
 
+- 20181108 arXiv [Deep feature transfer between localization and segmentation tasks](https://arxiv.org/abs/1811.02539)
+	- English: Feature transfer between localization and segmentation
+	- 中文：在定位与分割任务间进行迁移
+
 - 20181107 BigData-18 [Transfer learning for time series classification](https://arxiv.org/abs/1811.01533)
 	- English: First work on deep transfer learning for time series classification
 	- 中文：第一个将深度迁移学习用于时间序列分类
