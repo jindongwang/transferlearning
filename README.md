@@ -52,6 +52,10 @@ _ _ _
 
 - **Latest publications**
 
+	- 20181109 PAMI-18 [Transferable Representation Learning with Deep Adaptation Networks](https://ieeexplore.ieee.org/abstract/document/8454781/authors#authors)
+		- English: Journal version of DAN paper
+		- 中文：DAN的Journal版本
+
 	- 20181107 BigData-18 [Transfer learning for time series classification](https://arxiv.org/abs/1811.01533)
 		- English: First work on deep transfer learning for time series classification
 		- 中文：第一个将深度迁移学习用于时间序列分类

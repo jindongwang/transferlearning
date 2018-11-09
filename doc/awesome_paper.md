@@ -341,6 +341,10 @@ Let's read some awesome transfer learning / domain adaptation papers!
 
 ### 深度迁移学习
 
+- 20181109 PAMI-18 [Transferable Representation Learning with Deep Adaptation Networks](https://ieeexplore.ieee.org/abstract/document/8454781/authors#authors)
+	- English: Journal version of DAN paper
+	- 中文：DAN的Journal版本
+
 - 20181108 arXiv [Deep feature transfer between localization and segmentation tasks](https://arxiv.org/abs/1811.02539)
 	- English: Feature transfer between localization and segmentation
 	- 中文：在定位与分割任务间进行迁移
