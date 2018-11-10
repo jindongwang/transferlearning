@@ -52,6 +52,10 @@ _ _ _
 
 - **Latest publications**
 
+	- 20181110 AAAI-19 [Knowledge Transfer via Distillation of Activation Boundaries Formed by Hidden Neurons](https://arxiv.org/abs/1811.03233)
+		- English: Transfer learning for bounding neuron activation boundaries
+		- 中文：使用迁移学习进行神经元激活边界判定
+
 	- 20181109 PAMI-18 [Transferable Representation Learning with Deep Adaptation Networks](https://ieeexplore.ieee.org/abstract/document/8454781/authors#authors)
 		- English: Journal version of DAN paper
 		- 中文：DAN的Journal版本
@@ -68,27 +72,7 @@ _ _ _
 		- English: Get invariant representations without adversarial training
 		- 中文：不进行对抗训练获得不变特征表达
 
-	- 20181106 workshop [GENERALIZATION BOUNDS FOR DOMAIN ADAPTATION VIA DOMAIN TRANSFORMATIONS](https://ieeexplore.ieee.org/abstract/document/8517092)
-		- English: Analyze some generalization bound for domain adaptation
-		- 中文：对domain adaptation进行了一些理论上的分析
-
-	- 20181106 PRCV-18 [Deep Local Descriptors with Domain Adaptation](https://link.springer.com/chapter/10.1007/978-3-030-03335-4_30)
-		- English: Adding MMD layers to conv and fc layers
-		- 中文：在卷积和全连接层都加入MMD
-
-	- 20181106 LNCS-18 [LSTN: Latent Subspace Transfer Network for Unsupervised Domain Adaptation](https://link.springer.com/chapter/10.1007/978-3-030-03335-4_24)
-		- English: Combine subspace learning and neural network for DA
-		- 中文：将子空间表示和深度网络结合起来用于DA
-
-	- 20181106 PRCV-18 [Domain Attention Model for Domain Generalization in Object Detection](https://link.springer.com/chapter/10.1007/978-3-030-03341-5_3)
-		- English: Adding attention for domain generalization
-		- 中文：在domain generalization中加入了attention机制
-
-	- 20181105 SIGGRAPI-18 [Unsupervised representation learning using convolutional and stacked auto-encoders: a domain and cross-domain feature space analysis](https://arxiv.org/abs/1811.00473)
-		- English: Representation learning for cross-domains
-		- 中文：跨领域的特征学习
-
-- **arXiv** (Not peer-reviewed, please be cautious)
+- **Preprints on arXiv** (Not peer-reviewed)
 
 	- 20181108 arXiv [Deep feature transfer between localization and segmentation tasks](https://arxiv.org/abs/1811.02539)
 		- English: Feature transfer between localization and segmentation
@@ -109,14 +93,6 @@ _ _ _
 	- 20181012 arXiv [Transfer Metric Learning: Algorithms, Applications and Outlooks](https://arxiv.org/abs/1810.03944)
 		- English: A survey on transfer metric learning
 		- 中文：一篇迁移度量学习的综述
-		
-	- 20181012 arXiv [Bird Species Classification using Transfer Learning with Multistage Training](https://arxiv.org/abs/1810.04250)
-		- English: Using transfer learning for bird species classification
-		- 中文：用迁移学习进行鸟类分类
-		
-	- 20181012 arXiv [Survival prediction using ensemble tumor segmentation and transfer learning](https://arxiv.org/abs/1810.04274)
-		- English: Predicting the survival of the tumor patient using transfer learning
-		- 中文：用迁移学习估计肿瘤病人存活时间
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
@@ -301,20 +277,13 @@ Here are some popular challenges on transfer learning. 一些关于迁移学习�
 
 Related projects:
 
-- A semi-supervised domain adaptation library: https://domainadaptation.org
+- Salad: [A semi-supervised domain adaptation library](https://domainadaptation.org)
 
 
 - - -
 
 ## Contributing
 
-如果你对本项目感兴趣，非常欢迎你加入！
-
-- 正常参与：请直接fork、pull request，或者与我联系我把你加入合作者中
-- 如果要上传文件：请**不要**直接上传到项目中，否则会造成git版本库过大。正确的方法是上传它的**超链接**。请按照如下方式上传：
-	- (墙内)目前没有找到比较好的方式，只能通过链接，或者自己网盘的链接来做。
-	- (墙外)首先在[UPLOAD](https://my.pcloud.com/#page=puplink&code=4e9Z0Vwpmfzvx0y2OqTTTMzkrRUz8q9V)直接上传（**不**需要注册账号）；上传成功后，在[DOWNLOAD](https://my.pcloud.com/publink/show?code=kZWtboZbDDVguCHGV49QkmlLliNPJRMHrFX)里找到你刚上传的文件，共享链接即可。
-
-Welcome!
+If you are interested in contributing, please refer to [HERE](https://github.com/jindongwang/transferlearning/blob/master/CONTRIBUTING.md) for instructions in contribution.
 
 > ***[文章版权声明]这个仓库是我开源到Github上的，可以遵守相关的开源协议进行使用。这个仓库中包含有很多研究者的论文、硕博士论文等，都来源于在网上的下载，仅作为学术研究使用。我对其中一些文章都写了自己的浅见，希望能很好地帮助理解。这些文章的版权属于相应的出版社。如果作者或出版社有异议，请联系我进行删除。一切都是为了更好地学术！***

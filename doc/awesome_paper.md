@@ -341,6 +341,10 @@ Let's read some awesome transfer learning / domain adaptation papers!
 
 ### 深度迁移学习
 
+- 20181110 AAAI-19 [Knowledge Transfer via Distillation of Activation Boundaries Formed by Hidden Neurons](https://arxiv.org/abs/1811.03233)
+	- English: Transfer learning for bounding neuron activation boundaries
+	- 中文：使用迁移学习进行神经元激活边界判定
+
 - 20181109 PAMI-18 [Transferable Representation Learning with Deep Adaptation Networks](https://ieeexplore.ieee.org/abstract/document/8454781/authors#authors)
 	- English: Journal version of DAN paper
 	- 中文：DAN的Journal版本
