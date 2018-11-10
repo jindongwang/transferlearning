@@ -14,24 +14,25 @@ This document contains codes from several aspects: **tutorial**, **theory**, **t
 
 - Fine-tune using **AlexNet** and **ResNet**
 	- [PyTorch](https://github.com/jindongwang/transferlearning/tree/master/code/deep/finetune_AlexNet_ResNet)
+	- [Another example using Pytorch]((https://github.com/Spandan-Madan/Pytorch_fine_tuning_Tutorial))
+	- [Pytorch CNN fine-tune]([Pytorch](https://github.com/creafz/pytorch-cnn-finetune))
 
-- [基于深度学习和迁移学习的识花实践(Tensorflow)](https://cosx.org/2017/10/transfer-learning/)
+- Fast learn transfer learning:
+	- [Pytorch](https://github.com/miguelgfierro/sciblog_support/blob/master/A_Gentle_Introduction_to_Transfer_Learning/Intro_Transfer_Learning.ipynb) | [Tensorflow](https://cosx.org/2017/10/transfer-learning/)
 
-- [基于Pytorch的图像分类](https://github.com/miguelgfierro/sciblog_support/blob/master/A_Gentle_Introduction_to_Transfer_Learning/Intro_Transfer_Learning.ipynb)
-
-- [使用Pytorch进行finetune](https://github.com/Spandan-Madan/Pytorch_fine_tuning_Tutorial)
-
-- **Tensorflow Hub** (Tensorflow library released by Google for transfer learning)
+- **Google's Tensorflow Hub** (Tensorflow library released by Google for transfer learning)
 	- [Tensorflow](https://github.com/tensorflow/hub)
-- **Pytorch CNN finetune** (Finetune tutorial for pytorch)
-	- [Pytorch](https://github.com/creafz/pytorch-cnn-finetune)
 
 ## Basic distance 常用的距离度量
 
 - MMD and MK-MMD：[Matlab](https://github.com/lopezpaz/classifier_tests/tree/master/code/unit_test_mmd) | [Python](https://github.com/jindongwang/transferlearning/tree/master/code/distance/mmd.py)
 - $A$-distance: [Python](https://github.com/jindongwang/transferlearning/tree/master/code/distance/proxy_a_distance.py)
 - CORAL loss: [Python](https://github.com/jindongwang/transferlearning/tree/master/code/distance/coral_loss.py)
-- Metric learning: [Python](https://github.com/metric-learn/metric-learn)
+- Several metric learning algorithms: [Python](https://github.com/metric-learn/metric-learn)
+- Wasserstein distance (earch mover's distance):
+	- Scipy built-in function: [scipy.stats.wasserstein_distance](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.wasserstein_distance.html)
+	- OpenCV built-in function: `cv.CalcEMD2`
+	- Google's implementation: [Tensorflow](https://github.com/google/wasserstein-dist)
 
 ## Traditional transfer learning methods  非深度迁移
 
