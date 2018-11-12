@@ -14,8 +14,8 @@ This document contains codes from several aspects: **tutorial**, **theory**, **t
 
 - Fine-tune using **AlexNet** and **ResNet**
 	- [PyTorch](https://github.com/jindongwang/transferlearning/tree/master/code/deep/finetune_AlexNet_ResNet)
-	- [Another example using Pytorch]((https://github.com/Spandan-Madan/Pytorch_fine_tuning_Tutorial))
-	- [Pytorch CNN fine-tune]([Pytorch](https://github.com/creafz/pytorch-cnn-finetune))
+	- [Another example using Pytorch](https://github.com/Spandan-Madan/Pytorch_fine_tuning_Tutorial)
+	- [Pytorch CNN fine-tune](https://github.com/creafz/pytorch-cnn-finetune)
 
 - Fast learn transfer learning:
 	- [Pytorch](https://github.com/miguelgfierro/sciblog_support/blob/master/A_Gentle_Introduction_to_Transfer_Learning/Intro_Transfer_Learning.ipynb) | [Tensorflow](https://cosx.org/2017/10/transfer-learning/)
