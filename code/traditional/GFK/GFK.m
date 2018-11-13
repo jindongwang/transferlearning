@@ -1,4 +1,4 @@
-function [acc,G,Cls] = MyGFK(X_src,Y_src,X_tar,Y_tar,dim)
+function [acc,G,Cls] = GFK(X_src,Y_src,X_tar,Y_tar,dim)
 % This is the implementation of Geodesic Flow Kernel.
 % Reference: Boqing Gong et al. Geodesic flow kernel for Unsupervised Domain Adaptation. CVPR 2012.
    

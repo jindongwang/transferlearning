@@ -41,7 +41,7 @@ This document contains codes from several aspects: **tutorial**, **theory**, **t
 - **TCA** (Transfer Component Anaysis, TNN-11) [1]
 	- [Matlab and Python](https://github.com/jindongwang/transferlearning/tree/master/code/traditional/TCA)
 - **GFK** (Geodesic Flow Kernel, CVPR-12) [2]
-	- [Matlab](https://github.com/jindongwang/transferlearning/blob/master/code/traditional/MyGFK.m)
+	- [Matlab](https://github.com/jindongwang/transferlearning/blob/master/code/traditional/GFK)
 - **DA-NBNN** (Frustratingly Easy NBNN Domain Adaptation, ICCV-13) [39]
 	- [Matlab](https://github.com/enoonIT/nbnn-nbnl/tree/master/DANBNN_demo)
 - **JDA** (Joint Distribution Adaptation, ICCV-13) [3]
