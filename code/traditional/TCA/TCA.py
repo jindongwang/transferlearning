@@ -93,6 +93,8 @@ class TCA:
 
 
 if __name__ == '__main__':
+    # Assume you have the office-caltech10 dataset and put them into the 'data' folder
+    # Data can be downloaded here: https://github.com/jindongwang/transferlearning/blob/master/data/dataset.md#officecaltech
     domains = ['caltech.mat', 'amazon.mat', 'webcam.mat', 'dslr.mat']
     for i in range(4):
         for j in range(4):

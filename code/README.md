@@ -39,7 +39,7 @@ This document contains codes from several aspects: **tutorial**, **theory**, **t
 - **SVM** (baseline)
 	- [Matlab](https://github.com/jindongwang/transferlearning/tree/master/code/traditional/SVM.m)
 - **TCA** (Transfer Component Anaysis, TNN-11) [1]
-	- [Matlab(Recommended!)](https://github.com/jindongwang/transferlearning/blob/master/code/traditional/MyTCA.m) | [Python](https://github.com/jindongwang/transferlearning/tree/master/code/traditional/TCA_python)
+	- [Matlab and Python](https://github.com/jindongwang/transferlearning/tree/master/code/traditional/TCA)
 - **GFK** (Geodesic Flow Kernel, CVPR-12) [2]
 	- [Matlab](https://github.com/jindongwang/transferlearning/blob/master/code/traditional/MyGFK.m)
 - **DA-NBNN** (Frustratingly Easy NBNN Domain Adaptation, ICCV-13) [39]
