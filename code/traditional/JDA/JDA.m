@@ -1,4 +1,4 @@
-function [acc,acc_ite,A] = MyJDA(X_src,Y_src,X_tar,Y_tar,options)
+function [acc,acc_ite,A] = JDA(X_src,Y_src,X_tar,Y_tar,options)
 % This is the implementation of Joint Distribution Adaptation.
 % Reference: Mingsheng Long et al. Transfer feature learning with joint distribution adaptation. ICCV 2013.
 

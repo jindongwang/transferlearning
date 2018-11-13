@@ -1,4 +1,4 @@
-function [X_src_new,X_tar_new,A] = MyTCA(X_src,X_tar,options)
+function [X_src_new,X_tar_new,A] = TCA(X_src,X_tar,options)
 % The is the implementation of Transfer Component Analysis.
 % Reference: Sinno Pan et al. Domain Adaptation via Transfer Component Analysis. TNN 2011.
 
