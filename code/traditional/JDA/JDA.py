@@ -55,6 +55,7 @@ class JDA:
         :param dim: dimension after transfer
         :param lamb: lambda value in equation
         :param gamma: kernel bandwidth for rbf kernel
+        :param T: iteration number
         '''
         self.Xs, self.Ys, self.Xt, self.Yt = Xs, Ys, Xt, Yt
         self.kernel_type = kernel_type
