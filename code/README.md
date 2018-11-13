@@ -45,7 +45,7 @@ This document contains codes from several aspects: **tutorial**, **theory**, **t
 - **DA-NBNN** (Frustratingly Easy NBNN Domain Adaptation, ICCV-13) [39]
 	- [Matlab](https://github.com/enoonIT/nbnn-nbnl/tree/master/DANBNN_demo)
 - **JDA** (Joint Distribution Adaptation, ICCV-13) [3]
-	- [Matlab](https://github.com/jindongwang/transferlearning/blob/master/code/traditional/MyJDA.m)
+	- [Matlab and Python](https://github.com/jindongwang/transferlearning/blob/master/code/traditional/JDA)
 - **TJM** (Transfer Joint Matching, CVPR-14) [4]
 	- [Matlab](https://github.com/jindongwang/transferlearning/blob/master/code/traditional/MyTJM.m)
 - **CORAL** (CORrelation ALignment, AAAI-15) [5]
