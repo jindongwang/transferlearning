@@ -49,7 +49,7 @@ This document contains codes from several aspects: **tutorial**, **theory**, **t
 - **TJM** (Transfer Joint Matching, CVPR-14) [4]
 	- [Matlab](https://github.com/jindongwang/transferlearning/blob/master/code/traditional/MyTJM.m)
 - **CORAL** (CORrelation ALignment, AAAI-15) [5]
-	- [Matlab](https://github.com/jindongwang/transferlearning/blob/master/code/traditional/CORAL) | [Github](https://github.com/VisionLearningGroup/CORAL)
+	- [Matlab and Python](https://github.com/jindongwang/transferlearning/blob/master/code/traditional/CORAL) | [Github](https://github.com/VisionLearningGroup/CORAL)
 - **JGSA** (Joint Geometrical and Statistical Alignment, CVPR-17) [6]
 	- [Matlab(official)](https://www.uow.edu.au/~jz960/codes/JGSA-r.rar) | [Matlab(easy)](https://github.com/jindongwang/transferlearning/blob/master/code/traditional/CORA/MyJGSA.m)
 - **ARTL** (Adaptation Regularization, TKDE-14) [7]
