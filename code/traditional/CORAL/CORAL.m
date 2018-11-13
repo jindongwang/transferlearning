@@ -1,4 +1,4 @@
-function [Xs_new] = MyCORAL(Xs,Xt)
+function [Xs_new] = CORAL(Xs,Xt)
 % Inputs:
 %%% Xs:source domain feature matrix, ns * m
 %%% Xt:target domain feature matrix, nt * m
