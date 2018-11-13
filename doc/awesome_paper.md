@@ -1,6 +1,6 @@
 # Awesome transfer learning papers
 
-Let's read some awesome transfer learning / domain adaptation papers!
+Let's read some awesome transfer learning / domain adaptation papers.
 
 这里收录了迁移学习各个研究领域的最新文章。
 
@@ -326,6 +326,10 @@ Let's read some awesome transfer learning / domain adaptation papers!
 
 ### 异构迁移学习
 
+- 20181113 ACML-18 [Unsupervised Heterogeneous Domain Adaptation with Sparse Feature Transformation](http://proceedings.mlr.press/v95/shen18b/shen18b.pdf)
+	- English: Heterogeneous domain adaptation
+	- 中文：异构domain adaptation
+
 - 20180901 TKDE [A General Domain Specific Feature Transfer Framework for Hybrid Domain Adaptation](https://ieeexplore.ieee.org/abstract/document/8432087/)
 	- English: Hybrid DA: special case in Heterogeneous DA
 	- 中文：提出一种新的混合DA问题和方法
@@ -340,6 +344,10 @@ Let's read some awesome transfer learning / domain adaptation papers!
 - - -
 
 ### 深度迁移学习
+
+- 20181113 NIPS-18 [Generalized Zero-Shot Learning with Deep Calibration Network](http://ise.thss.tsinghua.edu.cn/~mlong/doc/deep-calibration-network-nips18.pdf)
+	- English: Deep calibration network for zero-shot learning
+	- 中文：提出deep calibration network进行zero-shot learning
 
 - 20181110 AAAI-19 [Knowledge Transfer via Distillation of Activation Boundaries Formed by Hidden Neurons](https://arxiv.org/abs/1811.03233)
 	- English: Transfer learning for bounding neuron activation boundaries
@@ -505,6 +513,10 @@ Let's read some awesome transfer learning / domain adaptation papers!
 - - -
 
 #### 对抗迁移学习
+
+- 20181113 NIPS-18 [Conditional Adversarial Domain Adaptation](http://ise.thss.tsinghua.edu.cn/~mlong/doc/conditional-adversarial-domain-adaptation-nips18.pdf)
+	- English: Using conditional GAN for domain adaptation
+	- 中文：用conditional GAN进行domain adaptation
 
 - 20181107 NIPS-18 [Invariant Representations without Adversarial Training](https://arxiv.org/abs/1805.09458)
 	- English: Get invariant representations without adversarial training
