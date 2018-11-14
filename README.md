@@ -22,23 +22,25 @@ _ _ _
 
 * [最新文章 Latest](#0latest)
 
-* [迁移学习简介 Introduction to transfer learning](#1迁移学习简介)
+* [迁移学习简介 Introduction to transfer learning](#1Introduction-and-Tutorials)
 
-* [研究领域与相关文章 Research articles by area](#2迁移学习研究领域与相关文章) 
+* [研究领域与相关文章 Research articles by area](#2Transfer-Learning-Areas-and-Papers) 
 
-* [理论与综述文章 Theoretical and survey papers](#3理论与综述文章)
+* [理论与综述文章 Theoretical and survey papers](#3Theory-and-Survey)
 
-* [相关代码 Available codes](#4代码)
+* [相关代码 Available codes](#4Code)
 
-* [迁移学习代表性研究学者 Scholars](#5迁移学习代表性研究学者)
+* [迁移学习代表性研究学者 Scholars](#5Transfer-Learning-Scholars)
 
-* [相关的硕博士论文 Thesis](#6迁移学习相关的硕博士论文)
+* [相关的硕博士论文 Thesis](#6Transfer-Learning-Thesis)
 
-* [常用公开数据集及算法结果 Datasets and benchmark](#7公开数据集及实验结果)
+* [常用公开数据集及算法结果 Datasets and benchmark](#7Datasets-and-Benchmarks)
 
-* [比赛 Challenges and competitions](#8比赛)
+* [比赛 Challenges and competitions](#8Transfer-Learning-Challenges)
 
-* [其他 Miscellaneous](#其他)
+* [迁移学习应用 Transfer learning applications](#Applications)
+
+* [其他 Other resources](#Other-Resources)
 
 * [Contributing](#contributing)
 
@@ -98,7 +100,7 @@ _ _ _
 
 - - -
 
-## 1.迁移学习简介
+## 1.Introduction and Tutorials
 
 - 简介文字资料
 	- [简单的中文简介 Chinese introduction](https://github.com/jindongwang/transferlearning/blob/master/doc/%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0%E7%AE%80%E4%BB%8B.md)
@@ -126,7 +128,7 @@ _ _ _
 
 - - -
 
-## 2.迁移学习研究领域与相关文章
+## 2.Transfer Learning Areas and Papers
 
 Related articles by research areas:
 
@@ -155,7 +157,7 @@ Related articles by research areas:
 
 - - -
 
-## 3.理论与综述文章
+## 3.Theory and Survey
 
 Here are some articles on transfer learning theory and survey.
 
@@ -194,13 +196,13 @@ Here are some articles on transfer learning theory and survey.
 
 _ _ _
 
-## 4.代码
+## 4.Code
 
 请见[这里](https://github.com/jindongwang/transferlearning/tree/master/code) | Please see [HERE](https://github.com/jindongwang/transferlearning/tree/master/code) for some popular transfer learning codes.
 
 _ _ _
 
-## 5.迁移学习代表性研究学者
+## 5.Transfer Learning Scholars
 
 Here are some transfer learning scholars and labs.
 
@@ -229,7 +231,7 @@ Please refer to [here](https://github.com/jindongwang/transferlearning/blob/mast
 - [Tatiana Tommasi](http://tatianatommasi.wixsite.com/tatianatommasi/3)：Researcher at the Italian Institute of Technology.
 _ _ _
 
-## 6.迁移学习相关的硕博士论文
+## 6.Transfer Learning Thesis
 
 Here are some popular thesis on transfer learning.
 
@@ -255,7 +257,7 @@ Here are some popular thesis on transfer learning.
 
 - - -
 
-## 7.公开数据集及实验结果
+## 7.Datasets and Benchmarks
 
 迁移学习领域有一些公开的数据集，用来对比算法的表现。
 
@@ -265,15 +267,23 @@ Please see [HERE](https://github.com/jindongwang/transferlearning/blob/master/da
 
 - - -
 
-## 8.比赛
+## 8.Transfer Learning Challenges
 
 Here are some popular challenges on transfer learning. 一些关于迁移学习的国际比赛。
 
 - [Visual Domain Adaptation Challenge (VisDA)](http://ai.bu.edu/visda-2018/)
 
 - - -
+
+## Applications
+
+See [HERE](https://github.com/jindongwang/transferlearning/blob/master/doc/transfer_learning_application.md) for transfer learning applications.
+
+迁移学习应用请见[这里](https://github.com/jindongwang/transferlearning/blob/master/doc/transfer_learning_application.md)。
+
+- - -
   
-## 其他
+## Other Resources
 
 Related projects:
 

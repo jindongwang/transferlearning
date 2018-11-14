@@ -152,7 +152,12 @@ This document contains codes from several aspects: **tutorial**, **theory**, **t
 	- [Tensorflow](https://github.com/Mid-Push/Moving-Semantic-Transfer-Network)
 - **SAN** (Partial Transfer Learning With Selective Adversarial Networks, CVPR-18) [56]
 	- [Caffe, Pytorch](https://github.com/thuml/SAN)
-
+- **M-ADDA** (Metric-based Adversarial Discriminative Domain Adaptation, ICML-18 workshop) [57]
+    - [Pytorch](https://github.com/IssamLaradji/M-ADDA)
+- **Openset_DA** (Open Set Domain Adaptation by Backpropagation) [58]
+    - [Pytorch](https://github.com/YU1ut/openset-DA)
+- **DIRT-T** (A DIRT-T Approach to Unsupervised Domain Adaptation, ICLR-18) [59]
+    - [Tensorflow](https://github.com/RuiShu/dirt-t)
 - - -
 
 #### [Code from HKUST](http://www.cse.ust.hk/TL/) [a bit old]
@@ -278,3 +283,9 @@ accepted in International Conference on Computer Vision (ICCV 2015), Santiago, C
 [55] Xie S, Zheng Z, Chen L, et al. Learning Semantic Representations for Unsupervised Domain Adaptation[C]//International Conference on Machine Learning. 2018: 5419-5428.
 
 [56] Cao Z, Long M, Wang J, et al. Partial transfer learning with selective adversarial networks. CVPR 2018.
+
+[57] Issam Laradji, Reza Babanezhad. M-ADDA: Unsupervised Domain Adaptation with Deep Metric Learning. ICML 2018 workshop.
+
+[58] Saito K, Yamamoto S, Ushiku Y, et al. Open Set Domain Adaptation by Backpropagation[J]. arXiv preprint arXiv:1804.10427, 2018.
+
+[59] Shu R, Bui H H, Narui H, et al. A DIRT-T Approach to Unsupervised Domain Adaptation[J]. arXiv preprint arXiv:1802.08735, 2018.
