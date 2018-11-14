@@ -5,7 +5,7 @@ function [mu,adist_m,adist_c] = estimate_mu(Xs,Ys,Xt,Yt)
     for i = 1 : C
         index_i = Ys == i;
         Xsi = Xs(index_i,:);
-        index_j = Yt == 1;
+        index_j = Yt == i;
         Xtj = Xt(index_j,:);
         adist_i = adist(Xsi,Xtj);
         list_adist_c = [list_adist_c;adist_i];
