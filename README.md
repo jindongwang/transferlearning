@@ -74,6 +74,14 @@ _ _ _
 
 - **Preprints on arXiv** (Not peer-reviewed)
 
+	- 20181114 arXiv [Multiple Subspace Alignment Improves Domain Adaptation](https://arxiv.org/abs/1811.04491)
+		- English: Project domains into multiple subsapce to do domain adaptation
+		- 中文：将domain映射到多个subsapce上然后进行adaptation
+
+	- 20181114 arXiv [A Framework of Transfer Learning in Object Detection for Embedded Systems](https://arxiv.org/abs/1811.04863)
+		- English: Transfer learning in embedded system for object detection
+		- 中文：在嵌入式系统中进行针对目标检测的迁移学习
+
 	- 20181108 arXiv [Deep feature transfer between localization and segmentation tasks](https://arxiv.org/abs/1811.02539)
 		- English: Feature transfer between localization and segmentation
 		- 中文：在定位与分割任务间进行迁移
@@ -81,14 +89,6 @@ _ _ _
 	- 20181106 arXiv [Zero-Shot Transfer VQA Dataset](https://arxiv.org/abs/1811.00692)
 		- English: A dataset for zero-shot VQA transfer
 		- 中文：一个针对zero-shot VQA的迁移学习数据集
-
-	- 20181105 arXiv [Progressive Memory Banks for Incremental Domain Adaptation](https://arxiv.org/abs/1811.00239)
-		- English: Progressive memory bank in RNN for incremental DA
-		- 中文：针对增量的domain adaptation，进行记忆单元的RNN学习
-
-	- 20181105 arXiv [Efficient Multi-Domain Dictionary Learning with GANs](https://arxiv.org/abs/1811.00274)
-		- English: Dictionary learning for multi-domains using GAN
-		- 中文：用GAN进行多个domain的字典学习
 
 	- 20181012 arXiv [Transfer Metric Learning: Algorithms, Applications and Outlooks](https://arxiv.org/abs/1810.03944)
 		- English: A survey on transfer metric learning

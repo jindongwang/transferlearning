@@ -144,6 +144,10 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 ### 领域自适应
 
+- 20181114 arXiv [Multiple Subspace Alignment Improves Domain Adaptation](https://arxiv.org/abs/1811.04491)
+	- English: Project domains into multiple subsapce to do domain adaptation
+	- 中文：将domain映射到多个subsapce上然后进行adaptation
+
 - 20180926 ICLR-18 [Self-ensembling for visual domain adaptation](https://arxiv.org/abs/1706.05208)
 	- English: Self-ensembling for domain adaptation
 	- 中文：将self-ensembling应用于da

@@ -2,6 +2,10 @@
 
 迁移学习的应用
 
+- 20181114 arXiv [A Framework of Transfer Learning in Object Detection for Embedded Systems](https://arxiv.org/abs/1811.04863)
+	- English: Transfer learning in embedded system for object detection
+	- 中文：在嵌入式系统中进行针对目标检测的迁移学习
+
 - 20181107 ICONIP-18 [Transductive Learning with String Kernels for Cross-Domain Text Classification](https://arxiv.org/abs/1811.01734)
 	- English: String kernel for cross-domain text classification using transfer learning
 	- 中文：用string kernel进行迁移学习跨领域文本分类
