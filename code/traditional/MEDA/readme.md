@@ -1,10 +1,12 @@
 # MEDA: Manifold Embedded Distribution Alignment
 
-This directory contains the code for paper [Visual Domain Adaptation with Manifold Embedded Distribution Alignment](http://jd92.wang/assets/files/a11_mm18.pdf) published at ACM Multimedia conference (ACM MM) 2018 as an Oral presentation. This paper is also lucky to be ranked as Top 10 papers.
+This directory contains the code for paper [Visual Domain Adaptation with Manifold Embedded Distribution Alignment](http://jd92.wang/assets/files/a11_mm18.pdf) published at ACM Multimedia conference (ACM MM) 2018 as an Oral presentation. This paper is also lucky to be ranked as **Top 10 papers**.
 
-## Requirements
+## Usage
 
-The code is written using Matlab R2017a. I think all versions after 2015 can run the code.
+The original code is written using Matlab R2017a. I think all versions after 2015 can run the code.
+
+For Python users, I add a `MEDA.py` implementation. The Python version will need to import GFK module (can be found [here](https://github.com/jindongwang/transferlearning/tree/master/code/traditional/GFK)). However, this Python version is only for reference since the graph Laplacian (as exactly in Matlab) is not implemented.
 
 ## Demo
 
