@@ -1,4 +1,4 @@
-function [acc,acc_ite,A] = MyBDA(X_src,Y_src,X_tar,Y_tar,options)
+function [acc,acc_ite,A] = BDA(X_src,Y_src,X_tar,Y_tar,options)
     % Inputs:
     %%% X_src  :source feature matrix, ns * m
     %%% Y_src  :source label vector, ns * 1

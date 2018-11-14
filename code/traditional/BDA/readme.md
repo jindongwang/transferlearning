@@ -4,7 +4,7 @@ This directory contains the code for paper [Balanced Distribution Adaptation for
 
 We support both Matlab and Python.
 
-The test dataset can be downloaded [HERE](https://github.com/jindongwang/transferlearning/tree/master/code/traditional/data)
+The test dataset can be downloaded [HERE](https://github.com/jindongwang/transferlearning/tree/master/code/traditional/data).
 
 ### Citation
 You can cite this paper as
@@ -22,7 +22,6 @@ You can cite this paper as
 
 - GB/T 7714 style:
   
-```
   Jindong Wang, Yiqiang Chen, Shuji Hao, Wenjie Feng, and Zhiqi Shen. Balanced Distribution Adaptation for Transfer Learning. ICDM 2017. pp. 1129-1134.
- ```
+
 
