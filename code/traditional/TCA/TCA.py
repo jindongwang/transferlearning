@@ -6,8 +6,9 @@
 import numpy as np
 import scipy.io
 import scipy.linalg
-import sklearn.neighbors
 import sklearn.metrics
+import sklearn.neighbors
+
 
 def kernel(ker, X, X2, gamma):
     if not ker or ker == 'primal':
@@ -37,33 +38,30 @@ def kernel(ker, X, X2, gamma):
 
 
 class TCA:
-    def __init__(self, Xs, Ys, Xt, Yt, kernel_type='primal', dim=30, lamb=1, gamma=1):
+    def __init__(self, kernel_type='primal', dim=30, lamb=1, gamma=1):
         '''
         Init func
-        :param Xs: ns * n_feature
-        :param Ys: ns * 1
-        :param Xt: nt * n_feature
-        :param Yt: nt * 1
         :param kernel_type: kernel, values: 'primal' | 'linear' | 'rbf' | 'sam'
         :param dim: dimension after transfer
         :param lamb: lambda value in equation
         :param gamma: kernel bandwidth for rbf kernel
         '''
-        self.Xs, self.Ys, self.Xt, self.Yt = Xs, Ys, Xt, Yt
         self.kernel_type = kernel_type
         self.dim = dim
         self.lamb = lamb
         self.gamma = gamma
 
-    def fit(self):
+    def fit(self, Xs, Xt):
         '''
         Transform Xs and Xt
+        :param Xs: ns * n_feature, source feature
+        :param Xt: nt * n_feature, target feature
         :return: Xs_new and Xt_new after TCA
         '''
-        X = np.hstack((self.Xs.T, self.Xt.T))
-        X = np.dot(X, np.diag(1 / (np.sum(X ** 2, axis=0) ** 0.5)))
+        X = np.hstack((Xs.T, Xt.T))
+        X /= np.linalg.norm(X, axis=0)
         m, n = X.shape
-        ns, nt = len(self.Xs), len(self.Xt)
+        ns, nt = len(Xs), len(Xt)
         e = np.vstack((1 / ns * np.ones((ns, 1)), -1 / nt * np.ones((nt, 1))))
         M = e * e.T
         M = M / np.linalg.norm(M, 'fro')
@@ -75,16 +73,20 @@ class TCA:
         ind = np.argsort(w)
         A = V[:, ind[:self.dim]]
         Z = np.dot(A.T, K)
-        Z = np.dot(Z, np.diag(1 / (np.sum(Z ** 2, axis=0) ** 0.5)))
+        Z /= np.linalg.norm(Z, axis=0)
         Xs_new, Xt_new = Z[:, :ns].T, Z[:, ns:].T
         return Xs_new, Xt_new
 
-    def fit_predict(self):
+    def fit_predict(self, Xs, Ys, Xt, Yt):
         '''
         Transform Xs and Xt, then make predictions on target using 1NN
+        :param Xs: ns * n_feature, source feature
+        :param Ys: ns * 1, source label
+        :param Xt: nt * n_feature, target feature
+        :param Yt: nt * 1, target label
         :return: Accuracy and predicted_labels on the target domain
         '''
-        Xs_new, Xt_new = self.fit()
+        Xs_new, Xt_new = self.fit(Xs, Xt)
         clf = sklearn.neighbors.KNeighborsClassifier(n_neighbors=1)
         clf.fit(Xs_new, Ys.ravel())
         y_pred = clf.predict(Xt_new)
@@ -93,8 +95,6 @@ class TCA:
 
 
 if __name__ == '__main__':
-    # Assume you have the office-caltech10 dataset and put them into the 'data' folder
-    # Data can be downloaded here: https://github.com/jindongwang/transferlearning/blob/master/data/dataset.md#officecaltech
     domains = ['caltech.mat', 'amazon.mat', 'webcam.mat', 'dslr.mat']
     for i in range(4):
         for j in range(4):
@@ -102,6 +102,6 @@ if __name__ == '__main__':
                 src, tar = 'data/' + domains[i], 'data/' + domains[j]
                 src_domain, tar_domain = scipy.io.loadmat(src), scipy.io.loadmat(tar)
                 Xs, Ys, Xt, Yt = src_domain['feas'], src_domain['label'], tar_domain['feas'], tar_domain['label']
-                tca = TCA(Xs, Ys, Xt, Yt, kernel_type='primal', dim=30, lamb=1, gamma=1)
-                acc, ypre = tca.fit_predict()
+                tca = TCA(kernel_type='primal', dim=30, lamb=1, gamma=1)
+                acc, ypre = tca.fit_predict(Xs, Ys, Xt, Yt)
                 print(acc)

@@ -13,35 +13,32 @@ from sklearn.neighbors import KNeighborsClassifier
 
 
 class GFK:
-    def __init__(self, Xs, Ys, Xt, Yt, dim=20):
+    def __init__(self, dim=20):
         '''
         Init func
-        :param Xs: ns * n_feature
-        :param Ys: ns * 1
-        :param Xt: nt * n_feature
-        :param Yt: nt * 1
         :param dim: dimension after GFK
         '''
-        self.Xs, self.Ys, self.Xt, self.Yt = Xs, Ys, Xt, Yt
         self.dim = dim
         self.eps = 1e-20
 
-    def fit(self, norm_inputs=None):
+    def fit(self, Xs, Xt, norm_inputs=None):
         '''
         Obtain the kernel G
+        :param Xs: ns * n_feature, source feature
+        :param Xt: nt * n_feature, target feature
         :param norm_inputs: normalize the inputs or not
         :return: GFK kernel G
         '''
         if norm_inputs:
-            source, mu_source, std_source = self.znorm(self.Xs)
-            target, mu_target, std_target = self.znorm(self.Xt)
+            source, mu_source, std_source = self.znorm(Xs)
+            target, mu_target, std_target = self.znorm(Xt)
         else:
-            mu_source = np.zeros(shape=(self.Xs.shape[1]))
-            std_source = np.ones(shape=(self.Xs.shape[1]))
-            mu_target = np.zeros(shape=(self.Xt.shape[1]))
-            std_target = np.ones(shape=(self.Xt.shape[1]))
-            source = self.Xs
-            target = self.Xt
+            mu_source = np.zeros(shape=(Xs.shape[1]))
+            std_source = np.ones(shape=(Xs.shape[1]))
+            mu_target = np.zeros(shape=(Xt.shape[1]))
+            std_target = np.ones(shape=(Xt.shape[1]))
+            source = Xs
+            target = Xt
 
         Ps = self.train_pca(source, mu_source, std_source, 0.99)
         Pt = self.train_pca(target, mu_target, std_target, 0.99)
@@ -93,21 +90,24 @@ class GFK:
 
         delta = np.dot(np.dot(delta1, delta2), delta3)
         G = np.dot(np.dot(Ps, delta), Ps.T)
+        sqG = scipy.real(scipy.linalg.fractional_matrix_power(G, 0.5))
+        Xs_new, Xt_new = np.dot(sqG, Xs.T).T, np.dot(sqG, Xt.T).T
+        return G, Xs_new, Xt_new
 
-        return G
-
-    def fit_predict(self):
+    def fit_predict(self, Xs, Ys, Xt, Yt):
         '''
         Fit and use 1NN to classify
+        :param Xs: ns * n_feature, source feature
+        :param Ys: ns * 1, source label
+        :param Xt: nt * n_feature, target feature
+        :param Yt: nt * 1, target label
         :return: Accuracy, predicted labels of target domain, and G
         '''
-        G = self.fit()
-        sqG = scipy.real(scipy.linalg.fractional_matrix_power(G, 0.5))
-        Xs_new, Xt_new = np.dot(sqG, self.Xs.T).T, np.dot(sqG, self.Xt.T).T
+        G, Xs_new, Xt_new = self.fit(Xs, Xt)
         clf = KNeighborsClassifier(n_neighbors=1)
-        clf.fit(Xs_new, self.Ys.ravel())
+        clf.fit(Xs_new, Ys.ravel())
         y_pred = clf.predict(Xt_new)
-        acc = np.mean(y_pred == self.Yt.ravel())
+        acc = np.mean(y_pred == Yt.ravel())
         return acc, y_pred, G
 
     def principal_angles(self, Ps, Pt):
@@ -164,14 +164,10 @@ class GFK:
     def subspace_disagreement_measure(self, Ps, Pt, Pst):
         """
         Get the best value for the number of subspaces
-
         For more details, read section 3.4 of the paper.
-
         **Parameters**
           Ps: Source subspace
-
           Pt: Target subspace
-
           Pst: Source + Target subspace
         """
 
@@ -195,6 +191,6 @@ if __name__ == '__main__':
                 src, tar = 'data/' + domains[i], 'data/' + domains[j]
                 src_domain, tar_domain = scipy.io.loadmat(src), scipy.io.loadmat(tar)
                 Xs, Ys, Xt, Yt = src_domain['feas'], src_domain['label'], tar_domain['feas'], tar_domain['label']
-                gfk = GFK(Xs, Ys, Xt, Yt)
-                acc, ypred, G = gfk.fit_predict()
+                gfk = GFK(dim=20)
+                acc, ypred, G = gfk.fit_predict(Xs, Ys, Xt, Yt)
                 print(acc)

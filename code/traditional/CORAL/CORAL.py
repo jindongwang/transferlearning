@@ -12,19 +12,14 @@ import sklearn.neighbors
 
 
 class CORAL:
-    def __init__(self, Xs, Ys, Xt, Yt):
-        '''
-        Init func
-        :param Xs: ns * n_feature
-        :param Ys: ns * 1
-        :param Xt: nt * n_feature
-        :param Yt: nt * 1
-        '''
-        self.Xs, self.Ys, self.Xt, self.Yt = Xs, Ys, Xt, Yt
+    def __init__(self):
+        super(CORAL, self).__init__()
 
-    def fit(self):
+    def fit(self, Xs, Xt):
         '''
         Perform CORAL on the source domain features
+        :param Xs: ns * n_feature, source feature
+        :param Xt: nt * n_feature, target feature
         :return: New source domain features
         '''
         cov_src = np.cov(Xs.T) + np.eye(Xs.shape[1])
@@ -34,12 +29,16 @@ class CORAL:
         Xs_new = np.dot(Xs, A_coral)
         return Xs_new
 
-    def fit_predict(self):
+    def fit_predict(self, Xs, Ys, Xt, Yt):
         '''
         Perform CORAL, then predict using 1NN classifier
+        :param Xs: ns * n_feature, source feature
+        :param Ys: ns * 1, source label
+        :param Xt: nt * n_feature, target feature
+        :param Yt: nt * 1, target label
         :return: Accuracy and predicted labels of target domain
         '''
-        Xs_new = self.fit()
+        Xs_new = self.fit(Xs, Xt)
         clf = sklearn.neighbors.KNeighborsClassifier(n_neighbors=1)
         clf.fit(Xs_new, Ys.ravel())
         y_pred = clf.predict(Xt)
@@ -55,6 +54,6 @@ if __name__ == '__main__':
                 src, tar = 'data/' + domains[i], 'data/' + domains[j]
                 src_domain, tar_domain = scipy.io.loadmat(src), scipy.io.loadmat(tar)
                 Xs, Ys, Xt, Yt = src_domain['feas'], src_domain['label'], tar_domain['feas'], tar_domain['label']
-                coral = CORAL(Xs, Ys, Xt, Yt)
-                acc, ypre = coral.fit_predict()
+                coral = CORAL()
+                acc, ypre = coral.fit_predict(Xs, Ys, Xt, Yt)
                 print(acc)
