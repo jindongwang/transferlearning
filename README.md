@@ -54,6 +54,18 @@ _ _ _
 
 - **Latest publications**
 
+	- 20181115 AAAI-19 [Unsupervised Transfer Learning for Spoken Language Understanding in Intelligent Agents](https://arxiv.org/abs/1811.05232)
+		- English: Transfer learning for spoken language understanding
+		- 中文：无监督迁移学习用于语言理解
+
+	- 20181115 AAAI-19 [Exploiting Local Feature Patterns for Unsupervised Domain Adaptation](https://arxiv.org/abs/1811.05042)
+		- English: Local domain alignment for domain adaptation
+		- 中文：局部领域自适应
+
+	 - 20181115 NIPS-18 [Co-regularized Alignment for Unsupervised Domain Adaptation](https://arxiv.org/abs/1811.05443)
+		- English: The idea is the same with the above one...
+		- 中文：仍然是局部对齐。。。
+
 	- 20181113 NIPS-18 [Conditional Adversarial Domain Adaptation](http://ise.thss.tsinghua.edu.cn/~mlong/doc/conditional-adversarial-domain-adaptation-nips18.pdf)
 		- English: Using conditional GAN for domain adaptation
 		- 中文：用conditional GAN进行domain adaptation
@@ -61,18 +73,6 @@ _ _ _
 	- 20181113 NIPS-18 [Generalized Zero-Shot Learning with Deep Calibration Network](http://ise.thss.tsinghua.edu.cn/~mlong/doc/deep-calibration-network-nips18.pdf)
 		- English: Deep calibration network for zero-shot learning
 		- 中文：提出deep calibration network进行zero-shot learning
-
-	- 20181113 ACML-18 [Unsupervised Heterogeneous Domain Adaptation with Sparse Feature Transformation](http://proceedings.mlr.press/v95/shen18b/shen18b.pdf)
-		- English: Heterogeneous domain adaptation
-		- 中文：异构domain adaptation
-
-	- 20181110 AAAI-19 [Knowledge Transfer via Distillation of Activation Boundaries Formed by Hidden Neurons](https://arxiv.org/abs/1811.03233)
-		- English: Transfer learning for bounding neuron activation boundaries
-		- 中文：使用迁移学习进行神经元激活边界判定
-
-	- 20181109 PAMI-18 [Transferable Representation Learning with Deep Adaptation Networks](https://ieeexplore.ieee.org/abstract/document/8454781/authors#authors)
-		- English: Journal version of DAN paper
-		- 中文：DAN的Journal版本
 
 - **Preprints on arXiv** (Not peer-reviewed)
 

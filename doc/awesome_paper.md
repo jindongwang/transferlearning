@@ -349,6 +349,14 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 ### 深度迁移学习
 
+- 20181115 AAAI-19 [Exploiting Local Feature Patterns for Unsupervised Domain Adaptation](https://arxiv.org/abs/1811.05042)
+	- English: Local domain alignment for domain adaptation
+	- 中文：局部领域自适应
+
+- 20181115 NIPS-18 [Co-regularized Alignment for Unsupervised Domain Adaptation](https://arxiv.org/abs/1811.05443)
+	- English: The idea is the same with the above one...
+	- 中文：仍然是局部对齐。。。
+
 - 20181113 NIPS-18 [Generalized Zero-Shot Learning with Deep Calibration Network](http://ise.thss.tsinghua.edu.cn/~mlong/doc/deep-calibration-network-nips18.pdf)
 	- English: Deep calibration network for zero-shot learning
 	- 中文：提出deep calibration network进行zero-shot learning

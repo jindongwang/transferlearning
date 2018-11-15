@@ -2,6 +2,10 @@
 
 迁移学习的应用
 
+- 20181115 AAAI-19 [Unsupervised Transfer Learning for Spoken Language Understanding in Intelligent Agents](https://arxiv.org/abs/1811.05232)
+	- English: Transfer learning for spoken language understanding
+	- 中文：无监督迁移学习用于语言理解
+
 - 20181114 arXiv [A Framework of Transfer Learning in Object Detection for Embedded Systems](https://arxiv.org/abs/1811.04863)
 	- English: Transfer learning in embedded system for object detection
 	- 中文：在嵌入式系统中进行针对目标检测的迁移学习
