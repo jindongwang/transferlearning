@@ -32,6 +32,14 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 ### 普通迁移学习
 
+- 20181117 arXiv [Theoretical Perspective of Deep Domain Adaptation](https://arxiv.org/abs/1811.06199)
+	- English: Providing some theory analysis on deep domain adaptation
+	- 中文：对deep domain adaptaiton做出了一些理论上的分析
+
+- 20181117 arXiv [Distance Measure Machines](https://arxiv.org/abs/1803.00250)
+	- English: Machines that measures distances
+	- 中文：衡量距离的算法
+
 - 20181106 workshop [GENERALIZATION BOUNDS FOR DOMAIN ADAPTATION VIA DOMAIN TRANSFORMATIONS](https://ieeexplore.ieee.org/abstract/document/8517092)
 	- English: Analyze some generalization bound for domain adaptation
 	- 中文：对domain adaptation进行了一些理论上的分析
@@ -143,6 +151,10 @@ Let's read some awesome transfer learning / domain adaptation papers.
 - - - 
 
 ### 领域自适应
+
+- 20181117 AAAI-19 [Robust Optimization over Multiple Domains](https://arxiv.org/abs/1805.07588)
+	- English: Optimization on multi domains
+	- 中文：针对多个domain建模并优化
 
 - 20181114 arXiv [Multiple Subspace Alignment Improves Domain Adaptation](https://arxiv.org/abs/1811.04491)
 	- English: Project domains into multiple subsapce to do domain adaptation
@@ -348,6 +360,10 @@ Let's read some awesome transfer learning / domain adaptation papers.
 - - -
 
 ### 深度迁移学习
+
+- 20181117 arXiv [AdapterNet - learning input transformation for domain adaptation](https://arxiv.org/abs/1805.11601)
+	- English: Learning input transformation for domain adaptation
+	- 中文：对domain adaptation任务学习输入的自适应
 
 - 20181115 AAAI-19 [Exploiting Local Feature Patterns for Unsupervised Domain Adaptation](https://arxiv.org/abs/1811.05042)
 	- English: Local domain alignment for domain adaptation

@@ -54,6 +54,14 @@ _ _ _
 
 - **Latest publications**
 
+	- 20181117 AAAI-19 [GaitSet: Regarding Gait as a Set for Cross-View Gait Recognition](https://arxiv.org/abs/1811.06186)
+		- English: Cross-view gait recognition
+		- 中文：跨视图的步态识别
+
+	- 20181117 AAAI-19 [Robust Optimization over Multiple Domains](https://arxiv.org/abs/1805.07588)
+		- English: Optimization on multi domains
+		- 中文：针对多个domain建模并优化
+
 	- 20181115 AAAI-19 [Unsupervised Transfer Learning for Spoken Language Understanding in Intelligent Agents](https://arxiv.org/abs/1811.05232)
 		- English: Transfer learning for spoken language understanding
 		- 中文：无监督迁移学习用于语言理解
@@ -66,35 +74,28 @@ _ _ _
 		- English: The idea is the same with the above one...
 		- 中文：仍然是局部对齐。。。
 
-	- 20181113 NIPS-18 [Conditional Adversarial Domain Adaptation](http://ise.thss.tsinghua.edu.cn/~mlong/doc/conditional-adversarial-domain-adaptation-nips18.pdf)
-		- English: Using conditional GAN for domain adaptation
-		- 中文：用conditional GAN进行domain adaptation
-	
-	- 20181113 NIPS-18 [Generalized Zero-Shot Learning with Deep Calibration Network](http://ise.thss.tsinghua.edu.cn/~mlong/doc/deep-calibration-network-nips18.pdf)
-		- English: Deep calibration network for zero-shot learning
-		- 中文：提出deep calibration network进行zero-shot learning
-
 - **Preprints on arXiv** (Not peer-reviewed)
 
-	- 20181114 arXiv [Multiple Subspace Alignment Improves Domain Adaptation](https://arxiv.org/abs/1811.04491)
-		- English: Project domains into multiple subsapce to do domain adaptation
-		- 中文：将domain映射到多个subsapce上然后进行adaptation
+	- 20181117 arXiv [AdapterNet - learning input transformation for domain adaptation](https://arxiv.org/abs/1805.11601)
+		- English: Learning input transformation for domain adaptation
+		- 中文：对domain adaptation任务学习输入的自适应
 
-	- 20181114 arXiv [A Framework of Transfer Learning in Object Detection for Embedded Systems](https://arxiv.org/abs/1811.04863)
-		- English: Transfer learning in embedded system for object detection
-		- 中文：在嵌入式系统中进行针对目标检测的迁移学习
+	- 20181117 arXiv [Distance Measure Machines](https://arxiv.org/abs/1803.00250)
+		- English: Machines that measures distances
+		- 中文：衡量距离的算法
 
-	- 20181108 arXiv [Deep feature transfer between localization and segmentation tasks](https://arxiv.org/abs/1811.02539)
-		- English: Feature transfer between localization and segmentation
-		- 中文：在定位与分割任务间进行迁移
+	- 20181117 arXiv [Performance Estimation of Synthesis Flows cross Technologies using LSTMs and Transfer Learning](https://arxiv.org/abs/1811.06017)
+		- English: Performance Estimation of Synthesis Flows cross Technologies using LSTMs and Transfer Learning
+		- 中文：利用迁移学习进行合成flow评价
 
-	- 20181106 arXiv [Zero-Shot Transfer VQA Dataset](https://arxiv.org/abs/1811.00692)
-		- English: A dataset for zero-shot VQA transfer
-		- 中文：一个针对zero-shot VQA的迁移学习数据集
+	- 20181117 arXiv [Unsupervised domain adaptation for medical imaging segmentation with self-ensembling](https://arxiv.org/abs/1811.06042)
+		- English: Medical imaging using transfer learning
+		- 中文：使用迁移学习进行医学图像分割
 
-	- 20181012 arXiv [Transfer Metric Learning: Algorithms, Applications and Outlooks](https://arxiv.org/abs/1810.03944)
-		- English: A survey on transfer metric learning
-		- 中文：一篇迁移度量学习的综述
+	- 20181117 arXiv [Theoretical Perspective of Deep Domain Adaptation](https://arxiv.org/abs/1811.06199)
+		- English: Providing some theory analysis on deep domain adaptation
+		- 中文：对deep domain adaptaiton做出了一些理论上的分析
+
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 

@@ -2,6 +2,18 @@
 
 迁移学习的应用
 
+- 20181117 arXiv [Unsupervised domain adaptation for medical imaging segmentation with self-ensembling](https://arxiv.org/abs/1811.06042)
+	- English: Medical imaging using transfer learning
+	- 中文：使用迁移学习进行医学图像分割
+
+- 20181117 arXiv [Performance Estimation of Synthesis Flows cross Technologies using LSTMs and Transfer Learning](https://arxiv.org/abs/1811.06017)
+	- English: Performance Estimation of Synthesis Flows cross Technologies using LSTMs and Transfer Learning
+	- 中文：利用迁移学习进行合成flow评价
+
+- 20181117 AAAI-19 [GaitSet: Regarding Gait as a Set for Cross-View Gait Recognition](https://arxiv.org/abs/1811.06186)
+	- English: Cross-view gait recognition
+	- 中文：跨视图的步态识别
+
 - 20181115 AAAI-19 [Unsupervised Transfer Learning for Spoken Language Understanding in Intelligent Agents](https://arxiv.org/abs/1811.05232)
 	- English: Transfer learning for spoken language understanding
 	- 中文：无监督迁移学习用于语言理解
