@@ -1,8 +1,14 @@
 # Deep Transfer Learning on PyTorch
-* [DaNN：Domain-adaptive Neural Network](https://github.com/jindongwang/transferlearning/tree/master/code/deep/DaNN)
-* [DAN: Learning Transferable Features with Deep Adaptation Networks](https://github.com/jindongwang/transferlearning/tree/master/code/deep/DAN)
-* [Deep Coral: Deep CORAL Correlation Alignment for Deep Domain Adaptation](https://github.com/jindongwang/transferlearning/tree/master/code/deep/DeepCoral)
-* [Finetune: finetune using AlexNet and ResNet](https://github.com/jindongwang/transferlearning/tree/master/code/deep/finetune_AlexNet_ResNet)
+
+This directory contains some re-implemented Pytorch codes for deep transfer learning.
+
+## Codes
+
+* [**DaNN**：Domain-adaptive Neural Network](https://github.com/jindongwang/transferlearning/tree/master/code/deep/DaNN)
+* [**DAN**: Learning Transferable Features with Deep Adaptation Networks](https://github.com/jindongwang/transferlearning/tree/master/code/deep/DAN)
+* [**Deep Coral**: Deep CORAL Correlation Alignment for Deep Domain Adaptation](https://github.com/jindongwang/transferlearning/tree/master/code/deep/DeepCoral)
+* [**Finetune**: finetune using AlexNet and ResNet](https://github.com/jindongwang/transferlearning/tree/master/code/deep/finetune_AlexNet_ResNet)
+* [**DANN/RevGrad**: Domain adversarial neural network](https://github.com/jindongwang/transferlearning/tree/master/code/deep/DANN(RevGrad))
 
 ## Results on Office31
 | Method | A - W | D - W | W - D | A - D | D - A | W - A | Average |

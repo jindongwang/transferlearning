@@ -90,8 +90,8 @@ This document contains codes from several aspects: **tutorial**, **theory**, **t
 	- [Caffe](https://github.com/thuml/Xlearn)
 - **ADDA** (Adversarial Discriminative Domain Adaptation, arXiv-17) [13]
 	- [Tensorflow(Official)](https://github.com/erictzeng/adda) | [Pytorch](https://github.com/corenel/pytorch-adda) | [Pytorch(another)](https://github.com/jvanvugt/pytorch-domain-adaptation/blob/master/adda.py)
-- **RevGrad** (Unsupervised Domain Adaptation by Backpropagation, ICML-15) [14]
-	- [Caffe(Official)](https://github.com/ddtm/caffe/tree/grl)|[Tensorflow(third party)](https://github.com/shucunt/domain_adaptation) | [PyTorch](https://github.com/fungtion/DANN) | [Pytorch(another)](https://github.com/jvanvugt/pytorch-domain-adaptation/blob/master/revgrad.py)
+- **DANN/RevGrad** (Unsupervised Domain Adaptation by Backpropagation, ICML-15) [14]
+	- [Caffe(Official)](https://github.com/ddtm/caffe/tree/grl) | [PyTorch](https://github.com/jindongwang/transferlearning/tree/master/code/deep/DANN(RevGrad)) | [Pytorch(another)](https://github.com/jvanvugt/pytorch-domain-adaptation/blob/master/revgrad.py) | [Tensorflow(third party)](https://github.com/shucunt/domain_adaptation) 
 - **DANN** Domain-Adversarial Training of Neural Networks (JMLR-16)[17] 
 	- [Python(official)](https://github.com/GRAAL-Research/domain_adversarial_neural_network) | [Tensorflow](https://github.com/jindongwang/tf-dann)
 - Associative Domain Adaptation (ICCV-17) [18]
