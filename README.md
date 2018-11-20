@@ -30,11 +30,11 @@ _ _ _
 
 * [相关代码 Available codes](#4Code)
 
-* [迁移学习代表性研究学者 Scholars](#5Transfer-Learning-Scholars)
+* [代表性研究学者 Scholars](#5Transfer-Learning-Scholars)
 
-* [相关的硕博士论文 Thesis](#6Transfer-Learning-Thesis)
+* [相关硕博士论文 Thesis](#6Transfer-Learning-Thesis)
 
-* [常用公开数据集及算法结果 Datasets and benchmark](#7Datasets-and-Benchmarks)
+* [数据集及算法结果 Datasets and benchmark](#7Datasets-and-Benchmarks)
 
 * [比赛 Challenges and competitions](#8Transfer-Learning-Challenges)
 
@@ -285,6 +285,10 @@ See [HERE](https://github.com/jindongwang/transferlearning/blob/master/doc/trans
 - - -
   
 ## Other Resources
+
+Call for papers about transfer learning:
+
+- [Transfer Learning for Multimedia Applications(A Special Issue on Multimedia Tools and Applications (MTAP))](https://lijin118.github.io/mtap/)
 
 Related projects:
 
