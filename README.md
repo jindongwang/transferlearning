@@ -76,6 +76,10 @@ _ _ _
 
 - **Preprints on arXiv** (Not peer-reviewed)
 
+	- 20181120 arXiv [Spatial-temporal Multi-Task Learning for Within-field Cotton Yield Prediction](https://arxiv.org/abs/1811.06665)
+		- English: Multi-task learning for cotton yield prediction
+		- 中文：多任务学习用于棉花产量预测
+
 	- 20181117 arXiv [AdapterNet - learning input transformation for domain adaptation](https://arxiv.org/abs/1805.11601)
 		- English: Learning input transformation for domain adaptation
 		- 中文：对domain adaptation任务学习输入的自适应
@@ -91,10 +95,6 @@ _ _ _
 	- 20181117 arXiv [Unsupervised domain adaptation for medical imaging segmentation with self-ensembling](https://arxiv.org/abs/1811.06042)
 		- English: Medical imaging using transfer learning
 		- 中文：使用迁移学习进行医学图像分割
-
-	- 20181117 arXiv [Theoretical Perspective of Deep Domain Adaptation](https://arxiv.org/abs/1811.06199)
-		- English: Providing some theory analysis on deep domain adaptation
-		- 中文：对deep domain adaptaiton做出了一些理论上的分析
 
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)

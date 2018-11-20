@@ -2,6 +2,10 @@
 
 迁移学习的应用
 
+- 20181120 arXiv [Spatial-temporal Multi-Task Learning for Within-field Cotton Yield Prediction](https://arxiv.org/abs/1811.06665)
+	- English: Multi-task learning for cotton yield prediction
+	- 中文：多任务学习用于棉花产量预测
+
 - 20181117 arXiv [Unsupervised domain adaptation for medical imaging segmentation with self-ensembling](https://arxiv.org/abs/1811.06042)
 	- English: Medical imaging using transfer learning
 	- 中文：使用迁移学习进行医学图像分割
