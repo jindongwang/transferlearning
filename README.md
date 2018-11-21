@@ -76,26 +76,37 @@ _ _ _
 
 - **Preprints on arXiv** (Not peer-reviewed)
 
-	- 20181120 arXiv [Spatial-temporal Multi-Task Learning for Within-field Cotton Yield Prediction](https://arxiv.org/abs/1811.06665)
-		- English: Multi-task learning for cotton yield prediction
-		- 中文：多任务学习用于棉花产量预测
+	- 20181121 arXiv [Deep Discriminative Learning for Unsupervised Domain Adaptation](https://arxiv.org/abs/1811.07134)
+		- English: Deep discriminative learning for domain adaptation
+		- 中文：同时进行源域和目标域上的分类判别
 
-	- 20181117 arXiv [AdapterNet - learning input transformation for domain adaptation](https://arxiv.org/abs/1805.11601)
-		- English: Learning input transformation for domain adaptation
-		- 中文：对domain adaptation任务学习输入的自适应
+	- 20181121 arXiv [Transferrable End-to-End Learning for Protein Interface Prediction](https://arxiv.org/abs/1807.01297)
+		- English: Transfer learning for protein interface prediction
+		- 中文：用迁移学习进行蛋白质接口预测
 
-	- 20181117 arXiv [Distance Measure Machines](https://arxiv.org/abs/1803.00250)
-		- English: Machines that measures distances
-		- 中文：衡量距离的算法
+	- 20181121 arXiv [Domain Adaptive Transfer Learning with Specialist Models](https://arxiv.org/abs/1811.07056)
+		- English: Sample reweighting methods for domain adaptative
+		- 中文：样本权重更新法进行domain adaptation
 
-	- 20181117 arXiv [Performance Estimation of Synthesis Flows cross Technologies using LSTMs and Transfer Learning](https://arxiv.org/abs/1811.06017)
-		- English: Performance Estimation of Synthesis Flows cross Technologies using LSTMs and Transfer Learning
-		- 中文：利用迁移学习进行合成flow评价
+	- 20181121 arXiv [Not just a matter of semantics: the relationship between visual similarity and semantic similarity](https://arxiv.org/abs/1811.07120)
+		- English: Interpreting relationships between visual similarity and semantic similarity
+		- 中文：解释了视觉相似性和语义相似性的不同
 
-	- 20181117 arXiv [Unsupervised domain adaptation for medical imaging segmentation with self-ensembling](https://arxiv.org/abs/1811.06042)
-		- English: Medical imaging using transfer learning
-		- 中文：使用迁移学习进行医学图像分割
+	- 20181121 arXiv [Integrating domain knowledge: using hierarchies to improve deep classifiers](https://arxiv.org/abs/1811.07125)
+		- English: Using hierarchies to help deep learning
+		- 中文：借助于层次关系来帮助深度网络进行学习
 
+	- 20181121 arXiv [Unsupervised Domain Adaptation: An Adaptive Feature Norm Approach](https://arxiv.org/abs/1811.07456)
+    - English: A nonparametric method for domain adaptation
+    - 中文：一种无参数的domain adaptation方法
+
+	- 20181121 arXiv [An Efficient Transfer Learning Technique by Using Final Fully-Connected Layer Output Features of Deep Networks](https://arxiv.org/abs/1811.07459)
+		- English: Using final fc layer to perform transfer learning
+		- 中文：使用最后一层全连接层进行迁移学习
+
+	- 20181121 arXiv [Distribution Discrepancy Maximization for Image Privacy Preserving](https://arxiv.org/abs/1811.07335)
+		- English: Distribution Discrepancy Maximization for Image Privacy Preserving
+		- 中文：通过最大化分布差异来进行图片隐私保护
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 

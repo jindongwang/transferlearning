@@ -2,6 +2,18 @@
 
 迁移学习的应用
 
+- 20181121 arXiv [Transferrable End-to-End Learning for Protein Interface Prediction](https://arxiv.org/abs/1807.01297)
+    - English: Transfer learning for protein interface prediction
+    - 中文：用迁移学习进行蛋白质接口预测
+
+- 20181121 NSFREU-18 [Transfer Learning with Deep CNNs for Gender Recognition and Age Estimation](https://arxiv.org/abs/1811.07344)
+    - English: Deep transfer learning for Gender Recognition and Age Estimation
+    - 中文：用深度迁移学习进行性别识别和年龄估计
+
+- 20181121 arXiv [Distribution Discrepancy Maximization for Image Privacy Preserving](https://arxiv.org/abs/1811.07335)
+    - English: Distribution Discrepancy Maximization for Image Privacy Preserving
+    - 中文：通过最大化分布差异来进行图片隐私保护
+
 - 20181120 arXiv [Spatial-temporal Multi-Task Learning for Within-field Cotton Yield Prediction](https://arxiv.org/abs/1811.06665)
 	- English: Multi-task learning for cotton yield prediction
 	- 中文：多任务学习用于棉花产量预测

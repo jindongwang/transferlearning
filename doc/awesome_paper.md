@@ -32,6 +32,14 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 ### 普通迁移学习
 
+- 20181121 arXiv [An Efficient Transfer Learning Technique by Using Final Fully-Connected Layer Output Features of Deep Networks](https://arxiv.org/abs/1811.07459)
+    - English: Using final fc layer to perform transfer learning
+    - 中文：使用最后一层全连接层进行迁移学习
+
+- 20181121 arXiv [Not just a matter of semantics: the relationship between visual similarity and semantic similarity](https://arxiv.org/abs/1811.07120)
+    - English: Interpreting relationships between visual similarity and semantic similarity
+    - 中文：解释了视觉相似性和语义相似性的不同
+
 - 20181117 arXiv [Theoretical Perspective of Deep Domain Adaptation](https://arxiv.org/abs/1811.06199)
 	- English: Providing some theory analysis on deep domain adaptation
 	- 中文：对deep domain adaptaiton做出了一些理论上的分析
@@ -151,6 +159,18 @@ Let's read some awesome transfer learning / domain adaptation papers.
 - - - 
 
 ### 领域自适应
+
+- 20181121 arXiv [Unsupervised Domain Adaptation: An Adaptive Feature Norm Approach](https://arxiv.org/abs/1811.07456)
+    - English: A nonparametric method for domain adaptation
+    - 中文：一种无参数的domain adaptation方法
+
+- 20181121 arXiv [Domain Adaptive Transfer Learning with Specialist Models](https://arxiv.org/abs/1811.07056)
+    - English: Sample reweighting methods for domain adaptative
+    - 中文：样本权重更新法进行domain adaptation
+
+- 20181121 arXiv [Deep Discriminative Learning for Unsupervised Domain Adaptation](https://arxiv.org/abs/1811.07134)
+    - English: Deep discriminative learning for domain adaptation
+    - 中文：同时进行源域和目标域上的分类判别
 
 - 20181117 AAAI-19 [Robust Optimization over Multiple Domains](https://arxiv.org/abs/1805.07588)
 	- English: Optimization on multi domains
@@ -360,6 +380,10 @@ Let's read some awesome transfer learning / domain adaptation papers.
 - - -
 
 ### 深度迁移学习
+
+- 20181121 arXiv [Integrating domain knowledge: using hierarchies to improve deep classifiers](https://arxiv.org/abs/1811.07125)
+    - English: Using hierarchies to help deep learning
+    - 中文：借助于层次关系来帮助深度网络进行学习
 
 - 20181117 arXiv [AdapterNet - learning input transformation for domain adaptation](https://arxiv.org/abs/1805.11601)
 	- English: Learning input transformation for domain adaptation
