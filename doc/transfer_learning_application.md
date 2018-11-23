@@ -2,6 +2,10 @@
 
 迁移学习的应用
 
+- 20181123 NIPS-18 workshop [Population-aware Hierarchical Bayesian Domain Adaptation](https://arxiv.org/abs/1811.08579)
+	- English: Applying domain adaptation to health
+	- 中文：将domain adaptation应用于健康
+
 - 20181121 arXiv [Transferrable End-to-End Learning for Protein Interface Prediction](https://arxiv.org/abs/1807.01297)
     - English: Transfer learning for protein interface prediction
     - 中文：用迁移学习进行蛋白质接口预测

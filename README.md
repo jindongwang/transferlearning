@@ -54,6 +54,10 @@ _ _ _
 
 - **Latest publications**
 
+	- 20181123 NIPS-18 workshop [Population-aware Hierarchical Bayesian Domain Adaptation](https://arxiv.org/abs/1811.08579)
+		- English: Applying domain adaptation to health
+		- 中文：将domain adaptation应用于健康
+
 	- 20181117 AAAI-19 [GaitSet: Regarding Gait as a Set for Cross-View Gait Recognition](https://arxiv.org/abs/1811.06186)
 		- English: Cross-view gait recognition
 		- 中文：跨视图的步态识别
@@ -70,11 +74,15 @@ _ _ _
 		- English: Local domain alignment for domain adaptation
 		- 中文：局部领域自适应
 
-	 - 20181115 NIPS-18 [Co-regularized Alignment for Unsupervised Domain Adaptation](https://arxiv.org/abs/1811.05443)
-		- English: The idea is the same with the above one...
-		- 中文：仍然是局部对齐。。。
-
 - **Preprints on arXiv** (Not peer-reviewed)
+
+	- 20181123 arXiv [Progressive Feature Alignment for Unsupervised Domain Adaptation](https://arxiv.org/abs/1811.08585)
+		- English: Progressively selecting confident pseudo labeled samples for transfer
+		- 中文：渐进式选择置信度高的伪标记进行迁移
+
+	- 20181123 arXiv [SpotTune: Transfer Learning through Adaptive Fine-tuning](https://arxiv.org/abs/1811.08737)
+		- English: Very interesting work: how exactly determine the finetune process?
+		- 中文：很有意思的工作：如何决定finetune的策略？
 
 	- 20181121 arXiv [Deep Discriminative Learning for Unsupervised Domain Adaptation](https://arxiv.org/abs/1811.07134)
 		- English: Deep discriminative learning for domain adaptation
@@ -87,26 +95,6 @@ _ _ _
 	- 20181121 arXiv [Domain Adaptive Transfer Learning with Specialist Models](https://arxiv.org/abs/1811.07056)
 		- English: Sample reweighting methods for domain adaptative
 		- 中文：样本权重更新法进行domain adaptation
-
-	- 20181121 arXiv [Not just a matter of semantics: the relationship between visual similarity and semantic similarity](https://arxiv.org/abs/1811.07120)
-		- English: Interpreting relationships between visual similarity and semantic similarity
-		- 中文：解释了视觉相似性和语义相似性的不同
-
-	- 20181121 arXiv [Integrating domain knowledge: using hierarchies to improve deep classifiers](https://arxiv.org/abs/1811.07125)
-		- English: Using hierarchies to help deep learning
-		- 中文：借助于层次关系来帮助深度网络进行学习
-
-	- 20181121 arXiv [Unsupervised Domain Adaptation: An Adaptive Feature Norm Approach](https://arxiv.org/abs/1811.07456)
-    - English: A nonparametric method for domain adaptation
-    - 中文：一种无参数的domain adaptation方法
-
-	- 20181121 arXiv [An Efficient Transfer Learning Technique by Using Final Fully-Connected Layer Output Features of Deep Networks](https://arxiv.org/abs/1811.07459)
-		- English: Using final fc layer to perform transfer learning
-		- 中文：使用最后一层全连接层进行迁移学习
-
-	- 20181121 arXiv [Distribution Discrepancy Maximization for Image Privacy Preserving](https://arxiv.org/abs/1811.07335)
-		- English: Distribution Discrepancy Maximization for Image Privacy Preserving
-		- 中文：通过最大化分布差异来进行图片隐私保护
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 

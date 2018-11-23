@@ -381,6 +381,10 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 ### 深度迁移学习
 
+- 20181123 arXiv [SpotTune: Transfer Learning through Adaptive Fine-tuning](https://arxiv.org/abs/1811.08737)
+	- English: Very interesting work: how exactly determine the finetune process?
+	- 中文：很有意思的工作：如何决定finetune的策略？
+
 - 20181121 arXiv [Integrating domain knowledge: using hierarchies to improve deep classifiers](https://arxiv.org/abs/1811.07125)
     - English: Using hierarchies to help deep learning
     - 中文：借助于层次关系来帮助深度网络进行学习
@@ -565,6 +569,10 @@ Let's read some awesome transfer learning / domain adaptation papers.
 - - -
 
 #### 对抗迁移学习
+
+- 20181123 arXiv [Progressive Feature Alignment for Unsupervised Domain Adaptation](https://arxiv.org/abs/1811.08585)
+		- English: Progressively selecting confident pseudo labeled samples for transfer
+		- 中文：渐进式选择置信度高的伪标记进行迁移
 
 - 20181113 NIPS-18 [Conditional Adversarial Domain Adaptation](http://ise.thss.tsinghua.edu.cn/~mlong/doc/conditional-adversarial-domain-adaptation-nips18.pdf)
 	- English: Using conditional GAN for domain adaptation
