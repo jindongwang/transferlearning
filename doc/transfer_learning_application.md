@@ -2,6 +2,10 @@
 
 迁移学习的应用
 
+- 20181127 NeurIPS-18 workshop [Predicting Diabetes Disease Evolution Using Financial Records and Recurrent Neural Networks](https://arxiv.org/abs/1811.09350)
+    - English: Predicting diabetes using financial records
+    - 中文：用财务记录预测糖尿病
+
 - 20181123 NIPS-18 workshop [Population-aware Hierarchical Bayesian Domain Adaptation](https://arxiv.org/abs/1811.08579)
 	- English: Applying domain adaptation to health
 	- 中文：将domain adaptation应用于健康

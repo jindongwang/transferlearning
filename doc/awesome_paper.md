@@ -32,6 +32,14 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 ### 普通迁移学习
 
+- 20181127 arXiv [Privacy-preserving Transfer Learning for Knowledge Sharing](https://arxiv.org/abs/1811.09491)
+	- English: First work on privacy preserving in transfer learning
+	- 中文：第一篇探讨迁移学习中隐私保护的文章(第四范式、杨强)
+
+- 20181127 WACV-19 [Self Paced Adversarial Training for Multimodal Few-shot Learning](https://arxiv.org/abs/1811.09192)
+	- English: Multimodal training for single modal testing
+	- 中文：用多模态数据针对单一模态进行迁移
+
 - 20181121 arXiv [An Efficient Transfer Learning Technique by Using Final Fully-Connected Layer Output Features of Deep Networks](https://arxiv.org/abs/1811.07459)
     - English: Using final fc layer to perform transfer learning
     - 中文：使用最后一层全连接层进行迁移学习
@@ -159,6 +167,10 @@ Let's read some awesome transfer learning / domain adaptation papers.
 - - - 
 
 ### 领域自适应
+
+- 20181127 arXiv [Learning Grouped Convolution for Efficient Domain Adaptation](https://arxiv.org/abs/1811.09341)
+	- English: Group convolution for domain adaptation
+	- 中文：群体卷积进行domain adaptation
 
 - 20181121 arXiv [Unsupervised Domain Adaptation: An Adaptive Feature Norm Approach](https://arxiv.org/abs/1811.07456)
     - English: A nonparametric method for domain adaptation
@@ -569,6 +581,10 @@ Let's read some awesome transfer learning / domain adaptation papers.
 - - -
 
 #### 对抗迁移学习
+
+- 20181127 arXiv [Distorting Neural Representations to Generate Highly Transferable Adversarial Examples](https://arxiv.org/abs/1811.09020)
+	- English: Generate transferrable examples to fool networks
+	- 中文：生成一些可迁移的对抗样本来迷惑神经网络，在各个网络上都表现好
 
 - 20181123 arXiv [Progressive Feature Alignment for Unsupervised Domain Adaptation](https://arxiv.org/abs/1811.08585)
 		- English: Progressively selecting confident pseudo labeled samples for transfer

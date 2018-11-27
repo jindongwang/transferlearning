@@ -54,6 +54,14 @@ _ _ _
 
 - **Latest publications**
 
+	- 20181127 NeurIPS-18 workshop [Predicting Diabetes Disease Evolution Using Financial Records and Recurrent Neural Networks](https://arxiv.org/abs/1811.09350)
+		- English: Predicting diabetes using financial records
+		- 中文：用财务记录预测糖尿病
+
+	- 20181127 WACV-19 [Self Paced Adversarial Training for Multimodal Few-shot Learning](https://arxiv.org/abs/1811.09192)
+		- English: Multimodal training for single modal testing
+		- 中文：用多模态数据针对单一模态进行迁移
+
 	- 20181123 NIPS-18 workshop [Population-aware Hierarchical Bayesian Domain Adaptation](https://arxiv.org/abs/1811.08579)
 		- English: Applying domain adaptation to health
 		- 中文：将domain adaptation应用于健康
@@ -66,15 +74,19 @@ _ _ _
 		- English: Optimization on multi domains
 		- 中文：针对多个domain建模并优化
 
-	- 20181115 AAAI-19 [Unsupervised Transfer Learning for Spoken Language Understanding in Intelligent Agents](https://arxiv.org/abs/1811.05232)
-		- English: Transfer learning for spoken language understanding
-		- 中文：无监督迁移学习用于语言理解
-
-	- 20181115 AAAI-19 [Exploiting Local Feature Patterns for Unsupervised Domain Adaptation](https://arxiv.org/abs/1811.05042)
-		- English: Local domain alignment for domain adaptation
-		- 中文：局部领域自适应
-
 - **Preprints on arXiv** (Not peer-reviewed)
+
+	- 20181127 arXiv [Privacy-preserving Transfer Learning for Knowledge Sharing](https://arxiv.org/abs/1811.09491)
+		- English: First work on privacy preserving in transfer learning
+		- 中文：第一篇探讨迁移学习中隐私保护的文章(第四范式、杨强)
+
+	- 20181127 arXiv [Distorting Neural Representations to Generate Highly Transferable Adversarial Examples](https://arxiv.org/abs/1811.09020)
+		- English: Generate transferrable examples to fool networks
+		- 中文：生成一些可迁移的对抗样本来迷惑神经网络，在各个网络上都表现好
+
+	- 20181127 arXiv [Learning Grouped Convolution for Efficient Domain Adaptation](https://arxiv.org/abs/1811.09341)
+		- English: Group convolution for domain adaptation
+		- 中文：群体卷积进行domain adaptation
 
 	- 20181123 arXiv [Progressive Feature Alignment for Unsupervised Domain Adaptation](https://arxiv.org/abs/1811.08585)
 		- English: Progressively selecting confident pseudo labeled samples for transfer
@@ -83,18 +95,6 @@ _ _ _
 	- 20181123 arXiv [SpotTune: Transfer Learning through Adaptive Fine-tuning](https://arxiv.org/abs/1811.08737)
 		- English: Very interesting work: how exactly determine the finetune process?
 		- 中文：很有意思的工作：如何决定finetune的策略？
-
-	- 20181121 arXiv [Deep Discriminative Learning for Unsupervised Domain Adaptation](https://arxiv.org/abs/1811.07134)
-		- English: Deep discriminative learning for domain adaptation
-		- 中文：同时进行源域和目标域上的分类判别
-
-	- 20181121 arXiv [Transferrable End-to-End Learning for Protein Interface Prediction](https://arxiv.org/abs/1807.01297)
-		- English: Transfer learning for protein interface prediction
-		- 中文：用迁移学习进行蛋白质接口预测
-
-	- 20181121 arXiv [Domain Adaptive Transfer Learning with Specialist Models](https://arxiv.org/abs/1811.07056)
-		- English: Sample reweighting methods for domain adaptative
-		- 中文：样本权重更新法进行domain adaptation
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
