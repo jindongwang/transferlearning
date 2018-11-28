@@ -54,6 +54,14 @@ _ _ _
 
 - **Latest publications**
 
+	- 20181128 NeurIPS-18 workshop [Multi-Task Generative Adversarial Network for Handling Imbalanced Clinical Data](https://arxiv.org/abs/1811.10419)
+		- English: Multi-task learning for imbalanced clinical data
+		- 中文：多任务学习用于不平衡的就诊数据
+
+	- 20181128 WACV-19 [CNN based dense underwater 3D scene reconstruction by transfer learning using bubble database](https://arxiv.org/abs/1811.09675)
+		- English: Transfer learning for underwater 3D scene reconstruction
+		- 中文：用迁移学习进行水下3D场景重建
+
 	- 20181127 NeurIPS-18 workshop [Predicting Diabetes Disease Evolution Using Financial Records and Recurrent Neural Networks](https://arxiv.org/abs/1811.09350)
 		- English: Predicting diabetes using financial records
 		- 中文：用财务记录预测糖尿病
@@ -66,35 +74,43 @@ _ _ _
 		- English: Applying domain adaptation to health
 		- 中文：将domain adaptation应用于健康
 
-	- 20181117 AAAI-19 [GaitSet: Regarding Gait as a Set for Cross-View Gait Recognition](https://arxiv.org/abs/1811.06186)
-		- English: Cross-view gait recognition
-		- 中文：跨视图的步态识别
-
-	- 20181117 AAAI-19 [Robust Optimization over Multiple Domains](https://arxiv.org/abs/1805.07588)
-		- English: Optimization on multi domains
-		- 中文：针对多个domain建模并优化
-
 - **Preprints on arXiv** (Not peer-reviewed)
 
-	- 20181127 arXiv [Privacy-preserving Transfer Learning for Knowledge Sharing](https://arxiv.org/abs/1811.09491)
-		- English: First work on privacy preserving in transfer learning
-		- 中文：第一篇探讨迁移学习中隐私保护的文章(第四范式、杨强)
+	- 20181128 arXiv [Characterizing and Avoiding Negative Transfer](https://arxiv.org/abs/1811.09751)
+		- English: Analyzing and formalizing negative transfer, then propose a new method
+		- 中文：分析并形式化负迁移，进而提出自己的方法
 
-	- 20181127 arXiv [Distorting Neural Representations to Generate Highly Transferable Adversarial Examples](https://arxiv.org/abs/1811.09020)
-		- English: Generate transferrable examples to fool networks
-		- 中文：生成一些可迁移的对抗样本来迷惑神经网络，在各个网络上都表现好
+	- 20181128 arXiv [One Shot Domain Adaptation for Person Re-Identification](https://arxiv.org/abs/1811.10144)
+		- English: One shot learning for REID
+		- 中文：One shot for再识别
 
-	- 20181127 arXiv [Learning Grouped Convolution for Efficient Domain Adaptation](https://arxiv.org/abs/1811.09341)
-		- English: Group convolution for domain adaptation
-		- 中文：群体卷积进行domain adaptation
+	- 20181128 arXiv [Theoretical Guarantees of Transfer Learning](https://arxiv.org/abs/1810.05986)
+		- English: Some theoretical analysis of transfer learning
+		- 中文：一些关于迁移学习的理论分析
 
-	- 20181123 arXiv [Progressive Feature Alignment for Unsupervised Domain Adaptation](https://arxiv.org/abs/1811.08585)
-		- English: Progressively selecting confident pseudo labeled samples for transfer
-		- 中文：渐进式选择置信度高的伪标记进行迁移
+	- 20181128 arXiv [Low-resolution Face Recognition in the Wild via Selective Knowledge Distillation](https://arxiv.org/abs/1811.09998)
+		- English: Knowledge distilation for low-resolution face recognition
+		- 中文：将知识蒸馏应用于低分辨率的人脸识别
 
-	- 20181123 arXiv [SpotTune: Transfer Learning through Adaptive Fine-tuning](https://arxiv.org/abs/1811.08737)
-		- English: Very interesting work: how exactly determine the finetune process?
-		- 中文：很有意思的工作：如何决定finetune的策略？
+	- 20181128 arXiv [Cross-domain Deep Feature Combination for Bird Species Classification with Audio-visual Data](https://arxiv.org/abs/1811.10199)
+		- English: Cross-domain deep feature combination for bird species classification
+		- 中文：跨领域的鸟分类
+
+	- 20181128 arXiv [Hardware Conditioned Policies for Multi-Robot Transfer Learning](https://arxiv.org/abs/1811.09864)
+		- English: Hardware Conditioned Policies for Multi-Robot Transfer Learning
+		- 中文：多个机器人之间的迁移学习
+
+	- 20181128 arXiv [Instance-based Deep Transfer Learning](https://arxiv.org/abs/1809.02776)
+		- English: Instance-based deep TL
+		- 中文：基于实例的迁移学习
+
+	- 20181128 arXiv [Geometry-Consistent Generative Adversarial Networks for One-Sided Unsupervised Domain Mapping](https://arxiv.org/abs/1809.05852)
+		- English: CycleGAN for domain adaptation
+		- 中文：CycleGAN用于domain adaptation
+
+	- 20181128 arXiv [A Framework of Transfer Learning in Object Detection for Embedded Systems](https://arxiv.org/abs/1811.04863)
+		- English: A Framework of Transfer Learning in Object Detection for Embedded Systems
+		- 中文：一个用于嵌入式系统的迁移学习框架
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 

@@ -2,6 +2,18 @@
 
 迁移学习的应用
 
+- 20181128 arXiv [Cross-domain Deep Feature Combination for Bird Species Classification with Audio-visual Data](https://arxiv.org/abs/1811.10199)
+	- English: Cross-domain deep feature combination for bird species classification
+	- 中文：跨领域的鸟分类
+
+- 20181128 NeurIPS-18 workshop [Multi-Task Generative Adversarial Network for Handling Imbalanced Clinical Data](https://arxiv.org/abs/1811.10419)
+	- English: Multi-task learning for imbalanced clinical data
+	- 中文：多任务学习用于不平衡的就诊数据
+
+- 20181128 WACV-19 [CNN based dense underwater 3D scene reconstruction by transfer learning using bubble database](https://arxiv.org/abs/1811.09675)
+	- English: Transfer learning for underwater 3D scene reconstruction
+	- 中文：用迁移学习进行水下3D场景重建
+
 - 20181127 NeurIPS-18 workshop [Predicting Diabetes Disease Evolution Using Financial Records and Recurrent Neural Networks](https://arxiv.org/abs/1811.09350)
     - English: Predicting diabetes using financial records
     - 中文：用财务记录预测糖尿病

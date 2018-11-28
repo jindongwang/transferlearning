@@ -32,6 +32,18 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 ### 普通迁移学习
 
+- 20181128 arXiv [A Framework of Transfer Learning in Object Detection for Embedded Systems](https://arxiv.org/abs/1811.04863)
+	- English: A Framework of Transfer Learning in Object Detection for Embedded Systems
+	- 中文：一个用于嵌入式系统的迁移学习框架
+
+- 20181128 arXiv [Theoretical Guarantees of Transfer Learning](https://arxiv.org/abs/1810.05986)
+	- English: Some theoretical analysis of transfer learning
+	- 中文：一些关于迁移学习的理论分析
+
+- 20181128 arXiv [Characterizing and Avoiding Negative Transfer](https://arxiv.org/abs/1811.09751)
+	- English: Analyzing and formalizing negative transfer, then propose a new method
+	- 中文：分析并形式化负迁移，进而提出自己的方法
+
 - 20181127 arXiv [Privacy-preserving Transfer Learning for Knowledge Sharing](https://arxiv.org/abs/1811.09491)
 	- English: First work on privacy preserving in transfer learning
 	- 中文：第一篇探讨迁移学习中隐私保护的文章(第四范式、杨强)
@@ -393,6 +405,14 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 ### 深度迁移学习
 
+- 20181128 arXiv [Low-resolution Face Recognition in the Wild via Selective Knowledge Distillation](https://arxiv.org/abs/1811.09998)
+	- English: Knowledge distilation for low-resolution face recognition
+	- 中文：将知识蒸馏应用于低分辨率的人脸识别
+
+- 20181128 arXiv [One Shot Domain Adaptation for Person Re-Identification](https://arxiv.org/abs/1811.10144)
+	- English: One shot learning for REID
+	- 中文：One shot for再识别
+
 - 20181123 arXiv [SpotTune: Transfer Learning through Adaptive Fine-tuning](https://arxiv.org/abs/1811.08737)
 	- English: Very interesting work: how exactly determine the finetune process?
 	- 中文：很有意思的工作：如何决定finetune的策略？
@@ -582,6 +602,10 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 #### 对抗迁移学习
 
+- 20181128 arXiv [Geometry-Consistent Generative Adversarial Networks for One-Sided Unsupervised Domain Mapping](https://arxiv.org/abs/1809.05852)
+	- English: CycleGAN for domain adaptation
+	- 中文：CycleGAN用于domain adaptation
+
 - 20181127 arXiv [Distorting Neural Representations to Generate Highly Transferable Adversarial Examples](https://arxiv.org/abs/1811.09020)
 	- English: Generate transferrable examples to fool networks
 	- 中文：生成一些可迁移的对抗样本来迷惑神经网络，在各个网络上都表现好
@@ -697,6 +721,10 @@ Let's read some awesome transfer learning / domain adaptation papers.
 - - -
 
 ### 强化迁移学习
+
+- 20181128 arXiv [Hardware Conditioned Policies for Multi-Robot Transfer Learning](https://arxiv.org/abs/1811.09864)
+	- English: Hardware Conditioned Policies for Multi-Robot Transfer Learning
+	- 中文：多个机器人之间的迁移学习
 
 - 20180926 arXiv [Target Transfer Q-Learning and Its Convergence Analysis](https://arxiv.org/abs/1809.08923)
 	- English: Analyze the risk of transfer q-learning
