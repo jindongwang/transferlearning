@@ -54,6 +54,10 @@ _ _ _
 
 - **Latest publications**
 
+	- 20181129 AAAI-19 [Exploiting Coarse-to-Fine Task Transfer for Aspect-level Sentiment Classification](https://arxiv.org/abs/1811.10999)
+		- English: Aspect-level sentiment classification
+		- 中文：迁移学习用于情感分类
+
 	- 20181128 NeurIPS-18 workshop [Multi-Task Generative Adversarial Network for Handling Imbalanced Clinical Data](https://arxiv.org/abs/1811.10419)
 		- English: Multi-task learning for imbalanced clinical data
 		- 中文：多任务学习用于不平衡的就诊数据

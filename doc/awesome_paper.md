@@ -602,6 +602,10 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 #### 对抗迁移学习
 
+- 20181129 AAAI-19 [Exploiting Coarse-to-Fine Task Transfer for Aspect-level Sentiment Classification](https://arxiv.org/abs/1811.10999)
+	- English: Aspect-level sentiment classification
+	- 中文：迁移学习用于情感分类
+
 - 20181128 arXiv [Geometry-Consistent Generative Adversarial Networks for One-Sided Unsupervised Domain Mapping](https://arxiv.org/abs/1809.05852)
 	- English: CycleGAN for domain adaptation
 	- 中文：CycleGAN用于domain adaptation
