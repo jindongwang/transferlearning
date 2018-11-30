@@ -602,6 +602,10 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 #### 对抗迁移学习
 
+- 20181130 arXiv [Identity Preserving Generative Adversarial Network for Cross-Domain Person Re-identification](https://arxiv.org/abs/1811.11510)
+	- English: Cross-domain reID
+	- 中文：跨领域的行人再识别
+
 - 20181129 AAAI-19 [Exploiting Coarse-to-Fine Task Transfer for Aspect-level Sentiment Classification](https://arxiv.org/abs/1811.10999)
 	- English: Aspect-level sentiment classification
 	- 中文：迁移学习用于情感分类

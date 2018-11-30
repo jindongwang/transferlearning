@@ -80,6 +80,10 @@ _ _ _
 
 - **Preprints on arXiv** (Not peer-reviewed)
 
+	- 20181130 arXiv [Identity Preserving Generative Adversarial Network for Cross-Domain Person Re-identification](https://arxiv.org/abs/1811.11510)
+		- English: Cross-domain reID
+		- 中文：跨领域的行人再识别
+
 	- 20181128 arXiv [Characterizing and Avoiding Negative Transfer](https://arxiv.org/abs/1811.09751)
 		- English: Analyzing and formalizing negative transfer, then propose a new method
 		- 中文：分析并形式化负迁移，进而提出自己的方法
