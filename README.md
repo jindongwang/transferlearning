@@ -74,11 +74,11 @@ _ _ _
 		- English: Multimodal training for single modal testing
 		- 中文：用多模态数据针对单一模态进行迁移
 
-	- 20181123 NIPS-18 workshop [Population-aware Hierarchical Bayesian Domain Adaptation](https://arxiv.org/abs/1811.08579)
-		- English: Applying domain adaptation to health
-		- 中文：将domain adaptation应用于健康
-
 - **Preprints on arXiv** (Not peer-reviewed)
+
+	- 20181204 arXiv [From Known to the Unknown: Transferring Knowledge to Answer Questions about Novel Visual and Semantic Concepts](https://arxiv.org/abs/1811.12772)
+		- English: Transfer learning for VQA
+		- 中文：用迁移学习进行VQA任务
 
 	- 20181130 arXiv [Identity Preserving Generative Adversarial Network for Cross-Domain Person Re-identification](https://arxiv.org/abs/1811.11510)
 		- English: Cross-domain reID
@@ -95,30 +95,6 @@ _ _ _
 	- 20181128 arXiv [Theoretical Guarantees of Transfer Learning](https://arxiv.org/abs/1810.05986)
 		- English: Some theoretical analysis of transfer learning
 		- 中文：一些关于迁移学习的理论分析
-
-	- 20181128 arXiv [Low-resolution Face Recognition in the Wild via Selective Knowledge Distillation](https://arxiv.org/abs/1811.09998)
-		- English: Knowledge distilation for low-resolution face recognition
-		- 中文：将知识蒸馏应用于低分辨率的人脸识别
-
-	- 20181128 arXiv [Cross-domain Deep Feature Combination for Bird Species Classification with Audio-visual Data](https://arxiv.org/abs/1811.10199)
-		- English: Cross-domain deep feature combination for bird species classification
-		- 中文：跨领域的鸟分类
-
-	- 20181128 arXiv [Hardware Conditioned Policies for Multi-Robot Transfer Learning](https://arxiv.org/abs/1811.09864)
-		- English: Hardware Conditioned Policies for Multi-Robot Transfer Learning
-		- 中文：多个机器人之间的迁移学习
-
-	- 20181128 arXiv [Instance-based Deep Transfer Learning](https://arxiv.org/abs/1809.02776)
-		- English: Instance-based deep TL
-		- 中文：基于实例的迁移学习
-
-	- 20181128 arXiv [Geometry-Consistent Generative Adversarial Networks for One-Sided Unsupervised Domain Mapping](https://arxiv.org/abs/1809.05852)
-		- English: CycleGAN for domain adaptation
-		- 中文：CycleGAN用于domain adaptation
-
-	- 20181128 arXiv [A Framework of Transfer Learning in Object Detection for Embedded Systems](https://arxiv.org/abs/1811.04863)
-		- English: A Framework of Transfer Learning in Object Detection for Embedded Systems
-		- 中文：一个用于嵌入式系统的迁移学习框架
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 

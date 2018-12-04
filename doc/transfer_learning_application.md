@@ -2,6 +2,10 @@
 
 迁移学习的应用
 
+- 20181204 arXiv [From Known to the Unknown: Transferring Knowledge to Answer Questions about Novel Visual and Semantic Concepts](https://arxiv.org/abs/1811.12772)
+	- English: Transfer learning for VQA
+	- 中文：用迁移学习进行VQA任务
+
 - 20181128 arXiv [Cross-domain Deep Feature Combination for Bird Species Classification with Audio-visual Data](https://arxiv.org/abs/1811.10199)
 	- English: Cross-domain deep feature combination for bird species classification
 	- 中文：跨领域的鸟分类
