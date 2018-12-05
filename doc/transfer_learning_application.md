@@ -2,6 +2,10 @@
 
 迁移学习的应用
 
+- 20181205 arXiv [Learning from a tiny dataset of manual annotations: a teacher/student approach for surgical phase recognition](https://arxiv.org/abs/1812.00033)
+	- English: Transfer learning for surgical phase recognition
+	- 中文：迁移学习用于外科手术阶段识别
+
 - 20181204 arXiv [From Known to the Unknown: Transferring Knowledge to Answer Questions about Novel Visual and Semantic Concepts](https://arxiv.org/abs/1811.12772)
 	- English: Transfer learning for VQA
 	- 中文：用迁移学习进行VQA任务

@@ -76,6 +76,18 @@ _ _ _
 
 - **Preprints on arXiv** (Not peer-reviewed)
 
+	- 20181205 arXiv [Unsupervised Domain Adaptation using Generative Models and Self-ensembling](https://arxiv.org/abs/1812.00479)
+		- English: UDA using CycleGAN
+		- 中文：基于CycleGAN的domain adaptation
+
+	- 20181205 arXiv [VADRA: Visual Adversarial Domain Randomization and Augmentation](https://arxiv.org/abs/1812.00491)
+		- English: Domain randomization and augmentation
+		- 中文：Domain randomization和增强
+
+	- 20181205 arXiv [Learning from a tiny dataset of manual annotations: a teacher/student approach for surgical phase recognition](https://arxiv.org/abs/1812.00033)
+		- English: Transfer learning for surgical phase recognition
+		- 中文：迁移学习用于外科手术阶段识别
+
 	- 20181204 arXiv [From Known to the Unknown: Transferring Knowledge to Answer Questions about Novel Visual and Semantic Concepts](https://arxiv.org/abs/1811.12772)
 		- English: Transfer learning for VQA
 		- 中文：用迁移学习进行VQA任务
@@ -83,18 +95,6 @@ _ _ _
 	- 20181130 arXiv [Identity Preserving Generative Adversarial Network for Cross-Domain Person Re-identification](https://arxiv.org/abs/1811.11510)
 		- English: Cross-domain reID
 		- 中文：跨领域的行人再识别
-
-	- 20181128 arXiv [Characterizing and Avoiding Negative Transfer](https://arxiv.org/abs/1811.09751)
-		- English: Analyzing and formalizing negative transfer, then propose a new method
-		- 中文：分析并形式化负迁移，进而提出自己的方法
-
-	- 20181128 arXiv [One Shot Domain Adaptation for Person Re-Identification](https://arxiv.org/abs/1811.10144)
-		- English: One shot learning for REID
-		- 中文：One shot for再识别
-
-	- 20181128 arXiv [Theoretical Guarantees of Transfer Learning](https://arxiv.org/abs/1810.05986)
-		- English: Some theoretical analysis of transfer learning
-		- 中文：一些关于迁移学习的理论分析
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 

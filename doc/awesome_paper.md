@@ -602,6 +602,14 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 #### 对抗迁移学习
 
+- 20181205 arXiv [Unsupervised Domain Adaptation using Generative Models and Self-ensembling](https://arxiv.org/abs/1812.00479)
+	- English: UDA using CycleGAN
+	- 中文：基于CycleGAN的domain adaptation
+
+- 20181205 arXiv [VADRA: Visual Adversarial Domain Randomization and Augmentation](https://arxiv.org/abs/1812.00491)
+	- English: Domain randomization and augmentation
+	- 中文：Domain randomization和增强
+
 - 20181130 arXiv [Identity Preserving Generative Adversarial Network for Cross-Domain Person Re-identification](https://arxiv.org/abs/1811.11510)
 	- English: Cross-domain reID
 	- 中文：跨领域的行人再识别
