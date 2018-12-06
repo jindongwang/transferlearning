@@ -32,6 +32,10 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 ### 普通迁移学习
 
+- 20181206 arXiv [Transferring Knowledge across Learning Processes](https://arxiv.org/abs/1812.01054)
+	- English: Transfer learning across learning processes
+	- 中文：学习过程中的知识迁移
+
 - 20181128 arXiv [A Framework of Transfer Learning in Object Detection for Embedded Systems](https://arxiv.org/abs/1811.04863)
 	- English: A Framework of Transfer Learning in Object Detection for Embedded Systems
 	- 中文：一个用于嵌入式系统的迁移学习框架

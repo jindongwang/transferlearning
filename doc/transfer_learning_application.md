@@ -2,6 +2,14 @@
 
 迁移学习的应用
 
+- 20181206 NeurIPS-18 workshop [Towards Continuous Domain adaptation for Healthcare](https://arxiv.org/abs/1812.01281)
+	- English: Continuous domain adaptation for healthcare
+	- 中文：连续的domain adaptation用于健康监护
+
+- 20181206 NeurIPS-18 workshop [A Hybrid Instance-based Transfer Learning Method](https://arxiv.org/abs/1812.01063)
+	- English: Instance-based transfer learning for healthcare
+	- 中文：基于样本的迁移学习用于健康监护
+
 - 20181205 arXiv [Learning from a tiny dataset of manual annotations: a teacher/student approach for surgical phase recognition](https://arxiv.org/abs/1812.00033)
 	- English: Transfer learning for surgical phase recognition
 	- 中文：迁移学习用于外科手术阶段识别

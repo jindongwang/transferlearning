@@ -54,6 +54,14 @@ _ _ _
 
 - **Latest publications**
 
+	- 20181206 NeurIPS-18 workshop [Towards Continuous Domain adaptation for Healthcare](https://arxiv.org/abs/1812.01281)
+		- English: Continuous domain adaptation for healthcare
+		- 中文：连续的domain adaptation用于健康监护
+
+	- 20181206 NeurIPS-18 workshop [A Hybrid Instance-based Transfer Learning Method](https://arxiv.org/abs/1812.01063)
+		- English: Instance-based transfer learning for healthcare
+		- 中文：基于样本的迁移学习用于健康监护
+
 	- 20181129 AAAI-19 [Exploiting Coarse-to-Fine Task Transfer for Aspect-level Sentiment Classification](https://arxiv.org/abs/1811.10999)
 		- English: Aspect-level sentiment classification
 		- 中文：迁移学习用于情感分类
@@ -66,15 +74,11 @@ _ _ _
 		- English: Transfer learning for underwater 3D scene reconstruction
 		- 中文：用迁移学习进行水下3D场景重建
 
-	- 20181127 NeurIPS-18 workshop [Predicting Diabetes Disease Evolution Using Financial Records and Recurrent Neural Networks](https://arxiv.org/abs/1811.09350)
-		- English: Predicting diabetes using financial records
-		- 中文：用财务记录预测糖尿病
-
-	- 20181127 WACV-19 [Self Paced Adversarial Training for Multimodal Few-shot Learning](https://arxiv.org/abs/1811.09192)
-		- English: Multimodal training for single modal testing
-		- 中文：用多模态数据针对单一模态进行迁移
-
 - **Preprints on arXiv** (Not peer-reviewed)
+
+	- 20181206 arXiv [Transferring Knowledge across Learning Processes](https://arxiv.org/abs/1812.01054)
+		- English: Transfer learning across learning processes
+		- 中文：学习过程中的知识迁移
 
 	- 20181205 arXiv [Unsupervised Domain Adaptation using Generative Models and Self-ensembling](https://arxiv.org/abs/1812.00479)
 		- English: UDA using CycleGAN
@@ -91,10 +95,6 @@ _ _ _
 	- 20181204 arXiv [From Known to the Unknown: Transferring Knowledge to Answer Questions about Novel Visual and Semantic Concepts](https://arxiv.org/abs/1811.12772)
 		- English: Transfer learning for VQA
 		- 中文：用迁移学习进行VQA任务
-
-	- 20181130 arXiv [Identity Preserving Generative Adversarial Network for Cross-Domain Person Re-identification](https://arxiv.org/abs/1811.11510)
-		- English: Cross-domain reID
-		- 中文：跨领域的行人再识别
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
