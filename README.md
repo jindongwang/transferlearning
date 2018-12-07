@@ -76,6 +76,14 @@ _ _ _
 
 - **Preprints on arXiv** (Not peer-reviewed)
 
+	- 20181207 arXiv [Moment Matching for Multi-Source Domain Adaptation](https://arxiv.org/abs/1812.01754)
+		- English: Moment matching and propose a new large dataset for domain adaptation
+		- 中文：提出一种moment matching的网络，并且提出一种新的domain adaptation数据集，很大
+
+	- 20181207 arXiv [Feature Matters: A Stage-by-Stage Approach for Knowledge Transfer](https://arxiv.org/abs/1812.01819)
+		- English: Feature transfer in student-teacher networks
+		- 中文：在学生-教师网络中进行特征迁移
+
 	- 20181206 arXiv [Transferring Knowledge across Learning Processes](https://arxiv.org/abs/1812.01054)
 		- English: Transfer learning across learning processes
 		- 中文：学习过程中的知识迁移
@@ -87,14 +95,6 @@ _ _ _
 	- 20181205 arXiv [VADRA: Visual Adversarial Domain Randomization and Augmentation](https://arxiv.org/abs/1812.00491)
 		- English: Domain randomization and augmentation
 		- 中文：Domain randomization和增强
-
-	- 20181205 arXiv [Learning from a tiny dataset of manual annotations: a teacher/student approach for surgical phase recognition](https://arxiv.org/abs/1812.00033)
-		- English: Transfer learning for surgical phase recognition
-		- 中文：迁移学习用于外科手术阶段识别
-
-	- 20181204 arXiv [From Known to the Unknown: Transferring Knowledge to Answer Questions about Novel Visual and Semantic Concepts](https://arxiv.org/abs/1811.12772)
-		- English: Transfer learning for VQA
-		- 中文：用迁移学习进行VQA任务
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 

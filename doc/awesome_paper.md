@@ -409,6 +409,14 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 ### 深度迁移学习
 
+- 20181207 arXiv [Moment Matching for Multi-Source Domain Adaptation](https://arxiv.org/abs/1812.01754)
+	- English: Moment matching and propose a new large dataset for domain adaptation
+	- 中文：提出一种moment matching的网络，并且提出一种新的domain adaptation数据集，很大
+
+- 20181207 arXiv [Feature Matters: A Stage-by-Stage Approach for Knowledge Transfer](https://arxiv.org/abs/1812.01819)
+	- English: Feature transfer in student-teacher networks
+	- 中文：在学生-教师网络中进行特征迁移
+
 - 20181128 arXiv [Low-resolution Face Recognition in the Wild via Selective Knowledge Distillation](https://arxiv.org/abs/1811.09998)
 	- English: Knowledge distilation for low-resolution face recognition
 	- 中文：将知识蒸馏应用于低分辨率的人脸识别
