@@ -76,6 +76,14 @@ _ _ _
 
 - **Preprints on arXiv** (Not peer-reviewed)
 
+	- 20181211 arXiv [Adversarial Transfer Learning](https://arxiv.org/abs/1812.02849)
+    	- English: A survey on adversarial domain adaptation
+    	- 中文：一个关于对抗迁移的综述，特别用在domain adaptation上
+
+	- 20181211 arXiv [Deep Variational Transfer: Transfer Learning through Semi-supervised Deep Generative Models](https://arxiv.org/abs/1812.03123)
+    	- English: Transfer learning with deep generative model
+    	- 中文：通过深度生成模型进行迁移学习
+
 	- 20181207 arXiv [Moment Matching for Multi-Source Domain Adaptation](https://arxiv.org/abs/1812.01754)
 		- English: Moment matching and propose a new large dataset for domain adaptation
 		- 中文：提出一种moment matching的网络，并且提出一种新的domain adaptation数据集，很大
@@ -87,14 +95,6 @@ _ _ _
 	- 20181206 arXiv [Transferring Knowledge across Learning Processes](https://arxiv.org/abs/1812.01054)
 		- English: Transfer learning across learning processes
 		- 中文：学习过程中的知识迁移
-
-	- 20181205 arXiv [Unsupervised Domain Adaptation using Generative Models and Self-ensembling](https://arxiv.org/abs/1812.00479)
-		- English: UDA using CycleGAN
-		- 中文：基于CycleGAN的domain adaptation
-
-	- 20181205 arXiv [VADRA: Visual Adversarial Domain Randomization and Augmentation](https://arxiv.org/abs/1812.00491)
-		- English: Domain randomization and augmentation
-		- 中文：Domain randomization和增强
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
