@@ -32,6 +32,10 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 ### 普通迁移学习
 
+- 20181212 AIKP [Multi-source Transfer Learning](https://link.springer.com/chapter/10.1007/978-3-030-00734-8_8)
+    - English: Multi-source transfer
+    - 中文：Multi-source transfer
+
 - 20181206 arXiv [Transferring Knowledge across Learning Processes](https://arxiv.org/abs/1812.01054)
 	- English: Transfer learning across learning processes
 	- 中文：学习过程中的知识迁移
@@ -183,6 +187,10 @@ Let's read some awesome transfer learning / domain adaptation papers.
 - - - 
 
 ### 领域自适应
+
+- 20181212 arXiv [Beyond Domain Adaptation: Unseen Domain Encapsulation via Universal Non-volume Preserving Models](https://arxiv.org/abs/1812.03407)
+    - Domain generalization method
+    - 一种针对于unseen domain的学习方法
 
 - 20181127 arXiv [Learning Grouped Convolution for Efficient Domain Adaptation](https://arxiv.org/abs/1811.09341)
 	- English: Group convolution for domain adaptation
@@ -409,6 +417,14 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 ### 深度迁移学习
 
+- 20181212 ICONIP-18 [Domain Adaptation via Identical Distribution Across Models and Tasks](https://link.springer.com/chapter/10.1007/978-3-030-04167-0_21)
+    - English: Transfer from large net to small net
+    - 中文：从大网络迁移到小网络
+
+- 20181212 AIKP [Deep Domain Adaptation](https://link.springer.com/chapter/10.1007/978-3-030-00734-8_9)
+    - English: Low-rank + deep nn for domain adaptation
+    - 中文：Low-rank用于深度迁移
+
 - 20181211 arXiv [Deep Variational Transfer: Transfer Learning through Semi-supervised Deep Generative Models](https://arxiv.org/abs/1812.03123)
     - English: Transfer learning with deep generative model
     - 中文：通过深度生成模型进行迁移学习
@@ -618,6 +634,10 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 #### 对抗迁移学习
 
+- 20181212 arXiv [Learning Transferable Adversarial Examples via Ghost Networks](https://arxiv.org/abs/1812.03413)
+    - Use ghost networks to learn transferrable adversarial examples
+    - 使用ghost网络来学习可迁移的对抗样本
+
 - 20181211 arXiv [Adversarial Transfer Learning](https://arxiv.org/abs/1812.02849)
     - English: A survey on adversarial domain adaptation
     - 中文：一个关于对抗迁移的综述，特别用在domain adaptation上
@@ -757,6 +777,10 @@ Let's read some awesome transfer learning / domain adaptation papers.
 - - -
 
 ### 强化迁移学习
+
+- 20181212 NeurIPS-18 workshop [Efficient transfer learning and online adaptation with latent variable models for continuous control](https://arxiv.org/abs/1812.03399)
+    - English: Reinforcement transfer learning with latent models
+    - 中文：隐变量模型用于迁移强化学习的控制
 
 - 20181128 arXiv [Hardware Conditioned Policies for Multi-Robot Transfer Learning](https://arxiv.org/abs/1811.09864)
 	- English: Hardware Conditioned Policies for Multi-Robot Transfer Learning

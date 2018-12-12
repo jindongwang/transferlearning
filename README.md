@@ -54,27 +54,39 @@ _ _ _
 
 - **Latest publications**
 
-	- 20181206 NeurIPS-18 workshop [Towards Continuous Domain adaptation for Healthcare](https://arxiv.org/abs/1812.01281)
-		- English: Continuous domain adaptation for healthcare
-		- 中文：连续的domain adaptation用于健康监护
+	- 20181212 ICONIP-18 [Domain Adaptation via Identical Distribution Across Models and Tasks](https://link.springer.com/chapter/10.1007/978-3-030-04167-0_21)
+    	- English: Transfer from large net to small net
+    	- 中文：从大网络迁移到小网络
 
-	- 20181206 NeurIPS-18 workshop [A Hybrid Instance-based Transfer Learning Method](https://arxiv.org/abs/1812.01063)
-		- English: Instance-based transfer learning for healthcare
-		- 中文：基于样本的迁移学习用于健康监护
+	- 20181212 AIKP [Deep Domain Adaptation](https://link.springer.com/chapter/10.1007/978-3-030-00734-8_9)
+    	- English: Low-rank + deep nn for domain adaptation
+    	- 中文：Low-rank用于深度迁移
 
-	- 20181129 AAAI-19 [Exploiting Coarse-to-Fine Task Transfer for Aspect-level Sentiment Classification](https://arxiv.org/abs/1811.10999)
-		- English: Aspect-level sentiment classification
-		- 中文：迁移学习用于情感分类
+	- 20181212 AIKP [Multi-source Transfer Learning](https://link.springer.com/chapter/10.1007/978-3-030-00734-8_8)
+    	- English: Multi-source transfer
+    	- 中文：Multi-source transfer
 
-	- 20181128 NeurIPS-18 workshop [Multi-Task Generative Adversarial Network for Handling Imbalanced Clinical Data](https://arxiv.org/abs/1811.10419)
-		- English: Multi-task learning for imbalanced clinical data
-		- 中文：多任务学习用于不平衡的就诊数据
-
-	- 20181128 WACV-19 [CNN based dense underwater 3D scene reconstruction by transfer learning using bubble database](https://arxiv.org/abs/1811.09675)
-		- English: Transfer learning for underwater 3D scene reconstruction
-		- 中文：用迁移学习进行水下3D场景重建
+	- 20181212 NeurIPS-18 workshop [Efficient transfer learning and online adaptation with latent variable models for continuous control](https://arxiv.org/abs/1812.03399)
+    	- English: Reinforcement transfer learning with latent models
+    	- 中文：隐变量模型用于迁移强化学习的控制
 
 - **Preprints on arXiv** (Not peer-reviewed)
+
+	- 20181212 arXiv [Beyond Domain Adaptation: Unseen Domain Encapsulation via Universal Non-volume Preserving Models](https://arxiv.org/abs/1812.03407)
+    	- Domain generalization method
+    	- 一种针对于unseen domain的学习方法
+
+	- 20181212 arXiv [3D Scene Parsing via Class-Wise Adaptation](https://arxiv.org/abs/1812.03622)
+    	- Class-wise adaptation for 3D scene parsing
+    	- 类别的适配用于3D场景分析
+
+	- 20181212 arXiv [Secure Federated Transfer Learning](https://arxiv.org/abs/1812.03337)
+    	- Federated transfer learning + Encryption
+    	- 联邦迁移学习+加密(杨强团队)
+
+	- 20181212 arXiv [Learning Transferable Adversarial Examples via Ghost Networks](https://arxiv.org/abs/1812.03413)
+    	- Use ghost networks to learn transferrable adversarial examples
+    	- 使用ghost网络来学习可迁移的对抗样本
 
 	- 20181211 arXiv [Adversarial Transfer Learning](https://arxiv.org/abs/1812.02849)
     	- English: A survey on adversarial domain adaptation
@@ -83,18 +95,6 @@ _ _ _
 	- 20181211 arXiv [Deep Variational Transfer: Transfer Learning through Semi-supervised Deep Generative Models](https://arxiv.org/abs/1812.03123)
     	- English: Transfer learning with deep generative model
     	- 中文：通过深度生成模型进行迁移学习
-
-	- 20181207 arXiv [Moment Matching for Multi-Source Domain Adaptation](https://arxiv.org/abs/1812.01754)
-		- English: Moment matching and propose a new large dataset for domain adaptation
-		- 中文：提出一种moment matching的网络，并且提出一种新的domain adaptation数据集，很大
-
-	- 20181207 arXiv [Feature Matters: A Stage-by-Stage Approach for Knowledge Transfer](https://arxiv.org/abs/1812.01819)
-		- English: Feature transfer in student-teacher networks
-		- 中文：在学生-教师网络中进行特征迁移
-
-	- 20181206 arXiv [Transferring Knowledge across Learning Processes](https://arxiv.org/abs/1812.01054)
-		- English: Transfer learning across learning processes
-		- 中文：学习过程中的知识迁移
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 

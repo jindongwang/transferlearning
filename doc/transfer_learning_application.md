@@ -2,6 +2,14 @@
 
 迁移学习的应用
 
+- 20181212 arXiv [3D Scene Parsing via Class-Wise Adaptation](https://arxiv.org/abs/1812.03622)
+    - Class-wise adaptation for 3D scene parsing
+    - 类别的适配用于3D场景分析
+
+- 20181212 arXiv [Secure Federated Transfer Learning](https://arxiv.org/abs/1812.03337)
+    - Federated transfer learning + Encryption
+    - 联邦迁移学习+加密(杨强团队)
+
 - 20181206 NeurIPS-18 workshop [Towards Continuous Domain adaptation for Healthcare](https://arxiv.org/abs/1812.01281)
 	- English: Continuous domain adaptation for healthcare
 	- 中文：连续的domain adaptation用于健康监护
