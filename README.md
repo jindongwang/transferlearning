@@ -72,6 +72,10 @@ _ _ _
 
 - **Preprints on arXiv** (Not peer-reviewed)
 
+	- 20181213 arXiv [Multichannel Semantic Segmentation with Unsupervised Domain Adaptation](https://arxiv.org/abs/1812.04351)
+    	- Robot vision semantic segmentation with domain adaptation
+    	- 用于机器视觉中语义分割的domain adaptation
+
 	- 20181212 arXiv [Beyond Domain Adaptation: Unseen Domain Encapsulation via Universal Non-volume Preserving Models](https://arxiv.org/abs/1812.03407)
     	- Domain generalization method
     	- 一种针对于unseen domain的学习方法

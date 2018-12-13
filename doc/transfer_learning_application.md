@@ -2,6 +2,10 @@
 
 迁移学习的应用
 
+- 20181213 arXiv [Multichannel Semantic Segmentation with Unsupervised Domain Adaptation](https://arxiv.org/abs/1812.04351)
+    - Robot vision semantic segmentation with domain adaptation
+    - 用于机器视觉中语义分割的domain adaptation
+
 - 20181212 arXiv [3D Scene Parsing via Class-Wise Adaptation](https://arxiv.org/abs/1812.03622)
     - Class-wise adaptation for 3D scene parsing
     - 类别的适配用于3D场景分析
