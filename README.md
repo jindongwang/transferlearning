@@ -54,23 +54,27 @@ _ _ _
 
 - **Latest publications**
 
+	- 20181214 BioCAS-19 [ECG Arrhythmia Classification Using Transfer Learning from 2-Dimensional Deep CNN Features](https://arxiv.org/abs/1812.04693)
+    	- Deep transfer learning for EEG Arrhythmia Classification
+    	- 深度迁移学习用于心率不齐分类
+
+	- 20181214 LAK-19 [Transfer Learning using Representation Learning in Massive Online Open Courses](https://arxiv.org/abs/1812.05043)
+    	- Transfer learning in MOOCs
+    	- 迁移学习用于大规模在线网络课程
+
+	- 20181214 DVPBA-19 [Considering Race a Problem of Transfer Learning](https://arxiv.org/abs/1812.04751)
+    	- Consider race in transfer learning
+    	- 在迁移学习问题中考虑种族问题(跨种族迁移)
+
 	- 20181212 ICONIP-18 [Domain Adaptation via Identical Distribution Across Models and Tasks](https://link.springer.com/chapter/10.1007/978-3-030-04167-0_21)
     	- English: Transfer from large net to small net
     	- 中文：从大网络迁移到小网络
 
-	- 20181212 AIKP [Deep Domain Adaptation](https://link.springer.com/chapter/10.1007/978-3-030-00734-8_9)
-    	- English: Low-rank + deep nn for domain adaptation
-    	- 中文：Low-rank用于深度迁移
-
-	- 20181212 AIKP [Multi-source Transfer Learning](https://link.springer.com/chapter/10.1007/978-3-030-00734-8_8)
-    	- English: Multi-source transfer
-    	- 中文：Multi-source transfer
-
-	- 20181212 NeurIPS-18 workshop [Efficient transfer learning and online adaptation with latent variable models for continuous control](https://arxiv.org/abs/1812.03399)
-    	- English: Reinforcement transfer learning with latent models
-    	- 中文：隐变量模型用于迁移强化学习的控制
-
 - **Preprints on arXiv** (Not peer-reviewed)
+
+	- 20181214 arXiv [Bridging the Generalization Gap: Training Robust Models on Confounded Biological Data](https://arxiv.org/abs/1812.04778)
+    	- Transfer learning for generalizing on biological data
+    	- 用迁移学习增强生物数据的泛化能力
 
 	- 20181213 arXiv [Multichannel Semantic Segmentation with Unsupervised Domain Adaptation](https://arxiv.org/abs/1812.04351)
     	- Robot vision semantic segmentation with domain adaptation
@@ -87,18 +91,6 @@ _ _ _
 	- 20181212 arXiv [Secure Federated Transfer Learning](https://arxiv.org/abs/1812.03337)
     	- Federated transfer learning + Encryption
     	- 联邦迁移学习+加密(杨强团队)
-
-	- 20181212 arXiv [Learning Transferable Adversarial Examples via Ghost Networks](https://arxiv.org/abs/1812.03413)
-    	- Use ghost networks to learn transferrable adversarial examples
-    	- 使用ghost网络来学习可迁移的对抗样本
-
-	- 20181211 arXiv [Adversarial Transfer Learning](https://arxiv.org/abs/1812.02849)
-    	- English: A survey on adversarial domain adaptation
-    	- 中文：一个关于对抗迁移的综述，特别用在domain adaptation上
-
-	- 20181211 arXiv [Deep Variational Transfer: Transfer Learning through Semi-supervised Deep Generative Models](https://arxiv.org/abs/1812.03123)
-    	- English: Transfer learning with deep generative model
-    	- 中文：通过深度生成模型进行迁移学习
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 

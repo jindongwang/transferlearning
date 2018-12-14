@@ -2,6 +2,22 @@
 
 迁移学习的应用
 
+- 20181214 arXiv [Bridging the Generalization Gap: Training Robust Models on Confounded Biological Data](https://arxiv.org/abs/1812.04778)
+    - Transfer learning for generalizing on biological data
+    - 用迁移学习增强生物数据的泛化能力
+
+- 20181214 BioCAS-19 [ECG Arrhythmia Classification Using Transfer Learning from 2-Dimensional Deep CNN Features](https://arxiv.org/abs/1812.04693)
+    - Deep transfer learning for EEG Arrhythmia Classification
+    - 深度迁移学习用于心率不齐分类
+
+- 20181214 LAK-19 [Transfer Learning using Representation Learning in Massive Online Open Courses](https://arxiv.org/abs/1812.05043)
+    - Transfer learning in MOOCs
+    - 迁移学习用于大规模在线网络课程
+
+- 20181214 DVPBA-19 [Considering Race a Problem of Transfer Learning](https://arxiv.org/abs/1812.04751)
+    - Consider race in transfer learning
+    - 在迁移学习问题中考虑种族问题(跨种族迁移)
+
 - 20181213 arXiv [Multichannel Semantic Segmentation with Unsupervised Domain Adaptation](https://arxiv.org/abs/1812.04351)
     - Robot vision semantic segmentation with domain adaptation
     - 用于机器视觉中语义分割的domain adaptation
