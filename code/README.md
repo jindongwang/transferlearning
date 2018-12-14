@@ -158,6 +158,11 @@ This document contains codes from several aspects: **tutorial**, **theory**, **t
     - [Pytorch](https://github.com/YU1ut/openset-DA)
 - **DIRT-T** (A DIRT-T Approach to Unsupervised Domain Adaptation, ICLR-18) [59]
     - [Tensorflow](https://github.com/RuiShu/dirt-t)
+- **CDAN** (Conditional Adversarial Domain Adaptation, NeurIPS-18) [60]
+	- [Pytorch(official)](https://github.com/thuml/CDAN) | [Pytorch(third party)](https://github.com/thuml/CDAN)
+
+
+
 - - -
 
 #### [Code from HKUST](http://www.cse.ust.hk/TL/) [a bit old]
@@ -289,3 +294,5 @@ accepted in International Conference on Computer Vision (ICCV 2015), Santiago, C
 [58] Saito K, Yamamoto S, Ushiku Y, et al. Open Set Domain Adaptation by Backpropagation[J]. arXiv preprint arXiv:1804.10427, 2018.
 
 [59] Shu R, Bui H H, Narui H, et al. A DIRT-T Approach to Unsupervised Domain Adaptation[J]. arXiv preprint arXiv:1802.08735, 2018.
+
+[60] Mingsheng Long, et al. Conditional Adversarial Domain Adaptation. NeurIPS 2018.
