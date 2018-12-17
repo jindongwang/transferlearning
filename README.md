@@ -72,6 +72,14 @@ _ _ _
 
 - **Preprints on arXiv** (Not peer-reviewed)
 
+	- 20181217 arXiv [When Semi-Supervised Learning Meets Transfer Learning: Training Strategies, Models and Datasets](https://arxiv.org/abs/1812.05313)
+    	- Combining semi-supervised learning and transfer learning
+    	- 将半监督方法应用于迁移学习
+
+	- 20181217 arXiv [DLOW: Domain Flow for Adaptation and Generalization](https://arxiv.org/abs/1812.05418)
+    	- Domain flow for adaptation and generalization
+    	- 域流方法应用于领域自适应和扩展
+
 	- 20181214 arXiv [Bridging the Generalization Gap: Training Robust Models on Confounded Biological Data](https://arxiv.org/abs/1812.04778)
     	- Transfer learning for generalizing on biological data
     	- 用迁移学习增强生物数据的泛化能力
@@ -84,13 +92,6 @@ _ _ _
     	- Domain generalization method
     	- 一种针对于unseen domain的学习方法
 
-	- 20181212 arXiv [3D Scene Parsing via Class-Wise Adaptation](https://arxiv.org/abs/1812.03622)
-    	- Class-wise adaptation for 3D scene parsing
-    	- 类别的适配用于3D场景分析
-
-	- 20181212 arXiv [Secure Federated Transfer Learning](https://arxiv.org/abs/1812.03337)
-    	- Federated transfer learning + Encryption
-    	- 联邦迁移学习+加密(杨强团队)
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 

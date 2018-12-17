@@ -32,6 +32,10 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 ### 普通迁移学习
 
+- 20181217 arXiv [When Semi-Supervised Learning Meets Transfer Learning: Training Strategies, Models and Datasets](https://arxiv.org/abs/1812.05313)
+    - Combining semi-supervised learning and transfer learning
+    - 将半监督方法应用于迁移学习
+
 - 20181212 AIKP [Multi-source Transfer Learning](https://link.springer.com/chapter/10.1007/978-3-030-00734-8_8)
     - English: Multi-source transfer
     - 中文：Multi-source transfer
@@ -633,6 +637,10 @@ Let's read some awesome transfer learning / domain adaptation papers.
 - - -
 
 #### 对抗迁移学习
+
+- 20181217 arXiv [DLOW: Domain Flow for Adaptation and Generalization](https://arxiv.org/abs/1812.05418)
+    - Domain flow for adaptation and generalization
+    - 域流方法应用于领域自适应和扩展
 
 - 20181212 arXiv [Learning Transferable Adversarial Examples via Ghost Networks](https://arxiv.org/abs/1812.03413)
     - Use ghost networks to learn transferrable adversarial examples
