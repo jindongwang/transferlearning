@@ -72,6 +72,10 @@ _ _ _
 
 - **Preprints on arXiv** (Not peer-reviewed)
 
+	- 20181218 arXiv [Transfer learning to model inertial confinement fusion experiments](https://arxiv.org/abs/1812.06055)
+    	- Using transfer learning for inertial confinement fusion
+    	- 用迁移学习进行惯性约束聚变
+
 	- 20181217 arXiv [When Semi-Supervised Learning Meets Transfer Learning: Training Strategies, Models and Datasets](https://arxiv.org/abs/1812.05313)
     	- Combining semi-supervised learning and transfer learning
     	- 将半监督方法应用于迁移学习
@@ -83,15 +87,6 @@ _ _ _
 	- 20181214 arXiv [Bridging the Generalization Gap: Training Robust Models on Confounded Biological Data](https://arxiv.org/abs/1812.04778)
     	- Transfer learning for generalizing on biological data
     	- 用迁移学习增强生物数据的泛化能力
-
-	- 20181213 arXiv [Multichannel Semantic Segmentation with Unsupervised Domain Adaptation](https://arxiv.org/abs/1812.04351)
-    	- Robot vision semantic segmentation with domain adaptation
-    	- 用于机器视觉中语义分割的domain adaptation
-
-	- 20181212 arXiv [Beyond Domain Adaptation: Unseen Domain Encapsulation via Universal Non-volume Preserving Models](https://arxiv.org/abs/1812.03407)
-    	- Domain generalization method
-    	- 一种针对于unseen domain的学习方法
-
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 

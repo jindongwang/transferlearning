@@ -2,6 +2,10 @@
 
 迁移学习的应用
 
+- 20181218 arXiv [Transfer learning to model inertial confinement fusion experiments](https://arxiv.org/abs/1812.06055)
+    - Using transfer learning for inertial confinement fusion
+    - 用迁移学习进行惯性约束聚变
+
 - 20181214 arXiv [Bridging the Generalization Gap: Training Robust Models on Confounded Biological Data](https://arxiv.org/abs/1812.04778)
     - Transfer learning for generalizing on biological data
     - 用迁移学习增强生物数据的泛化能力
