@@ -2,6 +2,14 @@
 
 迁移学习的应用
 
+- 20181219 NER-19 [Transfer Learning in Brain-Computer Interfaces with Adversarial Variational Autoencoders](https://arxiv.org/abs/1812.06857)
+    - Transfer learning in brain-computer interfaces
+    - 迁移学习在脑机交互中的应用
+
+- 20181219 ICCPS-19 [Simulation to scaled city: zero-shot policy transfer for traffic control via autonomous vehicles](https://arxiv.org/abs/1812.06120)
+    - Transfer learning in autonomous vehicles
+    - 迁移学习用于自动驾驶车辆的策略迁移
+
 - 20181218 arXiv [Transfer learning to model inertial confinement fusion experiments](https://arxiv.org/abs/1812.06055)
     - Using transfer learning for inertial confinement fusion
     - 用迁移学习进行惯性约束聚变

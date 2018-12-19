@@ -54,6 +54,14 @@ _ _ _
 
 - **Latest publications**
 
+	- 20181219 NER-19 [Transfer Learning in Brain-Computer Interfaces with Adversarial Variational Autoencoders](https://arxiv.org/abs/1812.06857)
+    	- Transfer learning in brain-computer interfaces
+    	- 迁移学习在脑机交互中的应用
+
+	- 20181219 ICCPS-19 [Simulation to scaled city: zero-shot policy transfer for traffic control via autonomous vehicles](https://arxiv.org/abs/1812.06120)
+    	- Transfer learning in autonomous vehicles
+    	- 迁移学习用于自动驾驶车辆的策略迁移
+
 	- 20181214 BioCAS-19 [ECG Arrhythmia Classification Using Transfer Learning from 2-Dimensional Deep CNN Features](https://arxiv.org/abs/1812.04693)
     	- Deep transfer learning for EEG Arrhythmia Classification
     	- 深度迁移学习用于心率不齐分类
@@ -62,15 +70,15 @@ _ _ _
     	- Transfer learning in MOOCs
     	- 迁移学习用于大规模在线网络课程
 
-	- 20181214 DVPBA-19 [Considering Race a Problem of Transfer Learning](https://arxiv.org/abs/1812.04751)
-    	- Consider race in transfer learning
-    	- 在迁移学习问题中考虑种族问题(跨种族迁移)
-
-	- 20181212 ICONIP-18 [Domain Adaptation via Identical Distribution Across Models and Tasks](https://link.springer.com/chapter/10.1007/978-3-030-04167-0_21)
-    	- English: Transfer from large net to small net
-    	- 中文：从大网络迁移到小网络
-
 - **Preprints on arXiv** (Not peer-reviewed)
+
+	- 20181219 arXiv [Domain Adaptation on Graphs by Learning Graph Topologies: Theoretical Analysis and an Algorithm](https://arxiv.org/abs/1812.06944)
+    	- Domain adaptation on graphs
+    	- 在图上的领域自适应
+
+	- 20181219 arXiv [PAC Learning Guarantees Under Covariate Shift](https://arxiv.org/abs/1812.06393)
+    	- PAC learning theory for covariate shift
+    	- Covariate shift问题的PAC学习理论
 
 	- 20181218 arXiv [Transfer learning to model inertial confinement fusion experiments](https://arxiv.org/abs/1812.06055)
     	- Using transfer learning for inertial confinement fusion
@@ -83,10 +91,6 @@ _ _ _
 	- 20181217 arXiv [DLOW: Domain Flow for Adaptation and Generalization](https://arxiv.org/abs/1812.05418)
     	- Domain flow for adaptation and generalization
     	- 域流方法应用于领域自适应和扩展
-
-	- 20181214 arXiv [Bridging the Generalization Gap: Training Robust Models on Confounded Biological Data](https://arxiv.org/abs/1812.04778)
-    	- Transfer learning for generalizing on biological data
-    	- 用迁移学习增强生物数据的泛化能力
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 

@@ -32,6 +32,10 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 ### 普通迁移学习
 
+- 20181219 arXiv [PAC Learning Guarantees Under Covariate Shift](https://arxiv.org/abs/1812.06393)
+    - PAC learning theory for covariate shift
+    - Covariate shift问题的PAC学习理论
+
 - 20181217 arXiv [When Semi-Supervised Learning Meets Transfer Learning: Training Strategies, Models and Datasets](https://arxiv.org/abs/1812.05313)
     - Combining semi-supervised learning and transfer learning
     - 将半监督方法应用于迁移学习
@@ -191,6 +195,10 @@ Let's read some awesome transfer learning / domain adaptation papers.
 - - - 
 
 ### 领域自适应
+
+- 20181219 arXiv [Domain Adaptation on Graphs by Learning Graph Topologies: Theoretical Analysis and an Algorithm](https://arxiv.org/abs/1812.06944)
+    - Domain adaptation on graphs
+    - 在图上的领域自适应
 
 - 20181212 arXiv [Beyond Domain Adaptation: Unseen Domain Encapsulation via Universal Non-volume Preserving Models](https://arxiv.org/abs/1812.03407)
     - Domain generalization method
