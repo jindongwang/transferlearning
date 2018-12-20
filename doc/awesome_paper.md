@@ -196,6 +196,10 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 ### 领域自适应
 
+- 20181220 arXiv [TWINs: Two Weighted Inconsistency-reduced Networks for Partial Domain Adaptation](https://arxiv.org/abs/1812.07405)
+    - Two weighted inconsistency-reduced networks for partial domain adaptation
+    - 两个权重网络用于部分domain adaptation
+
 - 20181219 arXiv [Domain Adaptation on Graphs by Learning Graph Topologies: Theoretical Analysis and an Algorithm](https://arxiv.org/abs/1812.06944)
     - Domain adaptation on graphs
     - 在图上的领域自适应

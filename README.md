@@ -72,6 +72,18 @@ _ _ _
 
 - **Preprints on arXiv** (Not peer-reviewed)
 
+	- 20181220 arXiv [Domain Adaptation for Reinforcement Learning on the Atari](https://arxiv.org/abs/1812.07452)
+    	- Reinforcement domain adaptation on Atari games
+    	- 迁移强化学习用于Atari游戏
+
+	- 20181220 arXiv [Deep UL2DL: Channel Knowledge Transfer from Uplink to Downlink](https://arxiv.org/abs/1812.07518)
+    	- Channel knowledge transfer in CSI
+    	- Wifi定位中的知识迁移
+
+	- 20181220 arXiv [TWINs: Two Weighted Inconsistency-reduced Networks for Partial Domain Adaptation](https://arxiv.org/abs/1812.07405)
+    	- Two weighted inconsistency-reduced networks for partial domain adaptation
+    	- 两个权重网络用于部分domain adaptation
+
 	- 20181219 arXiv [Domain Adaptation on Graphs by Learning Graph Topologies: Theoretical Analysis and an Algorithm](https://arxiv.org/abs/1812.06944)
     	- Domain adaptation on graphs
     	- 在图上的领域自适应

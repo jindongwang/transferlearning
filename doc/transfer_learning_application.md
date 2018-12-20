@@ -2,6 +2,14 @@
 
 迁移学习的应用
 
+- 20181220 arXiv [Domain Adaptation for Reinforcement Learning on the Atari](https://arxiv.org/abs/1812.07452)
+    - Reinforcement domain adaptation on Atari games
+    - 迁移强化学习用于Atari游戏
+
+- 20181220 arXiv [Deep UL2DL: Channel Knowledge Transfer from Uplink to Downlink](https://arxiv.org/abs/1812.07518)
+    - Channel knowledge transfer in CSI
+    - Wifi定位中的知识迁移
+
 - 20181219 NER-19 [Transfer Learning in Brain-Computer Interfaces with Adversarial Variational Autoencoders](https://arxiv.org/abs/1812.06857)
     - Transfer learning in brain-computer interfaces
     - 迁移学习在脑机交互中的应用
