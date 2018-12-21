@@ -72,6 +72,14 @@ _ _ _
 
 - **Preprints on arXiv** (Not peer-reviewed)
 
+	- 20181221 arXiv [Deep Transfer Learning for Static Malware Classification](https://arxiv.org/abs/1812.07606)
+		- Deep Transfer Learning for Static Malware Classification
+		- 用深度迁移学习进行恶意软件分类
+
+	- 20181221 arXiv [PnP-AdaNet: Plug-and-Play Adversarial Domain Adaptation Network with a Benchmark at Cross-modality Cardiac Segmentation](https://arxiv.org/abs/1812.07907)
+    	- Adversarial transfer learning for medical images
+    	- 对抗迁移学习用于医学图像分割
+
 	- 20181220 arXiv [Domain Adaptation for Reinforcement Learning on the Atari](https://arxiv.org/abs/1812.07452)
     	- Reinforcement domain adaptation on Atari games
     	- 迁移强化学习用于Atari游戏
@@ -83,26 +91,6 @@ _ _ _
 	- 20181220 arXiv [TWINs: Two Weighted Inconsistency-reduced Networks for Partial Domain Adaptation](https://arxiv.org/abs/1812.07405)
     	- Two weighted inconsistency-reduced networks for partial domain adaptation
     	- 两个权重网络用于部分domain adaptation
-
-	- 20181219 arXiv [Domain Adaptation on Graphs by Learning Graph Topologies: Theoretical Analysis and an Algorithm](https://arxiv.org/abs/1812.06944)
-    	- Domain adaptation on graphs
-    	- 在图上的领域自适应
-
-	- 20181219 arXiv [PAC Learning Guarantees Under Covariate Shift](https://arxiv.org/abs/1812.06393)
-    	- PAC learning theory for covariate shift
-    	- Covariate shift问题的PAC学习理论
-
-	- 20181218 arXiv [Transfer learning to model inertial confinement fusion experiments](https://arxiv.org/abs/1812.06055)
-    	- Using transfer learning for inertial confinement fusion
-    	- 用迁移学习进行惯性约束聚变
-
-	- 20181217 arXiv [When Semi-Supervised Learning Meets Transfer Learning: Training Strategies, Models and Datasets](https://arxiv.org/abs/1812.05313)
-    	- Combining semi-supervised learning and transfer learning
-    	- 将半监督方法应用于迁移学习
-
-	- 20181217 arXiv [DLOW: Domain Flow for Adaptation and Generalization](https://arxiv.org/abs/1812.05418)
-    	- Domain flow for adaptation and generalization
-    	- 域流方法应用于领域自适应和扩展
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 

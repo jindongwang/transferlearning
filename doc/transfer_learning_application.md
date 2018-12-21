@@ -2,6 +2,14 @@
 
 迁移学习的应用
 
+- 20181221 arXiv [Deep Transfer Learning for Static Malware Classification](https://arxiv.org/abs/1812.07606)
+	- Deep Transfer Learning for Static Malware Classification
+	- 用深度迁移学习进行恶意软件分类
+
+- 20181221 arXiv [PnP-AdaNet: Plug-and-Play Adversarial Domain Adaptation Network with a Benchmark at Cross-modality Cardiac Segmentation](https://arxiv.org/abs/1812.07907)
+    - Adversarial transfer learning for medical images
+    - 对抗迁移学习用于医学图像分割
+
 - 20181220 arXiv [Domain Adaptation for Reinforcement Learning on the Atari](https://arxiv.org/abs/1812.07452)
     - Reinforcement domain adaptation on Atari games
     - 迁移强化学习用于Atari游戏
