@@ -8,37 +8,37 @@ After learning fine-tune, we can build other `bottleneck` layers to perform tran
 
 ## Requirements
 
-Python 3.6, Pytorch 0.4.0, tqdm.
+Python 3.6, Pytorch 0.4.0 or above.
 
 All can be installed using `conda` or `pip`.
 
-## Run
+## Usage
 
 1. Download the [Office-31](https://pan.baidu.com/s/1o8igXT4#list/path=%2F) dataset and extract it into the `data` foder.
 2. In your terminal, type `python office31.py`. That's all.
-3. You can switch `alexnet` or `resnet` in the file to run respective network.
+3. You can switch `alexnet` or `resnet` in the commond line.
+
+More usage: you can run `python office31.py -m resnet -b 64 -g 3`, which means you use resnet with the batch size of 64 and the 3rd of gpu device.
 
 ## About the code
 
 The code consists of 4 `.py` files:
 
 - `data_loader.py`: Load the dataset.
-- `AlexNet.py`: AlexNet class for fine-tune.
-- `ResNet.py`: ResNet class for fine-tune.
-- `office31.py`: the main file, contains train and test.
+- `office31.py`: the main file.
 
 ## Results
 
 **Protocol**: We use a **full-training** protocol, which is taking all the samples from one domain as the source or target domain. Another similar protocol is **down-sample** protocol, which is choosing 20 or 8 samples per category to use as the domain dataThe results from two protocols are absolutely **different**.
 
-Here are our results.
+Here are our results using the full training prototol.
 
 |             Method            | A - W |
 |:-----------------------------:|:-----:|
-|          Our AlexNet (full-training)          |  51%  |
-|           Our ResNet (full-training)        |  71%  |
-|           AlexNet in DDC, DAN, JAN, DCORAL... (full-training)        |  61%  |
-|           ResNet in DAN, JAN... (full-training)        |  80%  |
+|          Our AlexNet         |  51%  |
+|           Our ResNet       |  77.3%  |
+|           AlexNet in DDC, DAN, JAN, DCORAL...       |  61%  |
+|           ResNet in DAN, JAN...       |  80%  |
 
 The results are clearly much lower than the results reported in exising papers such as DDC and DAN. I don't know why. Anyone who can successfully reimplement the results, **PLEASE** contact me!
 
