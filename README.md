@@ -54,6 +54,10 @@ _ _ _
 
 - **Latest publications**
 
+	- 20181225 WACV-19 [Multi-component Image Translation for Deep Domain Generalization](https://arxiv.org/abs/1812.08974)
+    	- Using GAN generated images for domain generalization
+    	- 用GAN生成的图像进行domain generalization
+
 	- 20181219 NER-19 [Transfer Learning in Brain-Computer Interfaces with Adversarial Variational Autoencoders](https://arxiv.org/abs/1812.06857)
     	- Transfer learning in brain-computer interfaces
     	- 迁移学习在脑机交互中的应用
@@ -66,31 +70,26 @@ _ _ _
     	- Deep transfer learning for EEG Arrhythmia Classification
     	- 深度迁移学习用于心率不齐分类
 
-	- 20181214 LAK-19 [Transfer Learning using Representation Learning in Massive Online Open Courses](https://arxiv.org/abs/1812.05043)
-    	- Transfer learning in MOOCs
-    	- 迁移学习用于大规模在线网络课程
-
 - **Preprints on arXiv** (Not peer-reviewed)
+
+	- 20181225 arXiv [Learning Compositional Representations for Few-Shot Recognition](https://arxiv.org/abs/1812.09213)
+    	- Few-shot recognition
+  
+	- 20181225 arXiv [A Multi-task Neural Approach for Emotion Attribution, Classification and Summarization](https://arxiv.org/abs/1812.09041)
+    	- A multi-task approach for emotion attribution, classification, and summarization
+    	- 一个多任务方法同时用于情绪归属、分类和总结
+
+	- 20181225 arXiv [A General Approach to Domain Adaptation with Applications in Astronomy](https://arxiv.org/abs/1812.08839)
+    	- Adopting active learning to transfer model
+    	- 用主动学习来进行模型迁移并应用到天文学上
+
+	- 20181225 arXiv [An Integrated Transfer Learning and Multitask Learning Approach for Pharmacokinetic Parameter Prediction](https://arxiv.org/abs/1812.09073)
+    	- Using transfer learning for Pharmacokinetic Parameter Prediction
+    	- 用迁移学习进行药代动力学参数估计
 
 	- 20181221 arXiv [Deep Transfer Learning for Static Malware Classification](https://arxiv.org/abs/1812.07606)
 		- Deep Transfer Learning for Static Malware Classification
 		- 用深度迁移学习进行恶意软件分类
-
-	- 20181221 arXiv [PnP-AdaNet: Plug-and-Play Adversarial Domain Adaptation Network with a Benchmark at Cross-modality Cardiac Segmentation](https://arxiv.org/abs/1812.07907)
-    	- Adversarial transfer learning for medical images
-    	- 对抗迁移学习用于医学图像分割
-
-	- 20181220 arXiv [Domain Adaptation for Reinforcement Learning on the Atari](https://arxiv.org/abs/1812.07452)
-    	- Reinforcement domain adaptation on Atari games
-    	- 迁移强化学习用于Atari游戏
-
-	- 20181220 arXiv [Deep UL2DL: Channel Knowledge Transfer from Uplink to Downlink](https://arxiv.org/abs/1812.07518)
-    	- Channel knowledge transfer in CSI
-    	- Wifi定位中的知识迁移
-
-	- 20181220 arXiv [TWINs: Two Weighted Inconsistency-reduced Networks for Partial Domain Adaptation](https://arxiv.org/abs/1812.07405)
-    	- Two weighted inconsistency-reduced networks for partial domain adaptation
-    	- 两个权重网络用于部分domain adaptation
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 

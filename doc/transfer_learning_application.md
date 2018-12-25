@@ -2,6 +2,18 @@
 
 迁移学习的应用
 
+- 20181225 arXiv [A Multi-task Neural Approach for Emotion Attribution, Classification and Summarization](https://arxiv.org/abs/1812.09041)
+    - A multi-task approach for emotion attribution, classification, and summarization
+    - 一个多任务方法同时用于情绪归属、分类和总结
+
+- 20181225 arXiv [A General Approach to Domain Adaptation with Applications in Astronomy](https://arxiv.org/abs/1812.08839)
+    - Adopting active learning to transfer model
+    - 用主动学习来进行模型迁移并应用到天文学上
+
+- 20181225 arXiv [An Integrated Transfer Learning and Multitask Learning Approach for Pharmacokinetic Parameter Prediction](https://arxiv.org/abs/1812.09073)
+    - Using transfer learning for Pharmacokinetic Parameter Prediction
+    - 用迁移学习进行药代动力学参数估计
+
 - 20181221 arXiv [Deep Transfer Learning for Static Malware Classification](https://arxiv.org/abs/1812.07606)
 	- Deep Transfer Learning for Static Malware Classification
 	- 用深度迁移学习进行恶意软件分类

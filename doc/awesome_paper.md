@@ -32,6 +32,9 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 ### 普通迁移学习
 
+- 20181225 arXiv [Learning Compositional Representations for Few-Shot Recognition](https://arxiv.org/abs/1812.09213)
+    - Few-shot recognition
+
 - 20181219 arXiv [PAC Learning Guarantees Under Covariate Shift](https://arxiv.org/abs/1812.06393)
     - PAC learning theory for covariate shift
     - Covariate shift问题的PAC学习理论
@@ -649,6 +652,10 @@ Let's read some awesome transfer learning / domain adaptation papers.
 - - -
 
 #### 对抗迁移学习
+
+- 20181225 WACV-19 [Multi-component Image Translation for Deep Domain Generalization](https://arxiv.org/abs/1812.08974)
+    - Using GAN generated images for domain generalization
+    - 用GAN生成的图像进行domain generalization
 
 - 20181217 arXiv [DLOW: Domain Flow for Adaptation and Generalization](https://arxiv.org/abs/1812.05418)
     - Domain flow for adaptation and generalization
