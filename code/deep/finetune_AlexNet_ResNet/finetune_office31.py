@@ -10,19 +10,24 @@ import torch.optim as optim
 import torchvision
 import time
 
+
+# Command setting
 parser = argparse.ArgumentParser(description='Finetune')
-parser.add_argument('-model', '-m', type=str, required=True, help='model name', default='alexnet')
-parser.add_argument('-batchsize', '-b', type=int, required=True, help='batch size', default=64)
-parser.add_argument('-cuda', '-g', type=int, required=True, help='cuda id', default=3)
+parser.add_argument('-model', '-m', type=str, help='model name', default='resnet')
+parser.add_argument('-batchsize', '-b', type=int, help='batch size', default=64)
+parser.add_argument('-cuda', '-g', type=int, help='cuda id', default=0)
+parser.add_argument('-source', '-src', type=str, default='amazon')
+parser.add_argument('-target', '-tar', type=str, default='webcam')
 args = parser.parse_args()
 
+# Parameter setting
 DEVICE = torch.device('cuda:' + str(args.cuda) if torch.cuda.is_available() else 'cpu')
 N_CLASS = 31
-LEARNING_RATE = 1e-3
+LEARNING_RATE = 1e-4
 BATCH_SIZE = {'src': int(args.batchsize), 'tar': int(args.batchsize)}
 N_EPOCH = 100
 MOMENTUM = 0.9
-
+DECAY=5e-4
 
 def load_model(name='alexnet'):
     if name == 'alexnet':
@@ -58,8 +63,6 @@ def get_optimizer(model_name):
 
 # Schedule learning rate
 def lr_schedule(optimizer, epoch):
-    if epoch < 2:
-        return
     def lr_decay(LR, n_epoch, e):
         return LR / (1 + 10 * e / n_epoch) ** 0.75
 
@@ -76,10 +79,10 @@ def finetune(model, dataloaders, optimizer):
     acc_hist = []
     criterion = nn.CrossEntropyLoss()
     for epoch in range(1, N_EPOCH + 1):
-        lr_schedule(optimizer, epoch)
+        # lr_schedule(optimizer, epoch)
         print('Learning rate: {:.8f}'.format(optimizer.param_groups[0]['lr']))
         print('Learning rate: {:.8f}'.format(optimizer.param_groups[-1]['lr']))
-        for phase in ['src', 'tar']:
+        for phase in ['src', 'val', 'tar']:
             if phase == 'src':
                 model.train()
             else:
@@ -100,11 +103,13 @@ def finetune(model, dataloaders, optimizer):
             epoch_loss = total_loss / len(dataloaders[phase].dataset)
             epoch_acc = correct.double() / len(dataloaders[phase].dataset)
             acc_hist.append([epoch_loss, epoch_acc])
-            print('Epoch: [{:02d}/{:02d}]---{}, loss: {:.6f}, acc: {:.4f}'.format(epoch, N_EPOCH, phase, epoch_loss, epoch_acc))
+            print('Epoch: [{:02d}/{:02d}]---{}, loss: {:.6f}, acc: {:.4f}'.format(epoch, N_EPOCH, phase, epoch_loss,
+                                                                                  epoch_acc))
             if phase == 'tar' and epoch_acc > best_acc:
                 best_acc = epoch_acc
         print()
-        np.savetxt('finetune_result_' + model_name + str(LEARNING_RATE) + '.csv', np.asarray(a=acc_hist, dtype=float), delimiter=',',
+        fname = 'finetune_result' + model_name + str(LEARNING_RATE) + str(args.source) + '-' + str(args.target)  + '.csv'
+        np.savetxt(fname, np.asarray(a=acc_hist, dtype=float), delimiter=',',
                    fmt='%.4f')
     time_pass = time.time() - since
     print('Training complete in {:.0f}m {:.0f}s'.format(time_pass // 60, time_pass % 60))
@@ -116,8 +121,11 @@ if __name__ == '__main__':
     torch.manual_seed(10)
     # Load data
     root_dir = 'data/OFFICE31/'
-    domain = {'src': 'amazon', 'tar': 'webcam'}
-    dataloaders = {x: data_loader.load_data(root_dir, domain[x], BATCH_SIZE[x], x) for x in ['src', 'tar']}
+    domain = {'src': str(args.source), 'tar': str(args.target)}
+    dataloaders = {}
+    dataloaders['tar'] = data_loader.load_data(root_dir, domain['tar'], BATCH_SIZE['tar'], 'tar')
+    dataloaders['src'], dataloaders['val'] = data_loader.load_train(root_dir, domain['src'], BATCH_SIZE['src'], 'src')
+    print(len(dataloaders['src'].dataset), len(dataloaders['val'].dataset))
     # Load model
     model_name = str(args.model)
     model = load_model(model_name).to(DEVICE)
@@ -125,4 +133,3 @@ if __name__ == '__main__':
     optimizer = get_optimizer(model_name)
     model_best, best_acc, acc_hist = finetune(model, dataloaders, optimizer)
     print('{}Best acc: {}'.format('*' * 10, best_acc))
-
