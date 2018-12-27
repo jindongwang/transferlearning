@@ -4,6 +4,28 @@ This file contains some benchmark results of popular transfer learning (domain a
 
 The full list of datasets can be found in [datasets](https://github.com/jindongwang/transferlearning/blob/master/data/dataset.md).
 
+## Office-31 dataset 
+
+using ResNet-50 features (compare with the latest deep methods with ResNet-50 as backbone). Again, **MEDA** beats them all!
+
+|         | Method    | A - W | D - W | W-D    | A - D | D - A | W-A   | AVG   |
+|---------|-----------|-------|-------|--------|-------|-------|-------|-------|
+| cvpr16  | ResNet-50 | 68.4  | 96.7  | 99.3   | 68.9  | 62.5  | 60.7  | 76.1  |
+| icml15  | DAN       | 80.5  | 97.1  | 99.6   | 78.6  | 63.6  | 62.8  | 80.4  |
+| nips16  | RTN       | 84.5  | 96.8  | 99.4   | 77.5  | 66.2  | 64.8  | 81.6  |
+| icml15  | DANN      | 82.0  | 96.9  | 99.1   | 79.7  | 68.2  | 67.4  | 82.2  |
+| cvpr17  | ADDA      | 86.2  | 96.2  | 98.4   | 77.8  | 69.5  | 68.9  | 82.9  |
+| icml17  | JAN       | 85.4  | 97.4  | 99.8   | 84.7  | 68.6  | 70.0  | 84.3  |
+| cvpr17  | GTA       | 89.5  | 97.9  | 99.8   | 87.7  | 72.8  | 71.4  | 86.5  |
+| nips18  | CDAN-RM   | 93.0  | 98.4  | 100.0  | 89.2  | 70.2  | 67.4  | 86.4  |
+| nips18  | CDAN-M    | 93.1  | 98.6  | 100.0  | 92.9  | 71.0  | 69.3  | 87.5  |
+| cvpr18  | CAN       | 81.5  | 63.4  | 85.5   | 65.9  | 99.7  | 98.2  | 82.4  |
+| cvpr18  | iCAN      | 92.5  | 69.9  | 90.1   | 72.1  | 100   | 98.8  | 87.2  |
+| aaai19  | JDDA      | 82.6  | 95.2  | 99.7   | 79.8  | 57.4  | 66.7  | 80.2  |
+| aaai18  | MADA      | 90.1  | 97.4  | 99.6   | 87.8  | 70.3  | 66.4  | 85.2  |
+|         |           |       |       |        |       |       |       |       |
+| ACMMM18 | MEDA      | 91.9  | 97.6  | 99.4   | 93.8  | 85.1  | 82.3  | 91.7  |
+
 ## Office+Caltech SURF
 
 | **Dim** | **Method** | **C-A** | **C-W** | **C-D** | **A-C** | **A-W** | **A-D** | **W-C** | **W-A** | **W-D** | **D-C** | **D-A** | **D-W** |
@@ -50,31 +72,6 @@ The full list of datasets can be found in [datasets](https://github.com/jindongw
 Luckily, there is one article [16] that gathers the results of many popular methods on Decaf6 features. The benchmark is as the following image from that article:
 
 ![](https://raw.githubusercontent.com/jindongwang/transferlearning/master/png/result_office_caltech_decaf.jpg)
-
-## Office-31
-
-More and more researches chose to compare the accuracy on Office-31 datasets. Here is the comparison of both traditional and deep methods:
-
-| Method | A - D | A - W | D - A | D - W | W-A | W-D | Average |
-|:--------------:|:-----:|:-----:|:-----:|:-----:|:----:|:----:|:-------:|
-| SVM | 55.7 | 50.6 | 46.5 | 93.1 | 43.0 | 97.4 | 64.4 |
-| TCA | 45.4 | 40.5 | 36.5 | 78.2 | 34.1 | 84.0 | 53.1 |
-| GFK | 52.0 | 48.2 | 41.8 | 86.5 | 38.6 | 87.5 | 59.1 |
-| SA | 46.2 | 42.5 | 39.3 | 78.9 | 36.3 | 80.6 | 54.0 |
-| DANN | 34.0 | 34.1 | 20.1 | 62.0 | 21.2 | 64.4 | 39.3 |
-| CORAL | 57.1 | 53.1 | 51.1 | 94.6 | 47.3 | 98.2 | 66.9 |
-| AlexNet | 63.8 | 61.6 | 51.1 | 95.4 | 49.8 | 99.0 | 70.1 |
-| ResNet | 68.9 | 68.4 | 62.5 | 96.7 | 60.7 | 99.3 | 76.1 |
-| DDC | 64.4 | 61.8 | 52.1 | 95.0 | 52.2 | 98.5 | 70.6 |
-| DAN | 67.0 | 68.5 | 54.0 | 96.0 | 53.1 | 99.0 | 72.9 |
-| RTN | 71.0 | 73.3 | 50.5 | 96.8 | 51.0 | 99.6 | 73.7 |
-| RevGrad | 72.3 | 73.0 | 53.4 | 96.4 | 51.2 | 99.2 | 74.3 |
-| DCORAL | 66.4 | 66.8 | 52.8 | 95.7 | 51.5 | 99.2 | 72.1 |
-| DUCDA | 68.3 | 68.3 | 53.6 | 96.2 | 51.6 | 99.7 | 73.0 |
-| JAN(AlexNet) | 71.8 | 74.9 | 58.3 | 96.6 | 55.0 | 99.5 | 76.0 |
-| JAN-A(AlexNet) | 72.8 | 75.2 | 57.5 | 96.6 | 56.3 | 99.6 | 76.3 |
-| JAN(ResNet) | 84.7 | 85.4 | 68.6 | 97.4 | 70.0 | 99.8 | 84.3 |
-| JAN-A(ResNet) | 85.1 | 86.0 | 69.2 | 96.7 | 70.7 | 99.7 | 84.6 |
 
 ### References
 
