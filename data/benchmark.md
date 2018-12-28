@@ -4,9 +4,22 @@ This file contains some benchmark results of popular transfer learning (domain a
 
 The full list of datasets can be found in [datasets](https://github.com/jindongwang/transferlearning/blob/master/data/dataset.md).
 
+Here, we provide benchmark results for the following datasets:
+
+- [Benchmark](#benchmark)
+  - [Office-31 dataset](#office-31-dataset)
+  - [Office-Home](#office-home)
+  - [Image-CLEF DA](#image-clef-da)
+  - [Office+Caltech](#officecaltech)
+    - [SURF](#surf)
+    - [Decaf6](#decaf6)
+  - [References](#references)
+
 ## Office-31 dataset 
 
-Using ResNet-50 features (compare with the latest deep methods with ResNet-50 as backbone). Again, it seems that **MEDA** achieves the best performance. [Download Office-31 ResNet-50 features](https://pan.baidu.com/s/1UoyJSqoCKCda-NcP-zraVg)
+Using ResNet-50 features (compare with the latest deep methods with ResNet-50 as backbone). Again, it seems that **MEDA** achieves the best performance. 
+
+[Download Office-31 ResNet-50 features](https://pan.baidu.com/s/1UoyJSqoCKCda-NcP-zraVg)
 
 |         | Method    | A - W | D - W | W-D    | A - D | D - A | W-A   | AVG   |
 |---------|-----------|-------|-------|--------|-------|-------|-------|-------|
@@ -28,7 +41,9 @@ Using ResNet-50 features (compare with the latest deep methods with ResNet-50 as
 
 ## Office-Home
 
-using ResNet-50 features (compare with the latest deep methods with ResNet-50 as backbone). Again, it seems that **MEDA** achieves the best performance. [Download Office-Home ResNet-50 pretrained features](https://pan.baidu.com/s/1qvcWJCXVG8JkZnoM4BVoGg)
+Using ResNet-50 features (compare with the latest deep methods with ResNet-50 as backbone). Again, it seems that **MEDA** achieves the best performance. 
+
+[Download Office-Home ResNet-50 pretrained features](https://pan.baidu.com/s/1qvcWJCXVG8JkZnoM4BVoGg)
 
 |         | Method    | Ar-Cl | Ar-Pr | Ar-Rw | Cl-Ar | Cl-Pr | Cl-Rw | Pr-Ar | Pr-Cl | Pr-Rw | Rw-Ar | Rw-Cl | Rw-Pr | Avg   |
 |---------|-----------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
@@ -46,7 +61,37 @@ using ResNet-50 features (compare with the latest deep methods with ResNet-50 as
 | nips18  | CDAN-M    | 50.6  | 65.9  | 73.4  | 55.7  | 62.7  | 64.2  | 51.8  | 49.1  | 74.5  | 68.2  | 56.9  | 80.7  | 62.8  |
 | ACMMM18 | MEDA      | 62.5  | 75.4  | 76.3  | 65.0  | 80.7  | 77.6  | 64.2  | 65.9  | 81.1  | 70.3  | 70.4  | 84.5  | 72.8  |
 
-## Office+Caltech SURF
+## Image-CLEF DA
+
+using ResNet-50 features (compare with the latest deep methods with ResNet-50 as backbone). Again, it seems that **MEDA** achieves the best performance. 
+
+[Download Image-CLEF ResNet-50 pretrained features](https://pan.baidu.com/s/16wBgDJI6drA0oYq537h4FQ)
+
+| Method    | I-P   | P-I   | I-C   | C-I   | C-P   | P-C   | Avg   |
+|-----------|-------|-------|-------|-------|-------|-------|-------|
+| AlexNet   | 66.2  | 70.0  | 84.3  | 71.3  | 59.3  | 84.5  | 73.9  |
+| DAN       | 67.3  | 80.5  | 87.7  | 76.0  | 61.6  | 88.4  | 76.9  |
+| DANN      | 66.5  | 81.8  | 89.0  | 79.8  | 63.5  | 88.7  | 78.2  |
+| JAN       | 67.2  | 82.8  | 91.3  | 80.0  | 63.5  | 91.0  | 79.3  |
+| CDAN-RM   | 67.0  | 84.8  | 92.4  | 81.3  | 64.7  | 91.6  | 80.3  |
+| CDAN-M    | 67.7  | 83.3  | 91.8  | 81.5  | 63.0  | 91.5  | 79.8  |
+| ResNet-50 | 74.8  | 83.9  | 91.5  | 78.0  | 65.5  | 91.2  | 80.7  |
+| DAN       | 74.5  | 82.2  | 92.8  | 86.3  | 69.2  | 89.8  | 82.5  |
+| DANN      | 75.0  | 86.0  | 96.2  | 87.0  | 74.3  | 91.5  | 85.0  |
+| RTN       | 75.6  | 86.8  | 95.3  | 86.9  | 72.7  | 92.2  | 84.9  |
+| JAN       | 76.8  | 88.0  | 94.7  | 89.5  | 74.2  | 91.7  | 85.8  |
+| MADA      | 75.0  | 87.9  | 96.0  | 88.8  | 75.2  | 92.2  | 85.8  |
+| CDAN-RM   | 77.2  | 88.3  | 98.3  | 90.7  | 76.7  | 94.0  | 87.5  |
+| CDAN-M    | 78.3  | 91.2  | 96.7  | 91.2  | 77.2  | 93.7  | 88.1  |
+| CAN       | 78.2  | 87.5  | 94.2  | 89.5  | 75.8  | 89.2  | 85.7  |
+| iCAN      | 79.5  | 89.7  | 94.7  | 89.9  | 78.5  | 92.0  | 87.4  |
+| MEDA      | 79.3  | 95.3  | 97.5  | 96.0  | 78.8  | 96.8  | 90.6  |
+
+## Office+Caltech
+
+We provide results on SURF and DeCaf features.
+
+### SURF
 
 | **Dim** | **Method** | **C-A** | **C-W** | **C-D** | **A-C** | **A-W** | **A-D** | **W-C** | **W-A** | **W-D** | **D-C** | **D-A** | **D-W** |
 |:---:|:--------:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
@@ -87,13 +132,13 @@ using ResNet-50 features (compare with the latest deep methods with ResNet-50 as
 
 - - -
 
-## Office+Caltech10 Decaf6
+### Decaf6
 
 Luckily, there is one article [16] that gathers the results of many popular methods on Decaf6 features. The benchmark is as the following image from that article:
 
 ![](https://raw.githubusercontent.com/jindongwang/transferlearning/master/png/result_office_caltech_decaf.jpg)
 
-### References
+## References
 
 [1] Gong B, Shi Y, Sha F, et al. Geodesic flow kernel for unsupervised domain adaptation[C]//Computer Vision and Pattern Recognition (CVPR), 2012 IEEE Conference on. IEEE, 2012: 2066-2073.
 

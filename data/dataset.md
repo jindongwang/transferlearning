@@ -197,6 +197,8 @@ This is a dataset from ImageCLEF 2014 challenge.
 
 [Download the ImageCLEF dataset](https://pan.baidu.com/s/1lx2u1SMlSamsHnAPWrAHWA)
 
+[Download Image-CLEF ResNet-50 pretrained features](https://pan.baidu.com/s/16wBgDJI6drA0oYq537h4FQ)
+
 - - -
 
 ### VisDA
