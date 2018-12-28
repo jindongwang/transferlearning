@@ -101,6 +101,8 @@ See benchmarks on Office-31 datasets [here](https://github.com/jindongwang/trans
 
 [Download Office-31 SURF features](https://pan.baidu.com/s/1kU6tv4F)
 
+[Download Office-31 ResNet-50 features](https://pan.baidu.com/s/1UoyJSqoCKCda-NcP-zraVg)
+
 - - -
 
 ### MNIST+USPS
@@ -174,6 +176,10 @@ Download the SURF/SIFT/DeCAF features [[pCloud](https://my.pcloud.com/publink/sh
 This is a **new** dataset released at CVPR 2017. It contains 65 kinds of objects crawled from the web. The main research goal is for domain adatpation algorithms benchmark.
 
 The project home page is: http://hemanthdv.org/OfficeHome-Dataset/, the dataset can be downloaded there.
+
+Currently, there are no feature files, which is bad for traditional (no-deep) methods. I extracted features using ResNet-50 for you to use:
+
+[Download Office-Home ResNet-50 pretrained features](https://pan.baidu.com/s/1qvcWJCXVG8JkZnoM4BVoGg)
 
 - - -
 

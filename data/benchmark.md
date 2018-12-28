@@ -6,7 +6,7 @@ The full list of datasets can be found in [datasets](https://github.com/jindongw
 
 ## Office-31 dataset 
 
-using ResNet-50 features (compare with the latest deep methods with ResNet-50 as backbone). Again, **MEDA** beats them all!
+using ResNet-50 features (compare with the latest deep methods with ResNet-50 as backbone). Again, **MEDA** beats them all! [Download Office-31 ResNet-50 features](https://pan.baidu.com/s/1UoyJSqoCKCda-NcP-zraVg)
 
 |         | Method    | A - W | D - W | W-D    | A - D | D - A | W-A   | AVG   |
 |---------|-----------|-------|-------|--------|-------|-------|-------|-------|
@@ -28,7 +28,7 @@ using ResNet-50 features (compare with the latest deep methods with ResNet-50 as
 
 ## Office-Home
 
-using ResNet-50 features (compare with the latest deep methods with ResNet-50 as backbone). Again, **MEDA** beats them all!
+using ResNet-50 features (compare with the latest deep methods with ResNet-50 as backbone). Again, **MEDA** beats them all! [Download Office-Home ResNet-50 pretrained features](https://pan.baidu.com/s/1qvcWJCXVG8JkZnoM4BVoGg)
 
 |         | Method    | Ar-Cl | Ar-Pr | Ar-Rw | Cl-Ar | Cl-Pr | Cl-Rw | Pr-Ar | Pr-Cl | Pr-Rw | Rw-Ar | Rw-Cl | Rw-Pr | Avg   |
 |---------|-----------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
