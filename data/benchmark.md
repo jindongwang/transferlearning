@@ -17,7 +17,7 @@ Here, we provide benchmark results for the following datasets:
 
 ## Office-31 dataset 
 
-Using ResNet-50 features (compare with the latest deep methods with ResNet-50 as backbone). Again, it seems that **MEDA** achieves the best performance. 
+Using ResNet-50 features (compare with the latest deep methods with ResNet-50 as backbone). It seems **MEDA** is the only traditional method that can challenge these heavy deep adversarial methods.
 
 [Download Office-31 ResNet-50 features](https://pan.baidu.com/s/1UoyJSqoCKCda-NcP-zraVg)
 
@@ -31,13 +31,11 @@ Using ResNet-50 features (compare with the latest deep methods with ResNet-50 as
 | icml17  | JAN       | 85.4  | 97.4  | 99.8   | 84.7  | 68.6  | 70.0  | 84.3  |
 | cvpr17  | GTA       | 89.5  | 97.9  | 99.8   | 87.7  | 72.8  | 71.4  | 86.5  |
 | nips18  | CDAN-RM   | 93.0  | 98.4  | 100.0  | 89.2  | 70.2  | 67.4  | 86.4  |
-| nips18  | CDAN-M    | **93.1**  | **98.6**  | **100.0**  | 92.9  | 71.0  | 69.3  | 87.5  |
+| nips18  | CDAN-M    | 93.1  | 98.6  | 100.0  | 92.9  | 71.0  | 69.3  | 87.5  |
 | cvpr18  | CAN       | 81.5  | 63.4  | 85.5   | 65.9  | 99.7  | 98.2  | 82.4  |
-| cvpr18  | iCAN      | 92.5  | 69.9  | 90.1   | 72.1  | **100**   | **98.8**  | 87.2  |
 | aaai19  | JDDA      | 82.6  | 95.2  | 99.7   | 79.8  | 57.4  | 66.7  | 80.2  |
 | aaai18  | MADA      | 90.1  | 97.4  | 99.6   | 87.8  | 70.3  | 66.4  | 85.2  |
-|         |           |       |       |        |       |       |       |       |
-| ACMMM18 | MEDA      | 91.9  | 97.6  | 99.4   | **93.8**  | 85.1  | 82.3  | **91.7**  |
+| ACMMM18 | MEDA | 86.2  | 97.2  | 99.4  | 85.3  | 72.4  | 74.0  | 85.7 |
 
 ## Office-Home
 
@@ -59,7 +57,7 @@ Using ResNet-50 features (compare with the latest deep methods with ResNet-50 as
 | icml17  | JAN       | 45.9  | 61.2  | 68.9  | 50.4  | 59.7  | 61.0  | 45.8  | 43.4  | 70.3  | 63.9  | 52.4  | 76.8  | 58.3  |
 | nips18  | CDAN-RM   | 49.2  | 64.8  | 72.9  | 53.8  | 62.4  | 62.9  | 49.8  | 48.8  | 71.5  | 65.8  | 56.4  | 79.2  | 61.5  |
 | nips18  | CDAN-M    | 50.6  | 65.9  | 73.4  | 55.7  | 62.7  | 64.2  | 51.8  | 49.1  | 74.5  | 68.2  | 56.9  | 80.7  | 62.8  |
-| ACMMM18 | MEDA      | **62.5**  | **75.4**  | **76.3**  | **65.0**  | **80.7**  | **77.6**  | **64.2**  | **65.9**  | **81.1**  | **70.3**  | **70.4**  | **84.5**  | **72.8**  |
+| ACMMM18 | MEDA | **54.6**  | **75.2**  | **77.0**  | **56.5**  | **72.8**  | **72.3**  | **59.0**  | **51.9**  | **78.2**  | 67.7  | **57.2**  | **81.8**  | **67.0**  |
 
 ## Image-CLEF DA
 
@@ -84,8 +82,8 @@ using ResNet-50 features (compare with the latest deep methods with ResNet-50 as
 | CDAN-RM   | 77.2  | 88.3  | **98.3**  | 90.7  | 76.7  | 94.0  | 87.5  |
 | CDAN-M    | 78.3  | 91.2  | 96.7  | 91.2  | 77.2  | 93.7  | 88.1  |
 | CAN       | 78.2  | 87.5  | 94.2  | 89.5  | 75.8  | 89.2  | 85.7  |
-| iCAN      | **79.5**  | 89.7  | 94.7  | 89.9  | 78.5  | 92.0  | 87.4  |
-| MEDA      | 79.3  | **95.3**  | 97.5  | **96.0**  | **78.8**  | **96.8**  | **90.6**  |
+| iCAN      | 79.5  | 89.7  | 94.7  | 89.9  | 78.5  | 92.0  | 87.4  |
+| MEDA      | **79.7**  | **92.5**  | 95.7  | **92.2**  | **78.5**  | **95.5**  | **89.0**  |
 
 ## Office+Caltech
 
