@@ -2,6 +2,13 @@
 
 迁移学习的应用
 
+- 20181230 arXiv [The CORAL+ Algorithm for Unsupervised Domain Adaptation of PLDA](https://arxiv.org/abs/1812.10260)
+    - Use CORAL for speaker recognition
+    - 用CORAL改进版进行speaker识别
+
+- 20181230 arXiv [Domain-Aware Generalized Zero-Shot Learning](https://arxiv.org/abs/1812.09903)
+    - Domain-aware zero-shot learning
+
 - 20181225 arXiv [A Multi-task Neural Approach for Emotion Attribution, Classification and Summarization](https://arxiv.org/abs/1812.09041)
     - A multi-task approach for emotion attribution, classification, and summarization
     - 一个多任务方法同时用于情绪归属、分类和总结
