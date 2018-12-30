@@ -111,27 +111,29 @@ author = {Wang, Jindong and others}
 
 Related articles by research areas:
 
-- [领域自适应(非深度) Domain Adaptation (Shallow)](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#领域自适应)
-	- Domain adaptation介绍：[Domain adaptation](https://github.com/jindongwang/transferlearning/blob/master/doc/domain_adaptation.md)
+- [General Transfer Learning (普通迁移学习)](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#general-transfer-learning-%E6%99%AE%E9%80%9A%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0)
+  - [Theory (理论)](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#theory-%E7%90%86%E8%AE%BA)
+  - [Others (其他)](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#others-%E5%85%B6%E4%BB%96)
+- [Domain Adaptation (领域自适应)](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#domain-adaptation-%E9%A2%86%E5%9F%9F%E8%87%AA%E9%80%82%E5%BA%94)
+  - [Traditional Methods (传统迁移方法)](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#traditional-methods-%E4%BC%A0%E7%BB%9F%E8%BF%81%E7%A7%BB%E6%96%B9%E6%B3%95)
+  - [Deep / Adversarial Methods (深度/对抗迁移方法)](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#deep--adversarial-methods-%E6%B7%B1%E5%BA%A6%E5%AF%B9%E6%8A%97%E8%BF%81%E7%A7%BB%E6%96%B9%E6%B3%95)
+- [Domain Generalization](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#domain-generalization)
+- [Multi-source Transfer Learning (多源迁移学习)](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#multi-source-transfer-learning-%E5%A4%9A%E6%BA%90%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0)
+- [Heterogeneous Transfer Learning (异构迁移学习)](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#heterogeneous-transfer-learning-%E5%BC%82%E6%9E%84%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0)
+- [Online Transfer Learning (在线迁移学习)](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#online-transfer-learning-%E5%9C%A8%E7%BA%BF%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0)
+- [Zero-shot / Few-shot Learning](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#zero-shot--few-shot-learning)
+- [Deep Transfer Learning (深度迁移学习)](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#deep-transfer-learning-%E6%B7%B1%E5%BA%A6%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0)
+  - [Non-Adversarial Transfer Learning (非对抗深度迁移)](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#non-adversarial-transfer-learning-%E9%9D%9E%E5%AF%B9%E6%8A%97%E6%B7%B1%E5%BA%A6%E8%BF%81%E7%A7%BB)
+  - [Deep Adversarial Transfer Learning (对抗迁移学习)](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#deep-adversarial-transfer-learning-%E5%AF%B9%E6%8A%97%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0)
+- [Multi-task Learning (多任务学习)](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#multi-task-learning-%E5%A4%9A%E4%BB%BB%E5%8A%A1%E5%AD%A6%E4%B9%A0)
+- [Transfer Reinforcement Learning (强化迁移学习)](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#transfer-reinforcement-learning-%E5%BC%BA%E5%8C%96%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0)
+- [Transfer Metric Learning (迁移度量学习)](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#transfer-metric-learning-%E8%BF%81%E7%A7%BB%E5%BA%A6%E9%87%8F%E5%AD%A6%E4%B9%A0)
+- [Transitive Transfer Learning (传递迁移学习)](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#transitive-transfer-learning-%E4%BC%A0%E9%80%92%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0)
+- [Lifelong Learning (终身迁移学习)](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#lifelong-learning-%E7%BB%88%E8%BA%AB%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0)
+- [Negative Transfer (负迁移)](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#negative-transfer-%E8%B4%9F%E8%BF%81%E7%A7%BB)
+- [Transfer Learning Applications (应用)](https://github.com/jindongwang/transferlearning/blob/master/doc/transfer_learning_application.md)
 
-- [在线迁移学习 Online transfer learning](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#在线迁移学习)
-
-- [终身迁移学习 Lifelong transfer learning](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#终身迁移学习)
-
-- [异构迁移学习 Heterogeneous Transfer Learning](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#异构迁移学习)
-
-- [深度迁移学习 Deep Transfer Learning](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#深度迁移学习)
-  
-    - [深度对抗迁移迁移学习 Deep Adversarial transfer learning](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#对抗迁移学习)
-
-- [传递迁移学习 Transitive Transfer Learning](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#传递迁移学习)
-
-- [强化迁移学习 Transfer Learning with Reinforcement Learning](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#强化迁移学习)
-
-- [应用 Applications](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#应用)
-	- [迁移学习用于行为识别 Transfer learning for activity recognition](https://github.com/jindongwang/activityrecognition/blob/master/notes/%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0%E7%94%A8%E4%BA%8E%E8%A1%8C%E4%B8%BA%E8%AF%86%E5%88%AB.md)
-
-一个推荐、分享论文的网站比较好，我在上面会持续整理相关的文章并分享阅读笔记。详情请见[paperweekly](http://www.paperweekly.site/collections/231/papers)。
+[Paperweekly](http://www.paperweekly.site/collections/231/papers): 一个推荐、分享论文的网站比较好，上面会持续整理相关的文章并分享阅读笔记。
 
 - - -
 
