@@ -13,6 +13,7 @@ Here, we provide benchmark results for the following datasets:
   - [Office+Caltech](#officecaltech)
     - [SURF](#surf)
     - [Decaf6](#decaf6)
+  - [MNIST+USPS](#mnistusps)
   - [References](#references)
 
 ## Office-31 dataset 
@@ -135,6 +136,24 @@ We provide results on SURF and DeCaf features.
 Luckily, there is one article [16] that gathers the results of many popular methods on Decaf6 features. The benchmark is as the following image from that article:
 
 ![](https://raw.githubusercontent.com/jindongwang/transferlearning/master/png/result_office_caltech_decaf.jpg)
+
+- - -
+
+## MNIST+USPS
+
+There are plenty of different configurations in MNIST+USPS datasets. Here we only show some the recent results with the same network (based on LeNet) and training/test split.
+
+|  Method | MNIST-USPS |
+|:-------:|:----------:|
+|   DDC   |    79.1    |
+|   DANN  |    77.1    |
+|  CoGAN  |    91.2    |
+|   ADDA  |    89.4    |
+|   MSTN  |    92.9    |
+|   MEDA  |    94.3    |
+|  CyCADA |    95.6    |
+| PixelDA |    95.9    |
+|   UNIT  |    95.9    |
 
 ## References
 

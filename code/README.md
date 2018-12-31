@@ -23,6 +23,10 @@ This document contains codes from several aspects: **tutorial**, **theory**, **t
 - **Google's Tensorflow Hub** (Tensorflow library released by Google for transfer learning)
 	- [Tensorflow](https://github.com/tensorflow/hub)
 
+## Deep feature extractor 提取深度网络特征用于传统方法
+
+[Deep feature extractor](https://github.com/jindongwang/transferlearning/blob/master/code/feature_extractor/readme.md)
+
 ## Basic distance 常用的距离度量
 
 - MMD and MK-MMD：[Matlab](https://github.com/lopezpaz/classifier_tests/tree/master/code/unit_test_mmd) | [Python](https://github.com/jindongwang/transferlearning/tree/master/code/distance/mmd.py)
