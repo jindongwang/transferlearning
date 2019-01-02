@@ -2,6 +2,10 @@
 
 迁移学习的应用
 
+- 20190102 arXiv [High Quality Monocular Depth Estimation via Transfer Learning](https://arxiv.org/abs/1812.11941)
+    - Monocular depth estimation using transfer learning
+    - 用迁移学习进行单眼深度估计
+
 - 20181230 arXiv [The CORAL+ Algorithm for Unsupervised Domain Adaptation of PLDA](https://arxiv.org/abs/1812.10260)
     - Use CORAL for speaker recognition
     - 用CORAL改进版进行speaker识别

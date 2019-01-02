@@ -57,6 +57,10 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 ### Others (其他)
 
+- 20190102 arXiv [An introduction to domain adaptation and transfer learning](https://arxiv.org/abs/1812.11806)
+    - Another introduction to transfer learning
+    - 另一个迁移学习和domain adaptation综述
+
 - 20181217 arXiv [When Semi-Supervised Learning Meets Transfer Learning: Training Strategies, Models and Datasets](https://arxiv.org/abs/1812.05313)
     - Combining semi-supervised learning and transfer learning
     - 将半监督方法应用于迁移学习
@@ -238,6 +242,14 @@ Including domain adaptation and partial domain adaptation.
 	- 发表在IEEE Trans. Knowledge and Data Engineering期刊上
 
 ### Deep / Adversarial Methods (深度/对抗迁移方法)
+
+- 20190102 WSDM-19 [Learning to Selectively Transfer: Reinforced Transfer Learning for Deep Text Matching](https://arxiv.org/abs/1812.11561)
+    - Reinforced transfer learning for deep text matching
+    - 迁移学习进行深度文本匹配
+
+- 20190102 arXiv [DART: Domain-Adversarial Residual-Transfer Networks for Unsupervised Cross-Domain Image Classification](https://arxiv.org/abs/1812.11478)
+    - Adversarial + residual for domain adaptation
+    - 对抗+残差进行domain adaptation
 
 - 20181220 arXiv [TWINs: Two Weighted Inconsistency-reduced Networks for Partial Domain Adaptation](https://arxiv.org/abs/1812.07405)
     - Two weighted inconsistency-reduced networks for partial domain adaptation

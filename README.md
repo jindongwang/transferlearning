@@ -38,6 +38,10 @@ author = {Wang, Jindong and others}
 
 - **Latest publications**
 
+	- 20190102 WSDM-19 [Learning to Selectively Transfer: Reinforced Transfer Learning for Deep Text Matching](https://arxiv.org/abs/1812.11561)
+    	- Reinforced transfer learning for deep text matching
+    	- 迁移学习进行深度文本匹配
+
 	- 20181225 WACV-19 [Multi-component Image Translation for Deep Domain Generalization](https://arxiv.org/abs/1812.08974)
     	- Using GAN generated images for domain generalization
     	- 用GAN生成的图像进行domain generalization
@@ -50,11 +54,19 @@ author = {Wang, Jindong and others}
     	- Transfer learning in autonomous vehicles
     	- 迁移学习用于自动驾驶车辆的策略迁移
 
-	- 20181214 BioCAS-19 [ECG Arrhythmia Classification Using Transfer Learning from 2-Dimensional Deep CNN Features](https://arxiv.org/abs/1812.04693)
-    	- Deep transfer learning for EEG Arrhythmia Classification
-    	- 深度迁移学习用于心率不齐分类
-
 - **Preprints on arXiv** (Not peer-reviewed)
+
+	- 20190102 arXiv [An introduction to domain adaptation and transfer learning](https://arxiv.org/abs/1812.11806)
+    	- Another introduction to transfer learning
+    	- 另一个迁移学习和domain adaptation综述
+
+	- 20190102 arXiv [DART: Domain-Adversarial Residual-Transfer Networks for Unsupervised Cross-Domain Image Classification](https://arxiv.org/abs/1812.11478)
+    	- Adversarial + residual for domain adaptation
+    	- 对抗+残差进行domain adaptation
+
+	- 20190102 arXiv [High Quality Monocular Depth Estimation via Transfer Learning](https://arxiv.org/abs/1812.11941)
+    	- Monocular depth estimation using transfer learning
+    	- 用迁移学习进行单眼深度估计
 
 	- 20181230 arXiv [The CORAL+ Algorithm for Unsupervised Domain Adaptation of PLDA](https://arxiv.org/abs/1812.10260)
     	- Use CORAL for speaker recognition
@@ -62,17 +74,6 @@ author = {Wang, Jindong and others}
 
 	- 20181230 arXiv [Domain-Aware Generalized Zero-Shot Learning](https://arxiv.org/abs/1812.09903)
     	- Domain-aware zero-shot learning
-
-	- 20181225 arXiv [Learning Compositional Representations for Few-Shot Recognition](https://arxiv.org/abs/1812.09213)
-    	- Few-shot recognition
-  
-	- 20181225 arXiv [A Multi-task Neural Approach for Emotion Attribution, Classification and Summarization](https://arxiv.org/abs/1812.09041)
-    	- A multi-task approach for emotion attribution, classification, and summarization
-    	- 一个多任务方法同时用于情绪归属、分类和总结
-
-	- 20181225 arXiv [A General Approach to Domain Adaptation with Applications in Astronomy](https://arxiv.org/abs/1812.08839)
-    	- Adopting active learning to transfer model
-    	- 用主动学习来进行模型迁移并应用到天文学上
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
