@@ -4,9 +4,11 @@
 
 > It is a waste of time looking for the codes from others. So I **collect** or **reimplement** them here in a way that you can **easily** use. The following are some of the popular transfer learning (domain adaptation) methods in recent years, and I know most of them will be chosen to **compare** with your own method.
 
-> It is still **on the go**. You are welcome to contribute and suggest other methods.
+> You are welcome to contribute and suggest other methods.
 
 This document contains codes from several aspects: **tutorial**, **theory**, **traditional** methods, and **deep** methods.
+
+Testing **dataset** can be found [here](https://github.com/jindongwang/transferlearning/blob/master/doc/dataset.md).
 
 - - -
 
@@ -164,16 +166,13 @@ This document contains codes from several aspects: **tutorial**, **theory**, **t
     - [Tensorflow](https://github.com/RuiShu/dirt-t)
 - **CDAN** (Conditional Adversarial Domain Adaptation, NeurIPS-18) [60]
 	- [Pytorch(official)](https://github.com/thuml/CDAN) | [Pytorch(third party)](https://github.com/thuml/CDAN)
-
+- Generalizing to Unseen Domains via Adversarial Data Augmentation (NeurIPS-18) [61]
+  - [Tensorflow](https://github.com/ricvolpi/generalize-unseen-domains)
 
 
 - - -
 
 #### [Code from HKUST](http://www.cse.ust.hk/TL/) [a bit old]
-
-- - -
-
-Testing **dataset** can be found [here](https://github.com/jindongwang/transferlearning/blob/master/doc/dataset.md).
 
 - - -
 
@@ -300,3 +299,5 @@ accepted in International Conference on Computer Vision (ICCV 2015), Santiago, C
 [59] Shu R, Bui H H, Narui H, et al. A DIRT-T Approach to Unsupervised Domain Adaptation[J]. arXiv preprint arXiv:1802.08735, 2018.
 
 [60] Mingsheng Long, et al. Conditional Adversarial Domain Adaptation. NeurIPS 2018.
+
+[61] Volpi, Riccardo, et al. "Generalizing to Unseen Domains via Adversarial Data Augmentation." NeurIPS 2018.
