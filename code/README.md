@@ -160,7 +160,10 @@ This document contains codes from several aspects: **tutorial**, **theory**, **t
     - [Tensorflow](https://github.com/RuiShu/dirt-t)
 - **CDAN** (Conditional Adversarial Domain Adaptation, NeurIPS-18) [60]
 	- [Pytorch(official)](https://github.com/thuml/CDAN) | [Pytorch(third party)](https://github.com/thuml/CDAN)
-
+- **CMD** (Central Moment Matching, ICLR-17) [61]
+    - [Keras(Theano)](https://github.com/wzell/cmd)
+- Moment Alignment Neural Networks** [62]
+    - [Keras](https://github.com/wzell/mann)
 
 
 - - -
@@ -296,3 +299,12 @@ accepted in International Conference on Computer Vision (ICCV 2015), Santiago, C
 [59] Shu R, Bui H H, Narui H, et al. A DIRT-T Approach to Unsupervised Domain Adaptation[J]. arXiv preprint arXiv:1802.08735, 2018.
 
 [60] Mingsheng Long, et al. Conditional Adversarial Domain Adaptation. NeurIPS 2018.
+
+[61] W.Zellinger, T. Grubinger, E. Lughofer, T. Natschlaeger, and Susanne 
+Saminger-Platz, "Central moment discrepancy (cmd) for domain-invariant 
+representation learning," ICLR 2017.
+
+[62] W. Zellinger, B.A. Moser, T. Grubinger, E. Lughofer, T. 
+Natschlaeger, and S. Saminger-Platz, "Robust unsupervised domain 
+adaptation for neural networks via moment alignment," under minor 
+revision in Information Sciences, [arXiv preprint], 2018
