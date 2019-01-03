@@ -4,9 +4,11 @@
 
 > It is a waste of time looking for the codes from others. So I **collect** or **reimplement** them here in a way that you can **easily** use. The following are some of the popular transfer learning (domain adaptation) methods in recent years, and I know most of them will be chosen to **compare** with your own method.
 
-> It is still **on the go**. You are welcome to contribute and suggest other methods.
+> You are welcome to contribute and suggest other methods.
 
 This document contains codes from several aspects: **tutorial**, **theory**, **traditional** methods, and **deep** methods.
+
+Testing **dataset** can be found [here](https://github.com/jindongwang/transferlearning/blob/master/doc/dataset.md).
 
 - - -
 
@@ -22,6 +24,10 @@ This document contains codes from several aspects: **tutorial**, **theory**, **t
 
 - **Google's Tensorflow Hub** (Tensorflow library released by Google for transfer learning)
 	- [Tensorflow](https://github.com/tensorflow/hub)
+
+## Deep feature extractor 提取深度网络特征用于传统方法
+
+[Deep feature extractor](https://github.com/jindongwang/transferlearning/blob/master/code/feature_extractor/readme.md)
 
 ## Basic distance 常用的距离度量
 
@@ -169,10 +175,6 @@ This document contains codes from several aspects: **tutorial**, **theory**, **t
 - - -
 
 #### [Code from HKUST](http://www.cse.ust.hk/TL/) [a bit old]
-
-- - -
-
-Testing **dataset** can be found [here](https://github.com/jindongwang/transferlearning/blob/master/doc/dataset.md).
 
 - - -
 

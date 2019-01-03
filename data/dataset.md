@@ -209,6 +209,8 @@ This is a dataset from VisDA 2017 challenge. It contains two subdatasets, one fo
 
 [Download the VisDA-segmentation dataset](http://csr.bu.edu/ftp/visda17/seg/)
 
+[Download VisDA classification dataset features by ResNet-50](https://pan.baidu.com/s/1sbuDqWWzwLyB1fFIpo5BdQ)
+
 - - -
 
 ### LSDAC
