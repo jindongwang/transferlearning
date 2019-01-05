@@ -38,6 +38,10 @@ author = {Wang, Jindong and others}
 
 - **Latest publications**
 
+	- 20190105 ACML-18 [Unsupervised Heterogeneous Domain Adaptation with Sparse Feature Transformation](http://proceedings.mlr.press/v95/shen18b/shen18b.pdf)
+    	- Using sparse feature transformation for heterogeneous domain adaptation
+    	- 用稀疏特征变换进行异构domain adaptation
+
 	- 20190102 WSDM-19 [Learning to Selectively Transfer: Reinforced Transfer Learning for Deep Text Matching](https://arxiv.org/abs/1812.11561)
     	- Reinforced transfer learning for deep text matching
     	- 迁移学习进行深度文本匹配
@@ -49,10 +53,6 @@ author = {Wang, Jindong and others}
 	- 20181219 NER-19 [Transfer Learning in Brain-Computer Interfaces with Adversarial Variational Autoencoders](https://arxiv.org/abs/1812.06857)
     	- Transfer learning in brain-computer interfaces
     	- 迁移学习在脑机交互中的应用
-
-	- 20181219 ICCPS-19 [Simulation to scaled city: zero-shot policy transfer for traffic control via autonomous vehicles](https://arxiv.org/abs/1812.06120)
-    	- Transfer learning in autonomous vehicles
-    	- 迁移学习用于自动驾驶车辆的策略迁移
 
 - **Preprints on arXiv** (Not peer-reviewed)
 

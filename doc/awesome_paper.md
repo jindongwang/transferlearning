@@ -346,11 +346,11 @@ Including domain adaptation and partial domain adaptation.
 ## Heterogeneous Transfer Learning (异构迁移学习)
 
 - 20181113 ACML-18 [Unsupervised Heterogeneous Domain Adaptation with Sparse Feature Transformation](http://proceedings.mlr.press/v95/shen18b/shen18b.pdf)
-	-  Heterogeneous domain adaptation
+	- Heterogeneous domain adaptation
 	- 异构domain adaptation
 
 - 20180901 TKDE [A General Domain Specific Feature Transfer Framework for Hybrid Domain Adaptation](https://ieeexplore.ieee.org/abstract/document/8432087/)
-	-  Hybrid DA: special case in Heterogeneous DA
+	- Hybrid DA: special case in Heterogeneous DA
 	- 提出一种新的混合DA问题和方法
 
 - 20180606 arXiv 一篇最近的对非对称情况下的异构迁移学习综述：[Asymmetric Heterogeneous Transfer Learning: A Survey](https://arxiv.org/abs/1804.10834)
