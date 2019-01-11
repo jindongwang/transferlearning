@@ -57,6 +57,14 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 ### Others (其他)
 
+- 20190111 arXiv [Low-Cost Transfer Learning of Face Tasks](https://arxiv.org/abs/1901.02675)
+    - Infer what task transfers better and how to transfer
+    - 探索对于一个预训练好的网络来说哪个任务适合迁移、如何迁移
+
+- 20190111 arXiv [Transfer Representation Learning with TSK Fuzzy System](https://arxiv.org/abs/1901.02703)
+    - Transfer learning with fuzzy system
+    - 基于模糊系统的迁移学习
+
 - 20190102 arXiv [An introduction to domain adaptation and transfer learning](https://arxiv.org/abs/1812.11806)
     - Another introduction to transfer learning
     - 另一个迁移学习和domain adaptation综述

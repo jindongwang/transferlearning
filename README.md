@@ -38,6 +38,10 @@ author = {Wang, Jindong and others}
 
 - **Latest publications**
 
+	- 20190111 ICMLA-18 [Supervised Transfer Learning for Product Information Question Answering](https://arxiv.org/abs/1901.02539)
+    	- Transfer learning for product information question answering
+    	- 利用迁移学习进行产品信息的对话
+
 	- 20190105 ACML-18 [Unsupervised Heterogeneous Domain Adaptation with Sparse Feature Transformation](http://proceedings.mlr.press/v95/shen18b/shen18b.pdf)
     	- Using sparse feature transformation for heterogeneous domain adaptation
     	- 用稀疏特征变换进行异构domain adaptation
@@ -50,11 +54,15 @@ author = {Wang, Jindong and others}
     	- Using GAN generated images for domain generalization
     	- 用GAN生成的图像进行domain generalization
 
-	- 20181219 NER-19 [Transfer Learning in Brain-Computer Interfaces with Adversarial Variational Autoencoders](https://arxiv.org/abs/1812.06857)
-    	- Transfer learning in brain-computer interfaces
-    	- 迁移学习在脑机交互中的应用
-
 - **Preprints on arXiv** (Not peer-reviewed)
+
+	- 20190111 arXiv [Low-Cost Transfer Learning of Face Tasks](https://arxiv.org/abs/1901.02675)
+    	- Infer what task transfers better and how to transfer
+    	- 探索对于一个预训练好的网络来说哪个任务适合迁移、如何迁移
+
+	- 20190111 arXiv [Transfer Representation Learning with TSK Fuzzy System](https://arxiv.org/abs/1901.02703)
+    	- Transfer learning with fuzzy system
+    	- 基于模糊系统的迁移学习
 
 	- 20190102 arXiv [An introduction to domain adaptation and transfer learning](https://arxiv.org/abs/1812.11806)
     	- Another introduction to transfer learning
@@ -67,13 +75,6 @@ author = {Wang, Jindong and others}
 	- 20190102 arXiv [High Quality Monocular Depth Estimation via Transfer Learning](https://arxiv.org/abs/1812.11941)
     	- Monocular depth estimation using transfer learning
     	- 用迁移学习进行单眼深度估计
-
-	- 20181230 arXiv [The CORAL+ Algorithm for Unsupervised Domain Adaptation of PLDA](https://arxiv.org/abs/1812.10260)
-    	- Use CORAL for speaker recognition
-    	- 用CORAL改进版进行speaker识别
-
-	- 20181230 arXiv [Domain-Aware Generalized Zero-Shot Learning](https://arxiv.org/abs/1812.09903)
-    	- Domain-aware zero-shot learning
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 

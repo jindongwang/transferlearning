@@ -2,6 +2,10 @@
 
 迁移学习的应用
 
+- 20190111 ICMLA-18 [Supervised Transfer Learning for Product Information Question Answering](https://arxiv.org/abs/1901.02539)
+    - Transfer learning for product information question answering
+    - 利用迁移学习进行产品信息的对话
+
 - 20190102 arXiv [High Quality Monocular Depth Estimation via Transfer Learning](https://arxiv.org/abs/1812.11941)
     - Monocular depth estimation using transfer learning
     - 用迁移学习进行单眼深度估计
