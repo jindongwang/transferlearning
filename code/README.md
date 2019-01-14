@@ -166,10 +166,8 @@ Testing **dataset** can be found [here](https://github.com/jindongwang/transferl
     - [Tensorflow](https://github.com/RuiShu/dirt-t)
 - **CDAN** (Conditional Adversarial Domain Adaptation, NeurIPS-18) [60]
 	- [Pytorch(official)](https://github.com/thuml/CDAN) | [Pytorch(third party)](https://github.com/thuml/CDAN)
-- **CMD** (Central Moment Matching, ICLR-17) [61]
-    - [Keras(Theano)](https://github.com/wzell/cmd)
-- Moment Alignment Neural Networks** [62]
-    - [Keras](https://github.com/wzell/mann)
+- **CMD** (Central Moment Discrepancy, ICLR-17 and InfSc-19) [61], [62]
+    - [Keras(Theano)](https://github.com/wzell/cmd) | [Keras(Theano, journal extension)](https://github.com/wzell/mann)
 
 
 - - -
@@ -302,11 +300,6 @@ accepted in International Conference on Computer Vision (ICCV 2015), Santiago, C
 
 [60] Mingsheng Long, et al. Conditional Adversarial Domain Adaptation. NeurIPS 2018.
 
-[61] W.Zellinger, T. Grubinger, E. Lughofer, T. Natschlaeger, and Susanne 
-Saminger-Platz, "Central moment discrepancy (cmd) for domain-invariant 
-representation learning," ICLR 2017.
+[61] W.Zellinger, T. Grubinger, E. Lughofer, T. Natschlaeger, and Susanne Saminger-Platz, "Central moment discrepancy (cmd) for domain-invariant representation learning," ICLR 2017.
 
-[62] W. Zellinger, B.A. Moser, T. Grubinger, E. Lughofer, T. 
-Natschlaeger, and S. Saminger-Platz, "Robust unsupervised domain 
-adaptation for neural networks via moment alignment," under minor 
-revision in Information Sciences, [arXiv preprint], 2018
+[62] W. Zellinger, B.A. Moser, T. Grubinger, E. Lughofer, T. Natschlaeger, and S. Saminger-Platz, "Robust unsupervised domain adaptation for neural networks via moment alignment," Information Sciences (in press), 2019, https://doi.org/10.1016/j.ins.2019.01.025, arXiv preprint arxiv:1711.06114
