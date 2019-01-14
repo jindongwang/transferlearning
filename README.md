@@ -41,6 +41,9 @@ author = {Wang, Jindong and others}
 	- 20190111 ICMLA-18 [Supervised Transfer Learning for Product Information Question Answering](https://arxiv.org/abs/1901.02539)
     	- Transfer learning for product information question answering
     	- 利用迁移学习进行产品信息的对话
+	
+	-20190109 InfSc [Robust Unsupervised Domain Adaptation for Neural Networks via Moment Alignment](https://doi.org/10.1016/j.ins.2019.01.025)
+	- Journal extension of central moment discrepancy minimization (ICLR-17)
 
 	- 20190105 ACML-18 [Unsupervised Heterogeneous Domain Adaptation with Sparse Feature Transformation](http://proceedings.mlr.press/v95/shen18b/shen18b.pdf)
     	- Using sparse feature transformation for heterogeneous domain adaptation
