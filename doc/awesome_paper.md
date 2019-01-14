@@ -436,6 +436,9 @@ Including domain adaptation and partial domain adaptation.
 
 ### Non-Adversarial Transfer Learning (非对抗深度迁移)
 
+- 20190109 InfSc [Robust Unsupervised Domain Adaptation for Neural Networks via Moment Alignment](https://doi.org/10.1016/j.ins.2019.01.025)
+    - Extension of Central Moment Discrepancy (ICLR-17) approach
+
 - 20181212 ICONIP-18 [Domain Adaptation via Identical Distribution Across Models and Tasks](https://link.springer.com/chapter/10.1007/978-3-030-04167-0_21)
     -  Transfer from large net to small net
     - 从大网络迁移到小网络
@@ -585,6 +588,8 @@ Including domain adaptation and partial domain adaptation.
 - 2018 ICLR-18 最小熵领域对齐方法 [Minimal-Entropy Correlation Alignment for Unsupervised Deep Domain Adaptation](https://openreview.net/forum?id=rJWechg0Z) [code](https://github.com/pmorerio/minimal-entropy-correlation-alignment/tree/master/svhn2mnist)
 
 - 2018 arXiv 最新发表在arXiv上的深度domain adaptation的综述：[Deep Visual Domain Adaptation: A Survey](https://arxiv.org/abs/1802.03601)
+
+- ICLR-17 [Central Moment Discrepancy (CMD) for Domain-Invariant Representation Learning](https://openreview.net/pdf?id=SkB-_mcel)
 
 - ICCV-17 [AutoDIAL: Automatic DomaIn Alignment Layers](https://arxiv.org/pdf/1704.08082.pdf)
 
