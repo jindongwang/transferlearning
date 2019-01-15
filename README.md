@@ -38,6 +38,10 @@ author = {Wang, Jindong and others}
 
 - **Latest publications**
 
+    - 20190115 IJAERS [Weightless Neural Network with Transfer Learning to Detect Distress in Asphalt](https://arxiv.org/abs/1901.03660)
+    	- Transfer learning to detect distress in asphalt
+    	- 用迁移学习检测路面情况
+
 	- 20190111 ICMLA-18 [Supervised Transfer Learning for Product Information Question Answering](https://arxiv.org/abs/1901.02539)
     	- Transfer learning for product information question answering
     	- 利用迁移学习进行产品信息的对话
@@ -53,11 +57,11 @@ author = {Wang, Jindong and others}
     	- Reinforced transfer learning for deep text matching
     	- 迁移学习进行深度文本匹配
 
-	- 20181225 WACV-19 [Multi-component Image Translation for Deep Domain Generalization](https://arxiv.org/abs/1812.08974)
-    	- Using GAN generated images for domain generalization
-    	- 用GAN生成的图像进行domain generalization
-
 - **Preprints on arXiv** (Not peer-reviewed)
+
+	- 20190115 arXiv [Disease Knowledge Transfer across Neurodegenerative Diseases](https://arxiv.org/abs/1901.03517)
+    	- Transfer learning for neurodegenerative disease
+    	- 迁移学习用于神经退行性疾病
 
 	- 20190111 arXiv [Low-Cost Transfer Learning of Face Tasks](https://arxiv.org/abs/1901.02675)
     	- Infer what task transfers better and how to transfer
@@ -74,10 +78,6 @@ author = {Wang, Jindong and others}
 	- 20190102 arXiv [DART: Domain-Adversarial Residual-Transfer Networks for Unsupervised Cross-Domain Image Classification](https://arxiv.org/abs/1812.11478)
     	- Adversarial + residual for domain adaptation
     	- 对抗+残差进行domain adaptation
-
-	- 20190102 arXiv [High Quality Monocular Depth Estimation via Transfer Learning](https://arxiv.org/abs/1812.11941)
-    	- Monocular depth estimation using transfer learning
-    	- 用迁移学习进行单眼深度估计
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
