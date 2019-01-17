@@ -2,6 +2,10 @@
 
 迁移学习的应用
 
+- 20190117 NeurIPS-18 workshop [Transfer Learning for Prosthetics Using Imitation Learning](https://arxiv.org/abs/1901.04772)
+    - Using transfer learning for prosthetics
+    - 用迁移学习进行义肢的模仿学习
+
 - 20190115 IJAERS [Weightless Neural Network with Transfer Learning to Detect Distress in Asphalt](https://arxiv.org/abs/1901.03660)
     - Transfer learning to detect distress in asphalt
     - 用迁移学习检测路面情况
