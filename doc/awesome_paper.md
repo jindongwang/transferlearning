@@ -57,6 +57,10 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 ### Others (其他)
 
+- 20190118 arXiv [Domain Adaptation for Structured Output via Discriminative Patch Representations](https://arxiv.org/abs/1901.05427)
+    - Domain adaptation for structured output
+    - Domain adaptation用于结构化输出
+
 - 20190111 arXiv [Low-Cost Transfer Learning of Face Tasks](https://arxiv.org/abs/1901.02675)
     - Infer what task transfers better and how to transfer
     - 探索对于一个预训练好的网络来说哪个任务适合迁移、如何迁移

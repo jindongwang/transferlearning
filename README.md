@@ -55,6 +55,14 @@ author = {Wang, Jindong and others}
 
 - **Preprints on arXiv** (Not peer-reviewed)
 
+	- 20190118 arXiv [A review of single-source unsupervised domain adaptation](https://arxiv.org/abs/1901.05335)
+    	- A survey of single-source domain adaptation
+    	- 一个domain adaptation的综述
+
+	- 20190118 arXiv [Domain Adaptation for Structured Output via Discriminative Patch Representations](https://arxiv.org/abs/1901.05427)
+    	- Domain adaptation for structured output
+    	- Domain adaptation用于结构化输出
+
 	- 20190115 arXiv [Disease Knowledge Transfer across Neurodegenerative Diseases](https://arxiv.org/abs/1901.03517)
     	- Transfer learning for neurodegenerative disease
     	- 迁移学习用于神经退行性疾病
@@ -66,14 +74,6 @@ author = {Wang, Jindong and others}
 	- 20190111 arXiv [Transfer Representation Learning with TSK Fuzzy System](https://arxiv.org/abs/1901.02703)
     	- Transfer learning with fuzzy system
     	- 基于模糊系统的迁移学习
-
-	- 20190102 arXiv [An introduction to domain adaptation and transfer learning](https://arxiv.org/abs/1812.11806)
-    	- Another introduction to transfer learning
-    	- 另一个迁移学习和domain adaptation综述
-
-	- 20190102 arXiv [DART: Domain-Adversarial Residual-Transfer Networks for Unsupervised Cross-Domain Image Classification](https://arxiv.org/abs/1812.11478)
-    	- Adversarial + residual for domain adaptation
-    	- 对抗+残差进行domain adaptation
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
