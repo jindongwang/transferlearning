@@ -2,6 +2,18 @@
 
 迁移学习的应用
 
+- 20190123 arXiv [Transfer Learning and Meta Classification Based Deep Churn Prediction System for Telecom Industry](https://arxiv.org/abs/1901.06091)
+    - Transfer learning in telcom industry
+    - 迁移学习用于电信行业
+
+- 20190123 arXiv [Cold-start Playlist Recommendation with Multitask Learning](https://arxiv.org/abs/1901.06125)
+  	- Cold-start playlist recommendation with multitask learning
+  	- 用多任务学习进行冷启动状态下的播放列表推荐
+
+- 20190123 arXiv [Adapting Convolutional Neural Networks for Geographical Domain Shift](https://arxiv.org/abs/1901.06345)
+  	- Convolutional neural network for geographical domain shift
+  	- 将卷积网络用于地理学上的domain shift问题
+
 - 20190117 NeurIPS-18 workshop [Transfer Learning for Prosthetics Using Imitation Learning](https://arxiv.org/abs/1901.04772)
     - Using transfer learning for prosthetics
     - 用迁移学习进行义肢的模仿学习

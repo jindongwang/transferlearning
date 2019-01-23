@@ -55,6 +55,18 @@ author = {Wang, Jindong and others}
 
 - **Preprints on arXiv** (Not peer-reviewed)
 
+	- 20190123 arXiv [Transfer Learning and Meta Classification Based Deep Churn Prediction System for Telecom Industry](https://arxiv.org/abs/1901.06091)
+		- Transfer learning in telcom industry
+		- 迁移学习用于电信行业
+
+	- 20190123 arXiv [Cold-start Playlist Recommendation with Multitask Learning](https://arxiv.org/abs/1901.06125)
+    	- Cold-start playlist recommendation with multitask learning
+    	- 用多任务学习进行冷启动状态下的播放列表推荐
+
+	- 20190123 arXiv [Adapting Convolutional Neural Networks for Geographical Domain Shift](https://arxiv.org/abs/1901.06345)
+    	- Convolutional neural network for geographical domain shift
+    	- 将卷积网络用于地理学上的domain shift问题
+
 	- 20190118 arXiv [A review of single-source unsupervised domain adaptation](https://arxiv.org/abs/1901.05335)
     	- A survey of single-source domain adaptation
     	- 一个domain adaptation的综述
@@ -62,18 +74,6 @@ author = {Wang, Jindong and others}
 	- 20190118 arXiv [Domain Adaptation for Structured Output via Discriminative Patch Representations](https://arxiv.org/abs/1901.05427)
     	- Domain adaptation for structured output
     	- Domain adaptation用于结构化输出
-
-	- 20190115 arXiv [Disease Knowledge Transfer across Neurodegenerative Diseases](https://arxiv.org/abs/1901.03517)
-    	- Transfer learning for neurodegenerative disease
-    	- 迁移学习用于神经退行性疾病
-
-	- 20190111 arXiv [Low-Cost Transfer Learning of Face Tasks](https://arxiv.org/abs/1901.02675)
-    	- Infer what task transfers better and how to transfer
-    	- 探索对于一个预训练好的网络来说哪个任务适合迁移、如何迁移
-
-	- 20190111 arXiv [Transfer Representation Learning with TSK Fuzzy System](https://arxiv.org/abs/1901.02703)
-    	- Transfer learning with fuzzy system
-    	- 基于模糊系统的迁移学习
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
