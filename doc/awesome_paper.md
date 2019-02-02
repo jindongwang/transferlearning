@@ -410,7 +410,7 @@ Including domain adaptation and partial domain adaptation.
 
 - - -
 
-## Zero-shot / Few-shot Learning（零样本/小样本学习）
+## Zero-shot / Few-shot Learning
 
 
 - 20180612 CVPR-18 泛化的Zero-shot learning：[Generalized Zero-Shot Learning via Synthesized Examples](https://arxiv.org/abs/1712.03878)
