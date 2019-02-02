@@ -437,16 +437,16 @@ Including domain adaptation and partial domain adaptation.
 
 ### Zero-shot Learning based on Data Synthesis （基于样本生成的零样本学习）
 [详细介绍](https://github.com/PatrickZH/Zero-shot-Learning) <br>
-- 20171022 ICCVW-17 [Zero-shot learning posed as a missing data problem]
+- 20171022 ICCVW-17 [Zero-shot learning posed as a missing data problem](http://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w38/Zhao_Zero-Shot_Learning_Posed_ICCV_2017_paper.pdf)
     - 算法首先学习 semantic embeddings 的结构性知识，利用学习到的知识和已知类的 image features 合成未知类的 image features。再利用无标记的未知类数据对合成数据进行修正。 算法假设未知类数据呈混合高斯分布，用 GMM-EM 算法进行无监督修正。
     
-- 20180516 arXiv-18 [A Large-scale Attribute Dataset for Zero-shot Learning]
+- 20180516 arXiv-18 [A Large-scale Attribute Dataset for Zero-shot Learning](https://arxiv.org/pdf/1804.04314v2.pdf)
     - 传统 ZSL 数据集（如 AwA, CUB）存在规模小，属性标注不丰富等问题。本文提出一个新的属性数据集 LAD 用于测试零样本学习算法。新数据集包含 230 类， 78,017 张图片，标注了 359 种属性。基于此数据集举办了 AI Challenger 零样本学习竞赛。 110+ 支来自海内外的参赛队伍提交了成绩。
     
-- 2018070 ICML-18 [MSplit LBI: Realizing Feature Selection and Dense Estimation Simultaneously in Few-shot and Zero-shot Learning]
+- 2018070 ICML-18 [MSplit LBI: Realizing Feature Selection and Dense Estimation Simultaneously in Few-shot and Zero-shot Learning](https://arxiv.org/pdf/1806.04360.pdf)
     - 针对 L1 （欠拟合） 和 L2 （无特征选择、有偏） 正则项存在的问题，提出 MSplit LBI 用于同时实现特征选择和密集估计。在 Few-shot Learning 和 Zero-shot Learning 两个问题上进行了实验。实验表明 MSplit LBI 由优于 L1 和 L2。针对 ZSL 进行了特征可视化实验。
     
-- 20190108 WACV-19 [Zero-shot Learning via Recurrent Knowledge Transfer]
+- 20190108 WACV-19 [Zero-shot Learning via Recurrent Knowledge Transfer](https://drive.google.com/open?id=1cUsQWX80zeCxTyVSCcYlqEWZP-Hq0KzR)
     - 基于样本合成的零样本学习算法通常将 semantic embeddings 的知识迁移到 image features 以实现 ZSL。然而，这种 training 和 testing space 的不一致，会导致这种迁移失效。因此，本文提出 Space Shift Problem，并针对此问题，提出一种（在 image feature space 和 semantic embedding space 之间）递归传递知识的解决方案。
 
 - - -
