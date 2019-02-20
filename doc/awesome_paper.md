@@ -17,7 +17,8 @@ Let's read some awesome transfer learning / domain adaptation papers.
 	- [Multi-source Transfer Learning (多源迁移学习)](#multi-source-transfer-learning-%E5%A4%9A%E6%BA%90%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0)
 	- [Heterogeneous Transfer Learning (异构迁移学习)](#heterogeneous-transfer-learning-%E5%BC%82%E6%9E%84%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0)
 	- [Online Transfer Learning (在线迁移学习)](#online-transfer-learning-%E5%9C%A8%E7%BA%BF%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0)
-	- [Zero-shot / Few-shot Learning (零样本/小样本学习)](#zero-shot--few-shot-learning)
+	- [Zero-shot / Few-shot Learning](#zero-shot--few-shot-learning)
+		- [Zero-shot Learning based on Data Synthesis (基于样本生成的零样本学习)](#zero-shot-learning-based-on-data-synthesis-%E5%9F%BA%E4%BA%8E%E6%A0%B7%E6%9C%AC%E7%94%9F%E6%88%90%E7%9A%84%E9%9B%B6%E6%A0%B7%E6%9C%AC%E5%AD%A6%E4%B9%A0)
 	- [Deep Transfer Learning (深度迁移学习)](#deep-transfer-learning-%E6%B7%B1%E5%BA%A6%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0)
 		- [Non-Adversarial Transfer Learning (非对抗深度迁移)](#non-adversarial-transfer-learning-%E9%9D%9E%E5%AF%B9%E6%8A%97%E6%B7%B1%E5%BA%A6%E8%BF%81%E7%A7%BB)
 		- [Deep Adversarial Transfer Learning (对抗迁移学习)](#deep-adversarial-transfer-learning-%E5%AF%B9%E6%8A%97%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0)
@@ -665,6 +666,14 @@ Including domain adaptation and partial domain adaptation.
 
 ### Deep Adversarial Transfer Learning (对抗迁移学习)
 
+- 20190220 arXiv [Fully-Featured Attribute Transfer](https://arxiv.org/abs/1902.06258)
+    - Fully-featured image attribute transfer
+	- 图像特征迁移
+
+- 20190220 arXiv [Unsupervised Domain Adaptation using Deep Networks with Cross-Grafted Stacks](https://arxiv.org/abs/1902.06328)
+    - Domain adaptation using deep learning with cross-grafted stacks
+    - 用跨领域嫁接栈进行domain adaptation
+
 - 20181217 arXiv [DLOW: Domain Flow for Adaptation and Generalization](https://arxiv.org/abs/1812.05418)
     - Domain flow for adaptation and generalization
     - 域流方法应用于领域自适应和扩展
@@ -822,6 +831,10 @@ Including domain adaptation and partial domain adaptation.
 - - -
 
 ## Transfer Reinforcement Learning (强化迁移学习)
+
+- 20190220 arXiv [DIViS: Domain Invariant Visual Servoing for Collision-Free Goal Reaching](https://arxiv.org/abs/1902.05947)
+    - Transfer learning for robot reinforcement learning
+    - 迁移学习用于机器人的强化学习目标搜寻
 
 - 20181212 NeurIPS-18 workshop [Efficient transfer learning and online adaptation with latent variable models for continuous control](https://arxiv.org/abs/1812.03399)
     -  Reinforcement transfer learning with latent models
