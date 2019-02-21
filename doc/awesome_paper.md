@@ -413,6 +413,9 @@ Including domain adaptation and partial domain adaptation.
 
 ## Zero-shot / Few-shot Learning
 
+- 20190221 arXiv [Adaptive Cross-Modal Few-Shot Learning](https://arxiv.org/abs/1902.07104)
+    - Adaptive cross-modal few-shot learning
+    - 跨模态的few-shot
 
 - 20180612 CVPR-18 泛化的Zero-shot learning：[Generalized Zero-Shot Learning via Synthesized Examples](https://arxiv.org/abs/1712.03878)
 

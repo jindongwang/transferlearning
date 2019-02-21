@@ -55,6 +55,14 @@ author = {Wang, Jindong and others}
 
 - **Preprints on arXiv** (Not peer-reviewed)
 
+	- 20190221 arXiv [Adaptive Cross-Modal Few-Shot Learning](https://arxiv.org/abs/1902.07104)
+    	- Adaptive cross-modal few-shot learning
+    	- 跨模态的few-shot
+
+	- 20190221 arXiv [Transfusion: Understanding Transfer Learning with Applications to Medical Imaging](https://arxiv.org/abs/1902.07208)
+    	- Analyzing the influence of transfer learning in medical imaging
+    	- 在医疗图像中分析迁移学习作用
+
 	- 20190220 arXiv [DIViS: Domain Invariant Visual Servoing for Collision-Free Goal Reaching](https://arxiv.org/abs/1902.05947)
     	- Transfer learning for robot reinforcement learning
     	- 迁移学习用于机器人的强化学习目标搜寻
@@ -62,14 +70,6 @@ author = {Wang, Jindong and others}
 	- 20190220 arXiv [Fully-Featured Attribute Transfer](https://arxiv.org/abs/1902.06258)
     	- Fully-featured image attribute transfer
 		- 图像特征迁移
-
-	- 20190220 arXiv [Unsupervised Domain Adaptation using Deep Networks with Cross-Grafted Stacks](https://arxiv.org/abs/1902.06328)
-    	- Domain adaptation using deep learning with cross-grafted stacks
-    	- 用跨领域嫁接栈进行domain adaptation
-
-	- 20190123 arXiv [Transfer Learning and Meta Classification Based Deep Churn Prediction System for Telecom Industry](https://arxiv.org/abs/1901.06091)
-		- Transfer learning in telcom industry
-		- 迁移学习用于电信行业
 
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)

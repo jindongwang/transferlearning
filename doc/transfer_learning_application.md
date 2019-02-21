@@ -2,6 +2,10 @@
 
 迁移学习的应用
 
+- 20190221 arXiv [Transfusion: Understanding Transfer Learning with Applications to Medical Imaging](https://arxiv.org/abs/1902.07208)
+    - Analyzing the influence of transfer learning in medical imaging
+    - 在医疗图像中分析迁移学习作用
+
 - 20190123 arXiv [Transfer Learning and Meta Classification Based Deep Churn Prediction System for Telecom Industry](https://arxiv.org/abs/1901.06091)
     - Transfer learning in telcom industry
     - 迁移学习用于电信行业
