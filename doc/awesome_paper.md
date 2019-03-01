@@ -36,6 +36,10 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 ### Theory (理论)
 
+- 20190301 ALT-19 [A Generalized Neyman-Pearson Criterion for Optimal Domain Adaptation](https://arxiv.org/abs/1810.01545)
+    - A new criterion for domain adaptation
+    - 提出一种新的可以强化domain adaptation表现的度量
+
 - 20181219 arXiv [PAC Learning Guarantees Under Covariate Shift](https://arxiv.org/abs/1812.06393)
     - PAC learning theory for covariate shift
     - Covariate shift问题的PAC学习理论
@@ -57,6 +61,10 @@ Let's read some awesome transfer learning / domain adaptation papers.
 	- 对domain adaptation进行了一些理论上的分析
 
 ### Others (其他)
+
+- 20190301 SysML-19 [FixyNN: Efficient Hardware for Mobile Computer Vision via Transfer Learning](https://arxiv.org/abs/1902.11128)
+    - An efficient hardware for mobile computer vision applications using transfer learning
+    - 提出一个高效的用于移动计算机视觉应用的硬件
 
 - 20190118 arXiv [Domain Adaptation for Structured Output via Discriminative Patch Representations](https://arxiv.org/abs/1901.05427)
     - Domain adaptation for structured output
@@ -441,6 +449,10 @@ Including domain adaptation and partial domain adaptation.
 
 ### Zero-shot Learning based on Data Synthesis (基于样本生成的零样本学习)
 [详细介绍](https://github.com/PatrickZH/Zero-shot-Learning) <br>
+
+- 20190301 NeurIPS-18 workshp [One-Shot Federated Learning](https://arxiv.org/abs/1902.11175)
+    - One-shot federated learning
+
 - 20171022 ICCVW-17 [Zero-shot learning posed as a missing data problem](http://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w38/Zhao_Zero-Shot_Learning_Posed_ICCV_2017_paper.pdf)
     - 算法首先学习 semantic embeddings 的结构性知识，利用学习到的知识和已知类的 image features 合成未知类的 image features。再利用无标记的未知类数据对合成数据进行修正。 算法假设未知类数据呈混合高斯分布，用 GMM-EM 算法进行无监督修正。
     

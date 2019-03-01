@@ -38,20 +38,20 @@ author = {Wang, Jindong and others}
 
 - **Latest publications**
 
+	- 20190301 SysML-19 [FixyNN: Efficient Hardware for Mobile Computer Vision via Transfer Learning](https://arxiv.org/abs/1902.11128)
+    	- An efficient hardware for mobile computer vision applications using transfer learning
+    	- 提出一个高效的用于移动计算机视觉应用的硬件
+
+	- 20190301 NeurIPS-18 workshp [One-Shot Federated Learning](https://arxiv.org/abs/1902.11175)
+    	- One-shot federated learning
+
+	- 20190301 ALT-19 [A Generalized Neyman-Pearson Criterion for Optimal Domain Adaptation](https://arxiv.org/abs/1810.01545)
+    	- A new criterion for domain adaptation
+    	- 提出一种新的可以强化domain adaptation表现的度量
+
 	- 20190117 NeurIPS-18 workshop [Transfer Learning for Prosthetics Using Imitation Learning](https://arxiv.org/abs/1901.04772)
     	- Using transfer learning for prosthetics
     	- 用迁移学习进行义肢的模仿学习
-
-    - 20190115 IJAERS [Weightless Neural Network with Transfer Learning to Detect Distress in Asphalt](https://arxiv.org/abs/1901.03660)
-    	- Transfer learning to detect distress in asphalt
-    	- 用迁移学习检测路面情况
-
-	- 20190111 ICMLA-18 [Supervised Transfer Learning for Product Information Question Answering](https://arxiv.org/abs/1901.02539)
-    	- Transfer learning for product information question answering
-    	- 利用迁移学习进行产品信息的对话
-	
-	-20190109 InfSc [Robust Unsupervised Domain Adaptation for Neural Networks via Moment Alignment](https://doi.org/10.1016/j.ins.2019.01.025)
-	- Journal extension of central moment discrepancy minimization (ICLR-17)
 
 - **Preprints on arXiv** (Not peer-reviewed)
 
