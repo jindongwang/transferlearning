@@ -118,6 +118,10 @@ class BDA:
         mu = self.mu
         M = e * e.T * C
         Y_tar_pseudo = None
+        if self.mode == 'WBDA':
+            clf = sklearn.neighbors.KNeighborsClassifier(n_neighbors=1)
+            clf.fit(Xs, Ys.ravel())
+            Y_tar_pseudo = clf.predict(Xt)
         Xs_new = None
         for t in range(self.T):
             N = 0
@@ -129,15 +133,17 @@ class BDA:
                         Nt = len(Y_tar_pseudo[np.where(Y_tar_pseudo == c)])
                         Ps = Ns / len(Ys)
                         Pt = Nt / len(Y_tar_pseudo)
+                        alpha = 1. * Pt / Ps
+                        mu = 1
                     else:
                         Ps, Pt = 1, 1
 
                     tt = Ys == c
-                    e[np.where(tt == True)] = np.sqrt(Ps) / len(Ys[np.where(Ys == c)])
+                    e[np.where(tt == True)] = 1 / len(Ys[np.where(Ys == c)])
                     yy = Y_tar_pseudo == c
                     ind = np.where(yy == True)
                     inds = [item + ns for item in ind]
-                    e[tuple(inds)] = -np.sqrt(Pt) / len(Y_tar_pseudo[np.where(Y_tar_pseudo == c)])
+                    e[tuple(inds)] = -alpha / len(Y_tar_pseudo[np.where(Y_tar_pseudo == c)])
                     e[np.isinf(e)] = 0
                     N = N + np.dot(e, e.T)
             if self.mu == -1.0:

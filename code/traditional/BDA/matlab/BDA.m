@@ -40,30 +40,30 @@ function [acc,acc_ite,A] = BDA(X_src,Y_src,X_tar,Y_tar,options)
     acc_ite = [];
 	Y_tar_pseudo = [];
     
-	%% Iteration
-	for i = 1 : T
+	if strcmp(mode,'W-BDA')
+        knn_model = fitcknn(X_src,Y_src,'NumNeighbors',1);
+        Y_tar_pseudo = knn_model.predict(X_tar);
+    end
+    %% Iteration
+    for i = 1 : T
         %%% Mc
         N = 0;
         if ~isempty(Y_tar_pseudo) && length(Y_tar_pseudo)==nt
             for c = reshape(unique(Y_src),1,C)
                 e = zeros(n,1);
                 if strcmp(mode,'W-BDA')
-                    Ns = length(Y_src(Y_src==c,:));
-                    Nt = length(Y_tar_pseudo(Y_tar_pseudo == c,:));
-                    Ps = Ns / length(Y_src);
-                    Pt = Nt / length(Y_tar_pseudo);
+                    Ps = length(find(Y_src==c)) / length(Y_src);
+                    Pt = length(find(Y_tar_pseudo == c)) / length(Y_tar_pseudo);
+                    alpha = Pt / Ps;
+                    mu = 1;
                 else
-                    Ps = 1;
-                    Pt = 1;
+                    alpha = 1;
                 end
-                e(Y_src==c) = sqrt(Ps) / length(find(Y_src==c));
-                e(ns+find(Y_tar_pseudo==c)) = -sqrt(Pt) / length(find(Y_tar_pseudo==c));
+                e(Y_src==c) = 1 / length(find(Y_src==c));
+                e(ns+find(Y_tar_pseudo==c)) = -alpha / length(find(Y_tar_pseudo==c));
                 e(isinf(e)) = 0;
                 N = N + e*e';
             end
-        end
-        if mu == 1
-            mu = 0.999;
         end
         M = (1 - mu) * M + mu * N;
         M = M / norm(M,'fro');
