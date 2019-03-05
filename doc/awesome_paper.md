@@ -62,6 +62,10 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 ### Others (其他)
 
+- 20190305 arXiv [Let's Transfer Transformations of Shared Semantic Representations](https://arxiv.org/abs/1903.00793)
+    - Transfer transformations from shared semantic representations
+    - 从共享的语义表示中进行特征迁移
+
 - 20190301 SysML-19 [FixyNN: Efficient Hardware for Mobile Computer Vision via Transfer Learning](https://arxiv.org/abs/1902.11128)
     - An efficient hardware for mobile computer vision applications using transfer learning
     - 提出一个高效的用于移动计算机视觉应用的硬件
@@ -420,6 +424,10 @@ Including domain adaptation and partial domain adaptation.
 - - -
 
 ## Zero-shot / Few-shot Learning
+
+- 20190305 arXiv [Zero-Shot Task Transfer](https://arxiv.org/abs/1903.01092)
+    - Zero-shot task transfer
+    - Zero-shot任务迁移学习
 
 - 20190221 arXiv [Adaptive Cross-Modal Few-Shot Learning](https://arxiv.org/abs/1902.07104)
     - Adaptive cross-modal few-shot learning
@@ -846,6 +854,10 @@ Including domain adaptation and partial domain adaptation.
 - - -
 
 ## Transfer Reinforcement Learning (强化迁移学习)
+
+- 20190305 arXiv [Sim-to-Real Transfer for Biped Locomotion]
+    - Transfer learning for robot locomotion
+    - 用迁移学习进行机器人定位
 
 - 20190220 arXiv [DIViS: Domain Invariant Visual Servoing for Collision-Free Goal Reaching](https://arxiv.org/abs/1902.05947)
     - Transfer learning for robot reinforcement learning

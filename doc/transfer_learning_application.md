@@ -2,6 +2,10 @@
 
 迁移学习的应用
 
+- 20190305 arXiv [Unsupervised Domain Adaptation Learning Algorithm for RGB-D Staircase Recognition](https://arxiv.org/abs/1903.01212)
+    - Domain adaptation for RGB-D staircase recognition
+    - Domain adaptation进行深度和RGB楼梯识别
+
 - 20190221 arXiv [Transfusion: Understanding Transfer Learning with Applications to Medical Imaging](https://arxiv.org/abs/1902.07208)
     - Analyzing the influence of transfer learning in medical imaging
     - 在医疗图像中分析迁移学习作用
