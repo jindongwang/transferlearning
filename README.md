@@ -55,6 +55,9 @@ author = {Wang, Jindong and others}
 
 - **Preprints on arXiv** (Not peer-reviewed)
 
+	- 20190316 arXiv [Transfer Adaptation Learning: A Decade Survey](https://arxiv.org/abs/1903.04687)
+    	- A new survey
+
 	- 20190305 arXiv [Let's Transfer Transformations of Shared Semantic Representations](https://arxiv.org/abs/1903.00793)
     	- Transfer transformations from shared semantic representations
     	- 从共享的语义表示中进行特征迁移
@@ -156,6 +159,7 @@ Here are some articles on transfer learning theory and survey.
 
 - 较新的综述 Latest survey：
 
+	- 2019 一篇新survey：[Transfer Adaptation Learning: A Decade Survey](https://arxiv.org/abs/1903.04687)
 	- 2018 一篇迁移度量学习的综述: [Transfer Metric Learning: Algorithms, Applications and Outlooks](https://arxiv.org/abs/1810.03944)
 	- 2018 一篇最近的非对称情况下的异构迁移学习综述：[Asymmetric Heterogeneous Transfer Learning: A Survey](https://arxiv.org/abs/1804.10834)
 	- 2018 Neural style transfer的一个survey：[Neural Style Transfer: A Review](https://arxiv.org/abs/1705.04058)
