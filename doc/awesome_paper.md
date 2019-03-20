@@ -855,6 +855,10 @@ Including domain adaptation and partial domain adaptation.
 
 ## Transfer Reinforcement Learning (强化迁移学习)
 
+- 20190320 arXiv [Learning to Augment Synthetic Images for Sim2Real Policy Transfer](https://arxiv.org/abs/1903.07740)
+    - Augment synthetic images for sim to real policy transfer
+    - 学习对于策略迁移如何合成图像
+
 - 20190305 arXiv [Sim-to-Real Transfer for Biped Locomotion]
     - Transfer learning for robot locomotion
     - 用迁移学习进行机器人定位

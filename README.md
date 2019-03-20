@@ -55,6 +55,10 @@ author = {Wang, Jindong and others}
 
 - **Preprints on arXiv** (Not peer-reviewed)
 
+	- 20190320 arXiv [Learning to Augment Synthetic Images for Sim2Real Policy Transfer](https://arxiv.org/abs/1903.07740)
+    	- Augment synthetic images for sim to real policy transfer
+    	- 学习对于策略迁移如何合成图像
+
 	- 20190316 arXiv [Transfer Adaptation Learning: A Decade Survey](https://arxiv.org/abs/1903.04687)
     	- A new survey
 
@@ -69,11 +73,6 @@ author = {Wang, Jindong and others}
 	- 20190305 arXiv [Unsupervised Domain Adaptation Learning Algorithm for RGB-D Staircase Recognition](https://arxiv.org/abs/1903.01212)
     	- Domain adaptation for RGB-D staircase recognition
     	- Domain adaptation进行深度和RGB楼梯识别
-
-	- 20190305 arXiv [Sim-to-Real Transfer for Biped Locomotion]
-    	- Transfer learning for robot locomotion
-    	- 用迁移学习进行机器人定位
-
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
