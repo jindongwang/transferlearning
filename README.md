@@ -55,6 +55,10 @@ author = {Wang, Jindong and others}
 
 - **Preprints on arXiv** (Not peer-reviewed)
 
+	- 20190324 arXiv [A Principled Approach for Learning Task Similarity in Multitask Learning](https://arxiv.org/abs/1903.09109)
+    	- Provide some theoretical analysis of the similarity learning in multi-task learning
+    	- 为多任务学习中的相似度学习提供了一些理论分析
+
 	- 20190320 arXiv [Learning to Augment Synthetic Images for Sim2Real Policy Transfer](https://arxiv.org/abs/1903.07740)
     	- Augment synthetic images for sim to real policy transfer
     	- 学习对于策略迁移如何合成图像
@@ -69,10 +73,6 @@ author = {Wang, Jindong and others}
 	- 20190305 arXiv [Zero-Shot Task Transfer](https://arxiv.org/abs/1903.01092)
     	- Zero-shot task transfer
     	- Zero-shot任务迁移学习
-
-	- 20190305 arXiv [Unsupervised Domain Adaptation Learning Algorithm for RGB-D Staircase Recognition](https://arxiv.org/abs/1903.01212)
-    	- Domain adaptation for RGB-D staircase recognition
-    	- Domain adaptation进行深度和RGB楼梯识别
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 

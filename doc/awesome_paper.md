@@ -831,6 +831,10 @@ Including domain adaptation and partial domain adaptation.
 
 ## Multi-task Learning (多任务学习)
 
+- 20190324 arXiv [A Principled Approach for Learning Task Similarity in Multitask Learning](https://arxiv.org/abs/1903.09109)
+    - Provide some theoretical analysis of the similarity learning in multi-task learning
+    - 为多任务学习中的相似度学习提供了一些理论分析
+
 - 20181128 arXiv [A Framework of Transfer Learning in Object Detection for Embedded Systems](https://arxiv.org/abs/1811.04863)
 	-  A Framework of Transfer Learning in Object Detection for Embedded Systems
 	- 一个用于嵌入式系统的迁移学习框架
