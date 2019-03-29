@@ -128,7 +128,7 @@ class BDA:
             if Y_tar_pseudo is not None and len(Y_tar_pseudo) == nt:
                 for c in range(1, C + 1):
                     e = np.zeros((n, 1))
-                    if self.mode == 'WBDA':
+                    if self.mode == 'W-BDA':
                         Ns = len(Ys[np.where(Ys == c)])
                         Nt = len(Y_tar_pseudo[np.where(Y_tar_pseudo == c)])
                         Ps = Ns / len(Ys)
@@ -180,6 +180,6 @@ if __name__ == '__main__':
                 src, tar = 'data/' + domains[i], 'data/' + domains[j]
                 src_domain, tar_domain = scipy.io.loadmat(src), scipy.io.loadmat(tar)
                 Xs, Ys, Xt, Yt = src_domain['feas'], src_domain['label'], tar_domain['feas'], tar_domain['label']
-                bda = BDA(kernel_type='primal', dim=30, lamb=1, mu=-1, mode='BDA', gamma=1)
+                bda = BDA(kernel_type='primal', dim=30, lamb=1, mu=-1, mode='W-BDA', gamma=1)
                 acc, ypre, list_acc = bda.fit_predict(Xs, Ys, Xt, Yt)
                 print(acc)
