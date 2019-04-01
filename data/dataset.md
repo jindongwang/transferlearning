@@ -40,7 +40,7 @@ Most datasets are image datasets:
 
 Amazon review for sentiment classification
 
-You can download the datasets [here](https://pan.baidu.com/disk/home#/all?vmode=list&path=%2Fresearch%2Fdataset%2Ftransfer_learning_datasets%2FAmazon_review).
+You can download the datasets [here](https://pan.baidu.com/s/1F69rBEF9_DwrVcEjHXk96w) with code `a82t`.
 
 - - -
 
