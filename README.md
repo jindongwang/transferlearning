@@ -38,6 +38,10 @@ author = {Wang, Jindong and others}
 
 - **Latest publications**
 
+	- 20190401 IJCNN-19 [Zero-shot Image Recognition Using Relational Matching, Adaptation and Calibration](https://arxiv.org/abs/1903.11701)
+    	- Zero-shot image recognition
+    	- 零次学习的图像识别
+
 	- 20190301 SysML-19 [FixyNN: Efficient Hardware for Mobile Computer Vision via Transfer Learning](https://arxiv.org/abs/1902.11128)
     	- An efficient hardware for mobile computer vision applications using transfer learning
     	- 提出一个高效的用于移动计算机视觉应用的硬件
@@ -49,11 +53,15 @@ author = {Wang, Jindong and others}
     	- A new criterion for domain adaptation
     	- 提出一种新的可以强化domain adaptation表现的度量
 
-	- 20190117 NeurIPS-18 workshop [Transfer Learning for Prosthetics Using Imitation Learning](https://arxiv.org/abs/1901.04772)
-    	- Using transfer learning for prosthetics
-    	- 用迁移学习进行义肢的模仿学习
-
 - **Preprints on arXiv** (Not peer-reviewed)
+
+	- 20190401 arXiv [Distilling Task-Specific Knowledge from BERT into Simple Neural Networks](https://arxiv.org/abs/1903.12136)
+    	- Distill knowledge from BERT to simple neural networks
+    	- 从BERT模型中迁移知识到简单网络中
+
+	- 20190401 arXiv [Many Task Learning with Task Routing](https://arxiv.org/abs/1903.12117)
+    	- From multi-task leanring to many-task learning
+    	- 许多任务同时学习
 
 	- 20190324 arXiv [A Principled Approach for Learning Task Similarity in Multitask Learning](https://arxiv.org/abs/1903.09109)
     	- Provide some theoretical analysis of the similarity learning in multi-task learning
@@ -65,14 +73,6 @@ author = {Wang, Jindong and others}
 
 	- 20190316 arXiv [Transfer Adaptation Learning: A Decade Survey](https://arxiv.org/abs/1903.04687)
     	- A new survey
-
-	- 20190305 arXiv [Let's Transfer Transformations of Shared Semantic Representations](https://arxiv.org/abs/1903.00793)
-    	- Transfer transformations from shared semantic representations
-    	- 从共享的语义表示中进行特征迁移
-
-	- 20190305 arXiv [Zero-Shot Task Transfer](https://arxiv.org/abs/1903.01092)
-    	- Zero-shot task transfer
-    	- Zero-shot任务迁移学习
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 

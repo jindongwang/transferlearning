@@ -62,6 +62,10 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 ### Others (其他)
 
+- 20190401 arXiv [Distilling Task-Specific Knowledge from BERT into Simple Neural Networks](https://arxiv.org/abs/1903.12136)
+    - Distill knowledge from BERT to simple neural networks
+    - 从BERT模型中迁移知识到简单网络中
+
 - 20190305 arXiv [Let's Transfer Transformations of Shared Semantic Representations](https://arxiv.org/abs/1903.00793)
     - Transfer transformations from shared semantic representations
     - 从共享的语义表示中进行特征迁移
@@ -458,6 +462,10 @@ Including domain adaptation and partial domain adaptation.
 ### Zero-shot Learning based on Data Synthesis (基于样本生成的零样本学习)
 [详细介绍](https://github.com/PatrickZH/Zero-shot-Learning) <br>
 
+- 20190401 IJCNN-19 [Zero-shot Image Recognition Using Relational Matching, Adaptation and Calibration](https://arxiv.org/abs/1903.11701)
+    - Zero-shot image recognition
+    - 零次学习的图像识别
+
 - 20190301 NeurIPS-18 workshp [One-Shot Federated Learning](https://arxiv.org/abs/1902.11175)
     - One-shot federated learning
 
@@ -830,6 +838,10 @@ Including domain adaptation and partial domain adaptation.
 - - -
 
 ## Multi-task Learning (多任务学习)
+
+- 20190401 arXiv [Many Task Learning with Task Routing](https://arxiv.org/abs/1903.12117)
+    - From multi-task leanring to many-task learning
+    - 许多任务同时学习
 
 - 20190324 arXiv [A Principled Approach for Learning Task Similarity in Multitask Learning](https://arxiv.org/abs/1903.09109)
     - Provide some theoretical analysis of the similarity learning in multi-task learning
