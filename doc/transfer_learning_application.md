@@ -2,6 +2,10 @@
 
 迁移学习的应用
 
+- 20190401 arXiv [Cross-Subject Transfer Learning in Human Activity Recognition Systems using Generative Adversarial Networks](https://arxiv.org/abs/1903.12489)
+    - Cross-subject transfer learning using GAN
+    - 用对抗网络进行跨用户的行为识别
+
 - 20190305 arXiv [Unsupervised Domain Adaptation Learning Algorithm for RGB-D Staircase Recognition](https://arxiv.org/abs/1903.01212)
     - Domain adaptation for RGB-D staircase recognition
     - Domain adaptation进行深度和RGB楼梯识别

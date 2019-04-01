@@ -38,6 +38,10 @@ author = {Wang, Jindong and others}
 
 - **Latest publications**
 
+	- 20190401 TIp-19 [Few-Shot Deep Adversarial Learning for Video-based Person Re-identification](https://arxiv.org/abs/1903.12395)
+    	- Few-shot deep adversarial learning
+    	- Few-shot对抗学习
+
 	- 20190401 IJCNN-19 [Zero-shot Image Recognition Using Relational Matching, Adaptation and Calibration](https://arxiv.org/abs/1903.11701)
     	- Zero-shot image recognition
     	- 零次学习的图像识别
@@ -49,11 +53,11 @@ author = {Wang, Jindong and others}
 	- 20190301 NeurIPS-18 workshp [One-Shot Federated Learning](https://arxiv.org/abs/1902.11175)
     	- One-shot federated learning
 
-	- 20190301 ALT-19 [A Generalized Neyman-Pearson Criterion for Optimal Domain Adaptation](https://arxiv.org/abs/1810.01545)
-    	- A new criterion for domain adaptation
-    	- 提出一种新的可以强化domain adaptation表现的度量
-
 - **Preprints on arXiv** (Not peer-reviewed)
+
+	- 20190401 arXiv [Cross-Subject Transfer Learning in Human Activity Recognition Systems using Generative Adversarial Networks](https://arxiv.org/abs/1903.12489)
+    	- Cross-subject transfer learning using GAN
+    	- 用对抗网络进行跨用户的行为识别
 
 	- 20190401 arXiv [Distilling Task-Specific Knowledge from BERT into Simple Neural Networks](https://arxiv.org/abs/1903.12136)
     	- Distill knowledge from BERT to simple neural networks
@@ -70,9 +74,6 @@ author = {Wang, Jindong and others}
 	- 20190320 arXiv [Learning to Augment Synthetic Images for Sim2Real Policy Transfer](https://arxiv.org/abs/1903.07740)
     	- Augment synthetic images for sim to real policy transfer
     	- 学习对于策略迁移如何合成图像
-
-	- 20190316 arXiv [Transfer Adaptation Learning: A Decade Survey](https://arxiv.org/abs/1903.04687)
-    	- A new survey
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 

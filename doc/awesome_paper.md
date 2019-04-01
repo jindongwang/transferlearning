@@ -429,6 +429,10 @@ Including domain adaptation and partial domain adaptation.
 
 ## Zero-shot / Few-shot Learning
 
+- 20190401 TIp-19 [Few-Shot Deep Adversarial Learning for Video-based Person Re-identification](https://arxiv.org/abs/1903.12395)
+    - Few-shot deep adversarial learning
+    - Few-shot对抗学习
+
 - 20190305 arXiv [Zero-Shot Task Transfer](https://arxiv.org/abs/1903.01092)
     - Zero-shot task transfer
     - Zero-shot任务迁移学习
