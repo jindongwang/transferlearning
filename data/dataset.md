@@ -12,7 +12,7 @@
 
 **If you are tired of repeating the experiments of other methods, you can directly use the [benchmark](https://github.com/jindongwang/transferlearning/blob/master/data/benchmark.md).**
 
-*Only image datasets are listed, text datasets are to be added*
+Most datasets are image datasets:
 
 |     Dataset    |        Area        | #Sample |       #Feature      | #Class |   Subdomain  | Reference |
 |:--------------:|:------------------:|:-------:|:-------------------:|:------:|:------------:|:--------:|
@@ -36,6 +36,11 @@
 
 **NEW** A new dataset released by Stanford and UC Berkeley: [Syn2Real: A New Benchmark forSynthetic-to-Real Visual Domain Adaptation](https://arxiv.org/abs/1806.09755)
 
+## Text datasets:
+
+Amazon review for sentiment classification
+
+You can download the datasets [here](https://pan.baidu.com/disk/home#/all?vmode=list&path=%2Fresearch%2Fdataset%2Ftransfer_learning_datasets%2FAmazon_review).
 
 - - -
 
