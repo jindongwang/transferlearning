@@ -80,6 +80,8 @@ Testing **dataset** can be found [here](https://github.com/jindongwang/transferl
 	- [Matlab](https://github.com/twanvl/rwa-da/tree/master/src)
 - **MEDA** (Manifold Embedded Distribution Alignment, ACM MM-18) [47]
 	- [Matlab(Official)](https://github.com/jindongwang/transferlearning/tree/master/code/traditional/MEDA)
+- **EasyTL** (Practically Easy Transfer Learning, ICME-19) [63]
+    - [Matlab(Official)](https://github.com/jindongwang/transferlearning/tree/master/code/traditional/EasyTL)
 
 
 ## Deep transfer learning methods  深度迁移
@@ -299,3 +301,5 @@ accepted in International Conference on Computer Vision (ICCV 2015), Santiago, C
 [61] W.Zellinger, T. Grubinger, E. Lughofer, T. Natschlaeger, and Susanne Saminger-Platz, "Central moment discrepancy (cmd) for domain-invariant representation learning," ICLR 2017.
 
 [62] W. Zellinger, B.A. Moser, T. Grubinger, E. Lughofer, T. Natschlaeger, and S. Saminger-Platz, "Robust unsupervised domain adaptation for neural networks via moment alignment," Information Sciences (in press), 2019, https://doi.org/10.1016/j.ins.2019.01.025, arXiv preprint arxiv:1711.06114
+
+[63] Jindong Wang, Yiqiang Chen, Han Yu, Meiyu Huang, Qiang Yang. Practically Easy Transfer Learning. IEEE International Conference on Multimedia & Expo (ICME) 2019.
