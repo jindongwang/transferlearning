@@ -17,7 +17,7 @@ function [acc,y_pred] = EasyTL(Xs,Ys,Xt,Yt,intra_align,dist,lp)
     
 % Reference:
 % Jindong Wang, Yiqiang Chen, Han Yu, Meiyu Huang, Qiang Yang.
-% Practically easy transfer learning.
+% Easy Transfer Learning By Exploiting Intra-domain Structures.
 % IEEE International Conference on Multimedia & Expo (ICME) 2019.
 
     C = length(unique(Ys));                 % num of shared class

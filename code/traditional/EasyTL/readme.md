@@ -1,6 +1,6 @@
 # EasyTL: Practically Easy Transfer Learning
 
-This directory contains the code for paper [Practically Easy Transfer Learning](http://jd92.wang/assets/files/a13_icme19.pdf) published at IEEE International Conference on Multimedia & Expo (ICME) 2019.
+This directory contains the code for paper [Easy Transfer Learning By Exploiting Intra-domain Structures](http://jd92.wang/assets/files/a13_icme19.pdf) published at IEEE International Conference on Multimedia & Expo (ICME) 2019.
 
 ## Requirements
 
@@ -33,14 +33,14 @@ You are welcome to run EasyTL on other public datasets such as [here](https://gi
 If you find this code helpful, please cite it as:
 
 `
-Jindong Wang, Yiqiang Chen, Han Yu, Meiyu Huang, Qiang Yang. Practically Easy Transfer Learning. IEEE International Conference on Multimedia & Expo (ICME) 2019.
+Jindong Wang, Yiqiang Chen, Han Yu, Meiyu Huang, Qiang Yang. Easy Transfer Learning By Exploiting Intra-domain Structures. IEEE International Conference on Multimedia & Expo (ICME) 2019.
 `
 
 Or in bibtex style:
 
 ```
 @inproceedings{wang2019easytl,
-    title={Practically Easy Transfer Learning},
+    title={Easy Transfer Learning By Exploiting Intra-domain Structures},
     author={Wang, Jindong and Chen, Yiqiang and Yu, Han and Huang, Meiyu and Yang, Qiang},
     booktitle={IEEE International Conference on Multimedia & Expo (ICME)},
     year={2019}

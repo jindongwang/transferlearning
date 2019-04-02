@@ -302,4 +302,4 @@ accepted in International Conference on Computer Vision (ICCV 2015), Santiago, C
 
 [62] W. Zellinger, B.A. Moser, T. Grubinger, E. Lughofer, T. Natschlaeger, and S. Saminger-Platz, "Robust unsupervised domain adaptation for neural networks via moment alignment," Information Sciences (in press), 2019, https://doi.org/10.1016/j.ins.2019.01.025, arXiv preprint arxiv:1711.06114
 
-[63] Jindong Wang, Yiqiang Chen, Han Yu, Meiyu Huang, Qiang Yang. Practically Easy Transfer Learning. IEEE International Conference on Multimedia & Expo (ICME) 2019.
+[63] Jindong Wang, Yiqiang Chen, Han Yu, Meiyu Huang, Qiang Yang. Easy Transfer Learning By Exploiting Intra-domain Structures. IEEE International Conference on Multimedia & Expo (ICME) 2019.
