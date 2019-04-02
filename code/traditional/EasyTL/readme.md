@@ -32,9 +32,9 @@ You are welcome to run EasyTL on other public datasets such as [here](https://gi
 
 If you find this code helpful, please cite it as:
 
-```
+`
 Jindong Wang, Yiqiang Chen, Han Yu, Meiyu Huang, Qiang Yang. Practically Easy Transfer Learning. IEEE International Conference on Multimedia & Expo (ICME) 2019.
-```
+`
 
 Or in bibtex style:
 
@@ -49,7 +49,7 @@ Or in bibtex style:
 
 ## Results
 
-MEDA achieved **state-of-the-art** performances compared to a lot of traditional and deep methods as of 2018:
+EasyTL achieved **state-of-the-art** performances compared to a lot of traditional and deep methods as of 2018:
 
 ![](https://s2.ax1x.com/2019/04/02/A6Vzzd.png)
 
