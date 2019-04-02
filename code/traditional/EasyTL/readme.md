@@ -49,12 +49,12 @@ Or in bibtex style:
 
 ## Results
 
-EasyTL achieved **state-of-the-art** performances compared to a lot of traditional and deep methods as of 2018:
+EasyTL achieved **state-of-the-art** performances compared to a lot of traditional and deep methods as of March 2019:
 
-![](https://s2.ax1x.com/2019/04/02/A6Vzzd.png)
+![](https://s2.ax1x.com/2019/04/02/A6UMoF.png)
 
 ![](https://s2.ax1x.com/2019/04/02/A6VOIO.png)
 
-![](https://s2.ax1x.com/2019/04/02/A6VxRH.png)
+![](https://s2.ax1x.com/2019/04/02/A6NbIe.png)
 
 ![](https://s2.ax1x.com/2019/04/02/A6ZrFO.png)
