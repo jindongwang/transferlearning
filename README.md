@@ -55,6 +55,14 @@ author = {Wang, Jindong and others}
 
 - **Preprints on arXiv** (Not peer-reviewed)
 
+	- 20190403 arXiv [Transfer Learning for Clinical Time Series Analysis using Deep Neural Networks](https://arxiv.org/abs/1904.00655)
+    	- Using transfer learning for multivariate clinical data
+    	- 使用迁移学习进行多元医疗数据迁移
+
+	- 20190403 arXiv [Med3D: Transfer Learning for 3D Medical Image Analysis](https://arxiv.org/abs/1904.00625)
+    	- Transfer learning for 3D medical image analysis
+    	- 迁移学习用于3D医疗图像分析
+
 	- 20190401 arXiv [Cross-Subject Transfer Learning in Human Activity Recognition Systems using Generative Adversarial Networks](https://arxiv.org/abs/1903.12489)
     	- Cross-subject transfer learning using GAN
     	- 用对抗网络进行跨用户的行为识别
@@ -67,13 +75,6 @@ author = {Wang, Jindong and others}
     	- From multi-task leanring to many-task learning
     	- 许多任务同时学习
 
-	- 20190324 arXiv [A Principled Approach for Learning Task Similarity in Multitask Learning](https://arxiv.org/abs/1903.09109)
-    	- Provide some theoretical analysis of the similarity learning in multi-task learning
-    	- 为多任务学习中的相似度学习提供了一些理论分析
-
-	- 20190320 arXiv [Learning to Augment Synthetic Images for Sim2Real Policy Transfer](https://arxiv.org/abs/1903.07740)
-    	- Augment synthetic images for sim to real policy transfer
-    	- 学习对于策略迁移如何合成图像
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 

@@ -2,6 +2,14 @@
 
 迁移学习的应用
 
+- 20190403 arXiv [Transfer Learning for Clinical Time Series Analysis using Deep Neural Networks](https://arxiv.org/abs/1904.00655)
+    - Using transfer learning for multivariate clinical data
+    - 使用迁移学习进行多元医疗数据迁移
+
+- 20190403 arXiv [Med3D: Transfer Learning for 3D Medical Image Analysis](https://arxiv.org/abs/1904.00625)
+    - Transfer learning for 3D medical image analysis
+    - 迁移学习用于3D医疗图像分析
+
 - 20190401 arXiv [Cross-Subject Transfer Learning in Human Activity Recognition Systems using Generative Adversarial Networks](https://arxiv.org/abs/1903.12489)
     - Cross-subject transfer learning using GAN
     - 用对抗网络进行跨用户的行为识别
