@@ -34,6 +34,10 @@ author = {Wang, Jindong and others}
 
 ## 0.Latest Publications (最新论文)
 
+**A good website to see the latest arXiv preprints by search: [Transfer learning](http://arxitics.com/search?q=transfer%20learning&sort=updated#1904.01376/abstract), [Domain adaptation](http://arxitics.com/search?q=domain%20adaptation&sort=updated)**
+
+**一个很好的网站，可以直接看到最新的arXiv文章: [Transfer learning](http://arxitics.com/search?q=transfer%20learning&sort=updated#1904.01376/abstract), [Domain adaptation](http://arxitics.com/search?q=domain%20adaptation&sort=updated)**
+
 [迁移学习文章汇总 Awesome transfer learning papers](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
 - **Latest publications**
