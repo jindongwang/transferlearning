@@ -170,6 +170,10 @@ Including domain adaptation and partial domain adaptation.
 
 ### Traditional Methods (传统迁移方法)
 
+- 20190403 ICME-19 [Easy Transfer Learning By Exploiting Intra-domain Structures](https://arxiv.org/abs/1904.01376) [Code](http://transferlearning.xyz/code/traditional/EasyTL)
+    - An easy transfer learning approach with good performance
+    - 一个非常简单但效果很好的迁移方法
+
 - 20180724 ACMMM-18 [Visual Domain Adaptation with Manifold Embedded Distribution Alignment](https://arxiv.org/abs/1807.07258)
 	-  The state-of-the-art results of domain adaptation, better than most traditional and deep methods
 	- 目前效果最好的非深度迁移学习方法，领先绝大多数最近的方法

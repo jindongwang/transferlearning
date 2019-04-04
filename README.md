@@ -42,7 +42,11 @@ author = {Wang, Jindong and others}
 
 - **Latest publications**
 
-	- 20190401 TIp-19 [Few-Shot Deep Adversarial Learning for Video-based Person Re-identification](https://arxiv.org/abs/1903.12395)
+	- 20190403 ICME-19 [Easy Transfer Learning By Exploiting Intra-domain Structures](https://arxiv.org/abs/1904.01376) [Code](http://transferlearning.xyz/code/traditional/EasyTL)
+    	- An easy transfer learning approach with good performance
+    	- 一个非常简单但效果很好的迁移方法
+
+	- 20190401 TIP-19 [Few-Shot Deep Adversarial Learning for Video-based Person Re-identification](https://arxiv.org/abs/1903.12395)
     	- Few-shot deep adversarial learning
     	- Few-shot对抗学习
 
