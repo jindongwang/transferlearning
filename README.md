@@ -42,6 +42,10 @@ author = {Wang, Jindong and others}
 
 - **Latest publications**
 
+	- 20190405 IJCNN-19 [Accelerating Deep Unsupervised Domain Adaptation with Transfer Channel Pruning](https://arxiv.org/abs/1904.02654)
+    	- The first work to accelerate transfer learning
+    	- 第一个加速迁移学习的工作
+
 	- 20190403 ICME-19 [Easy Transfer Learning By Exploiting Intra-domain Structures](https://arxiv.org/abs/1904.01376) [Code](http://transferlearning.xyz/code/traditional/EasyTL)
     	- An easy transfer learning approach with good performance
     	- 一个非常简单但效果很好的迁移方法
@@ -58,8 +62,6 @@ author = {Wang, Jindong and others}
     	- An efficient hardware for mobile computer vision applications using transfer learning
     	- 提出一个高效的用于移动计算机视觉应用的硬件
 
-	- 20190301 NeurIPS-18 workshp [One-Shot Federated Learning](https://arxiv.org/abs/1902.11175)
-    	- One-shot federated learning
 
 - **Preprints on arXiv** (Not peer-reviewed)
 

@@ -276,6 +276,10 @@ Including domain adaptation and partial domain adaptation.
 
 ### Deep / Adversarial Methods (深度/对抗迁移方法)
 
+- 20190405 IJCNN-19 [Accelerating Deep Unsupervised Domain Adaptation with Transfer Channel Pruning](https://arxiv.org/abs/1904.02654)
+    - The first work to accelerate transfer learning
+    - 第一个加速迁移学习的工作
+
 - 20190102 WSDM-19 [Learning to Selectively Transfer: Reinforced Transfer Learning for Deep Text Matching](https://arxiv.org/abs/1812.11561)
     - Reinforced transfer learning for deep text matching
     - 迁移学习进行深度文本匹配

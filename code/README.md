@@ -170,6 +170,9 @@ Testing **dataset** can be found [here](https://github.com/jindongwang/transferl
     - [Keras(Theano)](https://github.com/wzell/cmd) | [Keras(Theano, journal extension)](https://github.com/wzell/mann)
 - **OPDA_BP** (Open Set Domain Adaptation by Back-propagation, ECCV-18) [64]
     - [Pytorch(Official)](https://github.com/ksaito-ut/OPDA_BP)
+- **TCP** (Transfer Channel Prunning, IJCNN-19) [65]
+    - [Pytorch(Official)](https://github.com/jindongwang/transferlearning/tree/master/code/deep/TCP)
+  
 
 
 - - -
@@ -307,3 +310,5 @@ accepted in International Conference on Computer Vision (ICCV 2015), Santiago, C
 [63] Jindong Wang, Yiqiang Chen, Han Yu, Meiyu Huang, Qiang Yang. Easy Transfer Learning By Exploiting Intra-domain Structures. IEEE International Conference on Multimedia & Expo (ICME) 2019.
 
 [64] Saito K, Yamamoto S, Ushiku Y, et al. Open set domain adaptation by backpropagation[C]//Proceedings of the European Conference on Computer Vision (ECCV). 2018: 153-168.
+
+[65] Chaohui Yu, Jindong Wang, Yiqiang Chen, Zijing Wu. Accelerating Deep Unsupervised Domain Adaptation with Transfer Channel Pruning. IJCNN 2019.
