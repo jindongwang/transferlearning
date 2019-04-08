@@ -42,6 +42,18 @@ author = {Wang, Jindong and others}
 
 - **Latest publications**
 
+	- 20190408 CVPR-19 [End-to-End Multi-Task Learning with Attention](https://arxiv.org/abs/1803.10704)
+    	- End-to-End Multi-Task Learning with Attention
+    	- 基于attention的端到端的多任务学习
+
+	- 20190408 USENIX-19 [Transfer Learning for Performance Modeling of Deep Neural Network Systems](https://arxiv.org/abs/1904.02838)
+    	- Using transfer learning for performance modeling in DNN
+    	- 在深度网络中使用迁移学习进行性能建模
+
+	- 20190408 ICMR-19 [Learning Task Relatedness in Multi-Task Learning for Images in Context](https://arxiv.org/abs/1904.03011)
+    	- Using task relatedness in multi-task learning
+    	- 在多任务学习中学习任务之间的相关性
+
 	- 20190405 IJCNN-19 [Accelerating Deep Unsupervised Domain Adaptation with Transfer Channel Pruning](https://arxiv.org/abs/1904.02654)
     	- The first work to accelerate transfer learning
     	- 第一个加速迁移学习的工作
@@ -50,20 +62,16 @@ author = {Wang, Jindong and others}
     	- An easy transfer learning approach with good performance
     	- 一个非常简单但效果很好的迁移方法
 
-	- 20190401 TIP-19 [Few-Shot Deep Adversarial Learning for Video-based Person Re-identification](https://arxiv.org/abs/1903.12395)
-    	- Few-shot deep adversarial learning
-    	- Few-shot对抗学习
-
-	- 20190401 IJCNN-19 [Zero-shot Image Recognition Using Relational Matching, Adaptation and Calibration](https://arxiv.org/abs/1903.11701)
-    	- Zero-shot image recognition
-    	- 零次学习的图像识别
-
-	- 20190301 SysML-19 [FixyNN: Efficient Hardware for Mobile Computer Vision via Transfer Learning](https://arxiv.org/abs/1902.11128)
-    	- An efficient hardware for mobile computer vision applications using transfer learning
-    	- 提出一个高效的用于移动计算机视觉应用的硬件
-
 
 - **Preprints on arXiv** (Not peer-reviewed)
+
+	- 20190408 arXiv [Unsupervised Domain Adaptation of Contextualized Embeddings: A Case Study in Early Modern English](https://arxiv.org/abs/1904.02817)
+    	- Domain adaptation in early modern english
+    	- Case study: 在英文中的domain adaptation
+
+	- 20190408 arXiv [DeceptionNet: Network-Driven Domain Randomization](https://arxiv.org/abs/1904.02750)
+    	- Using only source data for domain randomization
+    	- 仅利用源域数据进行domain randomization
 
 	- 20190403 arXiv [Transfer Learning for Clinical Time Series Analysis using Deep Neural Networks](https://arxiv.org/abs/1904.00655)
     	- Using transfer learning for multivariate clinical data
@@ -76,14 +84,6 @@ author = {Wang, Jindong and others}
 	- 20190401 arXiv [Cross-Subject Transfer Learning in Human Activity Recognition Systems using Generative Adversarial Networks](https://arxiv.org/abs/1903.12489)
     	- Cross-subject transfer learning using GAN
     	- 用对抗网络进行跨用户的行为识别
-
-	- 20190401 arXiv [Distilling Task-Specific Knowledge from BERT into Simple Neural Networks](https://arxiv.org/abs/1903.12136)
-    	- Distill knowledge from BERT to simple neural networks
-    	- 从BERT模型中迁移知识到简单网络中
-
-	- 20190401 arXiv [Many Task Learning with Task Routing](https://arxiv.org/abs/1903.12117)
-    	- From multi-task leanring to many-task learning
-    	- 许多任务同时学习
 
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)

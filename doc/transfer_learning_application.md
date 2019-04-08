@@ -2,6 +2,14 @@
 
 迁移学习的应用
 
+- 20190408 arXiv [Unsupervised Domain Adaptation of Contextualized Embeddings: A Case Study in Early Modern English](https://arxiv.org/abs/1904.02817)
+    - Domain adaptation in early modern english
+    - Case study: 在英文中的domain adaptation
+
+- 20190408 USENIX-19 [Transfer Learning for Performance Modeling of Deep Neural Network Systems](https://arxiv.org/abs/1904.02838)
+    - Using transfer learning for performance modeling in DNN
+    - 在深度网络中使用迁移学习进行性能建模
+
 - 20190403 arXiv [Transfer Learning for Clinical Time Series Analysis using Deep Neural Networks](https://arxiv.org/abs/1904.00655)
     - Using transfer learning for multivariate clinical data
     - 使用迁移学习进行多元医疗数据迁移

@@ -709,6 +709,10 @@ Including domain adaptation and partial domain adaptation.
 
 ### Deep Adversarial Transfer Learning (对抗迁移学习)
 
+- 20190408 arXiv [DeceptionNet: Network-Driven Domain Randomization](https://arxiv.org/abs/1904.02750)
+    - Using only source data for domain randomization
+    - 仅利用源域数据进行domain randomization
+
 - 20190220 arXiv [Fully-Featured Attribute Transfer](https://arxiv.org/abs/1902.06258)
     - Fully-featured image attribute transfer
 	- 图像特征迁移
@@ -850,6 +854,14 @@ Including domain adaptation and partial domain adaptation.
 - - -
 
 ## Multi-task Learning (多任务学习)
+
+- 20190408 ICMR-19 [Learning Task Relatedness in Multi-Task Learning for Images in Context](https://arxiv.org/abs/1904.03011)
+    - Using task relatedness in multi-task learning
+    - 在多任务学习中学习任务之间的相关性
+
+- 20190408 CVPR-19 [End-to-End Multi-Task Learning with Attention](https://arxiv.org/abs/1803.10704)
+    - End-to-End Multi-Task Learning with Attention
+    - 基于attention的端到端的多任务学习
 
 - 20190401 arXiv [Many Task Learning with Task Routing](https://arxiv.org/abs/1903.12117)
     - From multi-task leanring to many-task learning
