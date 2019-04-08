@@ -172,6 +172,8 @@ Testing **dataset** can be found [here](https://github.com/jindongwang/transferl
     - [Pytorch(Official)](https://github.com/ksaito-ut/OPDA_BP)
 - **TCP** (Transfer Channel Prunning, IJCNN-19) [65]
     - [Pytorch(Official)](https://github.com/jindongwang/transferlearning/tree/master/code/deep/TCP)
+- **MTAN** (Multi-Task Attention Network, CVPR-19) [66]
+    - [Python](https://github.com/lorenmt/mtan)
   
 
 
@@ -312,3 +314,5 @@ accepted in International Conference on Computer Vision (ICCV 2015), Santiago, C
 [64] Saito K, Yamamoto S, Ushiku Y, et al. Open set domain adaptation by backpropagation[C]//Proceedings of the European Conference on Computer Vision (ECCV). 2018: 153-168.
 
 [65] Chaohui Yu, Jindong Wang, Yiqiang Chen, Zijing Wu. Accelerating Deep Unsupervised Domain Adaptation with Transfer Channel Pruning. IJCNN 2019.
+
+[66] Shikun Liu, Edward Johns, and Andrew Davison. End-to-End Multi-Task Learning with Attention. CVPR 2019.
