@@ -42,17 +42,25 @@ author = {Wang, Jindong and others}
 
 - **Latest publications**
 
-	- 20190408 CVPR-19 [End-to-End Multi-Task Learning with Attention](https://arxiv.org/abs/1803.10704)
-    	- End-to-End Multi-Task Learning with Attention
-    	- 基于attention的端到端的多任务学习
+    - 20190409 ICLR-19 [A Closer Look at Few-shot Classification](https://arxiv.org/abs/1904.04232)
+        - Give some important conclusions on few-shot classification
+        - 在few-shot上给了一些有用的结论
 
-	- 20190408 USENIX-19 [Transfer Learning for Performance Modeling of Deep Neural Network Systems](https://arxiv.org/abs/1904.02838)
-    	- Using transfer learning for performance modeling in DNN
-    	- 在深度网络中使用迁移学习进行性能建模
+    - 20190409 NeurIPS-18 [Synthesized Policies for Transfer and Adaptation across Tasks and Environments](https://arxiv.org/abs/1904.03276)
+        - Transfer across tasks and environments
+        - 通过任务和环境之间进行迁移
 
-	- 20190408 ICMR-19 [Learning Task Relatedness in Multi-Task Learning for Images in Context](https://arxiv.org/abs/1904.03011)
-    	- Using task relatedness in multi-task learning
-    	- 在多任务学习中学习任务之间的相关性
+    - 20190409 PAMI-19 [Transferring Knowledge Fragments for Learning Distance Metric from A Heterogeneous Domain](https://arxiv.org/abs/1904.04061)
+        - Heterogeneous transfer metric learning by transferring fragments
+        - 通过迁移知识片段来进行异构迁移度量学习
+
+    - 20190409 TNNLS-19 [Heterogeneous Multi-task Metric Learning across Multiple Domains](https://arxiv.org/abs/1904.04081)
+        - Heterogeneous Multi-task Metric Learning across Multiple Domains
+        - 在多个领域之间进行异构多任务度量学习
+
+    - 20190409 NAACL-19 [AutoSeM: Automatic Task Selection and Mixing in Multi-Task Learning](https://arxiv.org/abs/1904.04153)
+        - Automatic Task Selection and Mixing in Multi-Task Learning
+        - 多任务学习中自动任务选择和混淆
 
 	- 20190405 IJCNN-19 [Accelerating Deep Unsupervised Domain Adaptation with Transfer Channel Pruning](https://arxiv.org/abs/1904.02654)
     	- The first work to accelerate transfer learning
@@ -65,6 +73,18 @@ author = {Wang, Jindong and others}
 
 - **Preprints on arXiv** (Not peer-reviewed)
 
+    - 20190409 arXiv [Unsupervised Domain Adaptation for Multispectral Pedestrian Detection](https://arxiv.org/abs/1904.03692)
+        - Domain adaptation for pedestrian detection
+        - 无监督领域自适应用于多模态行人检测
+
+    - 20190409 arXiv [Decomposition-Based Transfer Distance Metric Learning for Image Classification](https://arxiv.org/abs/1904.03846)
+        - Transfer metric learning based on decomposition
+        - 基于特征向量分解的迁移度量学习
+
+    - 20190409 arXiv [Improving Image Classification Robustness through Selective CNN-Filters Fine-Tuning](https://arxiv.org/abs/1904.03949)
+        - Improving Image Classification Robustness through Selective CNN-Filters Fine-Tuning
+        - 通过可选择的CNN滤波器进行图像分类的fine-tuning
+
 	- 20190408 arXiv [Unsupervised Domain Adaptation of Contextualized Embeddings: A Case Study in Early Modern English](https://arxiv.org/abs/1904.02817)
     	- Domain adaptation in early modern english
     	- Case study: 在英文中的domain adaptation
@@ -72,18 +92,6 @@ author = {Wang, Jindong and others}
 	- 20190408 arXiv [DeceptionNet: Network-Driven Domain Randomization](https://arxiv.org/abs/1904.02750)
     	- Using only source data for domain randomization
     	- 仅利用源域数据进行domain randomization
-
-	- 20190403 arXiv [Transfer Learning for Clinical Time Series Analysis using Deep Neural Networks](https://arxiv.org/abs/1904.00655)
-    	- Using transfer learning for multivariate clinical data
-    	- 使用迁移学习进行多元医疗数据迁移
-
-	- 20190403 arXiv [Med3D: Transfer Learning for 3D Medical Image Analysis](https://arxiv.org/abs/1904.00625)
-    	- Transfer learning for 3D medical image analysis
-    	- 迁移学习用于3D医疗图像分析
-
-	- 20190401 arXiv [Cross-Subject Transfer Learning in Human Activity Recognition Systems using Generative Adversarial Networks](https://arxiv.org/abs/1903.12489)
-    	- Cross-subject transfer learning using GAN
-    	- 用对抗网络进行跨用户的行为识别
 
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)

@@ -62,6 +62,10 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 ### Others (其他)
 
+- 20190409 arXiv [Improving Image Classification Robustness through Selective CNN-Filters Fine-Tuning](https://arxiv.org/abs/1904.03949)
+    - Improving Image Classification Robustness through Selective CNN-Filters Fine-Tuning
+    - 通过可选择的CNN滤波器进行图像分类的fine-tuning
+
 - 20190401 arXiv [Distilling Task-Specific Knowledge from BERT into Simple Neural Networks](https://arxiv.org/abs/1903.12136)
     - Distill knowledge from BERT to simple neural networks
     - 从BERT模型中迁移知识到简单网络中
@@ -474,6 +478,10 @@ Including domain adaptation and partial domain adaptation.
 ### Zero-shot Learning based on Data Synthesis (基于样本生成的零样本学习)
 [详细介绍](https://github.com/PatrickZH/Zero-shot-Learning) <br>
 
+- 20190409 ICLR-19 [A Closer Look at Few-shot Classification](https://arxiv.org/abs/1904.04232)
+    - Give some important conclusions on few-shot classification
+    - 在few-shot上给了一些有用的结论
+
 - 20190401 IJCNN-19 [Zero-shot Image Recognition Using Relational Matching, Adaptation and Calibration](https://arxiv.org/abs/1903.11701)
     - Zero-shot image recognition
     - 零次学习的图像识别
@@ -855,6 +863,18 @@ Including domain adaptation and partial domain adaptation.
 
 ## Multi-task Learning (多任务学习)
 
+- 20190409 NAACL-19 [AutoSeM: Automatic Task Selection and Mixing in Multi-Task Learning](https://arxiv.org/abs/1904.04153)
+    - Automatic Task Selection and Mixing in Multi-Task Learning
+    - 多任务学习中自动任务选择和混淆
+
+- 20190409 TNNLS-19 [Heterogeneous Multi-task Metric Learning across Multiple Domains](https://arxiv.org/abs/1904.04081)
+    - Heterogeneous Multi-task Metric Learning across Multiple Domains
+    - 在多个领域之间进行异构多任务度量学习
+
+- 20190409 NeurIPS-18 [Synthesized Policies for Transfer and Adaptation across Tasks and Environments](https://arxiv.org/abs/1904.03276)
+    - Transfer across tasks and environments
+    - 通过任务和环境之间进行迁移
+
 - 20190408 ICMR-19 [Learning Task Relatedness in Multi-Task Learning for Images in Context](https://arxiv.org/abs/1904.03011)
     - Using task relatedness in multi-task learning
     - 在多任务学习中学习任务之间的相关性
@@ -944,6 +964,18 @@ Including domain adaptation and partial domain adaptation.
 - - -
 
 ## Transfer Metric Learning (迁移度量学习)
+
+- 20190409 TNNLS-19 [Heterogeneous Multi-task Metric Learning across Multiple Domains](https://arxiv.org/abs/1904.04081)
+    - Heterogeneous Multi-task Metric Learning across Multiple Domains
+    - 在多个领域之间进行异构多任务度量学习
+
+- 20190409 PAMI-19 [Transferring Knowledge Fragments for Learning Distance Metric from A Heterogeneous Domain](https://arxiv.org/abs/1904.04061)
+    - Heterogeneous transfer metric learning by transferring fragments
+    - 通过迁移知识片段来进行异构迁移度量学习
+
+- 20190409 arXiv [Decomposition-Based Transfer Distance Metric Learning for Image Classification](https://arxiv.org/abs/1904.03846)
+    - Transfer metric learning based on decomposition
+    - 基于特征向量分解的迁移度量学习
 
 - 20181012 arXiv [Transfer Metric Learning: Algorithms, Applications and Outlooks](https://arxiv.org/abs/1810.03944)
 	-  A survey on transfer metric learning

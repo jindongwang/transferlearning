@@ -2,6 +2,10 @@
 
 迁移学习的应用
 
+- 20190409 arXiv [Unsupervised Domain Adaptation for Multispectral Pedestrian Detection](https://arxiv.org/abs/1904.03692)
+    - Domain adaptation for pedestrian detection
+    - 无监督领域自适应用于多模态行人检测
+
 - 20190408 arXiv [Unsupervised Domain Adaptation of Contextualized Embeddings: A Case Study in Early Modern English](https://arxiv.org/abs/1904.02817)
     - Domain adaptation in early modern english
     - Case study: 在英文中的domain adaptation
