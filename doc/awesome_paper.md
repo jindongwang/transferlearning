@@ -280,6 +280,10 @@ Including domain adaptation and partial domain adaptation.
 
 ### Deep / Adversarial Methods (深度/对抗迁移方法)
 
+- 20190412 PAMI-19 [Beyond Sharing Weights for Deep Domain Adaptation](https://ieeexplore.ieee.org/abstract/document/8310033)
+  	- Domain adaptation by not sharing weights
+  	- 通过不共享权重来进行domain adaptation
+
 - 20190405 IJCNN-19 [Accelerating Deep Unsupervised Domain Adaptation with Transfer Channel Pruning](https://arxiv.org/abs/1904.02654)
     - The first work to accelerate transfer learning
     - 第一个加速迁移学习的工作

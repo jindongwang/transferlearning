@@ -42,6 +42,10 @@ author = {Wang, Jindong and others}
 
 - **Latest publications**
 
+	- 20190412 PAMI-19 [Beyond Sharing Weights for Deep Domain Adaptation](https://ieeexplore.ieee.org/abstract/document/8310033)
+    	- Domain adaptation by not sharing weights
+    	- 通过不共享权重来进行domain adaptation
+
     - 20190409 ICLR-19 [A Closer Look at Few-shot Classification](https://arxiv.org/abs/1904.04232)
         - Give some important conclusions on few-shot classification
         - 在few-shot上给了一些有用的结论
