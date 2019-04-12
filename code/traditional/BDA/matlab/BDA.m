@@ -16,13 +16,40 @@ function [acc,acc_ite,A] = BDA(X_src,Y_src,X_tar,Y_tar,options)
     % ICDM 2017.
     
 	%% Set options
-	lambda = options.lambda;              %% lambda for the regularization
-	dim = options.dim;                    %% dim is the dimension after adaptation, dim <= m
-	kernel_type = options.kernel_type;    %% kernel_type is the kernel name, primal|linear|rbf
-	gamma = options.gamma;                %% gamma is the bandwidth of rbf kernel
-	T = options.T;                        %% iteration number
-    mu = options.mu;                      %% balance factor \mu
-    mode = options.mode;                  %% 'BDA' or 'W-BDA'
+	if ~isfield(options,'mode')           %% 'BDA' or 'W-BDA'
+        options.mode = 'W-BDA';
+    end
+    
+    if ~isfield(options,'mu')             %% balance factor \mu
+        options.mu = 1;
+    end                 
+    
+    if ~isfield(options,'lambda')         %% lambda for the regularization
+        options.lambda = 0.1;
+    end
+    
+    if ~isfield(options,'dim')            %% dim is the dimension after adaptation, dim <= m
+        options.dim = 10;
+    end
+    
+    if ~isfield(options,'kernel_type')    %% kernel_type is the kernel name, primal|linear|rbf
+        options.kernel_type = 'primal';
+    end
+    
+    if ~isfield(options,'gamma')          %% gamma is the bandwidth of rbf kernel
+        options.gamma = 1;
+    end
+    
+    if ~isfield(options,'T')              %% iteration number
+        options.T = 10;
+    end
+    
+    mu = options.mu;
+    lambda = options.lambda;
+    dim = options.dim;
+    kernel_type = options.kernel_type;
+    gamma = options.gamma;
+    T = options.T;
 
     X = [X_src',X_tar'];
 	X = X*diag(sparse(1./sqrt(sum(X.^2))));
