@@ -280,6 +280,10 @@ Including domain adaptation and partial domain adaptation.
 
 ### Deep / Adversarial Methods (深度/对抗迁移方法)
 
+- 20190415 PAKDD-19 [Parameter Transfer Unit for Deep Neural Networks](https://link.springer.com/chapter/10.1007/978-3-030-16145-3_7)
+  	- Propose a parameter transfer unit for DNN
+  	- 对深度网络提出参数迁移单元
+
 - 20190412 PAMI-19 [Beyond Sharing Weights for Deep Domain Adaptation](https://ieeexplore.ieee.org/abstract/document/8310033)
   	- Domain adaptation by not sharing weights
   	- 通过不共享权重来进行domain adaptation

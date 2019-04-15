@@ -44,29 +44,33 @@ author = {Wang, Jindong and others}
 
 - **Latest publications**
 
-	- 20190412 PAMI-19 [Beyond Sharing Weights for Deep Domain Adaptation](https://ieeexplore.ieee.org/abstract/document/8310033)
-    	- Domain adaptation by not sharing weights
-    	- 通过不共享权重来进行domain adaptation
+	- 20190415 PAKDD-19 [Adaptively Transfer Category-Classifier for Handwritten Chinese Character Recognition](https://link.springer.com/chapter/10.1007/978-3-030-16148-4_9)
+    	- Transfer learning for handwritten Chinese character recognition
+    	- 用迁移学习进行中文手写体识别
 
-    - 20190409 ICLR-19 [A Closer Look at Few-shot Classification](https://arxiv.org/abs/1904.04232)
-        - Give some important conclusions on few-shot classification
-        - 在few-shot上给了一些有用的结论
+	- 20190415 PAKDD-19 [Multi-task Learning for Target-Dependent Sentiment Classification](https://link.springer.com/chapter/10.1007/978-3-030-16148-4_15)
+    	- Multi-task learning for sentiment classification
+    	- 用多任务学习进行任务依赖的情感分析
 
-    - 20190409 NeurIPS-18 [Synthesized Policies for Transfer and Adaptation across Tasks and Environments](https://arxiv.org/abs/1904.03276)
-        - Transfer across tasks and environments
-        - 通过任务和环境之间进行迁移
+	- 20190415 PAKDD-19 [Spatial-Temporal Multi-Task Learning for Within-Field Cotton Yield Prediction](https://link.springer.com/chapter/10.1007/978-3-030-16148-4_27)
+    	- Spatial-Temporal multi-task learning for cotton yield prediction
+    	- 时空依赖的多任务学习用于棉花收入预测
 
-    - 20190409 PAMI-19 [Transferring Knowledge Fragments for Learning Distance Metric from A Heterogeneous Domain](https://arxiv.org/abs/1904.04061)
-        - Heterogeneous transfer metric learning by transferring fragments
-        - 通过迁移知识片段来进行异构迁移度量学习
+	- 20190415 PAKDD-19 [Passenger Demand Forecasting with Multi-Task Convolutional Recurrent Neural Networks](https://link.springer.com/chapter/10.1007/978-3-030-16145-3_3)
+    	- Passenger demand forecasting with multi-task CRNN
+    	- 用多任务CRNN模型进行顾客需求估计
 
-    - 20190409 TNNLS-19 [Heterogeneous Multi-task Metric Learning across Multiple Domains](https://arxiv.org/abs/1904.04081)
-        - Heterogeneous Multi-task Metric Learning across Multiple Domains
-        - 在多个领域之间进行异构多任务度量学习
+	- 20190415 PAKDD-19 [Parameter Transfer Unit for Deep Neural Networks](https://link.springer.com/chapter/10.1007/978-3-030-16145-3_7)
+    	- Propose a parameter transfer unit for DNN
+    	- 对深度网络提出参数迁移单元
 
-    - 20190409 NAACL-19 [AutoSeM: Automatic Task Selection and Mixing in Multi-Task Learning](https://arxiv.org/abs/1904.04153)
-        - Automatic Task Selection and Mixing in Multi-Task Learning
-        - 多任务学习中自动任务选择和混淆
+	- 20190415 PAKDD-19 [Targeted Knowledge Transfer for Learning Traffic Signal Plans](https://link.springer.com/chapter/10.1007/978-3-030-16145-3_14)
+    	- Targeted knowledge transfer for traffic control
+    	- 目标知识迁移应用于交通红绿灯
+
+	- 20190415 PAKDD-19 [Knowledge Graph Rule Mining via Transfer Learning](https://link.springer.com/chapter/10.1007/978-3-030-16142-2_38)
+    	- Knowledge Graph Rule Mining via Transfer Learning
+    	- 迁移学习应用于知识图谱
 
 	- 20190405 IJCNN-19 [Accelerating Deep Unsupervised Domain Adaptation with Transfer Channel Pruning](https://arxiv.org/abs/1904.02654)
     	- The first work to accelerate transfer learning

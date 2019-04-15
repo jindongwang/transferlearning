@@ -2,6 +2,30 @@
 
 迁移学习的应用
 
+- 20190415 PAKDD-19 [Targeted Knowledge Transfer for Learning Traffic Signal Plans](https://link.springer.com/chapter/10.1007/978-3-030-16145-3_14)
+  	- Targeted knowledge transfer for traffic control
+  	- 目标知识迁移应用于交通红绿灯
+
+- 20190415 PAKDD-19 [Knowledge Graph Rule Mining via Transfer Learning](https://link.springer.com/chapter/10.1007/978-3-030-16142-2_38)
+  	- Knowledge Graph Rule Mining via Transfer Learning
+  	- 迁移学习应用于知识图谱
+
+- 20190415 PAKDD-19 [Adaptively Transfer Category-Classifier for Handwritten Chinese Character Recognition](https://link.springer.com/chapter/10.1007/978-3-030-16148-4_9)
+  	- Transfer learning for handwritten Chinese character recognition
+  	- 用迁移学习进行中文手写体识别
+
+- 20190415 PAKDD-19 [Multi-task Learning for Target-Dependent Sentiment Classification](https://link.springer.com/chapter/10.1007/978-3-030-16148-4_15)
+  	- Multi-task learning for sentiment classification
+  	- 用多任务学习进行任务依赖的情感分析
+
+- 20190415 PAKDD-19 [Spatial-Temporal Multi-Task Learning for Within-Field Cotton Yield Prediction](https://link.springer.com/chapter/10.1007/978-3-030-16148-4_27)
+  	- Spatial-Temporal multi-task learning for cotton yield prediction
+  	- 时空依赖的多任务学习用于棉花收入预测
+
+- 20190415 PAKDD-19 [Passenger Demand Forecasting with Multi-Task Convolutional Recurrent Neural Networks](https://link.springer.com/chapter/10.1007/978-3-030-16145-3_3)
+  	- Passenger demand forecasting with multi-task CRNN
+  	- 用多任务CRNN模型进行顾客需求估计
+
 - 20190409 arXiv [Unsupervised Domain Adaptation for Multispectral Pedestrian Detection](https://arxiv.org/abs/1904.03692)
     - Domain adaptation for pedestrian detection
     - 无监督领域自适应用于多模态行人检测
