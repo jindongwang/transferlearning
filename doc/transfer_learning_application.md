@@ -2,6 +2,10 @@
 
 迁移学习的应用
 
+- 20190416 arXiv [Deep Transfer Learning for Single-Channel Automatic Sleep Staging with Channel Mismatch](https://arxiv.org/abs/1904.05945)
+  	- Using deep transfer learning for sleep stage recognition
+  	- 用深度迁移学习进行睡眠阶段的检测
+
 - 20190415 PAKDD-19 [Targeted Knowledge Transfer for Learning Traffic Signal Plans](https://link.springer.com/chapter/10.1007/978-3-030-16145-3_14)
   	- Targeted knowledge transfer for traffic control
   	- 目标知识迁移应用于交通红绿灯

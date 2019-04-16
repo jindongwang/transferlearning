@@ -280,6 +280,14 @@ Including domain adaptation and partial domain adaptation.
 
 ### Deep / Adversarial Methods (深度/对抗迁移方法)
 
+- 20190416 arXiv [ACE: Adapting to Changing Environments for Semantic Segmentation](https://arxiv.org/abs/1904.06268)
+  	- Propose a new method that can adapt to new environments
+  	- 提出一种可以适配不同环境的方法
+
+- 20190416 arXiv [Incremental multi-domain learning with network latent tensor factorization](https://arxiv.org/abs/1904.06345)
+  	- Incremental multi-domain learning with network latent tensor factorization
+  	- 网络隐性tensor分解应用于多领域增量学习
+
 - 20190415 PAKDD-19 [Parameter Transfer Unit for Deep Neural Networks](https://link.springer.com/chapter/10.1007/978-3-030-16145-3_7)
   	- Propose a parameter transfer unit for DNN
   	- 对深度网络提出参数迁移单元

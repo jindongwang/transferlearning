@@ -83,6 +83,18 @@ author = {Wang, Jindong and others}
 
 - **Preprints on arXiv** (Not peer-reviewed)
 
+	- 20190416 arXiv [Deep Transfer Learning for Single-Channel Automatic Sleep Staging with Channel Mismatch](https://arxiv.org/abs/1904.05945)
+    	- Using deep transfer learning for sleep stage recognition
+    	- 用深度迁移学习进行睡眠阶段的检测
+
+	- 20190416 arXiv [ACE: Adapting to Changing Environments for Semantic Segmentation](https://arxiv.org/abs/1904.06268)
+    	- Propose a new method that can adapt to new environments
+    	- 提出一种可以适配不同环境的方法
+
+	- 20190416 arXiv [Incremental multi-domain learning with network latent tensor factorization](https://arxiv.org/abs/1904.06345)
+    	- Incremental multi-domain learning with network latent tensor factorization
+    	- 网络隐性tensor分解应用于多领域增量学习
+
     - 20190409 arXiv [Unsupervised Domain Adaptation for Multispectral Pedestrian Detection](https://arxiv.org/abs/1904.03692)
         - Domain adaptation for pedestrian detection
         - 无监督领域自适应用于多模态行人检测
@@ -90,18 +102,6 @@ author = {Wang, Jindong and others}
     - 20190409 arXiv [Decomposition-Based Transfer Distance Metric Learning for Image Classification](https://arxiv.org/abs/1904.03846)
         - Transfer metric learning based on decomposition
         - 基于特征向量分解的迁移度量学习
-
-    - 20190409 arXiv [Improving Image Classification Robustness through Selective CNN-Filters Fine-Tuning](https://arxiv.org/abs/1904.03949)
-        - Improving Image Classification Robustness through Selective CNN-Filters Fine-Tuning
-        - 通过可选择的CNN滤波器进行图像分类的fine-tuning
-
-	- 20190408 arXiv [Unsupervised Domain Adaptation of Contextualized Embeddings: A Case Study in Early Modern English](https://arxiv.org/abs/1904.02817)
-    	- Domain adaptation in early modern english
-    	- Case study: 在英文中的domain adaptation
-
-	- 20190408 arXiv [DeceptionNet: Network-Driven Domain Randomization](https://arxiv.org/abs/1904.02750)
-    	- Using only source data for domain randomization
-    	- 仅利用源域数据进行domain randomization
 
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
