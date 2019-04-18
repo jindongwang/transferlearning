@@ -38,15 +38,15 @@ Currently, we support *ResNet-50* features since this architecture is very often
 
 You can download finetuned models here:
 
-[Finetuned ResNet-50 models For Office-31 dataset](https://pan.baidu.com/s/1mRVDYOpeLz3siIId3tni6Q)
+Finetuned ResNet-50 models For Office-31 dataset: [BaiduYun](https://pan.baidu.com/s/1mRVDYOpeLz3siIId3tni6Q) | [Mega](https://mega.nz/#F!laI2lKoJ!nSmVQXrpu1Ov794sy2wFKg)
 
-[Finetuned ResNet-50 models For Office-Home dataset](https://pan.baidu.com/s/1i_g-QC2HZ0ZUhTnnySFIWw)
+Finetuned ResNet-50 models For Office-Home dataset: [BaiduYun](https://pan.baidu.com/s/1i_g-QC2HZ0ZUhTnnySFIWw) | [Mega](https://mega.nz/#F!pGIkjIxC!MDD3ps6RzTXWobMfHh0Slw)
 
-[Finetuned ResNet-50 models For ImageCLEF dataset](https://pan.baidu.com/s/1y9tqyzBL7LZTd7Td380fxA)
+Finetuned ResNet-50 models For ImageCLEF dataset: [BaiduYun](https://pan.baidu.com/s/1y9tqyzBL7LZTd7Td380fxA) | [Mega](https://mega.nz/#F!QPJCzShS!b6qQUXWnCCGBMVs0m6MdQw)
 
-[Finetuned ResNet-50 models For VisDA dataset](https://pan.baidu.com/s/1DIcmmZ57ylMO6kpt46gkNQ)
+Finetuned ResNet-50 models For VisDA dataset: [BaiduYun](https://pan.baidu.com/s/1DIcmmZ57ylMO6kpt46gkNQ) | [Mega](https://mega.nz/#F!ZDY2jShR!r_M2sR7MBi_9JPsRUXXy0g)
 
-[Finetuned LeNet+ models For MNIST dataset](https://pan.baidu.com/s/1W68JlO6z7BfYSo_OdMOpPg)
+Finetuned LeNet+ models For MNIST dataset: [BaiduYun](https://pan.baidu.com/s/1W68JlO6z7BfYSo_OdMOpPg)
 
 The names of the model on image datasets: `best_resnet_domain.pth`, while `domain` indicates the domain of the dataset.
 
