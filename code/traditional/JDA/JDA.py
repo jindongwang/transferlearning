@@ -79,7 +79,7 @@ class JDA:
                 for c in range(1, C + 1):
                     e = np.zeros((n, 1))
                     tt = Ys == c
-                    e[np.where(tt == True)] = 1 / len(Ys[np.where(self.Ys == c)])
+                    e[np.where(tt == True)] = 1 / len(Ys[np.where(Ys == c)])
                     yy = Y_tar_pseudo == c
                     ind = np.where(yy == True)
                     inds = [item + ns for item in ind]
