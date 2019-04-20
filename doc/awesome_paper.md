@@ -523,6 +523,10 @@ Including domain adaptation and partial domain adaptation.
 
 ### Non-Adversarial Transfer Learning (非对抗深度迁移)
 
+- 20190419 CVPR-19 [DDLSTM: Dual-Domain LSTM for Cross-Dataset Action Recognition](https://arxiv.org/abs/1904.08634)
+  	- Dual-Domain LSTM for Cross-Dataset Action Recognition
+  	- 跨数据集的动作识别
+
 - 20190109 InfSc [Robust Unsupervised Domain Adaptation for Neural Networks via Moment Alignment](https://doi.org/10.1016/j.ins.2019.01.025)
     - Extension of Central Moment Discrepancy (ICLR-17) approach
 
