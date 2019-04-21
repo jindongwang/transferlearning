@@ -46,6 +46,8 @@ Testing **dataset** can be found [here](https://github.com/jindongwang/transferl
 	- [Matlab](https://github.com/jindongwang/transferlearning/tree/master/code/traditional/SVM.m)
 - **TCA** (Transfer Component Anaysis, TNN-11) [1]
 	- [Matlab and Python](https://github.com/jindongwang/transferlearning/tree/master/code/traditional/TCA)
+- **KMM** (Kernel Mean Matching, NIPS-06) [67]
+    - [Python](https://github.com/jindongwang/transferlearning/tree/master/code/traditional/KMM.py)
 - **GFK** (Geodesic Flow Kernel, CVPR-12) [2]
 	- [Matlab and Python](https://github.com/jindongwang/transferlearning/blob/master/code/traditional/GFK)
 - **DA-NBNN** (Frustratingly Easy NBNN Domain Adaptation, ICCV-13) [39]
@@ -316,3 +318,5 @@ accepted in International Conference on Computer Vision (ICCV 2015), Santiago, C
 [65] Chaohui Yu, Jindong Wang, Yiqiang Chen, Zijing Wu. Accelerating Deep Unsupervised Domain Adaptation with Transfer Channel Pruning. IJCNN 2019.
 
 [66] Shikun Liu, Edward Johns, and Andrew Davison. End-to-End Multi-Task Learning with Attention. CVPR 2019.
+
+[67] Huang J, Gretton A, Borgwardt K, et al. Correcting sample selection bias by unlabeled data[C]//Advances in neural information processing systems. 2007: 601-608.

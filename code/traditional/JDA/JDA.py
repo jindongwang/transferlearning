@@ -31,7 +31,7 @@ class JDA:
     def __init__(self, kernel_type='primal', dim=30, lamb=1, gamma=1, T=10):
         '''
         Init func
-        :param kernel_type: kernel, values: 'primal' | 'linear' | 'rbf' | 'sam'
+        :param kernel_type: kernel, values: 'primal' | 'linear' | 'rbf'
         :param dim: dimension after transfer
         :param lamb: lambda value in equation
         :param gamma: kernel bandwidth for rbf kernel

@@ -50,7 +50,7 @@ class MEDA:
     def __init__(self, kernel_type='primal', dim=30, lamb=1, rho=1.0, eta=0.1, p=10, gamma=1, T=10):
         '''
         Init func
-        :param kernel_type: kernel, values: 'primal' | 'linear' | 'rbf' | 'sam'
+        :param kernel_type: kernel, values: 'primal' | 'linear' | 'rbf'
         :param dim: dimension after transfer
         :param lamb: lambda value in equation
         :param rho: rho in equation
