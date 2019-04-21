@@ -13,30 +13,20 @@ from sklearn import metrics
 from sklearn import svm
 
 
-def kernel(ker, X, X2, gamma):
+def kernel(ker, X1, X2, gamma):
+    K = None
     if not ker or ker == 'primal':
-        return X
+        K = X1
     elif ker == 'linear':
-        if not X2:
-            K = np.dot(X.T, X)
+        if X2 is not None:
+            K = sklearn.metrics.pairwise.linear_kernel(np.asarray(X1).T, np.asarray(X2).T)
         else:
-            K = np.dot(X.T, X2)
+            K = sklearn.metrics.pairwise.linear_kernel(np.asarray(X1).T)
     elif ker == 'rbf':
-        n1sq = np.sum(X ** 2, axis=0)
-        n1 = X.shape[1]
-        if not X2:
-            D = (np.ones((n1, 1)) * n1sq).T + np.ones((n1, 1)) * n1sq - 2 * np.dot(X.T, X)
+        if X2 is not None:
+            K = sklearn.metrics.pairwise.rbf_kernel(np.asarray(X1).T, np.asarray(X2).T, gamma)
         else:
-            n2sq = np.sum(X2 ** 2, axis=0)
-            n2 = X2.shape[1]
-            D = (np.ones((n2, 1)) * n1sq).T + np.ones((n1, 1)) * n2sq - 2 * np.dot(X.T, X)
-        K = np.exp(-gamma * D)
-    elif ker == 'sam':
-        if not X2:
-            D = np.dot(X.T, X)
-        else:
-            D = np.dot(X.T, X2)
-        K = np.exp(-gamma * np.arccos(D) ** 2)
+            K = sklearn.metrics.pairwise.rbf_kernel(np.asarray(X1).T, None, gamma)
     return K
 
 
@@ -118,32 +108,26 @@ class BDA:
         mu = self.mu
         M = e * e.T * C
         Y_tar_pseudo = None
-        if self.mode == 'WBDA':
-            clf = sklearn.neighbors.KNeighborsClassifier(n_neighbors=1)
-            clf.fit(Xs, Ys.ravel())
-            Y_tar_pseudo = clf.predict(Xt)
         Xs_new = None
         for t in range(self.T):
             N = 0
             if Y_tar_pseudo is not None and len(Y_tar_pseudo) == nt:
                 for c in range(1, C + 1):
                     e = np.zeros((n, 1))
-                    if self.mode == 'W-BDA':
+                    if self.mode == 'WBDA':
                         Ns = len(Ys[np.where(Ys == c)])
                         Nt = len(Y_tar_pseudo[np.where(Y_tar_pseudo == c)])
                         Ps = Ns / len(Ys)
                         Pt = Nt / len(Y_tar_pseudo)
-                        alpha = 1. * Pt / Ps
-                        mu = 1
                     else:
                         Ps, Pt = 1, 1
 
                     tt = Ys == c
-                    e[np.where(tt == True)] = 1 / len(Ys[np.where(Ys == c)])
+                    e[np.where(tt == True)] = np.sqrt(Ps) / len(Ys[np.where(Ys == c)])
                     yy = Y_tar_pseudo == c
                     ind = np.where(yy == True)
                     inds = [item + ns for item in ind]
-                    e[tuple(inds)] = -alpha / len(Y_tar_pseudo[np.where(Y_tar_pseudo == c)])
+                    e[tuple(inds)] = -np.sqrt(Pt) / len(Y_tar_pseudo[np.where(Y_tar_pseudo == c)])
                     e[np.isinf(e)] = 0
                     N = N + np.dot(e, e.T)
             if self.mu == -1.0:
@@ -180,6 +164,6 @@ if __name__ == '__main__':
                 src, tar = 'data/' + domains[i], 'data/' + domains[j]
                 src_domain, tar_domain = scipy.io.loadmat(src), scipy.io.loadmat(tar)
                 Xs, Ys, Xt, Yt = src_domain['feas'], src_domain['label'], tar_domain['feas'], tar_domain['label']
-                bda = BDA(kernel_type='primal', dim=30, lamb=1, mu=-1, mode='W-BDA', gamma=1)
+                bda = BDA(kernel_type='primal', dim=30, lamb=1, mu=-1, mode='BDA', gamma=1)
                 acc, ypre, list_acc = bda.fit_predict(Xs, Ys, Xt, Yt)
                 print(acc)

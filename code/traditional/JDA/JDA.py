@@ -7,33 +7,23 @@ import numpy as np
 import scipy.io
 import scipy.linalg
 import sklearn.metrics
-import sklearn.neighbors
+from sklearn.neighbors import KNeighborsClassifier
 
 
-def kernel(ker, X, X2, gamma):
+def kernel(ker, X1, X2, gamma):
+    K = None
     if not ker or ker == 'primal':
-        return X
+        K = X1
     elif ker == 'linear':
-        if not X2:
-            K = np.dot(X.T, X)
+        if X2:
+            K = sklearn.metrics.pairwise.linear_kernel(np.asarray(X1).T, np.asarray(X2).T)
         else:
-            K = np.dot(X.T, X2)
+            K = sklearn.metrics.pairwise.linear_kernel(np.asarray(X1).T)
     elif ker == 'rbf':
-        n1sq = np.sum(X ** 2, axis=0)
-        n1 = X.shape[1]
-        if not X2:
-            D = (np.ones((n1, 1)) * n1sq).T + np.ones((n1, 1)) * n1sq - 2 * np.dot(X.T, X)
+        if X2:
+            K = sklearn.metrics.pairwise.rbf_kernel(np.asarray(X1).T, np.asarray(X2).T, gamma)
         else:
-            n2sq = np.sum(X2 ** 2, axis=0)
-            n2 = X2.shape[1]
-            D = (np.ones((n2, 1)) * n1sq).T + np.ones((n1, 1)) * n2sq - 2 * np.dot(X.T, X)
-        K = np.exp(-gamma * D)
-    elif ker == 'sam':
-        if not X2:
-            D = np.dot(X.T, X)
-        else:
-            D = np.dot(X.T, X2)
-        K = np.exp(-gamma * np.arccos(D) ** 2)
+            K = sklearn.metrics.pairwise.rbf_kernel(np.asarray(X1).T, None, gamma)
     return K
 
 
@@ -79,7 +69,7 @@ class JDA:
                 for c in range(1, C + 1):
                     e = np.zeros((n, 1))
                     tt = Ys == c
-                    e[np.where(tt == True)] = 1 / len(Ys[np.where(Ys == c)])
+                    e[np.where(tt == True)] = 1 / len(Ys[np.where(self.Ys == c)])
                     yy = Y_tar_pseudo == c
                     ind = np.where(yy == True)
                     inds = [item + ns for item in ind]
@@ -98,7 +88,7 @@ class JDA:
             Z /= np.linalg.norm(Z, axis=0)
             Xs_new, Xt_new = Z[:, :ns].T, Z[:, ns:].T
 
-            clf = sklearn.neighbors.KNeighborsClassifier(n_neighbors=1)
+            clf = KNeighborsClassifier(n_neighbors=1)
             clf.fit(Xs_new, Ys.ravel())
             Y_tar_pseudo = clf.predict(Xt_new)
             acc = sklearn.metrics.accuracy_score(Yt, Y_tar_pseudo)
