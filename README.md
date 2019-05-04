@@ -64,7 +64,7 @@ author = {Wang, Jindong and others}
     	- An easy transfer learning approach with good performance
     	- 一个非常简单但效果很好的迁移方法
 	
-	- 20190402 IJCNN-19 Oral   [Looking back at Labels: A Class based Domain Adaptation Technique](https://arxiv.org/pdf/1904.01341.pdf) [Project](https://vinodkkurmi.github.io/DiscriminatorDomainAdaptation/) [Code](https://github.com/vinodkkurmi/DiscriminatorDomainAdaptation)
+	- 20190402 IJCNN-19 Oral   [Looking back at Labels: A Class based Domain Adaptation Technique](https://arxiv.org/pdf/1904.01341.pdf) [[Project](https://vinodkkurmi.github.io/DiscriminatorDomainAdaptation/)] [[Code](https://github.com/vinodkkurmi/DiscriminatorDomainAdaptation)]
 	- Use source label to guide the discriminator for domain adpatation, called informative discriminator for domain adapatation (IDDA)
 
 
