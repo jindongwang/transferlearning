@@ -63,6 +63,9 @@ author = {Wang, Jindong and others}
 	- 20190403 ICME-19 [Easy Transfer Learning By Exploiting Intra-domain Structures](https://arxiv.org/abs/1904.01376) [Code](http://transferlearning.xyz/code/traditional/EasyTL)
     	- An easy transfer learning approach with good performance
     	- 一个非常简单但效果很好的迁移方法
+	
+	- 20190402 IJCNN-19 Oral   [Looking back at Labels: A Class based Domain Adaptation Technique](https://arxiv.org/pdf/1904.01341.pdf) [Project](https://vinodkkurmi.github.io/DiscriminatorDomainAdaptation/) [Code](https://github.com/vinodkkurmi/DiscriminatorDomainAdaptation)
+	- Use source label to guide the discriminator for domain adpatation, called informative discriminator for domain adapatation (IDDA)
 
 
 - **Preprints on arXiv** (Not peer-reviewed)
@@ -226,6 +229,8 @@ Please refer to [here](https://github.com/jindongwang/transferlearning/blob/mast
 - [Tongliang Liu](http://ieeexplore.ieee.org/abstract/document/8259375/)：中文名刘同亮，现任悉尼大学助理教授。主要做迁移学习的一些理论方面的工作。[[Google scholar](https://scholar.google.com.hk/citations?hl=zh-CN&user=EiLdZ_YAAAAJ)]
 
 - [Tatiana Tommasi](http://tatianatommasi.wixsite.com/tatianatommasi/3)：Researcher at the Italian Institute of Technology.
+
+- [Vinod K Kurmi](https://github.com/vinodkkurmi)[[home page](https://github.com/vinodkkurmi)]: Researcher at the Indian Institute of Technology Kanpur(India)
 _ _ _
 
 ## 6.Transfer Learning Thesis (硕博士论文)
