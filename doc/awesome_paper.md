@@ -280,6 +280,9 @@ Including domain adaptation and partial domain adaptation.
 
 ### Deep / Adversarial Methods (深度/对抗迁移方法)
 
+- 20190507 NAACL-HLT 19 [Transfer of Adversarial Robustness Between Perturbation Types](https://arxiv.org/abs/1905.01034)
+  	- Transfer of Adversarial Robustness Between Perturbation Types
+
 - 20190416 arXiv [ACE: Adapting to Changing Environments for Semantic Segmentation](https://arxiv.org/abs/1904.06268)
   	- Propose a new method that can adapt to new environments
   	- 提出一种可以适配不同环境的方法

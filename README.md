@@ -44,6 +44,9 @@ author = {Wang, Jindong and others}
 
 - **Latest publications**
 
+	- 20190507 NAACL-HLT 19 [Transfer of Adversarial Robustness Between Perturbation Types](https://arxiv.org/abs/1905.01034)
+    	- Transfer of Adversarial Robustness Between Perturbation Types
+
 	- 20190419 CVPR-19 [DDLSTM: Dual-Domain LSTM for Cross-Dataset Action Recognition](https://arxiv.org/abs/1904.08634)
     	- Dual-Domain LSTM for Cross-Dataset Action Recognition
     	- 跨数据集的动作识别
@@ -51,22 +54,9 @@ author = {Wang, Jindong and others}
 	- 20190415 PAKDD-19 [Adaptively Transfer Category-Classifier for Handwritten Chinese Character Recognition](https://link.springer.com/chapter/10.1007/978-3-030-16148-4_9)
     	- Transfer learning for handwritten Chinese character recognition
     	- 用迁移学习进行中文手写体识别
-
-	- 20190415 PAKDD-19 [Multi-task Learning for Target-Dependent Sentiment Classification](https://link.springer.com/chapter/10.1007/978-3-030-16148-4_15)
-    	- Multi-task learning for sentiment classification
-    	- 用多任务学习进行任务依赖的情感分析
-
-	- 20190405 IJCNN-19 [Accelerating Deep Unsupervised Domain Adaptation with Transfer Channel Pruning](https://arxiv.org/abs/1904.02654)
-    	- The first work to accelerate transfer learning
-    	- 第一个加速迁移学习的工作
-
-	- 20190403 ICME-19 [Easy Transfer Learning By Exploiting Intra-domain Structures](https://arxiv.org/abs/1904.01376) [Code](http://transferlearning.xyz/code/traditional/EasyTL)
-    	- An easy transfer learning approach with good performance
-    	- 一个非常简单但效果很好的迁移方法
 	
 	- 20190402 IJCNN-19 Oral   [Looking back at Labels: A Class based Domain Adaptation Technique](https://arxiv.org/pdf/1904.01341.pdf) [[Project](https://vinodkkurmi.github.io/DiscriminatorDomainAdaptation/)] [[Code](https://github.com/vinodkkurmi/DiscriminatorDomainAdaptation)]
 	- Use source label to guide the discriminator for domain adpatation, called informative discriminator for domain adapatation (IDDA)
-
 
 - **Preprints on arXiv** (Not peer-reviewed)
 
