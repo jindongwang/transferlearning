@@ -2,6 +2,13 @@
 
 迁移学习的应用
 
+- 20190508 arXiv [Text2Node: a Cross-Domain System for Mapping Arbitrary Phrases to a Taxonomy](https://arxiv.org/abs/1905.01958)
+  	- Cross-domain system for mapping arbitrary phrases to a taxonomy
+
+- 20190508 arXiv [On Transfer Learning For Chatter Detection in Turning Using Wavelet Packet Transform and Empirical Mode Decomposition](https://arxiv.org/abs/1905.01982)
+  	- Transfer learning for chatter detection
+  	- 用迁移学习进行叽叽喳喳聊天识别
+
 - 20190416 arXiv [Deep Transfer Learning for Single-Channel Automatic Sleep Staging with Channel Mismatch](https://arxiv.org/abs/1904.05945)
   	- Using deep transfer learning for sleep stage recognition
   	- 用深度迁移学习进行睡眠阶段的检测

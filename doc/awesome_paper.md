@@ -174,6 +174,10 @@ Including domain adaptation and partial domain adaptation.
 
 ### Traditional Methods (传统迁移方法)
 
+- 20190508 IJCNN-19 [Unsupervised Domain Adaptation using Graph Transduction Games](https://arxiv.org/abs/1905.02036)
+  	- Domain adaptation using graph transduction games
+  	- 用图转换博弈进行domain adaptation
+
 - 20190403 ICME-19 [Easy Transfer Learning By Exploiting Intra-domain Structures](https://arxiv.org/abs/1904.01376) [Code](http://transferlearning.xyz/code/traditional/EasyTL)
     - An easy transfer learning approach with good performance
     - 一个非常简单但效果很好的迁移方法

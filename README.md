@@ -44,21 +44,28 @@ author = {Wang, Jindong and others}
 
 - **Latest publications**
 
+	- 20190508 IJCNN-19 [Unsupervised Domain Adaptation using Graph Transduction Games](https://arxiv.org/abs/1905.02036)
+    	- Domain adaptation using graph transduction games
+    	- 用图转换博弈进行domain adaptation
+
 	- 20190507 NAACL-HLT 19 [Transfer of Adversarial Robustness Between Perturbation Types](https://arxiv.org/abs/1905.01034)
     	- Transfer of Adversarial Robustness Between Perturbation Types
 
 	- 20190419 CVPR-19 [DDLSTM: Dual-Domain LSTM for Cross-Dataset Action Recognition](https://arxiv.org/abs/1904.08634)
     	- Dual-Domain LSTM for Cross-Dataset Action Recognition
     	- 跨数据集的动作识别
-
-	- 20190415 PAKDD-19 [Adaptively Transfer Category-Classifier for Handwritten Chinese Character Recognition](https://link.springer.com/chapter/10.1007/978-3-030-16148-4_9)
-    	- Transfer learning for handwritten Chinese character recognition
-    	- 用迁移学习进行中文手写体识别
 	
 	- 20190402 IJCNN-19 Oral   [Looking back at Labels: A Class based Domain Adaptation Technique](https://arxiv.org/pdf/1904.01341.pdf) [[Project](https://vinodkkurmi.github.io/DiscriminatorDomainAdaptation/)] [[Code](https://github.com/vinodkkurmi/DiscriminatorDomainAdaptation)]
 	- Use source label to guide the discriminator for domain adpatation, called informative discriminator for domain adapatation (IDDA)
 
 - **Preprints on arXiv** (Not peer-reviewed)
+
+	- 20190508 arXiv [Text2Node: a Cross-Domain System for Mapping Arbitrary Phrases to a Taxonomy](https://arxiv.org/abs/1905.01958)
+    	- Cross-domain system for mapping arbitrary phrases to a taxonomy
+
+	- 20190508 arXiv [On Transfer Learning For Chatter Detection in Turning Using Wavelet Packet Transform and Empirical Mode Decomposition](https://arxiv.org/abs/1905.01982)
+    	- Transfer learning for chatter detection
+    	- 用迁移学习进行叽叽喳喳聊天识别
 
 	- 20190416 arXiv [Deep Transfer Learning for Single-Channel Automatic Sleep Staging with Channel Mismatch](https://arxiv.org/abs/1904.05945)
     	- Using deep transfer learning for sleep stage recognition
@@ -71,14 +78,6 @@ author = {Wang, Jindong and others}
 	- 20190416 arXiv [Incremental multi-domain learning with network latent tensor factorization](https://arxiv.org/abs/1904.06345)
     	- Incremental multi-domain learning with network latent tensor factorization
     	- 网络隐性tensor分解应用于多领域增量学习
-
-    - 20190409 arXiv [Unsupervised Domain Adaptation for Multispectral Pedestrian Detection](https://arxiv.org/abs/1904.03692)
-        - Domain adaptation for pedestrian detection
-        - 无监督领域自适应用于多模态行人检测
-
-    - 20190409 arXiv [Decomposition-Based Transfer Distance Metric Learning for Image Classification](https://arxiv.org/abs/1904.03846)
-        - Transfer metric learning based on decomposition
-        - 基于特征向量分解的迁移度量学习
 
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
