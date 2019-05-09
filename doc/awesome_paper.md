@@ -890,6 +890,10 @@ Including domain adaptation and partial domain adaptation.
 
 ## Multi-task Learning (多任务学习)
 
+- 20190509 FG-19 [Multi-task human analysis in still images: 2D/3D pose, depth map, and multi-part segmentation](https://arxiv.org/abs/1905.03003)
+  	- Multi-task human analysis in still images
+  	- 多任务人体静止图像分析
+
 - 20190409 NAACL-19 [AutoSeM: Automatic Task Selection and Mixing in Multi-Task Learning](https://arxiv.org/abs/1904.04153)
     - Automatic Task Selection and Mixing in Multi-Task Learning
     - 多任务学习中自动任务选择和混淆

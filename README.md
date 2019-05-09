@@ -44,21 +44,25 @@ author = {Wang, Jindong and others}
 
 - **Latest publications**
 
+	- 20190509 FG-19 [Multi-task human analysis in still images: 2D/3D pose, depth map, and multi-part segmentation](https://arxiv.org/abs/1905.03003)
+    	- Multi-task human analysis in still images
+    	- 多任务人体静止图像分析
+
 	- 20190508 IJCNN-19 [Unsupervised Domain Adaptation using Graph Transduction Games](https://arxiv.org/abs/1905.02036)
     	- Domain adaptation using graph transduction games
     	- 用图转换博弈进行domain adaptation
 
 	- 20190507 NAACL-HLT 19 [Transfer of Adversarial Robustness Between Perturbation Types](https://arxiv.org/abs/1905.01034)
     	- Transfer of Adversarial Robustness Between Perturbation Types
-
-	- 20190419 CVPR-19 [DDLSTM: Dual-Domain LSTM for Cross-Dataset Action Recognition](https://arxiv.org/abs/1904.08634)
-    	- Dual-Domain LSTM for Cross-Dataset Action Recognition
-    	- 跨数据集的动作识别
 	
 	- 20190402 IJCNN-19 Oral   [Looking back at Labels: A Class based Domain Adaptation Technique](https://arxiv.org/pdf/1904.01341.pdf) [[Project](https://vinodkkurmi.github.io/DiscriminatorDomainAdaptation/)] [[Code](https://github.com/vinodkkurmi/DiscriminatorDomainAdaptation)]
 	- Use source label to guide the discriminator for domain adpatation, called informative discriminator for domain adapatation (IDDA)
 
 - **Preprints on arXiv** (Not peer-reviewed)
+
+	- 20190509 arXiv [Unsupervised Domain Adaptation using Generative Adversarial Networks for Semantic Segmentation of Aerial Images](https://arxiv.org/abs/1905.03198)
+    	- Domain adaptation for semantic segmentation in aerial images
+    	- DA应用于鸟瞰图像语义分割
 
 	- 20190508 arXiv [Text2Node: a Cross-Domain System for Mapping Arbitrary Phrases to a Taxonomy](https://arxiv.org/abs/1905.01958)
     	- Cross-domain system for mapping arbitrary phrases to a taxonomy
@@ -70,14 +74,6 @@ author = {Wang, Jindong and others}
 	- 20190416 arXiv [Deep Transfer Learning for Single-Channel Automatic Sleep Staging with Channel Mismatch](https://arxiv.org/abs/1904.05945)
     	- Using deep transfer learning for sleep stage recognition
     	- 用深度迁移学习进行睡眠阶段的检测
-
-	- 20190416 arXiv [ACE: Adapting to Changing Environments for Semantic Segmentation](https://arxiv.org/abs/1904.06268)
-    	- Propose a new method that can adapt to new environments
-    	- 提出一种可以适配不同环境的方法
-
-	- 20190416 arXiv [Incremental multi-domain learning with network latent tensor factorization](https://arxiv.org/abs/1904.06345)
-    	- Incremental multi-domain learning with network latent tensor factorization
-    	- 网络隐性tensor分解应用于多领域增量学习
 
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
