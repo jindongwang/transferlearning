@@ -284,6 +284,10 @@ Including domain adaptation and partial domain adaptation.
 
 ### Deep / Adversarial Methods (深度/对抗迁移方法)
 
+- 20190515 CVPR-19 [Diversify and Match: A Domain Adaptive Representation Learning Paradigm for Object Detection](https://arxiv.org/abs/1905.05396)
+  	- Domain adaptation for object detection
+  	- 领域自适应用于物体检测
+  
 - 20190507 NAACL-HLT 19 [Transfer of Adversarial Robustness Between Perturbation Types](https://arxiv.org/abs/1905.01034)
   	- Transfer of Adversarial Robustness Between Perturbation Types
 
@@ -995,6 +999,10 @@ Including domain adaptation and partial domain adaptation.
 - - -
 
 ## Transfer Metric Learning (迁移度量学习)
+
+- 20190515 TNNLS-19 [A Distributed Approach towards Discriminative Distance Metric Learning](https://arxiv.org/abs/1905.05177)
+  	- Discriminative distance metric learning
+  	- 分布式度量学习
 
 - 20190409 TNNLS-19 [Heterogeneous Multi-task Metric Learning across Multiple Domains](https://arxiv.org/abs/1904.04081)
     - Heterogeneous Multi-task Metric Learning across Multiple Domains

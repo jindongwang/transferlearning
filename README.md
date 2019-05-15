@@ -44,19 +44,21 @@ author = {Wang, Jindong and others}
 
 - **Latest publications**
 
+	- 20190515 ACL-19 [Effective Cross-lingual Transfer of Neural Machine Translation Models without Shared Vocabularies](https://arxiv.org/abs/1905.05475)
+    	- Cross-lingual transfer of NMT
+    	- 跨语言的NMT模型迁移
+
+	- 20190515 CVPR-19 [Diversify and Match: A Domain Adaptive Representation Learning Paradigm for Object Detection](https://arxiv.org/abs/1905.05396)
+    	- Domain adaptation for object detection
+    	- 领域自适应用于物体检测
+
+	- 20190515 TNNLS-19 [A Distributed Approach towards Discriminative Distance Metric Learning](https://arxiv.org/abs/1905.05177)
+    	- Discriminative distance metric learning
+    	- 分布式度量学习
+
 	- 20190509 FG-19 [Multi-task human analysis in still images: 2D/3D pose, depth map, and multi-part segmentation](https://arxiv.org/abs/1905.03003)
     	- Multi-task human analysis in still images
     	- 多任务人体静止图像分析
-
-	- 20190508 IJCNN-19 [Unsupervised Domain Adaptation using Graph Transduction Games](https://arxiv.org/abs/1905.02036)
-    	- Domain adaptation using graph transduction games
-    	- 用图转换博弈进行domain adaptation
-
-	- 20190507 NAACL-HLT 19 [Transfer of Adversarial Robustness Between Perturbation Types](https://arxiv.org/abs/1905.01034)
-    	- Transfer of Adversarial Robustness Between Perturbation Types
-	
-	- 20190402 IJCNN-19 Oral   [Looking back at Labels: A Class based Domain Adaptation Technique](https://arxiv.org/pdf/1904.01341.pdf) [[Project](https://vinodkkurmi.github.io/DiscriminatorDomainAdaptation/)] [[Code](https://github.com/vinodkkurmi/DiscriminatorDomainAdaptation)]
-	- Use source label to guide the discriminator for domain adpatation, called informative discriminator for domain adapatation (IDDA)
 
 - **Preprints on arXiv** (Not peer-reviewed)
 

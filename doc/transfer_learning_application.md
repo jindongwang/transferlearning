@@ -2,6 +2,10 @@
 
 迁移学习的应用
 
+- 20190515 ACL-19 [Effective Cross-lingual Transfer of Neural Machine Translation Models without Shared Vocabularies](https://arxiv.org/abs/1905.05475)
+  	- Cross-lingual transfer of NMT
+  	- 跨语言的NMT模型迁移
+
 - 20190509 arXiv [Unsupervised Domain Adaptation using Generative Adversarial Networks for Semantic Segmentation of Aerial Images](https://arxiv.org/abs/1905.03198)
   	- Domain adaptation for semantic segmentation in aerial images
   	- DA应用于鸟瞰图像语义分割
