@@ -2,6 +2,10 @@
 
 迁移学习的应用
 
+- 20190517 PHM-19 [Domain Adaptive Transfer Learning for Fault Diagnosis](https://arxiv.org/abs/1905.06004)
+  	- Domain adaptation for fault diagnosis
+  	- 领域自适应用于错误检测
+
 - 20190515 ACL-19 [Effective Cross-lingual Transfer of Neural Machine Translation Models without Shared Vocabularies](https://arxiv.org/abs/1905.05475)
   	- Cross-lingual transfer of NMT
   	- 跨语言的NMT模型迁移

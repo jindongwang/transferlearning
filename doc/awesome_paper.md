@@ -62,6 +62,9 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 ### Others (其他)
 
+- 20190517 arXiv [Budget-Aware Adapters for Multi-Domain Learning](https://arxiv.org/abs/1905.06242)
+    - Budget-Aware Adapters for Multi-Domain Learning
+
 - 20190409 arXiv [Improving Image Classification Robustness through Selective CNN-Filters Fine-Tuning](https://arxiv.org/abs/1904.03949)
     - Improving Image Classification Robustness through Selective CNN-Filters Fine-Tuning
     - 通过可选择的CNN滤波器进行图像分类的fine-tuning
@@ -283,6 +286,14 @@ Including domain adaptation and partial domain adaptation.
 	- 发表在IEEE Trans. Knowledge and Data Engineering期刊上
 
 ### Deep / Adversarial Methods (深度/对抗迁移方法)
+
+- 20190517 ICML-19 [Learning What and Where to Transfer](https://arxiv.org/abs/1905.05901)
+  	- Learning what and where to transfer in deep networks
+  	- 学习深度网络从何处迁移
+
+- 20190517 ICML-19 [Zero-Shot Voice Style Transfer with Only Autoencoder Loss](https://arxiv.org/abs/1905.05879)
+  	- Zero-shot voice style transfer with only autoencoder loss
+  	- 零次声音迁移
 
 - 20190515 CVPR-19 [Diversify and Match: A Domain Adaptive Representation Learning Paradigm for Object Detection](https://arxiv.org/abs/1905.05396)
   	- Domain adaptation for object detection

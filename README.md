@@ -44,6 +44,18 @@ author = {Wang, Jindong and others}
 
 - **Latest publications**
 
+	- 20190517 ICML-19 [Learning What and Where to Transfer](https://arxiv.org/abs/1905.05901)
+    	- Learning what and where to transfer in deep networks
+    	- 学习深度网络从何处迁移
+
+	- 20190517 ICML-19 [Zero-Shot Voice Style Transfer with Only Autoencoder Loss](https://arxiv.org/abs/1905.05879)
+    	- Zero-shot voice style transfer with only autoencoder loss
+    	- 零次声音迁移
+
+	- 20190517 PHM-19 [Domain Adaptive Transfer Learning for Fault Diagnosis](https://arxiv.org/abs/1905.06004)
+    	- Domain adaptation for fault diagnosis
+    	- 领域自适应用于错误检测
+
 	- 20190515 ACL-19 [Effective Cross-lingual Transfer of Neural Machine Translation Models without Shared Vocabularies](https://arxiv.org/abs/1905.05475)
     	- Cross-lingual transfer of NMT
     	- 跨语言的NMT模型迁移
@@ -52,15 +64,10 @@ author = {Wang, Jindong and others}
     	- Domain adaptation for object detection
     	- 领域自适应用于物体检测
 
-	- 20190515 TNNLS-19 [A Distributed Approach towards Discriminative Distance Metric Learning](https://arxiv.org/abs/1905.05177)
-    	- Discriminative distance metric learning
-    	- 分布式度量学习
-
-	- 20190509 FG-19 [Multi-task human analysis in still images: 2D/3D pose, depth map, and multi-part segmentation](https://arxiv.org/abs/1905.03003)
-    	- Multi-task human analysis in still images
-    	- 多任务人体静止图像分析
-
 - **Preprints on arXiv** (Not peer-reviewed)
+
+	- 20190517 arXiv [Budget-Aware Adapters for Multi-Domain Learning](https://arxiv.org/abs/1905.06242)
+    	- Budget-Aware Adapters for Multi-Domain Learning
 
 	- 20190509 arXiv [Unsupervised Domain Adaptation using Generative Adversarial Networks for Semantic Segmentation of Aerial Images](https://arxiv.org/abs/1905.03198)
     	- Domain adaptation for semantic segmentation in aerial images
@@ -72,10 +79,6 @@ author = {Wang, Jindong and others}
 	- 20190508 arXiv [On Transfer Learning For Chatter Detection in Turning Using Wavelet Packet Transform and Empirical Mode Decomposition](https://arxiv.org/abs/1905.01982)
     	- Transfer learning for chatter detection
     	- 用迁移学习进行叽叽喳喳聊天识别
-
-	- 20190416 arXiv [Deep Transfer Learning for Single-Channel Automatic Sleep Staging with Channel Mismatch](https://arxiv.org/abs/1904.05945)
-    	- Using deep transfer learning for sleep stage recognition
-    	- 用深度迁移学习进行睡眠阶段的检测
 
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
