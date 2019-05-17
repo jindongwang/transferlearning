@@ -46,7 +46,7 @@ author = {Wang, Jindong and others}
 
 	- 20190517 ICML-19 [Learning What and Where to Transfer](https://arxiv.org/abs/1905.05901)
     	- Learning what and where to transfer in deep networks
-    	- 学习深度网络从何处迁移
+    	- 学习深度网络从何处迁移 [知乎解读](https://zhuanlan.zhihu.com/p/66130006)
 
 	- 20190517 ICML-19 [Zero-Shot Voice Style Transfer with Only Autoencoder Loss](https://arxiv.org/abs/1905.05879)
     	- Zero-shot voice style transfer with only autoencoder loss
