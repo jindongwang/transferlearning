@@ -176,7 +176,8 @@ Testing **dataset** can be found [here](https://github.com/jindongwang/transferl
     - [Pytorch(Official)](https://github.com/jindongwang/transferlearning/tree/master/code/deep/TCP)
 - **MTAN** (Multi-Task Attention Network, CVPR-19) [66]
     - [Python](https://github.com/lorenmt/mtan)
-  
+- **L2T_ww** (Learning What and Where to Transfer, ICML-19) [68]
+    - [Pytorch](https://github.com/alinlab/L2T-ww)  
 
 
 - - -
@@ -320,3 +321,5 @@ accepted in International Conference on Computer Vision (ICCV 2015), Santiago, C
 [66] Shikun Liu, Edward Johns, and Andrew Davison. End-to-End Multi-Task Learning with Attention. CVPR 2019.
 
 [67] Huang J, Gretton A, Borgwardt K, et al. Correcting sample selection bias by unlabeled data[C]//Advances in neural information processing systems. 2007: 601-608.
+
+[68] Yunhun Jang, Hankook Lee, Sung Ju Hwang, Jinwoo Shin. Learning what and where to transfer. ICML 2019.
