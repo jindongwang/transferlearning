@@ -287,6 +287,10 @@ Including domain adaptation and partial domain adaptation.
 
 ### Deep / Adversarial Methods (深度/对抗迁移方法)
 
+- 20190525 PAMI-19 [Learning More Universal Representations for Transfer-Learning](https://ieeexplore.ieee.org/abstract/document/8703078)
+  	- Learning more universal representations for transfer learning
+  	- 对迁移学习设计2种方式学到更通用的表达
+
 - 20190517 ICML-19 [Learning What and Where to Transfer](https://arxiv.org/abs/1905.05901)
   	- Learning what and where to transfer in deep networks
   	- 学习深度网络从何处迁移

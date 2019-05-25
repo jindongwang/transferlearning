@@ -44,6 +44,10 @@ author = {Wang, Jindong and others}
 
 - **Latest publications**
 
+	- 20190525 PAMI-19 [Learning More Universal Representations for Transfer-Learning](https://ieeexplore.ieee.org/abstract/document/8703078)
+    	- Learning more universal representations for transfer learning
+    	- 对迁移学习设计2种方式学到更通用的表达
+
 	- 20190517 ICML-19 [Learning What and Where to Transfer](https://arxiv.org/abs/1905.05901)
     	- Learning what and where to transfer in deep networks
     	- 学习深度网络从何处迁移 [知乎解读](https://zhuanlan.zhihu.com/p/66130006)
@@ -59,10 +63,6 @@ author = {Wang, Jindong and others}
 	- 20190515 ACL-19 [Effective Cross-lingual Transfer of Neural Machine Translation Models without Shared Vocabularies](https://arxiv.org/abs/1905.05475)
     	- Cross-lingual transfer of NMT
     	- 跨语言的NMT模型迁移
-
-	- 20190515 CVPR-19 [Diversify and Match: A Domain Adaptive Representation Learning Paradigm for Object Detection](https://arxiv.org/abs/1905.05396)
-    	- Domain adaptation for object detection
-    	- 领域自适应用于物体检测
 
 - **Preprints on arXiv** (Not peer-reviewed)
 
