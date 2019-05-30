@@ -66,20 +66,19 @@ author = {Wang, Jindong and others}
 
 - **Preprints on arXiv** (Not peer-reviewed)
 
+	- 20190530 arXiv [Learning Bregman Divergences](https://arxiv.org/abs/1905.11545)
+    	- Learning Bregman divergence
+    	- 学习Bregman差异
+
+	- 20190530 arXiv [Adversarial Domain Adaptation Being Aware of Class Relationships](https://arxiv.org/abs/1905.11931)
+    	- Using class relationship for adversarial domain adaptation
+    	- 利用类别关系进行对抗的domain adaptaition
+
+	- 20190530 arXiv [Cross-Domain Transferability of Adversarial Perturbations](https://arxiv.org/abs/1905.11736)
+    	- Cross-Domain Transferability of Adversarial Perturbations
+
 	- 20190517 arXiv [Budget-Aware Adapters for Multi-Domain Learning](https://arxiv.org/abs/1905.06242)
     	- Budget-Aware Adapters for Multi-Domain Learning
-
-	- 20190509 arXiv [Unsupervised Domain Adaptation using Generative Adversarial Networks for Semantic Segmentation of Aerial Images](https://arxiv.org/abs/1905.03198)
-    	- Domain adaptation for semantic segmentation in aerial images
-    	- DA应用于鸟瞰图像语义分割
-
-	- 20190508 arXiv [Text2Node: a Cross-Domain System for Mapping Arbitrary Phrases to a Taxonomy](https://arxiv.org/abs/1905.01958)
-    	- Cross-domain system for mapping arbitrary phrases to a taxonomy
-
-	- 20190508 arXiv [On Transfer Learning For Chatter Detection in Turning Using Wavelet Packet Transform and Empirical Mode Decomposition](https://arxiv.org/abs/1905.01982)
-    	- Transfer learning for chatter detection
-    	- 用迁移学习进行叽叽喳喳聊天识别
-
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 

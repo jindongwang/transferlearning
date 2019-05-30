@@ -287,6 +287,17 @@ Including domain adaptation and partial domain adaptation.
 
 ### Deep / Adversarial Methods (深度/对抗迁移方法)
 
+- 20190530 arXiv [Learning Bregman Divergences](https://arxiv.org/abs/1905.11545)
+  	- Learning Bregman divergence
+  	- 学习Bregman差异
+
+- 20190530 arXiv [Adversarial Domain Adaptation Being Aware of Class Relationships](https://arxiv.org/abs/1905.11931)
+  	- Using class relationship for adversarial domain adaptation
+  	- 利用类别关系进行对抗的domain adaptaition
+
+- 20190530 arXiv [Cross-Domain Transferability of Adversarial Perturbations](https://arxiv.org/abs/1905.11736)
+  	- Cross-Domain Transferability of Adversarial Perturbations
+
 - 20190525 PAMI-19 [Learning More Universal Representations for Transfer-Learning](https://ieeexplore.ieee.org/abstract/document/8703078)
   	- Learning more universal representations for transfer learning
   	- 对迁移学习设计2种方式学到更通用的表达
