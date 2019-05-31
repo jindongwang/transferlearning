@@ -62,6 +62,10 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 ### Others (其他)
 
+- 20190531 IJCAI-19 [Adversarial Imitation Learning from Incomplete Demonstrations](https://arxiv.org/abs/1905.12310)
+  	- Adversarial imitation learning from imcomplete demonstrations
+  	- 基于不完整实例的对抗模仿学习
+
 - 20190517 arXiv [Budget-Aware Adapters for Multi-Domain Learning](https://arxiv.org/abs/1905.06242)
     - Budget-Aware Adapters for Multi-Domain Learning
 
@@ -768,11 +772,22 @@ Including domain adaptation and partial domain adaptation.
 
 - [深度联合适配网络](http://proceedings.mlr.press/v70/long17a.html)（Joint Adaptation Network, JAN）
 	- Deep Transfer Learning with Joint Adaptation Networks
-	- 发表在ICML 2017上，作者也是龙明盛
 	- 延续了之前的DAN工作，这次考虑联合适配
 - - -
 
 ### Deep Adversarial Transfer Learning (对抗迁移学习)
+
+- 20190531 arXiv [Adaptive Deep Kernel Learning](https://arxiv.org/abs/1905.12131)
+  	- Adaptive deep kernel learning
+  	- 自适应深度核学习
+
+- 20190531 arXiv [Multi-task Learning in Deep Gaussian Processes with Multi-kernel Layers](https://arxiv.org/abs/1905.12407)
+  	- Multi-task learning in deep Gaussian process
+  	- 深度高斯过程中的多任务学习
+
+- 20190531 arXiv [Image Alignment in Unseen Domains via Domain Deep Generalization](https://arxiv.org/abs/1905.12028)
+  	- Deep domain generalization for image alignment
+  	- 深度领域泛化用于图像对齐
 
 - 20190408 arXiv [DeceptionNet: Network-Driven Domain Randomization](https://arxiv.org/abs/1904.02750)
     - Using only source data for domain randomization

@@ -44,6 +44,10 @@ author = {Wang, Jindong and others}
 
 - **Latest publications**
 
+	- 20190531 IJCAI-19 [Adversarial Imitation Learning from Incomplete Demonstrations](https://arxiv.org/abs/1905.12310)
+    	- Adversarial imitation learning from imcomplete demonstrations
+    	- 基于不完整实例的对抗模仿学习
+
 	- 20190525 PAMI-19 [Learning More Universal Representations for Transfer-Learning](https://ieeexplore.ieee.org/abstract/document/8703078)
     	- Learning more universal representations for transfer learning
     	- 对迁移学习设计2种方式学到更通用的表达
@@ -60,11 +64,19 @@ author = {Wang, Jindong and others}
     	- Domain adaptation for fault diagnosis
     	- 领域自适应用于错误检测
 
-	- 20190515 ACL-19 [Effective Cross-lingual Transfer of Neural Machine Translation Models without Shared Vocabularies](https://arxiv.org/abs/1905.05475)
-    	- Cross-lingual transfer of NMT
-    	- 跨语言的NMT模型迁移
-
 - **Preprints on arXiv** (Not peer-reviewed)
+
+	- 20190531 arXiv [Image Alignment in Unseen Domains via Domain Deep Generalization](https://arxiv.org/abs/1905.12028)
+    	- Deep domain generalization for image alignment
+    	- 深度领域泛化用于图像对齐
+
+	- 20190531 arXiv [Adaptive Deep Kernel Learning](https://arxiv.org/abs/1905.12131)
+    	- Adaptive deep kernel learning
+    	- 自适应深度核学习
+
+	- 20190531 arXiv [Multi-task Learning in Deep Gaussian Processes with Multi-kernel Layers](https://arxiv.org/abs/1905.12407)
+    	- Multi-task learning in deep Gaussian process
+    	- 深度高斯过程中的多任务学习
 
 	- 20190530 arXiv [Learning Bregman Divergences](https://arxiv.org/abs/1905.11545)
     	- Learning Bregman divergence
@@ -73,12 +85,6 @@ author = {Wang, Jindong and others}
 	- 20190530 arXiv [Adversarial Domain Adaptation Being Aware of Class Relationships](https://arxiv.org/abs/1905.11931)
     	- Using class relationship for adversarial domain adaptation
     	- 利用类别关系进行对抗的domain adaptaition
-
-	- 20190530 arXiv [Cross-Domain Transferability of Adversarial Perturbations](https://arxiv.org/abs/1905.11736)
-    	- Cross-Domain Transferability of Adversarial Perturbations
-
-	- 20190517 arXiv [Budget-Aware Adapters for Multi-Domain Learning](https://arxiv.org/abs/1905.06242)
-    	- Budget-Aware Adapters for Multi-Domain Learning
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
