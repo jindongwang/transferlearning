@@ -44,6 +44,10 @@ author = {Wang, Jindong and others}
 
 - **Latest publications**
 
+	- 20190604 IJCAI-19 [DANE: Domain Adaptive Network Embedding](https://arxiv.org/abs/1906.00684)
+    	- Transfered network embeddings for different networks
+    	- 不同网络表达的迁移
+
 	- 20190531 IJCAI-19 [Adversarial Imitation Learning from Incomplete Demonstrations](https://arxiv.org/abs/1905.12310)
     	- Adversarial imitation learning from imcomplete demonstrations
     	- 基于不完整实例的对抗模仿学习
@@ -60,11 +64,11 @@ author = {Wang, Jindong and others}
     	- Zero-shot voice style transfer with only autoencoder loss
     	- 零次声音迁移
 
-	- 20190517 PHM-19 [Domain Adaptive Transfer Learning for Fault Diagnosis](https://arxiv.org/abs/1905.06004)
-    	- Domain adaptation for fault diagnosis
-    	- 领域自适应用于错误检测
-
 - **Preprints on arXiv** (Not peer-reviewed)
+
+	- 20190604 arXiv [Learning to Transfer: Unsupervised Meta Domain Translation](https://arxiv.org/abs/1906.00181)
+    	- Unsupervised meta domain translation
+    	- 无监督领域翻译
 
 	- 20190531 arXiv [Image Alignment in Unseen Domains via Domain Deep Generalization](https://arxiv.org/abs/1905.12028)
     	- Deep domain generalization for image alignment
@@ -81,10 +85,6 @@ author = {Wang, Jindong and others}
 	- 20190530 arXiv [Learning Bregman Divergences](https://arxiv.org/abs/1905.11545)
     	- Learning Bregman divergence
     	- 学习Bregman差异
-
-	- 20190530 arXiv [Adversarial Domain Adaptation Being Aware of Class Relationships](https://arxiv.org/abs/1905.11931)
-    	- Using class relationship for adversarial domain adaptation
-    	- 利用类别关系进行对抗的domain adaptaition
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 

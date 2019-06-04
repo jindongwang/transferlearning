@@ -291,6 +291,14 @@ Including domain adaptation and partial domain adaptation.
 
 ### Deep / Adversarial Methods (深度/对抗迁移方法)
 
+- 20190604 IJCAI-19 [DANE: Domain Adaptive Network Embedding](https://arxiv.org/abs/1906.00684)
+  	- Transfered network embeddings for different networks
+  	- 不同网络表达的迁移
+
+- 20190604 arXiv [Learning to Transfer: Unsupervised Meta Domain Translation](https://arxiv.org/abs/1906.00181)
+  	- Unsupervised meta domain translation
+  	- 无监督领域翻译
+
 - 20190530 arXiv [Learning Bregman Divergences](https://arxiv.org/abs/1905.11545)
   	- Learning Bregman divergence
   	- 学习Bregman差异
