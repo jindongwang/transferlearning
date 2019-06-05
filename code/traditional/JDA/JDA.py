@@ -61,10 +61,11 @@ class JDA:
         C = len(np.unique(Ys))
         H = np.eye(n) - 1 / n * np.ones((n, n))
 
-        M = e * e.T * C
+        M = 0
         Y_tar_pseudo = None
         for t in range(self.T):
             N = 0
+            M0 = e * e.T * C
             if Y_tar_pseudo is not None and len(Y_tar_pseudo) == nt:
                 for c in range(1, C + 1):
                     e = np.zeros((n, 1))
@@ -76,7 +77,7 @@ class JDA:
                     e[tuple(inds)] = -1 / len(Y_tar_pseudo[np.where(Y_tar_pseudo == c)])
                     e[np.isinf(e)] = 0
                     N = N + np.dot(e, e.T)
-            M += N
+            M = M0 + N
             M = M / np.linalg.norm(M, 'fro')
             K = kernel(self.kernel_type, X, None, gamma=self.gamma)
             n_eye = m if self.kernel_type == 'primal' else n
