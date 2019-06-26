@@ -62,6 +62,10 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 ### Others (其他)
 
+- 20190626 arXiv [Transfer of Machine Learning Fairness across Domains](https://arxiv.org/abs/1906.09688)
+  	- Transfer of machine learning fairness across domains
+  	- 机器学习的公平性的迁移
+
 - 20190531 IJCAI-19 [Adversarial Imitation Learning from Incomplete Demonstrations](https://arxiv.org/abs/1905.12310)
   	- Adversarial imitation learning from imcomplete demonstrations
   	- 基于不完整实例的对抗模仿学习
@@ -571,6 +575,10 @@ Including domain adaptation and partial domain adaptation.
 ## Deep Transfer Learning (深度迁移学习)
 
 ### Non-Adversarial Transfer Learning (非对抗深度迁移)
+
+- 20190626 IJCAI-19 [Bayesian Uncertainty Matching for Unsupervised Domain Adaptation](https://arxiv.org/abs/1906.09693)
+  	- Bayesian uncertainty matching for da
+  	- 贝叶斯网络用于da
 
 - 20190419 CVPR-19 [DDLSTM: Dual-Domain LSTM for Cross-Dataset Action Recognition](https://arxiv.org/abs/1904.08634)
   	- Dual-Domain LSTM for Cross-Dataset Action Recognition

@@ -2,6 +2,10 @@
 
 迁移学习的应用
 
+- 20190626 arXiv [A Novel Deep Transfer Learning Method for Detection of Myocardial Infarction](https://arxiv.org/abs/1906.09358)
+  	- A deep transfer learning method for detecting myocardial infarction
+  	- 一种用于监测心肌梗塞的深度迁移方法
+
 - 20190517 PHM-19 [Domain Adaptive Transfer Learning for Fault Diagnosis](https://arxiv.org/abs/1905.06004)
   	- Domain adaptation for fault diagnosis
   	- 领域自适应用于错误检测

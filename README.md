@@ -44,6 +44,10 @@ author = {Wang, Jindong and others}
 
 - **Latest publications**
 
+	- 20190626 IJCAI-19 [Bayesian Uncertainty Matching for Unsupervised Domain Adaptation](https://arxiv.org/abs/1906.09693)
+    	- Bayesian uncertainty matching for da
+    	- 贝叶斯网络用于da
+
 	- 20190604 IJCAI-19 [DANE: Domain Adaptive Network Embedding](https://arxiv.org/abs/1906.00684)
     	- Transfered network embeddings for different networks
     	- 不同网络表达的迁移
@@ -56,15 +60,15 @@ author = {Wang, Jindong and others}
     	- Learning more universal representations for transfer learning
     	- 对迁移学习设计2种方式学到更通用的表达
 
-	- 20190517 ICML-19 [Learning What and Where to Transfer](https://arxiv.org/abs/1905.05901)
-    	- Learning what and where to transfer in deep networks
-    	- 学习深度网络从何处迁移 [知乎解读](https://zhuanlan.zhihu.com/p/66130006)
-
-	- 20190517 ICML-19 [Zero-Shot Voice Style Transfer with Only Autoencoder Loss](https://arxiv.org/abs/1905.05879)
-    	- Zero-shot voice style transfer with only autoencoder loss
-    	- 零次声音迁移
-
 - **Preprints on arXiv** (Not peer-reviewed)
+
+	- 20190626 arXiv [A Novel Deep Transfer Learning Method for Detection of Myocardial Infarction](https://arxiv.org/abs/1906.09358)
+    	- A deep transfer learning method for detecting myocardial infarction
+    	- 一种用于监测心肌梗塞的深度迁移方法
+
+	- 20190626 arXiv [Transfer of Machine Learning Fairness across Domains](https://arxiv.org/abs/1906.09688)
+    	- Transfer of machine learning fairness across domains
+    	- 机器学习的公平性的迁移
 
 	- 20190604 arXiv [Learning to Transfer: Unsupervised Meta Domain Translation](https://arxiv.org/abs/1906.00181)
     	- Unsupervised meta domain translation
@@ -77,14 +81,6 @@ author = {Wang, Jindong and others}
 	- 20190531 arXiv [Adaptive Deep Kernel Learning](https://arxiv.org/abs/1905.12131)
     	- Adaptive deep kernel learning
     	- 自适应深度核学习
-
-	- 20190531 arXiv [Multi-task Learning in Deep Gaussian Processes with Multi-kernel Layers](https://arxiv.org/abs/1905.12407)
-    	- Multi-task learning in deep Gaussian process
-    	- 深度高斯过程中的多任务学习
-
-	- 20190530 arXiv [Learning Bregman Divergences](https://arxiv.org/abs/1905.11545)
-    	- Learning Bregman divergence
-    	- 学习Bregman差异
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
