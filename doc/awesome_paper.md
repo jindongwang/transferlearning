@@ -62,6 +62,9 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 ### Others (其他)
 
+- 20190703 arXiv [Inferred successor maps for better transfer learning](https://arxiv.org/abs/1906.07663)
+  	- Inferred successor maps for better transfer learning
+
 - 20190626 arXiv [Transfer of Machine Learning Fairness across Domains](https://arxiv.org/abs/1906.09688)
   	- Transfer of machine learning fairness across domains
   	- 机器学习的公平性的迁移
@@ -184,6 +187,10 @@ Let's read some awesome transfer learning / domain adaptation papers.
 Including domain adaptation and partial domain adaptation.
 
 ### Traditional Methods (传统迁移方法)
+
+- 20190703 arXiv [Domain Adaptation via Low-Rank Basis Approximation](https://arxiv.org/abs/1907.01343)
+  	- Domain adaptation with low-rank basis approximation
+  	- 低秩分解进行domain adaptation
 
 - 20190508 IJCNN-19 [Unsupervised Domain Adaptation using Graph Transduction Games](https://arxiv.org/abs/1905.02036)
   	- Domain adaptation using graph transduction games

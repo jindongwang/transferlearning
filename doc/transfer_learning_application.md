@@ -2,6 +2,14 @@
 
 迁移学习的应用
 
+- 20190703 arXiv [Disentangled Makeup Transfer with Generative Adversarial Network](https://arxiv.org/abs/1907.01144)
+  	- Makeup transfer with GAN
+  	- 用GAN进行化妆的迁移
+
+- 20190703 arXiv [Applying Transfer Learning To Deep Learned Models For EEG Analysis](https://arxiv.org/abs/1907.01332)
+  	- Apply transfer learning to EEG
+  	- 用深度迁移学习进行EEG分析
+
 - 20190626 arXiv [A Novel Deep Transfer Learning Method for Detection of Myocardial Infarction](https://arxiv.org/abs/1906.09358)
   	- A deep transfer learning method for detecting myocardial infarction
   	- 一种用于监测心肌梗塞的深度迁移方法

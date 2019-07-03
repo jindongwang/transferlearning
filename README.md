@@ -62,25 +62,24 @@ author = {Wang, Jindong and others}
 
 - **Preprints on arXiv** (Not peer-reviewed)
 
+	- 20190703 arXiv [Disentangled Makeup Transfer with Generative Adversarial Network](https://arxiv.org/abs/1907.01144)
+    	- Makeup transfer with GAN
+    	- 用GAN进行化妆的迁移
+
+	- 20190703 arXiv [Applying Transfer Learning To Deep Learned Models For EEG Analysis](https://arxiv.org/abs/1907.01332)
+    	- Apply transfer learning to EEG
+    	- 用深度迁移学习进行EEG分析
+
+	- 20190703 arXiv [Domain Adaptation via Low-Rank Basis Approximation](https://arxiv.org/abs/1907.01343)
+    	- Domain adaptation with low-rank basis approximation
+    	- 低秩分解进行domain adaptation
+
+	- 20190703 arXiv [Inferred successor maps for better transfer learning](https://arxiv.org/abs/1906.07663)
+    	- Inferred successor maps for better transfer learning
+
 	- 20190626 arXiv [A Novel Deep Transfer Learning Method for Detection of Myocardial Infarction](https://arxiv.org/abs/1906.09358)
     	- A deep transfer learning method for detecting myocardial infarction
     	- 一种用于监测心肌梗塞的深度迁移方法
-
-	- 20190626 arXiv [Transfer of Machine Learning Fairness across Domains](https://arxiv.org/abs/1906.09688)
-    	- Transfer of machine learning fairness across domains
-    	- 机器学习的公平性的迁移
-
-	- 20190604 arXiv [Learning to Transfer: Unsupervised Meta Domain Translation](https://arxiv.org/abs/1906.00181)
-    	- Unsupervised meta domain translation
-    	- 无监督领域翻译
-
-	- 20190531 arXiv [Image Alignment in Unseen Domains via Domain Deep Generalization](https://arxiv.org/abs/1905.12028)
-    	- Deep domain generalization for image alignment
-    	- 深度领域泛化用于图像对齐
-
-	- 20190531 arXiv [Adaptive Deep Kernel Learning](https://arxiv.org/abs/1905.12131)
-    	- Adaptive deep kernel learning
-    	- 自适应深度核学习
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
