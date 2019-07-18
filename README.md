@@ -16,19 +16,19 @@ author = {Wang, Jindong and others}
 }  
 ```
   
-- [迁移学习 Transfer Learning](#%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0-transfer-learning)
-	- [0.Latest Publications (最新论文)](#0latest-publications-%E6%9C%80%E6%96%B0%E8%AE%BA%E6%96%87)
-	- [1.Introduction and Tutorials (简介与教程)](#1introduction-and-tutorials-%E7%AE%80%E4%BB%8B%E4%B8%8E%E6%95%99%E7%A8%8B)
-	- [2.Transfer Learning Areas and Papers (研究领域与相关论文)](#2transfer-learning-areas-and-papers-%E7%A0%94%E7%A9%B6%E9%A2%86%E5%9F%9F%E4%B8%8E%E7%9B%B8%E5%85%B3%E8%AE%BA%E6%96%87)
-	- [3.Theory and Survey (理论与综述)](#3theory-and-survey-%E7%90%86%E8%AE%BA%E4%B8%8E%E7%BB%BC%E8%BF%B0)
-	- [4.Code (代码)](#4code-%E4%BB%A3%E7%A0%81)
-	- [5.Transfer Learning Scholars (著名学者)](#5transfer-learning-scholars-%E8%91%97%E5%90%8D%E5%AD%A6%E8%80%85)
-	- [6.Transfer Learning Thesis (硕博士论文)](#6transfer-learning-thesis-%E7%A1%95%E5%8D%9A%E5%A3%AB%E8%AE%BA%E6%96%87)
-	- [7.Datasets and Benchmarks (数据集与评测结果)](#7datasets-and-benchmarks-%E6%95%B0%E6%8D%AE%E9%9B%86%E4%B8%8E%E8%AF%84%E6%B5%8B%E7%BB%93%E6%9E%9C)
-	- [8.Transfer Learning Challenges (迁移学习比赛)](#8transfer-learning-challenges-%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0%E6%AF%94%E8%B5%9B)
-	- [Applications (迁移学习应用)](#applications-%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0%E5%BA%94%E7%94%A8)
-	- [Other Resources (其他资源)](#other-resources-%E5%85%B6%E4%BB%96%E8%B5%84%E6%BA%90)
-	- [Contributing (欢迎参与贡献)](#contributing-%E6%AC%A2%E8%BF%8E%E5%8F%82%E4%B8%8E%E8%B4%A1%E7%8C%AE)
+- [迁移学习 Transfer Learning](#%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0-Transfer-Learning)
+	- [0.Latest Publications (最新论文)](#0Latest-Publications-%E6%9C%80%E6%96%B0%E8%AE%BA%E6%96%87)
+	- [1.Introduction and Tutorials (简介与教程)](#1Introduction-and-Tutorials-%E7%AE%80%E4%BB%8B%E4%B8%8E%E6%95%99%E7%A8%8B)
+	- [2.Transfer Learning Areas and Papers (研究领域与相关论文)](#2Transfer-Learning-Areas-and-Papers-%E7%A0%94%E7%A9%B6%E9%A2%86%E5%9F%9F%E4%B8%8E%E7%9B%B8%E5%85%B3%E8%AE%BA%E6%96%87)
+	- [3.Theory and Survey (理论与综述)](#3Theory-and-Survey-%E7%90%86%E8%AE%BA%E4%B8%8E%E7%BB%BC%E8%BF%B0)
+	- [4.Code (代码)](#4Code-%E4%BB%A3%E7%A0%81)
+	- [5.Transfer Learning Scholars (著名学者)](#5Transfer-Learning-Scholars-%E8%91%97%E5%90%8D%E5%AD%A6%E8%80%85)
+	- [6.Transfer Learning Thesis (硕博士论文)](#6Transfer-Learning-Thesis-%E7%A1%95%E5%8D%9A%E5%A3%AB%E8%AE%BA%E6%96%87)
+	- [7.Datasets and Benchmarks (数据集与评测结果)](#7Datasets-and-Benchmarks-%E6%95%B0%E6%8D%AE%E9%9B%86%E4%B8%8E%E8%AF%84%E6%B5%8B%E7%BB%93%E6%9E%9C)
+	- [8.Transfer Learning Challenges (迁移学习比赛)](#8Transfer-Learning-Challenges-%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0%E6%AF%94%E8%B5%9B)
+	- [Applications (迁移学习应用)](#Applications-%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0%E5%BA%94%E7%94%A8)
+	- [Other Resources (其他资源)](#Other-Resources-%E5%85%B6%E4%BB%96%E8%B5%84%E6%BA%90)
+	- [Contributing (欢迎参与贡献)](#Contributing-%E6%AC%A2%E8%BF%8E%E5%8F%82%E4%B8%8E%E8%B4%A1%E7%8C%AE)
 
 > 关于机器学习和行为识别的资料，请参考：[行为识别](https://github.com/jindongwang/activityrecognition)｜[机器学习](https://github.com/jindongwang/MachineLearning)
 
@@ -44,10 +44,6 @@ author = {Wang, Jindong and others}
 
 - **Latest publications**
 
-	- 20190626 IJCAI-19 [Bayesian Uncertainty Matching for Unsupervised Domain Adaptation](https://arxiv.org/abs/1906.09693)
-    	- Bayesian uncertainty matching for da
-    	- 贝叶斯网络用于da
-
 	- 20190604 IJCAI-19 [DANE: Domain Adaptive Network Embedding](https://arxiv.org/abs/1906.00684)
     	- Transfered network embeddings for different networks
     	- 不同网络表达的迁移
@@ -62,6 +58,14 @@ author = {Wang, Jindong and others}
 
 - **Preprints on arXiv** (Not peer-reviewed)
 
+	- 20190718 arXiv [Task Selection Policies for Multitask Learning](https://arxiv.org/abs/1907.06214)
+    	- Task selection in multitask learning
+    	- 在多任务学习中的任务选择机制
+
+	- 20190718 arXiv [Measuring the Transferability of Adversarial Examples](https://arxiv.org/abs/1907.06291)
+    	- Measure the transferability of adversarial examples
+    	- 度量对抗样本的可迁移性
+
 	- 20190626 arXiv [A Novel Deep Transfer Learning Method for Detection of Myocardial Infarction](https://arxiv.org/abs/1906.09358)
     	- A deep transfer learning method for detecting myocardial infarction
     	- 一种用于监测心肌梗塞的深度迁移方法
@@ -74,13 +78,6 @@ author = {Wang, Jindong and others}
     	- Unsupervised meta domain translation
     	- 无监督领域翻译
 
-	- 20190531 arXiv [Image Alignment in Unseen Domains via Domain Deep Generalization](https://arxiv.org/abs/1905.12028)
-    	- Deep domain generalization for image alignment
-    	- 深度领域泛化用于图像对齐
-
-	- 20190531 arXiv [Adaptive Deep Kernel Learning](https://arxiv.org/abs/1905.12131)
-    	- Adaptive deep kernel learning
-    	- 自适应深度核学习
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 

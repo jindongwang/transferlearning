@@ -6,29 +6,29 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 - - -
 
-- [Awesome Transfer Learning Papers](#awesome-transfer-learning-papers)
-	- [General Transfer Learning (普通迁移学习)](#general-transfer-learning-%E6%99%AE%E9%80%9A%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0)
-		- [Theory (理论)](#theory-%E7%90%86%E8%AE%BA)
-		- [Others (其他)](#others-%E5%85%B6%E4%BB%96)
-	- [Domain Adaptation (领域自适应)](#domain-adaptation-%E9%A2%86%E5%9F%9F%E8%87%AA%E9%80%82%E5%BA%94)
-		- [Traditional Methods (传统迁移方法)](#traditional-methods-%E4%BC%A0%E7%BB%9F%E8%BF%81%E7%A7%BB%E6%96%B9%E6%B3%95)
-		- [Deep / Adversarial Methods (深度/对抗迁移方法)](#deep--adversarial-methods-%E6%B7%B1%E5%BA%A6%E5%AF%B9%E6%8A%97%E8%BF%81%E7%A7%BB%E6%96%B9%E6%B3%95)
-	- [Domain Generalization](#domain-generalization)
-	- [Multi-source Transfer Learning (多源迁移学习)](#multi-source-transfer-learning-%E5%A4%9A%E6%BA%90%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0)
-	- [Heterogeneous Transfer Learning (异构迁移学习)](#heterogeneous-transfer-learning-%E5%BC%82%E6%9E%84%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0)
-	- [Online Transfer Learning (在线迁移学习)](#online-transfer-learning-%E5%9C%A8%E7%BA%BF%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0)
-	- [Zero-shot / Few-shot Learning](#zero-shot--few-shot-learning)
-		- [Zero-shot Learning based on Data Synthesis (基于样本生成的零样本学习)](#zero-shot-learning-based-on-data-synthesis-%E5%9F%BA%E4%BA%8E%E6%A0%B7%E6%9C%AC%E7%94%9F%E6%88%90%E7%9A%84%E9%9B%B6%E6%A0%B7%E6%9C%AC%E5%AD%A6%E4%B9%A0)
-	- [Deep Transfer Learning (深度迁移学习)](#deep-transfer-learning-%E6%B7%B1%E5%BA%A6%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0)
-		- [Non-Adversarial Transfer Learning (非对抗深度迁移)](#non-adversarial-transfer-learning-%E9%9D%9E%E5%AF%B9%E6%8A%97%E6%B7%B1%E5%BA%A6%E8%BF%81%E7%A7%BB)
-		- [Deep Adversarial Transfer Learning (对抗迁移学习)](#deep-adversarial-transfer-learning-%E5%AF%B9%E6%8A%97%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0)
-	- [Multi-task Learning (多任务学习)](#multi-task-learning-%E5%A4%9A%E4%BB%BB%E5%8A%A1%E5%AD%A6%E4%B9%A0)
-	- [Transfer Reinforcement Learning (强化迁移学习)](#transfer-reinforcement-learning-%E5%BC%BA%E5%8C%96%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0)
-	- [Transfer Metric Learning (迁移度量学习)](#transfer-metric-learning-%E8%BF%81%E7%A7%BB%E5%BA%A6%E9%87%8F%E5%AD%A6%E4%B9%A0)
-	- [Transitive Transfer Learning (传递迁移学习)](#transitive-transfer-learning-%E4%BC%A0%E9%80%92%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0)
-	- [Lifelong Learning (终身迁移学习)](#lifelong-learning-%E7%BB%88%E8%BA%AB%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0)
-	- [Negative Transfer (负迁移)](#negative-transfer-%E8%B4%9F%E8%BF%81%E7%A7%BB)
-	- [Transfer Learning Applications (应用)](#transfer-learning-applications-%E5%BA%94%E7%94%A8)
+- [Awesome Transfer Learning Papers](#Awesome-Transfer-Learning-Papers)
+	- [General Transfer Learning (普通迁移学习)](#General-Transfer-Learning-%E6%99%AE%E9%80%9A%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0)
+		- [Theory (理论)](#Theory-%E7%90%86%E8%AE%BA)
+		- [Others (其他)](#Others-%E5%85%B6%E4%BB%96)
+	- [Domain Adaptation (领域自适应)](#Domain-Adaptation-%E9%A2%86%E5%9F%9F%E8%87%AA%E9%80%82%E5%BA%94)
+		- [Traditional Methods (传统迁移方法)](#Traditional-Methods-%E4%BC%A0%E7%BB%9F%E8%BF%81%E7%A7%BB%E6%96%B9%E6%B3%95)
+		- [Deep / Adversarial Methods (深度/对抗迁移方法)](#Deep--Adversarial-Methods-%E6%B7%B1%E5%BA%A6%E5%AF%B9%E6%8A%97%E8%BF%81%E7%A7%BB%E6%96%B9%E6%B3%95)
+	- [Domain Generalization](#Domain-Generalization)
+	- [Multi-source Transfer Learning (多源迁移学习)](#Multi-source-Transfer-Learning-%E5%A4%9A%E6%BA%90%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0)
+	- [Heterogeneous Transfer Learning (异构迁移学习)](#Heterogeneous-Transfer-Learning-%E5%BC%82%E6%9E%84%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0)
+	- [Online Transfer Learning (在线迁移学习)](#Online-Transfer-Learning-%E5%9C%A8%E7%BA%BF%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0)
+	- [Zero-shot / Few-shot Learning](#Zero-shot--Few-shot-Learning)
+		- [Zero-shot Learning based on Data Synthesis (基于样本生成的零样本学习)](#Zero-shot-Learning-based-on-Data-Synthesis-%E5%9F%BA%E4%BA%8E%E6%A0%B7%E6%9C%AC%E7%94%9F%E6%88%90%E7%9A%84%E9%9B%B6%E6%A0%B7%E6%9C%AC%E5%AD%A6%E4%B9%A0)
+	- [Deep Transfer Learning (深度迁移学习)](#Deep-Transfer-Learning-%E6%B7%B1%E5%BA%A6%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0)
+		- [Non-Adversarial Transfer Learning (非对抗深度迁移)](#Non-Adversarial-Transfer-Learning-%E9%9D%9E%E5%AF%B9%E6%8A%97%E6%B7%B1%E5%BA%A6%E8%BF%81%E7%A7%BB)
+		- [Deep Adversarial Transfer Learning (对抗迁移学习)](#Deep-Adversarial-Transfer-Learning-%E5%AF%B9%E6%8A%97%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0)
+	- [Multi-task Learning (多任务学习)](#Multi-task-Learning-%E5%A4%9A%E4%BB%BB%E5%8A%A1%E5%AD%A6%E4%B9%A0)
+	- [Transfer Reinforcement Learning (强化迁移学习)](#Transfer-Reinforcement-Learning-%E5%BC%BA%E5%8C%96%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0)
+	- [Transfer Metric Learning (迁移度量学习)](#Transfer-Metric-Learning-%E8%BF%81%E7%A7%BB%E5%BA%A6%E9%87%8F%E5%AD%A6%E4%B9%A0)
+	- [Transitive Transfer Learning (传递迁移学习)](#Transitive-Transfer-Learning-%E4%BC%A0%E9%80%92%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0)
+	- [Lifelong Learning (终身迁移学习)](#Lifelong-Learning-%E7%BB%88%E8%BA%AB%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0)
+	- [Negative Transfer (负迁移)](#Negative-Transfer-%E8%B4%9F%E8%BF%81%E7%A7%BB)
+	- [Transfer Learning Applications (应用)](#Transfer-Learning-Applications-%E5%BA%94%E7%94%A8)
 
 - - -
 
@@ -61,6 +61,10 @@ Let's read some awesome transfer learning / domain adaptation papers.
 	- 对domain adaptation进行了一些理论上的分析
 
 ### Others (其他)
+
+- 20190718 arXiv [Measuring the Transferability of Adversarial Examples](https://arxiv.org/abs/1907.06291)
+  	- Measure the transferability of adversarial examples
+  	- 度量对抗样本的可迁移性
 
 - 20190626 arXiv [Transfer of Machine Learning Fairness across Domains](https://arxiv.org/abs/1906.09688)
   	- Transfer of machine learning fairness across domains
@@ -950,6 +954,10 @@ Including domain adaptation and partial domain adaptation.
 - - -
 
 ## Multi-task Learning (多任务学习)
+
+- 20190718 arXiv [Task Selection Policies for Multitask Learning](https://arxiv.org/abs/1907.06214)
+  	- Task selection in multitask learning
+  	- 在多任务学习中的任务选择机制
 
 - 20190509 FG-19 [Multi-task human analysis in still images: 2D/3D pose, depth map, and multi-part segmentation](https://arxiv.org/abs/1905.03003)
   	- Multi-task human analysis in still images
