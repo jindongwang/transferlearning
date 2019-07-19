@@ -302,6 +302,10 @@ Including domain adaptation and partial domain adaptation.
 
 ### Deep / Adversarial Methods (深度/对抗迁移方法)
 
+- 20190719 arXiv [Agile Domain Adaptation](https://arxiv.org/abs/1907.04978)
+  	- Domain adaptation by considering the difficulty in classification
+  	- 通过考虑不同样本分离的难度进行domain adaptation
+
 - 20190718 arXiv [Measuring the Transferability of Adversarial Examples](https://arxiv.org/abs/1907.06291)
   	- Measure the transferability of adversarial examples
   	- 度量对抗样本的可迁移性

@@ -62,6 +62,10 @@ author = {Wang, Jindong and others}
 
 - **Preprints on arXiv** (Not peer-reviewed)
 
+	- 20190719 arXiv [Agile Domain Adaptation](https://arxiv.org/abs/1907.04978)
+    	- Domain adaptation by considering the difficulty in classification
+    	- 通过考虑不同样本分离的难度进行domain adaptation
+
     - 20190718 arXiv [Task Selection Policies for Multitask Learning](https://arxiv.org/abs/1907.06214)
     	- Task selection in multitask learning
     	- 在多任务学习中的任务选择机制
@@ -73,10 +77,6 @@ author = {Wang, Jindong and others}
 	- 20190703 arXiv [Disentangled Makeup Transfer with Generative Adversarial Network](https://arxiv.org/abs/1907.01144)
     	- Makeup transfer with GAN
     	- 用GAN进行化妆的迁移
-
-	- 20190703 arXiv [Applying Transfer Learning To Deep Learned Models For EEG Analysis](https://arxiv.org/abs/1907.01332)
-    	- Apply transfer learning to EEG
-    	- 用深度迁移学习进行EEG分析
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
