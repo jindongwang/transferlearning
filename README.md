@@ -44,6 +44,10 @@ author = {Wang, Jindong and others}
 
 - **Latest publications**
 
+	- 20190719 IEEE Access [A Survey of Sentiment Analysis Based on Transfer Learning](https://ieeexplore.ieee.org/abstract/document/8746210)
+    	- A Survey of Sentiment Analysis Based on Transfer Learning
+    	- 一篇用transfer learning进行sentiment classification的综述
+
 	- 20190604 IJCAI-19 [DANE: Domain Adaptive Network Embedding](https://arxiv.org/abs/1906.00684)
     	- Transfered network embeddings for different networks
     	- 不同网络表达的迁移
@@ -158,6 +162,7 @@ Here are some articles on transfer learning theory and survey.
 
 - 较新的综述 Latest survey：
 
+    - 用transfer learning进行sentiment classification的综述：[A Survey of Sentiment Analysis Based on Transfer Learning](https://ieeexplore.ieee.org/abstract/document/8746210) 
 	- 2019 一篇新survey：[Transfer Adaptation Learning: A Decade Survey](https://arxiv.org/abs/1903.04687)
 	- 2018 一篇迁移度量学习的综述: [Transfer Metric Learning: Algorithms, Applications and Outlooks](https://arxiv.org/abs/1810.03944)
 	- 2018 一篇最近的非对称情况下的异构迁移学习综述：[Asymmetric Heterogeneous Transfer Learning: A Survey](https://arxiv.org/abs/1804.10834)
