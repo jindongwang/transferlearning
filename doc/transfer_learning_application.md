@@ -2,6 +2,10 @@
 
 迁移学习的应用
 
+- 20190729 MICCAI-19 [Annotation-Free Cardiac Vessel Segmentation via Knowledge Transfer from Retinal Images](https://arxiv.org/abs/1907.11483)
+  	- Cardiac vessel segmentation using transfer learning from Retinal Images
+  	- 用视网膜图片进行迁移学习用于心脏血管分割
+
 - 20190703 arXiv [Disentangled Makeup Transfer with Generative Adversarial Network](https://arxiv.org/abs/1907.01144)
   	- Makeup transfer with GAN
   	- 用GAN进行化妆的迁移

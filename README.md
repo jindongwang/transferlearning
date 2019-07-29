@@ -16,19 +16,19 @@ author = {Wang, Jindong and others}
 }  
 ```
   
-- [迁移学习 Transfer Learning](#%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0-Transfer-Learning)
-	- [0.Latest Publications (最新论文)](#0Latest-Publications-%E6%9C%80%E6%96%B0%E8%AE%BA%E6%96%87)
-	- [1.Introduction and Tutorials (简介与教程)](#1Introduction-and-Tutorials-%E7%AE%80%E4%BB%8B%E4%B8%8E%E6%95%99%E7%A8%8B)
-	- [2.Transfer Learning Areas and Papers (研究领域与相关论文)](#2Transfer-Learning-Areas-and-Papers-%E7%A0%94%E7%A9%B6%E9%A2%86%E5%9F%9F%E4%B8%8E%E7%9B%B8%E5%85%B3%E8%AE%BA%E6%96%87)
-	- [3.Theory and Survey (理论与综述)](#3Theory-and-Survey-%E7%90%86%E8%AE%BA%E4%B8%8E%E7%BB%BC%E8%BF%B0)
-	- [4.Code (代码)](#4Code-%E4%BB%A3%E7%A0%81)
-	- [5.Transfer Learning Scholars (著名学者)](#5Transfer-Learning-Scholars-%E8%91%97%E5%90%8D%E5%AD%A6%E8%80%85)
-	- [6.Transfer Learning Thesis (硕博士论文)](#6Transfer-Learning-Thesis-%E7%A1%95%E5%8D%9A%E5%A3%AB%E8%AE%BA%E6%96%87)
-	- [7.Datasets and Benchmarks (数据集与评测结果)](#7Datasets-and-Benchmarks-%E6%95%B0%E6%8D%AE%E9%9B%86%E4%B8%8E%E8%AF%84%E6%B5%8B%E7%BB%93%E6%9E%9C)
-	- [8.Transfer Learning Challenges (迁移学习比赛)](#8Transfer-Learning-Challenges-%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0%E6%AF%94%E8%B5%9B)
-	- [Applications (迁移学习应用)](#Applications-%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0%E5%BA%94%E7%94%A8)
-	- [Other Resources (其他资源)](#Other-Resources-%E5%85%B6%E4%BB%96%E8%B5%84%E6%BA%90)
-	- [Contributing (欢迎参与贡献)](#Contributing-%E6%AC%A2%E8%BF%8E%E5%8F%82%E4%B8%8E%E8%B4%A1%E7%8C%AE)
+- [迁移学习 Transfer Learning](#%e8%bf%81%e7%a7%bb%e5%ad%a6%e4%b9%a0-transfer-learning)
+	- [0.Latest Publications (最新论文)](#0latest-publications-%e6%9c%80%e6%96%b0%e8%ae%ba%e6%96%87)
+	- [1.Introduction and Tutorials (简介与教程)](#1introduction-and-tutorials-%e7%ae%80%e4%bb%8b%e4%b8%8e%e6%95%99%e7%a8%8b)
+	- [2.Transfer Learning Areas and Papers (研究领域与相关论文)](#2transfer-learning-areas-and-papers-%e7%a0%94%e7%a9%b6%e9%a2%86%e5%9f%9f%e4%b8%8e%e7%9b%b8%e5%85%b3%e8%ae%ba%e6%96%87)
+	- [3.Theory and Survey (理论与综述)](#3theory-and-survey-%e7%90%86%e8%ae%ba%e4%b8%8e%e7%bb%bc%e8%bf%b0)
+	- [4.Code (代码)](#4code-%e4%bb%a3%e7%a0%81)
+	- [5.Transfer Learning Scholars (著名学者)](#5transfer-learning-scholars-%e8%91%97%e5%90%8d%e5%ad%a6%e8%80%85)
+	- [6.Transfer Learning Thesis (硕博士论文)](#6transfer-learning-thesis-%e7%a1%95%e5%8d%9a%e5%a3%ab%e8%ae%ba%e6%96%87)
+	- [7.Datasets and Benchmarks (数据集与评测结果)](#7datasets-and-benchmarks-%e6%95%b0%e6%8d%ae%e9%9b%86%e4%b8%8e%e8%af%84%e6%b5%8b%e7%bb%93%e6%9e%9c)
+	- [8.Transfer Learning Challenges (迁移学习比赛)](#8transfer-learning-challenges-%e8%bf%81%e7%a7%bb%e5%ad%a6%e4%b9%a0%e6%af%94%e8%b5%9b)
+	- [Applications (迁移学习应用)](#applications-%e8%bf%81%e7%a7%bb%e5%ad%a6%e4%b9%a0%e5%ba%94%e7%94%a8)
+	- [Other Resources (其他资源)](#other-resources-%e5%85%b6%e4%bb%96%e8%b5%84%e6%ba%90)
+	- [Contributing (欢迎参与贡献)](#contributing-%e6%ac%a2%e8%bf%8e%e5%8f%82%e4%b8%8e%e8%b4%a1%e7%8c%ae)
 
 > 关于机器学习和行为识别的资料，请参考：[行为识别](https://github.com/jindongwang/activityrecognition)｜[机器学习](https://github.com/jindongwang/MachineLearning)
 
@@ -44,6 +44,14 @@ author = {Wang, Jindong and others}
 
 - **Latest publications**
 
+	- 20190729 MICCAI-19 [Annotation-Free Cardiac Vessel Segmentation via Knowledge Transfer from Retinal Images](https://arxiv.org/abs/1907.11483)
+    	- Cardiac vessel segmentation using transfer learning from Retinal Images
+    	- 用视网膜图片进行迁移学习用于心脏血管分割
+
+	- 20190729 ICCV workshop [Multi-level Domain Adaptive learning for Cross-Domain Detection](https://arxiv.org/abs/1907.11484)
+    	- Multi-level domain adaptation for cross-domain Detection
+    	- 多层次的domain adaptation
+
 	- 20190719 IEEE Access [A Survey of Sentiment Analysis Based on Transfer Learning](https://ieeexplore.ieee.org/abstract/document/8746210)
     	- A Survey of Sentiment Analysis Based on Transfer Learning
     	- 一篇用transfer learning进行sentiment classification的综述
@@ -52,13 +60,6 @@ author = {Wang, Jindong and others}
     	- Transfered network embeddings for different networks
     	- 不同网络表达的迁移
 
-	- 20190531 IJCAI-19 [Adversarial Imitation Learning from Incomplete Demonstrations](https://arxiv.org/abs/1905.12310)
-    	- Adversarial imitation learning from imcomplete demonstrations
-    	- 基于不完整实例的对抗模仿学习
-
-	- 20190525 PAMI-19 [Learning More Universal Representations for Transfer-Learning](https://ieeexplore.ieee.org/abstract/document/8703078)
-    	- Learning more universal representations for transfer learning
-    	- 对迁移学习设计2种方式学到更通用的表达
 
 - **Preprints on arXiv** (Not peer-reviewed)
 
