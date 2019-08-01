@@ -2,6 +2,10 @@
 
 迁移学习的应用
 
+- 20190731 MICCAI-19 [Unsupervised Domain Adaptation via Disentangled Representations: Application to Cross-Modality Liver Segmentation](https://arxiv.org/abs/1907.13590)
+    - Disentangled representations for unsupervised domain adaptation
+    - 基于解耦表征的无监督领域自适应
+
 - 20190729 MICCAI-19 [Annotation-Free Cardiac Vessel Segmentation via Knowledge Transfer from Retinal Images](https://arxiv.org/abs/1907.11483)
   	- Cardiac vessel segmentation using transfer learning from Retinal Images
   	- 用视网膜图片进行迁移学习用于心脏血管分割

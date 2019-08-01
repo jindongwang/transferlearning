@@ -302,6 +302,10 @@ Including domain adaptation and partial domain adaptation.
 
 ### Deep / Adversarial Methods (深度/对抗迁移方法)
 
+- 20190731 MICCAI-19 [Unsupervised Domain Adaptation via Disentangled Representations: Application to Cross-Modality Liver Segmentation](https://arxiv.org/abs/1907.13590)
+	- Disentangled representations for unsupervised domain adaptation
+	- 基于解耦表征的无监督领域自适应
+
 - 20190719 arXiv [Agile Domain Adaptation](https://arxiv.org/abs/1907.04978)
   	- Domain adaptation by considering the difficulty in classification
   	- 通过考虑不同样本分离的难度进行domain adaptation
