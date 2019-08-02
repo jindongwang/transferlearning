@@ -2,6 +2,10 @@
 
 迁移学习的应用
 
+- 20190802 arXiv [Towards More Accurate Automatic Sleep Staging via Deep Transfer Learning](https://arxiv.org/abs/1907.13177)
+  	- Accurate Sleep Staging with deep transfer learning
+  	- 用深度迁移学习进行精准的睡眠阶段估计
+
 - 20190729 MICCAI-19 [Annotation-Free Cardiac Vessel Segmentation via Knowledge Transfer from Retinal Images](https://arxiv.org/abs/1907.11483)
   	- Cardiac vessel segmentation using transfer learning from Retinal Images
   	- 用视网膜图片进行迁移学习用于心脏血管分割

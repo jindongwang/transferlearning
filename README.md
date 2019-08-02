@@ -63,6 +63,10 @@ author = {Wang, Jindong and others}
 
 - **Preprints on arXiv** (Not peer-reviewed)
 
+	- 20190802 arXiv [Towards More Accurate Automatic Sleep Staging via Deep Transfer Learning](https://arxiv.org/abs/1907.13177)
+    	- Accurate Sleep Staging with deep transfer learning
+    	- 用深度迁移学习进行精准的睡眠阶段估计
+
 	- 20190719 arXiv [Agile Domain Adaptation](https://arxiv.org/abs/1907.04978)
     	- Domain adaptation by considering the difficulty in classification
     	- 通过考虑不同样本分离的难度进行domain adaptation
@@ -75,9 +79,6 @@ author = {Wang, Jindong and others}
     	- Measure the transferability of adversarial examples
     	- 度量对抗样本的可迁移性
 
-	- 20190703 arXiv [Disentangled Makeup Transfer with Generative Adversarial Network](https://arxiv.org/abs/1907.01144)
-    	- Makeup transfer with GAN
-    	- 用GAN进行化妆的迁移
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
