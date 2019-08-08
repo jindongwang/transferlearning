@@ -44,6 +44,14 @@ author = {Wang, Jindong and others}
 
 - **Latest publications**
 
+	- 20190806 KDD-19 [Relation Extraction via Domain-aware Transfer Learning](https://dl.acm.org/citation.cfm?id=3330890)
+    	- Relation extraction using transfer learning for knowledge base construction
+    	- 利用迁移学习进行关系抽取
+
+	- 20190731 MICCAI-19 Unsupervised Domain Adaptation via Disentangled Representations: Application to Cross-Modality Liver Segmentation
+    	- Disentangled representations for unsupervised domain adaptation
+		- 基于解耦表征的无监督领域自适应
+
 	- 20190729 MICCAI-19 [Annotation-Free Cardiac Vessel Segmentation via Knowledge Transfer from Retinal Images](https://arxiv.org/abs/1907.11483)
     	- Cardiac vessel segmentation using transfer learning from Retinal Images
     	- 用视网膜图片进行迁移学习用于心脏血管分割
@@ -55,10 +63,6 @@ author = {Wang, Jindong and others}
 	- 20190719 IEEE Access [A Survey of Sentiment Analysis Based on Transfer Learning](https://ieeexplore.ieee.org/abstract/document/8746210)
     	- A Survey of Sentiment Analysis Based on Transfer Learning
     	- 一篇用transfer learning进行sentiment classification的综述
-
-	- 20190604 IJCAI-19 [DANE: Domain Adaptive Network Embedding](https://arxiv.org/abs/1906.00684)
-    	- Transfered network embeddings for different networks
-    	- 不同网络表达的迁移
 
 
 - **Preprints on arXiv** (Not peer-reviewed)

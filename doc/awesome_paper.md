@@ -62,6 +62,10 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 ### Others (其他)
 
+- 20190806 KDD-19 [Relation Extraction via Domain-aware Transfer Learning](https://dl.acm.org/citation.cfm?id=3330890)
+    - Relation extraction using transfer learning for knowledge base construction
+    - 利用迁移学习进行关系抽取
+
 - 20190703 arXiv [Inferred successor maps for better transfer learning](https://arxiv.org/abs/1906.07663)
   	- Inferred successor maps for better transfer learning
 
@@ -301,6 +305,10 @@ Including domain adaptation and partial domain adaptation.
 	- 发表在IEEE Trans. Knowledge and Data Engineering期刊上
 
 ### Deep / Adversarial Methods (深度/对抗迁移方法)
+
+- 20190731 MICCAI-19 Unsupervised Domain Adaptation via Disentangled Representations: Application to Cross-Modality Liver Segmentation
+  	- Disentangled representations for unsupervised domain adaptation
+    - 基于解耦表征的无监督领域自适应
 
 - 20190719 arXiv [Agile Domain Adaptation](https://arxiv.org/abs/1907.04978)
   	- Domain adaptation by considering the difficulty in classification
