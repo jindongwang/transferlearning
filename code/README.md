@@ -179,6 +179,15 @@ Testing **dataset** can be found [here](https://github.com/jindongwang/transferl
 - **L2T_ww** (Learning What and Where to Transfer, ICML-19) [68]
     - [Pytorch](https://github.com/alinlab/L2T-ww)  
 
+## Applications
+
+- Learning to select data for transfer learning with Bayesian Optimization (EMNLP-17) [69]
+	- [Python](https://github.com/sebastianruder/learn-to-select-data)
+
+- **SDG4DA** (Reinforced Training Data Selection for Domain Adaptation, ACL-19) [70]
+    - [Tensorflow](https://github.com/timerstime/SDG4DA)
+
+
 
 - - -
 
@@ -323,3 +332,7 @@ accepted in International Conference on Computer Vision (ICCV 2015), Santiago, C
 [67] Huang J, Gretton A, Borgwardt K, et al. Correcting sample selection bias by unlabeled data[C]//Advances in neural information processing systems. 2007: 601-608.
 
 [68] Yunhun Jang, Hankook Lee, Sung Ju Hwang, Jinwoo Shin. Learning what and where to transfer. ICML 2019.
+
+[69] Sebastian Ruder, Barbara Plank (2017). Learning to select data for transfer learning with Bayesian Optimization. In Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing, Copenhagen, Denmark.
+
+[70] Liu M, Song Y, Zou H, et al. Reinforced Training Data Selection for Domain Adaptation[C]//Proceedings of the 57th Conference of the Association for Computational Linguistics. 2019: 1957-1968.
