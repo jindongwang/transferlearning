@@ -306,6 +306,34 @@ Including domain adaptation and partial domain adaptation.
 
 ### Deep / Adversarial Methods (深度/对抗迁移方法)
 
+- 20190809 arXiv [Multi-Purposing Domain Adaptation Discriminators for Pseudo Labeling Confidence](https://arxiv.org/abs/1907.07802)
+  	- Improve pseudo label confidence using multi-purposing DA
+  	- 用多目标DA提高伪标签准确率
+
+- 20190809 arXiv [Semi-supervised representation learning via dual autoencoders for domain adaptation](https://arxiv.org/abs/1908.01342)
+  	- Semi-supervised learning via autoencoders
+  	- 半监督autoencoder用于DA
+
+- 20190809 arXiv [Mind2Mind : transfer learning for GANs](https://arxiv.org/abs/1906.11613)
+  	- Transfer learning using GANs
+  	- 用GAN进行迁移学习
+
+- 20190809 arXiv [Self-supervised Domain Adaptation for Computer Vision Tasks](https://arxiv.org/abs/1907.10915)
+  	- Self-supervised DA
+  	- 自监督DA
+
+- 20190809 arXiv [Hidden Covariate Shift: A Minimal Assumption For Domain Adaptation](https://arxiv.org/abs/1907.12299)
+  	- Hidden covariate shift 
+  	- 一种新的DA假设
+
+- 20190809 PR-19 [Cross-domain Network Representations](https://arxiv.org/abs/1908.00205)
+  - Cross-domain network representation learning
+  - 跨领域网络表达学习
+
+- 20190809 ICCV-19 [Larger Norm More Transferable: An Adaptive Feature Norm Approach for Unsupervised Domain Adaptation](https://arxiv.org/abs/1811.07456)
+  - Adaptive Feature Norm Approach for Unsupervised Domain Adaptation
+  - 自适应的特征归一化用于DA
+
 - 20190731 MICCAI-19 Unsupervised Domain Adaptation via Disentangled Representations: Application to Cross-Modality Liver Segmentation
   	- Disentangled representations for unsupervised domain adaptation
     - 基于解耦表征的无监督领域自适应

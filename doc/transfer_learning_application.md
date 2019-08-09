@@ -2,6 +2,18 @@
 
 迁移学习的应用
 
+- 20190809 ICCASP-19 [Cross-lingual Text-independent Speaker Verification using Unsupervised Adversarial Discriminative Domain Adaptation](https://arxiv.org/abs/1908.01447)
+  	- Text independent speaker verification using adversarial DA
+  	- 文本无关的speaker verification用DA
+
+- 20190809 IJCAI-19 [Progressive Transfer Learning for Person Re-identification](https://arxiv.org/abs/1908.02492)
+  	- Progressive transfer learning for RE_ID
+  	- 渐进式迁移学习用于RE_ID
+
+- 20190809 NeurIPS-18 [MacNet: Transferring Knowledge from Machine Comprehension to Sequence-to-Sequence Models](https://arxiv.org/abs/1908.01816)
+  	- Transfer learning from machine comprehension to sequence to senquence Models
+  	- 从机器理解到序列模型迁移
+
 - 20190802 arXiv [Towards More Accurate Automatic Sleep Staging via Deep Transfer Learning](https://arxiv.org/abs/1907.13177)
   	- Accurate Sleep Staging with deep transfer learning
   	- 用深度迁移学习进行精准的睡眠阶段估计

@@ -44,44 +44,48 @@ author = {Wang, Jindong and others}
 
 - **Latest publications**
 
-	- 20190806 KDD-19 [Relation Extraction via Domain-aware Transfer Learning](https://dl.acm.org/citation.cfm?id=3330890)
-    	- Relation extraction using transfer learning for knowledge base construction
-    	- 利用迁移学习进行关系抽取
+	- 20190809 PR-19 [Cross-domain Network Representations](https://arxiv.org/abs/1908.00205)
+		- Cross-domain network representation learning
+		- 跨领域网络表达学习
 
-	- 20190731 MICCAI-19 Unsupervised Domain Adaptation via Disentangled Representations: Application to Cross-Modality Liver Segmentation
-    	- Disentangled representations for unsupervised domain adaptation
-		- 基于解耦表征的无监督领域自适应
+	- 20190809 ICCV-19 [Larger Norm More Transferable: An Adaptive Feature Norm Approach for Unsupervised Domain Adaptation](https://arxiv.org/abs/1811.07456)
+		- Adaptive Feature Norm Approach for Unsupervised Domain Adaptation
+		- 自适应的特征归一化用于DA
 
-	- 20190729 MICCAI-19 [Annotation-Free Cardiac Vessel Segmentation via Knowledge Transfer from Retinal Images](https://arxiv.org/abs/1907.11483)
-    	- Cardiac vessel segmentation using transfer learning from Retinal Images
-    	- 用视网膜图片进行迁移学习用于心脏血管分割
+	- 20190809 ICCASP-19 [Cross-lingual Text-independent Speaker Verification using Unsupervised Adversarial Discriminative Domain Adaptation](https://arxiv.org/abs/1908.01447)
+    	- Text independent speaker verification using adversarial DA
+    	- 文本无关的speaker verification用DA
+	
+	- 20190809 IJCAI-19 [Progressive Transfer Learning for Person Re-identification](https://arxiv.org/abs/1908.02492)
+    	- Progressive transfer learning for RE_ID
+    	- 渐进式迁移学习用于RE_ID
 
-	- 20190729 ICCV workshop [Multi-level Domain Adaptive learning for Cross-Domain Detection](https://arxiv.org/abs/1907.11484)
-    	- Multi-level domain adaptation for cross-domain Detection
-    	- 多层次的domain adaptation
-
-	- 20190719 IEEE Access [A Survey of Sentiment Analysis Based on Transfer Learning](https://ieeexplore.ieee.org/abstract/document/8746210)
-    	- A Survey of Sentiment Analysis Based on Transfer Learning
-    	- 一篇用transfer learning进行sentiment classification的综述
+	- 20190809 NeurIPS-18 [MacNet: Transferring Knowledge from Machine Comprehension to Sequence-to-Sequence Models](https://arxiv.org/abs/1908.01816)
+    	- Transfer learning from machine comprehension to sequence to senquence Models
+    	- 从机器理解到序列模型迁移
 
 
 - **Preprints on arXiv** (Not peer-reviewed)
 
-	- 20190802 arXiv [Towards More Accurate Automatic Sleep Staging via Deep Transfer Learning](https://arxiv.org/abs/1907.13177)
-    	- Accurate Sleep Staging with deep transfer learning
-    	- 用深度迁移学习进行精准的睡眠阶段估计
+	- 20190809 arXiv [Multi-Purposing Domain Adaptation Discriminators for Pseudo Labeling Confidence](https://arxiv.org/abs/1907.07802)
+    	- Improve pseudo label confidence using multi-purposing DA
+    	- 用多目标DA提高伪标签准确率
 
-	- 20190719 arXiv [Agile Domain Adaptation](https://arxiv.org/abs/1907.04978)
-    	- Domain adaptation by considering the difficulty in classification
-    	- 通过考虑不同样本分离的难度进行domain adaptation
+	- 20190809 arXiv [Semi-supervised representation learning via dual autoencoders for domain adaptation](https://arxiv.org/abs/1908.01342)
+    	- Semi-supervised learning via autoencoders
+    	- 半监督autoencoder用于DA
 
-    - 20190718 arXiv [Task Selection Policies for Multitask Learning](https://arxiv.org/abs/1907.06214)
-    	- Task selection in multitask learning
-    	- 在多任务学习中的任务选择机制
+	- 20190809 arXiv [Mind2Mind : transfer learning for GANs](https://arxiv.org/abs/1906.11613)
+    	- Transfer learning using GANs
+    	- 用GAN进行迁移学习
 
-	- 20190718 arXiv [Measuring the Transferability of Adversarial Examples](https://arxiv.org/abs/1907.06291)
-    	- Measure the transferability of adversarial examples
-    	- 度量对抗样本的可迁移性
+	- 20190809 arXiv [Self-supervised Domain Adaptation for Computer Vision Tasks](https://arxiv.org/abs/1907.10915)
+    	- Self-supervised DA
+    	- 自监督DA
+
+	- 20190809 arXiv [Hidden Covariate Shift: A Minimal Assumption For Domain Adaptation](https://arxiv.org/abs/1907.12299)
+    	- Hidden covariate shift 
+    	- 一种新的DA假设
 
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
