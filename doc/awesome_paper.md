@@ -306,6 +306,10 @@ Including domain adaptation and partial domain adaptation.
 
 ### Deep / Adversarial Methods (深度/对抗迁移方法)
 
+- 20190813 ICCV-19 oral [UM-Adapt: Unsupervised Multi-Task Adaptation Using Adversarial Cross-Task Distillation](https://arxiv.org/abs/1908.03884)
+  	- A unified framework for domain adaptation
+  	- 一个统一的用于domain adaptation的框架
+
 - 20190809 arXiv [Multi-Purposing Domain Adaptation Discriminators for Pseudo Labeling Confidence](https://arxiv.org/abs/1907.07802)
   	- Improve pseudo label confidence using multi-purposing DA
   	- 用多目标DA提高伪标签准确率
@@ -560,6 +564,10 @@ Including domain adaptation and partial domain adaptation.
 - - -
 
 ## Zero-shot / Few-shot Learning
+
+- 20190813 arXiv [Domain-Specific Embedding Network for Zero-Shot Recognition](https://arxiv.org/abs/1908.04174)
+  	- Domain-specific embedding network for zero-shot learning
+  	- 领域自适应的zero-shot learning
 
 - 20190401 TIp-19 [Few-Shot Deep Adversarial Learning for Video-based Person Re-identification](https://arxiv.org/abs/1903.12395)
     - Few-shot deep adversarial learning

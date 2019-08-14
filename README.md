@@ -44,6 +44,14 @@ author = {Wang, Jindong and others}
 
 - **Latest publications**
 
+	- 20190813 ICCV-19 oral [UM-Adapt: Unsupervised Multi-Task Adaptation Using Adversarial Cross-Task Distillation](https://arxiv.org/abs/1908.03884)
+    	- A unified framework for domain adaptation
+    	- 一个统一的用于domain adaptation的框架
+
+	- 20190813 IJAIT [Transferring knowledge from monitored to unmonitored areas for forecasting parking spaces](https://arxiv.org/abs/1908.03629)
+		- Transfer learning for forecasting parking spaces
+		- 用迁移学习预测停车空间
+
 	- 20190809 PR-19 [Cross-domain Network Representations](https://arxiv.org/abs/1908.00205)
 		- Cross-domain network representation learning
 		- 跨领域网络表达学习
@@ -55,17 +63,13 @@ author = {Wang, Jindong and others}
 	- 20190809 ICCASP-19 [Cross-lingual Text-independent Speaker Verification using Unsupervised Adversarial Discriminative Domain Adaptation](https://arxiv.org/abs/1908.01447)
     	- Text independent speaker verification using adversarial DA
     	- 文本无关的speaker verification用DA
-	
-	- 20190809 IJCAI-19 [Progressive Transfer Learning for Person Re-identification](https://arxiv.org/abs/1908.02492)
-    	- Progressive transfer learning for RE_ID
-    	- 渐进式迁移学习用于RE_ID
-
-	- 20190809 NeurIPS-18 [MacNet: Transferring Knowledge from Machine Comprehension to Sequence-to-Sequence Models](https://arxiv.org/abs/1908.01816)
-    	- Transfer learning from machine comprehension to sequence to senquence Models
-    	- 从机器理解到序列模型迁移
 
 
 - **Preprints on arXiv** (Not peer-reviewed)
+
+	- 20190813 arXiv [Domain-Specific Embedding Network for Zero-Shot Recognition](https://arxiv.org/abs/1908.04174)
+    	- Domain-specific embedding network for zero-shot learning
+    	- 领域自适应的zero-shot learning
 
 	- 20190809 arXiv [Multi-Purposing Domain Adaptation Discriminators for Pseudo Labeling Confidence](https://arxiv.org/abs/1907.07802)
     	- Improve pseudo label confidence using multi-purposing DA
@@ -82,10 +86,6 @@ author = {Wang, Jindong and others}
 	- 20190809 arXiv [Self-supervised Domain Adaptation for Computer Vision Tasks](https://arxiv.org/abs/1907.10915)
     	- Self-supervised DA
     	- 自监督DA
-
-	- 20190809 arXiv [Hidden Covariate Shift: A Minimal Assumption For Domain Adaptation](https://arxiv.org/abs/1907.12299)
-    	- Hidden covariate shift 
-    	- 一种新的DA假设
 
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)

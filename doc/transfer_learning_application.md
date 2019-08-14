@@ -2,6 +2,11 @@
 
 迁移学习的应用
 
+- 20190813 IJAIT [Transferring knowledge from monitored to unmonitored areas for forecasting parking spaces](https://arxiv.org/abs/1908.03629)
+    - Transfer learning for forecasting parking spaces
+    - 用迁移学习预测停车空间
+
+
 - 20190809 ICCASP-19 [Cross-lingual Text-independent Speaker Verification using Unsupervised Adversarial Discriminative Domain Adaptation](https://arxiv.org/abs/1908.01447)
   	- Text independent speaker verification using adversarial DA
   	- 文本无关的speaker verification用DA
