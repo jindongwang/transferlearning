@@ -178,6 +178,8 @@ Testing **dataset** can be found [here](https://github.com/jindongwang/transferl
     - [Python](https://github.com/lorenmt/mtan)
 - **L2T_ww** (Learning What and Where to Transfer, ICML-19) [68]
     - [Pytorch](https://github.com/alinlab/L2T-ww)  
+- **SSDA_MME** (Semi-supervised Domain Adaptation via Minimax Entropy, ICCV-19) [71]
+    - [Pytorch](https://github.com/VisionLearningGroup/SSDA_MME)
 
 ## Applications
 
@@ -336,3 +338,5 @@ accepted in International Conference on Computer Vision (ICCV 2015), Santiago, C
 [69] Sebastian Ruder, Barbara Plank (2017). Learning to select data for transfer learning with Bayesian Optimization. In Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing, Copenhagen, Denmark.
 
 [70] Liu M, Song Y, Zou H, et al. Reinforced Training Data Selection for Domain Adaptation[C]//Proceedings of the 57th Conference of the Association for Computational Linguistics. 2019: 1957-1968.
+
+[71] Saito K, Kim D, Sclaroff S, et al. Semi-supervised Domain Adaptation via Minimax Entropy. ICCV 2019.
