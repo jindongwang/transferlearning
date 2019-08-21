@@ -67,25 +67,21 @@ author = {Wang, Jindong and others}
 
 - **Preprints on arXiv** (Not peer-reviewed)
 
+	- 20190821 arXiv [Transfer Learning-Based Label Proportions Method with Data of Uncertainty](https://arxiv.org/abs/1908.06603)
+    	- Transfer learning with source and target having uncertainty
+    	- 当source和target都有不确定label时进行迁移
+
+	- 20190821 arXiv [Transfer in Deep Reinforcement Learning using Knowledge Graphs](https://arxiv.org/abs/1908.06556)
+    	- Use knowledge graph to transfer in reinforcement learning
+    	- 用知识图谱进行强化迁移
+
+	- 20190821 arXiv [Shallow Domain Adaptive Embeddings for Sentiment Analysis](https://arxiv.org/abs/1908.06082)
+    	- Domain adaptative embedding for sentiment analysis
+    	- 迁移学习用于情感分类
+
 	- 20190813 arXiv [Domain-Specific Embedding Network for Zero-Shot Recognition](https://arxiv.org/abs/1908.04174)
     	- Domain-specific embedding network for zero-shot learning
     	- 领域自适应的zero-shot learning
-
-	- 20190809 arXiv [Multi-Purposing Domain Adaptation Discriminators for Pseudo Labeling Confidence](https://arxiv.org/abs/1907.07802)
-    	- Improve pseudo label confidence using multi-purposing DA
-    	- 用多目标DA提高伪标签准确率
-
-	- 20190809 arXiv [Semi-supervised representation learning via dual autoencoders for domain adaptation](https://arxiv.org/abs/1908.01342)
-    	- Semi-supervised learning via autoencoders
-    	- 半监督autoencoder用于DA
-
-	- 20190809 arXiv [Mind2Mind : transfer learning for GANs](https://arxiv.org/abs/1906.11613)
-    	- Transfer learning using GANs
-    	- 用GAN进行迁移学习
-
-	- 20190809 arXiv [Self-supervised Domain Adaptation for Computer Vision Tasks](https://arxiv.org/abs/1907.10915)
-    	- Self-supervised DA
-    	- 自监督DA
 
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)

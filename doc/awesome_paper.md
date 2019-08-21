@@ -62,6 +62,10 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 ### Others (其他)
 
+- 20190821 arXiv [Transfer Learning-Based Label Proportions Method with Data of Uncertainty](https://arxiv.org/abs/1908.06603)
+  	- Transfer learning with source and target having uncertainty
+  	- 当source和target都有不确定label时进行迁移
+
 - 20190806 KDD-19 [Relation Extraction via Domain-aware Transfer Learning](https://dl.acm.org/citation.cfm?id=3330890)
     - Relation extraction using transfer learning for knowledge base construction
     - 利用迁移学习进行关系抽取
@@ -1073,6 +1077,10 @@ Including domain adaptation and partial domain adaptation.
 - - -
 
 ## Transfer Reinforcement Learning (强化迁移学习)
+
+- 20190821 arXiv [Transfer in Deep Reinforcement Learning using Knowledge Graphs](https://arxiv.org/abs/1908.06556)
+  	- Use knowledge graph to transfer in reinforcement learning
+  	- 用知识图谱进行强化迁移
 
 - 20190320 arXiv [Learning to Augment Synthetic Images for Sim2Real Policy Transfer](https://arxiv.org/abs/1903.07740)
     - Augment synthetic images for sim to real policy transfer
