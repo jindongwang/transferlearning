@@ -70,7 +70,8 @@ def load_data(src, tar, root_dir):
     target_train_loader = data_loader.load_data(
         root_dir, tar, CFG['batch_size'], False, CFG['kwargs'])
     target_test_loader = data_loader.load_data(
-        root_dir, tar, CFG['batch_size'], False, CFG['kwargs'])            
+        root_dir, tar, CFG['batch_size'], False, CFG['kwargs'])    
+    return source_loader, target_train_loader, target_test_loader        
 
 if __name__ == '__main__':
     torch.manual_seed(CFG['seed'])
