@@ -2,6 +2,18 @@
 
 迁移学习的应用
 
+- 20190828 MICCAI-19 workshop [Cross-modality Knowledge Transfer for Prostate Segmentation from CT Scans](https://arxiv.org/abs/1908.10208)
+  	- Cross-modality transfer for prostate segmentation
+  	- 跨模态的迁移用于前列腺分割
+
+- 20180828 ICCV-19 workshop [Unsupervised Deep Feature Transfer for Low Resolution Image Classification](https://arxiv.org/abs/1908.10012)
+  	- Deep feature transfer for low resolution image classification
+  	- 深度特征迁移用于低分辨率图像分类
+
+- 20190828 arXiv [VAE-based Domain Adaptation for Speaker Verification](https://arxiv.org/abs/1908.10092)
+  	- Speaker verification using VAE domain adaptation
+  	- 基于VAE的speaker verification
+
 - 20190821 arXiv [Shallow Domain Adaptive Embeddings for Sentiment Analysis](https://arxiv.org/abs/1908.06082)
   	- Domain adaptative embedding for sentiment analysis
   	- 迁移学习用于情感分类

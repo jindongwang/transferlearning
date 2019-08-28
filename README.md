@@ -44,6 +44,14 @@ author = {Wang, Jindong and others}
 
 - **Latest publications**
 
+	- 20190828 MICCAI-19 workshop [Cross-modality Knowledge Transfer for Prostate Segmentation from CT Scans](https://arxiv.org/abs/1908.10208)
+    	- Cross-modality transfer for prostate segmentation
+    	- 跨模态的迁移用于前列腺分割
+
+	- 20180828 ICCV-19 workshop [Unsupervised Deep Feature Transfer for Low Resolution Image Classification](https://arxiv.org/abs/1908.10012)
+    	- Deep feature transfer for low resolution image classification
+    	- 深度特征迁移用于低分辨率图像分类
+
 	- 20190813 ICCV-19 oral [UM-Adapt: Unsupervised Multi-Task Adaptation Using Adversarial Cross-Task Distillation](https://arxiv.org/abs/1908.03884)
     	- A unified framework for domain adaptation
     	- 一个统一的用于domain adaptation的框架
@@ -56,16 +64,12 @@ author = {Wang, Jindong and others}
 		- Cross-domain network representation learning
 		- 跨领域网络表达学习
 
-	- 20190809 ICCV-19 [Larger Norm More Transferable: An Adaptive Feature Norm Approach for Unsupervised Domain Adaptation](https://arxiv.org/abs/1811.07456)
-		- Adaptive Feature Norm Approach for Unsupervised Domain Adaptation
-		- 自适应的特征归一化用于DA
-
-	- 20190809 ICCASP-19 [Cross-lingual Text-independent Speaker Verification using Unsupervised Adversarial Discriminative Domain Adaptation](https://arxiv.org/abs/1908.01447)
-    	- Text independent speaker verification using adversarial DA
-    	- 文本无关的speaker verification用DA
-
 
 - **Preprints on arXiv** (Not peer-reviewed)
+
+	- 20190828 arXiv [VAE-based Domain Adaptation for Speaker Verification](https://arxiv.org/abs/1908.10092)
+    	- Speaker verification using VAE domain adaptation
+    	- 基于VAE的speaker verification
 
 	- 20190821 arXiv [Transfer Learning-Based Label Proportions Method with Data of Uncertainty](https://arxiv.org/abs/1908.06603)
     	- Transfer learning with source and target having uncertainty
@@ -78,10 +82,6 @@ author = {Wang, Jindong and others}
 	- 20190821 arXiv [Shallow Domain Adaptive Embeddings for Sentiment Analysis](https://arxiv.org/abs/1908.06082)
     	- Domain adaptative embedding for sentiment analysis
     	- 迁移学习用于情感分类
-
-	- 20190813 arXiv [Domain-Specific Embedding Network for Zero-Shot Recognition](https://arxiv.org/abs/1908.04174)
-    	- Domain-specific embedding network for zero-shot learning
-    	- 领域自适应的zero-shot learning
 
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
