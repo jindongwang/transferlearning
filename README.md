@@ -44,6 +44,18 @@ author = {Wang, Jindong and others}
 
 - **Latest publications**
 
+	- 20190829 EMNLP-19 [Investigating Meta-Learning Algorithms for Low-Resource Natural Language Understanding Tasks](https://arxiv.org/abs/1908.10423)
+    	- Investigating MAML for low-resource NMT
+    	- 调查了MAML方法用于低资源的NMT问题的表现
+
+	- 20190829 EMNLP-19 [Unsupervised Domain Adaptation for Neural Machine Translation with Domain-Aware Feature Embeddings](https://arxiv.org/abs/1908.10430)
+    	- Domain adaptation for NMT
+    	- 领域自适应应用于NMT
+
+	- 20190829 ACMMM-19 [Heterogeneous Domain Adaptation via Soft Transfer Network](https://arxiv.org/abs/1908.10552)
+    	- Soft-mmd loss in heterogeneous domain adaptation
+    	- 异构迁移学习中用soft-mmd loss
+
 	- 20190828 MICCAI-19 workshop [Cross-modality Knowledge Transfer for Prostate Segmentation from CT Scans](https://arxiv.org/abs/1908.10208)
     	- Cross-modality transfer for prostate segmentation
     	- 跨模态的迁移用于前列腺分割
@@ -52,20 +64,11 @@ author = {Wang, Jindong and others}
     	- Deep feature transfer for low resolution image classification
     	- 深度特征迁移用于低分辨率图像分类
 
-	- 20190813 ICCV-19 oral [UM-Adapt: Unsupervised Multi-Task Adaptation Using Adversarial Cross-Task Distillation](https://arxiv.org/abs/1908.03884)
-    	- A unified framework for domain adaptation
-    	- 一个统一的用于domain adaptation的框架
-
-	- 20190813 IJAIT [Transferring knowledge from monitored to unmonitored areas for forecasting parking spaces](https://arxiv.org/abs/1908.03629)
-		- Transfer learning for forecasting parking spaces
-		- 用迁移学习预测停车空间
-
-	- 20190809 PR-19 [Cross-domain Network Representations](https://arxiv.org/abs/1908.00205)
-		- Cross-domain network representation learning
-		- 跨领域网络表达学习
-
 
 - **Preprints on arXiv** (Not peer-reviewed)
+
+	- 20190829 arXiv [A survey of cross-lingual features for zero-shot cross-lingual semantic parsing](https://arxiv.org/abs/1908.10461)
+    	- 一个跨语言学习综述
 
 	- 20190828 arXiv [VAE-based Domain Adaptation for Speaker Verification](https://arxiv.org/abs/1908.10092)
     	- Speaker verification using VAE domain adaptation

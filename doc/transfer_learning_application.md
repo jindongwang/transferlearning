@@ -2,6 +2,13 @@
 
 迁移学习的应用
 
+- 20190829 EMNLP-19 [Investigating Meta-Learning Algorithms for Low-Resource Natural Language Understanding Tasks](https://arxiv.org/abs/1908.10423)
+  	- Investigating MAML for low-resource NMT
+  	- 调查了MAML方法用于低资源的NMT问题的表现
+
+- 20190829 EMNLP-19 [Unsupervised Domain Adaptation for Neural Machine Translation with Domain-Aware Feature Embeddings](https://arxiv.org/abs/1908.10430)
+  	- Domain adaptation for NMT
+
 - 20190828 MICCAI-19 workshop [Cross-modality Knowledge Transfer for Prostate Segmentation from CT Scans](https://arxiv.org/abs/1908.10208)
   	- Cross-modality transfer for prostate segmentation
   	- 跨模态的迁移用于前列腺分割
