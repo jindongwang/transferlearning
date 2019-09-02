@@ -1,6 +1,6 @@
-# 迁移学习 Transfer Learning
+# 迁移学习 Transfer Learning  
 
-[![MIT License](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![MIT License](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE) [![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
 
 
@@ -15,7 +15,7 @@ title = {Everything about Transfer Learning and Domain Adapation},
 author = {Wang, Jindong and others}  
 }  
 ```
-  
+
 - [迁移学习 Transfer Learning](#迁移学习-transfer-learning)
 	- [0.Latest Publications (最新论文)](#0latest-publications-最新论文)
 	- [1.Introduction and Tutorials (简介与教程)](#1introduction-and-tutorials-简介与教程)
@@ -29,6 +29,7 @@ author = {Wang, Jindong and others}
 	- [Applications (迁移学习应用)](#applications-迁移学习应用)
 	- [Other Resources (其他资源)](#other-resources-其他资源)
 	- [Contributing (欢迎参与贡献)](#contributing-欢迎参与贡献)
+
 
 > 关于机器学习和行为识别的资料，请参考：[行为识别](https://github.com/jindongwang/activityrecognition)｜[机器学习](https://github.com/jindongwang/MachineLearning)
 
