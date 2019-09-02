@@ -16,19 +16,19 @@ author = {Wang, Jindong and others}
 }  
 ```
   
-- [迁移学习 Transfer Learning](#%e8%bf%81%e7%a7%bb%e5%ad%a6%e4%b9%a0-transfer-learning)
-	- [0.Latest Publications (最新论文)](#0latest-publications-%e6%9c%80%e6%96%b0%e8%ae%ba%e6%96%87)
-	- [1.Introduction and Tutorials (简介与教程)](#1introduction-and-tutorials-%e7%ae%80%e4%bb%8b%e4%b8%8e%e6%95%99%e7%a8%8b)
-	- [2.Transfer Learning Areas and Papers (研究领域与相关论文)](#2transfer-learning-areas-and-papers-%e7%a0%94%e7%a9%b6%e9%a2%86%e5%9f%9f%e4%b8%8e%e7%9b%b8%e5%85%b3%e8%ae%ba%e6%96%87)
-	- [3.Theory and Survey (理论与综述)](#3theory-and-survey-%e7%90%86%e8%ae%ba%e4%b8%8e%e7%bb%bc%e8%bf%b0)
-	- [4.Code (代码)](#4code-%e4%bb%a3%e7%a0%81)
-	- [5.Transfer Learning Scholars (著名学者)](#5transfer-learning-scholars-%e8%91%97%e5%90%8d%e5%ad%a6%e8%80%85)
-	- [6.Transfer Learning Thesis (硕博士论文)](#6transfer-learning-thesis-%e7%a1%95%e5%8d%9a%e5%a3%ab%e8%ae%ba%e6%96%87)
-	- [7.Datasets and Benchmarks (数据集与评测结果)](#7datasets-and-benchmarks-%e6%95%b0%e6%8d%ae%e9%9b%86%e4%b8%8e%e8%af%84%e6%b5%8b%e7%bb%93%e6%9e%9c)
-	- [8.Transfer Learning Challenges (迁移学习比赛)](#8transfer-learning-challenges-%e8%bf%81%e7%a7%bb%e5%ad%a6%e4%b9%a0%e6%af%94%e8%b5%9b)
-	- [Applications (迁移学习应用)](#applications-%e8%bf%81%e7%a7%bb%e5%ad%a6%e4%b9%a0%e5%ba%94%e7%94%a8)
-	- [Other Resources (其他资源)](#other-resources-%e5%85%b6%e4%bb%96%e8%b5%84%e6%ba%90)
-	- [Contributing (欢迎参与贡献)](#contributing-%e6%ac%a2%e8%bf%8e%e5%8f%82%e4%b8%8e%e8%b4%a1%e7%8c%ae)
+- [迁移学习 Transfer Learning](#迁移学习-transfer-learning)
+	- [0.Latest Publications (最新论文)](#0latest-publications-最新论文)
+	- [1.Introduction and Tutorials (简介与教程)](#1introduction-and-tutorials-简介与教程)
+	- [2.Transfer Learning Areas and Papers (研究领域与相关论文)](#2transfer-learning-areas-and-papers-研究领域与相关论文)
+	- [3.Theory and Survey (理论与综述)](#3theory-and-survey-理论与综述)
+	- [4.Code (代码)](#4code-代码)
+	- [5.Transfer Learning Scholars (著名学者)](#5transfer-learning-scholars-著名学者)
+	- [6.Transfer Learning Thesis (硕博士论文)](#6transfer-learning-thesis-硕博士论文)
+	- [7.Datasets and Benchmarks (数据集与评测结果)](#7datasets-and-benchmarks-数据集与评测结果)
+	- [8.Transfer Learning Challenges (迁移学习比赛)](#8transfer-learning-challenges-迁移学习比赛)
+	- [Applications (迁移学习应用)](#applications-迁移学习应用)
+	- [Other Resources (其他资源)](#other-resources-其他资源)
+	- [Contributing (欢迎参与贡献)](#contributing-欢迎参与贡献)
 
 > 关于机器学习和行为识别的资料，请参考：[行为识别](https://github.com/jindongwang/activityrecognition)｜[机器学习](https://github.com/jindongwang/MachineLearning)
 
@@ -43,6 +43,10 @@ author = {Wang, Jindong and others}
 [迁移学习文章汇总 Awesome transfer learning papers](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
 - **Latest publications**
+
+	- 20190902 AAAI-19 [Aligning Domain-Specific Distribution and Classifier for Cross-Domain Classification from Multiple Sources](https://www.aaai.org/ojs/index.php/AAAI/article/download/4551/4429)
+    	- Multi-source domain adaptation using both features and classifier adaptation
+    	- 利用特征和分类器同时适配进行多源迁移
 
 	- 20190829 EMNLP-19 [Investigating Meta-Learning Algorithms for Low-Resource Natural Language Understanding Tasks](https://arxiv.org/abs/1908.10423)
     	- Investigating MAML for low-resource NMT
@@ -59,10 +63,6 @@ author = {Wang, Jindong and others}
 	- 20190828 MICCAI-19 workshop [Cross-modality Knowledge Transfer for Prostate Segmentation from CT Scans](https://arxiv.org/abs/1908.10208)
     	- Cross-modality transfer for prostate segmentation
     	- 跨模态的迁移用于前列腺分割
-
-	- 20180828 ICCV-19 workshop [Unsupervised Deep Feature Transfer for Low Resolution Image Classification](https://arxiv.org/abs/1908.10012)
-    	- Deep feature transfer for low resolution image classification
-    	- 深度特征迁移用于低分辨率图像分类
 
 
 - **Preprints on arXiv** (Not peer-reviewed)
