@@ -2,7 +2,7 @@
 
 This is the implementation of Geodesic Flow Kernel (GFK).
 
-- Matlab: just use `GFK.m`.
+- Matlab: just use `GFK.m`. Note that `getGFKDim.m` is the implementation of subspace disagreement measurement proposed in GFK paper.
 - Python: See the `GFK.py` file. This is wrapped from here: https://www.idiap.ch/software/bob/docs/bob/bob.learn.linear/stable/_modules/bob/learn/linear/GFK.html#GFKMachine.
     - Python depedencie: bob.
     - Install bob: Go to [HERE](https://www.idiap.ch/software/bob/docs/bob/docs/stable/bob/doc/install.html), and then install `bob.math` and `bob.learn` by following the instructions.
