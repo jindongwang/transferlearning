@@ -646,6 +646,14 @@ Including domain adaptation and partial domain adaptation.
 
 ### 1.8.1. Non-Adversarial Transfer Learning (非对抗深度迁移)
 
+- 20190909 IJCAI-FML-19 [FedHealth: A Federated Transfer Learning Framework for Wearable Healthcare](http://jd92.wang/assets/files/a15_ijcai19.pdf)
+  	- The first work on federated transfer learning for wearable healthcare
+  	- 第一个将联邦迁移学习用于可穿戴健康监护的工作
+
+- 20190909 PAMI [Inferring Latent Domains for Unsupervised Deep Domain Adaptation](https://ieeexplore.ieee.org/abstract/document/8792192)
+  	- Inferring latent domains for unsupervised deep domain
+  	- 在深度迁移学习中推断隐含领域
+
 - 20190729 ICCV workshop [Multi-level Domain Adaptive learning for Cross-Domain Detection](https://arxiv.org/abs/1907.11484)
   	- Multi-level domain adaptation for cross-domain Detection
   	- 多层次的domain adaptation

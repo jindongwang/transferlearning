@@ -2,6 +2,10 @@
 
 迁移学习的应用
 
+- 20190909 IJCAI-FML-19 [FedHealth: A Federated Transfer Learning Framework for Wearable Healthcare](http://jd92.wang/assets/files/a15_ijcai19.pdf)
+  	- The first work on federated transfer learning for wearable healthcare
+  	- 第一个将联邦迁移学习用于可穿戴健康监护的工作
+
 - 20190829 EMNLP-19 [Investigating Meta-Learning Algorithms for Low-Resource Natural Language Understanding Tasks](https://arxiv.org/abs/1908.10423)
   	- Investigating MAML for low-resource NMT
   	- 调查了MAML方法用于低资源的NMT问题的表现

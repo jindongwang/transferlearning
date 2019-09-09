@@ -45,6 +45,14 @@ author = {Wang, Jindong and others}
 
 - **Latest publications**
 
+	- 20190909 IJCAI-FML-19 [FedHealth: A Federated Transfer Learning Framework for Wearable Healthcare](http://jd92.wang/assets/files/a15_ijcai19.pdf)
+    	- The first work on federated transfer learning for wearable healthcare
+    	- 第一个将联邦迁移学习用于可穿戴健康监护的工作
+
+	- 20190909 PAMI [Inferring Latent Domains for Unsupervised Deep Domain Adaptation](https://ieeexplore.ieee.org/abstract/document/8792192)
+    	- Inferring latent domains for unsupervised deep domain
+    	- 在深度迁移学习中推断隐含领域
+
 	- 20190902 AAAI-19 [Aligning Domain-Specific Distribution and Classifier for Cross-Domain Classification from Multiple Sources](https://www.aaai.org/ojs/index.php/AAAI/article/download/4551/4429)
     	- Multi-source domain adaptation using both features and classifier adaptation
     	- 利用特征和分类器同时适配进行多源迁移
@@ -56,14 +64,6 @@ author = {Wang, Jindong and others}
 	- 20190829 EMNLP-19 [Unsupervised Domain Adaptation for Neural Machine Translation with Domain-Aware Feature Embeddings](https://arxiv.org/abs/1908.10430)
     	- Domain adaptation for NMT
     	- 领域自适应应用于NMT
-
-	- 20190829 ACMMM-19 [Heterogeneous Domain Adaptation via Soft Transfer Network](https://arxiv.org/abs/1908.10552)
-    	- Soft-mmd loss in heterogeneous domain adaptation
-    	- 异构迁移学习中用soft-mmd loss
-
-	- 20190828 MICCAI-19 workshop [Cross-modality Knowledge Transfer for Prostate Segmentation from CT Scans](https://arxiv.org/abs/1908.10208)
-    	- Cross-modality transfer for prostate segmentation
-    	- 跨模态的迁移用于前列腺分割
 
 
 - **Preprints on arXiv** (Not peer-reviewed)
