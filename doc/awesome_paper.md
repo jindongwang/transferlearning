@@ -646,6 +646,10 @@ Including domain adaptation and partial domain adaptation.
 
 ### 1.8.1. Non-Adversarial Transfer Learning (非对抗深度迁移)
 
+- 20190910 BMVC-19 [Curriculum based Dropout Discriminator for Domain Adaptation](https://arxiv.org/abs/1907.10628)
+  	- Curriculum dropout for domain adaptation
+  	- 基于课程学习的dropout用于DA
+
 - 20190909 IJCAI-FML-19 [FedHealth: A Federated Transfer Learning Framework for Wearable Healthcare](http://jd92.wang/assets/files/a15_ijcai19.pdf)
   	- The first work on federated transfer learning for wearable healthcare
   	- 第一个将联邦迁移学习用于可穿戴健康监护的工作

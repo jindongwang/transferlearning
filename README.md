@@ -45,6 +45,10 @@ author = {Wang, Jindong and others}
 
 - **Latest publications**
 
+	- 20190910 BMVC-19 [Curriculum based Dropout Discriminator for Domain Adaptation](https://arxiv.org/abs/1907.10628)
+    	- Curriculum dropout for domain adaptation
+    	- 基于课程学习的dropout用于DA
+
 	- 20190909 IJCAI-FML-19 [FedHealth: A Federated Transfer Learning Framework for Wearable Healthcare](http://jd92.wang/assets/files/a15_ijcai19.pdf)
     	- The first work on federated transfer learning for wearable healthcare
     	- 第一个将联邦迁移学习用于可穿戴健康监护的工作
@@ -60,10 +64,6 @@ author = {Wang, Jindong and others}
 	- 20190829 EMNLP-19 [Investigating Meta-Learning Algorithms for Low-Resource Natural Language Understanding Tasks](https://arxiv.org/abs/1908.10423)
     	- Investigating MAML for low-resource NMT
     	- 调查了MAML方法用于低资源的NMT问题的表现
-
-	- 20190829 EMNLP-19 [Unsupervised Domain Adaptation for Neural Machine Translation with Domain-Aware Feature Embeddings](https://arxiv.org/abs/1908.10430)
-    	- Domain adaptation for NMT
-    	- 领域自适应应用于NMT
 
 
 - **Preprints on arXiv** (Not peer-reviewed)
