@@ -1201,6 +1201,10 @@ Including domain adaptation and partial domain adaptation.
 
 ## 1.13. Lifelong Learning (终身迁移学习)
 
+- 20190912 NeurIPS-19 [Meta-Learning with Implicit Gradients](https://arxiv.org/abs/1909.04630)
+  - Meta-learning with implicit gradients
+  - 隐式梯度的元学习
+
 - 20180323 arXiv 终身迁移学习与增量学习结合：[Incremental Learning-to-Learn with Statistical Guarantees](https://arxiv.org/abs/1803.08089)
 
 - 20180111 arXiv 一种新的终身学习框架，与L2T的思路有一些类似 [Lifelong Learning for Sentiment Classification](https://arxiv.org/abs/1801.02808)

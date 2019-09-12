@@ -2,6 +2,10 @@
 
 迁移学习的应用
 
+- 20190912 MICCAI workshop [Multi-Domain Adaptation in Brain MRI through Paired Consistency and Adversarial Learning](https://arxiv.org/abs/1908.05959)
+  	- Multi-domain adaptation for brain MRI
+  	- 多领域的adaptation用于大脑MRI识别
+
 - 20190909 IJCAI-FML-19 [FedHealth: A Federated Transfer Learning Framework for Wearable Healthcare](http://jd92.wang/assets/files/a15_ijcai19.pdf)
   	- The first work on federated transfer learning for wearable healthcare
   	- 第一个将联邦迁移学习用于可穿戴健康监护的工作

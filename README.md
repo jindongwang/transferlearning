@@ -45,6 +45,14 @@ author = {Wang, Jindong and others}
 
 - **Latest publications**
 
+	- 20190912 NeurIPS-19 [Meta-Learning with Implicit Gradients](https://arxiv.org/abs/1909.04630)
+		- Meta-learning with implicit gradients
+		- 隐式梯度的元学习
+
+	- 20190912 MICCAI workshop [Multi-Domain Adaptation in Brain MRI through Paired Consistency and Adversarial Learning](https://arxiv.org/abs/1908.05959)
+    	- Multi-domain adaptation for brain MRI
+    	- 多领域的adaptation用于大脑MRI识别
+
 	- 20190910 BMVC-19 [Curriculum based Dropout Discriminator for Domain Adaptation](https://arxiv.org/abs/1907.10628)
     	- Curriculum dropout for domain adaptation
     	- 基于课程学习的dropout用于DA
@@ -56,14 +64,6 @@ author = {Wang, Jindong and others}
 	- 20190909 PAMI [Inferring Latent Domains for Unsupervised Deep Domain Adaptation](https://ieeexplore.ieee.org/abstract/document/8792192)
     	- Inferring latent domains for unsupervised deep domain
     	- 在深度迁移学习中推断隐含领域
-
-	- 20190902 AAAI-19 [Aligning Domain-Specific Distribution and Classifier for Cross-Domain Classification from Multiple Sources](https://www.aaai.org/ojs/index.php/AAAI/article/download/4551/4429)
-    	- Multi-source domain adaptation using both features and classifier adaptation
-    	- 利用特征和分类器同时适配进行多源迁移
-
-	- 20190829 EMNLP-19 [Investigating Meta-Learning Algorithms for Low-Resource Natural Language Understanding Tasks](https://arxiv.org/abs/1908.10423)
-    	- Investigating MAML for low-resource NMT
-    	- 调查了MAML方法用于低资源的NMT问题的表现
 
 
 - **Preprints on arXiv** (Not peer-reviewed)
