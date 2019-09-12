@@ -183,6 +183,8 @@ Testing **dataset** can be found [here](https://github.com/jindongwang/transferl
 
 - **MRAN** (Multi-representation adaptation network for cross-domain image classification, Neural Networks 2019) [72]
     - [Pytorch](https://github.com/jindongwang/transferlearning/tree/master/code/deep/MRAN)
+- **TA<sup>3</sup>N** (Temporal Attentive Alignment for Large-Scale Video Domain Adaptation, ICCV-19) [73]
+    - [Pytorch](https://github.com/cmhungsteve/TA3N)
 
 ## Applications
 
@@ -343,3 +345,5 @@ accepted in International Conference on Computer Vision (ICCV 2015), Santiago, C
 [71] Saito K, Kim D, Sclaroff S, et al. Semi-supervised Domain Adaptation via Minimax Entropy. ICCV 2019.
 
 [72] Zhu Y, Zhuang F, Wang J, et al. Multi-representation adaptation network for cross-domain image classification[J]. Neural Networks, 2019.
+
+[73] Min-Hung Chen, Zsolt Kira, Ghassan AlRegib, et al. Temporal Attentive Alignment for Large-Scale Video Domain Adaptation. ICCV 2019.
