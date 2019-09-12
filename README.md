@@ -45,6 +45,11 @@ author = {Wang, Jindong and others}
 
 - **Latest publications**
 
+
+	- 20190812 ICCV-19 (Oral) [Temporal Attentive Alignment for Large-Scale Video Domain Adaptation](https://arxiv.org/abs/1907.12743)
+		- First work on large-scale cross-domain action recognition
+		- 第一個大規模將DA用於人類動作辨識的工作
+
 	- 20190912 NeurIPS-19 [Meta-Learning with Implicit Gradients](https://arxiv.org/abs/1909.04630)
 		- Meta-learning with implicit gradients
 		- 隐式梯度的元学习
@@ -52,6 +57,7 @@ author = {Wang, Jindong and others}
 	- 20190912 MICCAI workshop [Multi-Domain Adaptation in Brain MRI through Paired Consistency and Adversarial Learning](https://arxiv.org/abs/1908.05959)
     	- Multi-domain adaptation for brain MRI
     	- 多领域的adaptation用于大脑MRI识别
+
 
 	- 20190910 BMVC-19 [Curriculum based Dropout Discriminator for Domain Adaptation](https://arxiv.org/abs/1907.10628)
     	- Curriculum dropout for domain adaptation
