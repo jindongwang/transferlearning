@@ -45,6 +45,10 @@ author = {Wang, Jindong and others}
 
 - **Latest publications**
 
+	- 20190812 ICCV-19 (Oral) [Temporal Attentive Alignment for Large-Scale Video Domain Adaptation](https://arxiv.org/abs/1907.12743)
+		- First work on large-scale cross-domain action recognition
+		- 第一個大規模將DA用於人類動作辨識的工作
+
 	- 20190910 BMVC-19 [Curriculum based Dropout Discriminator for Domain Adaptation](https://arxiv.org/abs/1907.10628)
     	- Curriculum dropout for domain adaptation
     	- 基于课程学习的dropout用于DA
