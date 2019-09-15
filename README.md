@@ -1,6 +1,6 @@
-# 迁移学习 Transfer Learning
+# 迁移学习 Transfer Learning  
 
-[![MIT License](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![MIT License](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE) [![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
 
 
@@ -15,20 +15,21 @@ title = {Everything about Transfer Learning and Domain Adapation},
 author = {Wang, Jindong and others}  
 }  
 ```
-  
-- [迁移学习 Transfer Learning](#%e8%bf%81%e7%a7%bb%e5%ad%a6%e4%b9%a0-transfer-learning)
-	- [0.Latest Publications (最新论文)](#0latest-publications-%e6%9c%80%e6%96%b0%e8%ae%ba%e6%96%87)
-	- [1.Introduction and Tutorials (简介与教程)](#1introduction-and-tutorials-%e7%ae%80%e4%bb%8b%e4%b8%8e%e6%95%99%e7%a8%8b)
-	- [2.Transfer Learning Areas and Papers (研究领域与相关论文)](#2transfer-learning-areas-and-papers-%e7%a0%94%e7%a9%b6%e9%a2%86%e5%9f%9f%e4%b8%8e%e7%9b%b8%e5%85%b3%e8%ae%ba%e6%96%87)
-	- [3.Theory and Survey (理论与综述)](#3theory-and-survey-%e7%90%86%e8%ae%ba%e4%b8%8e%e7%bb%bc%e8%bf%b0)
-	- [4.Code (代码)](#4code-%e4%bb%a3%e7%a0%81)
-	- [5.Transfer Learning Scholars (著名学者)](#5transfer-learning-scholars-%e8%91%97%e5%90%8d%e5%ad%a6%e8%80%85)
-	- [6.Transfer Learning Thesis (硕博士论文)](#6transfer-learning-thesis-%e7%a1%95%e5%8d%9a%e5%a3%ab%e8%ae%ba%e6%96%87)
-	- [7.Datasets and Benchmarks (数据集与评测结果)](#7datasets-and-benchmarks-%e6%95%b0%e6%8d%ae%e9%9b%86%e4%b8%8e%e8%af%84%e6%b5%8b%e7%bb%93%e6%9e%9c)
-	- [8.Transfer Learning Challenges (迁移学习比赛)](#8transfer-learning-challenges-%e8%bf%81%e7%a7%bb%e5%ad%a6%e4%b9%a0%e6%af%94%e8%b5%9b)
-	- [Applications (迁移学习应用)](#applications-%e8%bf%81%e7%a7%bb%e5%ad%a6%e4%b9%a0%e5%ba%94%e7%94%a8)
-	- [Other Resources (其他资源)](#other-resources-%e5%85%b6%e4%bb%96%e8%b5%84%e6%ba%90)
-	- [Contributing (欢迎参与贡献)](#contributing-%e6%ac%a2%e8%bf%8e%e5%8f%82%e4%b8%8e%e8%b4%a1%e7%8c%ae)
+
+- [迁移学习 Transfer Learning](#迁移学习-transfer-learning)
+	- [0.Latest Publications (最新论文)](#0latest-publications-最新论文)
+	- [1.Introduction and Tutorials (简介与教程)](#1introduction-and-tutorials-简介与教程)
+	- [2.Transfer Learning Areas and Papers (研究领域与相关论文)](#2transfer-learning-areas-and-papers-研究领域与相关论文)
+	- [3.Theory and Survey (理论与综述)](#3theory-and-survey-理论与综述)
+	- [4.Code (代码)](#4code-代码)
+	- [5.Transfer Learning Scholars (著名学者)](#5transfer-learning-scholars-著名学者)
+	- [6.Transfer Learning Thesis (硕博士论文)](#6transfer-learning-thesis-硕博士论文)
+	- [7.Datasets and Benchmarks (数据集与评测结果)](#7datasets-and-benchmarks-数据集与评测结果)
+	- [8.Transfer Learning Challenges (迁移学习比赛)](#8transfer-learning-challenges-迁移学习比赛)
+	- [Applications (迁移学习应用)](#applications-迁移学习应用)
+	- [Other Resources (其他资源)](#other-resources-其他资源)
+	- [Contributing (欢迎参与贡献)](#contributing-欢迎参与贡献)
+
 
 > 关于机器学习和行为识别的资料，请参考：[行为识别](https://github.com/jindongwang/activityrecognition)｜[机器学习](https://github.com/jindongwang/MachineLearning)
 
@@ -44,44 +45,53 @@ author = {Wang, Jindong and others}
 
 - **Latest publications**
 
-	- 20190806 KDD-19 [Relation Extraction via Domain-aware Transfer Learning](https://dl.acm.org/citation.cfm?id=3330890)
-    	- Relation extraction using transfer learning for knowledge base construction
-    	- 利用迁移学习进行关系抽取
 
-	- 20190731 MICCAI-19 Unsupervised Domain Adaptation via Disentangled Representations: Application to Cross-Modality Liver Segmentation
-    	- Disentangled representations for unsupervised domain adaptation
-		- 基于解耦表征的无监督领域自适应
+	- 20190812 ICCV-19 (Oral) [Temporal Attentive Alignment for Large-Scale Video Domain Adaptation](https://arxiv.org/abs/1907.12743)
+		- First work on large-scale cross-domain action recognition
+		- 第一個大規模將DA用於人類動作辨識的工作
 
-	- 20190729 MICCAI-19 [Annotation-Free Cardiac Vessel Segmentation via Knowledge Transfer from Retinal Images](https://arxiv.org/abs/1907.11483)
-    	- Cardiac vessel segmentation using transfer learning from Retinal Images
-    	- 用视网膜图片进行迁移学习用于心脏血管分割
+	- 20190912 NeurIPS-19 [Meta-Learning with Implicit Gradients](https://arxiv.org/abs/1909.04630)
+		- Meta-learning with implicit gradients
+		- 隐式梯度的元学习
 
-	- 20190729 ICCV workshop [Multi-level Domain Adaptive learning for Cross-Domain Detection](https://arxiv.org/abs/1907.11484)
-    	- Multi-level domain adaptation for cross-domain Detection
-    	- 多层次的domain adaptation
+	- 20190912 MICCAI workshop [Multi-Domain Adaptation in Brain MRI through Paired Consistency and Adversarial Learning](https://arxiv.org/abs/1908.05959)
+    	- Multi-domain adaptation for brain MRI
+    	- 多领域的adaptation用于大脑MRI识别
 
-	- 20190719 IEEE Access [A Survey of Sentiment Analysis Based on Transfer Learning](https://ieeexplore.ieee.org/abstract/document/8746210)
-    	- A Survey of Sentiment Analysis Based on Transfer Learning
-    	- 一篇用transfer learning进行sentiment classification的综述
+
+	- 20190910 BMVC-19 [Curriculum based Dropout Discriminator for Domain Adaptation](https://arxiv.org/abs/1907.10628)
+    	- Curriculum dropout for domain adaptation
+    	- 基于课程学习的dropout用于DA
+
+	- 20190909 IJCAI-FML-19 [FedHealth: A Federated Transfer Learning Framework for Wearable Healthcare](http://jd92.wang/assets/files/a15_ijcai19.pdf)
+    	- The first work on federated transfer learning for wearable healthcare
+    	- 第一个将联邦迁移学习用于可穿戴健康监护的工作
+
+	- 20190909 PAMI [Inferring Latent Domains for Unsupervised Deep Domain Adaptation](https://ieeexplore.ieee.org/abstract/document/8792192)
+    	- Inferring latent domains for unsupervised deep domain
+    	- 在深度迁移学习中推断隐含领域
 
 
 - **Preprints on arXiv** (Not peer-reviewed)
 
-	- 20190802 arXiv [Towards More Accurate Automatic Sleep Staging via Deep Transfer Learning](https://arxiv.org/abs/1907.13177)
-    	- Accurate Sleep Staging with deep transfer learning
-    	- 用深度迁移学习进行精准的睡眠阶段估计
+	- 20190829 arXiv [A survey of cross-lingual features for zero-shot cross-lingual semantic parsing](https://arxiv.org/abs/1908.10461)
+    	- 一个跨语言学习综述
 
-	- 20190719 arXiv [Agile Domain Adaptation](https://arxiv.org/abs/1907.04978)
-    	- Domain adaptation by considering the difficulty in classification
-    	- 通过考虑不同样本分离的难度进行domain adaptation
+	- 20190828 arXiv [VAE-based Domain Adaptation for Speaker Verification](https://arxiv.org/abs/1908.10092)
+    	- Speaker verification using VAE domain adaptation
+    	- 基于VAE的speaker verification
 
-    - 20190718 arXiv [Task Selection Policies for Multitask Learning](https://arxiv.org/abs/1907.06214)
-    	- Task selection in multitask learning
-    	- 在多任务学习中的任务选择机制
+	- 20190821 arXiv [Transfer Learning-Based Label Proportions Method with Data of Uncertainty](https://arxiv.org/abs/1908.06603)
+    	- Transfer learning with source and target having uncertainty
+    	- 当source和target都有不确定label时进行迁移
 
-	- 20190718 arXiv [Measuring the Transferability of Adversarial Examples](https://arxiv.org/abs/1907.06291)
-    	- Measure the transferability of adversarial examples
-    	- 度量对抗样本的可迁移性
+	- 20190821 arXiv [Transfer in Deep Reinforcement Learning using Knowledge Graphs](https://arxiv.org/abs/1908.06556)
+    	- Use knowledge graph to transfer in reinforcement learning
+    	- 用知识图谱进行强化迁移
+
+	- 20190821 arXiv [Shallow Domain Adaptive Embeddings for Sentiment Analysis](https://arxiv.org/abs/1908.06082)
+    	- Domain adaptative embedding for sentiment analysis
+    	- 迁移学习用于情感分类
 
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)

@@ -1,18 +1,20 @@
 import torch
+DEVICE = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 def CORAL(source, target):
-    d = source.data.shape[1]
+    d = source.size(1)
+    ns, nt = source.size(0), target.size(0)
 
     # source covariance
-    xm = torch.mean(source, 0, keepdim=True) - source
-    xc = xm.t() @ xm
+    tmp_s = torch.ones((1, ns)).to(DEVICE) @ source
+    cs = (source.t() @ source - (tmp_s.t() @ tmp_s) / ns) / (ns - 1)
 
     # target covariance
-    xmt = torch.mean(target, 0, keepdim=True) - target
-    xct = xmt.t() @ xmt
+    tmp_t = torch.ones((1, nt)).to(DEVICE) @ target
+    ct = (target.t() @ target - (tmp_t.t() @ tmp_t) / nt) / (nt - 1)
 
-    # frobenius norm between source and target
-    loss = torch.mean(torch.mul((xc - xct), (xc - xct)))
-    loss = loss/(4*d*d)
+    # frobenius norm
+    loss = (cs - ct).pow(2).sum().sqrt()
+    loss = loss / (4 * d * d)
 
     return loss

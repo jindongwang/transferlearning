@@ -2,6 +2,53 @@
 
 迁移学习的应用
 
+- 20190912 MICCAI workshop [Multi-Domain Adaptation in Brain MRI through Paired Consistency and Adversarial Learning](https://arxiv.org/abs/1908.05959)
+  	- Multi-domain adaptation for brain MRI
+  	- 多领域的adaptation用于大脑MRI识别
+
+- 20190909 IJCAI-FML-19 [FedHealth: A Federated Transfer Learning Framework for Wearable Healthcare](http://jd92.wang/assets/files/a15_ijcai19.pdf)
+  	- The first work on federated transfer learning for wearable healthcare
+  	- 第一个将联邦迁移学习用于可穿戴健康监护的工作
+
+- 20190829 EMNLP-19 [Investigating Meta-Learning Algorithms for Low-Resource Natural Language Understanding Tasks](https://arxiv.org/abs/1908.10423)
+  	- Investigating MAML for low-resource NMT
+  	- 调查了MAML方法用于低资源的NMT问题的表现
+
+- 20190829 EMNLP-19 [Unsupervised Domain Adaptation for Neural Machine Translation with Domain-Aware Feature Embeddings](https://arxiv.org/abs/1908.10430)
+  	- Domain adaptation for NMT
+
+- 20190828 MICCAI-19 workshop [Cross-modality Knowledge Transfer for Prostate Segmentation from CT Scans](https://arxiv.org/abs/1908.10208)
+  	- Cross-modality transfer for prostate segmentation
+  	- 跨模态的迁移用于前列腺分割
+
+- 20180828 ICCV-19 workshop [Unsupervised Deep Feature Transfer for Low Resolution Image Classification](https://arxiv.org/abs/1908.10012)
+  	- Deep feature transfer for low resolution image classification
+  	- 深度特征迁移用于低分辨率图像分类
+
+- 20190828 arXiv [VAE-based Domain Adaptation for Speaker Verification](https://arxiv.org/abs/1908.10092)
+  	- Speaker verification using VAE domain adaptation
+  	- 基于VAE的speaker verification
+
+- 20190821 arXiv [Shallow Domain Adaptive Embeddings for Sentiment Analysis](https://arxiv.org/abs/1908.06082)
+  	- Domain adaptative embedding for sentiment analysis
+  	- 迁移学习用于情感分类
+
+- 20190813 IJAIT [Transferring knowledge from monitored to unmonitored areas for forecasting parking spaces](https://arxiv.org/abs/1908.03629)
+    - Transfer learning for forecasting parking spaces
+    - 用迁移学习预测停车空间
+
+- 20190809 ICCASP-19 [Cross-lingual Text-independent Speaker Verification using Unsupervised Adversarial Discriminative Domain Adaptation](https://arxiv.org/abs/1908.01447)
+  	- Text independent speaker verification using adversarial DA
+  	- 文本无关的speaker verification用DA
+
+- 20190809 IJCAI-19 [Progressive Transfer Learning for Person Re-identification](https://arxiv.org/abs/1908.02492)
+  	- Progressive transfer learning for RE_ID
+  	- 渐进式迁移学习用于RE_ID
+
+- 20190809 NeurIPS-18 [MacNet: Transferring Knowledge from Machine Comprehension to Sequence-to-Sequence Models](https://arxiv.org/abs/1908.01816)
+  	- Transfer learning from machine comprehension to sequence to senquence Models
+  	- 从机器理解到序列模型迁移
+
 - 20190802 arXiv [Towards More Accurate Automatic Sleep Staging via Deep Transfer Learning](https://arxiv.org/abs/1907.13177)
   	- Accurate Sleep Staging with deep transfer learning
   	- 用深度迁移学习进行精准的睡眠阶段估计

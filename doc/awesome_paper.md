@@ -1,40 +1,39 @@
-# Awesome Transfer Learning Papers
+# 1. Awesome Transfer Learning Papers
 
 Let's read some awesome transfer learning / domain adaptation papers.
 
 这里收录了迁移学习各个研究领域的最新文章。
 
+
+- [1. Awesome Transfer Learning Papers](#1-awesome-transfer-learning-papers)
+	- [1.1. General Transfer Learning (普通迁移学习)](#11-general-transfer-learning-普通迁移学习)
+		- [1.1.1. Theory (理论)](#111-theory-理论)
+		- [1.1.2. Others (其他)](#112-others-其他)
+	- [1.2. Domain Adaptation (领域自适应)](#12-domain-adaptation-领域自适应)
+		- [1.2.1. Traditional Methods (传统迁移方法)](#121-traditional-methods-传统迁移方法)
+		- [1.2.2. Deep / Adversarial Methods (深度/对抗迁移方法)](#122-deep--adversarial-methods-深度对抗迁移方法)
+	- [1.3. Domain Generalization](#13-domain-generalization)
+	- [1.4. Multi-source Transfer Learning (多源迁移学习)](#14-multi-source-transfer-learning-多源迁移学习)
+	- [1.5. Heterogeneous Transfer Learning (异构迁移学习)](#15-heterogeneous-transfer-learning-异构迁移学习)
+	- [1.6. Online Transfer Learning (在线迁移学习)](#16-online-transfer-learning-在线迁移学习)
+	- [1.7. Zero-shot / Few-shot Learning](#17-zero-shot--few-shot-learning)
+		- [1.7.1. Zero-shot Learning based on Data Synthesis (基于样本生成的零样本学习)](#171-zero-shot-learning-based-on-data-synthesis-基于样本生成的零样本学习)
+	- [1.8. Deep Transfer Learning (深度迁移学习)](#18-deep-transfer-learning-深度迁移学习)
+		- [1.8.1. Non-Adversarial Transfer Learning (非对抗深度迁移)](#181-non-adversarial-transfer-learning-非对抗深度迁移)
+		- [1.8.2. Deep Adversarial Transfer Learning (对抗迁移学习)](#182-deep-adversarial-transfer-learning-对抗迁移学习)
+	- [1.9. Multi-task Learning (多任务学习)](#19-multi-task-learning-多任务学习)
+	- [1.10. Transfer Reinforcement Learning (强化迁移学习)](#110-transfer-reinforcement-learning-强化迁移学习)
+	- [1.11. Transfer Metric Learning (迁移度量学习)](#111-transfer-metric-learning-迁移度量学习)
+	- [1.12. Transitive Transfer Learning (传递迁移学习)](#112-transitive-transfer-learning-传递迁移学习)
+	- [1.13. Lifelong Learning (终身迁移学习)](#113-lifelong-learning-终身迁移学习)
+	- [1.14. Negative Transfer (负迁移)](#114-negative-transfer-负迁移)
+	- [1.15. Transfer Learning Applications (应用)](#115-transfer-learning-applications-应用)
+
 - - -
 
-- [Awesome Transfer Learning Papers](#awesome-transfer-learning-papers)
-	- [General Transfer Learning (普通迁移学习)](#general-transfer-learning-%e6%99%ae%e9%80%9a%e8%bf%81%e7%a7%bb%e5%ad%a6%e4%b9%a0)
-		- [Theory (理论)](#theory-%e7%90%86%e8%ae%ba)
-		- [Others (其他)](#others-%e5%85%b6%e4%bb%96)
-	- [Domain Adaptation (领域自适应)](#domain-adaptation-%e9%a2%86%e5%9f%9f%e8%87%aa%e9%80%82%e5%ba%94)
-		- [Traditional Methods (传统迁移方法)](#traditional-methods-%e4%bc%a0%e7%bb%9f%e8%bf%81%e7%a7%bb%e6%96%b9%e6%b3%95)
-		- [Deep / Adversarial Methods (深度/对抗迁移方法)](#deep--adversarial-methods-%e6%b7%b1%e5%ba%a6%e5%af%b9%e6%8a%97%e8%bf%81%e7%a7%bb%e6%96%b9%e6%b3%95)
-	- [Domain Generalization](#domain-generalization)
-	- [Multi-source Transfer Learning (多源迁移学习)](#multi-source-transfer-learning-%e5%a4%9a%e6%ba%90%e8%bf%81%e7%a7%bb%e5%ad%a6%e4%b9%a0)
-	- [Heterogeneous Transfer Learning (异构迁移学习)](#heterogeneous-transfer-learning-%e5%bc%82%e6%9e%84%e8%bf%81%e7%a7%bb%e5%ad%a6%e4%b9%a0)
-	- [Online Transfer Learning (在线迁移学习)](#online-transfer-learning-%e5%9c%a8%e7%ba%bf%e8%bf%81%e7%a7%bb%e5%ad%a6%e4%b9%a0)
-	- [Zero-shot / Few-shot Learning](#zero-shot--few-shot-learning)
-		- [Zero-shot Learning based on Data Synthesis (基于样本生成的零样本学习)](#zero-shot-learning-based-on-data-synthesis-%e5%9f%ba%e4%ba%8e%e6%a0%b7%e6%9c%ac%e7%94%9f%e6%88%90%e7%9a%84%e9%9b%b6%e6%a0%b7%e6%9c%ac%e5%ad%a6%e4%b9%a0)
-	- [Deep Transfer Learning (深度迁移学习)](#deep-transfer-learning-%e6%b7%b1%e5%ba%a6%e8%bf%81%e7%a7%bb%e5%ad%a6%e4%b9%a0)
-		- [Non-Adversarial Transfer Learning (非对抗深度迁移)](#non-adversarial-transfer-learning-%e9%9d%9e%e5%af%b9%e6%8a%97%e6%b7%b1%e5%ba%a6%e8%bf%81%e7%a7%bb)
-		- [Deep Adversarial Transfer Learning (对抗迁移学习)](#deep-adversarial-transfer-learning-%e5%af%b9%e6%8a%97%e8%bf%81%e7%a7%bb%e5%ad%a6%e4%b9%a0)
-	- [Multi-task Learning (多任务学习)](#multi-task-learning-%e5%a4%9a%e4%bb%bb%e5%8a%a1%e5%ad%a6%e4%b9%a0)
-	- [Transfer Reinforcement Learning (强化迁移学习)](#transfer-reinforcement-learning-%e5%bc%ba%e5%8c%96%e8%bf%81%e7%a7%bb%e5%ad%a6%e4%b9%a0)
-	- [Transfer Metric Learning (迁移度量学习)](#transfer-metric-learning-%e8%bf%81%e7%a7%bb%e5%ba%a6%e9%87%8f%e5%ad%a6%e4%b9%a0)
-	- [Transitive Transfer Learning (传递迁移学习)](#transitive-transfer-learning-%e4%bc%a0%e9%80%92%e8%bf%81%e7%a7%bb%e5%ad%a6%e4%b9%a0)
-	- [Lifelong Learning (终身迁移学习)](#lifelong-learning-%e7%bb%88%e8%ba%ab%e8%bf%81%e7%a7%bb%e5%ad%a6%e4%b9%a0)
-	- [Negative Transfer (负迁移)](#negative-transfer-%e8%b4%9f%e8%bf%81%e7%a7%bb)
-	- [Transfer Learning Applications (应用)](#transfer-learning-applications-%e5%ba%94%e7%94%a8)
+## 1.1. General Transfer Learning (普通迁移学习)
 
-- - -
-
-## General Transfer Learning (普通迁移学习)
-
-### Theory (理论)
+### 1.1.1. Theory (理论)
 
 - 20190301 ALT-19 [A Generalized Neyman-Pearson Criterion for Optimal Domain Adaptation](https://arxiv.org/abs/1810.01545)
     - A new criterion for domain adaptation
@@ -60,7 +59,11 @@ Let's read some awesome transfer learning / domain adaptation papers.
 	-  Analyze some generalization bound for domain adaptation
 	- 对domain adaptation进行了一些理论上的分析
 
-### Others (其他)
+### 1.1.2. Others (其他)
+
+- 20190821 arXiv [Transfer Learning-Based Label Proportions Method with Data of Uncertainty](https://arxiv.org/abs/1908.06603)
+  	- Transfer learning with source and target having uncertainty
+  	- 当source和target都有不确定label时进行迁移
 
 - 20190806 KDD-19 [Relation Extraction via Domain-aware Transfer Learning](https://dl.acm.org/citation.cfm?id=3330890)
     - Relation extraction using transfer learning for knowledge base construction
@@ -186,11 +189,11 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 - - - 
 
-## Domain Adaptation (领域自适应)
+## 1.2. Domain Adaptation (领域自适应)
 
 Including domain adaptation and partial domain adaptation.
 
-### Traditional Methods (传统迁移方法)
+### 1.2.1. Traditional Methods (传统迁移方法)
 
 - 20190703 arXiv [Domain Adaptation via Low-Rank Basis Approximation](https://arxiv.org/abs/1907.01343)
   	- Domain adaptation with low-rank basis approximation
@@ -304,7 +307,39 @@ Including domain adaptation and partial domain adaptation.
 	- [Domain invariant transfer kernel learning](https://mega.nz/#!tOoCCRhB!YyoorOUcp6XIPPd6A0s7qglYnaSiRJFEQBphtZ2c58Q)
 	- 发表在IEEE Trans. Knowledge and Data Engineering期刊上
 
-### Deep / Adversarial Methods (深度/对抗迁移方法)
+### 1.2.2. Deep / Adversarial Methods (深度/对抗迁移方法)
+
+- 20190813 ICCV-19 oral [UM-Adapt: Unsupervised Multi-Task Adaptation Using Adversarial Cross-Task Distillation](https://arxiv.org/abs/1908.03884)
+  	- A unified framework for domain adaptation
+  	- 一个统一的用于domain adaptation的框架
+
+- 20190809 arXiv [Multi-Purposing Domain Adaptation Discriminators for Pseudo Labeling Confidence](https://arxiv.org/abs/1907.07802)
+  	- Improve pseudo label confidence using multi-purposing DA
+  	- 用多目标DA提高伪标签准确率
+
+- 20190809 arXiv [Semi-supervised representation learning via dual autoencoders for domain adaptation](https://arxiv.org/abs/1908.01342)
+  	- Semi-supervised learning via autoencoders
+  	- 半监督autoencoder用于DA
+
+- 20190809 arXiv [Mind2Mind : transfer learning for GANs](https://arxiv.org/abs/1906.11613)
+  	- Transfer learning using GANs
+  	- 用GAN进行迁移学习
+
+- 20190809 arXiv [Self-supervised Domain Adaptation for Computer Vision Tasks](https://arxiv.org/abs/1907.10915)
+  	- Self-supervised DA
+  	- 自监督DA
+
+- 20190809 arXiv [Hidden Covariate Shift: A Minimal Assumption For Domain Adaptation](https://arxiv.org/abs/1907.12299)
+  	- Hidden covariate shift 
+  	- 一种新的DA假设
+
+- 20190809 PR-19 [Cross-domain Network Representations](https://arxiv.org/abs/1908.00205)
+  - Cross-domain network representation learning
+  - 跨领域网络表达学习
+
+- 20190809 ICCV-19 [Larger Norm More Transferable: An Adaptive Feature Norm Approach for Unsupervised Domain Adaptation](https://arxiv.org/abs/1811.07456)
+  - Adaptive Feature Norm Approach for Unsupervised Domain Adaptation
+  - 自适应的特征归一化用于DA
 
 - 20190731 MICCAI-19 Unsupervised Domain Adaptation via Disentangled Representations: Application to Cross-Modality Liver Segmentation
   	- Disentangled representations for unsupervised domain adaptation
@@ -421,7 +456,7 @@ Including domain adaptation and partial domain adaptation.
 
 - - -
 
-## Domain Generalization
+## 1.3. Domain Generalization
 
 - 20180701 arXiv 做迁移时，只用source数据，不用target数据训练：[Generalizing to Unseen Domains via Adversarial Data Augmentation](https://arxiv.org/abs/1805.12018)
 
@@ -451,7 +486,11 @@ Including domain adaptation and partial domain adaptation.
 
 - - -
 
-## Multi-source Transfer Learning (多源迁移学习)
+## 1.4. Multi-source Transfer Learning (多源迁移学习)
+
+- 20190902 AAAI-19 [Aligning Domain-Specific Distribution and Classifier for Cross-Domain Classification from Multiple Sources](https://www.aaai.org/ojs/index.php/AAAI/article/download/4551/4429)
+  	- Multi-source domain adaptation using both features and classifier adaptation
+  	- 利用特征和分类器同时适配进行多源迁移
 
 - 20181212 AIKP [Multi-source Transfer Learning](https://link.springer.com/chapter/10.1007/978-3-030-00734-8_8)
     - Multi-source transfer
@@ -476,7 +515,11 @@ Including domain adaptation and partial domain adaptation.
 
 - - -
 
-## Heterogeneous Transfer Learning (异构迁移学习)
+## 1.5. Heterogeneous Transfer Learning (异构迁移学习)
+
+- 20190829 ACMMM-19 [Heterogeneous Domain Adaptation via Soft Transfer Network](https://arxiv.org/abs/1908.10552)
+  	- Soft-mmd loss in heterogeneous domain adaptation
+  	- 异构迁移学习中用soft-mmd loss
 
 - 20181113 ACML-18 [Unsupervised Heterogeneous Domain Adaptation with Sparse Feature Transformation](http://proceedings.mlr.press/v95/shen18b/shen18b.pdf)
 	- Heterogeneous domain adaptation
@@ -494,7 +537,7 @@ Including domain adaptation and partial domain adaptation.
 
 - - -
 
-## Online Transfer Learning (在线迁移学习)
+## 1.6. Online Transfer Learning (在线迁移学习)
 
 - 20180326 考虑主动获取label的budget情况下的在线迁移学习：[Online domain adaptation by exploiting labeled features and pro-active learning](https://dl.acm.org/citation.cfm?id=3152507)
 
@@ -531,7 +574,11 @@ Including domain adaptation and partial domain adaptation.
 
 - - -
 
-## Zero-shot / Few-shot Learning
+## 1.7. Zero-shot / Few-shot Learning
+
+- 20190813 arXiv [Domain-Specific Embedding Network for Zero-Shot Recognition](https://arxiv.org/abs/1908.04174)
+  	- Domain-specific embedding network for zero-shot learning
+  	- 领域自适应的zero-shot learning
 
 - 20190401 TIp-19 [Few-Shot Deep Adversarial Learning for Video-based Person Re-identification](https://arxiv.org/abs/1903.12395)
     - Few-shot deep adversarial learning
@@ -567,7 +614,7 @@ Including domain adaptation and partial domain adaptation.
 - 20171216 arXiv [Zero-Shot Deep Domain Adaptation](https://arxiv.org/abs/1707.01922)
     - 当target domain的数据不可用时，如何用相关domain的数据进行辅助学习？
 
-### Zero-shot Learning based on Data Synthesis (基于样本生成的零样本学习)
+### 1.7.1. Zero-shot Learning based on Data Synthesis (基于样本生成的零样本学习)
 [详细介绍](https://github.com/PatrickZH/Zero-shot-Learning) <br>
 
 - 20190409 ICLR-19 [A Closer Look at Few-shot Classification](https://arxiv.org/abs/1904.04232)
@@ -595,9 +642,21 @@ Including domain adaptation and partial domain adaptation.
 
 - - -
 
-## Deep Transfer Learning (深度迁移学习)
+## 1.8. Deep Transfer Learning (深度迁移学习)
 
-### Non-Adversarial Transfer Learning (非对抗深度迁移)
+### 1.8.1. Non-Adversarial Transfer Learning (非对抗深度迁移)
+
+- 20190910 BMVC-19 [Curriculum based Dropout Discriminator for Domain Adaptation](https://arxiv.org/abs/1907.10628)
+  	- Curriculum dropout for domain adaptation
+  	- 基于课程学习的dropout用于DA
+
+- 20190909 IJCAI-FML-19 [FedHealth: A Federated Transfer Learning Framework for Wearable Healthcare](http://jd92.wang/assets/files/a15_ijcai19.pdf)
+  	- The first work on federated transfer learning for wearable healthcare
+  	- 第一个将联邦迁移学习用于可穿戴健康监护的工作
+
+- 20190909 PAMI [Inferring Latent Domains for Unsupervised Deep Domain Adaptation](https://ieeexplore.ieee.org/abstract/document/8792192)
+  	- Inferring latent domains for unsupervised deep domain
+  	- 在深度迁移学习中推断隐含领域
 
 - 20190729 ICCV workshop [Multi-level Domain Adaptive learning for Cross-Domain Detection](https://arxiv.org/abs/1907.11484)
   	- Multi-level domain adaptation for cross-domain Detection
@@ -818,7 +877,7 @@ Including domain adaptation and partial domain adaptation.
 	- 延续了之前的DAN工作，这次考虑联合适配
 - - -
 
-### Deep Adversarial Transfer Learning (对抗迁移学习)
+### 1.8.2. Deep Adversarial Transfer Learning (对抗迁移学习)
 
 - 20190531 arXiv [Adaptive Deep Kernel Learning](https://arxiv.org/abs/1905.12131)
   	- Adaptive deep kernel learning
@@ -976,7 +1035,7 @@ Including domain adaptation and partial domain adaptation.
 
 - - -
 
-## Multi-task Learning (多任务学习)
+## 1.9. Multi-task Learning (多任务学习)
 
 - 20190718 arXiv [Task Selection Policies for Multitask Learning](https://arxiv.org/abs/1907.06214)
   	- Task selection in multitask learning
@@ -1036,7 +1095,11 @@ Including domain adaptation and partial domain adaptation.
 
 - - -
 
-## Transfer Reinforcement Learning (强化迁移学习)
+## 1.10. Transfer Reinforcement Learning (强化迁移学习)
+
+- 20190821 arXiv [Transfer in Deep Reinforcement Learning using Knowledge Graphs](https://arxiv.org/abs/1908.06556)
+  	- Use knowledge graph to transfer in reinforcement learning
+  	- 用知识图谱进行强化迁移
 
 - 20190320 arXiv [Learning to Augment Synthetic Images for Sim2Real Policy Transfer](https://arxiv.org/abs/1903.07740)
     - Augment synthetic images for sim to real policy transfer
@@ -1086,7 +1149,7 @@ Including domain adaptation and partial domain adaptation.
 
 - - -
 
-## Transfer Metric Learning (迁移度量学习)
+## 1.11. Transfer Metric Learning (迁移度量学习)
 
 - 20190515 TNNLS-19 [A Distributed Approach towards Discriminative Distance Metric Learning](https://arxiv.org/abs/1905.05177)
   	- Discriminative distance metric learning
@@ -1124,7 +1187,7 @@ Including domain adaptation and partial domain adaptation.
 
 - - -
 
-## Transitive Transfer Learning (传递迁移学习)
+## 1.12. Transitive Transfer Learning (传递迁移学习)
 
 - 传递迁移学习的第一篇文章，来自杨强团队，发表在KDD-15上：[Transitive Transfer Learning](http://dl.acm.org/citation.cfm?id=2783295)
 
@@ -1136,7 +1199,11 @@ Including domain adaptation and partial domain adaptation.
 
 - - -
 
-## Lifelong Learning (终身迁移学习)
+## 1.13. Lifelong Learning (终身迁移学习)
+
+- 20190912 NeurIPS-19 [Meta-Learning with Implicit Gradients](https://arxiv.org/abs/1909.04630)
+  - Meta-learning with implicit gradients
+  - 隐式梯度的元学习
 
 - 20180323 arXiv 终身迁移学习与增量学习结合：[Incremental Learning-to-Learn with Statistical Guarantees](https://arxiv.org/abs/1803.08089)
 
@@ -1144,7 +1211,7 @@ Including domain adaptation and partial domain adaptation.
 
 - - -
 
-## Negative Transfer (负迁移)
+## 1.14. Negative Transfer (负迁移)
 
 - 20181128 arXiv [Characterizing and Avoiding Negative Transfer](https://arxiv.org/abs/1811.09751)
 	-  Analyzing and formalizing negative transfer, then propose a new method
@@ -1152,6 +1219,6 @@ Including domain adaptation and partial domain adaptation.
 
 - - -
 
-## Transfer Learning Applications (应用)
+## 1.15. Transfer Learning Applications (应用)
 
 See [HERE](https://github.com/jindongwang/transferlearning/blob/master/doc/transfer_learning_application.md) for a full list of transfer learning applications.
