@@ -45,16 +45,13 @@ author = {Wang, Jindong and others}
 
 - **Latest publications**
 
-<<<<<<< HEAD
 	- 20190916 ISWC-19 [Cross-dataset deep transfer learning for activity recognition](https://dl.acm.org/citation.cfm?id=3344865)
     	- Cross-dataset transfer learning for activity recognition
     	- 跨数据集的深度迁移学习用于行为识别
-=======
 
 	- 20190812 ICCV-19 (Oral) [Temporal Attentive Alignment for Large-Scale Video Domain Adaptation](https://arxiv.org/abs/1907.12743)
 		- First work on large-scale cross-domain action recognition
 		- 第一個大規模將DA用於人類動作辨識的工作
->>>>>>> a0ebbe5b6ddb87eb6f312cd4ded6486b128e3121
 
 	- 20190912 NeurIPS-19 [Meta-Learning with Implicit Gradients](https://arxiv.org/abs/1909.04630)
 		- Meta-learning with implicit gradients
