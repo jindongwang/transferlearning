@@ -2,6 +2,10 @@
 
 迁移学习的应用
 
+- 20190916 ISWC-19 [Cross-dataset deep transfer learning for activity recognition](https://dl.acm.org/citation.cfm?id=3344865)
+  	- Cross-dataset transfer learning for activity recognition
+  	- 跨数据集的深度迁移学习用于行为识别
+
 - 20190912 MICCAI workshop [Multi-Domain Adaptation in Brain MRI through Paired Consistency and Adversarial Learning](https://arxiv.org/abs/1908.05959)
   	- Multi-domain adaptation for brain MRI
   	- 多领域的adaptation用于大脑MRI识别

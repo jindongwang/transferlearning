@@ -879,6 +879,11 @@ Including domain adaptation and partial domain adaptation.
 
 ### 1.8.2. Deep Adversarial Transfer Learning (对抗迁移学习)
 
+- 20190916 arXiv [Compound Domain Adaptation in an Open World](https://arxiv.org/abs/1909.03403)
+  	- Domain adaptation using the target domain knowledge
+  	- 使用目标域的知识来进行domain adaptation
+
+
 - 20190531 arXiv [Adaptive Deep Kernel Learning](https://arxiv.org/abs/1905.12131)
   	- Adaptive deep kernel learning
   	- 自适应深度核学习

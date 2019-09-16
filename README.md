@@ -45,6 +45,10 @@ author = {Wang, Jindong and others}
 
 - **Latest publications**
 
+	- 20190916 ISWC-19 [Cross-dataset deep transfer learning for activity recognition](https://dl.acm.org/citation.cfm?id=3344865)
+    	- Cross-dataset transfer learning for activity recognition
+    	- 跨数据集的深度迁移学习用于行为识别
+
 	- 20190912 NeurIPS-19 [Meta-Learning with Implicit Gradients](https://arxiv.org/abs/1909.04630)
 		- Meta-learning with implicit gradients
 		- 隐式梯度的元学习
@@ -61,12 +65,12 @@ author = {Wang, Jindong and others}
     	- The first work on federated transfer learning for wearable healthcare
     	- 第一个将联邦迁移学习用于可穿戴健康监护的工作
 
-	- 20190909 PAMI [Inferring Latent Domains for Unsupervised Deep Domain Adaptation](https://ieeexplore.ieee.org/abstract/document/8792192)
-    	- Inferring latent domains for unsupervised deep domain
-    	- 在深度迁移学习中推断隐含领域
-
 
 - **Preprints on arXiv** (Not peer-reviewed)
+
+	- 20190916 arXiv [Compound Domain Adaptation in an Open World](https://arxiv.org/abs/1909.03403)
+    	- Domain adaptation using the target domain knowledge
+    	- 使用目标域的知识来进行domain adaptation
 
 	- 20190829 arXiv [A survey of cross-lingual features for zero-shot cross-lingual semantic parsing](https://arxiv.org/abs/1908.10461)
     	- 一个跨语言学习综述
@@ -82,10 +86,6 @@ author = {Wang, Jindong and others}
 	- 20190821 arXiv [Transfer in Deep Reinforcement Learning using Knowledge Graphs](https://arxiv.org/abs/1908.06556)
     	- Use knowledge graph to transfer in reinforcement learning
     	- 用知识图谱进行强化迁移
-
-	- 20190821 arXiv [Shallow Domain Adaptive Embeddings for Sentiment Analysis](https://arxiv.org/abs/1908.06082)
-    	- Domain adaptative embedding for sentiment analysis
-    	- 迁移学习用于情感分类
 
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
