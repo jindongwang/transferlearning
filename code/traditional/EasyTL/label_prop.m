@@ -13,21 +13,27 @@ function [Mcj] = label_prop(C,nt,Dct,lp)
     if nargin == 3
         lp = 'linear';
     end
-    %% Construct objective
+   
+    Aeq = zeros(nt, intcon);
+    
+    Beq = ones(nt ,1);
+    for i = 1 : nt 
+        Aeq(i,(i - 1) * C + 1 : i * C) = 1;
+    end
+    %for i = 1 : nt 
+   %     lllll =i
+   %     all_zeros = zeros(1,intcon);
+   %     all_zeros((i - 1) * C + 1 : i * C) = 1;
+   %     Aeq = [Aeq;all_zeros];
+   %     Beq = [Beq;1];
+   % end
     D_vec = reshape(Dct',1,intcon);
     CC = double(D_vec);
     
-    %% Construct equalities: \sum_c x_{ct} + o_t = 1 for each t
-    Aeq = [];
-    Beq = [];
-    for i = 1 : nt
-        all_zeros = zeros(1,intcon);
-        all_zeros((i - 1) * C + 1 : i * C) = 1;
-        Aeq = [Aeq;all_zeros];
-        Beq = [Beq;1];
-    end
+   
+   
     
-    %% Construct inequalities: \sum_t x_{ct} \ge 1 for each c
+   
     A = [];
     B = [];
     for i = 1 : C
@@ -41,11 +47,14 @@ function [Mcj] = label_prop(C,nt,Dct,lp)
     lb_12 = zeros(intcon,1);
     ub_12 = ones(intcon,1);
     
-    %% Solve linear programming using Matlab's built-in function
+  
 %     options = optimoptions('linprog','Algorithm','interior-point');
+
     if strcmp(lp,'binary')
+       
         X = intlinprog(CC,intcon,A,B,Aeq,Beq,lb_12,ub_12);
     else
+        
         X = linprog(CC,A,B,Aeq,Beq,lb_12,ub_12);
     end
     Mct_vec = X(1:C*nt);
