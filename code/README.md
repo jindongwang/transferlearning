@@ -185,6 +185,8 @@ Testing **dataset** can be found [here](https://github.com/jindongwang/transferl
     - [Pytorch](https://github.com/jindongwang/transferlearning/tree/master/code/deep/MRAN)
 - **TA<sup>3</sup>N** (Temporal Attentive Alignment for Large-Scale Video Domain Adaptation, ICCV-19) [73]
     - [Pytorch](https://github.com/cmhungsteve/TA3N)
+- **MDAN** (Multiple Source Domain Adaptation with Adversarial Learning, NeurIPS-18) [74]
+    - [Pytorch](https://github.com/KeiraZhao/MDAN)
 
 ## Applications
 
@@ -347,3 +349,5 @@ accepted in International Conference on Computer Vision (ICCV 2015), Santiago, C
 [72] Zhu Y, Zhuang F, Wang J, et al. Multi-representation adaptation network for cross-domain image classification[J]. Neural Networks, 2019.
 
 [73] Min-Hung Chen, Zsolt Kira, Ghassan AlRegib, et al. Temporal Attentive Alignment for Large-Scale Video Domain Adaptation. ICCV 2019.
+
+[74] Zhao H, Zhang S, Wu G, et al. Multiple source domain adaptation with adversarial learning. NeurIPS 2018.
