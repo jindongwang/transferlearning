@@ -45,6 +45,10 @@ author = {Wang, Jindong and others}
 
 - **Latest publications**
 
+	- 20190926 ICCV-19 [Self-similarity Grouping: A Simple Unsupervised Cross Domain Adaptation Approach for Person Re-identification](https://arxiv.org/abs/1811.10144)
+    	- A simple approach for domain adaptation
+    	- 一个很简单的DA方法
+
 	- 20190916 ISWC-19 [Cross-dataset deep transfer learning for activity recognition](https://dl.acm.org/citation.cfm?id=3344865)
     	- Cross-dataset transfer learning for activity recognition
     	- 跨数据集的深度迁移学习用于行为识别
@@ -57,15 +61,6 @@ author = {Wang, Jindong and others}
 		- Meta-learning with implicit gradients
 		- 隐式梯度的元学习
 
-	- 20190912 MICCAI workshop [Multi-Domain Adaptation in Brain MRI through Paired Consistency and Adversarial Learning](https://arxiv.org/abs/1908.05959)
-    	- Multi-domain adaptation for brain MRI
-    	- 多领域的adaptation用于大脑MRI识别
-
-
-	- 20190910 BMVC-19 [Curriculum based Dropout Discriminator for Domain Adaptation](https://arxiv.org/abs/1907.10628)
-    	- Curriculum dropout for domain adaptation
-    	- 基于课程学习的dropout用于DA
-
 	- 20190909 IJCAI-FML-19 [FedHealth: A Federated Transfer Learning Framework for Wearable Healthcare](http://jd92.wang/assets/files/a15_ijcai19.pdf)
     	- The first work on federated transfer learning for wearable healthcare
     	- 第一个将联邦迁移学习用于可穿戴健康监护的工作
@@ -73,24 +68,25 @@ author = {Wang, Jindong and others}
 
 - **Preprints on arXiv** (Not peer-reviewed)
 
-	- 20190916 arXiv [Compound Domain Adaptation in an Open World](https://arxiv.org/abs/1909.03403)
-    	- Domain adaptation using the target domain knowledge
-    	- 使用目标域的知识来进行domain adaptation
+    - 20190926 arXiv [Learning a Domain-Invariant Embedding for Unsupervised Domain Adaptation Using Class-Conditioned Distribution Alignment](https://arxiv.org/abs/1907.02271)
+    	- Use class-conditional DA for domain adaptation
+    	- 使用类条件对齐进行domain adaptation
 
-	- 20190829 arXiv [A survey of cross-lingual features for zero-shot cross-lingual semantic parsing](https://arxiv.org/abs/1908.10461)
-    	- 一个跨语言学习综述
+	- 20190926 arXiv [A Deep Learning-Based Approach for Measuring the Domain Similarity of Persian Texts](https://arxiv.org/abs/1909.09690)
+    	- Deep learning based domain similarity learning
+    	- 利用深度学习进行领域相似度的学习
 
-	- 20190828 arXiv [VAE-based Domain Adaptation for Speaker Verification](https://arxiv.org/abs/1908.10092)
-    	- Speaker verification using VAE domain adaptation
-    	- 基于VAE的speaker verification
+	- 20190926 arXiv [Transfer Learning across Languages from Someone Else's NMT Model](https://arxiv.org/abs/1909.10955)
+    	- Transfer learning across languages from NMT pretrained model
+    	- 利用预训练好的NMT模型进行迁移学习
 
-	- 20190821 arXiv [Transfer Learning-Based Label Proportions Method with Data of Uncertainty](https://arxiv.org/abs/1908.06603)
-    	- Transfer learning with source and target having uncertainty
-    	- 当source和target都有不确定label时进行迁移
+	- 20190926 arXiv [FEED: Feature-level Ensemble for Knowledge Distillation](https://arxiv.org/abs/1909.10754)
+      	- Feature-level knowledge distillation
+      	- 特征层面的知识蒸馏
 
-	- 20190821 arXiv [Transfer in Deep Reinforcement Learning using Knowledge Graphs](https://arxiv.org/abs/1908.06556)
-    	- Use knowledge graph to transfer in reinforcement learning
-    	- 用知识图谱进行强化迁移
+	- 20190926 arXiv [Restyling Data: Application to Unsupervised Domain Adaptation](https://arxiv.org/abs/1909.10900)
+    	- Restyle data using domain adaptation
+    	- 使用domain adaptation进行风格迁移
 
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)

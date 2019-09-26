@@ -2,6 +2,11 @@
 
 迁移学习的应用
 
+- 20190926 arXiv [Restyling Data: Application to Unsupervised Domain Adaptation](https://arxiv.org/abs/1909.10900)
+  	- Restyle data using domain adaptation
+  	- 使用domain adaptation进行风格迁移
+
+
 - 20190916 ISWC-19 [Cross-dataset deep transfer learning for activity recognition](https://dl.acm.org/citation.cfm?id=3344865)
   	- Cross-dataset transfer learning for activity recognition
   	- 跨数据集的深度迁移学习用于行为识别

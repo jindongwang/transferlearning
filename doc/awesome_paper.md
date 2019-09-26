@@ -646,6 +646,26 @@ Including domain adaptation and partial domain adaptation.
 
 ### 1.8.1. Non-Adversarial Transfer Learning (非对抗深度迁移)
 
+- 20190926 arXiv [Learning a Domain-Invariant Embedding for Unsupervised Domain Adaptation Using Class-Conditioned Distribution Alignment](https://arxiv.org/abs/1907.02271)
+  	- Use class-conditional DA for domain adaptation
+  	- 使用类条件对齐进行domain adaptation
+
+- 20190926 arXiv [A Deep Learning-Based Approach for Measuring the Domain Similarity of Persian Texts](https://arxiv.org/abs/1909.09690)
+  	- Deep learning based domain similarity learning
+  	- 利用深度学习进行领域相似度的学习
+
+- 20190926 arXiv [Transfer Learning across Languages from Someone Else's NMT Model](https://arxiv.org/abs/1909.10955)
+  	- Transfer learning across languages from NMT pretrained model
+  	- 利用预训练好的NMT模型进行迁移学习
+
+- 20190926 arXiv [FEED: Feature-level Ensemble for Knowledge Distillation](https://arxiv.org/abs/1909.10754)
+  	- Feature-level knowledge distillation
+  	- 特征层面的知识蒸馏
+
+- 20190926 ICCV-19 [Self-similarity Grouping: A Simple Unsupervised Cross Domain Adaptation Approach for Person Re-identification](https://arxiv.org/abs/1811.10144)
+  	- A simple approach for domain adaptation
+  	- 一个很简单的DA方法
+
 - 20190910 BMVC-19 [Curriculum based Dropout Discriminator for Domain Adaptation](https://arxiv.org/abs/1907.10628)
   	- Curriculum dropout for domain adaptation
   	- 基于课程学习的dropout用于DA
