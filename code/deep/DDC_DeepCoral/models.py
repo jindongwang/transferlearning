@@ -1,6 +1,7 @@
 import torch.nn as nn
 import torchvision
 from Coral import CORAL
+import mmd
 
 fc_layer = {
     'alexnet': 256 * 6 * 6,
@@ -8,10 +9,11 @@ fc_layer = {
 }
 
 class DeepCoral(nn.Module):
-    def __init__(self, num_classes, backbone):
+    def __init__(self, num_classes, backbone='resnet50', adapt_loss='mmd'):
         super(DeepCoral, self).__init__()
         self.isTrain = True
         self.backbone = backbone
+        self.adapt_loss = adapt_loss
         if self.backbone == 'resnet50':
             model_resnet = torchvision.models.resnet50(pretrained=True)
             self.conv1 = model_resnet.conv1
@@ -43,9 +45,27 @@ class DeepCoral(nn.Module):
             self.cls_fc = nn.Linear(4096, num_classes)
         self.cls_fc.weight.data.normal_(0, 0.005)
         
+    def compute_adapt_loss(self, X, Y, adapt_loss):
+        """Compute adaptation loss, currently we support mmd and coral
+        
+        Arguments:
+            X {tensor} -- source matrix
+            Y {tensor} -- target matrix
+            adapt_loss {string} -- loss type, 'mmd' or 'coral'. You can add your own loss
+        
+        Returns:
+            [tensor] -- adaptation loss tensor
+        """
+        if adapt_loss == 'mmd': 
+            loss = mmd.mmd_linear(X, Y)
+        elif adapt_loss == 'coral':
+            loss = CORAL(X, Y)
+        else:
+            loss = 0
+        return loss
 
     def forward(self, source, target):
-        coral_loss = 0
+        adapt_loss = 0
         source = self.sharedNet(source)
         source = source.view(source.size(0), fc_layer[self.backbone])
         if self.backbone == 'alexnet':
@@ -55,8 +75,8 @@ class DeepCoral(nn.Module):
             target = target.view(target.size(0), fc_layer[self.backbone])
             if self.backbone == 'alexnet':
                 target = self.fc(target)
-            
-            coral_loss = CORAL(source, target)
-
+            adapt_loss = self.compute_adapt_loss(source, target, adapt_loss = self.adapt_loss)
         clf = self.cls_fc(source)
-        return clf, coral_loss
+        return clf, adapt_loss
+
+    

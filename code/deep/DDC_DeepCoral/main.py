@@ -33,10 +33,10 @@ def train(source_loader, target_train_loader, target_test_loader, model, optimiz
             loss.backward()
             optimizer.step()
             if i % CFG['log_interval'] == 0:
-                print('Train Epoch: [{}/{} ({:.0f}%)]\t \
-                    total_Loss: {:.6f}\t \
-                    cls_Loss: {:.6f}\t \
-                    coral_Loss: {:.6f}'.format(
+                print('Train Epoch: [{}/{} ({:.0f}%)], \
+                    total_Loss: {:.6f}, \
+                    cls_Loss: {:.6f}, \
+                    adapt_Loss: {:.6f}'.format(
                     e + 1,
                     CFG['epoch'],
                     100. * i / len_source_loader, loss.item(), loss_cls.item(), loss_coral.item()))
@@ -81,7 +81,7 @@ if __name__ == '__main__':
 
     source_loader, target_train_loader, target_test_loader = load_data(source_name, target_name, CFG['data_path'])
 
-    model = models.DeepCoral(CFG['n_class'], CFG['backbone']).to(DEVICE)
+    model = models.DeepCoral(CFG['n_class'],adapt_loss='coral', backbone='alexnet').to(DEVICE)
     optimizer = torch.optim.SGD([
         {'params': model.sharedNet.parameters()},
         {'params': model.fc.parameters()},

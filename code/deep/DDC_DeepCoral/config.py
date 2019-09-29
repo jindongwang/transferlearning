@@ -1,5 +1,5 @@
 CFG = {
-    'data_path': '../../data/Office31/Original_images/',
+    'data_path': 'D:/data/Office31/Original_images/',
     'kwargs' : {'num_workers': 4},
     'batch_size': 32,
     'epoch': 200,
