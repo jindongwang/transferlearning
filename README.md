@@ -45,6 +45,10 @@ author = {Wang, Jindong and others}
 
 - **Latest publications**
 
+	- 20190929 NeurIPS-19 [Deep Model Transferability from Attribution Maps](https://arxiv.org/abs/1909.11902)
+    	- Using attribution map for network similarity
+    	- 与cvpr18的taskmony类似，这次用了属性图的方式探索网络的相似性
+
 	- 20190926 ICCV-19 [Self-similarity Grouping: A Simple Unsupervised Cross Domain Adaptation Approach for Person Re-identification](https://arxiv.org/abs/1811.10144)
     	- A simple approach for domain adaptation
     	- 一个很简单的DA方法
@@ -56,10 +60,6 @@ author = {Wang, Jindong and others}
 	- 20190812 ICCV-19 (Oral) [Temporal Attentive Alignment for Large-Scale Video Domain Adaptation](https://arxiv.org/abs/1907.12743)
 		- First work on large-scale cross-domain action recognition
 		- 第一個大規模將DA用於人類動作辨識的工作
-
-	- 20190912 NeurIPS-19 [Meta-Learning with Implicit Gradients](https://arxiv.org/abs/1909.04630)
-		- Meta-learning with implicit gradients
-		- 隐式梯度的元学习
 
 	- 20190909 IJCAI-FML-19 [FedHealth: A Federated Transfer Learning Framework for Wearable Healthcare](http://jd92.wang/assets/files/a15_ijcai19.pdf)
     	- The first work on federated transfer learning for wearable healthcare

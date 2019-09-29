@@ -646,6 +646,10 @@ Including domain adaptation and partial domain adaptation.
 
 ### 1.8.1. Non-Adversarial Transfer Learning (非对抗深度迁移)
 
+- 20190929 NeurIPS-19 [Deep Model Transferability from Attribution Maps](https://arxiv.org/abs/1909.11902)
+  	- Using attribution map for network similarity
+  	- 与cvpr18的taskmony类似，这次用了属性图的方式探索网络的相似性
+
 - 20190926 arXiv [Learning a Domain-Invariant Embedding for Unsupervised Domain Adaptation Using Class-Conditioned Distribution Alignment](https://arxiv.org/abs/1907.02271)
   	- Use class-conditional DA for domain adaptation
   	- 使用类条件对齐进行domain adaptation
