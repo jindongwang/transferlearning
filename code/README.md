@@ -90,6 +90,8 @@ Testing **dataset** can be found [here](https://github.com/jindongwang/transferl
 
 - **DaNN** (Domain Adaptive Neural Network, PRICAI-14) [41]
 	- [PyTorch](https://github.com/jindongwang/transferlearning/tree/master/code/deep/DaNN)
+- **DDC** (Deep Domain Confusion, arXiv-14)
+    - [PyTorch](https://github.com/jindongwang/transferlearning/tree/master/code/deep/DDC_DeepCoral)
 - **DeepCORAL** (Deep CORAL: Correlation Alignment for Deep Domain Adaptation) [33]
 	- [PyTorch(recommend)](https://github.com/jindongwang/transferlearning/tree/master/code/deep/DeepCoral) | [PyTorch](https://github.com/SSARCandy/DeepCORAL) | [中文解读](https://ssarcandy.tw/2017/10/31/deep-coral/)
 - **DAN/JAN** (Deep Adaptation Network/Joint Adaptation Network, ICML-15,17) [9,10]
