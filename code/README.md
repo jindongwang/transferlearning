@@ -188,6 +188,9 @@ Testing **dataset** can be found [here](https://github.com/jindongwang/transferl
 - **MDAN** (Multiple Source Domain Adaptation with Adversarial Learning, NeurIPS-18) [74]
     - [Pytorch](https://github.com/KeiraZhao/MDAN)
 
+- Deep model transferribility from attribution maps (NeurIPS-19) [75]
+    - [Tensorflow](https://github.com/DeepDarkFantasy20/TransferbilityFromAttributionMaps)
+
 ## Applications
 
 - Learning to select data for transfer learning with Bayesian Optimization (EMNLP-17) [69]
@@ -351,3 +354,5 @@ accepted in International Conference on Computer Vision (ICCV 2015), Santiago, C
 [73] Min-Hung Chen, Zsolt Kira, Ghassan AlRegib, et al. Temporal Attentive Alignment for Large-Scale Video Domain Adaptation. ICCV 2019.
 
 [74] Zhao H, Zhang S, Wu G, et al. Multiple source domain adaptation with adversarial learning. NeurIPS 2018.
+
+[75] Jie Song, et al. Deep model transferrability from attirbution maps. NeurIPS 2019.
