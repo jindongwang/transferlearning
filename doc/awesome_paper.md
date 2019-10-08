@@ -35,6 +35,10 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 ### 1.1.1. Theory (理论)
 
+- 20191008 CVPR-19 [Characterizing and Avoiding Negative Transfer](https://arxiv.org/abs/1811.09751)
+  	- Characterizing and avoid negative transfer
+  	- 形式化并提出如何避免负迁移
+
 - 20190301 ALT-19 [A Generalized Neyman-Pearson Criterion for Optimal Domain Adaptation](https://arxiv.org/abs/1810.01545)
     - A new criterion for domain adaptation
     - 提出一种新的可以强化domain adaptation表现的度量
@@ -60,6 +64,10 @@ Let's read some awesome transfer learning / domain adaptation papers.
 	- 对domain adaptation进行了一些理论上的分析
 
 ### 1.1.2. Others (其他)
+
+- 20191008 arXiv [DIVA: Domain Invariant Variational Autoencoders](https://arxiv.org/abs/1905.10427)
+  	- Domain invariant variational autoencoders
+  	- 领域不变的变分自编码器
 
 - 20190821 arXiv [Transfer Learning-Based Label Proportions Method with Data of Uncertainty](https://arxiv.org/abs/1908.06603)
   	- Transfer learning with source and target having uncertainty
@@ -308,6 +316,10 @@ Including domain adaptation and partial domain adaptation.
 	- 发表在IEEE Trans. Knowledge and Data Engineering期刊上
 
 ### 1.2.2. Deep / Adversarial Methods (深度/对抗迁移方法)
+
+- 20191008 EMNLP-19 workshop [Domain Differential Adaptation for Neural Machine Translation](https://arxiv.org/abs/1910.02555)
+  	- Embrace the difference between domains for adaptation
+  	- 拥抱domain的不同，并利用这些不同帮助adaptation
 
 - 20191008 BMVC-19 [Multi-Weight Partial Domain Adaptation](https://bmvc2019.org/wp-content/uploads/papers/0406-paper.pdf)
   	- Class and sample weight contribution for partial domain adaptation
@@ -911,6 +923,9 @@ Including domain adaptation and partial domain adaptation.
   	- Domain adaptation using the target domain knowledge
   	- 使用目标域的知识来进行domain adaptation
 
+- 20101008 ICCV-19 [Enhancing Adversarial Example Transferability with an Intermediate Level Attack](https://arxiv.org/abs/1907.10823)
+  	- Enhancing adversarial examples transerability
+  	- 增强对抗样本的可迁移性
 
 - 20190531 arXiv [Adaptive Deep Kernel Learning](https://arxiv.org/abs/1905.12131)
   	- Adaptive deep kernel learning

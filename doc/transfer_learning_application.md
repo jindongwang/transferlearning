@@ -2,6 +2,18 @@
 
 迁移学习的应用
 
+- 20191008 arXiv [Transfer Brain MRI Tumor Segmentation Models Across Modalities with Adversarial Networks](https://arxiv.org/abs/1910.02717)
+  	- Transfer learning for multi-modal brain MRI tumor segmentation
+  	- 用迁移学习进行多模态的MRI肿瘤分割
+
+- 20191008 ICONIP-19 [Semi-Supervised Domain Adaptation with Representation Learning for Semantic Segmentation across Time](https://arxiv.org/abs/1805.04141)
+  	- Semi-supervised domain adaptation with representation learning for semantic segmentation
+  	- 半监督DA用于语义分割
+
+- 20191008 arXiv [Noise as Domain Shift: Denoising Medical Images by Unpaired Image Translation](https://arxiv.org/abs/1910.02702)
+  	- Noise as domain shift for medical images
+  	- 医学图像中的噪声进行adaptation
+
 - 20190926 arXiv [Restyling Data: Application to Unsupervised Domain Adaptation](https://arxiv.org/abs/1909.10900)
   	- Restyle data using domain adaptation
   	- 使用domain adaptation进行风格迁移

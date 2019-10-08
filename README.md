@@ -45,48 +45,47 @@ author = {Wang, Jindong and others}
 
 - **Latest publications**
 
+	- 20101008 ICCV-19 [Enhancing Adversarial Example Transferability with an Intermediate Level Attack](https://arxiv.org/abs/1907.10823)
+    	- Enhancing adversarial examples transerability
+    	- 增强对抗样本的可迁移性
+
+	- 20191008 ICONIP-19 [Semi-Supervised Domain Adaptation with Representation Learning for Semantic Segmentation across Time](https://arxiv.org/abs/1805.04141)
+    	- Semi-supervised domain adaptation with representation learning for semantic segmentation
+    	- 半监督DA用于语义分割
+
+	- 20191008 JAIR [A Survey Of Cross-lingual Word Embedding Models](https://arxiv.org/abs/1706.04902)
+    	- A survey of cross-lingual work embedding
+
+	- 20191008 EMNLP-19 workshop [Domain Differential Adaptation for Neural Machine Translation](https://arxiv.org/abs/1910.02555)
+    	- Embrace the difference between domains for adaptation
+    	- 拥抱domain的不同，并利用这些不同帮助adaptation
+
+	- 20191008 CVPR-19 [Characterizing and Avoiding Negative Transfer](https://arxiv.org/abs/1811.09751)
+    	- Characterizing and avoid negative transfer
+    	- 形式化并提出如何避免负迁移
+
 	- 20191008 BMVC-19 [Multi-Weight Partial Domain Adaptation](https://bmvc2019.org/wp-content/uploads/papers/0406-paper.pdf)
     	- Class and sample weight contribution for partial domain adaptation
     	- 同时考虑类别和样本比重用于部分迁移学习
 
-	- 20190929 NeurIPS-19 [Deep Model Transferability from Attribution Maps](https://arxiv.org/abs/1909.11902)
-    	- Using attribution map for network similarity
-    	- 与cvpr18的taskmony类似，这次用了属性图的方式探索网络的相似性
-
-	- 20190926 ICCV-19 [Self-similarity Grouping: A Simple Unsupervised Cross Domain Adaptation Approach for Person Re-identification](https://arxiv.org/abs/1811.10144)
-    	- A simple approach for domain adaptation
-    	- 一个很简单的DA方法
-
-	- 20190916 ISWC-19 [Cross-dataset deep transfer learning for activity recognition](https://dl.acm.org/citation.cfm?id=3344865)
-    	- Cross-dataset transfer learning for activity recognition
-    	- 跨数据集的深度迁移学习用于行为识别
-
-	- 20190812 ICCV-19 (Oral) [Temporal Attentive Alignment for Large-Scale Video Domain Adaptation](https://arxiv.org/abs/1907.12743)
-		- First work on large-scale cross-domain action recognition
-		- 第一個大規模將DA用於人類動作辨識的工作
-
 
 - **Preprints on arXiv** (Not peer-reviewed)
 
+	- 20191008 arXiv [Noise as Domain Shift: Denoising Medical Images by Unpaired Image Translation](https://arxiv.org/abs/1910.02702)
+    	- Noise as domain shift for medical images
+    	- 医学图像中的噪声进行adaptation
+
+	- 20191008 arXiv [DIVA: Domain Invariant Variational Autoencoders](https://arxiv.org/abs/1905.10427)
+    	- Domain invariant variational autoencoders
+    	- 领域不变的变分自编码器
+
+	- 20191008 arXiv [Transfer Brain MRI Tumor Segmentation Models Across Modalities with Adversarial Networks](https://arxiv.org/abs/1910.02717)
+    	- Transfer learning for multi-modal brain MRI tumor segmentation
+    	- 用迁移学习进行多模态的MRI肿瘤分割
+  
     - 20190926 arXiv [Learning a Domain-Invariant Embedding for Unsupervised Domain Adaptation Using Class-Conditioned Distribution Alignment](https://arxiv.org/abs/1907.02271)
     	- Use class-conditional DA for domain adaptation
     	- 使用类条件对齐进行domain adaptation
-
-	- 20190926 arXiv [A Deep Learning-Based Approach for Measuring the Domain Similarity of Persian Texts](https://arxiv.org/abs/1909.09690)
-    	- Deep learning based domain similarity learning
-    	- 利用深度学习进行领域相似度的学习
-
-	- 20190926 arXiv [Transfer Learning across Languages from Someone Else's NMT Model](https://arxiv.org/abs/1909.10955)
-    	- Transfer learning across languages from NMT pretrained model
-    	- 利用预训练好的NMT模型进行迁移学习
-
-	- 20190926 arXiv [FEED: Feature-level Ensemble for Knowledge Distillation](https://arxiv.org/abs/1909.10754)
-      	- Feature-level knowledge distillation
-      	- 特征层面的知识蒸馏
-
-	- 20190926 arXiv [Restyling Data: Application to Unsupervised Domain Adaptation](https://arxiv.org/abs/1909.10900)
-    	- Restyle data using domain adaptation
-    	- 使用domain adaptation进行风格迁移
 
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
