@@ -196,6 +196,9 @@ Testing **dataset** can be found [here](https://github.com/jindongwang/transferl
 - **DIVA** (Domain Invariant Variational Autoencoders, arXiv-19) [76]
     - [Pytorch](https://github.com/AMLab-Amsterdam/DIVA)
 
+- **CDCL** (Cross-Domain Complementary Learning with Synthetic Data for Multi-Person Part Segmentation, arXiv, ICCV-19 Demo) [77]
+    - [Tensorflow](https://github.com/kevinlin311tw/CDCL-human-part-segmentation)
+
 ## Applications
 
 - Learning to select data for transfer learning with Bayesian Optimization (EMNLP-17) [69]
@@ -363,3 +366,5 @@ accepted in International Conference on Computer Vision (ICCV 2015), Santiago, C
 [75] Jie Song, et al. Deep model transferrability from attirbution maps. NeurIPS 2019.
 
 [76] Ilse, M., Tomczak, J. M., C. Louizos & Welling, M. (2018). DIVA: Domain Invariant Variational Autoencoders. arXiv preprint arXiv:1905.10427
+
+[77] Lin K., et al. Cross-Domain Complementary Learning with Synthetic Data for Multi-Person Part Segmentation[J]. arXiv preprint arXiv:1907.05193, ICCV demo, 2019.

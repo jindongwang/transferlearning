@@ -2,6 +2,10 @@
 
 迁移学习的应用
 
+- 20191008 arXiv, ICCV-19 demo [Cross-Domain Complementary Learning with Synthetic Data for Multi-Person Part Segmentation](https://arxiv.org/abs/1907.05193)
+  	- Learning human body part segmentation without human labeling 
+  	- 基於合成數據的跨域互補學習人體部位分割
+
 - 20191008 arXiv [Transfer Brain MRI Tumor Segmentation Models Across Modalities with Adversarial Networks](https://arxiv.org/abs/1910.02717)
   	- Transfer learning for multi-modal brain MRI tumor segmentation
   	- 用迁移学习进行多模态的MRI肿瘤分割
