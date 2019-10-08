@@ -309,6 +309,10 @@ Including domain adaptation and partial domain adaptation.
 
 ### 1.2.2. Deep / Adversarial Methods (深度/对抗迁移方法)
 
+- 20191008 BMVC-19 [Multi-Weight Partial Domain Adaptation](https://bmvc2019.org/wp-content/uploads/papers/0406-paper.pdf)
+  	- Class and sample weight contribution for partial domain adaptation
+  	- 同时考虑类别和样本比重用于部分迁移学习
+
 - 20190813 ICCV-19 oral [UM-Adapt: Unsupervised Multi-Task Adaptation Using Adversarial Cross-Task Distillation](https://arxiv.org/abs/1908.03884)
   	- A unified framework for domain adaptation
   	- 一个统一的用于domain adaptation的框架

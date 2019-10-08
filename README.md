@@ -45,6 +45,10 @@ author = {Wang, Jindong and others}
 
 - **Latest publications**
 
+	- 20191008 BMVC-19 [Multi-Weight Partial Domain Adaptation](https://bmvc2019.org/wp-content/uploads/papers/0406-paper.pdf)
+    	- Class and sample weight contribution for partial domain adaptation
+    	- 同时考虑类别和样本比重用于部分迁移学习
+
 	- 20190929 NeurIPS-19 [Deep Model Transferability from Attribution Maps](https://arxiv.org/abs/1909.11902)
     	- Using attribution map for network similarity
     	- 与cvpr18的taskmony类似，这次用了属性图的方式探索网络的相似性
@@ -60,10 +64,6 @@ author = {Wang, Jindong and others}
 	- 20190812 ICCV-19 (Oral) [Temporal Attentive Alignment for Large-Scale Video Domain Adaptation](https://arxiv.org/abs/1907.12743)
 		- First work on large-scale cross-domain action recognition
 		- 第一個大規模將DA用於人類動作辨識的工作
-
-	- 20190909 IJCAI-FML-19 [FedHealth: A Federated Transfer Learning Framework for Wearable Healthcare](http://jd92.wang/assets/files/a15_ijcai19.pdf)
-    	- The first work on federated transfer learning for wearable healthcare
-    	- 第一个将联邦迁移学习用于可穿戴健康监护的工作
 
 
 - **Preprints on arXiv** (Not peer-reviewed)
