@@ -193,6 +193,9 @@ Testing **dataset** can be found [here](https://github.com/jindongwang/transferl
 - Deep model transferribility from attribution maps (NeurIPS-19) [75]
     - [Tensorflow](https://github.com/DeepDarkFantasy20/TransferbilityFromAttributionMaps)
 
+- **DIVA** (Domain Invariant Variational Autoencoders, arXiv-19) [76]
+    - [Pytorch](https://github.com/AMLab-Amsterdam/DIVA)
+
 ## Applications
 
 - Learning to select data for transfer learning with Bayesian Optimization (EMNLP-17) [69]
@@ -358,3 +361,5 @@ accepted in International Conference on Computer Vision (ICCV 2015), Santiago, C
 [74] Zhao H, Zhang S, Wu G, et al. Multiple source domain adaptation with adversarial learning. NeurIPS 2018.
 
 [75] Jie Song, et al. Deep model transferrability from attirbution maps. NeurIPS 2019.
+
+[76] Ilse, M., Tomczak, J. M., C. Louizos & Welling, M. (2018). DIVA: Domain Invariant Variational Autoencoders. arXiv preprint arXiv:1905.10427
