@@ -71,6 +71,10 @@ author = {Wang, Jindong and others}
 
 - **Preprints on arXiv** (Not peer-reviewed)
 
+    - 20191008 arXiv, ICCV-19 demo [Cross-Domain Complementary Learning with Synthetic Data for Multi-Person Part Segmentation](https://arxiv.org/abs/1907.05193)
+    	- Learning human body part segmentation without human labeling 
+    	- 基於合成數據的跨域互補學習人體部位分割
+
 	- 20191008 arXiv [Noise as Domain Shift: Denoising Medical Images by Unpaired Image Translation](https://arxiv.org/abs/1910.02702)
     	- Noise as domain shift for medical images
     	- 医学图像中的噪声进行adaptation
