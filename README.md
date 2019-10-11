@@ -45,6 +45,18 @@ author = {Wang, Jindong and others}
 
 - **Latest publications**
 
+	- 20191011 NeurIPS-19 [Unified Language Model Pre-training for Natural Language Understanding and Generation](https://arxiv.org/abs/1905.03197)
+    	- Unified language model pre-training for understanding and generation
+    	- 统一的语言模型预训练用于自然语言理解和生成
+
+	- 20191011 ICIP-19 [Cross-modal knowledge distillation for action recognition](https://arxiv.org/abs/1910.04641)
+    	- Cross-modal knowledge distillation for action recognition
+    	- 跨模态的知识蒸馏并用于动作识别
+
+	- 20191011 NeurIPS-19 workshop [Language Transfer for Early Warning of Epidemics from Social Media](https://arxiv.org/abs/1910.04519)
+    	- Language transfer to predict epidemics from social media
+    	- 通过社交网络数据预测传染病并进行语言模型的迁移
+
 	- 20101008 ICCV-19 [Enhancing Adversarial Example Transferability with an Intermediate Level Attack](https://arxiv.org/abs/1907.10823)
     	- Enhancing adversarial examples transerability
     	- 增强对抗样本的可迁移性
@@ -53,23 +65,16 @@ author = {Wang, Jindong and others}
     	- Semi-supervised domain adaptation with representation learning for semantic segmentation
     	- 半监督DA用于语义分割
 
-	- 20191008 JAIR [A Survey Of Cross-lingual Word Embedding Models](https://arxiv.org/abs/1706.04902)
-    	- A survey of cross-lingual work embedding
-
-	- 20191008 EMNLP-19 workshop [Domain Differential Adaptation for Neural Machine Translation](https://arxiv.org/abs/1910.02555)
-    	- Embrace the difference between domains for adaptation
-    	- 拥抱domain的不同，并利用这些不同帮助adaptation
-
-	- 20191008 CVPR-19 [Characterizing and Avoiding Negative Transfer](https://arxiv.org/abs/1811.09751)
-    	- Characterizing and avoid negative transfer
-    	- 形式化并提出如何避免负迁移
-
-	- 20191008 BMVC-19 [Multi-Weight Partial Domain Adaptation](https://bmvc2019.org/wp-content/uploads/papers/0406-paper.pdf)
-    	- Class and sample weight contribution for partial domain adaptation
-    	- 同时考虑类别和样本比重用于部分迁移学习
-
 
 - **Preprints on arXiv** (Not peer-reviewed)
+
+	- 20191011 arXiv [Estimating Transfer Entropy via Copula Entropy](https://arxiv.org/abs/1910.04375)
+    	- Evaluate the transfer entopy via copula entropy
+    	- 评估迁移熵
+
+	- 20191011 arXiv [Learning to Remember from a Multi-Task Teacher](https://arxiv.org/abs/1910.04650)
+    	- Dealing with the catastrophic forgetting during sequential learning
+    	- 在序列学习时处理灾难遗忘
 
     - 20191008 arXiv, ICCV-19 demo [Cross-Domain Complementary Learning with Synthetic Data for Multi-Person Part Segmentation](https://arxiv.org/abs/1907.05193)
     	- Learning human body part segmentation without human labeling 
@@ -82,14 +87,6 @@ author = {Wang, Jindong and others}
 	- 20191008 arXiv [DIVA: Domain Invariant Variational Autoencoders](https://arxiv.org/abs/1905.10427)
     	- Domain invariant variational autoencoders
     	- 领域不变的变分自编码器
-
-	- 20191008 arXiv [Transfer Brain MRI Tumor Segmentation Models Across Modalities with Adversarial Networks](https://arxiv.org/abs/1910.02717)
-    	- Transfer learning for multi-modal brain MRI tumor segmentation
-    	- 用迁移学习进行多模态的MRI肿瘤分割
-  
-    - 20190926 arXiv [Learning a Domain-Invariant Embedding for Unsupervised Domain Adaptation Using Class-Conditioned Distribution Alignment](https://arxiv.org/abs/1907.02271)
-    	- Use class-conditional DA for domain adaptation
-    	- 使用类条件对齐进行domain adaptation
 
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)

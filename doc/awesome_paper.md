@@ -65,6 +65,14 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 ### 1.1.2. Others (其他)
 
+- 20191011 arXiv [Estimating Transfer Entropy via Copula Entropy](https://arxiv.org/abs/1910.04375)
+  	- Evaluate the transfer entopy via copula entropy
+  	- 评估迁移熵
+
+- 20191011 arXiv [Learning to Remember from a Multi-Task Teacher](https://arxiv.org/abs/1910.04650)
+  	- Dealing with the catastrophic forgetting during sequential learning
+  	- 在序列学习时处理灾难遗忘
+
 - 20191008 arXiv [DIVA: Domain Invariant Variational Autoencoders](https://arxiv.org/abs/1905.10427)
   	- Domain invariant variational autoencoders
   	- 领域不变的变分自编码器

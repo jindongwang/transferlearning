@@ -2,6 +2,18 @@
 
 迁移学习的应用
 
+- 20191011 NeurIPS-19 [Unified Language Model Pre-training for Natural Language Understanding and Generation](https://arxiv.org/abs/1905.03197)
+  	- Unified language model pre-training for understanding and generation
+  	- 统一的语言模型预训练用于自然语言理解和生成
+
+- 20191011 ICIP-19 [Cross-modal knowledge distillation for action recognition](https://arxiv.org/abs/1910.04641)
+  	- Cross-modal knowledge distillation for action recognition
+  	- 跨模态的知识蒸馏并用于动作识别
+
+- 20191011 NeurIPS-19 workshop [Language Transfer for Early Warning of Epidemics from Social Media](https://arxiv.org/abs/1910.04519)
+  	- Language transfer to predict epidemics from social media
+  	- 通过社交网络数据预测传染病并进行语言模型的迁移
+
 - 20191008 arXiv, ICCV-19 demo [Cross-Domain Complementary Learning with Synthetic Data for Multi-Person Part Segmentation](https://arxiv.org/abs/1907.05193)
   	- Learning human body part segmentation without human labeling 
   	- 基於合成數據的跨域互補學習人體部位分割
