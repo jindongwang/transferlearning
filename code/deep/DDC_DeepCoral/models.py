@@ -56,8 +56,9 @@ class DeepCoral(nn.Module):
         Returns:
             [tensor] -- adaptation loss tensor
         """
-        if adapt_loss == 'mmd': 
-            loss = mmd.mmd_linear(X, Y)
+        if adapt_loss == 'mmd':
+            mmd_loss = mmd.MMD_loss()
+            loss = mmd_loss(X, Y)
         elif adapt_loss == 'coral':
             loss = CORAL(X, Y)
         else:
