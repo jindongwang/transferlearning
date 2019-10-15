@@ -65,6 +65,10 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 ### 1.1.2. Others (其他)
 
+- 20191015 arXiv [The Visual Task Adaptation Benchmark](https://arxiv.org/abs/1910.04867)
+  	- A new large benchmark for visual adaptation tasks by Google
+  	- Google提出的一个巨大的视觉迁移任务数据集
+
 - 20191011 arXiv [Estimating Transfer Entropy via Copula Entropy](https://arxiv.org/abs/1910.04375)
   	- Evaluate the transfer entopy via copula entropy
   	- 评估迁移熵

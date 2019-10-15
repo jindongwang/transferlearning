@@ -68,6 +68,10 @@ author = {Wang, Jindong and others}
 
 - **Preprints on arXiv** (Not peer-reviewed)
 
+	- 20191015 arXiv [The Visual Task Adaptation Benchmark](https://arxiv.org/abs/1910.04867)
+    	- A new large benchmark for visual adaptation tasks by Google
+    	- Google提出的一个巨大的视觉迁移任务数据集
+
 	- 20191011 arXiv [Estimating Transfer Entropy via Copula Entropy](https://arxiv.org/abs/1910.04375)
     	- Evaluate the transfer entopy via copula entropy
     	- 评估迁移熵
@@ -83,10 +87,6 @@ author = {Wang, Jindong and others}
 	- 20191008 arXiv [Noise as Domain Shift: Denoising Medical Images by Unpaired Image Translation](https://arxiv.org/abs/1910.02702)
     	- Noise as domain shift for medical images
     	- 医学图像中的噪声进行adaptation
-
-	- 20191008 arXiv [DIVA: Domain Invariant Variational Autoencoders](https://arxiv.org/abs/1905.10427)
-    	- Domain invariant variational autoencoders
-    	- 领域不变的变分自编码器
 
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
@@ -164,6 +164,9 @@ Here are some articles on transfer learning theory and survey.
 		- NIPS-06 [Analysis of Representations for Domain Adaptation](https://dl.acm.org/citation.cfm?id=2976474)
 		- ML-10 [A Theory of Learning from Different Domains](https://link.springer.com/article/10.1007/s10994-009-5152-4)
 		- NIPS-08 [Learning Bounds for Domain Adaptation](http://papers.nips.cc/paper/3212-learning-bounds-for-domain-adaptation)
+
+	- 最近，清华大学龙明盛老师团队提出的Maximum Margin theory在理论分析和证明方面取得了阶段性进展：
+    	- ICML-19 [Bridging Theory and Algorithm for Domain Adaptation](https://arxiv.org/abs/1904.05801)
 
 	- 许多研究者在迁移学习的研究中会应用MMD(Maximum Mean Discrepancy)这个最大均值差异来衡量不同domain之间的距离。MMD的理论文章是：
 		- MMD的提出：[A Hilbert Space Embedding for Distributions](https://link.springer.com/chapter/10.1007/978-3-540-75225-7_5) 以及 [A Kernel Two-Sample Test](http://www.jmlr.org/papers/v13/gretton12a.html)
