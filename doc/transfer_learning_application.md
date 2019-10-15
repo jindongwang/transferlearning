@@ -2,6 +2,10 @@
 
 迁移学习的应用
 
+- 20191015 arXiv [Emotion Recognition in Conversations with Transfer Learning from Generative Conversation Modeling](https://arxiv.org/abs/1910.04980)
+  	- Emotion recognition in conversations with transfer learning
+  	- 用迁移学习进行对话中的情绪识别
+
 - 20191015 WSDM-20 [DDTCDR: Deep Dual Transfer Cross Domain Recommendation](https://arxiv.org/abs/1910.05189)
   	- Cross-modal recommendation using dual transfer learning
   	- 用对偶迁移进行跨模态推荐

@@ -329,6 +329,10 @@ Including domain adaptation and partial domain adaptation.
 
 ### 1.2.2. Deep / Adversarial Methods (深度/对抗迁移方法)
 
+- 20191015 arXiv [Deep Kernel Transfer in Gaussian Processes for Few-shot Learning](https://arxiv.org/abs/1910.05199)
+  	- Deep kernel transfer learing in Gaussian process
+  	- 高斯过程中的深度迁移学习
+
 - 20191008 EMNLP-19 workshop [Domain Differential Adaptation for Neural Machine Translation](https://arxiv.org/abs/1910.02555)
   	- Embrace the difference between domains for adaptation
   	- 拥抱domain的不同，并利用这些不同帮助adaptation
@@ -1096,6 +1100,10 @@ Including domain adaptation and partial domain adaptation.
 - - -
 
 ## 1.9. Multi-task Learning (多任务学习)
+
+- 20191015 arXiv [Gumbel-Matrix Routing for Flexible Multi-task Learning](https://arxiv.org/abs/1910.04915)
+  	- Effective method for flexible multi-task learning
+  	- 一种很有效的方法用于多任务学习
 
 - 20190718 arXiv [Task Selection Policies for Multitask Learning](https://arxiv.org/abs/1907.06214)
   	- Task selection in multitask learning

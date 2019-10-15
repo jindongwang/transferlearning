@@ -68,6 +68,18 @@ author = {Wang, Jindong and others}
 
 - **Preprints on arXiv** (Not peer-reviewed)
 
+	- 20191015 arXiv [Gumbel-Matrix Routing for Flexible Multi-task Learning](https://arxiv.org/abs/1910.04915)
+    	- Effective method for flexible multi-task learning
+    	- 一种很有效的方法用于多任务学习
+
+	- 20191015 arXiv [Deep Kernel Transfer in Gaussian Processes for Few-shot Learning](https://arxiv.org/abs/1910.05199)
+    	- Deep kernel transfer learing in Gaussian process
+    	- 高斯过程中的深度迁移学习
+
+	- 20191015 arXiv [Emotion Recognition in Conversations with Transfer Learning from Generative Conversation Modeling](https://arxiv.org/abs/1910.04980)
+    	- Emotion recognition in conversations with transfer learning
+    	- 用迁移学习进行对话中的情绪识别
+
 	- 20191015 arXiv [The Visual Task Adaptation Benchmark](https://arxiv.org/abs/1910.04867)
     	- A new large benchmark for visual adaptation tasks by Google
     	- Google提出的一个巨大的视觉迁移任务数据集
@@ -75,18 +87,6 @@ author = {Wang, Jindong and others}
 	- 20191011 arXiv [Estimating Transfer Entropy via Copula Entropy](https://arxiv.org/abs/1910.04375)
     	- Evaluate the transfer entopy via copula entropy
     	- 评估迁移熵
-
-	- 20191011 arXiv [Learning to Remember from a Multi-Task Teacher](https://arxiv.org/abs/1910.04650)
-    	- Dealing with the catastrophic forgetting during sequential learning
-    	- 在序列学习时处理灾难遗忘
-
-    - 20191008 arXiv, ICCV-19 demo [Cross-Domain Complementary Learning with Synthetic Data for Multi-Person Part Segmentation](https://arxiv.org/abs/1907.05193)
-    	- Learning human body part segmentation without human labeling 
-    	- 基於合成數據的跨域互補學習人體部位分割
-
-	- 20191008 arXiv [Noise as Domain Shift: Denoising Medical Images by Unpaired Image Translation](https://arxiv.org/abs/1910.02702)
-    	- Noise as domain shift for medical images
-    	- 医学图像中的噪声进行adaptation
 
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
