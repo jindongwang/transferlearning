@@ -45,6 +45,10 @@ author = {Wang, Jindong and others}
 
 - **Latest publications**
 
+	- 20191015 WSDM-20 [DDTCDR: Deep Dual Transfer Cross Domain Recommendation](https://arxiv.org/abs/1910.05189)
+    	- Cross-modal recommendation using dual transfer learning
+    	- 用对偶迁移进行跨模态推荐
+
 	- 20191011 NeurIPS-19 [Unified Language Model Pre-training for Natural Language Understanding and Generation](https://arxiv.org/abs/1905.03197)
     	- Unified language model pre-training for understanding and generation
     	- 统一的语言模型预训练用于自然语言理解和生成
@@ -60,10 +64,6 @@ author = {Wang, Jindong and others}
 	- 20101008 ICCV-19 [Enhancing Adversarial Example Transferability with an Intermediate Level Attack](https://arxiv.org/abs/1907.10823)
     	- Enhancing adversarial examples transerability
     	- 增强对抗样本的可迁移性
-
-	- 20191008 ICONIP-19 [Semi-Supervised Domain Adaptation with Representation Learning for Semantic Segmentation across Time](https://arxiv.org/abs/1805.04141)
-    	- Semi-supervised domain adaptation with representation learning for semantic segmentation
-    	- 半监督DA用于语义分割
 
 
 - **Preprints on arXiv** (Not peer-reviewed)

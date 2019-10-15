@@ -2,6 +2,10 @@
 
 迁移学习的应用
 
+- 20191015 WSDM-20 [DDTCDR: Deep Dual Transfer Cross Domain Recommendation](https://arxiv.org/abs/1910.05189)
+  	- Cross-modal recommendation using dual transfer learning
+  	- 用对偶迁移进行跨模态推荐
+
 - 20191011 NeurIPS-19 [Unified Language Model Pre-training for Natural Language Understanding and Generation](https://arxiv.org/abs/1905.03197)
   	- Unified language model pre-training for understanding and generation
   	- 统一的语言模型预训练用于自然语言理解和生成
