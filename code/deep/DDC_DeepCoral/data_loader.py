@@ -1,7 +1,7 @@
 from torchvision import datasets, transforms
 import torch
 
-def load_data(root_path, dir, batch_size, train, kwargs):
+def load_data(data_folder, batch_size, train, kwargs):
     transform = {
         'train': transforms.Compose(
             [transforms.Resize([256, 256]),
@@ -16,7 +16,7 @@ def load_data(root_path, dir, batch_size, train, kwargs):
                 transforms.Normalize(mean=[0.485, 0.456, 0.406],
                                   std=[0.229, 0.224, 0.225])])
         }
-    data = datasets.ImageFolder(root = root_path + dir, transform=transform['train' if train else 'test'])
-    data_loader = torch.utils.data.DataLoader(data, batch_size=batch_size, shuffle=True, **kwargs, drop_last = True)
+    data = datasets.ImageFolder(root = data_folder, transform=transform['train' if train else 'test'])
+    data_loader = torch.utils.data.DataLoader(data, batch_size=batch_size, shuffle=True, **kwargs, drop_last = True if train else False)
     return data_loader
  
