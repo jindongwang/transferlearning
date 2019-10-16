@@ -45,6 +45,10 @@ author = {Wang, Jindong and others}
 
 - **Latest publications**
 
+	- 20191012 ICCV-19 [Drop to Adapt: Learning Discriminative Features for Unsupervised Domain Adaptation](https://arxiv.org/abs/1910.05562)
+		- Drop to Adapt: Learning Discriminative Features for Unsupervised Domain Adaptation
+		- 直接適應：學習非監督域自適應的判別功能
+
 	- 20191015 WSDM-20 [DDTCDR: Deep Dual Transfer Cross Domain Recommendation](https://arxiv.org/abs/1910.05189)
     	- Cross-modal recommendation using dual transfer learning
     	- 用对偶迁移进行跨模态推荐
