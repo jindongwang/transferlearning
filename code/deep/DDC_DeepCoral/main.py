@@ -79,18 +79,18 @@ def load_data(src, tar, root_dir):
 
 
 if __name__ == '__main__':
-    torch.manual_seed(10)
+    torch.manual_seed(0)
 
     source_name = "dslr"
     target_name = "amazon"
-    
+
     print('Src: %s, Tar: %s' % (source_name, target_name))
 
     source_loader, target_train_loader, target_test_loader = load_data(
         source_name, target_name, CFG['data_path'])
 
     model = models.Transfer_Net(
-        CFG['n_class'], transfer_loss='coral', base_net='alexnet').to(DEVICE)
+        CFG['n_class'], transfer_loss='mmd', base_net='resnet50').to(DEVICE)
     optimizer = torch.optim.SGD([
         {'params': model.base_network.parameters()},
         {'params': model.bottleneck_layer.parameters(), 'lr': 10 * CFG['lr']},
