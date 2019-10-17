@@ -2,6 +2,18 @@
 
 迁移学习的应用
 
+- 20191017 arXiv [Evolution of transfer learning in natural language processing](https://arxiv.org/abs/1910.07370)
+  	- Survey transfer learning works in NLP
+  	- 综述了最近迁移学习在NLP的一些进展
+
+- 20191017 arXiv [Unsupervised Domain Adaptation Meets Offline Recommender Learning](https://arxiv.org/abs/1910.07295)
+  	- Unsupervised DA meets offline recommender learning
+  	- 无监督DA用于离线推荐系统
+
+- 20191017 [Transfer Learning for Algorithm Recommendation](https://arxiv.org/abs/1910.07012)
+  	- Transfer learning for algorithm recommendation
+  	- 迁移学习用于算法推荐
+
 - 20191015 arXiv [Emotion Recognition in Conversations with Transfer Learning from Generative Conversation Modeling](https://arxiv.org/abs/1910.04980)
   	- Emotion recognition in conversations with transfer learning
   	- 用迁移学习进行对话中的情绪识别

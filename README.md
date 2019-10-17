@@ -49,6 +49,10 @@ author = {Wang, Jindong and others}
 		- Drop to Adapt: Learning Discriminative Features for Unsupervised Domain Adaptation
 		- 直接適應：學習非監督域自適應的判別功能
 
+	- 20191017 [Transfer Learning for Algorithm Recommendation](https://arxiv.org/abs/1910.07012)
+    	- Transfer learning for algorithm recommendation
+    	- 迁移学习用于算法推荐
+
 	- 20191015 WSDM-20 [DDTCDR: Deep Dual Transfer Cross Domain Recommendation](https://arxiv.org/abs/1910.05189)
     	- Cross-modal recommendation using dual transfer learning
     	- 用对偶迁移进行跨模态推荐
@@ -65,12 +69,16 @@ author = {Wang, Jindong and others}
     	- Language transfer to predict epidemics from social media
     	- 通过社交网络数据预测传染病并进行语言模型的迁移
 
-	- 20101008 ICCV-19 [Enhancing Adversarial Example Transferability with an Intermediate Level Attack](https://arxiv.org/abs/1907.10823)
-    	- Enhancing adversarial examples transerability
-    	- 增强对抗样本的可迁移性
-
 
 - **Preprints on arXiv** (Not peer-reviewed)
+
+	- 20191017 arXiv [Evolution of transfer learning in natural language processing](https://arxiv.org/abs/1910.07370)
+    	- Survey transfer learning works in NLP
+    	- 综述了最近迁移学习在NLP的一些进展
+
+	- 20191017 arXiv [Unsupervised Domain Adaptation Meets Offline Recommender Learning](https://arxiv.org/abs/1910.07295)
+    	- Unsupervised DA meets offline recommender learning
+    	- 无监督DA用于离线推荐系统
 
 	- 20191015 arXiv [Gumbel-Matrix Routing for Flexible Multi-task Learning](https://arxiv.org/abs/1910.04915)
     	- Effective method for flexible multi-task learning
@@ -83,15 +91,6 @@ author = {Wang, Jindong and others}
 	- 20191015 arXiv [Emotion Recognition in Conversations with Transfer Learning from Generative Conversation Modeling](https://arxiv.org/abs/1910.04980)
     	- Emotion recognition in conversations with transfer learning
     	- 用迁移学习进行对话中的情绪识别
-
-	- 20191015 arXiv [The Visual Task Adaptation Benchmark](https://arxiv.org/abs/1910.04867)
-    	- A new large benchmark for visual adaptation tasks by Google
-    	- Google提出的一个巨大的视觉迁移任务数据集
-
-	- 20191011 arXiv [Estimating Transfer Entropy via Copula Entropy](https://arxiv.org/abs/1910.04375)
-    	- Evaluate the transfer entopy via copula entropy
-    	- 评估迁移熵
-
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
