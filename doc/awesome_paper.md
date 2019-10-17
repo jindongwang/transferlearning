@@ -329,6 +329,10 @@ Including domain adaptation and partial domain adaptation.
 
 ### 1.2.2. Deep / Adversarial Methods (深度/对抗迁移方法)
 
+- 20191012 ICCV-19 [Drop to Adapt: Learning Discriminative Features for Unsupervised Domain Adaptation](https://arxiv.org/abs/1910.05562)
+	- Drop to Adapt: Learning Discriminative Features for Unsupervised Domain Adaptation
+	- 直接適應：學習非監督域自適應的判別功能
+
 - 20191015 arXiv [Deep Kernel Transfer in Gaussian Processes for Few-shot Learning](https://arxiv.org/abs/1910.05199)
   	- Deep kernel transfer learing in Gaussian process
   	- 高斯过程中的深度迁移学习

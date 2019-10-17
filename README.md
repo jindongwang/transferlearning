@@ -45,6 +45,10 @@ author = {Wang, Jindong and others}
 
 - **Latest publications**
 
+	- 20191012 ICCV-19 [Drop to Adapt: Learning Discriminative Features for Unsupervised Domain Adaptation](https://arxiv.org/abs/1910.05562)
+		- Drop to Adapt: Learning Discriminative Features for Unsupervised Domain Adaptation
+		- 直接適應：學習非監督域自適應的判別功能
+
 	- 20191017 [Transfer Learning for Algorithm Recommendation](https://arxiv.org/abs/1910.07012)
     	- Transfer learning for algorithm recommendation
     	- 迁移学习用于算法推荐
