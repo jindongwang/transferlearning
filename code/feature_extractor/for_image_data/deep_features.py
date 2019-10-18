@@ -130,7 +130,10 @@ def finetune(model, dataloaders, optimizer):
 
 
 # Extract features for given intermediate layers
-# Currently, this only works for ResNet since AlexNet and VGGNET only have features and classifiers modules. You will need to manually define a function in the forward function to extract features (by letting it return features and labels). Please follow digit_deep_network.py for reference.
+# Currently, this only works for ResNet since AlexNet and VGGNET only have features and classifiers modules. 
+# You will need to manually define a function in the forward function to extract features 
+# (by letting it return features and labels). 
+# Please follow digit_deep_network.py for reference.
 class FeatureExtractor(nn.Module):
     def __init__(self, model, extracted_layers):
         super(FeatureExtractor, self).__init__()

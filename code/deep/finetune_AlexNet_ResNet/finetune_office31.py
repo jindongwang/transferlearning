@@ -13,21 +13,25 @@ import time
 
 # Command setting
 parser = argparse.ArgumentParser(description='Finetune')
-parser.add_argument('-model', '-m', type=str, help='model name', default='resnet')
-parser.add_argument('-batchsize', '-b', type=int, help='batch size', default=64)
+parser.add_argument('-model', '-m', type=str,
+                    help='model name', default='resnet')
+parser.add_argument('-batchsize', '-b', type=int,
+                    help='batch size', default=64)
 parser.add_argument('-cuda', '-g', type=int, help='cuda id', default=0)
 parser.add_argument('-source', '-src', type=str, default='amazon')
 parser.add_argument('-target', '-tar', type=str, default='webcam')
 args = parser.parse_args()
 
 # Parameter setting
-DEVICE = torch.device('cuda:' + str(args.cuda) if torch.cuda.is_available() else 'cpu')
+DEVICE = torch.device('cuda:' + str(args.cuda)
+                      if torch.cuda.is_available() else 'cpu')
 N_CLASS = 31
 LEARNING_RATE = 1e-4
 BATCH_SIZE = {'src': int(args.batchsize), 'tar': int(args.batchsize)}
 N_EPOCH = 100
 MOMENTUM = 0.9
-DECAY=5e-4
+DECAY = 5e-4
+
 
 def load_model(name='alexnet'):
     if name == 'alexnet':
@@ -40,16 +44,21 @@ def load_model(name='alexnet'):
         n_features = model.fc.in_features
         fc = torch.nn.Linear(n_features, N_CLASS)
         model.fc = fc
+    model.fc.weight.data.normal_(0, 0.005)
+    model.fc.bias.data.fill_(0.1)
     return model
 
 
 def get_optimizer(model_name):
     learning_rate = LEARNING_RATE
     if model_name == 'alexnet':
-        param_group = [{'params': model.features.parameters(), 'lr': learning_rate}]
+        param_group = [
+            {'params': model.features.parameters(), 'lr': learning_rate}]
         for i in range(6):
-            param_group += [{'params': model.classifier[i].parameters(), 'lr': learning_rate}]
-        param_group += [{'params': model.classifier[6].parameters(), 'lr': learning_rate * 10}]
+            param_group += [{'params': model.classifier[i].parameters(),
+                             'lr': learning_rate}]
+        param_group += [{'params': model.classifier[6].parameters(),
+                         'lr': learning_rate * 10}]
     elif model_name == 'resnet':
         param_group = []
         for k, v in model.named_parameters():
@@ -68,9 +77,11 @@ def lr_schedule(optimizer, epoch):
 
     for i in range(len(optimizer.param_groups)):
         if i < len(optimizer.param_groups) - 1:
-            optimizer.param_groups[i]['lr'] = lr_decay(LEARNING_RATE, N_EPOCH, epoch)
+            optimizer.param_groups[i]['lr'] = lr_decay(
+                LEARNING_RATE, N_EPOCH, epoch)
         else:
-            optimizer.param_groups[i]['lr'] = lr_decay(LEARNING_RATE, N_EPOCH, epoch) * 10
+            optimizer.param_groups[i]['lr'] = lr_decay(
+                LEARNING_RATE, N_EPOCH, epoch) * 10
 
 
 def finetune(model, dataloaders, optimizer):
@@ -108,11 +119,14 @@ def finetune(model, dataloaders, optimizer):
             if phase == 'tar' and epoch_acc > best_acc:
                 best_acc = epoch_acc
         print()
-        fname = 'finetune_result' + model_name + str(LEARNING_RATE) + str(args.source) + '-' + str(args.target)  + '.csv'
+        fname = 'finetune_result' + model_name + \
+            str(LEARNING_RATE) + str(args.source) + \
+            '-' + str(args.target) + '.csv'
         np.savetxt(fname, np.asarray(a=acc_hist, dtype=float), delimiter=',',
                    fmt='%.4f')
     time_pass = time.time() - since
-    print('Training complete in {:.0f}m {:.0f}s'.format(time_pass // 60, time_pass % 60))
+    print('Training complete in {:.0f}m {:.0f}s'.format(
+        time_pass // 60, time_pass % 60))
 
     return model, best_acc, acc_hist
 
@@ -123,13 +137,16 @@ if __name__ == '__main__':
     root_dir = 'data/OFFICE31/'
     domain = {'src': str(args.source), 'tar': str(args.target)}
     dataloaders = {}
-    dataloaders['tar'] = data_loader.load_data(root_dir, domain['tar'], BATCH_SIZE['tar'], 'tar')
-    dataloaders['src'], dataloaders['val'] = data_loader.load_train(root_dir, domain['src'], BATCH_SIZE['src'], 'src')
+    dataloaders['tar'] = data_loader.load_data(
+        root_dir, domain['tar'], BATCH_SIZE['tar'], 'tar')
+    dataloaders['src'], dataloaders['val'] = data_loader.load_train(
+        root_dir, domain['src'], BATCH_SIZE['src'], 'src')
     print(len(dataloaders['src'].dataset), len(dataloaders['val'].dataset))
     # Load model
     model_name = str(args.model)
     model = load_model(model_name).to(DEVICE)
-    print('Source:{}, target:{}, model: {}'.format(domain['src'], domain['tar'], model_name))
+    print('Source:{}, target:{}, model: {}'.format(
+        domain['src'], domain['tar'], model_name))
     optimizer = get_optimizer(model_name)
     model_best, best_acc, acc_hist = finetune(model, dataloaders, optimizer)
     print('{}Best acc: {}'.format('*' * 10, best_acc))
