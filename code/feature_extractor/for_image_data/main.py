@@ -1,8 +1,6 @@
-from __future__ import print_function
-
 import argparse
-
-import data_loader
+import data_load
+import models
 import numpy as np
 import torch
 import torch.nn as nn
@@ -13,59 +11,29 @@ import copy
 
 # Command setting
 parser = argparse.ArgumentParser(description='Finetune')
-parser.add_argument('-model', '-m', type=str, help='model name', default='resnet')
+parser.add_argument('-model_name', '-m', type=str, help='model name', default='alexnet')
 parser.add_argument('-batchsize', '-b', type=int, help='batch size', default=64)
 parser.add_argument('-gpu', '-g', type=int, help='cuda id', default=0)
 parser.add_argument('-source', '-src', type=str, default='amazon')
 parser.add_argument('-target', '-tar', type=str, default='webcam')
-parser.add_argument('-num_class', '-c', type=int, default=12)
-parser.add_argument('-dataset', type=str, default='visda')
+parser.add_argument('-num_class', '-c', type=int, default=31)
+parser.add_argument('-dataset_path', type=str, default='../../data/Office31/Original_images/')
+parser.add_argument('--epoch', type=int, help='Train epochs', default=100)
+parser.add_argument('--momentum', type=float, help='Momentum', default=.9)
+parser.add_argument('--lr', type=float, default=1e-4)
 args = parser.parse_args()
 
 # Parameter setting
 DEVICE = torch.device('cuda:' + str(args.gpu) if torch.cuda.is_available() else 'cpu')
-N_CLASS = args.num_class
-LEARNING_RATE = 1e-4
 BATCH_SIZE = {'src': int(args.batchsize), 'tar': int(args.batchsize)}
-N_EPOCH = 100
-MOMENTUM = 0.9
-DECAY = 0
-
-def load_model(name='resnet'):
-    model = None
-    if name == 'alexnet':
-        model = torchvision.models.alexnet(pretrained=True)
-        n_features = model.classifier[6].in_features
-        fc = torch.nn.Linear(n_features, N_CLASS)
-        model.classifier[6] = fc
-    elif name == 'vgg16':
-        model = torchvision.models.vgg16(pretrained=True)
-        n_features = model.classifier[6].in_features
-        fc = torch.nn.Linear(n_features, N_CLASS)
-        model.classifier[6] = fc
-    elif name == 'resnet':
-        model = torchvision.models.resnet50(pretrained=True)
-        n_features = model.fc.in_features
-        fc = torch.nn.Linear(n_features, N_CLASS)
-        model.fc = fc
-    return model
 
 
-def get_optimizer(model_name):
-    learning_rate = LEARNING_RATE
-    if model_name == 'alexnet':
-        param_group = [{'params': model.features.parameters(), 'lr': learning_rate}]
-        for i in range(6):
-            param_group += [{'params': model.classifier[i].parameters(), 'lr': learning_rate}]
-        param_group += [{'params': model.classifier[6].parameters(), 'lr': learning_rate * 10}]
-    elif model_name == 'resnet':
-        param_group = []
-        for k, v in model.named_parameters():
-            if not k.__contains__('fc'):
-                param_group += [{'params': v, 'lr': learning_rate}]
-            else:
-                param_group += [{'params': v, 'lr': learning_rate * 10}]
-    optimizer = optim.SGD(param_group, momentum=MOMENTUM, weight_decay=DECAY)
+def get_optimizer(model):
+    learning_rate = args.lr
+    param_group = []
+    param_group += [{'params': model.base_network.parameters(), 'lr': learning_rate}]
+    param_group += [{'params': model.classifier_layer.parameters(), 'lr': learning_rate * 10}]
+    optimizer = optim.SGD(param_group, momentum=args.momentum)
     return optimizer
 
 
@@ -81,18 +49,18 @@ def lr_schedule(optimizer, epoch):
             optimizer.param_groups[i]['lr'] = lr_decay(LEARNING_RATE, N_EPOCH, epoch) * 10
 
 
-def finetune(model, dataloaders, optimizer):
+def finetune(model, dataloaders, optimizer, criterion, best_model_path, use_lr_schedule=False):
+    N_EPOCH = args.epoch
     best_model_wts = copy.deepcopy(model.state_dict())
     since = time.time()
     best_acc = 0.0
     acc_hist = []
-    criterion = nn.CrossEntropyLoss()
-    for epoch in range(31, N_EPOCH + 1):
-        # lr_schedule(optimizer, epoch)
-        # print('Learning rate: {:.8f}'.format(optimizer.param_groups[0]['lr']))
-        # print('Learning rate: {:.8f}'.format(optimizer.param_groups[-1]['lr']))
-        for phase in ['src', 'val', 'tar']:
-            if phase == 'src':
+    
+    for epoch in range(1, N_EPOCH + 1):
+        if use_lr_schedule:
+            lr_schedule(optimizer, epoch)
+        for phase in ['train', 'val']:
+            if phase == 'train':
                 model.train()
             else:
                 model.eval()
@@ -100,11 +68,11 @@ def finetune(model, dataloaders, optimizer):
             for inputs, labels in dataloaders[phase]:
                 inputs, labels = inputs.to(DEVICE), labels.to(DEVICE)
                 optimizer.zero_grad()
-                with torch.set_grad_enabled(phase == 'src'):
+                with torch.set_grad_enabled(phase == 'train'):
                     outputs = model(inputs)
                     loss = criterion(outputs, labels)
                 preds = torch.max(outputs, 1)[1]
-                if phase == 'src':
+                if phase == 'train':
                     loss.backward()
                     optimizer.step()
                 total_loss += loss.item() * inputs.size(0)
@@ -117,14 +85,13 @@ def finetune(model, dataloaders, optimizer):
             if phase == 'val' and epoch_acc > best_acc:
                 best_acc = epoch_acc
                 best_model_wts = copy.deepcopy(model.state_dict())
-                torch.save(model.state_dict(), 'save_model/best_{}_{}-{}.pth'.format(args.model, args.source, epoch))
-        print()
+                torch.save(model.state_dict(), 'save_model/best_{}_{}-{}.pth'.format(args.model_name, args.source, epoch))
     time_pass = time.time() - since
     print('Training complete in {:.0f}m {:.0f}s'.format(time_pass // 60, time_pass % 60))
-    print('{}Best acc: {}'.format('*' * 10, best_acc))
+    print('------Best acc: {}%'.format(best_acc))
 
     model.load_state_dict(best_model_wts)
-    torch.save(model.state_dict(), 'save_model/best_{}_{}.pth'.format(args.model, args.source))
+    torch.save(model.state_dict(), best_model_path)
     print('Best model saved!')
     return model, best_acc, acc_hist
 
@@ -150,25 +117,19 @@ class FeatureExtractor(nn.Module):
         return outputs
 
 
-def extract_feature(model_name, model_path, dataloader, source, data_name):
-    model = load_model(model_name)
-    model.load_state_dict(torch.load(model_path))
-    model.to(DEVICE)
+def extract_feature(model, dataloader, save_path, load_from_disk=False, model_path=''):
+    if load_from_disk:
+        model = models.Network(base_net='alexnet', n_class=31)
+        model.load_state_dict(torch.load(model_path)).to(DEVICE)
     model.eval()
-    extract_list = ['avgpool'] # ResNet
-    fea = torch.zeros(1, 2049).to(DEVICE)
-    myextractor = FeatureExtractor(model, extract_list)
     with torch.no_grad():
         for inputs, labels in dataloader:
             inputs, labels = inputs.to(DEVICE), labels.to(DEVICE)
-            x = myextractor(inputs)[0]
-            x = x.view(x.size(0), -1)
+            feas = model.get_features(inputs)
             labels = labels.view(labels.size(0), 1).float()
-            x = torch.cat((x, labels), dim=1)
-            fea = torch.cat((fea, x), dim=0)
-    fea_numpy = fea.cpu().numpy()
-    np.savetxt('{}_{}.csv'.format(source, data_name), fea_numpy[1:], fmt='%.6f', delimiter=',')
-    print('{} - {} done!'.format(source, data_name))
+            x = torch.cat((feas, labels), dim=1)
+    fea_numpy = x.cpu().numpy()
+    np.savetxt(save_path, fea_numpy[1:], fmt='%.6f', delimiter=',')
 
 # You may want to classify with 1nn after getting features
 def classify_1nn():
@@ -187,38 +148,31 @@ def classify_1nn():
     acc = accuracy_score(y_true=Yt, y_pred=ypred)
     print('{} - {}: acc: {:.4f}'.format(args.source, args.target, acc))
 
-# Configure you own dataset folder
-def dataset():
-    if args.dataset == 'office31' or 'office-31':
-        return 'data/OFFICE31/'
-    elif args.dataset == 'officehome' or 'office_home' or 'office-home':
-        return 'data/OfficeHome/'
-    elif args.dataset == 'visda':
-        return 'data/VisDA17/'
-    elif args.dataset == 'imageclef' or 'image-clef':
-        return 'data/image_CLEF'
-
 
 if __name__ == '__main__':
     torch.manual_seed(10)
 
     # Load data
-    root_dir = dataset()
+    print('Loading data...')
+    data_folder = args.dataset_path
     domain = {'src': str(args.source), 'tar': str(args.target)}
     dataloaders = {}
-    dataloaders['tar'] = data_loader.load_data(root_dir, domain['tar'], BATCH_SIZE['tar'], 'tar')
-    dataloaders['src'], dataloaders['val'] = data_loader.load_train(root_dir, domain['src'], BATCH_SIZE['src'], 'src')
-    print(len(dataloaders['src'].dataset), len(dataloaders['val'].dataset))
+    data_test = data_load.load_data(data_folder+domain['tar'] + '/images', BATCH_SIZE['tar'], 'test')
+    data_train = data_load.load_data(data_folder+domain['src'] + '/images/', BATCH_SIZE['src'], 'train', train_val_split=True, train_ratio=.8)
+    dataloaders['train'], dataloaders['val'], dataloaders['test'] = data_train[0], data_train[1], data_test
+    print('Data loaded: Source: {}, Target: {}'.format(args.source, args.target))
 
-    ## Finetune
-    model = load_model(model_name).to(DEVICE)
-    print('Source:{}, target:{}, model: {}'.format(domain['src'], domain['tar'], model_name))
-    optimizer = get_optimizer(model_name)
-    model_best, best_acc, acc_hist = finetune(model, dataloaders, optimizer)
+    # Finetune
+    print('Begin fintuning...')
+    net = models.Network(base_net=args.model_name, n_class=args.num_class).to(DEVICE)
+    criterion = nn.CrossEntropyLoss()
+    optimizer = get_optimizer(net)
+    save_path = 'save_model/best_{}_{}.pth'.format(args.model_name, args.source)
+    model_best, best_acc, acc_hist = finetune(net, dataloaders, optimizer, criterion, save_path, use_lr_schedule=False)
+    print('Finetune completed!')
 
-    ## Extract features for the target domain
-    model_path = 'save_model/best_{}_{}.pth'.format(args.model, args.source)
-    extract_feature(args.model, model_path, dataloaders['tar'], args.source, args.target)
-    # If you want to extract features for source domain, you can run the following line ALONE by setting both args.source and args.target = source domain
-    # extract_feature(args.model, model_path, dataloaders['tar'], args.source, args.target)
-
+    # Extract features for the target domain
+    model_path = 'save_model/best_{}_{}.pth'.format(args.model_name, args.source)
+    feature_save_path = '{}_{}.csv'.format(args.source, args.target)
+    extract_feature(net, dataloaders['test'], feature_save_path)
+    print('Deep features are extracted and saved!')

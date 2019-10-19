@@ -4,9 +4,9 @@ from PIL import Image
 
 # This file works for RGB images.
 
-def load_data(root_path, dir, batch_size, phase):
+def load_data(data_folder, batch_size, phase='train', train_val_split=True, train_ratio=.8):
     transform_dict = {
-        'src': transforms.Compose(
+        'train': transforms.Compose(
             [transforms.Resize(256),
              transforms.RandomCrop(224),
              transforms.RandomHorizontalFlip(),
@@ -14,42 +14,32 @@ def load_data(root_path, dir, batch_size, phase):
              transforms.Normalize(mean=[0.485, 0.456, 0.406],
                                   std=[0.229, 0.224, 0.225]),
              ]),
-        'tar': transforms.Compose(
-            [transforms.Resize((224, 224)),
-             transforms.ToTensor(),
-             transforms.Normalize(mean=[0.485, 0.456, 0.406],
-                                  std=[0.229, 0.224, 0.225]),
-             ])}
-    data = datasets.ImageFolder(root=root_path + dir, transform=transform_dict[phase])
-    data_loader = torch.utils.data.DataLoader(data, batch_size=batch_size, shuffle=True, drop_last=False, num_workers=4)
-    return data_loader
-
-
-def load_train(root_path, dir, batch_size, phase):
-    transform_dict = {
-        'src': transforms.Compose(
-            [transforms.Resize(256),
-             transforms.RandomCrop(224),
-             transforms.RandomHorizontalFlip(),
-             transforms.ToTensor(),
-             transforms.Normalize(mean=[0.485, 0.456, 0.406],
-                                  std=[0.229, 0.224, 0.225]),
-             ]),
-        'tar': transforms.Compose(
+        'test': transforms.Compose(
             [transforms.Resize(224),
              transforms.ToTensor(),
              transforms.Normalize(mean=[0.485, 0.456, 0.406],
                                   std=[0.229, 0.224, 0.225]),
              ])}
-    data = datasets.ImageFolder(root=root_path + dir, transform=transform_dict[phase])
-    train_size = int(0.8 * len(data))
-    test_size = len(data) - train_size
-    data_train, data_val = torch.utils.data.random_split(data, [train_size, test_size])
-    train_loader = torch.utils.data.DataLoader(data_train, batch_size=batch_size, shuffle=True, drop_last=False,
-                                               num_workers=4)
-    val_loader = torch.utils.data.DataLoader(data_val, batch_size=batch_size, shuffle=True, drop_last=False,
-                                             num_workers=4)
-    return train_loader, val_loader
+
+    data = datasets.ImageFolder(root=data_folder, transform=transform_dict[phase])
+    if phase == 'train':
+        if train_val_split:
+            train_size = int(train_ratio * len(data))
+            test_size = len(data) - train_size
+            data_train, data_val = torch.utils.data.random_split(data, [train_size, test_size])
+            train_loader = torch.utils.data.DataLoader(data_train, batch_size=batch_size, shuffle=True, drop_last=True,
+                                                    num_workers=4)
+            val_loader = torch.utils.data.DataLoader(data_val, batch_size=batch_size, shuffle=False, drop_last=False,
+                                                num_workers=4)
+            return [train_loader, val_loader]
+        else:
+            train_loader = torch.utils.data.DataLoader(data, batch_size=batch_size, shuffle=True, drop_last=True,
+                                                    num_workers=4)
+            return train_loader
+    else: 
+        test_loader = torch.utils.data.DataLoader(data, batch_size=batch_size, shuffle=False, drop_last=False,
+                                                    num_workers=4)
+        return test_loader
 
 ## Below are for ImageCLEF datasets
 
