@@ -4,27 +4,28 @@ If we want to use some features extracted from deep networks such as ResNet, the
 
 ## Supported Datasets
 
-Currently, we support two kinds of datasets: image and digit. Specifically, for image datasets, we support Office-31, Office-Home, Image-CLEF DA, and VisDA 2017. For digit datasets, we support MNIST, USPS, and SVHN.
+Currently, we support two kinds of datasets: `image` and `digit`. 
+- Image datasets can be versatile.
+- Digit datasets: we support MNIST, USPS, and SVHN.
+
 
 ## Requirements
 
-Python 3, PyTorch 0.4.0+, PIL
+Python 3, PyTorch 1.0+, PIL
 
 ## Usage
 
-Something as follows. It's easy to configure.
+- For image dataset, go to folder `for_image_data`, then run:
 
-For image dataset, go to folder `for_image_data`, then run:
+`python main.py --dataset_path 'your_data_folder' --model_name resnet50 --src amazon --tar webcam`
 
-`python deep_features.py -dataset office31 -src amazon -tar webcam`
-
-For digit dataset, go to folder `for_digit_data`, then run:
+- For digit dataset, go to folder `for_digit_data`, then run:
 
 `python digit_deep_feature.py -src mnist -tar usps`
 
 ## Download Features that We Have Already Extracted
 
-Currently, we support *ResNet-50* features since this architecture is very often.
+Currently, we support *ResNet-50* features since this architecture is very popular.
 
 [Office-31 ResNet-50 features](https://pan.baidu.com/s/1UoyJSqoCKCda-NcP-zraVg)
 
