@@ -553,6 +553,10 @@ Including domain adaptation and partial domain adaptation.
 
 ## 1.5. Heterogeneous Transfer Learning (异构迁移学习)
 
+- 20190717 AAAI [Heterogeneous Transfer Learning via Deep Matrix Completion with Adversarial Kernel Embedding](https://144.208.67.177/ojs/index.php/AAAI/article/view/4880)
+	- Transfer Learning via Deep Matrix Completion with Adversarial Kernel Embedding
+	- 异构迁移学习中用对抗核嵌入的深度矩阵
+
 - 20190829 ACMMM-19 [Heterogeneous Domain Adaptation via Soft Transfer Network](https://arxiv.org/abs/1908.10552)
   	- Soft-mmd loss in heterogeneous domain adaptation
   	- 异构迁移学习中用soft-mmd loss
