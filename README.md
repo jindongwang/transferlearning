@@ -44,6 +44,9 @@ author = {Wang, Jindong and others}
 [迁移学习文章汇总 Awesome transfer learning papers](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
 - **Latest publications**
+	- 20191022 CVPR [Learning to Transfer Examples for Partial Domain Adaptation](http://openaccess.thecvf.com/content_CVPR_2019/html/Cao_Learning_to_Transfer_Examples_for_Partial_Domain_Adaptation_CVPR_2019_paper.html)
+		- Partial Domain Adaptation
+		- 迁移时只进行部分域适应
 
 	- 20191012 ICCV-19 [Drop to Adapt: Learning Discriminative Features for Unsupervised Domain Adaptation](https://arxiv.org/abs/1910.05562)
 		- Drop to Adapt: Learning Discriminative Features for Unsupervised Domain Adaptation
