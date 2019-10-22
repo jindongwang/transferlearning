@@ -13,30 +13,20 @@ from sklearn import metrics
 from sklearn import svm
 
 
-def kernel(ker, X, X2, gamma):
+def kernel(ker, X1, X2, gamma):
+    K = None
     if not ker or ker == 'primal':
-        return X
+        K = X1
     elif ker == 'linear':
-        if not X2:
-            K = np.dot(X.T, X)
+        if X2 is not None:
+            K = sklearn.metrics.pairwise.linear_kernel(np.asarray(X1).T, np.asarray(X2).T)
         else:
-            K = np.dot(X.T, X2)
+            K = sklearn.metrics.pairwise.linear_kernel(np.asarray(X1).T)
     elif ker == 'rbf':
-        n1sq = np.sum(X ** 2, axis=0)
-        n1 = X.shape[1]
-        if not X2:
-            D = (np.ones((n1, 1)) * n1sq).T + np.ones((n1, 1)) * n1sq - 2 * np.dot(X.T, X)
+        if X2 is not None:
+            K = sklearn.metrics.pairwise.rbf_kernel(np.asarray(X1).T, np.asarray(X2).T, gamma)
         else:
-            n2sq = np.sum(X2 ** 2, axis=0)
-            n2 = X2.shape[1]
-            D = (np.ones((n2, 1)) * n1sq).T + np.ones((n1, 1)) * n2sq - 2 * np.dot(X.T, X)
-        K = np.exp(-gamma * D)
-    elif ker == 'sam':
-        if not X2:
-            D = np.dot(X.T, X)
-        else:
-            D = np.dot(X.T, X2)
-        K = np.exp(-gamma * np.arccos(D) ** 2)
+            K = sklearn.metrics.pairwise.rbf_kernel(np.asarray(X1).T, None, gamma)
     return K
 
 
@@ -82,7 +72,7 @@ class BDA:
     def __init__(self, kernel_type='primal', dim=30, lamb=1, mu=-1.0, gamma=1, T=10, mode='BDA'):
         '''
         Init func
-        :param kernel_type: kernel, values: 'primal' | 'linear' | 'rbf' | 'sam'
+        :param kernel_type: kernel, values: 'primal' | 'linear' | 'rbf'
         :param dim: dimension after transfer
         :param lamb: lambda value in equation
         :param mu: mu. Default is -1, if not specificied, it calculates using A-distance
@@ -116,11 +106,12 @@ class BDA:
         C = len(np.unique(Ys))
         H = np.eye(n) - 1 / n * np.ones((n, n))
         mu = self.mu
-        M = e * e.T * C
+        M = 0
         Y_tar_pseudo = None
         Xs_new = None
         for t in range(self.T):
             N = 0
+            M0 = e * e.T * C
             if Y_tar_pseudo is not None and len(Y_tar_pseudo) == nt:
                 for c in range(1, C + 1):
                     e = np.zeros((n, 1))
@@ -145,7 +136,7 @@ class BDA:
                     mu = estimate_mu(Xs_new, Ys, Xt_new, Y_tar_pseudo)
                 else:
                     mu = 0
-            M = (1 - mu) * M + mu * N
+            M = (1 - mu) * M0 + mu * N
             M /= np.linalg.norm(M, 'fro')
             K = kernel(self.kernel_type, X, None, gamma=self.gamma)
             n_eye = m if self.kernel_type == 'primal' else n

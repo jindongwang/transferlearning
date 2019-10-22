@@ -7,33 +7,23 @@ import numpy as np
 import scipy.io
 import scipy.linalg
 import sklearn.metrics
-import sklearn.neighbors
+from sklearn.neighbors import KNeighborsClassifier
 
 
-def kernel(ker, X, X2, gamma):
+def kernel(ker, X1, X2, gamma):
+    K = None
     if not ker or ker == 'primal':
-        return X
+        K = X1
     elif ker == 'linear':
-        if not X2:
-            K = np.dot(X.T, X)
+        if X2 is not None:
+            K = sklearn.metrics.pairwise.linear_kernel(np.asarray(X1).T, np.asarray(X2).T)
         else:
-            K = np.dot(X.T, X2)
+            K = sklearn.metrics.pairwise.linear_kernel(np.asarray(X1).T)
     elif ker == 'rbf':
-        n1sq = np.sum(X ** 2, axis=0)
-        n1 = X.shape[1]
-        if not X2:
-            D = (np.ones((n1, 1)) * n1sq).T + np.ones((n1, 1)) * n1sq - 2 * np.dot(X.T, X)
+        if X2 is not None:
+            K = sklearn.metrics.pairwise.rbf_kernel(np.asarray(X1).T, np.asarray(X2).T, gamma)
         else:
-            n2sq = np.sum(X2 ** 2, axis=0)
-            n2 = X2.shape[1]
-            D = (np.ones((n2, 1)) * n1sq).T + np.ones((n1, 1)) * n2sq - 2 * np.dot(X.T, X)
-        K = np.exp(-gamma * D)
-    elif ker == 'sam':
-        if not X2:
-            D = np.dot(X.T, X)
-        else:
-            D = np.dot(X.T, X2)
-        K = np.exp(-gamma * np.arccos(D) ** 2)
+            K = sklearn.metrics.pairwise.rbf_kernel(np.asarray(X1).T, None, gamma)
     return K
 
 
@@ -41,7 +31,7 @@ class TCA:
     def __init__(self, kernel_type='primal', dim=30, lamb=1, gamma=1):
         '''
         Init func
-        :param kernel_type: kernel, values: 'primal' | 'linear' | 'rbf' | 'sam'
+        :param kernel_type: kernel, values: 'primal' | 'linear' | 'rbf'
         :param dim: dimension after transfer
         :param lamb: lambda value in equation
         :param gamma: kernel bandwidth for rbf kernel
@@ -87,7 +77,7 @@ class TCA:
         :return: Accuracy and predicted_labels on the target domain
         '''
         Xs_new, Xt_new = self.fit(Xs, Xt)
-        clf = sklearn.neighbors.KNeighborsClassifier(n_neighbors=1)
+        clf = KNeighborsClassifier(n_neighbors=1)
         clf.fit(Xs_new, Ys.ravel())
         y_pred = clf.predict(Xt_new)
         acc = sklearn.metrics.accuracy_score(Yt, y_pred)
@@ -96,12 +86,13 @@ class TCA:
 
 if __name__ == '__main__':
     domains = ['caltech.mat', 'amazon.mat', 'webcam.mat', 'dslr.mat']
-    for i in range(4):
-        for j in range(4):
+    for i in [2]:
+        for j in [3]:
             if i != j:
                 src, tar = 'data/' + domains[i], 'data/' + domains[j]
                 src_domain, tar_domain = scipy.io.loadmat(src), scipy.io.loadmat(tar)
                 Xs, Ys, Xt, Yt = src_domain['feas'], src_domain['label'], tar_domain['feas'], tar_domain['label']
-                tca = TCA(kernel_type='primal', dim=30, lamb=1, gamma=1)
+                tca = TCA(kernel_type='linear', dim=30, lamb=1, gamma=1)
                 acc, ypre = tca.fit_predict(Xs, Ys, Xt, Yt)
                 print(acc)
+                # It should print 0.910828025477707

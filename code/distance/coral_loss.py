@@ -4,13 +4,15 @@ def CORAL_loss(source, target):
     d = source.data.shape[1]
 
     # source covariance
-    xm = torch.mean(source, 1, keepdim=True) - source
-    xc = torch.matmul(torch.transpose(xm, 0, 1), xm)
+    xm = torch.mean(source, 0, keepdim=True) - source
+    xc = xm.t() @ xm
 
     # target covariance
-    xmt = torch.mean(target, 1, keepdim=True) - target
-    xct = torch.matmul(torch.transpose(xmt, 0, 1), xmt)
+    xmt = torch.mean(target, 0, keepdim=True) - target
+    xct = xmt.t() @ xmt
+
     # frobenius norm between source and target
-    loss = (xc - xct).pow(2).sum().sqrt()
+    loss = torch.mean(torch.mul((xc - xct), (xc - xct)))
     loss = loss/(4*d*d)
+
     return loss

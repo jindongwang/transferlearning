@@ -12,7 +12,7 @@
 
 **If you are tired of repeating the experiments of other methods, you can directly use the [benchmark](https://github.com/jindongwang/transferlearning/blob/master/data/benchmark.md).**
 
-*Only image datasets are listed, text datasets are to be added*
+Most datasets are image datasets:
 
 |     Dataset    |        Area        | #Sample |       #Feature      | #Class |   Subdomain  | Reference |
 |:--------------:|:------------------:|:-------:|:-------------------:|:------:|:------------:|:--------:|
@@ -30,11 +30,17 @@
 |    [Office-Home](#office-home)    |       Object recognition      |   30475  |      Original Images    |    65   |       4 domains      |    [10]      |
 |    [Cross-dataset Testbed](#testbed)    |       Image Classification      |   *  |      Decaf7    |    40   |       3 domains     |    [15]      |
 |    [ImageCLEF](#imageclef)    |       Image Classification      |   *  |      raw    |    12   |       3 domains     |       [17]  |
-|    [VisDA](#VisDA)    |       Image Classification / segmentation      |   *  |      raw    |    12/19   |       3 domains/3 domain     |       [18]  |
+|    [VisDA](#VisDA)    |       Image Classification / segmentation      |   280157  |      raw    |    12   |       3 domains/3 domain     |       [18]  |
+|    [LSDAC](#LSDAC)    |       Image Classification      |   569010  |      raw    |    345   |       6 domains     |       [19]  |
 
 
 **NEW** A new dataset released by Stanford and UC Berkeley: [Syn2Real: A New Benchmark forSynthetic-to-Real Visual Domain Adaptation](https://arxiv.org/abs/1806.09755)
 
+## Text datasets:
+
+Amazon review for sentiment classification
+
+You can download the datasets [here](https://pan.baidu.com/s/1F69rBEF9_DwrVcEjHXk96w) with code `a82t`.
 
 - - -
 
@@ -99,6 +105,8 @@ See benchmarks on Office-31 datasets [here](https://github.com/jindongwang/trans
 [Download Office-31 DeCAF features by Frame](https://pan.baidu.com/s/1i5KkNxb)
 
 [Download Office-31 SURF features](https://pan.baidu.com/s/1kU6tv4F)
+
+[Download Office-31 ResNet-50 features](https://pan.baidu.com/s/1UoyJSqoCKCda-NcP-zraVg)
 
 - - -
 
@@ -174,6 +182,10 @@ This is a **new** dataset released at CVPR 2017. It contains 65 kinds of objects
 
 The project home page is: http://hemanthdv.org/OfficeHome-Dataset/, the dataset can be downloaded there.
 
+Currently, there are no feature files, which is bad for traditional (no-deep) methods. I extracted features using ResNet-50 for you to use:
+
+[Download Office-Home ResNet-50 pretrained features](https://pan.baidu.com/s/1qvcWJCXVG8JkZnoM4BVoGg)
+
 - - -
 
 ### Cross-dataset Testbed
@@ -190,6 +202,8 @@ This is a dataset from ImageCLEF 2014 challenge.
 
 [Download the ImageCLEF dataset](https://pan.baidu.com/s/1lx2u1SMlSamsHnAPWrAHWA)
 
+[Download Image-CLEF ResNet-50 pretrained features](https://pan.baidu.com/s/16wBgDJI6drA0oYq537h4FQ)
+
 - - -
 
 ### VisDA
@@ -200,9 +214,20 @@ This is a dataset from VisDA 2017 challenge. It contains two subdatasets, one fo
 
 [Download the VisDA-segmentation dataset](http://csr.bu.edu/ftp/visda17/seg/)
 
+[Download VisDA classification dataset features by ResNet-50](https://pan.baidu.com/s/1sbuDqWWzwLyB1fFIpo5BdQ)
+
+- - -
+
+### LSDAC
+
+This is probably the **largest and latest** domain adaptation datasets ever! It is collected by Boston U, which contains 6 domains from 345 categories, leading to 600K images. Dataset download link will be available soon once the authors release their datasets. You can refer to [19] for more information.
+
 - - -
  
 For more image datasets, please refer to https://sites.google.com/site/crossdataset/home/files
+
+
+
 
 ### References
 
@@ -241,3 +266,5 @@ For more image datasets, please refer to https://sites.google.com/site/crossdat
 [17] http://imageclef.org/2014/adaptation
 
 [18] Peng X. VisDA: The Visual Domain Adaptation Challenge. arXiv preprint arXiv:1710.06924.
+
+[19] Xingchao Peng, et al. Moment Matching for Multi-Source Domain Adaptation. arXiv 1812.01754.

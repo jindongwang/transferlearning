@@ -16,5 +16,5 @@ class DaNN(nn.Module):
         x_tar = self.dropout(x_tar)
         x_src_mmd = self.relu(x_src)
         x_tar_mmd = self.relu(x_tar)
-        x_src = self.layer_hidden(x_src_mmd)
-        return x_src, x_src_mmd, x_tar_mmd
+        y_src = self.layer_hidden(x_src_mmd)
+        return y_src, x_src_mmd, x_tar_mmd

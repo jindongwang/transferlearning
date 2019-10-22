@@ -13,30 +13,20 @@ from sklearn.neighbors import KNeighborsClassifier
 import GFK
 
 
-def kernel(ker, X, X2, gamma):
+def kernel(ker, X1, X2, gamma):
+    K = None
     if not ker or ker == 'primal':
-        return X
+        K = X1
     elif ker == 'linear':
-        if not X2:
-            K = np.dot(X.T, X)
+        if X2 is not None:
+            K = metrics.pairwise.linear_kernel(np.asarray(X1).T, np.asarray(X2).T)
         else:
-            K = np.dot(X.T, X2)
+            K = metrics.pairwise.linear_kernel(np.asarray(X1).T)
     elif ker == 'rbf':
-        n1sq = np.sum(X ** 2, axis=0)
-        n1 = X.shape[1]
-        if not X2:
-            D = (np.ones((n1, 1)) * n1sq).T + np.ones((n1, 1)) * n1sq - 2 * np.dot(X.T, X)
+        if X2 is not None:
+            K = metrics.pairwise.rbf_kernel(np.asarray(X1).T, np.asarray(X2).T, gamma)
         else:
-            n2sq = np.sum(X2 ** 2, axis=0)
-            n2 = X2.shape[1]
-            D = (np.ones((n2, 1)) * n1sq).T + np.ones((n1, 1)) * n2sq - 2 * np.dot(X.T, X)
-        K = np.exp(-gamma * D)
-    elif ker == 'sam':
-        if not X2:
-            D = np.dot(X.T, X)
-        else:
-            D = np.dot(X.T, X2)
-        K = np.exp(-gamma * np.arccos(D) ** 2)
+            K = metrics.pairwise.rbf_kernel(np.asarray(X1).T, None, gamma)
     return K
 
 
@@ -60,7 +50,7 @@ class MEDA:
     def __init__(self, kernel_type='primal', dim=30, lamb=1, rho=1.0, eta=0.1, p=10, gamma=1, T=10):
         '''
         Init func
-        :param kernel_type: kernel, values: 'primal' | 'linear' | 'rbf' | 'sam'
+        :param kernel_type: kernel, values: 'primal' | 'linear' | 'rbf'
         :param dim: dimension after transfer
         :param lamb: lambda value in equation
         :param rho: rho in equation

@@ -21,7 +21,7 @@ options.kernel_type = 'linear';
 options.T = 10;
 options.dim = 100;
 options.mu = 0;
-options.mode = 'BDA';
+options.mode = 'W-BDA';
 %% Run algorithm
 [Acc,acc_ite,~] = BDA(Xs,Ys,Xt,Yt,options);
 fprintf('Acc:%.2f',Acc);

@@ -6,6 +6,12 @@ We support both Matlab and Python.
 
 The test dataset can be downloaded [HERE](https://github.com/jindongwang/transferlearning/tree/master/code/traditional/data).
 
+### Important Notice
+
+Please note that the original BDA (with $\mu$) has been extensively extended by MEDA (Manifold Embedded Distribution Alignment) published in ACM International Conference on Multimedia (ACMMM) 2018. Its code can be found [here](https://github.com/jindongwang/transferlearning/tree/master/code/traditional/MEDA).
+
+Hence, from now on, the name **BDA** will specifically refer to **W-BDA** (for imbalanced transfer) in this ICDM paper. Therefore, the code default will also be the imbalanced version. If still want to use the original BDA, you can change the settings in the code.
+
 ### Citation
 You can cite this paper as
 

@@ -16,13 +16,40 @@ function [acc,acc_ite,A] = BDA(X_src,Y_src,X_tar,Y_tar,options)
     % ICDM 2017.
     
 	%% Set options
-	lambda = options.lambda;              %% lambda for the regularization
-	dim = options.dim;                    %% dim is the dimension after adaptation, dim <= m
-	kernel_type = options.kernel_type;    %% kernel_type is the kernel name, primal|linear|rbf
-	gamma = options.gamma;                %% gamma is the bandwidth of rbf kernel
-	T = options.T;                        %% iteration number
-    mu = options.mu;                      %% balance factor \mu
-    mode = options.mode;                  %% 'BDA' or 'W-BDA'
+	if ~isfield(options,'mode')           %% 'BDA' or 'W-BDA'
+        options.mode = 'W-BDA';
+    end
+    
+    if ~isfield(options,'mu')             %% balance factor \mu
+        options.mu = 1;
+    end                 
+    
+    if ~isfield(options,'lambda')         %% lambda for the regularization
+        options.lambda = 0.1;
+    end
+    
+    if ~isfield(options,'dim')            %% dim is the dimension after adaptation, dim <= m
+        options.dim = 10;
+    end
+    
+    if ~isfield(options,'kernel_type')    %% kernel_type is the kernel name, primal|linear|rbf
+        options.kernel_type = 'primal';
+    end
+    
+    if ~isfield(options,'gamma')          %% gamma is the bandwidth of rbf kernel
+        options.gamma = 1;
+    end
+    
+    if ~isfield(options,'T')              %% iteration number
+        options.T = 10;
+    end
+    
+    mu = options.mu;
+    lambda = options.lambda;
+    dim = options.dim;
+    kernel_type = options.kernel_type;
+    gamma = options.gamma;
+    T = options.T;
 
     X = [X_src',X_tar'];
 	X = X*diag(sparse(1./sqrt(sum(X.^2))));
@@ -40,30 +67,30 @@ function [acc,acc_ite,A] = BDA(X_src,Y_src,X_tar,Y_tar,options)
     acc_ite = [];
 	Y_tar_pseudo = [];
     
-	%% Iteration
-	for i = 1 : T
+	if strcmp(mode,'W-BDA')
+        knn_model = fitcknn(X_src,Y_src,'NumNeighbors',1);
+        Y_tar_pseudo = knn_model.predict(X_tar);
+    end
+    %% Iteration
+    for i = 1 : T
         %%% Mc
         N = 0;
         if ~isempty(Y_tar_pseudo) && length(Y_tar_pseudo)==nt
             for c = reshape(unique(Y_src),1,C)
                 e = zeros(n,1);
                 if strcmp(mode,'W-BDA')
-                    Ns = length(Y_src(Y_src==c,:));
-                    Nt = length(Y_tar_pseudo(Y_tar_pseudo == c,:));
-                    Ps = Ns / length(Y_src);
-                    Pt = Nt / length(Y_tar_pseudo);
+                    Ps = length(find(Y_src==c)) / length(Y_src);
+                    Pt = length(find(Y_tar_pseudo == c)) / length(Y_tar_pseudo);
+                    alpha = Pt / Ps;
+                    mu = 1;
                 else
-                    Ps = 1;
-                    Pt = 1;
+                    alpha = 1;
                 end
-                e(Y_src==c) = sqrt(Ps) / length(find(Y_src==c));
-                e(ns+find(Y_tar_pseudo==c)) = -sqrt(Pt) / length(find(Y_tar_pseudo==c));
+                e(Y_src==c) = 1 / length(find(Y_src==c));
+                e(ns+find(Y_tar_pseudo==c)) = -alpha / length(find(Y_tar_pseudo==c));
                 e(isinf(e)) = 0;
                 N = N + e*e';
             end
-        end
-        if mu == 1
-            mu = 0.999;
         end
         M = (1 - mu) * M + mu * N;
         M = M / norm(M,'fro');
