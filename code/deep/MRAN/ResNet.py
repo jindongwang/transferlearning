@@ -5,7 +5,6 @@ import mmd
 import torch
 import torch.nn.functional as F
 import random
-from torch.autograd import Variable
 
 
 __all__ = ['ResNet', 'resnet50']
@@ -109,8 +108,7 @@ class ResNet(nn.Module):
         self.layer4 = self._make_layer(block, 512, layers[3], stride=2)
         self.avgpool = nn.AvgPool2d(8, stride=1)
         self.baselayer = [self.conv1, self.bn1, self.layer1, self.layer2, self.layer3, self.layer4]
-        #self.fc = nn.Linear(512 * block.expansion, num_classes)
-        #self.mmd = nn.Linear(512 * block.expansion, 512)
+        self.fc = nn.Linear(512 * block.expansion, num_classes)
 
         for m in self.modules():
             if isinstance(m, nn.Conv2d):
@@ -147,16 +145,14 @@ class ResNet(nn.Module):
         x = self.layer2(x)
         x = self.layer3(x)
         x = self.layer4(x)
-        #x = self.avgpool(x)
-        #x = x.view(x.size(0), -1)
 
         return x
 
 class MRANNet(nn.Module):
 
     def __init__(self, num_classes=31):
-        super(DANNet, self).__init__()
-        self.sharedNet = resnet50(False)
+        super(MRANNet, self).__init__()
+        self.sharedNet = resnet50(True)
         self.Inception = InceptionA(2048, 64, num_classes)
 
     def forward(self, source, target, s_label):
@@ -247,9 +243,9 @@ class InceptionA(nn.Module):
 
         source = self.source_fc(source)
         t_label = self.source_fc(target)
-        t_label = Variable(t_label.data.max(1)[1])
+        t_label = t_label.data.max(1)[1]
 
-        loss = Variable(torch.Tensor([0]))
+        loss = torch.Tensor([0])
         loss = loss.cuda()
         if self.training == True:
             loss += mmd.cmmd(s_branch1x1, t_branch1x1, s_label, t_label)

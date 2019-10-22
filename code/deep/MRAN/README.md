@@ -1,4 +1,4 @@
-# MRAN
+# DAN
 A PyTorch implementation of '[Multi-representationadaptationnetworkforcross-domainimage
 classification](https://www.sciencedirect.com/science/article/pii/S0893608019301984)'.
 The contributions of this paper are summarized as follows. 
@@ -8,7 +8,7 @@ Adaptation Module (IAM) for cross-domain image classification.
 
 ## Requirement
 * python 3
-* pytorch 0.3.1
+* pytorch 1.0
 * torchvision 0.2.0
 
 ## Usage
@@ -20,11 +20,3 @@ Adaptation Module (IAM) for cross-domain image classification.
 | Method | A - W | D - W | W - D | A - D | D - A | W - A | Average |
 |:--------------:|:-----:|:-----:|:-----:|:-----:|:----:|:----:|:-------:|
 | MRAN | 91.4±0.1 | 96.9±0.3 | 99.8±0.2 | 86.4±0.6 | 68.3±0.5 | 70.9±0.6 | 85.6 |
-
-## Reference
-
-Zhu Y, Zhuang F, Wang J, et al. Multi-representation adaptation network for cross-domain image classification[J]. Neural Networks, 2019.
-
-## Contact
-
-If you have a problem with the code, please contact zhuyongchun18s@ict.ac.cn.
