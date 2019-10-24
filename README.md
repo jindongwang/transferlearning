@@ -44,6 +44,11 @@ author = {Wang, Jindong and others}
 [迁移学习文章汇总 Awesome transfer learning papers](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
 - **Latest publications**
+
+	- 20191024 IEEE ASRU [Speaker Adaptive Training using Model Agnostic Meta-Learning](https://arxiv.org/abs/1910.10605)
+    	- Speaker adaptation using MAML
+    	- 用MAML进行speaker adaptation
+
 	- 20191022 CVPR [Learning to Transfer Examples for Partial Domain Adaptation](http://openaccess.thecvf.com/content_CVPR_2019/html/Cao_Learning_to_Transfer_Examples_for_Partial_Domain_Adaptation_CVPR_2019_paper.html)
 		- Partial Domain Adaptation
 		- 迁移时只进行部分域适应
@@ -64,36 +69,36 @@ author = {Wang, Jindong and others}
     	- Unified language model pre-training for understanding and generation
     	- 统一的语言模型预训练用于自然语言理解和生成
 
-	- 20191011 ICIP-19 [Cross-modal knowledge distillation for action recognition](https://arxiv.org/abs/1910.04641)
-    	- Cross-modal knowledge distillation for action recognition
-    	- 跨模态的知识蒸馏并用于动作识别
-
-	- 20191011 NeurIPS-19 workshop [Language Transfer for Early Warning of Epidemics from Social Media](https://arxiv.org/abs/1910.04519)
-    	- Language transfer to predict epidemics from social media
-    	- 通过社交网络数据预测传染病并进行语言模型的迁移
-
 
 - **Preprints on arXiv** (Not peer-reviewed)
 
-	- 20191017 arXiv [Evolution of transfer learning in natural language processing](https://arxiv.org/abs/1910.07370)
-    	- Survey transfer learning works in NLP
-    	- 综述了最近迁移学习在NLP的一些进展
+	- 20191024 arXiv [Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer](https://arxiv.org/abs/1910.10683)
+    	- Google's T5 model, pretrain all NLP, but you can't reproduce, since you are poor
+    	- Google的T5语言模型，迁移一切NLP，你就是没法复现，因为你穷
 
-	- 20191017 arXiv [Unsupervised Domain Adaptation Meets Offline Recommender Learning](https://arxiv.org/abs/1910.07295)
-    	- Unsupervised DA meets offline recommender learning
-    	- 无监督DA用于离线推荐系统
+	- 20191024 arXiv [Contrastive Representation Distillation](https://arxiv.org/abs/1910.10699)
+    	- Knowledge distillation by capturing more intermediate representations
+    	- 通过利用神经网络中间层信息来强化知识蒸馏的表现
 
-	- 20191015 arXiv [Gumbel-Matrix Routing for Flexible Multi-task Learning](https://arxiv.org/abs/1910.04915)
-    	- Effective method for flexible multi-task learning
-    	- 一种很有效的方法用于多任务学习
+	- 20191024 arXiv [Meta-Dataset: A Dataset of Datasets for Learning to Learn from Few Examples](https://arxiv.org/abs/1903.03096)
+    	- A new dataset for benchmarking meta learning models
+    	- 一个新的数据集，用来评测元学习和小样本学习
 
-	- 20191015 arXiv [Deep Kernel Transfer in Gaussian Processes for Few-shot Learning](https://arxiv.org/abs/1910.05199)
-    	- Deep kernel transfer learing in Gaussian process
-    	- 高斯过程中的深度迁移学习
+	- 20191024 arXiv [Domain Discrepancy Measure for Complex Models in Unsupervised Domain Adaptation](https://arxiv.org/abs/1901.10654)
+    	- A new distance measure called PHD
+    	- 提出一个叫做paired hypothesis distance的距离度量
 
-	- 20191015 arXiv [Emotion Recognition in Conversations with Transfer Learning from Generative Conversation Modeling](https://arxiv.org/abs/1910.04980)
-    	- Emotion recognition in conversations with transfer learning
-    	- 用迁移学习进行对话中的情绪识别
+	- 20191024 arXiv [Robust Domain Randomization for Reinforcement Learning](https://arxiv.org/abs/1910.10537)
+    	- Domain randomization for reinforcement learning
+    	- 用领域混淆帮助强化学习
+
+	- 20191024 [Domain Bridge for Unpaired Image-to-Image Translation and Unsupervised Domain Adaptation](https://arxiv.org/abs/1910.10563)
+    	- Unpaired image-to-image translation
+
+	- 20191024 arXiv [Generalized Domain Adaptation with Covariate and Label Shift CO-ALignment](https://arxiv.org/abs/1910.10320)
+    	- Learning across domains and tasks
+    	- 跨领域和任务的学习
+
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
