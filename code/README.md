@@ -85,6 +85,9 @@ Testing **dataset** can be found [here](https://github.com/jindongwang/transferl
 - **EasyTL** (Practically Easy Transfer Learning, ICME-19) [63]
     - [Matlab(Official)](https://github.com/jindongwang/transferlearning/tree/master/code/traditional/EasyTL)
 
+- **SCA** (Scatter Component Analysis, TPAMI-17) [79]
+    - [Matlab](https://github.com/amber0309/SCA)
+
 
 ## Deep transfer learning methods  深度迁移
 
@@ -373,3 +376,5 @@ accepted in International Conference on Computer Vision (ICCV 2015), Santiago, C
 [77] Lin K., et al. Cross-Domain Complementary Learning with Synthetic Data for Multi-Person Part Segmentation[J]. arXiv preprint arXiv:1907.05193, ICCV demo, 2019.
 
 [78] Lee S., Kim D., et al. Drop to Adapt: Learning Discriminative Features for Unsupervised Domain Adaptation. ICCV 2019.
+
+[79] Ghifary M, Balduzzi D, Kleijn W B, et al. Scatter component analysis: A unified framework for domain adaptation and domain generalization[J]. IEEE transactions on pattern analysis and machine intelligence, 2016, 39(7): 1414-1430.
