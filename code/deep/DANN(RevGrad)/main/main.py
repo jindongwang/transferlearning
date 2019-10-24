@@ -5,12 +5,13 @@ import torch.utils.data
 from torchvision import datasets
 from torchvision import transforms
 
-from dataset.data_loader import GetLoader
+from data_loader import GetLoader
 from model import DANN
+import os
 
 DATA_SRC, DATA_TAR = 'mnist', 'mnist_m'
 IMG_DIR_SRC, IMG_DIR_TAR = '../dataset/mnist', '../dataset/mnist_m'
-MODEL_ROOT = '../models'
+MODEL_ROOT = 'models'
 DEVICE = torch.device('cuda') if torch.cuda.is_available() else torch.device('cpu')
 
 LEARNING_RATE = 1e-3
@@ -142,6 +143,8 @@ def train(model, optimizer, dataloader_src, dataloader_tar):
             i += 1
 
         # Save model, and test using the source and target
+        if not os.path.exists(MODEL_ROOT):
+            os.mkdir(MODEL_ROOT)
         torch.save(model, '{}/mnist_mnistm_model_epoch_{}.pth'.format(MODEL_ROOT, epoch))
         acc_src = test(model, DATA_SRC, epoch)
         acc_tar = test(model, DATA_TAR, epoch)
