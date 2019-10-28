@@ -33,7 +33,7 @@ parser.add_argument('--l2_decay', type=float, default=5e-4,
                     help='the L2  weight decay')
 parser.add_argument('--save_path', type=str, default="./tmp/origin_",
                     help='the path to save the model')
-parser.add_argument('--root_path', type=str, default="/home/yuchaohui/ICCV19/deeptransfer/data/OfficeHome/",
+parser.add_argument('--root_path', type=str, default="/home/userxxx/data/OfficeHome/",
                     help='the path to load the data')
 parser.add_argument('--source_dir', type=str, default="Product",
                     help='the name of the source dir')
