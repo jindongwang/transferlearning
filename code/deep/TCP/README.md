@@ -11,10 +11,10 @@ This is a PyTorch implementation of the IJCNN 2019 paper.
 If you use this code for your research, please consider citing:
 
 ```
-@article{yu2019accelerating,
+@inproceedings{yu2019accelerating,
   title={Accelerating Deep Unsupervised Domain Adaptation with Transfer Channel Pruning},
   author={Yu, Chaohui and Wang, Jindong and Chen, Yiqiang and Wu, Zijing},
-  journal={arXiv preprint arXiv:1904.02654},
+  booktitle={The IEEE International Joint Conference on Neural Networks (IJCNN)},
   year={2019}
 }
 ```
