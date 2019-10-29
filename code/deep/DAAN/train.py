@@ -121,7 +121,7 @@ def train(epoch, model, source_loader, target_loader):
 
         d_c = d_c + tmpd_c.cpu().item()
 
-        global_loss = 0.05*(err_s_domain + err_t_domain)
+        global_loss = 1.0*(err_s_domain + err_t_domain)
         local_loss = 0.01*(loss_s + loss_t)
 
         d_m = d_m + 2 * (1 - 2 * global_loss.cpu().item())
@@ -132,7 +132,7 @@ def train(epoch, model, source_loader, target_loader):
             gamma = 2 / (1 + math.exp(-10 * (epoch) / args.epochs)) - 1
         if args.gamma == 2:
             gamma = epoch /args.epochs
-        loss = soft_loss + join_loss #-
+        loss = soft_loss - join_loss #-
         loss.backward()
         optimizer.step()
 
