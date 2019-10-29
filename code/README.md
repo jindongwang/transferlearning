@@ -205,6 +205,9 @@ Testing **dataset** can be found [here](https://github.com/jindongwang/transferl
 - **DTA** (Drop to Adapt: Learning Discriminative Features for Unsupervised Domain Adaptation, arXiv, ICCV-19) [78]
     - [PyTorch](https://github.com/postBG/DTA.pytorch)
 
+- **DAAN** (Dynamic Adversarial Adaptation Network, ICDM 2019) [80]
+    - [Pytorch](https://github.com/jindongwang/transferlearning/tree/master/code/deep/DAAN)
+
 ## Applications
 
 - Learning to select data for transfer learning with Bayesian Optimization (EMNLP-17) [69]
@@ -378,3 +381,5 @@ accepted in International Conference on Computer Vision (ICCV 2015), Santiago, C
 [78] Lee S., Kim D., et al. Drop to Adapt: Learning Discriminative Features for Unsupervised Domain Adaptation. ICCV 2019.
 
 [79] Ghifary M, Balduzzi D, Kleijn W B, et al. Scatter component analysis: A unified framework for domain adaptation and domain generalization[J]. IEEE transactions on pattern analysis and machine intelligence, 2016, 39(7): 1414-1430.
+
+[80] Chaohui Yu, Jindong Wang, Yiqiang Chen, Meihu Huang. Transfer learnign with dynamic adversarial adaptation network. ICDM 2019.
