@@ -65,6 +65,14 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 ### 1.1.2. Others (其他)
 
+- 20191029 [Adversarial Feature Alignment: Avoid Catastrophic Forgetting in Incremental Task Lifelong Learning](https://arxiv.org/abs/1910.10986)
+  	- Avoid catastrophic forgeeting in incremental task lifelong learning
+  	- 在终身学习中避免灾难遗忘
+
+- 20191029 [Reducing Domain Gap via Style-Agnostic Networks](https://arxiv.org/abs/1910.11645)
+  	- Use style-agnostic networks to avoid domain gap
+  	- 通过风格无关的网络来避免领域的gap
+
 - 20191015 arXiv [The Visual Task Adaptation Benchmark](https://arxiv.org/abs/1910.04867)
   	- A new large benchmark for visual adaptation tasks by Google
   	- Google提出的一个巨大的视觉迁移任务数据集
@@ -685,6 +693,10 @@ Including domain adaptation and partial domain adaptation.
 ## 1.8. Deep Transfer Learning (深度迁移学习)
 
 ### 1.8.1. Non-Adversarial Transfer Learning (非对抗深度迁移)
+
+- 20191029 KBS [Semi-supervised representation learning via dual autoencoders for domain adaptation](https://arxiv.org/abs/1908.01342)
+  	- Semi-supervised domain adaptation with autoencoders
+  	- 用自动编码器进行半监督的DA
 
 - 20190929 NeurIPS-19 [Deep Model Transferability from Attribution Maps](https://arxiv.org/abs/1909.11902)
   	- Using attribution map for network similarity

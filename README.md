@@ -45,6 +45,17 @@ author = {Wang, Jindong and others}
 
 - **Latest publications**
 
+	- 20191029 WACV-20 [Progressive Domain Adaptation for Object Detection](https://arxiv.org/abs/1910.11319)
+    	- Progressive domain adaptation for object recognition
+    	- 渐进式的DA用于物体检测
+
+	- 20191029 WSDM-20 [Meta-Learning with Dynamic-Memory-Based Prototypical Network for Few-Shot Event Detection](https://arxiv.org/abs/1910.11621)
+    	- Meta learning with dynamic memory based prototypical network for few-shot event detection
+
+	- 20191029 KBS [Semi-supervised representation learning via dual autoencoders for domain adaptation](https://arxiv.org/abs/1908.01342)
+    	- Semi-supervised domain adaptation with autoencoders
+    	- 用自动编码器进行半监督的DA
+
 	- 20191024 IEEE ASRU [Speaker Adaptive Training using Model Agnostic Meta-Learning](https://arxiv.org/abs/1910.10605)
     	- Speaker adaptation using MAML
     	- 用MAML进行speaker adaptation
@@ -53,24 +64,20 @@ author = {Wang, Jindong and others}
 		- Partial Domain Adaptation
 		- 迁移时只进行部分域适应
 
-	- 20191012 ICCV-19 [Drop to Adapt: Learning Discriminative Features for Unsupervised Domain Adaptation](https://arxiv.org/abs/1910.05562)
-		- Drop to Adapt: Learning Discriminative Features for Unsupervised Domain Adaptation
-		- 直接適應：學習非監督域自適應的判別功能
-
-	- 20191017 [Transfer Learning for Algorithm Recommendation](https://arxiv.org/abs/1910.07012)
-    	- Transfer learning for algorithm recommendation
-    	- 迁移学习用于算法推荐
-
-	- 20191015 WSDM-20 [DDTCDR: Deep Dual Transfer Cross Domain Recommendation](https://arxiv.org/abs/1910.05189)
-    	- Cross-modal recommendation using dual transfer learning
-    	- 用对偶迁移进行跨模态推荐
-
-	- 20191011 NeurIPS-19 [Unified Language Model Pre-training for Natural Language Understanding and Generation](https://arxiv.org/abs/1905.03197)
-    	- Unified language model pre-training for understanding and generation
-    	- 统一的语言模型预训练用于自然语言理解和生成
-
 
 - **Preprints on arXiv** (Not peer-reviewed)
+
+	- 20191029 [Adversarial Feature Alignment: Avoid Catastrophic Forgetting in Incremental Task Lifelong Learning](https://arxiv.org/abs/1910.10986)
+    	- Avoid catastrophic forgeeting in incremental task lifelong learning
+    	- 在终身学习中避免灾难遗忘
+
+	- 20191029 [Reducing Domain Gap via Style-Agnostic Networks](https://arxiv.org/abs/1910.11645)
+    	- Use style-agnostic networks to avoid domain gap
+    	- 通过风格无关的网络来避免领域的gap
+
+	- 20191029 arXiv [NER Models Using Pre-training and Transfer Learning for Healthcare](https://arxiv.org/abs/1910.11241)
+    	- Pretraining NER models for healthcare
+    	- 预训练的NER模型用于健康监护
 
 	- 20191024 arXiv [Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer](https://arxiv.org/abs/1910.10683)
     	- Google's T5 model, pretrain all NLP, but you can't reproduce, since you are poor
@@ -79,25 +86,6 @@ author = {Wang, Jindong and others}
 	- 20191024 arXiv [Contrastive Representation Distillation](https://arxiv.org/abs/1910.10699)
     	- Knowledge distillation by capturing more intermediate representations
     	- 通过利用神经网络中间层信息来强化知识蒸馏的表现
-
-	- 20191024 arXiv [Meta-Dataset: A Dataset of Datasets for Learning to Learn from Few Examples](https://arxiv.org/abs/1903.03096)
-    	- A new dataset for benchmarking meta learning models
-    	- 一个新的数据集，用来评测元学习和小样本学习
-
-	- 20191024 arXiv [Domain Discrepancy Measure for Complex Models in Unsupervised Domain Adaptation](https://arxiv.org/abs/1901.10654)
-    	- A new distance measure called PHD
-    	- 提出一个叫做paired hypothesis distance的距离度量
-
-	- 20191024 arXiv [Robust Domain Randomization for Reinforcement Learning](https://arxiv.org/abs/1910.10537)
-    	- Domain randomization for reinforcement learning
-    	- 用领域混淆帮助强化学习
-
-	- 20191024 [Domain Bridge for Unpaired Image-to-Image Translation and Unsupervised Domain Adaptation](https://arxiv.org/abs/1910.10563)
-    	- Unpaired image-to-image translation
-
-	- 20191024 arXiv [Generalized Domain Adaptation with Covariate and Label Shift CO-ALignment](https://arxiv.org/abs/1910.10320)
-    	- Learning across domains and tasks
-    	- 跨领域和任务的学习
 
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)

@@ -2,6 +2,17 @@
 
 迁移学习的应用
 
+- 20191029 arXiv [NER Models Using Pre-training and Transfer Learning for Healthcare](https://arxiv.org/abs/1910.11241)
+  	- Pretraining NER models for healthcare
+  	- 预训练的NER模型用于健康监护
+
+- 20191029 WACV-20 [Progressive Domain Adaptation for Object Detection](https://arxiv.org/abs/1910.11319)
+  	- Progressive domain adaptation for object recognition
+  	- 渐进式的DA用于物体检测
+
+- 20191029 WSDM-20 [Meta-Learning with Dynamic-Memory-Based Prototypical Network for Few-Shot Event Detection](https://arxiv.org/abs/1910.11621)
+  	- Meta learning with dynamic memory based prototypical network for few-shot event detection
+
 - 20191017 arXiv [Evolution of transfer learning in natural language processing](https://arxiv.org/abs/1910.07370)
   	- Survey transfer learning works in NLP
   	- 综述了最近迁移学习在NLP的一些进展
