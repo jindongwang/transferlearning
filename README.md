@@ -67,6 +67,14 @@ author = {Wang, Jindong and others}
 
 - **Preprints on arXiv** (Not peer-reviewed)
 
+	- 20191101 arXiv [Transferable End-to-End Aspect-based Sentiment Analysis with Selective Adversarial Learning](https://arxiv.org/abs/1910.14192)
+    	- Adversarial transfer learning for aspect-based sentement analysis
+    	- 对抗迁移用于aspect层级的情感分析
+
+	- 20191101 [Transfer Learning from Transformers to Fake News Challenge Stance Detection (FNC-1) Task](https://arxiv.org/abs/1910.14353)
+    	- A fake news challenges based on transformers
+    	- 一个基于transformer的假新闻检测挑战
+
 	- 20191029 [Adversarial Feature Alignment: Avoid Catastrophic Forgetting in Incremental Task Lifelong Learning](https://arxiv.org/abs/1910.10986)
     	- Avoid catastrophic forgeeting in incremental task lifelong learning
     	- 在终身学习中避免灾难遗忘
@@ -78,14 +86,6 @@ author = {Wang, Jindong and others}
 	- 20191029 arXiv [NER Models Using Pre-training and Transfer Learning for Healthcare](https://arxiv.org/abs/1910.11241)
     	- Pretraining NER models for healthcare
     	- 预训练的NER模型用于健康监护
-
-	- 20191024 arXiv [Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer](https://arxiv.org/abs/1910.10683)
-    	- Google's T5 model, pretrain all NLP, but you can't reproduce, since you are poor
-    	- Google的T5语言模型，迁移一切NLP，你就是没法复现，因为你穷
-
-	- 20191024 arXiv [Contrastive Representation Distillation](https://arxiv.org/abs/1910.10699)
-    	- Knowledge distillation by capturing more intermediate representations
-    	- 通过利用神经网络中间层信息来强化知识蒸馏的表现
 
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)

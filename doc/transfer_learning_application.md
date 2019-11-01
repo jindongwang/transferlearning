@@ -2,6 +2,14 @@
 
 迁移学习的应用
 
+- 20191101 arXiv [Transferable End-to-End Aspect-based Sentiment Analysis with Selective Adversarial Learning](https://arxiv.org/abs/1910.14192)
+  	- Adversarial transfer learning for aspect-based sentement analysis
+  	- 对抗迁移用于aspect层级的情感分析
+
+- 20191101 [Transfer Learning from Transformers to Fake News Challenge Stance Detection (FNC-1) Task](https://arxiv.org/abs/1910.14353)
+  	- A fake news challenges based on transformers
+  	- 一个基于transformer的假新闻检测挑战
+
 - 20191029 arXiv [NER Models Using Pre-training and Transfer Learning for Healthcare](https://arxiv.org/abs/1910.11241)
   	- Pretraining NER models for healthcare
   	- 预训练的NER模型用于健康监护
