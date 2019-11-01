@@ -66,6 +66,7 @@ def train(epoch, model, source_loader, target_loader):
     if args.diff_lr:
         optimizer = torch.optim.SGD([
             {'params': model.sharedNet.parameters()},
+            {'params': model.bottleneck.parameters()},
             {'params': model.source_fc.parameters(), 'lr': LEARNING_RATE},
         ], lr=LEARNING_RATE / 10, momentum=args.momentum, weight_decay=args.l2_decay)
     else:
