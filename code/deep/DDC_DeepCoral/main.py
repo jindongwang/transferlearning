@@ -5,9 +5,10 @@ import data_loader
 import models
 from config import CFG
 import utils
+import numpy as np
 
 DEVICE = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-
+log = []
 
 def test(model, target_test_loader):
     model.eval()
@@ -31,10 +32,10 @@ def test(model, target_test_loader):
 def train(source_loader, target_train_loader, target_test_loader, model, optimizer, CFG):
     len_source_loader = len(source_loader)
     len_target_loader = len(target_train_loader)
-    train_loss_clf = utils.AverageMeter()
-    train_loss_transfer = utils.AverageMeter()
-    train_loss_total = utils.AverageMeter()
     for e in range(CFG['epoch']):
+        train_loss_clf = utils.AverageMeter()
+        train_loss_transfer = utils.AverageMeter()
+        train_loss_total = utils.AverageMeter()
         model.train()
         iter_source, iter_target = iter(
             source_loader), iter(target_train_loader)
@@ -61,10 +62,12 @@ def train(source_loader, target_train_loader, target_test_loader, model, optimiz
                     e + 1,
                     CFG['epoch'],
                     int(100. * i / n_batch), train_loss_clf.avg, train_loss_transfer.avg, train_loss_total.avg))
-
+        log.append([train_loss_clf.avg, train_loss_transfer.avg, train_loss_total.avg])
+        np_log = np.array(log, dtype=float)
+        np.savetxt('train_log.csv', np_log, delimiter=',', fmt='%.6f')
         # Test
         test(model, target_test_loader)
-
+    
 
 def load_data(src, tar, root_dir):
     folder_src = root_dir + src + '/images/'
@@ -81,8 +84,8 @@ def load_data(src, tar, root_dir):
 if __name__ == '__main__':
     torch.manual_seed(0)
 
-    source_name = "dslr"
-    target_name = "amazon"
+    source_name = "amazon"
+    target_name = "webcam"
 
     print('Src: %s, Tar: %s' % (source_name, target_name))
 
