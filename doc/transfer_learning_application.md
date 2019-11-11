@@ -2,6 +2,33 @@
 
 迁移学习的应用
 
+- 20191111 NIPS-19 workshop [Transfer Learning in 4D for Breast Cancer Diagnosis using Dynamic Contrast-Enhanced Magnetic Resonance Imaging](https://arxiv.org/abs/1911.03022)
+  	- Transfer learning in 4D for breast cancer diagnosis
+
+- 20191111 BigData-19 [Deep Transfer Learning for Thermal Dynamics Modeling in Smart Buildings](https://arxiv.org/abs/1911.03318)
+  	- Transfer learning for thermal dynamics modeling
+
+- 20191111 arXiv [Unsupervised Domain Adaptation of Contextual Embeddings for Low-Resource Duplicate Question Detection](https://arxiv.org/abs/1911.02645)
+  	- Unsupervised DA for low-resource duplicate question detection
+
+- 20191111 arXiv [Towards Domain Adaptation from Limited Data for Question Answering Using Deep Neural Networks](https://arxiv.org/abs/1911.02655)
+  	- DA for question answering using DNN
+
+- 20191111 arXiv [Teacher-Student Training for Robust Tacotron-based TTS](https://arxiv.org/abs/1911.02839)
+  	- Teacher-student network for robust TTS
+
+- 20191111 arXiv [SMART: Robust and Efficient Fine-Tuning for Pre-trained Natural Language Models through Principled Regularized Optimization](https://arxiv.org/abs/1911.03437)
+  	- Fine-tuning for pre-trained language model
+
+- 20191111 arXiv [Change your singer: a transfer learning generative adversarial framework for song to song conversion](https://arxiv.org/abs/1911.02933)
+  	- Adversarial transfer learning for song-to-song conversion
+
+- 20191111 arXiv [Transfer Learning in Spatial-Temporal Forecasting of the Solar Magnetic Field](https://arxiv.org/abs/1911.03193)
+  	- Transfer learning for solar magnetic field
+
+- 20191111 arXiv [Deep geometric knowledge distillation with graphs](https://arxiv.org/abs/1911.03080)
+  	- Deep geometric knowledge distillation with graphs
+
 - 20191101 arXiv [Transferable End-to-End Aspect-based Sentiment Analysis with Selective Adversarial Learning](https://arxiv.org/abs/1910.14192)
   	- Adversarial transfer learning for aspect-based sentement analysis
   	- 对抗迁移用于aspect层级的情感分析

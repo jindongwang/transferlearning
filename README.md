@@ -45,47 +45,48 @@ author = {Wang, Jindong and others}
 
 - **Latest publications**
 
+	- 20191111 NIPS-19 [PointDAN: A Multi-Scale 3D Domain Adaption Network for Point Cloud Representation](https://arxiv.org/abs/1911.02744)
+    	- Multi-scale 3D DA network for point cloud representation
+
+	- 20191111 CCIA-19 [Feature discriminativity estimation in CNNs for transfer learning](https://arxiv.org/abs/1911.03332)
+    	- Feature discriminativity estimation in CNN for TL
+
+	- 20191111 NIPS-19 workshop [Transfer Learning in 4D for Breast Cancer Diagnosis using Dynamic Contrast-Enhanced Magnetic Resonance Imaging](https://arxiv.org/abs/1911.03022)
+    	- Transfer learning in 4D for breast cancer diagnosis
+
+	- 20191111 BigData-19 [Deep Transfer Learning for Thermal Dynamics Modeling in Smart Buildings](https://arxiv.org/abs/1911.03318)
+    	- Transfer learning for thermal dynamics modeling
+
 	- 20191029 WACV-20 [Progressive Domain Adaptation for Object Detection](https://arxiv.org/abs/1910.11319)
     	- Progressive domain adaptation for object recognition
     	- 渐进式的DA用于物体检测
 
-	- 20191029 WSDM-20 [Meta-Learning with Dynamic-Memory-Based Prototypical Network for Few-Shot Event Detection](https://arxiv.org/abs/1910.11621)
-    	- Meta learning with dynamic memory based prototypical network for few-shot event detection
-
-	- 20191029 KBS [Semi-supervised representation learning via dual autoencoders for domain adaptation](https://arxiv.org/abs/1908.01342)
-    	- Semi-supervised domain adaptation with autoencoders
-    	- 用自动编码器进行半监督的DA
-
-	- 20191024 IEEE ASRU [Speaker Adaptive Training using Model Agnostic Meta-Learning](https://arxiv.org/abs/1910.10605)
-    	- Speaker adaptation using MAML
-    	- 用MAML进行speaker adaptation
-
-	- 20191022 CVPR [Learning to Transfer Examples for Partial Domain Adaptation](http://openaccess.thecvf.com/content_CVPR_2019/html/Cao_Learning_to_Transfer_Examples_for_Partial_Domain_Adaptation_CVPR_2019_paper.html)
-		- Partial Domain Adaptation
-		- 迁移时只进行部分域适应
-
 
 - **Preprints on arXiv** (Not peer-reviewed)
 
-	- 20191101 arXiv [Transferable End-to-End Aspect-based Sentiment Analysis with Selective Adversarial Learning](https://arxiv.org/abs/1910.14192)
-    	- Adversarial transfer learning for aspect-based sentement analysis
-    	- 对抗迁移用于aspect层级的情感分析
+	- 20191111 arXiv [A Comprehensive Survey on Transfer Learning](https://arxiv.org/abs/1911.02685)
+    	- Another transfer learning survey
 
-	- 20191101 [Transfer Learning from Transformers to Fake News Challenge Stance Detection (FNC-1) Task](https://arxiv.org/abs/1910.14353)
-    	- A fake news challenges based on transformers
-    	- 一个基于transformer的假新闻检测挑战
+	- 20191111 arXiv [Unsupervised Domain Adaptation of Contextual Embeddings for Low-Resource Duplicate Question Detection](https://arxiv.org/abs/1911.02645)
+    	- Unsupervised DA for low-resource duplicate question detection
 
-	- 20191029 [Adversarial Feature Alignment: Avoid Catastrophic Forgetting in Incremental Task Lifelong Learning](https://arxiv.org/abs/1910.10986)
-    	- Avoid catastrophic forgeeting in incremental task lifelong learning
-    	- 在终身学习中避免灾难遗忘
+	- 20191111 arXiv [Towards Domain Adaptation from Limited Data for Question Answering Using Deep Neural Networks](https://arxiv.org/abs/1911.02655)
+    	- DA for question answering using DNN
 
-	- 20191029 [Reducing Domain Gap via Style-Agnostic Networks](https://arxiv.org/abs/1910.11645)
-    	- Use style-agnostic networks to avoid domain gap
-    	- 通过风格无关的网络来避免领域的gap
+	- 20191111 arXiv [Teacher-Student Training for Robust Tacotron-based TTS](https://arxiv.org/abs/1911.02839)
+    	- Teacher-student network for robust TTS
 
-	- 20191029 arXiv [NER Models Using Pre-training and Transfer Learning for Healthcare](https://arxiv.org/abs/1910.11241)
-    	- Pretraining NER models for healthcare
-    	- 预训练的NER模型用于健康监护
+	- 20191111 arXiv [SMART: Robust and Efficient Fine-Tuning for Pre-trained Natural Language Models through Principled Regularized Optimization](https://arxiv.org/abs/1911.03437)
+    	- Fine-tuning for pre-trained language model
+
+	- 20191111 arXiv [Change your singer: a transfer learning generative adversarial framework for song to song conversion](https://arxiv.org/abs/1911.02933)
+    	- Adversarial transfer learning for song-to-song conversion
+
+	- 20191111 arXiv [Transfer Learning in Spatial-Temporal Forecasting of the Solar Magnetic Field](https://arxiv.org/abs/1911.03193)
+    	- Transfer learning for solar magnetic field
+
+	- 20191111 arXiv [Deep geometric knowledge distillation with graphs](https://arxiv.org/abs/1911.03080)
+    	- Deep geometric knowledge distillation with graphs
 
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)

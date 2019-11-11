@@ -337,6 +337,12 @@ Including domain adaptation and partial domain adaptation.
 
 ### 1.2.2. Deep / Adversarial Methods (深度/对抗迁移方法)
 
+- 20191111 NIPS-19 [PointDAN: A Multi-Scale 3D Domain Adaption Network for Point Cloud Representation](https://arxiv.org/abs/1911.02744)
+  	- Multi-scale 3D DA network for point cloud representation
+
+- 20191111 CCIA-19 [Feature discriminativity estimation in CNNs for transfer learning](https://arxiv.org/abs/1911.03332)
+  	- Feature discriminativity estimation in CNN for TL
+
 - 20191012 ICCV-19 [Drop to Adapt: Learning Discriminative Features for Unsupervised Domain Adaptation](https://arxiv.org/abs/1910.05562)
 	- Drop to Adapt: Learning Discriminative Features for Unsupervised Domain Adaptation
 	- 直接適應：學習非監督域自適應的判別功能
