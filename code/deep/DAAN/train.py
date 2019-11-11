@@ -17,7 +17,7 @@ import tqdm
 parser = argparse.ArgumentParser(description='PyTorch DAAN')
 parser.add_argument('--batch_size', type=int, default=32, metavar='N',
                     help='input batch size for training (default: 64)')
-parser.add_argument('--epochs', type=int, default=100, metavar='N',
+parser.add_argument('--epochs', type=int, default=200, metavar='N',
                     help='number of epochs to train (default: 10)')
 parser.add_argument('--lr', type=float, default=0.01, metavar='LR',
                     help='learning rate (default: 0.01)')
@@ -33,11 +33,11 @@ parser.add_argument('--l2_decay', type=float, default=5e-4,
                     help='the L2  weight decay')
 parser.add_argument('--save_path', type=str, default="./tmp/origin_",
                     help='the path to save the model')
-parser.add_argument('--root_path', type=str, default="/home/userxxx/data/OfficeHome/",
+parser.add_argument('--root_path', type=str, default="/home/yuchaohui/ICCV19/deeptransfer/data/OfficeHome/",
                     help='the path to load the data')
-parser.add_argument('--source_dir', type=str, default="Product",
+parser.add_argument('--source_dir', type=str, default="Clipart",
                     help='the name of the source dir')
-parser.add_argument('--test_dir', type=str, default="RealWorld",
+parser.add_argument('--test_dir', type=str, default="Product",
                     help='the name of the test dir')
 parser.add_argument('--diff_lr', type=bool, default=True,
                     help='the fc layer and the sharenet have different or same learning rate')
@@ -59,6 +59,16 @@ def load_data():
     target_test_loader  = data_loader.load_testing(args.root_path, args.test_dir, args.batch_size, kwargs)
     return source_train_loader, target_train_loader, target_test_loader
 
+def print_learning_rate(optimizer):
+    for p in optimizer.param_groups:
+        outputs = ''
+        for k, v in p.items():
+            if k is 'params':
+                outputs += (k + ': ' + str(v[0].shape).ljust(30) + ' ')
+            else:
+                outputs += (k + ': ' + str(v).ljust(10) + ' ')
+        print(outputs)
+
 
 def train(epoch, model, source_loader, target_loader):
     #total_progress_bar = tqdm.tqdm(desc='Train iter', total=args.epochs)
@@ -67,10 +77,14 @@ def train(epoch, model, source_loader, target_loader):
         optimizer = torch.optim.SGD([
             {'params': model.sharedNet.parameters()},
             {'params': model.bottleneck.parameters()},
+            {'params': model.domain_classifier.parameters()},
+            {'params': model.dcis.parameters()},
             {'params': model.source_fc.parameters(), 'lr': LEARNING_RATE},
         ], lr=LEARNING_RATE / 10, momentum=args.momentum, weight_decay=args.l2_decay)
     else:
         optimizer = optim.SGD(model.parameters(), lr=LEARNING_RATE, momentum=args.momentum,weight_decay = args.l2_decay)
+
+    print_learning_rate(optimizer)
 
     global D_M, D_C, MU
     model.train()
@@ -122,7 +136,7 @@ def train(epoch, model, source_loader, target_loader):
 
         d_c = d_c + tmpd_c.cpu().item()
 
-        global_loss = 1.0*(err_s_domain + err_t_domain)
+        global_loss = 0.05*(err_s_domain + err_t_domain)
         local_loss = 0.01*(loss_s + loss_t)
 
         d_m = d_m + 2 * (1 - 2 * global_loss.cpu().item())
@@ -138,8 +152,8 @@ def train(epoch, model, source_loader, target_loader):
         optimizer.step()
 
         if batch_idx % args.log_interval == 0:
-            print('\nLoss: {:.6f},  label_Loss: {:.6f},  join_Loss: {:.6f}'.format(
-                loss.item(), soft_loss.item(), join_loss.item()))
+            print('\nLoss: {:.6f},  label_Loss: {:.6f},  join_Loss: {:.6f}, global_Loss:{:.4f}, local_Loss:{:.4f}'.format(
+                loss.item(), soft_loss.item(), join_loss.item(), global_loss.item(), local_loss.item()))
         #total_progress_bar.update(1)
     D_M = np.copy(d_m).item()
     D_C = np.copy(d_c).item()
