@@ -337,6 +337,10 @@ Including domain adaptation and partial domain adaptation.
 
 ### 1.2.2. Deep / Adversarial Methods (深度/对抗迁移方法)
 
+- 20191113 arXiv [Knowledge Distillation for Incremental Learning in Semantic Segmentation](https://arxiv.org/abs/1911.03462)
+  	- Knowledge distillation for incremental learning in semantic segmentation
+  	- 在语义分割问题中针对增量学习进行知识蒸馏
+
 - 20191111 NIPS-19 [PointDAN: A Multi-Scale 3D Domain Adaption Network for Point Cloud Representation](https://arxiv.org/abs/1911.02744)
   	- Multi-scale 3D DA network for point cloud representation
 

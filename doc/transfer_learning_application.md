@@ -2,6 +2,18 @@
 
 迁移学习的应用
 
+- 20191113 arXiv [Open-Ended Visual Question Answering by Multi-Modal Domain Adaptation](https://arxiv.org/abs/1911.04058)
+  	- Supervised multi-modal domain adaptation in VQA
+  	- 有监督的多模态DA用于VQA任务
+
+- 20191113 arXiv [NegBERT: A Transfer Learning Approach for Negation Detection and Scope Resolution](https://arxiv.org/abs/1911.04211)
+  	- Transfer learning for negation detection and scope resolution
+  	- 迁移学习用于否定检测
+
+- 20191113 AAAI-20 [TANDA: Transfer and Adapt Pre-Trained Transformer Models for Answer Sentence Selection](https://arxiv.org/abs/1911.04118)
+  	- Finetune twice for answer sentence selection
+  	- 两次finetune用于answer sentence selection
+
 - 20191111 NIPS-19 workshop [Transfer Learning in 4D for Breast Cancer Diagnosis using Dynamic Contrast-Enhanced Magnetic Resonance Imaging](https://arxiv.org/abs/1911.03022)
   	- Transfer learning in 4D for breast cancer diagnosis
 
