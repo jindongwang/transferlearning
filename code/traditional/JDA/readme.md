@@ -6,6 +6,8 @@ Remark: The core of JDA is a generalized eigendecompsition problem. In Matlab, i
 
 The test dataset can be downloaded [HERE](https://github.com/jindongwang/transferlearning/tree/master/data).
 
+The python file can be used directly, while the matlab code just contains the core function of TCA. To use the matlab code, you need to learn from the code of [BDA](https://github.com/jindongwang/transferlearning/tree/master/code/BDA) and set out the parameters.
+
 **Reference**
 
 Long M, Wang J, Ding G, et al. Transfer feature learning with joint distribution adaptation[C]//Proceedings of the IEEE international conference on computer vision. 2013: 2200-2207.

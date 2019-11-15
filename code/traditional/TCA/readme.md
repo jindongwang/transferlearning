@@ -6,6 +6,8 @@ Remark: The core of TCA is a generalized eigendecompsition problem. In Matlab, i
 
 The test dataset can be downloaded [HERE](https://github.com/jindongwang/transferlearning/tree/master/data).
 
+The python file can be used directly, while the matlab code just contains the core function of TCA. To use the matlab code, you need to learn from the code of [BDA](https://github.com/jindongwang/transferlearning/tree/master/code/BDA) and set out the parameters.
+
 **Reference**
 
 Pan S J, Tsang I W, Kwok J T, et al. Domain adaptation via transfer component analysis[J]. IEEE Transactions on Neural Networks, 2011, 22(2): 199-210.

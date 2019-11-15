@@ -26,6 +26,8 @@ There are many libraries in bob. A minimum request is to install `bob.math` and 
 
 The test dataset can be downloaded [HERE](https://github.com/jindongwang/transferlearning/tree/master/data). Then, you can run the file.
 
+The python file can be used directly, while the matlab code just contains the core function of TCA. To use the matlab code, you need to learn from the code of [BDA](https://github.com/jindongwang/transferlearning/tree/master/code/BDA) and set out the parameters.
+
 ### Reference
 
 Gong B, Shi Y, Sha F, et al. Geodesic flow kernel for unsupervised domain adaptation[C]//2012 IEEE Conference on Computer Vision and Pattern Recognition. IEEE, 2012: 2066-2073.
