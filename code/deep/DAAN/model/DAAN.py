@@ -26,17 +26,18 @@ class DAANNet(nn.Module):
         self.domain_classifier.add_module('fc3', nn.Linear(1024, 2))
 
         # local domain discriminator
-        self.domain_classifiers = {}
+        self.dcis = nn.Sequential()
+        self.dci = {}
         for i in range(num_classes):
-            domain_classifieri = nn.Sequential()
-            domain_classifieri.add_module('fc1', nn.Linear(256, 1024))
-            domain_classifieri.add_module('relu1', nn.ReLU(True))
-            domain_classifieri.add_module('dpt1', nn.Dropout())
-            domain_classifieri.add_module('fc2', nn.Linear(1024, 1024))
-            domain_classifieri.add_module('relu2', nn.ReLU(True))
-            domain_classifieri.add_module('dpt2', nn.Dropout())
-            domain_classifieri.add_module('fc3', nn.Linear(1024, 2))
-            self.domain_classifiers[i] = domain_classifieri
+            self.dci[i] = nn.Sequential()
+            self.dci[i].add_module('fc1', nn.Linear(256, 1024))
+            self.dci[i].add_module('relu1', nn.ReLU(True))
+            self.dci[i].add_module('dpt1', nn.Dropout())
+            self.dci[i].add_module('fc2', nn.Linear(1024, 1024))
+            self.dci[i].add_module('relu2', nn.ReLU(True))
+            self.dci[i].add_module('dpt2', nn.Dropout())
+            self.dci[i].add_module('fc3', nn.Linear(1024, 2))
+            self.dcis.add_module('dci_'+str(i), self.dci[i])
 
     def forward(self, source, target, s_label, DEV, alpha=0.0):
         source_share = self.sharedNet(source)
@@ -64,10 +65,9 @@ class DAANNet(nn.Module):
                 fs = ps * s_reverse_feature
                 pt = p_target[:, i].reshape((target.shape[0],1))
                 ft = pt * t_reverse_feature
-
-                outsi = self.domain_classifiers[i](fs.cpu()).to(DEV)
+                outsi = self.dcis[i](fs)
                 s_out.append(outsi)
-                outti = self.domain_classifiers[i](ft.cpu()).to(DEV)
+                outti = self.dcis[i](ft)
                 t_out.append(outti)
         else:
             s_domain_output = 0
