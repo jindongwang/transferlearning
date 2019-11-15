@@ -45,6 +45,10 @@ author = {Wang, Jindong and others}
 
 - **Latest publications**
 
+	- 20191115 AAAI-20 [Unsupervised Domain Adaptation on Reading Comprehension](https://arxiv.org/abs/1911.06137)
+    	- 无监督DA用于阅读理解
+    	- Unsupervised DA for reading comprehension
+
 	- 20191113 AAAI-20 [TANDA: Transfer and Adapt Pre-Trained Transformer Models for Answer Sentence Selection](https://arxiv.org/abs/1911.04118)
     	- Finetune twice for answer sentence selection
     	- 两次finetune用于answer sentence selection
@@ -58,15 +62,16 @@ author = {Wang, Jindong and others}
 	- 20191111 NIPS-19 workshop [Transfer Learning in 4D for Breast Cancer Diagnosis using Dynamic Contrast-Enhanced Magnetic Resonance Imaging](https://arxiv.org/abs/1911.03022)
     	- Transfer learning in 4D for breast cancer diagnosis
 
-	- 20191111 BigData-19 [Deep Transfer Learning for Thermal Dynamics Modeling in Smart Buildings](https://arxiv.org/abs/1911.03318)
-    	- Transfer learning for thermal dynamics modeling
-
-	- 20191029 WACV-20 [Progressive Domain Adaptation for Object Detection](https://arxiv.org/abs/1910.11319)
-    	- Progressive domain adaptation for object recognition
-    	- 渐进式的DA用于物体检测
-
 
 - **Preprints on arXiv** (Not peer-reviewed)
+
+	- 20191115 arXiv [Instance-based Transfer Learning for Multilingual Deep Retrieval](https://arxiv.org/abs/1911.06111)
+    	- Instance based transfer learning for multilingual deep retrieval
+    	- 基于实例的迁移学习用于多语言的retrieval
+
+	- 20191115 arXiv [Unsupervised Pre-training for Natural Language Generation: A Literature Review](https://arxiv.org/abs/1911.06171)
+    	- Unsupervised pre-training for natural language generation survey
+    	- 一篇无监督预训练用于自然语言生成的综述
 
 	- 20191113 arXiv [Open-Ended Visual Question Answering by Multi-Modal Domain Adaptation](https://arxiv.org/abs/1911.04058)
     	- Supervised multi-modal domain adaptation in VQA
@@ -83,31 +88,6 @@ author = {Wang, Jindong and others}
 	- 20191113 arXiv [Attentive Student Meets Multi-Task Teacher: Improved Knowledge Distillation for Pretrained Models](https://arxiv.org/abs/1911.03588)
     	- Multi-task distillation using BERT
     	- 用BERT进行多任务形式的知识蒸馏
-
-	- 20191111 arXiv [A Comprehensive Survey on Transfer Learning](https://arxiv.org/abs/1911.02685)
-    	- Another transfer learning survey
-
-	- 20191111 arXiv [Unsupervised Domain Adaptation of Contextual Embeddings for Low-Resource Duplicate Question Detection](https://arxiv.org/abs/1911.02645)
-    	- Unsupervised DA for low-resource duplicate question detection
-
-	- 20191111 arXiv [Towards Domain Adaptation from Limited Data for Question Answering Using Deep Neural Networks](https://arxiv.org/abs/1911.02655)
-    	- DA for question answering using DNN
-
-	- 20191111 arXiv [Teacher-Student Training for Robust Tacotron-based TTS](https://arxiv.org/abs/1911.02839)
-    	- Teacher-student network for robust TTS
-
-	- 20191111 arXiv [SMART: Robust and Efficient Fine-Tuning for Pre-trained Natural Language Models through Principled Regularized Optimization](https://arxiv.org/abs/1911.03437)
-    	- Fine-tuning for pre-trained language model
-
-	- 20191111 arXiv [Change your singer: a transfer learning generative adversarial framework for song to song conversion](https://arxiv.org/abs/1911.02933)
-    	- Adversarial transfer learning for song-to-song conversion
-
-	- 20191111 arXiv [Transfer Learning in Spatial-Temporal Forecasting of the Solar Magnetic Field](https://arxiv.org/abs/1911.03193)
-    	- Transfer learning for solar magnetic field
-
-	- 20191111 arXiv [Deep geometric knowledge distillation with graphs](https://arxiv.org/abs/1911.03080)
-    	- Deep geometric knowledge distillation with graphs
-
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 

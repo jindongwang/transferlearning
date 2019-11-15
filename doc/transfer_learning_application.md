@@ -2,6 +2,18 @@
 
 迁移学习的应用
 
+- 20191115 arXiv [Instance-based Transfer Learning for Multilingual Deep Retrieval](https://arxiv.org/abs/1911.06111)
+  	- Instance based transfer learning for multilingual deep retrieval
+  	- 基于实例的迁移学习用于多语言的retrieval
+
+- 20191115 arXiv [Unsupervised Pre-training for Natural Language Generation: A Literature Review](https://arxiv.org/abs/1911.06171)
+  	- Unsupervised pre-training for natural language generation survey
+  	- 一篇无监督预训练用于自然语言生成的综述
+
+- 20191115 AAAI-20 [Unsupervised Domain Adaptation on Reading Comprehension](https://arxiv.org/abs/1911.06137)
+  	- 无监督DA用于阅读理解
+  	- Unsupervised DA for reading comprehension
+
 - 20191113 arXiv [Open-Ended Visual Question Answering by Multi-Modal Domain Adaptation](https://arxiv.org/abs/1911.04058)
   	- Supervised multi-modal domain adaptation in VQA
   	- 有监督的多模态DA用于VQA任务
