@@ -83,9 +83,9 @@ See benchmark results of many popular methods [here(SURF)](https://github.com/ji
 
 Download Office+Caltech original images [[Baiduyun](https://pan.baidu.com/s/14JEGQ56LJX7LMbd6GLtxCw)]
 
-Download Office+Caltech SURF dataset [[pCloud](https://my.pcloud.com/publink/show?code=kZFrXk7ZifluxAGy3gjdstJBIcJv3fORIkHk)|[Baiduyun](https://pan.baidu.com/s/1bp4g7Av)]
+Download Office+Caltech SURF dataset [[MEGA](https://mega.nz/#F!AaJTGIzD!XHM2XMsSd9V-ljVi0EtvFg)|[Baiduyun](https://pan.baidu.com/s/1bp4g7Av)]
 
-Download Office+Caltech DeCAF dataset [[pCloud](https://my.pcloud.com/publink/show?code=kZprXk7Z1OmGWUuYioSJbWx3jWeCAhom5FPy)|[Baiduyun](https://pan.baidu.com/s/1nvn7eUd)]
+Download Office+Caltech DeCAF dataset [[MEGA](https://mega.nz/#F!QDxBBC4J!LizxWbE1_JEwPSrA2mrrrw)|[Baiduyun](https://pan.baidu.com/s/1nvn7eUd)]
 
 
 - - -
@@ -98,7 +98,7 @@ See benchmarks on Office-31 datasets [here](https://github.com/jindongwang/trans
 
 #### Download
 
-[Download Office-31 raw images](https://pan.baidu.com/s/1o8igXT4)
+[Download Office-31 raw images](https://pan.baidu.com/s/1o8igXT4) | [Download from MEGA](https://mega.nz/#F!dTAEDaaT!McxSMcL4Mf_hfID1Q7tSGA)
 
 [Download Office-31 DeCAF6 and DeCAF7 features](https://pan.baidu.com/s/1o7XrAzw)
 
@@ -106,7 +106,7 @@ See benchmarks on Office-31 datasets [here](https://github.com/jindongwang/trans
 
 [Download Office-31 SURF features](https://pan.baidu.com/s/1kU6tv4F)
 
-[Download Office-31 ResNet-50 features](https://pan.baidu.com/s/1UoyJSqoCKCda-NcP-zraVg)
+[Download Office-31 ResNet-50 features](https://pan.baidu.com/s/1UoyJSqoCKCda-NcP-zraVg) | [Download from MEGA](https://mega.nz/#F!laI2lKoJ!nSmVQXrpu1Ov794sy2wFKg)
 
 - - -
 
@@ -116,7 +116,7 @@ See benchmarks on Office-31 datasets [here](https://github.com/jindongwang/trans
 
 It is also popular. It contains randomly selected samples from MNIST and USPS. Then the source and target domains are constructed using each other.
 
-Download MNIST+USPS SURF dataset [[pCloud](https://my.pcloud.com/publink/show?code=kZHrXk7ZdIfYsBuRVtkPoAqvxL87qhgNw10V)|[Baiduyun](https://pan.baidu.com/s/1c8mwdo)]
+Download MNIST+USPS SURF dataset [[MEGA](https://mega.nz/#F!oHJ2UCoK!r62nRoZ0gH8NXIcgmyWReA)|[Baiduyun](https://pan.baidu.com/s/1c8mwdo)]
 
 
 - - -
@@ -128,7 +128,7 @@ Download MNIST+USPS SURF dataset [[pCloud](https://my.pcloud.com/publink/show?co
 
 It contains 20 classes. There are two datasets extracted: COIL1 and COIL2.
 
-Download COIL20 SURF dataset [[pCloud](https://my.pcloud.com/publink/show?code=kZzrXk7ZQw37wqJsNSJVzN1DzH0FH7e3tOYV)|[Baiduyun](https://pan.baidu.com/s/1pKM1VCn)]
+Download COIL20 SURF dataset [[MEGA](https://mega.nz/#F!xWxyTDaZ!MWamSH17Uu065XbDNYymkQ)|[Baiduyun](https://pan.baidu.com/s/1pKM1VCn)]
 
 
 - - -
@@ -140,7 +140,7 @@ Download COIL20 SURF dataset [[pCloud](https://my.pcloud.com/publink/show?code=k
 
 It is a relatively large dataset with many classes.
 
-Download PIE SURF dataset [[pCloud](https://my.pcloud.com/publink/show?code=kZRrXk7ZwvHA9LPSyqSz7WSlECK5A0hNMR6X)|[Baiduyun](https://pan.baidu.com/s/1o8KFgtO)]
+Download PIE SURF dataset [[MEGA](https://mega.nz/#F!lPgmkZQB!z2QuBEmCzj2XR5AAQaIj7Q)|[Baiduyun](https://pan.baidu.com/s/1o8KFgtO)]
 
 
 - - -
@@ -153,7 +153,7 @@ Download PIE SURF dataset [[pCloud](https://my.pcloud.com/publink/show?code=kZRr
 
 It contains four domains: V(VOC2007), L(LabelMe), S(SUN09) and C(Caltech). There are 5 classes: 'bird', 'car', 'chair', 'dog', 'person'.
 
-Download the VLSC DeCAF dataset [[pCloud](https://my.pcloud.com/publink/show?code=kZ8rXk7ZORx8jhQ6CzyItAp2qQHmMbFiyRW7)|[Baiduyun](https://pan.baidu.com/s/1nuNiJ0l)]
+Download the VLSC DeCAF dataset [[MEGA](https://mega.nz/#F!gTJxGTJK!w9UJjZVq3ClqGj4mBDmT4A)|[Baiduyun](https://pan.baidu.com/s/1nuNiJ0l)]
 
 
 - - -
@@ -164,7 +164,7 @@ Download the VLSC DeCAF dataset [[pCloud](https://my.pcloud.com/publink/show?cod
 
 It is selected from imagenet challange.
 
-Download the IMAGENET DeCAF dataset [[pCloud](https://my.pcloud.com/publink/show?code=kZ8rXk7ZORx8jhQ6CzyItAp2qQHmMbFiyRW7)|[Baiduyun](https://pan.baidu.com/s/1nuNiJ0l)]
+Download the IMAGENET DeCAF dataset [[MEGA](https://mega.nz/#F!gTJxGTJK!w9UJjZVq3ClqGj4mBDmT4A)|[Baiduyun](https://pan.baidu.com/s/1nuNiJ0l)]
 
 
 - - -
@@ -172,7 +172,7 @@ Download the IMAGENET DeCAF dataset [[pCloud](https://my.pcloud.com/publink/show
 
 ### Animals-with-Attributes
 
-Download the SURF/SIFT/DeCAF features [[pCloud](https://my.pcloud.com/publink/show?code=kZbrXk7ZYAgHIKa0Qa5W1Gi9VXbnMhzIo9GX)|[Baiduyun](https://pan.baidu.com/s/1mi7RYQW)]
+Download the SURF/SIFT/DeCAF features [[MEGA](https://mega.nz/#F!Na5jyLiC!LT29_gyoPsd_eEoym3CgMg)|[Baiduyun](https://pan.baidu.com/s/1mi7RYQW)]
 
 - - -
 
@@ -184,7 +184,7 @@ The project home page is: http://hemanthdv.org/OfficeHome-Dataset/, the dataset 
 
 Currently, there are no feature files, which is bad for traditional (no-deep) methods. I extracted features using ResNet-50 for you to use:
 
-[Download Office-Home ResNet-50 pretrained features](https://pan.baidu.com/s/1qvcWJCXVG8JkZnoM4BVoGg)
+[Download Office-Home ResNet-50 pretrained features](https://pan.baidu.com/s/1qvcWJCXVG8JkZnoM4BVoGg) | [Download from MEGA](https://mega.nz/#F!pGIkjIxC!MDD3ps6RzTXWobMfHh0Slw)
 
 - - -
 
@@ -202,7 +202,7 @@ This is a dataset from ImageCLEF 2014 challenge.
 
 [Download the ImageCLEF dataset](https://pan.baidu.com/s/1lx2u1SMlSamsHnAPWrAHWA)
 
-[Download Image-CLEF ResNet-50 pretrained features](https://pan.baidu.com/s/16wBgDJI6drA0oYq537h4FQ)
+[Download Image-CLEF ResNet-50 pretrained features](https://pan.baidu.com/s/16wBgDJI6drA0oYq537h4FQ) | [Download from MEGA](https://mega.nz/#F!QPJCzShS!b6qQUXWnCCGBMVs0m6MdQw)
 
 - - -
 
@@ -214,7 +214,7 @@ This is a dataset from VisDA 2017 challenge. It contains two subdatasets, one fo
 
 [Download the VisDA-segmentation dataset](http://csr.bu.edu/ftp/visda17/seg/)
 
-[Download VisDA classification dataset features by ResNet-50](https://pan.baidu.com/s/1sbuDqWWzwLyB1fFIpo5BdQ)
+[Download VisDA classification dataset features by ResNet-50](https://pan.baidu.com/s/1sbuDqWWzwLyB1fFIpo5BdQ) | [Download from MEGA](https://mega.nz/#F!ZDY2jShR!r_M2sR7MBi_9JPsRUXXy0g)
 
 - - -
 
@@ -223,7 +223,11 @@ This is a dataset from VisDA 2017 challenge. It contains two subdatasets, one fo
 This is probably the **largest and latest** domain adaptation datasets ever! It is collected by Boston U, which contains 6 domains from 345 categories, leading to 600K images. Dataset download link will be available soon once the authors release their datasets. You can refer to [19] for more information.
 
 - - -
- 
+
+### Amazon review
+
+[Download Amazon review dataset](https://mega.nz/#F!RS43DADD!4pWwFA0CBJP1oLhAR23bTA)
+
 For more image datasets, please refer to https://sites.google.com/site/crossdataset/home/files
 
 

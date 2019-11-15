@@ -4,7 +4,7 @@ This is the implementation of Transfer Component Analysis (TCA) in Python and Ma
 
 Remark: The core of TCA is a generalized eigendecompsition problem. In Matlab, it can be solved by calling `eigs()` function. In Python, the implementation `scipy.linalg.eig()` function can do the same thing. However, they are a bit different. So the results may be different.
 
-The test dataset can be downloaded [HERE](https://github.com/jindongwang/transferlearning/tree/master/code/traditional/data).
+The test dataset can be downloaded [HERE](https://github.com/jindongwang/transferlearning/tree/master/data).
 
 **Reference**
 

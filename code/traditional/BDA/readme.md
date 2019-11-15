@@ -4,7 +4,7 @@ This directory contains the code for paper [Balanced Distribution Adaptation for
 
 We support both Matlab and Python.
 
-The test dataset can be downloaded [HERE](https://github.com/jindongwang/transferlearning/tree/master/code/traditional/data).
+The test dataset can be downloaded [HERE](https://github.com/jindongwang/transferlearning/tree/master/data).
 
 ### Important Notice
 

@@ -24,7 +24,7 @@ There are many libraries in bob. A minimum request is to install `bob.math` and 
 
 ## Run
 
-The test dataset can be downloaded [HERE](https://github.com/jindongwang/transferlearning/tree/master/code/traditional/data). Then, you can run the file.
+The test dataset can be downloaded [HERE](https://github.com/jindongwang/transferlearning/tree/master/data). Then, you can run the file.
 
 ### Reference
 

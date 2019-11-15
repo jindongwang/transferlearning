@@ -10,7 +10,7 @@ For Python users, I add a `MEDA.py` implementation. The Python version will need
 
 ## Demo
 
-I offer a basic demo to run on the Office+Caltech10 datasets. Download the datasets [here](https://pan.baidu.com/s/1bp4g7Av#list/path=%2F) and put the data (mat files) into the `data` folder.
+I offer a basic demo to run on the Office+Caltech10 datasets. Download the datasets [here](https://github.com/jindongwang/transferlearning/tree/master/data) and put the data (mat files) into the `data` folder.
 
 Run `demo_office_caltech_surf.m`.
 
