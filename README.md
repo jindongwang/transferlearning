@@ -45,6 +45,18 @@ author = {Wang, Jindong and others}
 
 - **Latest publications**
 
+	- 20191124 [Cantonese Automatic Speech Recognition Using Transfer Learning from Mandarin](https://arxiv.org/abs/1911.09271)
+    	- Cantonese speech recognition using transfer learning from mandarin
+    	- 普通话语音识别迁移到广东话识别
+
+	- 20191124 AAAI-20 [Knowledge Graph Transfer Network for Few-Shot Recognition](https://arxiv.org/abs/1911.09579)
+    	- GNN for semantic transfer for few-shot learning
+    	- 用GNN进行类别的语义迁移用于few-shot learning
+
+	- 20191124 AAAI-20 (AdaFilter: Adaptive Filter Fine-tuning for Deep Transfer Learning)(https://arxiv.org/abs/1911.09659)
+    	- Adaptively determine which layer to transfer or finetune
+    	- 自适应地决定迁移哪个层或微调哪个层
+
 	- 20191119 ICDM-19 [Towards Making Deep Transfer Learning Never Hurt](https://arxiv.org/abs/1911.07489)
     	- Towards making deep transfer learning never hurt
     	- 通过正则避免负迁移
@@ -53,22 +65,12 @@ author = {Wang, Jindong and others}
     	- Ensemble DA using noise labels
     	- 在ensemble中出现noise label时如何处理
 
-	- 20191119 NIPS-19 [Transferable Normalization: Towards Improving Transferability of Deep Neural Networks](http://scholar.google.com/scholar_url?url=https://papers.nips.cc/paper/8470-transferable-normalization-towards-improving-transferability-of-deep-neural-networks.pdf&hl=en&sa=X&d=9221290800687054760&scisig=AAGBfm0aM7wBD0WhQjvvfe_vxKxIF8STLw&nossl=1&oi=scholaralrt&hist=hBZ_tKsAAAAJ:17338659929613568812:AAGBfm3MBWiQSh14vpyLyxgl0RCrplQyWg)
-    	- Transfer normalization
-
-	- 20191115 AAAI-20 [Unsupervised Domain Adaptation on Reading Comprehension](https://arxiv.org/abs/1911.06137)
-    	- 无监督DA用于阅读理解
-    	- Unsupervised DA for reading comprehension
-
-	- 20191113 AAAI-20 [TANDA: Transfer and Adapt Pre-Trained Transformer Models for Answer Sentence Selection](https://arxiv.org/abs/1911.04118)
-    	- Finetune twice for answer sentence selection
-    	- 两次finetune用于answer sentence selection
-
-	- 20191111 NIPS-19 [PointDAN: A Multi-Scale 3D Domain Adaption Network for Point Cloud Representation](https://arxiv.org/abs/1911.02744)
-    	- Multi-scale 3D DA network for point cloud representation
-
 
 - **Preprints on arXiv** (Not peer-reviewed)
+
+	- 20191124 arXiv [Improving Unsupervised Domain Adaptation with Variational Information Bottleneck](https://arxiv.org/abs/1911.09310)
+    	- Information bottleneck for unsupervised da
+    	- 用了信息瓶颈来进行DA
 
 	- 20191115 arXiv [Instance-based Transfer Learning for Multilingual Deep Retrieval](https://arxiv.org/abs/1911.06111)
     	- Instance based transfer learning for multilingual deep retrieval
@@ -85,14 +87,6 @@ author = {Wang, Jindong and others}
 	- 20191113 arXiv [NegBERT: A Transfer Learning Approach for Negation Detection and Scope Resolution](https://arxiv.org/abs/1911.04211)
     	- Transfer learning for negation detection and scope resolution
     	- 迁移学习用于否定检测
-
-	- 20191113 arXiv [Knowledge Distillation for Incremental Learning in Semantic Segmentation](https://arxiv.org/abs/1911.03462)
-    	- Knowledge distillation for incremental learning in semantic segmentation
-    	- 在语义分割问题中针对增量学习进行知识蒸馏
-
-	- 20191113 arXiv [Attentive Student Meets Multi-Task Teacher: Improved Knowledge Distillation for Pretrained Models](https://arxiv.org/abs/1911.03588)
-    	- Multi-task distillation using BERT
-    	- 用BERT进行多任务形式的知识蒸馏
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 

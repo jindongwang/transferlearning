@@ -337,6 +337,18 @@ Including domain adaptation and partial domain adaptation.
 
 ### 1.2.2. Deep / Adversarial Methods (深度/对抗迁移方法)
 
+- 20191124 AAAI-20 [Knowledge Graph Transfer Network for Few-Shot Recognition](https://arxiv.org/abs/1911.09579)
+  	- GNN for semantic transfer for few-shot learning
+  	- 用GNN进行类别的语义迁移用于few-shot learning
+
+- 20191124 arXiv [Improving Unsupervised Domain Adaptation with Variational Information Bottleneck](https://arxiv.org/abs/1911.09310)
+  	- Information bottleneck for unsupervised da
+  	- 用了信息瓶颈来进行DA
+
+- 20191124 AAAI-20 (AdaFilter: Adaptive Filter Fine-tuning for Deep Transfer Learning)(https://arxiv.org/abs/1911.09659)
+  	- Adaptively determine which layer to transfer or finetune
+  	- 自适应地决定迁移哪个层或微调哪个层
+
 - 20191113 arXiv [Knowledge Distillation for Incremental Learning in Semantic Segmentation](https://arxiv.org/abs/1911.03462)
   	- Knowledge distillation for incremental learning in semantic segmentation
   	- 在语义分割问题中针对增量学习进行知识蒸馏

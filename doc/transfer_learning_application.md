@@ -2,6 +2,10 @@
 
 迁移学习的应用
 
+- 20191124 [Cantonese Automatic Speech Recognition Using Transfer Learning from Mandarin](https://arxiv.org/abs/1911.09271)
+  	- Cantonese speech recognition using transfer learning from mandarin
+  	- 普通话语音识别迁移到广东话识别
+
 - 20191115 arXiv [Instance-based Transfer Learning for Multilingual Deep Retrieval](https://arxiv.org/abs/1911.06111)
   	- Instance based transfer learning for multilingual deep retrieval
   	- 基于实例的迁移学习用于多语言的retrieval
