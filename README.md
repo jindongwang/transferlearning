@@ -159,19 +159,19 @@ Here are some articles on transfer learning theory and survey.
 
 - 迁移学习的**理论分析** Transfer Learning Theory：
 
-	- 迁移学习方面一直以来都比较缺乏理论分析与证明的文章，以下三篇连贯式的理论文章成为了经典 Transfer learning theory：
+	- 迁移学习方面一直以来都比较缺乏理论分析与证明的文章，以下几篇连贯式的理论文章成为了经典：
 		- NIPS-06 [Analysis of Representations for Domain Adaptation](https://dl.acm.org/citation.cfm?id=2976474)
 		- ML-10 [A Theory of Learning from Different Domains](https://link.springer.com/article/10.1007/s10994-009-5152-4)
 		- NIPS-08 [Learning Bounds for Domain Adaptation](http://papers.nips.cc/paper/3212-learning-bounds-for-domain-adaptation)
+		- COLT-09 [Domain adaptation: Learning bounds and algorithms](https://arxiv.org/abs/0902.3430)
 
-	- 最近，清华大学龙明盛老师团队提出的Maximum Margin theory在理论分析和证明方面取得了阶段性进展：
-    	- ICML-19 [Bridging Theory and Algorithm for Domain Adaptation](https://arxiv.org/abs/1904.05801)
+	- 最近几年在ICML、NIPS、COLT、ALT上出现了一些理论分析的文章，以domain adaptation为关键字可以搜索到。绝大多数都是对上述的扩展和补充。
 
 	- 许多研究者在迁移学习的研究中会应用MMD(Maximum Mean Discrepancy)这个最大均值差异来衡量不同domain之间的距离。MMD的理论文章是：
 		- MMD的提出：[A Hilbert Space Embedding for Distributions](https://link.springer.com/chapter/10.1007/978-3-540-75225-7_5) 以及 [A Kernel Two-Sample Test](http://www.jmlr.org/papers/v13/gretton12a.html)
 		- 多核MMD(MK-MMD)：[Optimal kernel choice for large-scale two-sample tests](http://papers.nips.cc/paper/4727-optimal-kernel-choice-for-large-scale-two-sample-tests)
 		- MMD及多核MMD代码：[Matlab](https://github.com/lopezpaz/classifier_tests/tree/master/code/unit_test_mmd) | [Python](https://github.com/jindongwang/transferlearning/tree/master/code/basic/mmd.py)
-	- 理论研究方面，重点关注Alex Smola、Ben-David、Bernhard Schölkopf、Arthur Gretton等人的研究即可。
+	- 理论研究方面，重点关注Alex Smola、Ben-David、Bernhard Schölkopf、Arthur Gretton等人的研究。
 
 - 较新的综述 Latest survey：
 
