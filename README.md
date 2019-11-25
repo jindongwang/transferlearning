@@ -16,19 +16,19 @@ author = {Wang, Jindong and others}
 }  
 ```
 
-- [迁移学习 Transfer Learning](#%e8%bf%81%e7%a7%bb%e5%ad%a6%e4%b9%a0-transfer-learning)
-	- [0.Latest Publications (最新论文)](#0latest-publications-%e6%9c%80%e6%96%b0%e8%ae%ba%e6%96%87)
-	- [1.Introduction and Tutorials (简介与教程)](#1introduction-and-tutorials-%e7%ae%80%e4%bb%8b%e4%b8%8e%e6%95%99%e7%a8%8b)
-	- [2.Transfer Learning Areas and Papers (研究领域与相关论文)](#2transfer-learning-areas-and-papers-%e7%a0%94%e7%a9%b6%e9%a2%86%e5%9f%9f%e4%b8%8e%e7%9b%b8%e5%85%b3%e8%ae%ba%e6%96%87)
-	- [3.Theory and Survey (理论与综述)](#3theory-and-survey-%e7%90%86%e8%ae%ba%e4%b8%8e%e7%bb%bc%e8%bf%b0)
-	- [4.Code (代码)](#4code-%e4%bb%a3%e7%a0%81)
-	- [5.Transfer Learning Scholars (著名学者)](#5transfer-learning-scholars-%e8%91%97%e5%90%8d%e5%ad%a6%e8%80%85)
-	- [6.Transfer Learning Thesis (硕博士论文)](#6transfer-learning-thesis-%e7%a1%95%e5%8d%9a%e5%a3%ab%e8%ae%ba%e6%96%87)
-	- [7.Datasets and Benchmarks (数据集与评测结果)](#7datasets-and-benchmarks-%e6%95%b0%e6%8d%ae%e9%9b%86%e4%b8%8e%e8%af%84%e6%b5%8b%e7%bb%93%e6%9e%9c)
-	- [8.Transfer Learning Challenges (迁移学习比赛)](#8transfer-learning-challenges-%e8%bf%81%e7%a7%bb%e5%ad%a6%e4%b9%a0%e6%af%94%e8%b5%9b)
-	- [Applications (迁移学习应用)](#applications-%e8%bf%81%e7%a7%bb%e5%ad%a6%e4%b9%a0%e5%ba%94%e7%94%a8)
-	- [Other Resources (其他资源)](#other-resources-%e5%85%b6%e4%bb%96%e8%b5%84%e6%ba%90)
-	- [Contributing (欢迎参与贡献)](#contributing-%e6%ac%a2%e8%bf%8e%e5%8f%82%e4%b8%8e%e8%b4%a1%e7%8c%ae)
+- [迁移学习 Transfer Learning](#迁移学习-transfer-learning)
+	- [0.Latest Publications (最新论文)](#0latest-publications-最新论文)
+	- [1.Introduction and Tutorials (简介与教程)](#1introduction-and-tutorials-简介与教程)
+	- [2.Transfer Learning Areas and Papers (研究领域与相关论文)](#2transfer-learning-areas-and-papers-研究领域与相关论文)
+	- [3.Theory and Survey (理论与综述)](#3theory-and-survey-理论与综述)
+	- [4.Code (代码)](#4code-代码)
+	- [5.Transfer Learning Scholars (著名学者)](#5transfer-learning-scholars-著名学者)
+	- [6.Transfer Learning Thesis (硕博士论文)](#6transfer-learning-thesis-硕博士论文)
+	- [7.Datasets and Benchmarks (数据集与评测结果)](#7datasets-and-benchmarks-数据集与评测结果)
+	- [8.Transfer Learning Challenges (迁移学习比赛)](#8transfer-learning-challenges-迁移学习比赛)
+	- [Applications (迁移学习应用)](#applications-迁移学习应用)
+	- [Other Resources (其他资源)](#other-resources-其他资源)
+	- [Contributing (欢迎参与贡献)](#contributing-欢迎参与贡献)
 
 
 > 关于机器学习和行为识别的资料，请参考：[行为识别](https://github.com/jindongwang/activityrecognition)｜[机器学习](https://github.com/jindongwang/MachineLearning)
@@ -45,6 +45,14 @@ author = {Wang, Jindong and others}
 
 - **Latest publications**
 
+	- 20191125 AAAI-20 [Unsupervised Domain Adaptation via Structured Prediction Based Selective Pseudo-Labeling](https://arxiv.org/abs/1911.07982)
+    	- DA with selective pseudo label
+    	- 结构化和选择性的伪标签用于DA
+
+	- 20191125 AAAI-20 [Adaptive Activation Network and Functional Regularization for Efficient and Flexible Deep Multi-Task Learning](https://arxiv.org/abs/1911.08065)
+    	- Adaptive activation network for deep multi-task learning
+    	- 自适应的激活网络用于深度多任务学习
+
 	- 20191124 [Cantonese Automatic Speech Recognition Using Transfer Learning from Mandarin](https://arxiv.org/abs/1911.09271)
     	- Cantonese speech recognition using transfer learning from mandarin
     	- 普通话语音识别迁移到广东话识别
@@ -57,16 +65,10 @@ author = {Wang, Jindong and others}
     	- Adaptively determine which layer to transfer or finetune
     	- 自适应地决定迁移哪个层或微调哪个层
 
-	- 20191119 ICDM-19 [Towards Making Deep Transfer Learning Never Hurt](https://arxiv.org/abs/1911.07489)
-    	- Towards making deep transfer learning never hurt
-    	- 通过正则避免负迁移
-
-	- 20191119 NIPS-19 workshop [Collaborative Unsupervised Domain Adaptation for Medical Image Diagnosis](https://arxiv.org/abs/1911.07293)
-    	- Ensemble DA using noise labels
-    	- 在ensemble中出现noise label时如何处理
-
-
 - **Preprints on arXiv** (Not peer-reviewed)
+
+	- 20191125 arXiv [Attention Privileged Reinforcement Learning For Domain Transfer](https://arxiv.org/abs/1911.08363)
+    	- Attention privileged reinforcement learning for domain transfer
 
 	- 20191124 arXiv [Improving Unsupervised Domain Adaptation with Variational Information Bottleneck](https://arxiv.org/abs/1911.09310)
     	- Information bottleneck for unsupervised da
@@ -83,10 +85,6 @@ author = {Wang, Jindong and others}
 	- 20191113 arXiv [Open-Ended Visual Question Answering by Multi-Modal Domain Adaptation](https://arxiv.org/abs/1911.04058)
     	- Supervised multi-modal domain adaptation in VQA
     	- 有监督的多模态DA用于VQA任务
-
-	- 20191113 arXiv [NegBERT: A Transfer Learning Approach for Negation Detection and Scope Resolution](https://arxiv.org/abs/1911.04211)
-    	- Transfer learning for negation detection and scope resolution
-    	- 迁移学习用于否定检测
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
