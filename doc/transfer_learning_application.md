@@ -2,6 +2,14 @@
 
 迁移学习的应用
 
+- 20191201 arXiv [A Transfer Learning Method for Goal Recognition Exploiting Cross-Domain Spatial Features](https://arxiv.org/abs/1911.10134)
+     - A transfer learning method for goal recognition 
+     - 用迁移学习分析语言中的目标
+
+- 20191201 AAAI-20 [Zero-Resource Cross-Lingual Named Entity Recognition](https://arxiv.org/abs/1911.09812)
+   - Zero-resource cross-lingual NER
+   - 零资源的跨语言NER
+
 - 20191124 [Cantonese Automatic Speech Recognition Using Transfer Learning from Mandarin](https://arxiv.org/abs/1911.09271)
   	- Cantonese speech recognition using transfer learning from mandarin
   	- 普通话语音识别迁移到广东话识别

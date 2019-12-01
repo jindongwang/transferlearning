@@ -337,6 +337,10 @@ Including domain adaptation and partial domain adaptation.
 
 ### 1.2.2. Deep / Adversarial Methods (深度/对抗迁移方法)
 
+- 20191201 BMVC-19 [Domain Adaptation for Object Detection via Style Consistency](https://arxiv.org/abs/1911.10033)
+     - Use style consistency for domain adaptation
+     - 通过结构一致性来进行domain adaptation
+
 - 20191124 AAAI-20 [Knowledge Graph Transfer Network for Few-Shot Recognition](https://arxiv.org/abs/1911.09579)
   	- GNN for semantic transfer for few-shot learning
   	- 用GNN进行类别的语义迁移用于few-shot learning
@@ -715,6 +719,12 @@ Including domain adaptation and partial domain adaptation.
 ## 1.8. Deep Transfer Learning (深度迁移学习)
 
 ### 1.8.1. Non-Adversarial Transfer Learning (非对抗深度迁移)
+
+- 20191201 arXiv [A Unified Framework for Lifelong Learning in Deep Neural Networks](https://arxiv.org/abs/1911.09704)
+     - A unified framework for life-long learing in DNN
+
+- 20191201 arXiv [ReMixMatch: Semi-Supervised Learning with Distribution Alignment and Augmentation Anchoring](https://arxiv.org/abs/1911.09785)
+     - Semi-Supervised Learning with Distribution Alignment and Augmentation Anchoring
 
 - 20191119 ICDM-19 [Towards Making Deep Transfer Learning Never Hurt](https://arxiv.org/abs/1911.07489)
   	- Towards making deep transfer learning never hurt

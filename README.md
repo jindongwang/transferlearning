@@ -45,6 +45,14 @@ author = {Wang, Jindong and others}
 
 - **Latest publications**
 
+    - 20191201 AAAI-20 [Zero-Resource Cross-Lingual Named Entity Recognition](https://arxiv.org/abs/1911.09812)
+       - Zero-resource cross-lingual NER
+       - 零资源的跨语言NER
+
+    - 20191201 BMVC-19 [Domain Adaptation for Object Detection via Style Consistency](https://arxiv.org/abs/1911.10033)
+       - Use style consistency for domain adaptation
+       - 通过结构一致性来进行domain adaptation
+
 	- 20191124 [Cantonese Automatic Speech Recognition Using Transfer Learning from Mandarin](https://arxiv.org/abs/1911.09271)
     	- Cantonese speech recognition using transfer learning from mandarin
     	- 普通话语音识别迁移到广东话识别
@@ -57,16 +65,18 @@ author = {Wang, Jindong and others}
     	- Adaptively determine which layer to transfer or finetune
     	- 自适应地决定迁移哪个层或微调哪个层
 
-	- 20191119 ICDM-19 [Towards Making Deep Transfer Learning Never Hurt](https://arxiv.org/abs/1911.07489)
-    	- Towards making deep transfer learning never hurt
-    	- 通过正则避免负迁移
-
-	- 20191119 NIPS-19 workshop [Collaborative Unsupervised Domain Adaptation for Medical Image Diagnosis](https://arxiv.org/abs/1911.07293)
-    	- Ensemble DA using noise labels
-    	- 在ensemble中出现noise label时如何处理
-
 
 - **Preprints on arXiv** (Not peer-reviewed)
+
+    - 20191201 arXiv [A Transfer Learning Method for Goal Recognition Exploiting Cross-Domain Spatial Features](https://arxiv.org/abs/1911.10134)
+       - A transfer learning method for goal recognition 
+       - 用迁移学习分析语言中的目标
+
+    - 20191201 arXiv [A Unified Framework for Lifelong Learning in Deep Neural Networks](https://arxiv.org/abs/1911.09704)
+       - A unified framework for life-long learing in DNN
+
+    - 20191201 arXiv [ReMixMatch: Semi-Supervised Learning with Distribution Alignment and Augmentation Anchoring](https://arxiv.org/abs/1911.09785)
+       - Semi-Supervised Learning with Distribution Alignment and Augmentation Anchoring
 
 	- 20191124 arXiv [Improving Unsupervised Domain Adaptation with Variational Information Bottleneck](https://arxiv.org/abs/1911.09310)
     	- Information bottleneck for unsupervised da
@@ -75,18 +85,6 @@ author = {Wang, Jindong and others}
 	- 20191115 arXiv [Instance-based Transfer Learning for Multilingual Deep Retrieval](https://arxiv.org/abs/1911.06111)
     	- Instance based transfer learning for multilingual deep retrieval
     	- 基于实例的迁移学习用于多语言的retrieval
-
-	- 20191115 arXiv [Unsupervised Pre-training for Natural Language Generation: A Literature Review](https://arxiv.org/abs/1911.06171)
-    	- Unsupervised pre-training for natural language generation survey
-    	- 一篇无监督预训练用于自然语言生成的综述
-
-	- 20191113 arXiv [Open-Ended Visual Question Answering by Multi-Modal Domain Adaptation](https://arxiv.org/abs/1911.04058)
-    	- Supervised multi-modal domain adaptation in VQA
-    	- 有监督的多模态DA用于VQA任务
-
-	- 20191113 arXiv [NegBERT: A Transfer Learning Approach for Negation Detection and Scope Resolution](https://arxiv.org/abs/1911.04211)
-    	- Transfer learning for negation detection and scope resolution
-    	- 迁移学习用于否定检测
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
