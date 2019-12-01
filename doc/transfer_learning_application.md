@@ -9,6 +9,8 @@
 - 20191201 AAAI-20 [Zero-Resource Cross-Lingual Named Entity Recognition](https://arxiv.org/abs/1911.09812)
    - Zero-resource cross-lingual NER
    - 零资源的跨语言NER
+- 20191125 arXiv [Attention Privileged Reinforcement Learning For Domain Transfer](https://arxiv.org/abs/1911.08363)
+  	- Attention privileged reinforcement learning for domain transfer
 
 - 20191124 [Cantonese Automatic Speech Recognition Using Transfer Learning from Mandarin](https://arxiv.org/abs/1911.09271)
   	- Cantonese speech recognition using transfer learning from mandarin

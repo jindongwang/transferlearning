@@ -53,18 +53,17 @@ author = {Wang, Jindong and others}
        - Use style consistency for domain adaptation
        - 通过结构一致性来进行domain adaptation
 
+	- 20191125 AAAI-20 [Unsupervised Domain Adaptation via Structured Prediction Based Selective Pseudo-Labeling](https://arxiv.org/abs/1911.07982)
+    	- DA with selective pseudo label
+    	- 结构化和选择性的伪标签用于DA
+
+	- 20191125 AAAI-20 [Adaptive Activation Network and Functional Regularization for Efficient and Flexible Deep Multi-Task Learning](https://arxiv.org/abs/1911.08065)
+    	- Adaptive activation network for deep multi-task learning
+    	- 自适应的激活网络用于深度多任务学习
+
 	- 20191124 [Cantonese Automatic Speech Recognition Using Transfer Learning from Mandarin](https://arxiv.org/abs/1911.09271)
     	- Cantonese speech recognition using transfer learning from mandarin
     	- 普通话语音识别迁移到广东话识别
-
-	- 20191124 AAAI-20 [Knowledge Graph Transfer Network for Few-Shot Recognition](https://arxiv.org/abs/1911.09579)
-    	- GNN for semantic transfer for few-shot learning
-    	- 用GNN进行类别的语义迁移用于few-shot learning
-
-	- 20191124 AAAI-20 (AdaFilter: Adaptive Filter Fine-tuning for Deep Transfer Learning)(https://arxiv.org/abs/1911.09659)
-    	- Adaptively determine which layer to transfer or finetune
-    	- 自适应地决定迁移哪个层或微调哪个层
-
 
 - **Preprints on arXiv** (Not peer-reviewed)
 
@@ -78,13 +77,12 @@ author = {Wang, Jindong and others}
     - 20191201 arXiv [ReMixMatch: Semi-Supervised Learning with Distribution Alignment and Augmentation Anchoring](https://arxiv.org/abs/1911.09785)
        - Semi-Supervised Learning with Distribution Alignment and Augmentation Anchoring
 
+	- 20191125 arXiv [Attention Privileged Reinforcement Learning For Domain Transfer](https://arxiv.org/abs/1911.08363)
+    	- Attention privileged reinforcement learning for domain transfer
+
 	- 20191124 arXiv [Improving Unsupervised Domain Adaptation with Variational Information Bottleneck](https://arxiv.org/abs/1911.09310)
     	- Information bottleneck for unsupervised da
     	- 用了信息瓶颈来进行DA
-
-	- 20191115 arXiv [Instance-based Transfer Learning for Multilingual Deep Retrieval](https://arxiv.org/abs/1911.06111)
-    	- Instance based transfer learning for multilingual deep retrieval
-    	- 基于实例的迁移学习用于多语言的retrieval
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
