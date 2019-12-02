@@ -48,6 +48,9 @@ author = {Wang, Jindong and others}
     - 20191201 AAAI-20 [Zero-Resource Cross-Lingual Named Entity Recognition](https://arxiv.org/abs/1911.09812)
        - Zero-resource cross-lingual NER
        - 零资源的跨语言NER
+    
+    - 20191201 AAAI-20 [Transfer Learning for Anomaly Detection through Localized and Unsupervised Instance Selection](https://github.com/Vincent-Vercruyssen/LocIT/blob/master/paper/LOCIT-AAAI2020-full-manuscript.pdf)
+    	- Instance selection by comparing local source and target distributions
 
     - 20191201 BMVC-19 [Domain Adaptation for Object Detection via Style Consistency](https://arxiv.org/abs/1911.10033)
        - Use style consistency for domain adaptation
