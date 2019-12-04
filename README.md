@@ -45,6 +45,9 @@ author = {Wang, Jindong and others}
 
 - **Latest publications**
 
+	- 20191204 AAAI-20 [Online Knowledge Distillation with Diverse Peers](https://arxiv.org/abs/1912.00350)
+        - Online Knowledge Distillation with Diverse Peers
+
 	- 20191125 AAAI-20 [Unsupervised Domain Adaptation via Structured Prediction Based Selective Pseudo-Labeling](https://arxiv.org/abs/1911.07982)
     	- DA with selective pseudo label
     	- 结构化和选择性的伪标签用于DA
@@ -61,30 +64,26 @@ author = {Wang, Jindong and others}
     	- GNN for semantic transfer for few-shot learning
     	- 用GNN进行类别的语义迁移用于few-shot learning
 
-	- 20191124 AAAI-20 (AdaFilter: Adaptive Filter Fine-tuning for Deep Transfer Learning)(https://arxiv.org/abs/1911.09659)
-    	- Adaptively determine which layer to transfer or finetune
-    	- 自适应地决定迁移哪个层或微调哪个层
-
 - **Preprints on arXiv** (Not peer-reviewed)
+
+	- 20191204 arXiv [DeepMimic: Mentor-Student Unlabeled Data Based Training](https://arxiv.org/abs/1912.00079)
+       - Teacher-student training with unlabeled data
+       - 在大量无标注数据中训练老师-学生网络
+
+    - 20191204 arXiv [MetAdapt: Meta-Learned Task-Adaptive Architecture for Few-Shot Classification](https://arxiv.org/abs/1912.00412)
+       - Task adaptive structure for few-shot learning
+       - 目标自适应的结构用于小样本学习
+
+    - 20191204 arXiv [Data Augmentation for Deep Transfer Learning](https://arxiv.org/abs/1912.00772)
+       - Data Augmentation for Deep Transfer Learning
+       - 深度学习中进行一些数据增强的实验
+
+    - 20191204 arXiv [Transferability versus Discriminability: Joint Probability Distribution Adaptation (JPDA)](https://arxiv.org/abs/1912.00320)
+       - Joint adaptation with different weights
+       - 不同权重的联合概率适配
 
 	- 20191125 arXiv [Attention Privileged Reinforcement Learning For Domain Transfer](https://arxiv.org/abs/1911.08363)
     	- Attention privileged reinforcement learning for domain transfer
-
-	- 20191124 arXiv [Improving Unsupervised Domain Adaptation with Variational Information Bottleneck](https://arxiv.org/abs/1911.09310)
-    	- Information bottleneck for unsupervised da
-    	- 用了信息瓶颈来进行DA
-
-	- 20191115 arXiv [Instance-based Transfer Learning for Multilingual Deep Retrieval](https://arxiv.org/abs/1911.06111)
-    	- Instance based transfer learning for multilingual deep retrieval
-    	- 基于实例的迁移学习用于多语言的retrieval
-
-	- 20191115 arXiv [Unsupervised Pre-training for Natural Language Generation: A Literature Review](https://arxiv.org/abs/1911.06171)
-    	- Unsupervised pre-training for natural language generation survey
-    	- 一篇无监督预训练用于自然语言生成的综述
-
-	- 20191113 arXiv [Open-Ended Visual Question Answering by Multi-Modal Domain Adaptation](https://arxiv.org/abs/1911.04058)
-    	- Supervised multi-modal domain adaptation in VQA
-    	- 有监督的多模态DA用于VQA任务
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 

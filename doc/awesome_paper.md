@@ -223,6 +223,10 @@ Including domain adaptation and partial domain adaptation.
 
 ### 1.2.1. Traditional Methods (传统迁移方法)
 
+- 20191204 arXiv [Transferability versus Discriminability: Joint Probability Distribution Adaptation (JPDA)](https://arxiv.org/abs/1912.00320)
+     - Joint adaptation with different weights
+     - 不同权重的联合概率适配
+
 - 20191125 AAAI-20 [Unsupervised Domain Adaptation via Structured Prediction Based Selective Pseudo-Labeling](https://arxiv.org/abs/1911.07982)
   	- DA with selective pseudo label
   	- 结构化和选择性的伪标签用于DA
@@ -691,6 +695,10 @@ Including domain adaptation and partial domain adaptation.
 ### 1.7.1. Zero-shot Learning based on Data Synthesis (基于样本生成的零样本学习)
 [详细介绍](https://github.com/PatrickZH/Zero-shot-Learning) <br>
 
+- 20191204 arXiv [MetAdapt: Meta-Learned Task-Adaptive Architecture for Few-Shot Classification](https://arxiv.org/abs/1912.00412)
+     - Task adaptive structure for few-shot learning
+     - 目标自适应的结构用于小样本学习
+
 - 20190409 ICLR-19 [A Closer Look at Few-shot Classification](https://arxiv.org/abs/1904.04232)
     - Give some important conclusions on few-shot classification
     - 在few-shot上给了一些有用的结论
@@ -719,6 +727,9 @@ Including domain adaptation and partial domain adaptation.
 ## 1.8. Deep Transfer Learning (深度迁移学习)
 
 ### 1.8.1. Non-Adversarial Transfer Learning (非对抗深度迁移)
+
+- 20191204 AAAI-20 [Online Knowledge Distillation with Diverse Peers](https://arxiv.org/abs/1912.00350)
+    - Online Knowledge Distillation with Diverse Peers
 
 - 20191119 ICDM-19 [Towards Making Deep Transfer Learning Never Hurt](https://arxiv.org/abs/1911.07489)
   	- Towards making deep transfer learning never hurt
