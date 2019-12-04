@@ -2,6 +2,13 @@
 
 迁移学习的应用
 
+- 20191201 arXiv [A Transfer Learning Method for Goal Recognition Exploiting Cross-Domain Spatial Features](https://arxiv.org/abs/1911.10134)
+     - A transfer learning method for goal recognition 
+     - 用迁移学习分析语言中的目标
+
+- 20191201 AAAI-20 [Zero-Resource Cross-Lingual Named Entity Recognition](https://arxiv.org/abs/1911.09812)
+   - Zero-resource cross-lingual NER
+   - 零资源的跨语言NER
 - 20191125 arXiv [Attention Privileged Reinforcement Learning For Domain Transfer](https://arxiv.org/abs/1911.08363)
   	- Attention privileged reinforcement learning for domain transfer
 

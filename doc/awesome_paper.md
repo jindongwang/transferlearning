@@ -65,6 +65,25 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 ### 1.1.2. Others (其他)
 
+- 20191202 AAAI-20 [Towards Oracle Knowledge Distillation with Neural Architecture Search](https://arxiv.org/abs/1911.13019)
+   - Using NAS for knowledge Distillation
+   - 用NAS帮助知识蒸馏
+
+- 20191202 AAAI-20 [Stable Learning via Sample Reweighting](https://arxiv.org/abs/1911.12580)
+   - Theoretical sample reweigting
+   - 理论和方法，用于sample reweight
+
+- 20191202 arXiv [Domain-invariant Stereo Matching Networks](https://arxiv.org/abs/1911.13287)
+   - Domain-invariant stereo matching networks
+   - 领域不变的匹配网络
+
+- 20191202 arXiv [Learning Generalizable Representations via Diverse Supervision](https://arxiv.org/abs/1911.12911)
+   - Diverse supervision helps to learn generalizable representations
+
+- 20191202 arXiv [Domain-Aware Dynamic Networks](https://arxiv.org/abs/1911.13237)
+     - Edge devices adaptative computing
+     - 边缘计算上的自适应计算
+
 - 20191029 [Adversarial Feature Alignment: Avoid Catastrophic Forgetting in Incremental Task Lifelong Learning](https://arxiv.org/abs/1910.10986)
   	- Avoid catastrophic forgeeting in incremental task lifelong learning
   	- 在终身学习中避免灾难遗忘
@@ -344,6 +363,14 @@ Including domain adaptation and partial domain adaptation.
 	- 发表在IEEE Trans. Knowledge and Data Engineering期刊上
 
 ### 1.2.2. Deep / Adversarial Methods (深度/对抗迁移方法)
+
+- 20191202 PR-19 [Correlation-aware Adversarial Domain Adaptation and Generalization](https://arxiv.org/abs/1911.12983)
+     - CORAL and adversarial for adaptation and generalization
+     - 基于CORAL和对抗网络的DA和DG
+
+- 20191201 BMVC-19 [Domain Adaptation for Object Detection via Style Consistency](https://arxiv.org/abs/1911.10033)
+     - Use style consistency for domain adaptation
+     - 通过结构一致性来进行domain adaptation
 
 - 20191124 AAAI-20 [Knowledge Graph Transfer Network for Few-Shot Recognition](https://arxiv.org/abs/1911.09579)
   	- GNN for semantic transfer for few-shot learning
@@ -730,6 +757,11 @@ Including domain adaptation and partial domain adaptation.
 
 - 20191204 AAAI-20 [Online Knowledge Distillation with Diverse Peers](https://arxiv.org/abs/1912.00350)
     - Online Knowledge Distillation with Diverse Peers
+- 20191201 arXiv [A Unified Framework for Lifelong Learning in Deep Neural Networks](https://arxiv.org/abs/1911.09704)
+     - A unified framework for life-long learing in DNN
+
+- 20191201 arXiv [ReMixMatch: Semi-Supervised Learning with Distribution Alignment and Augmentation Anchoring](https://arxiv.org/abs/1911.09785)
+     - Semi-Supervised Learning with Distribution Alignment and Augmentation Anchoring
 
 - 20191119 ICDM-19 [Towards Making Deep Transfer Learning Never Hurt](https://arxiv.org/abs/1911.07489)
   	- Towards making deep transfer learning never hurt
@@ -1168,6 +1200,10 @@ Including domain adaptation and partial domain adaptation.
 - - -
 
 ## 1.9. Multi-task Learning (多任务学习)
+
+- 20191202 arXiv [AdaShare: Learning What To Share For Efficient Deep Multi-Task Learning](https://arxiv.org/abs/1911.12423)
+   - Learning what to share for multi-task learning
+   - 对多任务学习如何share
 
 - 20191125 AAAI-20 [Adaptive Activation Network and Functional Regularization for Efficient and Flexible Deep Multi-Task Learning](https://arxiv.org/abs/1911.08065)
   	- Adaptive activation network for deep multi-task learning
