@@ -106,10 +106,11 @@ Testing **dataset** can be found [here](https://github.com/jindongwang/transferl
 - **DANN/RevGrad** (Unsupervised Domain Adaptation by Backpropagation, ICML-15) [14]
 	- [Caffe(Official)](https://github.com/ddtm/caffe/tree/grl) | [PyTorch](https://github.com/jindongwang/transferlearning/tree/master/code/deep/DANN(RevGrad)) | [Pytorch(another)](https://github.com/jvanvugt/pytorch-domain-adaptation/blob/master/revgrad.py) | [Tensorflow(third party)](https://github.com/shucunt/domain_adaptation) 
 - **DANN** Domain-Adversarial Training of Neural Networks (JMLR-16)[17] 
-	- [Python(official)](https://github.com/GRAAL-Research/domain_adversarial_neural_network) | [Tensorflow](https://github.com/jindongwang/tf-dann)
+	- [Python(official)](https://github.com/GRAAL-Research/domain_adversarial_neural_network) | [Tensorflow](https://github.com/jindongwang/tf-dann) | [PyTorch](https://github.com/CuthbertCai/pytorch_DANN)
 - Associative Domain Adaptation (ICCV-17) [18]
 	- [Tensorflow](https://github.com/haeusser/learning_by_association)
 - Deep Hashing Network for Unsupervised Domain (CVPR-17) [20]
+
 	- [Matlab](https://github.com/hemanthdv/da-hash)
 - **CCSA** (Unified Deep Supervised Domain Adaptation and Generalization, ICCV-17) [23]
 	- [Python(Keras)](https://github.com/samotiian/CCSA)
