@@ -7,7 +7,7 @@ def load_data(root_dir,domain,batch_size):
         transforms.Grayscale(),
         transforms.Resize([28, 28]),
         transforms.ToTensor(),
-        transforms.Normalize(mean=(0,0,0),std=(1,1,1)),
+        transforms.Normalize(mean=(0,),std=(1,)),
     ]
     )
     image_folder = datasets.ImageFolder(
@@ -23,7 +23,7 @@ def load_test(root_dir,domain,batch_size):
         transforms.Grayscale(),
         transforms.Resize([28, 28]),
         transforms.ToTensor(),
-        transforms.Normalize(mean=(0, 0, 0), std=(1, 1, 1)),
+        transforms.Normalize(mean=(0,), std=(1,)),
     ]
     )
     image_folder = datasets.ImageFolder(
