@@ -5,7 +5,9 @@ Let's read some awesome transfer learning / domain adaptation papers.
 这里收录了迁移学习各个研究领域的最新文章。
 
 
-- [1. Awesome Transfer Learning Papers](#1-awesome-transfer-learning-papers)
+- [<ol>
+<li>Awesome Transfer Learning Papers</li>
+</ol>](#olliawesome-transfer-learning-papersliol)
 	- [1.1. General Transfer Learning (普通迁移学习)](#11-general-transfer-learning-普通迁移学习)
 		- [1.1.1. Theory (理论)](#111-theory-理论)
 		- [1.1.2. Others (其他)](#112-others-其他)
@@ -1272,6 +1274,9 @@ Including domain adaptation and partial domain adaptation.
 - - -
 
 ## 1.10. Transfer Reinforcement Learning (强化迁移学习)
+
+- 20191212 AAAI-20 [Transfer value iteration networks](https://arxiv.org/abs/1911.05701)
+    - Transferred value iteration networks
 
 - 20190821 arXiv [Transfer in Deep Reinforcement Learning using Knowledge Graphs](https://arxiv.org/abs/1908.06556)
   	- Use knowledge graph to transfer in reinforcement learning

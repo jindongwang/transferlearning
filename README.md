@@ -45,6 +45,9 @@ author = {Wang, Jindong and others}
 
 - **Latest publications**
 
+	- 20191212 AAAI-20 [Transfer value iteration networks](https://arxiv.org/abs/1911.05701)
+    	- Transferred value iteration networks
+
 	- 20191204 AAAI-20 [Online Knowledge Distillation with Diverse Peers](https://arxiv.org/abs/1912.00350)
         - Online Knowledge Distillation with Diverse Peers
 
@@ -62,13 +65,6 @@ author = {Wang, Jindong and others}
 	- 20191202 PR-19 [Correlation-aware Adversarial Domain Adaptation and Generalization](https://arxiv.org/abs/1911.12983)
        - CORAL and adversarial for adaptation and generalization
        - 基于CORAL和对抗网络的DA和DG
-
-    - 20191201 AAAI-20 [Zero-Resource Cross-Lingual Named Entity Recognition](https://arxiv.org/abs/1911.09812)
-       - Zero-resource cross-lingual NER
-       - 零资源的跨语言NER
-    
-    - 20191201 AAAI-20 [Transfer Learning for Anomaly Detection through Localized and Unsupervised Instance Selection](https://github.com/Vincent-Vercruyssen/LocIT/blob/master/paper/LOCIT-AAAI2020-full-manuscript.pdf)
-    	- Instance selection by comparing local source and target distributions
 
 - **Preprints on arXiv** (Not peer-reviewed)
 
