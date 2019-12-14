@@ -5,9 +5,7 @@ Let's read some awesome transfer learning / domain adaptation papers.
 这里收录了迁移学习各个研究领域的最新文章。
 
 
-- [<ol>
-<li>Awesome Transfer Learning Papers</li>
-</ol>](#olliawesome-transfer-learning-papersliol)
+- [1. Awesome Transfer Learning Papers](#1-awesome-transfer-learning-papers)
 	- [1.1. General Transfer Learning (普通迁移学习)](#11-general-transfer-learning-普通迁移学习)
 		- [1.1.1. Theory (理论)](#111-theory-理论)
 		- [1.1.2. Others (其他)](#112-others-其他)
@@ -1037,6 +1035,12 @@ Including domain adaptation and partial domain adaptation.
 
 ### 1.8.2. Deep Adversarial Transfer Learning (对抗迁移学习)
 
+- 20191214 arXiv [Learning Domain Adaptive Features with Unlabeled Domain Bridges](https://arxiv.org/abs/1912.05004)
+    - Learning domain adaptive features with unlabeled CycleGAN
+
+- 20191214 AAAI-20 [Adversarial Domain Adaptation with Domain Mixup](https://arxiv.org/abs/1912.01805)
+    - Domain adaptation with data mixup
+
 - 20190916 arXiv [Compound Domain Adaptation in an Open World](https://arxiv.org/abs/1909.03403)
   	- Domain adaptation using the target domain knowledge
   	- 使用目标域的知识来进行domain adaptation
@@ -1274,6 +1278,9 @@ Including domain adaptation and partial domain adaptation.
 - - -
 
 ## 1.10. Transfer Reinforcement Learning (强化迁移学习)
+
+- 20191214 arXiv [Does Knowledge Transfer Always Help to Learn a Better Policy?](https://arxiv.org/abs/1912.02986)
+    - Transfer learning in reinforcement learning
 
 - 20191212 AAAI-20 [Transfer value iteration networks](https://arxiv.org/abs/1911.05701)
     - Transferred value iteration networks

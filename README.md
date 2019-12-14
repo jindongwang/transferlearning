@@ -45,6 +45,12 @@ author = {Wang, Jindong and others}
 
 - **Latest publications**
 
+	- 20191214 AAAI-20 [Adversarial Domain Adaptation with Domain Mixup](https://arxiv.org/abs/1912.01805)
+       - Domain adaptation with data mixup
+
+    - 20191214 NIPS-19 workshop [Cross-Language Aphasia Detection using Optimal Transport Domain Adaptation](https://arxiv.org/abs/1912.04370)
+       - Optimal transport domain adaptation
+
 	- 20191212 AAAI-20 [Transfer value iteration networks](https://arxiv.org/abs/1911.05701)
     	- Transferred value iteration networks
 
@@ -58,37 +64,23 @@ author = {Wang, Jindong and others}
        - Using NAS for knowledge Distillation
        - 用NAS帮助知识蒸馏
 
-    - 20191202 AAAI-20 [Stable Learning via Sample Reweighting](https://arxiv.org/abs/1911.12580)
-       - Theoretical sample reweigting
-       - 理论和方法，用于sample reweight
-
-	- 20191202 PR-19 [Correlation-aware Adversarial Domain Adaptation and Generalization](https://arxiv.org/abs/1911.12983)
-       - CORAL and adversarial for adaptation and generalization
-       - 基于CORAL和对抗网络的DA和DG
-
 - **Preprints on arXiv** (Not peer-reviewed)
+
+	- 20191214 arXiv [Learning Domain Adaptive Features with Unlabeled Domain Bridges](https://arxiv.org/abs/1912.05004)
+       - Learning domain adaptive features with unlabeled CycleGAN
+
+    - 20191214 arXiv [Unsupervised Transfer Learning via BERT Neuron Selection](https://arxiv.org/abs/1912.05308)
+       - Unsupervised transfer learning via BERT neuron selection
+
+    - 20191214 arXiv [Transfer Learning-Based Outdoor Position Recovery with Telco Data](https://arxiv.org/abs/1912.04521)
+       - Outdoor position recorvey with Telco data using transfer learning
+
+    - 20191214 arXiv [Does Knowledge Transfer Always Help to Learn a Better Policy?](https://arxiv.org/abs/1912.02986)
+       - Transfer learning in reinforcement learning
 
 	- 20191204 arXiv [DeepMimic: Mentor-Student Unlabeled Data Based Training](https://arxiv.org/abs/1912.00079)
        - Teacher-student training with unlabeled data
        - 在大量无标注数据中训练老师-学生网络
-
-    - 20191204 arXiv [MetAdapt: Meta-Learned Task-Adaptive Architecture for Few-Shot Classification](https://arxiv.org/abs/1912.00412)
-       - Task adaptive structure for few-shot learning
-       - 目标自适应的结构用于小样本学习
-
-    - 20191204 arXiv [Data Augmentation for Deep Transfer Learning](https://arxiv.org/abs/1912.00772)
-       - Data Augmentation for Deep Transfer Learning
-       - 深度学习中进行一些数据增强的实验
-
-    - 20191204 arXiv [Transferability versus Discriminability: Joint Probability Distribution Adaptation (JPDA)](https://arxiv.org/abs/1912.00320)
-       - Joint adaptation with different weights
-       - 不同权重的联合概率适配
-
-	- 20191125 arXiv [Attention Privileged Reinforcement Learning For Domain Transfer](https://arxiv.org/abs/1911.08363)
-    	- Attention privileged reinforcement learning for domain transfer
-    - 20191201 BMVC-19 [Domain Adaptation for Object Detection via Style Consistency](https://arxiv.org/abs/1911.10033)
-       - Use style consistency for domain adaptation
-       - 通过结构一致性来进行domain adaptation
 
 - **Preprints on arXiv** (Not peer-reviewed)
 

@@ -2,6 +2,15 @@
 
 迁移学习的应用
 
+- 20191214 arXiv [Unsupervised Transfer Learning via BERT Neuron Selection](https://arxiv.org/abs/1912.05308)
+     - Unsupervised transfer learning via BERT neuron selection
+
+- 20191214 arXiv [Transfer Learning-Based Outdoor Position Recovery with Telco Data](https://arxiv.org/abs/1912.04521)
+     - Outdoor position recorvey with Telco data using transfer learning
+
+- 20191214 NIPS-19 workshop [Cross-Language Aphasia Detection using Optimal Transport Domain Adaptation](https://arxiv.org/abs/1912.04370)
+    - Optimal transport domain adaptation
+
 - 20191201 arXiv [A Transfer Learning Method for Goal Recognition Exploiting Cross-Domain Spatial Features](https://arxiv.org/abs/1911.10134)
      - A transfer learning method for goal recognition 
      - 用迁移学习分析语言中的目标
