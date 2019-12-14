@@ -43,7 +43,7 @@ author = {Wang, Jindong and others}
 
 [迁移学习文章汇总 Awesome transfer learning papers](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
-- **Latest publications**
+- **Weekly latest papers** (20191209-20191215)
 
 	- 20191214 AAAI-20 [Adversarial Domain Adaptation with Domain Mixup](https://arxiv.org/abs/1912.01805)
        - Domain adaptation with data mixup
@@ -54,17 +54,7 @@ author = {Wang, Jindong and others}
 	- 20191212 AAAI-20 [Transfer value iteration networks](https://arxiv.org/abs/1911.05701)
     	- Transferred value iteration networks
 
-	- 20191204 AAAI-20 [Online Knowledge Distillation with Diverse Peers](https://arxiv.org/abs/1912.00350)
-        - Online Knowledge Distillation with Diverse Peers
-
-	- 20191125 AAAI-20 [Unsupervised Domain Adaptation via Structured Prediction Based Selective Pseudo-Labeling](https://arxiv.org/abs/1911.07982)
-    	- DA with selective pseudo label
-    	- 结构化和选择性的伪标签用于DA
-    - 20191202 AAAI-20 [Towards Oracle Knowledge Distillation with Neural Architecture Search](https://arxiv.org/abs/1911.13019)
-       - Using NAS for knowledge Distillation
-       - 用NAS帮助知识蒸馏
-
-- **Preprints on arXiv** (Not peer-reviewed)
+- **Weekly arXiv preprints** (20191209-20191215)
 
 	- 20191214 arXiv [Learning Domain Adaptive Features with Unlabeled Domain Bridges](https://arxiv.org/abs/1912.05004)
        - Learning domain adaptive features with unlabeled CycleGAN
@@ -77,31 +67,6 @@ author = {Wang, Jindong and others}
 
     - 20191214 arXiv [Does Knowledge Transfer Always Help to Learn a Better Policy?](https://arxiv.org/abs/1912.02986)
        - Transfer learning in reinforcement learning
-
-	- 20191204 arXiv [DeepMimic: Mentor-Student Unlabeled Data Based Training](https://arxiv.org/abs/1912.00079)
-       - Teacher-student training with unlabeled data
-       - 在大量无标注数据中训练老师-学生网络
-
-- **Preprints on arXiv** (Not peer-reviewed)
-
-    - 20191202 arXiv [Domain-invariant Stereo Matching Networks](https://arxiv.org/abs/1911.13287)
-       - Domain-invariant stereo matching networks
-       - 领域不变的匹配网络
-
-    - 20191202 arXiv [Learning Generalizable Representations via Diverse Supervision](https://arxiv.org/abs/1911.12911)
-       - Diverse supervision helps to learn generalizable representations
-
-    - 20191202 arXiv [AdaShare: Learning What To Share For Efficient Deep Multi-Task Learning](https://arxiv.org/abs/1911.12423)
-       - Learning what to share for multi-task learning
-       - 对多任务学习如何share
-
-    - 20191202 arXiv [Domain-Aware Dynamic Networks](https://arxiv.org/abs/1911.13237)
-       - Edge devices adaptative computing
-       - 边缘计算上的自适应计算
-
-    - 20191201 arXiv [A Transfer Learning Method for Goal Recognition Exploiting Cross-Domain Spatial Features](https://arxiv.org/abs/1911.10134)
-       - A transfer learning method for goal recognition 
-       - 用迁移学习分析语言中的目标
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
