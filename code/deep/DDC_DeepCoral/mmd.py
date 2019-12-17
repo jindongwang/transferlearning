@@ -31,7 +31,7 @@ class MMD_loss(nn.Module):
 
     def linear_mmd2(self, f_of_X, f_of_Y):
         loss = 0.0
-        delta = f_of_X.float().mean() - f_of_Y.float().mean()
+        delta = f_of_X.float().mean(0) - f_of_Y.float().mean(0)
         loss = delta.dot(delta.T)
         return loss
 

@@ -16,7 +16,7 @@ min_var_est = 1e-8
 # f_of_Y: batch_size * k
 def linear_mmd2(f_of_X, f_of_Y):
     loss = 0.0
-    delta = f_of_X.float().mean() - f_of_Y.float().mean()
+    delta = f_of_X.float().mean(0) - f_of_Y.float().mean(0)
     loss = delta.dot(delta.T)
     return loss
 
