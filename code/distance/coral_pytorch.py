@@ -1,3 +1,6 @@
+# Compute CORAL loss using pytorch
+# Reference: DCORAL: Correlation Alignment for Deep Domain Adaptation, ECCV-16.
+
 import torch
 
 def CORAL_loss(source, target):
