@@ -31,9 +31,9 @@ Testing **dataset** can be found [here](https://github.com/jindongwang/transferl
 
 ## Basic distance 常用的距离度量
 
-- MMD and MK-MMD：[Matlab](https://github.com/lopezpaz/classifier_tests/tree/master/code/unit_test_mmd) | [Python](https://github.com/jindongwang/transferlearning/tree/master/code/distance/mmd.py)
+- MMD and MK-MMD：[Python](https://github.com/jindongwang/transferlearning/blob/master/code/distance/mmd_numpy_sklearn.py) | [Pytorch](https://github.com/jindongwang/transferlearning/blob/master/code/distance/mmd_pytorch.py) | [Matlab](https://github.com/jindongwang/transferlearning/blob/master/code/distance/mmd_matlab.m)
 - $A$-distance: [Python](https://github.com/jindongwang/transferlearning/tree/master/code/distance/proxy_a_distance.py)
-- CORAL loss: [Python](https://github.com/jindongwang/transferlearning/tree/master/code/distance/coral_loss.py)
+- CORAL loss: [Pytorch](https://github.com/jindongwang/transferlearning/tree/master/code/distance/coral_loss.py)
 - Several metric learning algorithms: [Python](https://github.com/metric-learn/metric-learn)
 - Wasserstein distance (earch mover's distance):
 	- Scipy built-in function: [scipy.stats.wasserstein_distance](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.wasserstein_distance.html)
