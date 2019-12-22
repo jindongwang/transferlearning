@@ -45,28 +45,22 @@ author = {Wang, Jindong and others}
 
 - **Weekly latest papers** (20191209-20191215)
 
-	- 20191214 AAAI-20 [Adversarial Domain Adaptation with Domain Mixup](https://arxiv.org/abs/1912.01805)
-       - Domain adaptation with data mixup
+	- 20191222 NIPS-19 workshop [Sim-to-Real Domain Adaptation For High Energy Physics](https://arxiv.org/abs/1912.08001)
+       - Transfer learning for high energy physics
+       - 迁移学习用于高能物理
 
-    - 20191214 NIPS-19 workshop [Cross-Language Aphasia Detection using Optimal Transport Domain Adaptation](https://arxiv.org/abs/1912.04370)
-       - Optimal transport domain adaptation
-
-	- 20191212 AAAI-20 [Transfer value iteration networks](https://arxiv.org/abs/1911.05701)
-    	- Transferred value iteration networks
+    - 20191222 AAAI-20 [Improved Knowledge Distillation via Teacher Assistant](https://arxiv.org/abs/1902.03393)
+       - Teacher assistant helps knowledge distillation
 
 - **Weekly arXiv preprints** (20191209-20191215)
 
-	- 20191214 arXiv [Learning Domain Adaptive Features with Unlabeled Domain Bridges](https://arxiv.org/abs/1912.05004)
-       - Learning domain adaptive features with unlabeled CycleGAN
+	- 20191222 arXiv [Dreaming to Distill: Data-free Knowledge Transfer via DeepInversion](https://arxiv.org/abs/1912.08795)
+       - Generate data without priors for transfer learning based on deep dream
+       - 只用网络架构不用原来数据，生成新数据用于迁移
 
-    - 20191214 arXiv [Unsupervised Transfer Learning via BERT Neuron Selection](https://arxiv.org/abs/1912.05308)
-       - Unsupervised transfer learning via BERT neuron selection
-
-    - 20191214 arXiv [Transfer Learning-Based Outdoor Position Recovery with Telco Data](https://arxiv.org/abs/1912.04521)
-       - Outdoor position recorvey with Telco data using transfer learning
-
-    - 20191214 arXiv [Does Knowledge Transfer Always Help to Learn a Better Policy?](https://arxiv.org/abs/1912.02986)
-       - Transfer learning in reinforcement learning
+    - 20191222 arXiv [Transfer learning in hybrid classical-quantum neural networks](https://arxiv.org/abs/1912.08278)
+       - Transfer learning in hybrid classical-quantum neural networks
+       - Transfer learning for quantum neural networks
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 

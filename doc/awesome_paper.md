@@ -755,6 +755,13 @@ Including domain adaptation and partial domain adaptation.
 
 ### 1.8.1. Non-Adversarial Transfer Learning (非对抗深度迁移)
 
+- 20191222 arXiv [Dreaming to Distill: Data-free Knowledge Transfer via DeepInversion](https://arxiv.org/abs/1912.08795)
+   - Generate data without priors for transfer learning based on deep dream
+   - 只用网络架构不用原来数据，生成新数据用于迁移
+
+- 20191222 AAAI-20 [Improved Knowledge Distillation via Teacher Assistant](https://arxiv.org/abs/1902.03393)
+    - Teacher assistant helps knowledge distillation
+
 - 20191204 AAAI-20 [Online Knowledge Distillation with Diverse Peers](https://arxiv.org/abs/1912.00350)
     - Online Knowledge Distillation with Diverse Peers
 - 20191201 arXiv [A Unified Framework for Lifelong Learning in Deep Neural Networks](https://arxiv.org/abs/1911.09704)

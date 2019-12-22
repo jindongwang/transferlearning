@@ -2,6 +2,13 @@
 
 迁移学习的应用
 
+- 20191222 NIPS-19 workshop [Sim-to-Real Domain Adaptation For High Energy Physics](https://arxiv.org/abs/1912.08001)
+     - Transfer learning for high energy physics
+     - 迁移学习用于高能物理
+
+- 20191222 arXiv [Transfer learning in hybrid classical-quantum neural networks](https://arxiv.org/abs/1912.08278)
+     - Transfer learning for quantum neural networks
+
 - 20191214 arXiv [Unsupervised Transfer Learning via BERT Neuron Selection](https://arxiv.org/abs/1912.05308)
      - Unsupervised transfer learning via BERT neuron selection
 
