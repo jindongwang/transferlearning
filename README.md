@@ -43,24 +43,25 @@ author = {Wang, Jindong and others}
 
 [迁移学习文章汇总 Awesome transfer learning papers](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
-- **Weekly latest papers** (20191209-20191215)
+- **Weekly latest papers**
 
-	- 20191222 NIPS-19 workshop [Sim-to-Real Domain Adaptation For High Energy Physics](https://arxiv.org/abs/1912.08001)
-       - Transfer learning for high energy physics
-       - 迁移学习用于高能物理
+	- 20200106 arXiv [Progressive transfer learning for low frequency data prediction in full waveform inversion](https://arxiv.org/abs/1912.09944)
 
-    - 20191222 AAAI-20 [Improved Knowledge Distillation via Teacher Assistant](https://arxiv.org/abs/1902.03393)
-       - Teacher assistant helps knowledge distillation
+    - 20200106 arXiv [Transfer Learning with Edge Attention for Prostate MRI Segmentation](https://arxiv.org/abs/1912.09847)
 
-- **Weekly arXiv preprints** (20191209-20191215)
+    - 20200106 arXiv [Large Scale Learning of General Visual Representations for Transfer](https://arxiv.org/abs/1912.11370)
 
-	- 20191222 arXiv [Dreaming to Distill: Data-free Knowledge Transfer via DeepInversion](https://arxiv.org/abs/1912.08795)
-       - Generate data without priors for transfer learning based on deep dream
-       - 只用网络架构不用原来数据，生成新数据用于迁移
+    - 20200106 AAAI-20 [Dual Adversarial Domain Adaptation](https://arxiv.org/abs/2001.00153)
 
-    - 20191222 arXiv [Transfer learning in hybrid classical-quantum neural networks](https://arxiv.org/abs/1912.08278)
-       - Transfer learning in hybrid classical-quantum neural networks
-       - Transfer learning for quantum neural networks
+    - 20200106 arXiv [Homogeneous Online Transfer Learning with Online Distribution Discrepancy Minimization](https://arxiv.org/abs/1912.13226)
+
+    - 20200106 arXiv [How to Pick the Best Source Data? Measuring Transferability for Heterogeneous Domains](https://arxiv.org/abs/1912.13366)
+
+    - 20200106 venue [Modeling Teacher-Student Techniques in Deep Neural Networks for Knowledge Distillation](https://arxiv.org/abs/1912.13179)
+
+    - 20200106 AAAI-20 [Diversity Transfer Network for Few-Shot Learning](https://arxiv.org/abs/1912.13182)
+
+    - 20200106 arXiv [Side-Tuning: Network Adaptation via Additive Side Networks](https://arxiv.org/abs/1912.13503)
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
