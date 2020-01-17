@@ -45,23 +45,15 @@ author = {Wang, Jindong and others}
 
 - **Weekly latest papers**
 
-	- 20200106 arXiv [Progressive transfer learning for low frequency data prediction in full waveform inversion](https://arxiv.org/abs/1912.09944)
-
-    - 20200106 arXiv [Transfer Learning with Edge Attention for Prostate MRI Segmentation](https://arxiv.org/abs/1912.09847)
-
-    - 20200106 arXiv [Large Scale Learning of General Visual Representations for Transfer](https://arxiv.org/abs/1912.11370)
-
-    - 20200106 AAAI-20 [Dual Adversarial Domain Adaptation](https://arxiv.org/abs/2001.00153)
-
-    - 20200106 arXiv [Homogeneous Online Transfer Learning with Online Distribution Discrepancy Minimization](https://arxiv.org/abs/1912.13226)
-
-    - 20200106 arXiv [How to Pick the Best Source Data? Measuring Transferability for Heterogeneous Domains](https://arxiv.org/abs/1912.13366)
-
-    - 20200106 venue [Modeling Teacher-Student Techniques in Deep Neural Networks for Knowledge Distillation](https://arxiv.org/abs/1912.13179)
-
-    - 20200106 AAAI-20 [Diversity Transfer Network for Few-Shot Learning](https://arxiv.org/abs/1912.13182)
-
-    - 20200106 arXiv [Side-Tuning: Network Adaptation via Additive Side Networks](https://arxiv.org/abs/1912.13503)
+	- [Informative Sample Mining Network for Multi-Domain Image-to-Image Translation](https://arxiv.org/abs/2001.01173)
+    - [Learning From Multiple Experts: Self-paced Knowledge Distillation for Long-tailed Classification](https://arxiv.org/abs/2001.01536)
+    - [Task-Assisted Domain Adaptation with Anchor Tasks](https://arxiv.org/abs/1908.06079)
+    - [Learning to Multi-Task Learn for Better Neural Machine Translation](https://arxiv.org/abs/2001.03294)
+    - [CrDoCo: Pixel-level Domain Transfer with Cross-Domain Consistency](https://arxiv.org/abs/2001.03182)
+    - [Backdoor Attacks against Transfer Learning with Pre-trained Deep Learning Models](https://arxiv.org/abs/2001.03274)
+    - [Rethinking Curriculum Learning with Incremental Labels and Adaptive Compensation](https://arxiv.org/abs/2001.04529)
+    - [Adversarial Disentanglement with Grouped Observations](https://arxiv.org/abs/2001.04761)
+    - [Domain Adaption for Knowledge Tracing](https://arxiv.org/abs/2001.04841)
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
