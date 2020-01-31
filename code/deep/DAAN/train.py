@@ -33,7 +33,7 @@ parser.add_argument('--l2_decay', type=float, default=5e-4,
                     help='the L2  weight decay')
 parser.add_argument('--save_path', type=str, default="./tmp/origin_",
                     help='the path to save the model')
-parser.add_argument('--root_path', type=str, default="/home/yuchaohui/ICCV19/deeptransfer/data/OfficeHome/",
+parser.add_argument('--root_path', type=str, default="/home/xxx/data/OfficeHome/",
                     help='the path to load the data')
 parser.add_argument('--source_dir', type=str, default="Clipart",
                     help='the name of the source dir')
@@ -147,7 +147,7 @@ def train(epoch, model, source_loader, target_loader):
             gamma = 2 / (1 + math.exp(-10 * (epoch) / args.epochs)) - 1
         if args.gamma == 2:
             gamma = epoch /args.epochs
-        loss = soft_loss - join_loss #-
+        loss = soft_loss + join_loss
         loss.backward()
         optimizer.step()
 
