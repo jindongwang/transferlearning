@@ -45,7 +45,12 @@ author = {Wang, Jindong and others}
 
 - **Weekly latest papers**
 
-	- IEEE TCSVT [Rethinking Triplet Loss for Domain Adaptation](https://ieeexplore.ieee.org/abstract/document/8964455)
+	- 20200210 WACVW-20 [Impact of ImageNet Model Selection on Domain Adaptation](https://arxiv.org/abs/2002.02559)
+    	- A good experiment paper to indicate the power of representations
+    	- 一篇很好的实验paper，揭示了深度特征+传统方法的有效性
+  	- 20200210 AAAI-20 [Bi-Directional Generation for Unsupervised Domain Adaptation](https://arxiv.org/abs/2002.04869)
+    	- Bidirectional GANs for domain adaptation
+    	- 双向的GAN用来做DA
     
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
