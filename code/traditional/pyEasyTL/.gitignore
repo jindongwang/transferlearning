@@ -1,0 +1,4 @@
+data/
+*.pyc
+*.mps
+*.sol
