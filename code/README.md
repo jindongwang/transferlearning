@@ -209,7 +209,7 @@ Testing **dataset** can be found [here](https://github.com/jindongwang/transferl
 - **DAAN** (Dynamic Adversarial Adaptation Network, ICDM 2019) [80]
     - [Pytorch](https://github.com/jindongwang/transferlearning/tree/master/code/deep/DAAN)
 
--- **DAEL** (Domain Adaptive Ensemble Learning, ArXiv 2020) [81]
+- **DAEL** (Domain Adaptive Ensemble Learning, ArXiv 2020) [81]
     - [Pytorch](https://github.com/KaiyangZhou/Dassl.pytorch)
 
 ## Applications
