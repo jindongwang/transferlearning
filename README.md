@@ -259,6 +259,7 @@ Call for papers about transfer learning:
 Related projects:
 
 - Salad: [A semi-supervised domain adaptation library](https://domainadaptation.org)
+- Dassl: [A PyTorch toolbox for domain adaptation and semi-supervised learning](https://github.com/KaiyangZhou/Dassl.pytorch)
 
 
 - - -
