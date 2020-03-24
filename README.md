@@ -51,6 +51,10 @@ author = {Wang, Jindong and others}
   	- 20200324 IEEE TNNLS [Few-Shot Learning with Geometric Constraints](https://arxiv.org/abs/2003.09151)
       	- Few-shot learning with geometric constraints
       	- 用了一些几何约束进行小样本学习
+  	- 20200324 [Explainable Deep Classification Models for Domain Generalization](https://arxiv.org/abs/2003.06498)
+    	- Explainable deep classification for DG
+  	- 20200324 [Adapted tree boosting for Transfer Learning](https://arxiv.org/abs/2002.11982)
+      	- Adapt the boosting methods for transfer learning
     
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
