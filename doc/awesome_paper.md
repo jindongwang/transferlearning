@@ -246,6 +246,10 @@ Including domain adaptation and partial domain adaptation.
 
 ### 1.2.1. Traditional Methods (传统迁移方法)
 
+- 20200324 [Domain Adaptation by Class Centroid Matching and Local Manifold Self-Learning](https://arxiv.org/abs/2003.09391)
+  	- Domain adaptation by class centroid matching and local manifold self-learning
+  	- 集合了聚类、中心匹配，及自学习的DA
+
 - 20191204 arXiv [Transferability versus Discriminability: Joint Probability Distribution Adaptation (JPDA)](https://arxiv.org/abs/1912.00320)
      - Joint adaptation with different weights
      - 不同权重的联合概率适配
@@ -688,6 +692,10 @@ Including domain adaptation and partial domain adaptation.
 - - -
 
 ## 1.7. Zero-shot / Few-shot Learning
+
+- 20200324 IEEE TNNLS [Few-Shot Learning with Geometric Constraints](https://arxiv.org/abs/2003.09151)
+  	- Few-shot learning with geometric constraints
+  	- 用了一些几何约束进行小样本学习
 
 - 20190813 arXiv [Domain-Specific Embedding Network for Zero-Shot Recognition](https://arxiv.org/abs/1908.04174)
   	- Domain-specific embedding network for zero-shot learning

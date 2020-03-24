@@ -45,12 +45,12 @@ author = {Wang, Jindong and others}
 
 - **Weekly latest papers**
 
-	- 20200210 WACVW-20 [Impact of ImageNet Model Selection on Domain Adaptation](https://arxiv.org/abs/2002.02559)
-    	- A good experiment paper to indicate the power of representations
-    	- 一篇很好的实验paper，揭示了深度特征+传统方法的有效性
-  	- 20200210 AAAI-20 [Bi-Directional Generation for Unsupervised Domain Adaptation](https://arxiv.org/abs/2002.04869)
-    	- Bidirectional GANs for domain adaptation
-    	- 双向的GAN用来做DA
+	- 20200324 [Domain Adaptation by Class Centroid Matching and Local Manifold Self-Learning](https://arxiv.org/abs/2003.09391)
+    	- Domain adaptation by class centroid matching and local manifold self-learning
+    	- 集合了聚类、中心匹配，及自学习的DA
+  	- 20200324 IEEE TNNLS [Few-Shot Learning with Geometric Constraints](https://arxiv.org/abs/2003.09151)
+      	- Few-shot learning with geometric constraints
+      	- 用了一些几何约束进行小样本学习
     
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
