@@ -45,16 +45,18 @@ author = {Wang, Jindong and others}
 
 - **Weekly latest papers**
 
-	- 20200324 [Domain Adaptation by Class Centroid Matching and Local Manifold Self-Learning](https://arxiv.org/abs/2003.09391)
-    	- Domain adaptation by class centroid matching and local manifold self-learning
-    	- 集合了聚类、中心匹配，及自学习的DA
-  	- 20200324 IEEE TNNLS [Few-Shot Learning with Geometric Constraints](https://arxiv.org/abs/2003.09151)
-      	- Few-shot learning with geometric constraints
-      	- 用了一些几何约束进行小样本学习
-  	- 20200324 [Explainable Deep Classification Models for Domain Generalization](https://arxiv.org/abs/2003.06498)
-    	- Explainable deep classification for DG
-  	- 20200324 [Adapted tree boosting for Transfer Learning](https://arxiv.org/abs/2002.11982)
-      	- Adapt the boosting methods for transfer learning
+	- 20200405 CVPR-20 [Towards Discriminability and Diversity: Batch Nuclear-norm Maximization under Label Insufficient Situations](https://arxiv.org/abs/2003.12237)
+    	- A simple regularization-based adaptation method
+    	- 一个非常简单的基于能量最小化的adaptation方法
+  	- 20200405 ICCV-19 [Variational few-shot learning](http://openaccess.thecvf.com/content_ICCV_2019/html/Zhang_Variational_Few-Shot_Learning_ICCV_2019_paper.html)
+    	- Variational few-shot learning
+    	- 变分小样本学习
+  	- 20200405 ICLR-20 [A baseline for few-shot image classification](https://openreview.net/forum?id=rylXBkrYDS&noteId=rylXBkrYDS)
+    	- A simple but powerful baseline for few-shot image classification
+    	- 一个简单但是很有效的few-shot baseline
+  	- 20200405 arXiv [Joint Deep Cross-Domain Transfer Learning for Emotion Recognition](https://arxiv.org/abs/2003.11136)
+    	- Transfer learning for emotion recognition
+    	- 迁移学习用于情绪识别
     
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)

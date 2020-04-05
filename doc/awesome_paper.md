@@ -372,6 +372,10 @@ Including domain adaptation and partial domain adaptation.
 
 ### 1.2.2. Deep / Adversarial Methods (深度/对抗迁移方法)
 
+- 20200405 CVPR-20 [Towards Discriminability and Diversity: Batch Nuclear-norm Maximization under Label Insufficient Situations](https://arxiv.org/abs/2003.12237)
+  	- A simple regularization-based adaptation method
+  	- 一个非常简单的基于能量最小化的adaptation方法
+
 - 20200210 AAAI-20 [Bi-Directional Generation for Unsupervised Domain Adaptation](https://arxiv.org/abs/2002.04869)
   	- Bidirectional GANs for domain adaptation
   	- 双向的GAN用来做DA
@@ -692,6 +696,14 @@ Including domain adaptation and partial domain adaptation.
 - - -
 
 ## 1.7. Zero-shot / Few-shot Learning
+
+- 20200405 ICCV-19 [Variational few-shot learning](http://openaccess.thecvf.com/content_ICCV_2019/html/Zhang_Variational_Few-Shot_Learning_ICCV_2019_paper.html)
+	- Variational few-shot learning
+	- 变分小样本学习
+
+- 20200405 ICLR-20 [A baseline for few-shot image classification](https://openreview.net/forum?id=rylXBkrYDS&noteId=rylXBkrYDS)
+	- A simple but powerful baseline for few-shot image classification
+	- 一个简单但是很有效的few-shot baseline
 
 - 20200324 IEEE TNNLS [Few-Shot Learning with Geometric Constraints](https://arxiv.org/abs/2003.09151)
   	- Few-shot learning with geometric constraints

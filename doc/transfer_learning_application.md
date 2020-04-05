@@ -2,6 +2,10 @@
 
 迁移学习的应用
 
+- 20200405 arXiv [Joint Deep Cross-Domain Transfer Learning for Emotion Recognition](https://arxiv.org/abs/2003.11136)
+  	- Transfer learning for emotion recognition
+  	- 迁移学习用于情绪识别
+
 - 20191222 NIPS-19 workshop [Sim-to-Real Domain Adaptation For High Energy Physics](https://arxiv.org/abs/1912.08001)
      - Transfer learning for high energy physics
      - 迁移学习用于高能物理
