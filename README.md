@@ -45,19 +45,18 @@ author = {Wang, Jindong and others}
 
 - **Weekly latest papers**
 
-	- 20200405 CVPR-20 [Towards Discriminability and Diversity: Batch Nuclear-norm Maximization under Label Insufficient Situations](https://arxiv.org/abs/2003.12237)
-    	- A simple regularization-based adaptation method
-    	- 一个非常简单的基于能量最小化的adaptation方法
-  	- 20200405 ICCV-19 [Variational few-shot learning](http://openaccess.thecvf.com/content_ICCV_2019/html/Zhang_Variational_Few-Shot_Learning_ICCV_2019_paper.html)
-    	- Variational few-shot learning
-    	- 变分小样本学习
-  	- 20200405 ICLR-20 [A baseline for few-shot image classification](https://openreview.net/forum?id=rylXBkrYDS&noteId=rylXBkrYDS)
-    	- A simple but powerful baseline for few-shot image classification
-    	- 一个简单但是很有效的few-shot baseline
-  	- 20200405 arXiv [Joint Deep Cross-Domain Transfer Learning for Emotion Recognition](https://arxiv.org/abs/2003.11136)
-    	- Transfer learning for emotion recognition
-    	- 迁移学习用于情绪识别
-    
+	- 20200414 ICLR-20 [Gradient as features for deep representation learning](https://openreview.net/pdf?id=BkeoaeHKDS)
+    	- Gradients as features for deep representation learning on pretrained models
+    	- 在预训练模型基础上，将梯度作为额外的feature，提高学习表现
+  	- 20200414 ICLR-20 [Domain adaptive multi-branch networks](https://openreview.net/forum?id=rJxycxHKDS)
+    	- A domain adaptation framework using a multi-branch cascade structure
+    	- 一个用了多层级联、多分支结构的DA框架
+  	- 20200412 ICML-19 [Towards understanding knowledge distillation](http://proceedings.mlr.press/v97/phuong19a.html)
+    	- Some theoretical and empirical understanding to knowledge distllation
+    	- 对知识蒸馏的一些理论和实验的分析
+    - 20200408 ICLR-20 [A Baseline for Few-Shot Image Classification](https://openreview.net/forum?id=rylXBkrYDS)
+        - A simple finetune+entropy minimization approach with strong baseline
+        - 一个微调+最小化熵的小样本学习方法，结果很强
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 

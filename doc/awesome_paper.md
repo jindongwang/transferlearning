@@ -65,6 +65,10 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 ### 1.1.2. Others (其他)
 
+- 20200412 ICML-19 [Towards understanding knowledge distillation](http://proceedings.mlr.press/v97/phuong19a.html)
+  	- Some theoretical and empirical understanding to knowledge distllation
+  	- 对知识蒸馏的一些理论和实验的分析
+
 - 20200210 WACVW-20 [Impact of ImageNet Model Selection on Domain Adaptation](https://arxiv.org/abs/2002.02559)
   	- A good experiment paper to indicate the power of representations
   	- 一篇很好的实验paper，揭示了深度特征+传统方法的有效性
@@ -371,6 +375,14 @@ Including domain adaptation and partial domain adaptation.
 	- 发表在IEEE Trans. Knowledge and Data Engineering期刊上
 
 ### 1.2.2. Deep / Adversarial Methods (深度/对抗迁移方法)
+
+- 20200414 ICLR-20 [Gradient as features for deep representation learning](https://openreview.net/pdf?id=BkeoaeHKDS)
+  	- Gradients as features for deep representation learning on pretrained models
+  	- 在预训练模型基础上，将梯度作为额外的feature，提高学习表现
+
+- 20200414 ICLR-20 [Domain adaptive multi-branch networks](https://openreview.net/forum?id=rJxycxHKDS)
+  	- A domain adaptation framework using a multi-branch cascade structure
+  	- 一个用了多层级联、多分支结构的DA框架
 
 - 20200405 CVPR-20 [Towards Discriminability and Diversity: Batch Nuclear-norm Maximization under Label Insufficient Situations](https://arxiv.org/abs/2003.12237)
   	- A simple regularization-based adaptation method
@@ -696,6 +708,10 @@ Including domain adaptation and partial domain adaptation.
 - - -
 
 ## 1.7. Zero-shot / Few-shot Learning
+
+- 20200408 ICLR-20 [A Baseline for Few-Shot Image Classification](https://openreview.net/forum?id=rylXBkrYDS)
+      - A simple finetune+entropy minimization approach with strong baseline
+      - 一个微调+最小化熵的小样本学习方法，结果很强
 
 - 20200405 ICCV-19 [Variational few-shot learning](http://openaccess.thecvf.com/content_ICCV_2019/html/Zhang_Variational_Few-Shot_Learning_ICCV_2019_paper.html)
 	- Variational few-shot learning
