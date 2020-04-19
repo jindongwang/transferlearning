@@ -45,18 +45,15 @@ author = {Wang, Jindong and others}
 
 - **Weekly latest papers**
 
-	- 20200414 ICLR-20 [Gradient as features for deep representation learning](https://openreview.net/pdf?id=BkeoaeHKDS)
-    	- Gradients as features for deep representation learning on pretrained models
-    	- 在预训练模型基础上，将梯度作为额外的feature，提高学习表现
-  	- 20200414 ICLR-20 [Domain adaptive multi-branch networks](https://openreview.net/forum?id=rJxycxHKDS)
-    	- A domain adaptation framework using a multi-branch cascade structure
-    	- 一个用了多层级联、多分支结构的DA框架
-  	- 20200412 ICML-19 [Towards understanding knowledge distillation](http://proceedings.mlr.press/v97/phuong19a.html)
-    	- Some theoretical and empirical understanding to knowledge distllation
-    	- 对知识蒸馏的一些理论和实验的分析
-    - 20200408 ICLR-20 [A Baseline for Few-Shot Image Classification](https://openreview.net/forum?id=rylXBkrYDS)
-        - A simple finetune+entropy minimization approach with strong baseline
-        - 一个微调+最小化熵的小样本学习方法，结果很强
+	- 20200419 CVPR-20 oral [Unsupervised Intra-domain Adaptation for Semantic Segmentation through Self-Supervision](https://arxiv.org/abs/2004.07703)
+    	- Unsupervised intra-domain adaptation for semantic segmentation
+    	- 自监督DA用于语义分割
+  	- 20200419 [Knowledge Distillation and Student-Teacher Learning for Visual Intelligence: A Review and New Outlooks](https://arxiv.org/abs/2004.05937)
+      	- A survey on knowledge distillation
+      	- 一个知识蒸馏的综述
+  	- 20200419 TKDE [Learning under Concept Drift: A Review](https://arxiv.org/abs/2004.05785)
+    	- A survey on learning under concept drift
+    	- 概念漂移情况的综述
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
