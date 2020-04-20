@@ -16,7 +16,19 @@ author = {Wang, Jindong and others}
 }  
 ```
 
-[toc]
+- [迁移学习 Transfer Learning](#%e8%bf%81%e7%a7%bb%e5%ad%a6%e4%b9%a0-transfer-learning)
+	- [0.Latest Publications (最新论文)](#0latest-publications-%e6%9c%80%e6%96%b0%e8%ae%ba%e6%96%87)
+	- [1.Introduction and Tutorials (简介与教程)](#1introduction-and-tutorials-%e7%ae%80%e4%bb%8b%e4%b8%8e%e6%95%99%e7%a8%8b)
+	- [2.Transfer Learning Areas and Papers (研究领域与相关论文)](#2transfer-learning-areas-and-papers-%e7%a0%94%e7%a9%b6%e9%a2%86%e5%9f%9f%e4%b8%8e%e7%9b%b8%e5%85%b3%e8%ae%ba%e6%96%87)
+	- [3.Theory and Survey (理论与综述)](#3theory-and-survey-%e7%90%86%e8%ae%ba%e4%b8%8e%e7%bb%bc%e8%bf%b0)
+	- [4.Code (代码)](#4code-%e4%bb%a3%e7%a0%81)
+	- [5.Transfer Learning Scholars (著名学者)](#5transfer-learning-scholars-%e8%91%97%e5%90%8d%e5%ad%a6%e8%80%85)
+	- [6.Transfer Learning Thesis (硕博士论文)](#6transfer-learning-thesis-%e7%a1%95%e5%8d%9a%e5%a3%ab%e8%ae%ba%e6%96%87)
+	- [7.Datasets and Benchmarks (数据集与评测结果)](#7datasets-and-benchmarks-%e6%95%b0%e6%8d%ae%e9%9b%86%e4%b8%8e%e8%af%84%e6%b5%8b%e7%bb%93%e6%9e%9c)
+	- [8.Transfer Learning Challenges (迁移学习比赛)](#8transfer-learning-challenges-%e8%bf%81%e7%a7%bb%e5%ad%a6%e4%b9%a0%e6%af%94%e8%b5%9b)
+	- [Applications (迁移学习应用)](#applications-%e8%bf%81%e7%a7%bb%e5%ad%a6%e4%b9%a0%e5%ba%94%e7%94%a8)
+	- [Other Resources (其他资源)](#other-resources-%e5%85%b6%e4%bb%96%e8%b5%84%e6%ba%90)
+	- [Contributing (欢迎参与贡献)](#contributing-%e6%ac%a2%e8%bf%8e%e5%8f%82%e4%b8%8e%e8%b4%a1%e7%8c%ae)
 
 
 > 关于机器学习和行为识别的资料，请参考：[行为识别](https://github.com/jindongwang/activityrecognition)｜[机器学习](https://github.com/jindongwang/MachineLearning)
