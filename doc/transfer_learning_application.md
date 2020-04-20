@@ -2,6 +2,17 @@
 
 迁移学习的应用
 
+- 20200420 ACL-20 [Geometry-aware Domain Adaptation for Unsupervised Alignment of Word Embeddings](https://arxiv.org/abs/2004.08243)
+  	- DA for unsupervised word embeddings alignment
+  	- 领域自适应用于word embedding对齐
+- 20200420 AAAI-20 [Generative Adversarial Networks for Video-to-Video Domain Adaptation](https://arxiv.org/abs/2004.08058)
+  	- Using GAN for video domain adaptation
+  	- GAN用于视频到视频的adaptation
+
+- 20200420 arXiv [Transfer Learning with Graph Neural Networks for Short-Term Highway Traffic Forecasting](https://arxiv.org/abs/2004.08038)
+  	- Transfer learning with GNN for highway traffic forecasting
+  	- 迁移学习+GNN用于交通流量预测
+
 - 20200405 arXiv [Joint Deep Cross-Domain Transfer Learning for Emotion Recognition](https://arxiv.org/abs/2003.11136)
   	- Transfer learning for emotion recognition
   	- 迁移学习用于情绪识别
