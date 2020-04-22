@@ -40,6 +40,10 @@ Testing **dataset** can be found [here](https://github.com/jindongwang/transferl
 	- OpenCV built-in function: `cv.CalcEMD2`
 	- Google's implementation: [Tensorflow](https://github.com/google/wasserstein-dist)
 
+## Useful tools 常用工具
+
+- Feature visualization using t-SNE (用t-SNE进行特征可视化)：[Python](https://github.com/jindongwang/transferlearning/tree/master/code/utils/feature_vis.py)
+
 ## Traditional transfer learning methods  非深度迁移
 
 - **SVM** (baseline)
