@@ -46,18 +46,9 @@ author = {Wang, Jindong and others}
 
 - **Weekly latest papers**
 
-	- 20200420 ACL-20 [Geometry-aware Domain Adaptation for Unsupervised Alignment of Word Embeddings](https://arxiv.org/abs/2004.08243)
-    	- DA for unsupervised word embeddings alignment
-    	- 领域自适应用于word embedding对齐
-  	- 20200420 AAAI-20 [Generative Adversarial Networks for Video-to-Video Domain Adaptation](https://arxiv.org/abs/2004.08058)
-    	- Using GAN for video domain adaptation
-    	- GAN用于视频到视频的adaptation
-  	- 20200420 arXiv [One-vs-Rest Network-based Deep Probability Model for Open Set Recognition](https://arxiv.org/abs/2004.08067)
-    	- One-vs-rest deep model for open set recognition
-    	- 用于开放集的识别的深度网络
-  	- 20200420 arXiv [Transfer Learning with Graph Neural Networks for Short-Term Highway Traffic Forecasting](https://arxiv.org/abs/2004.08038)
-    	- Transfer learning with GNN for highway traffic forecasting
-    	- 迁移学习+GNN用于交通流量预测
+	- 20200427 [TriGAN: Image-to-Image Translation for Multi-Source Domain Adaptation](https://arxiv.org/abs/2004.08769)
+    	- A cycle-gan style multi-source DA
+    	- 类似于cyclegan的多源领域适应
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
@@ -130,25 +121,11 @@ Related articles by research areas:
 
 Here are some articles on transfer learning theory and survey.
 
-- 迁移学习领域最具代表性的综述是[A survey on transfer learning](http://ieeexplore.ieee.org/abstract/document/5288526/)，发表于2010年，对迁移学习进行了比较权威的定义。 -- The most influential survey on transfer learning.
+**Survey (综述文章)：**
 
-- 早期迁移学习的理论分析文章 - Early transfer learning theory papers：
-  - NIPS-06 [Analysis of Representations for Domain Adaptation](https://dl.acm.org/citation.cfm?id=2976474)
-  - ML-10 [A Theory of Learning from Different Domains](https://link.springer.com/article/10.1007/s10994-009-5152-4)
-  - NIPS-08 [Learning Bounds for Domain Adaptation](http://papers.nips.cc/paper/3212-learning-bounds-for-domain-adaptation)
-  - COLT-09 [Domain adaptation: Learning bounds and algorithms](https://arxiv.org/abs/0902.3430)
+- The most influential survey on transfer learning （最权威和经典的综述）: [A survey on transfer learning](http://ieeexplore.ieee.org/abstract/document/5288526/).
 
-- 近期值得注意的理论分析文章 - Latest theory papers:
-  - ICML-19 [Bridging Theory and Algorithm for Domain Adaptation](http://proceedings.mlr.press/v97/zhang19i.html)
-- 最近几年在ICML、NIPS、COLT、ALT上出现了一些理论分析的文章，以domain adaptation为关键字可以搜索到。绝大多数都是对上述的扩展和补充。
-
-- 许多研究者在迁移学习的研究中会应用MMD(Maximum Mean Discrepancy)这个最大均值差异来衡量不同domain之间的距离。MMD的理论文章是：
-  - MMD的提出：[A Hilbert Space Embedding for Distributions](https://link.springer.com/chapter/10.1007/978-3-540-75225-7_5) 以及 [A Kernel Two-Sample Test](http://www.jmlr.org/papers/v13/gretton12a.html)
-  - 多核MMD(MK-MMD)：[Optimal kernel choice for large-scale two-sample tests](http://papers.nips.cc/paper/4727-optimal-kernel-choice-for-large-scale-two-sample-tests)
-  - MMD及多核MMD代码：[Matlab](https://github.com/lopezpaz/classifier_tests/tree/master/code/unit_test_mmd) | [Python](https://github.com/jindongwang/transferlearning/tree/master/code/basic/mmd.py)
-- 理论研究方面，重点关注Alex Smola、Ben-David、Bernhard Schölkopf、Arthur Gretton等人的研究。
-
-- 较新的综述 Latest survey：
+- Latest survey - 较新的综述：
 
     - 用transfer learning进行sentiment classification的综述：[A Survey of Sentiment Analysis Based on Transfer Learning](https://ieeexplore.ieee.org/abstract/document/8746210) 
 	- 2019 一篇新survey：[Transfer Adaptation Learning: A Decade Survey](https://arxiv.org/abs/1903.04687)
@@ -162,11 +139,30 @@ Here are some articles on transfer learning theory and survey.
 	- 2016 [A survey of transfer learning](https://pan.baidu.com/s/1gfgXLXT)。其中交代了一些比较经典的如同构、异构等学习方法代表性文章。
 	- 2015 中文综述：[迁移学习研究进展](https://pan.baidu.com/s/1bpautob)
 
-- 迁移学习的应用
+- Survey on applications - 应用导向的综述：
 	- 视觉domain adaptation综述：[Visual Domain Adaptation: A Survey of Recent Advances](https://pan.baidu.com/s/1o8BR7Vc)
 	- 迁移学习应用于行为识别综述：[Transfer Learning for Activity Recognition: A Survey](https://pan.baidu.com/s/1kVABOYr)
 	- 迁移学习与增强学习：[Transfer Learning for Reinforcement Learning Domains: A Survey](https://pan.baidu.com/s/1slfr0w1)
 	- 多个源域进行迁移的综述：[A Survey of Multi-source Domain Adaptation](https://pan.baidu.com/s/1eSGREF4)。
+
+**Theory （理论文章）:**
+
+- Early transfer learning theory papers - 早期迁移学习的理论分析文章：
+  - NIPS-06 [Analysis of Representations for Domain Adaptation](https://dl.acm.org/citation.cfm?id=2976474)
+  - ML-10 [A Theory of Learning from Different Domains](https://link.springer.com/article/10.1007/s10994-009-5152-4)
+  - NIPS-08 [Learning Bounds for Domain Adaptation](http://papers.nips.cc/paper/3212-learning-bounds-for-domain-adaptation)
+  - COLT-09 [Domain adaptation: Learning bounds and algorithms](https://arxiv.org/abs/0902.3430)
+
+- Latest theory papers - 近期值得注意的理论分析文章：
+  - ICML-19 [Bridging Theory and Algorithm for Domain Adaptation](http://proceedings.mlr.press/v97/zhang19i.html)
+  - 最近几年在ICML、NIPS、COLT、ALT上出现了一些理论分析的文章，以domain adaptation为关键字可以搜索到。
+
+- 理论研究方面，重点关注Alex Smola、Ben-David、Bernhard Schölkopf、Arthur Gretton等人的研究。
+
+- MMD (Maximum mean discrepancy):
+  - MMD的提出：[A Hilbert Space Embedding for Distributions](https://link.springer.com/chapter/10.1007/978-3-540-75225-7_5) 以及 [A Kernel Two-Sample Test](http://www.jmlr.org/papers/v13/gretton12a.html)
+  - 多核MMD(MK-MMD)：[Optimal kernel choice for large-scale two-sample tests](http://papers.nips.cc/paper/4727-optimal-kernel-choice-for-large-scale-two-sample-tests)
+  - MMD及多核MMD代码：[Matlab](https://github.com/lopezpaz/classifier_tests/tree/master/code/unit_test_mmd) | [Python](https://github.com/jindongwang/transferlearning/tree/master/code/basic/mmd.py)
 
 _ _ _
 
@@ -250,15 +246,13 @@ Here are some popular thesis on transfer learning.
 
 ## 7.Datasets and Benchmarks (数据集与评测结果)
 
-Please see [HERE](https://github.com/jindongwang/transferlearning/blob/master/data) for the popular transfer learning **datasets and certain benchmark** results.
+Please see [HERE](https://github.com/jindongwang/transferlearning/blob/master/data) for the popular transfer learning **datasets and benchmark** results.
 
 [这里](https://github.com/jindongwang/transferlearning/blob/master/data)整理了常用的公开数据集和一些已发表的文章在这些数据集上的实验结果。
 
 - - -
 
 ## 8.Transfer Learning Challenges (迁移学习比赛)
-
-一些关于迁移学习的国际比赛。
 
 - [Visual Domain Adaptation Challenge (VisDA)](http://ai.bu.edu/visda-2018/)
 
@@ -274,15 +268,12 @@ See [HERE](https://github.com/jindongwang/transferlearning/blob/master/doc/trans
   
 ## Other Resources (其他资源)
 
-Call for papers about transfer learning:
+- Call for papers:
+  - DLKT: [Deep Learning for Knowledge Transfer @ ICDM 2020](http://icdm2020.bigke.org/)
 
-- [Transfer Learning for Multimedia Applications(A Special Issue on Multimedia Tools and Applications (MTAP))](https://lijin118.github.io/mtap/)
-
-Related projects:
-
-- Salad: [A semi-supervised domain adaptation library](https://domainadaptation.org)
-- Dassl: [A PyTorch toolbox for domain adaptation and semi-supervised learning](https://github.com/KaiyangZhou/Dassl.pytorch)
-
+- Related projects:
+  - Salad: [A semi-supervised domain adaptation library](https://domainadaptation.org)
+  - Dassl: [A PyTorch toolbox for domain adaptation and semi-supervised learning](https://github.com/KaiyangZhou/Dassl.pytorch)
 
 - - -
 

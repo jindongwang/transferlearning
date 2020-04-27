@@ -618,6 +618,10 @@ Including domain adaptation and partial domain adaptation.
 
 ## 1.4. Multi-source Transfer Learning (多源迁移学习)
 
+- 20200427 [TriGAN: Image-to-Image Translation for Multi-Source Domain Adaptation](https://arxiv.org/abs/2004.08769)
+  	- A cycle-gan style multi-source DA
+  	- 类似于cyclegan的多源领域适应
+
 - 20190902 AAAI-19 [Aligning Domain-Specific Distribution and Classifier for Cross-Domain Classification from Multiple Sources](https://www.aaai.org/ojs/index.php/AAAI/article/download/4551/4429)
   	- Multi-source domain adaptation using both features and classifier adaptation
   	- 利用特征和分类器同时适配进行多源迁移
