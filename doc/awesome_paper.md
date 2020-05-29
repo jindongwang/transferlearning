@@ -373,6 +373,10 @@ Including domain adaptation and partial domain adaptation.
 
 ### 1.2.2. Deep / Adversarial Methods (深度/对抗迁移方法)
 
+- 20200529 TNNLS [Deep Subdomain Adaptation Network for Image Classification](https://github.com/easezyc/deep-transfer-learning/tree/master/UDA/pytorch1.0/DSAN)
+  	- A fine-grained adaptation method with LMMD, which is very simple and effective
+  	- 一种细粒度自适应的方法，使用LMMD进行对齐，该方法非常简单有效
+
 - 20200420 arXiv [One-vs-Rest Network-based Deep Probability Model for Open Set Recognition](https://arxiv.org/abs/2004.08067)
   	- One-vs-rest deep model for open set recognition
   	- 用于开放集的识别的深度网络

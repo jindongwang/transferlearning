@@ -216,6 +216,9 @@ Testing **dataset** can be found [here](https://github.com/jindongwang/transferl
 - **DAEL** (Domain Adaptive Ensemble Learning, ArXiv 2020) [81]
     - [Pytorch](https://github.com/KaiyangZhou/Dassl.pytorch)
 
+- **DSAN** (Deep Subdomain Adaptation Network for Image Classification, DSAN 2020) [82]
+    - [Pytorch](https://github.com/jindongwang/transferlearning/tree/master/code/deep/DSAN)
+
 ## Applications
 
 - Learning to select data for transfer learning with Bayesian Optimization (EMNLP-17) [69]

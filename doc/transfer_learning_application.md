@@ -2,6 +2,9 @@
 
 迁移学习的应用
 
+- 20200529 WWW-20 [Modeling Users’ Behavior Sequences with Hierarchical Explainable Network for Cross-domain Fraud Detection](https://dl.acm.org/doi/abs/10.1145/3366423.3380172)
+  	- Transfer learning for cross-domain fraud detection
+  	- 迁移学习用于跨领域欺诈检测
 - 20200420 ACL-20 [Geometry-aware Domain Adaptation for Unsupervised Alignment of Word Embeddings](https://arxiv.org/abs/2004.08243)
   	- DA for unsupervised word embeddings alignment
   	- 领域自适应用于word embedding对齐
