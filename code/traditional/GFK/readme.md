@@ -8,6 +8,10 @@ Just use `GFK.m`. Note that `getGFKDim.m` is the implementation of *subspace dis
 
 ## Python version
 
+**Note:** We may not be able to use `bob` any more. Therefore, the code of GFK in python is also not available since to achieve the same results in Matlab, we need to use `bob` library.
+
+Therefore, I can do nothing about it except suggesting that you use the Matlab version instead. If you still want to use Python code, then you can try to call the Matlab code in your Python script by following some tutorials online.
+
 See the `GFK.py` file.
 
 Requirements:

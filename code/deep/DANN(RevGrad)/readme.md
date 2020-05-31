@@ -11,36 +11,26 @@ This is a Pytorch implementation of Unsupervised domain adaptation by backpropag
 
 ### Dataset
 
-First, you need download two datasets: source dataset mnist,
+First, you need download two datasets: source dataset mnist. To organize the datasets, create a new folder: `mkdir dataset`.
+
+MNIST dataset can be automatically downloaded by Pytorch.
+
+MNIST_M dataset can be obtained from [pan.baidu.com](https://pan.baidu.com/s/1eShdX0u) or [Google Drive](https://drive.google.com/open?id=0B_tExHiYS-0veklUZHFYT19KYjg). The downloaded file will be `mnist_m.tar.gz`.
+
+After that, extract the file into the `dataset` folder:
 
 ```
 cd dataset
-mkdir mnist
-cd mnist
-wget http://yann.lecun.com/exdb/mnist/train-images-idx3-ubyte.gz
-wget http://yann.lecun.com/exdb/mnist/train-labels-idx1-ubyte.gz
-wget http://yann.lecun.com/exdb/mnist/t10k-images-idx3-ubyte.gz
-wget http://yann.lecun.com/exdb/mnist/t10k-labels-idx1-ubyte.gz
-```
-
-and target dataset mnist_m from [pan.baidu.com](https://pan.baidu.com/s/1eShdX0u) or [Google Drive](https://drive.google.com/open?id=0B_tExHiYS-0veklUZHFYT19KYjg)
-
-```
-cd dataset
-mkdir mnist_m
-cd mnist_m
 tar -zvxf mnist_m.tar.gz
 ```
 
-### Training and testing
+### Run
 
-Then, run `main.py`
+Then, `python main.py`.
 
 ## Results
 
-On MNIST - MNIST_M, I run 100 epochs and get the following results, which is extremely high compared to the paper:
-
-![](https://s1.ax1x.com/2018/11/19/FpiIAJ.png)
+On MNIST - MNIST_M, I run 100 epochs and the results is around `55%`, which is clearly lower than that reported in the original paper. Maybe more tuning can be of help. Anyway, this is just for demo.
 
 **Reference**
 

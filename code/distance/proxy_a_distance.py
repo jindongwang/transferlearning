@@ -1,3 +1,6 @@
+# Compute A-distance using numpy and sklearn
+# Reference: Analysis of representations in domain adaptation, NIPS-07.
+
 import numpy as np
 from sklearn import svm
 

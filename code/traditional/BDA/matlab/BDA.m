@@ -62,7 +62,7 @@ function [acc,acc_ite,A] = BDA(X_src,Y_src,X_tar,Y_tar,options)
     %% Centering matrix H
 	H = eye(n) - 1/n * ones(n,n);
 	%%% M0
-	M = e * e' * C;  %multiply C for better normalization
+	M0 = e * e' * C;  %multiply C for better normalization
 
     acc_ite = [];
 	Y_tar_pseudo = [];
@@ -92,7 +92,7 @@ function [acc,acc_ite,A] = BDA(X_src,Y_src,X_tar,Y_tar,options)
                 N = N + e*e';
             end
         end
-        M = (1 - mu) * M + mu * N;
+        M = (1 - mu) * M0 + mu * N;
         M = M / norm(M,'fro');
         
         %% Calculation

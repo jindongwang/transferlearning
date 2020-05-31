@@ -47,13 +47,13 @@ Download Office+Caltech DeCAF dataset [[MEGA](https://mega.nz/#F!QDxBBC4J!LizxWb
 
 ### ImageCLEF
 
-[Download the ImageCLEF dataset](https://pan.baidu.com/s/1lx2u1SMlSamsHnAPWrAHWA)
+[Download the ImageCLEF dataset](https://pan.baidu.com/s/1lx2u1SMlSamsHnAPWrAHWA) | [MEGA](https://mega.nz/#!AKYhEYaY!mSwEK3_9SLVSqXXNzUxNWpQymlH10vcEhuC8fbOIAwk)
 
 [Download Image-CLEF ResNet-50 pretrained features](https://pan.baidu.com/s/16wBgDJI6drA0oYq537h4FQ) | [Download from MEGA](https://mega.nz/#F!QPJCzShS!b6qQUXWnCCGBMVs0m6MdQw)
 
 ### USPS+MNIST
 
-Download MNIST+USPS SURF dataset [[MEGA](https://mega.nz/#F!oHJ2UCoK!r62nRoZ0gH8NXIcgmyWReA)|[Baiduyun](https://pan.baidu.com/s/1c8mwdo)]
+Download MNIST+USPS SURF dataset [[MEGA](https://mega.nz/#F!oHJ2UCoK!r62nRoZ0gH8NXIcgmyWReA) | [Baiduyun](https://pan.baidu.com/s/1c8mwdo)]
 
 ### VisDA-17
 

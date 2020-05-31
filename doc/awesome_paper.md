@@ -4,32 +4,29 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 这里收录了迁移学习各个研究领域的最新文章。
 
-
 - [1. Awesome Transfer Learning Papers](#1-awesome-transfer-learning-papers)
-	- [1.1. General Transfer Learning (普通迁移学习)](#11-general-transfer-learning-普通迁移学习)
-		- [1.1.1. Theory (理论)](#111-theory-理论)
-		- [1.1.2. Others (其他)](#112-others-其他)
-	- [1.2. Domain Adaptation (领域自适应)](#12-domain-adaptation-领域自适应)
-		- [1.2.1. Traditional Methods (传统迁移方法)](#121-traditional-methods-传统迁移方法)
-		- [1.2.2. Deep / Adversarial Methods (深度/对抗迁移方法)](#122-deep--adversarial-methods-深度对抗迁移方法)
+	- [1.1. General Transfer Learning (普通迁移学习)](#11-general-transfer-learning-%e6%99%ae%e9%80%9a%e8%bf%81%e7%a7%bb%e5%ad%a6%e4%b9%a0)
+		- [1.1.1. Theory (理论)](#111-theory-%e7%90%86%e8%ae%ba)
+		- [1.1.2. Others (其他)](#112-others-%e5%85%b6%e4%bb%96)
+	- [1.2. Domain Adaptation (领域自适应)](#12-domain-adaptation-%e9%a2%86%e5%9f%9f%e8%87%aa%e9%80%82%e5%ba%94)
+		- [1.2.1. Traditional Methods (传统迁移方法)](#121-traditional-methods-%e4%bc%a0%e7%bb%9f%e8%bf%81%e7%a7%bb%e6%96%b9%e6%b3%95)
+		- [1.2.2. Deep / Adversarial Methods (深度/对抗迁移方法)](#122-deep--adversarial-methods-%e6%b7%b1%e5%ba%a6%e5%af%b9%e6%8a%97%e8%bf%81%e7%a7%bb%e6%96%b9%e6%b3%95)
 	- [1.3. Domain Generalization](#13-domain-generalization)
-	- [1.4. Multi-source Transfer Learning (多源迁移学习)](#14-multi-source-transfer-learning-多源迁移学习)
-	- [1.5. Heterogeneous Transfer Learning (异构迁移学习)](#15-heterogeneous-transfer-learning-异构迁移学习)
-	- [1.6. Online Transfer Learning (在线迁移学习)](#16-online-transfer-learning-在线迁移学习)
+	- [1.4. Multi-source Transfer Learning (多源迁移学习)](#14-multi-source-transfer-learning-%e5%a4%9a%e6%ba%90%e8%bf%81%e7%a7%bb%e5%ad%a6%e4%b9%a0)
+	- [1.5. Heterogeneous Transfer Learning (异构迁移学习)](#15-heterogeneous-transfer-learning-%e5%bc%82%e6%9e%84%e8%bf%81%e7%a7%bb%e5%ad%a6%e4%b9%a0)
+	- [1.6. Online Transfer Learning (在线迁移学习)](#16-online-transfer-learning-%e5%9c%a8%e7%ba%bf%e8%bf%81%e7%a7%bb%e5%ad%a6%e4%b9%a0)
 	- [1.7. Zero-shot / Few-shot Learning](#17-zero-shot--few-shot-learning)
-		- [1.7.1. Zero-shot Learning based on Data Synthesis (基于样本生成的零样本学习)](#171-zero-shot-learning-based-on-data-synthesis-基于样本生成的零样本学习)
-	- [1.8. Deep Transfer Learning (深度迁移学习)](#18-deep-transfer-learning-深度迁移学习)
-		- [1.8.1. Non-Adversarial Transfer Learning (非对抗深度迁移)](#181-non-adversarial-transfer-learning-非对抗深度迁移)
-		- [1.8.2. Deep Adversarial Transfer Learning (对抗迁移学习)](#182-deep-adversarial-transfer-learning-对抗迁移学习)
-	- [1.9. Multi-task Learning (多任务学习)](#19-multi-task-learning-多任务学习)
-	- [1.10. Transfer Reinforcement Learning (强化迁移学习)](#110-transfer-reinforcement-learning-强化迁移学习)
-	- [1.11. Transfer Metric Learning (迁移度量学习)](#111-transfer-metric-learning-迁移度量学习)
-	- [1.12. Transitive Transfer Learning (传递迁移学习)](#112-transitive-transfer-learning-传递迁移学习)
-	- [1.13. Lifelong Learning (终身迁移学习)](#113-lifelong-learning-终身迁移学习)
-	- [1.14. Negative Transfer (负迁移)](#114-negative-transfer-负迁移)
-	- [1.15. Transfer Learning Applications (应用)](#115-transfer-learning-applications-应用)
-
-- - -
+		- [1.7.1. Zero-shot Learning based on Data Synthesis (基于样本生成的零样本学习)](#171-zero-shot-learning-based-on-data-synthesis-%e5%9f%ba%e4%ba%8e%e6%a0%b7%e6%9c%ac%e7%94%9f%e6%88%90%e7%9a%84%e9%9b%b6%e6%a0%b7%e6%9c%ac%e5%ad%a6%e4%b9%a0)
+	- [1.8. Deep Transfer Learning (深度迁移学习)](#18-deep-transfer-learning-%e6%b7%b1%e5%ba%a6%e8%bf%81%e7%a7%bb%e5%ad%a6%e4%b9%a0)
+		- [1.8.1. Non-Adversarial Transfer Learning (非对抗深度迁移)](#181-non-adversarial-transfer-learning-%e9%9d%9e%e5%af%b9%e6%8a%97%e6%b7%b1%e5%ba%a6%e8%bf%81%e7%a7%bb)
+		- [1.8.2. Deep Adversarial Transfer Learning (对抗迁移学习)](#182-deep-adversarial-transfer-learning-%e5%af%b9%e6%8a%97%e8%bf%81%e7%a7%bb%e5%ad%a6%e4%b9%a0)
+	- [1.9. Multi-task Learning (多任务学习)](#19-multi-task-learning-%e5%a4%9a%e4%bb%bb%e5%8a%a1%e5%ad%a6%e4%b9%a0)
+	- [1.10. Transfer Reinforcement Learning (强化迁移学习)](#110-transfer-reinforcement-learning-%e5%bc%ba%e5%8c%96%e8%bf%81%e7%a7%bb%e5%ad%a6%e4%b9%a0)
+	- [1.11. Transfer Metric Learning (迁移度量学习)](#111-transfer-metric-learning-%e8%bf%81%e7%a7%bb%e5%ba%a6%e9%87%8f%e5%ad%a6%e4%b9%a0)
+	- [1.12. Transitive Transfer Learning (传递迁移学习)](#112-transitive-transfer-learning-%e4%bc%a0%e9%80%92%e8%bf%81%e7%a7%bb%e5%ad%a6%e4%b9%a0)
+	- [1.13. Lifelong Learning (终身迁移学习)](#113-lifelong-learning-%e7%bb%88%e8%ba%ab%e8%bf%81%e7%a7%bb%e5%ad%a6%e4%b9%a0)
+	- [1.14. Negative Transfer (负迁移)](#114-negative-transfer-%e8%b4%9f%e8%bf%81%e7%a7%bb)
+	- [1.15. Transfer Learning Applications (应用)](#115-transfer-learning-applications-%e5%ba%94%e7%94%a8)
 
 ## 1.1. General Transfer Learning (普通迁移学习)
 
@@ -64,6 +61,33 @@ Let's read some awesome transfer learning / domain adaptation papers.
 	- 对domain adaptation进行了一些理论上的分析
 
 ### 1.1.2. Others (其他)
+
+- 20200412 ICML-19 [Towards understanding knowledge distillation](http://proceedings.mlr.press/v97/phuong19a.html)
+  	- Some theoretical and empirical understanding to knowledge distllation
+  	- 对知识蒸馏的一些理论和实验的分析
+
+- 20200210 WACVW-20 [Impact of ImageNet Model Selection on Domain Adaptation](https://arxiv.org/abs/2002.02559)
+  	- A good experiment paper to indicate the power of representations
+  	- 一篇很好的实验paper，揭示了深度特征+传统方法的有效性
+
+- 20191202 AAAI-20 [Towards Oracle Knowledge Distillation with Neural Architecture Search](https://arxiv.org/abs/1911.13019)
+   - Using NAS for knowledge Distillation
+   - 用NAS帮助知识蒸馏
+
+- 20191202 AAAI-20 [Stable Learning via Sample Reweighting](https://arxiv.org/abs/1911.12580)
+   - Theoretical sample reweigting
+   - 理论和方法，用于sample reweight
+
+- 20191202 arXiv [Domain-invariant Stereo Matching Networks](https://arxiv.org/abs/1911.13287)
+   - Domain-invariant stereo matching networks
+   - 领域不变的匹配网络
+
+- 20191202 arXiv [Learning Generalizable Representations via Diverse Supervision](https://arxiv.org/abs/1911.12911)
+   - Diverse supervision helps to learn generalizable representations
+
+- 20191202 arXiv [Domain-Aware Dynamic Networks](https://arxiv.org/abs/1911.13237)
+     - Edge devices adaptative computing
+     - 边缘计算上的自适应计算
 
 - 20191029 [Adversarial Feature Alignment: Avoid Catastrophic Forgetting in Incremental Task Lifelong Learning](https://arxiv.org/abs/1910.10986)
   	- Avoid catastrophic forgeeting in incremental task lifelong learning
@@ -223,6 +247,14 @@ Including domain adaptation and partial domain adaptation.
 
 ### 1.2.1. Traditional Methods (传统迁移方法)
 
+- 20200324 [Domain Adaptation by Class Centroid Matching and Local Manifold Self-Learning](https://arxiv.org/abs/2003.09391)
+  	- Domain adaptation by class centroid matching and local manifold self-learning
+  	- 集合了聚类、中心匹配，及自学习的DA
+
+- 20191204 arXiv [Transferability versus Discriminability: Joint Probability Distribution Adaptation (JPDA)](https://arxiv.org/abs/1912.00320)
+     - Joint adaptation with different weights
+     - 不同权重的联合概率适配
+
 - 20191125 AAAI-20 [Unsupervised Domain Adaptation via Structured Prediction Based Selective Pseudo-Labeling](https://arxiv.org/abs/1911.07982)
   	- DA with selective pseudo label
   	- 结构化和选择性的伪标签用于DA
@@ -340,6 +372,34 @@ Including domain adaptation and partial domain adaptation.
 	- 发表在IEEE Trans. Knowledge and Data Engineering期刊上
 
 ### 1.2.2. Deep / Adversarial Methods (深度/对抗迁移方法)
+
+- 20200529 TNNLS [Deep Subdomain Adaptation Network for Image Classification](https://github.com/easezyc/deep-transfer-learning/tree/master/UDA/pytorch1.0/DSAN)
+  	- A fine-grained adaptation method with LMMD, which is very simple and effective
+  	- 一种细粒度自适应的方法，使用LMMD进行对齐，该方法非常简单有效
+
+- 20200420 arXiv [One-vs-Rest Network-based Deep Probability Model for Open Set Recognition](https://arxiv.org/abs/2004.08067)
+  	- One-vs-rest deep model for open set recognition
+  	- 用于开放集的识别的深度网络
+
+- 20200414 ICLR-20 [Gradient as features for deep representation learning](https://openreview.net/pdf?id=BkeoaeHKDS)
+  	- Gradients as features for deep representation learning on pretrained models
+  	- 在预训练模型基础上，将梯度作为额外的feature，提高学习表现
+
+- 20200414 ICLR-20 [Domain adaptive multi-branch networks](https://openreview.net/forum?id=rJxycxHKDS)
+  	- A domain adaptation framework using a multi-branch cascade structure
+  	- 一个用了多层级联、多分支结构的DA框架
+
+- 20200405 CVPR-20 [Towards Discriminability and Diversity: Batch Nuclear-norm Maximization under Label Insufficient Situations](https://arxiv.org/abs/2003.12237)
+  	- A simple regularization-based adaptation method
+  	- 一个非常简单的基于能量最小化的adaptation方法
+
+- 20200210 AAAI-20 [Bi-Directional Generation for Unsupervised Domain Adaptation](https://arxiv.org/abs/2002.04869)
+  	- Bidirectional GANs for domain adaptation
+  	- 双向的GAN用来做DA
+
+- 20191202 PR-19 [Correlation-aware Adversarial Domain Adaptation and Generalization](https://arxiv.org/abs/1911.12983)
+     - CORAL and adversarial for adaptation and generalization
+     - 基于CORAL和对抗网络的DA和DG
 
 - 20191201 BMVC-19 [Domain Adaptation for Object Detection via Style Consistency](https://arxiv.org/abs/1911.10033)
      - Use style consistency for domain adaptation
@@ -562,6 +622,10 @@ Including domain adaptation and partial domain adaptation.
 
 ## 1.4. Multi-source Transfer Learning (多源迁移学习)
 
+- 20200427 [TriGAN: Image-to-Image Translation for Multi-Source Domain Adaptation](https://arxiv.org/abs/2004.08769)
+  	- A cycle-gan style multi-source DA
+  	- 类似于cyclegan的多源领域适应
+
 - 20190902 AAAI-19 [Aligning Domain-Specific Distribution and Classifier for Cross-Domain Classification from Multiple Sources](https://www.aaai.org/ojs/index.php/AAAI/article/download/4551/4429)
   	- Multi-source domain adaptation using both features and classifier adaptation
   	- 利用特征和分类器同时适配进行多源迁移
@@ -654,6 +718,22 @@ Including domain adaptation and partial domain adaptation.
 
 ## 1.7. Zero-shot / Few-shot Learning
 
+- 20200408 ICLR-20 [A Baseline for Few-Shot Image Classification](https://openreview.net/forum?id=rylXBkrYDS)
+      - A simple finetune+entropy minimization approach with strong baseline
+      - 一个微调+最小化熵的小样本学习方法，结果很强
+
+- 20200405 ICCV-19 [Variational few-shot learning](http://openaccess.thecvf.com/content_ICCV_2019/html/Zhang_Variational_Few-Shot_Learning_ICCV_2019_paper.html)
+	- Variational few-shot learning
+	- 变分小样本学习
+
+- 20200405 ICLR-20 [A baseline for few-shot image classification](https://openreview.net/forum?id=rylXBkrYDS&noteId=rylXBkrYDS)
+	- A simple but powerful baseline for few-shot image classification
+	- 一个简单但是很有效的few-shot baseline
+
+- 20200324 IEEE TNNLS [Few-Shot Learning with Geometric Constraints](https://arxiv.org/abs/2003.09151)
+  	- Few-shot learning with geometric constraints
+  	- 用了一些几何约束进行小样本学习
+
 - 20190813 arXiv [Domain-Specific Embedding Network for Zero-Shot Recognition](https://arxiv.org/abs/1908.04174)
   	- Domain-specific embedding network for zero-shot learning
   	- 领域自适应的zero-shot learning
@@ -695,6 +775,10 @@ Including domain adaptation and partial domain adaptation.
 ### 1.7.1. Zero-shot Learning based on Data Synthesis (基于样本生成的零样本学习)
 [详细介绍](https://github.com/PatrickZH/Zero-shot-Learning) <br>
 
+- 20191204 arXiv [MetAdapt: Meta-Learned Task-Adaptive Architecture for Few-Shot Classification](https://arxiv.org/abs/1912.00412)
+     - Task adaptive structure for few-shot learning
+     - 目标自适应的结构用于小样本学习
+
 - 20190409 ICLR-19 [A Closer Look at Few-shot Classification](https://arxiv.org/abs/1904.04232)
     - Give some important conclusions on few-shot classification
     - 在few-shot上给了一些有用的结论
@@ -724,6 +808,15 @@ Including domain adaptation and partial domain adaptation.
 
 ### 1.8.1. Non-Adversarial Transfer Learning (非对抗深度迁移)
 
+- 20191222 arXiv [Dreaming to Distill: Data-free Knowledge Transfer via DeepInversion](https://arxiv.org/abs/1912.08795)
+   - Generate data without priors for transfer learning based on deep dream
+   - 只用网络架构不用原来数据，生成新数据用于迁移
+
+- 20191222 AAAI-20 [Improved Knowledge Distillation via Teacher Assistant](https://arxiv.org/abs/1902.03393)
+    - Teacher assistant helps knowledge distillation
+
+- 20191204 AAAI-20 [Online Knowledge Distillation with Diverse Peers](https://arxiv.org/abs/1912.00350)
+    - Online Knowledge Distillation with Diverse Peers
 - 20191201 arXiv [A Unified Framework for Lifelong Learning in Deep Neural Networks](https://arxiv.org/abs/1911.09704)
      - A unified framework for life-long learing in DNN
 
@@ -1002,6 +1095,12 @@ Including domain adaptation and partial domain adaptation.
 
 ### 1.8.2. Deep Adversarial Transfer Learning (对抗迁移学习)
 
+- 20191214 arXiv [Learning Domain Adaptive Features with Unlabeled Domain Bridges](https://arxiv.org/abs/1912.05004)
+    - Learning domain adaptive features with unlabeled CycleGAN
+
+- 20191214 AAAI-20 [Adversarial Domain Adaptation with Domain Mixup](https://arxiv.org/abs/1912.01805)
+    - Domain adaptation with data mixup
+
 - 20190916 arXiv [Compound Domain Adaptation in an Open World](https://arxiv.org/abs/1909.03403)
   	- Domain adaptation using the target domain knowledge
   	- 使用目标域的知识来进行domain adaptation
@@ -1168,6 +1267,10 @@ Including domain adaptation and partial domain adaptation.
 
 ## 1.9. Multi-task Learning (多任务学习)
 
+- 20191202 arXiv [AdaShare: Learning What To Share For Efficient Deep Multi-Task Learning](https://arxiv.org/abs/1911.12423)
+   - Learning what to share for multi-task learning
+   - 对多任务学习如何share
+
 - 20191125 AAAI-20 [Adaptive Activation Network and Functional Regularization for Efficient and Flexible Deep Multi-Task Learning](https://arxiv.org/abs/1911.08065)
   	- Adaptive activation network for deep multi-task learning
   	- 自适应的激活网络用于深度多任务学习
@@ -1235,6 +1338,12 @@ Including domain adaptation and partial domain adaptation.
 - - -
 
 ## 1.10. Transfer Reinforcement Learning (强化迁移学习)
+
+- 20191214 arXiv [Does Knowledge Transfer Always Help to Learn a Better Policy?](https://arxiv.org/abs/1912.02986)
+    - Transfer learning in reinforcement learning
+
+- 20191212 AAAI-20 [Transfer value iteration networks](https://arxiv.org/abs/1911.05701)
+    - Transferred value iteration networks
 
 - 20190821 arXiv [Transfer in Deep Reinforcement Learning using Knowledge Graphs](https://arxiv.org/abs/1908.06556)
   	- Use knowledge graph to transfer in reinforcement learning

@@ -4,19 +4,29 @@ This directory contains the code for paper [Easy Transfer Learning By Exploiting
 
 ## Requirements
 
+There are two implementations of EasyTL: Matlab and Python.
+
+### Matlab 
+
 The original code is written using Matlab R2017a. I think all versions after 2015 can run the code.
 
-The Python version is on the way.
+### Python
+
+Thanks to [@KodeWorker](https://github.com/KodeWorker) for providing a Python implementation.
+
+The Python version can be found in [here](https://github.com/jindongwang/transferlearning/tree/master/code/traditional/pyEasyTL).
 
 ## Demo & Usage
 
-I offer three basic demos to reproduce the experiments in this paper: 
+For Matlab, I offer three basic demos to reproduce the experiments in this paper: 
 
 - For Amazon Review dataset, please run `demo_amazon_review.m`. 
 - For Office-Caltech dataset, please run `demo_office_caltech.m`. 
 - For ImageCLEF-DA and Office-Home datasets, please run `demo_image.m`.
 
 Note that this directory does **not** contains any dataset. You can download them at the following links, and then add the folder to your Matlab path before running the code.
+
+For Python, the demo code is `.py`.
 
 [Download Amazon Review dataset](https://mega.nz/#F!RS43DADD!4pWwFA0CBJP1oLhAR23bTA).
 

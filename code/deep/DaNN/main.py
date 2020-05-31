@@ -52,6 +52,9 @@ def train(model, optimizer, epoch, data_src, data_tar):
         res_i = 'Epoch: [{}/{}], Batch: [{}/{}], loss: {:.6f}'.format(
             epoch, N_EPOCH, batch_id + 1, len(data_src), loss.data
         )
+        batch_j += 1
+        if batch_j >= len(list_tar):
+            batch_j = 0
     total_loss_train /= len(data_src)
     acc = correct * 100. / len(data_src.dataset)
     res_e = 'Epoch: [{}/{}], training loss: {:.6f}, correct: [{}/{}], training accuracy: {:.4f}%'.format(

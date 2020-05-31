@@ -34,6 +34,8 @@ Most datasets are image datasets:
 |    [LSDAC](#LSDAC)    |       Image Classification      |   569010  |      raw    |    345   |       6 domains     |       [19]  |
 
 
+**NEW** A even larger dataset called [DomainNet](http://ai.bu.edu/M3SDA/#refs) is released by BU, with half a million images, 6 domains, and 345 classes!
+
 **NEW** A new dataset released by Stanford and UC Berkeley: [Syn2Real: A New Benchmark forSynthetic-to-Real Visual Domain Adaptation](https://arxiv.org/abs/1806.09755)
 
 ## Text datasets:

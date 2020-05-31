@@ -2,6 +2,40 @@
 
 迁移学习的应用
 
+- 20200529 WWW-20 [Modeling Users’ Behavior Sequences with Hierarchical Explainable Network for Cross-domain Fraud Detection](https://dl.acm.org/doi/abs/10.1145/3366423.3380172)
+  	- Transfer learning for cross-domain fraud detection
+  	- 迁移学习用于跨领域欺诈检测
+- 20200420 ACL-20 [Geometry-aware Domain Adaptation for Unsupervised Alignment of Word Embeddings](https://arxiv.org/abs/2004.08243)
+  	- DA for unsupervised word embeddings alignment
+  	- 领域自适应用于word embedding对齐
+- 20200420 AAAI-20 [Generative Adversarial Networks for Video-to-Video Domain Adaptation](https://arxiv.org/abs/2004.08058)
+  	- Using GAN for video domain adaptation
+  	- GAN用于视频到视频的adaptation
+
+- 20200420 arXiv [Transfer Learning with Graph Neural Networks for Short-Term Highway Traffic Forecasting](https://arxiv.org/abs/2004.08038)
+  	- Transfer learning with GNN for highway traffic forecasting
+  	- 迁移学习+GNN用于交通流量预测
+
+- 20200405 arXiv [Joint Deep Cross-Domain Transfer Learning for Emotion Recognition](https://arxiv.org/abs/2003.11136)
+  	- Transfer learning for emotion recognition
+  	- 迁移学习用于情绪识别
+
+- 20191222 NIPS-19 workshop [Sim-to-Real Domain Adaptation For High Energy Physics](https://arxiv.org/abs/1912.08001)
+     - Transfer learning for high energy physics
+     - 迁移学习用于高能物理
+
+- 20191222 arXiv [Transfer learning in hybrid classical-quantum neural networks](https://arxiv.org/abs/1912.08278)
+     - Transfer learning for quantum neural networks
+
+- 20191214 arXiv [Unsupervised Transfer Learning via BERT Neuron Selection](https://arxiv.org/abs/1912.05308)
+     - Unsupervised transfer learning via BERT neuron selection
+
+- 20191214 arXiv [Transfer Learning-Based Outdoor Position Recovery with Telco Data](https://arxiv.org/abs/1912.04521)
+     - Outdoor position recorvey with Telco data using transfer learning
+
+- 20191214 NIPS-19 workshop [Cross-Language Aphasia Detection using Optimal Transport Domain Adaptation](https://arxiv.org/abs/1912.04370)
+    - Optimal transport domain adaptation
+
 - 20191201 arXiv [A Transfer Learning Method for Goal Recognition Exploiting Cross-Domain Spatial Features](https://arxiv.org/abs/1911.10134)
      - A transfer learning method for goal recognition 
      - 用迁移学习分析语言中的目标
