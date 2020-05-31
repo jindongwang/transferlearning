@@ -87,7 +87,7 @@ Testing **dataset** can be found [here](https://github.com/jindongwang/transferl
 - **MEDA** (Manifold Embedded Distribution Alignment, ACM MM-18) [47]
 	- [Matlab(Official)](https://github.com/jindongwang/transferlearning/tree/master/code/traditional/MEDA)
 - **EasyTL** (Practically Easy Transfer Learning, ICME-19) [63]
-    - [Matlab(Official)](https://github.com/jindongwang/transferlearning/tree/master/code/traditional/EasyTL)
+    - [Matlab(Official)](https://github.com/jindongwang/transferlearning/tree/master/code/traditional/EasyTL) | [Python](https://github.com/jindongwang/transferlearning/tree/master/code/traditional/pyEasyTL)
 
 - **SCA** (Scatter Component Analysis, TPAMI-17) [79]
     - [Matlab](https://github.com/amber0309/SCA)
