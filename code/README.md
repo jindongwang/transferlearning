@@ -8,7 +8,7 @@
 
 This document contains codes from several aspects: **tutorial**, **theory**, **traditional** methods, and **deep** methods.
 
-Testing **dataset** can be found [here](https://github.com/jindongwang/transferlearning/blob/master/doc/dataset.md).
+Testing **dataset** can be found [here](https://github.com/jindongwang/transferlearning/blob/master/data/dataset.md).
 
 - - -
 
