@@ -100,7 +100,7 @@ See benchmarks on Office-31 datasets [here](https://github.com/jindongwang/trans
 
 #### Download
 
-[Download Office-31 raw images](https://pan.baidu.com/s/1o8igXT4) | [Download from MEGA](https://mega.nz/#F!dTAEDaaT!McxSMcL4Mf_hfID1Q7tSGA)
+[Download Office-31 raw images](https://pan.baidu.com/s/1o8igXT4) | [Download from MEGA](https://mega.nz/file/dSpjyCwR#9ctB4q1RIE65a4NoJy0ox3gngh15cJqKq1XpOILJt9s)
 
 [Download Office-31 DeCAF6 and DeCAF7 features](https://pan.baidu.com/s/1o7XrAzw)
 

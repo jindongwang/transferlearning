@@ -20,7 +20,7 @@ Here, we provide benchmark results for the following datasets:
 
 Using ResNet-50 features (compare with the latest deep methods with ResNet-50 as backbone). It seems **MEDA** is the only traditional method that can challenge these heavy deep adversarial methods.
 
-Finetuned ResNet-50 models For Office-31 dataset: [BaiduYun](https://pan.baidu.com/s/1mRVDYOpeLz3siIId3tni6Q) | [Mega](https://mega.nz/#F!laI2lKoJ!nSmVQXrpu1Ov794sy2wFKg)
+Finetuned ResNet-50 models For Office-31 dataset: [BaiduYun](https://pan.baidu.com/s/1mRVDYOpeLz3siIId3tni6Q) | [Mega](https://mega.nz/file/dSpjyCwR#9ctB4q1RIE65a4NoJy0ox3gngh15cJqKq1XpOILJt9s)
 
 | Cite        | Method    | A-W | D-W | W-D    | A-D | D-A | W-A   | AVG   |
 |---------|-----------|-------|-------|--------|-------|-------|-------|-------|
