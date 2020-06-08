@@ -5,28 +5,28 @@ Let's read some awesome transfer learning / domain adaptation papers.
 这里收录了迁移学习各个研究领域的最新文章。
 
 - [1. Awesome Transfer Learning Papers](#1-awesome-transfer-learning-papers)
-	- [1.1. General Transfer Learning (普通迁移学习)](#11-general-transfer-learning-%e6%99%ae%e9%80%9a%e8%bf%81%e7%a7%bb%e5%ad%a6%e4%b9%a0)
-		- [1.1.1. Theory (理论)](#111-theory-%e7%90%86%e8%ae%ba)
-		- [1.1.2. Others (其他)](#112-others-%e5%85%b6%e4%bb%96)
-	- [1.2. Domain Adaptation (领域自适应)](#12-domain-adaptation-%e9%a2%86%e5%9f%9f%e8%87%aa%e9%80%82%e5%ba%94)
-		- [1.2.1. Traditional Methods (传统迁移方法)](#121-traditional-methods-%e4%bc%a0%e7%bb%9f%e8%bf%81%e7%a7%bb%e6%96%b9%e6%b3%95)
-		- [1.2.2. Deep / Adversarial Methods (深度/对抗迁移方法)](#122-deep--adversarial-methods-%e6%b7%b1%e5%ba%a6%e5%af%b9%e6%8a%97%e8%bf%81%e7%a7%bb%e6%96%b9%e6%b3%95)
+	- [1.1. General Transfer Learning (普通迁移学习)](#11-general-transfer-learning-普通迁移学习)
+		- [1.1.1. Theory (理论)](#111-theory-理论)
+		- [1.1.2. Others (其他)](#112-others-其他)
+	- [1.2. Domain Adaptation (领域自适应)](#12-domain-adaptation-领域自适应)
+		- [1.2.1. Traditional Methods (传统迁移方法)](#121-traditional-methods-传统迁移方法)
+		- [1.2.2. Deep / Adversarial Methods (深度/对抗迁移方法)](#122-deep--adversarial-methods-深度对抗迁移方法)
 	- [1.3. Domain Generalization](#13-domain-generalization)
-	- [1.4. Multi-source Transfer Learning (多源迁移学习)](#14-multi-source-transfer-learning-%e5%a4%9a%e6%ba%90%e8%bf%81%e7%a7%bb%e5%ad%a6%e4%b9%a0)
-	- [1.5. Heterogeneous Transfer Learning (异构迁移学习)](#15-heterogeneous-transfer-learning-%e5%bc%82%e6%9e%84%e8%bf%81%e7%a7%bb%e5%ad%a6%e4%b9%a0)
-	- [1.6. Online Transfer Learning (在线迁移学习)](#16-online-transfer-learning-%e5%9c%a8%e7%ba%bf%e8%bf%81%e7%a7%bb%e5%ad%a6%e4%b9%a0)
+	- [1.4. Multi-source Transfer Learning (多源迁移学习)](#14-multi-source-transfer-learning-多源迁移学习)
+	- [1.5. Heterogeneous Transfer Learning (异构迁移学习)](#15-heterogeneous-transfer-learning-异构迁移学习)
+	- [1.6. Online Transfer Learning (在线迁移学习)](#16-online-transfer-learning-在线迁移学习)
 	- [1.7. Zero-shot / Few-shot Learning](#17-zero-shot--few-shot-learning)
-		- [1.7.1. Zero-shot Learning based on Data Synthesis (基于样本生成的零样本学习)](#171-zero-shot-learning-based-on-data-synthesis-%e5%9f%ba%e4%ba%8e%e6%a0%b7%e6%9c%ac%e7%94%9f%e6%88%90%e7%9a%84%e9%9b%b6%e6%a0%b7%e6%9c%ac%e5%ad%a6%e4%b9%a0)
-	- [1.8. Deep Transfer Learning (深度迁移学习)](#18-deep-transfer-learning-%e6%b7%b1%e5%ba%a6%e8%bf%81%e7%a7%bb%e5%ad%a6%e4%b9%a0)
-		- [1.8.1. Non-Adversarial Transfer Learning (非对抗深度迁移)](#181-non-adversarial-transfer-learning-%e9%9d%9e%e5%af%b9%e6%8a%97%e6%b7%b1%e5%ba%a6%e8%bf%81%e7%a7%bb)
-		- [1.8.2. Deep Adversarial Transfer Learning (对抗迁移学习)](#182-deep-adversarial-transfer-learning-%e5%af%b9%e6%8a%97%e8%bf%81%e7%a7%bb%e5%ad%a6%e4%b9%a0)
-	- [1.9. Multi-task Learning (多任务学习)](#19-multi-task-learning-%e5%a4%9a%e4%bb%bb%e5%8a%a1%e5%ad%a6%e4%b9%a0)
-	- [1.10. Transfer Reinforcement Learning (强化迁移学习)](#110-transfer-reinforcement-learning-%e5%bc%ba%e5%8c%96%e8%bf%81%e7%a7%bb%e5%ad%a6%e4%b9%a0)
-	- [1.11. Transfer Metric Learning (迁移度量学习)](#111-transfer-metric-learning-%e8%bf%81%e7%a7%bb%e5%ba%a6%e9%87%8f%e5%ad%a6%e4%b9%a0)
-	- [1.12. Transitive Transfer Learning (传递迁移学习)](#112-transitive-transfer-learning-%e4%bc%a0%e9%80%92%e8%bf%81%e7%a7%bb%e5%ad%a6%e4%b9%a0)
-	- [1.13. Lifelong Learning (终身迁移学习)](#113-lifelong-learning-%e7%bb%88%e8%ba%ab%e8%bf%81%e7%a7%bb%e5%ad%a6%e4%b9%a0)
-	- [1.14. Negative Transfer (负迁移)](#114-negative-transfer-%e8%b4%9f%e8%bf%81%e7%a7%bb)
-	- [1.15. Transfer Learning Applications (应用)](#115-transfer-learning-applications-%e5%ba%94%e7%94%a8)
+		- [1.7.1. Zero-shot Learning based on Data Synthesis (基于样本生成的零样本学习)](#171-zero-shot-learning-based-on-data-synthesis-基于样本生成的零样本学习)
+	- [1.8. Deep Transfer Learning (深度迁移学习)](#18-deep-transfer-learning-深度迁移学习)
+		- [1.8.1. Non-Adversarial Transfer Learning (非对抗深度迁移)](#181-non-adversarial-transfer-learning-非对抗深度迁移)
+		- [1.8.2. Deep Adversarial Transfer Learning (对抗迁移学习)](#182-deep-adversarial-transfer-learning-对抗迁移学习)
+	- [1.9. Multi-task Learning (多任务学习)](#19-multi-task-learning-多任务学习)
+	- [1.10. Transfer Reinforcement Learning (强化迁移学习)](#110-transfer-reinforcement-learning-强化迁移学习)
+	- [1.11. Transfer Metric Learning (迁移度量学习)](#111-transfer-metric-learning-迁移度量学习)
+	- [1.12. Transitive Transfer Learning (传递迁移学习)](#112-transitive-transfer-learning-传递迁移学习)
+	- [1.13. Lifelong Learning (终身迁移学习)](#113-lifelong-learning-终身迁移学习)
+	- [1.14. Negative Transfer (负迁移)](#114-negative-transfer-负迁移)
+	- [1.15. Transfer Learning Applications (应用)](#115-transfer-learning-applications-应用)
 
 ## 1.1. General Transfer Learning (普通迁移学习)
 
@@ -717,6 +717,9 @@ Including domain adaptation and partial domain adaptation.
 - - -
 
 ## 1.7. Zero-shot / Few-shot Learning
+
+- 20200608 ICML-20 [Few-Shot Learning as Domain Adaptation: Algorithm and Analysis](https://arxiv.org/abs/2002.02050)
+    - Using domain adaptation to solve the few-shot learning
 
 - 20200408 ICLR-20 [A Baseline for Few-Shot Image Classification](https://openreview.net/forum?id=rylXBkrYDS)
       - A simple finetune+entropy minimization approach with strong baseline

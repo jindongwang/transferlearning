@@ -46,10 +46,9 @@ author = {Wang, Jindong and others}
 
 - **Weekly latest papers**
 
-	- 20200512 [Automatic Cross-Domain Transfer Learning for Linear Regression](https://arxiv.org/abs/2005.04088)
-    - 20200512 TIP [Importance Filtered Cross-Domain Adaptation](https://arxiv.org/abs/1912.12209)
-    - 20200512 ACL-20 [SentiBERT: A Transferable Transformer-Based Architecture for Compositional Sentiment Semantics](https://arxiv.org/abs/2005.04114)
-    - 20200512 [Source-Relaxed Domain Adaptation for Image Segmentation](https://arxiv.org/abs/2005.03697)
+	- 20200608 [Learning across label confidence distributions using Filtered Transfer Learning](https://arxiv.org/abs/2006.02528)
+	- 20200608 ICML-20 [Few-Shot Learning as Domain Adaptation: Algorithm and Analysis](https://arxiv.org/abs/2002.02050)
+    	- Using domain adaptation to solve the few-shot learning
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
