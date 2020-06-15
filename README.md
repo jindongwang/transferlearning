@@ -46,9 +46,10 @@ author = {Wang, Jindong and others}
 
 - **Weekly latest papers**
 
-	- 20200608 [Learning across label confidence distributions using Filtered Transfer Learning](https://arxiv.org/abs/2006.02528)
-	- 20200608 ICML-20 [Few-Shot Learning as Domain Adaptation: Algorithm and Analysis](https://arxiv.org/abs/2002.02050)
-    	- Using domain adaptation to solve the few-shot learning
+	- 20200615 [Knowledge Distillation: A Survey](https://arxiv.org/abs/2006.05525)
+	- 20200615 [Double Double Descent: On Generalization Errors in Transfer Learning between Linear Regression Tasks](https://arxiv.org/abs/2006.07002)
+	- 20200615 [Rethinking Pre-training and Self-training](https://arxiv.org/abs/2006.06882)
+	- 20200615 [Deep Transfer Learning with Ridge Regression](https://arxiv.org/abs/2006.06791)
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
@@ -127,6 +128,7 @@ Here are some articles on transfer learning theory and survey.
 
 - Latest survey - 较新的综述：
 
+	- 2020 知识蒸馏的综述: [Knowledge Distillation: A Survey](https://arxiv.org/abs/2006.05525)
     - 用transfer learning进行sentiment classification的综述：[A Survey of Sentiment Analysis Based on Transfer Learning](https://ieeexplore.ieee.org/abstract/document/8746210) 
 	- 2019 一篇新survey：[Transfer Adaptation Learning: A Decade Survey](https://arxiv.org/abs/1903.04687)
 	- 2018 一篇迁移度量学习的综述: [Transfer Metric Learning: Algorithms, Applications and Outlooks](https://arxiv.org/abs/1810.03944)

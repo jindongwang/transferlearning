@@ -62,6 +62,10 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 ### 1.1.2. Others (其他)
 
+- 20200615 [Rethinking Pre-training and Self-training](https://arxiv.org/abs/2006.06882)
+
+- 20200615 [Double Double Descent: On Generalization Errors in Transfer Learning between Linear Regression Tasks](https://arxiv.org/abs/2006.07002)
+
 - 20200412 ICML-19 [Towards understanding knowledge distillation](http://proceedings.mlr.press/v97/phuong19a.html)
   	- Some theoretical and empirical understanding to knowledge distllation
   	- 对知识蒸馏的一些理论和实验的分析
@@ -246,6 +250,8 @@ Let's read some awesome transfer learning / domain adaptation papers.
 Including domain adaptation and partial domain adaptation.
 
 ### 1.2.1. Traditional Methods (传统迁移方法)
+
+- 20200615 [Deep Transfer Learning with Ridge Regression](https://arxiv.org/abs/2006.06791)
 
 - 20200324 [Domain Adaptation by Class Centroid Matching and Local Manifold Self-Learning](https://arxiv.org/abs/2003.09391)
   	- Domain adaptation by class centroid matching and local manifold self-learning
