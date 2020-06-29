@@ -46,10 +46,13 @@ author = {Wang, Jindong and others}
 
 - **Weekly latest papers**
 
-	- 20200615 [Knowledge Distillation: A Survey](https://arxiv.org/abs/2006.05525)
-	- 20200615 [Double Double Descent: On Generalization Errors in Transfer Learning between Linear Regression Tasks](https://arxiv.org/abs/2006.07002)
-	- 20200615 [Rethinking Pre-training and Self-training](https://arxiv.org/abs/2006.06882)
-	- 20200615 [Deep Transfer Learning with Ridge Regression](https://arxiv.org/abs/2006.06791)
+	- 20200629 [ICML-20] [Do We Really Need to Access the Source Data? Source Hypothesis Transfer for Unsupervised Domain Adaptation](https://arxiv.org/abs/2002.08546)
+    	- Source-free adaptation
+    	- 在adaptation过程中不访问source data
+  	- 20200629 [Transfer learning via L1 regulaziation](https://arxiv.org/abs/2006.14845)
+    	- Using L1 regularizationg for transfer learning
+  	- 20200629 [ICML-20] [Graph Optimal Transport for Cross-Domain Alignment])(https://arxiv.org/abs/2006.14744)
+    	- Graph OT for cross-domain alignment
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
