@@ -32,6 +32,10 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 ### 1.1.1. Theory (理论)
 
+- 20200702 [ICML-20] [Few-shot domain adaptation by causal mechanism transfer](https://arxiv.org/pdf/2002.03497.pdf)
+  	- The first work on causal transfer learning
+  	- 日本理论组大佬Sugiyama的工作，causal transfer learning
+
 - 20191008 CVPR-19 [Characterizing and Avoiding Negative Transfer](https://arxiv.org/abs/1811.09751)
   	- Characterizing and avoid negative transfer
   	- 形式化并提出如何避免负迁移
