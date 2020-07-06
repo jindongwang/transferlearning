@@ -45,16 +45,11 @@ author = {Wang, Jindong and others}
 [迁移学习文章汇总 Awesome transfer learning papers](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
 - **Weekly latest papers**
-	- 20200702 [ICML-20] [Few-shot domain adaptation by causal mechanism transfer](https://arxiv.org/pdf/2002.03497.pdf)
-    	- The first work on causal transfer learning
-    	- 日本理论组大佬Sugiyama的工作，causal transfer learning
-	- 20200629 [ICML-20] [Do We Really Need to Access the Source Data? Source Hypothesis Transfer for Unsupervised Domain Adaptation](https://arxiv.org/abs/2002.08546)
-    	- Source-free adaptation
-    	- 在adaptation过程中不访问source data
-  	- 20200629 [Transfer learning via L1 regulaziation](https://arxiv.org/abs/2006.14845)
-    	- Using L1 regularizationg for transfer learning
-  	- 20200629 [ICML-20] [Graph Optimal Transport for Cross-Domain Alignment])(https://arxiv.org/abs/2006.14744)
-    	- Graph OT for cross-domain alignment
+	- 20200706 [Learn Faster and Forget Slower via Fast and Stable Task Adaptation](https://arxiv.org/abs/2007.01388)
+  	- 20200706 [In Search of Lost Domain Generalization](https://arxiv.org/abs/2007.01434)
+  	- 20200706 [ICML-20] [Continuously Indexed Domain Adaptation](https://arxiv.org/abs/2007.01807)
+  	- 20200706 [Interactive Knowledge Distillation](https://arxiv.org/abs/2007.01476)
+  	- 20200706 [Domain Adaptation without Source Data](https://arxiv.org/abs/2007.01524)
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 

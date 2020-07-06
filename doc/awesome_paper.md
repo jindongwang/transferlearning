@@ -66,6 +66,12 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 ### 1.1.2. Others (其他)
 
+- 20200706 [Learn Faster and Forget Slower via Fast and Stable Task Adaptation](https://arxiv.org/abs/2007.01388)
+- 20200706 [In Search of Lost Domain Generalization](https://arxiv.org/abs/2007.01434)
+- 20200706 [ICML-20] [Continuously Indexed Domain Adaptation](https://arxiv.org/abs/2007.01807)
+- 20200706 [Interactive Knowledge Distillation](https://arxiv.org/abs/2007.01476)
+- 20200706 [Domain Adaptation without Source Data](https://arxiv.org/abs/2007.01524)
+
 - 20200629 [ICML-20] [Do We Really Need to Access the Source Data? Source Hypothesis Transfer for Unsupervised Domain Adaptation](https://arxiv.org/abs/2002.08546)
     	- Source-free adaptation
     	- 在adaptation过程中不访问source data
