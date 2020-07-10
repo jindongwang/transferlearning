@@ -16,21 +16,35 @@ author = {Wang, Jindong and others}
 }  
 ```
 
-- [迁移学习 Transfer Learning](#迁移学习-transfer-learning)
-	- [0.Latest Publications (最新论文)](#0latest-publications-最新论文)
-	- [1.Introduction and Tutorials (简介与教程)](#1introduction-and-tutorials-简介与教程)
-	- [2.Transfer Learning Areas and Papers (研究领域与相关论文)](#2transfer-learning-areas-and-papers-研究领域与相关论文)
-	- [3.Theory and Survey (理论与综述)](#3theory-and-survey-理论与综述)
-	- [4.Code (代码)](#4code-代码)
-	- [5.Transfer Learning Scholars (著名学者)](#5transfer-learning-scholars-著名学者)
-	- [6.Transfer Learning Thesis (硕博士论文)](#6transfer-learning-thesis-硕博士论文)
-	- [7.Datasets and Benchmarks (数据集与评测结果)](#7datasets-and-benchmarks-数据集与评测结果)
-	- [8.Transfer Learning Challenges (迁移学习比赛)](#8transfer-learning-challenges-迁移学习比赛)
-	- [Applications (迁移学习应用)](#applications-迁移学习应用)
-	- [Other Resources (其他资源)](#other-resources-其他资源)
-	- [Contributing (欢迎参与贡献)](#contributing-欢迎参与贡献)
-		- [Copyright notice](#copyright-notice)
-
+<table>
+    <tr>
+        <td>Contents</td>
+    </tr>
+    <tr>
+        <td><a href="#0latest-publications-最新论文">0.Latest Publications (最新论文)</a></td>
+        <td><a href="#1introduction-and-tutorials-简介与教程">1.Introduction and Tutorials (简介与教程)</a></td>
+    </tr>
+    <tr>
+        <td><a href="#2transfer-learning-areas-and-papers-研究领域与相关论文">2.Transfer Learning Areas and Papers (研究领域与相关论文)</a></td>
+        <td><a href="#3theory-and-survey-理论与综述">3.Theory and Survey (理论与综述)</a></td>
+    </tr>
+    <tr>
+        <td><a href="#4code-代码">4.Code (代码)</a></td>
+        <td><a href="#5transfer-learning-scholars-著名学者">5.Transfer Learning Scholars (著名学者)</a></td>
+    </tr>
+    <tr>
+        <td><a href="#6transfer-learning-thesis-硕博士论文">6.Transfer Learning Thesis (硕博士论文)</a></td>
+        <td><a href="#7datasets-and-benchmarks-数据集与评测结果">7.Datasets and Benchmarks (数据集与评测结果)</a></td>
+    </tr>
+    <tr>
+        <td><a href="#8transfer-learning-challenges-迁移学习比赛">8.Transfer Learning Challenges (迁移学习比赛)</a></td>
+        <td><a href="#applications-迁移学习应用">Applications (迁移学习应用)</a></td>
+    </tr>
+    <tr>
+        <td><a href="#other-resources-其他资源">Other Resources (其他资源)</a></td>
+        <td><a href="#contributing-欢迎参与贡献">Contributing (欢迎参与贡献)</a></td>
+    </tr>
+</table>
 
 > 关于机器学习和行为识别的资料，请参考：[行为识别](https://github.com/jindongwang/activityrecognition)｜[机器学习](https://github.com/jindongwang/MachineLearning)
 
