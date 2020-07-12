@@ -21,23 +21,30 @@ Please refer to `dataset.md` for datasets description and download, and `benchma
 
 ### Office-Caltech10
 
-Download Office+Caltech original images [[Baiduyun](https://pan.baidu.com/s/14JEGQ56LJX7LMbd6GLtxCw)]
+Download Office+Caltech original images: 
+- [Baiduyun](https://pan.baidu.com/s/14JEGQ56LJX7LMbd6GLtxCw)
 
-Download Office+Caltech SURF dataset [[MEGA](https://mega.nz/#F!AaJTGIzD!XHM2XMsSd9V-ljVi0EtvFg)|[Baiduyun](https://pan.baidu.com/s/1bp4g7Av)]
+Download Office+Caltech SURF dataset: 
+- [Jianguoyun](https://www.jianguoyun.com/p/DaKoCGIQmN7PCBju9KsD) (Password: PRSZD9)
+- [MEGA](https://mega.nz/#F!AaJTGIzD!XHM2XMsSd9V-ljVi0EtvFg)
 
-Download Office+Caltech DeCAF dataset [[MEGA](https://mega.nz/#F!QDxBBC4J!LizxWbE1_JEwPSrA2mrrrw)|[Baiduyun](https://pan.baidu.com/s/1nvn7eUd)]
+Download Office+Caltech DeCAF dataset:
+- [Jianguoyun](https://www.jianguoyun.com/p/DWJ_7qgQmN7PCBj29KsD) (Password: cnfjmc) 
+- [MEGA](https://mega.nz/#F!QDxBBC4J!LizxWbE1_JEwPSrA2mrrrw)
+
 
 ### Office-31
 
-[Download Office-31 raw images](https://pan.baidu.com/s/1o8igXT4) | [Download from MEGA](https://mega.nz/file/dSpjyCwR#9ctB4q1RIE65a4NoJy0ox3gngh15cJqKq1XpOILJt9s)
+Download Office-31 raw images:
+- [Jianguoyun](https://www.jianguoyun.com/p/Dblj5GcQmN7PCBiA9asD) (Password: FcaDrw)
+- [MEGA](https://mega.nz/file/dSpjyCwR#9ctB4q1RIE65a4NoJy0ox3gngh15cJqKq1XpOILJt9s)
 
-[Download Office-31 DeCAF6 and DeCAF7 features](https://pan.baidu.com/s/1o7XrAzw)
+Download Office-31 DeCAF6 and DeCAF7 features:
+- [Jianguoyun](https://www.jianguoyun.com/p/DcNAUg0QmN7PCBiF9asD) (Password: qqLA7D)
 
-[Download Office-31 DeCAF features by Frame](https://pan.baidu.com/s/1i5KkNxb)
-
-[Download Office-31 SURF features](https://pan.baidu.com/s/1kU6tv4F)
-
-[Download Office-31 ResNet-50 features](https://pan.baidu.com/s/1UoyJSqoCKCda-NcP-zraVg) | [Download from MEGA](https://mega.nz/#F!laI2lKoJ!nSmVQXrpu1Ov794sy2wFKg)
+Download Office-31 Resnet-50 features:
+- [Baiduyun](https://pan.baidu.com/s/1UoyJSqoCKCda-NcP-zraVg)
+- [MEGA](https://mega.nz/#F!laI2lKoJ!nSmVQXrpu1Ov794sy2wFKg)
 
 ### Office-Home
 
@@ -53,7 +60,9 @@ Download Office+Caltech DeCAF dataset [[MEGA](https://mega.nz/#F!QDxBBC4J!LizxWb
 
 ### USPS+MNIST
 
-Download MNIST+USPS SURF dataset [[MEGA](https://mega.nz/#F!oHJ2UCoK!r62nRoZ0gH8NXIcgmyWReA) | [Baiduyun](https://pan.baidu.com/s/1c8mwdo)]
+Download MNIST+USPS SURF dataset:
+- [MEGA](https://mega.nz/#F!oHJ2UCoK!r62nRoZ0gH8NXIcgmyWReA)
+- [Jianguoyun](https://www.jianguoyun.com/p/DeCNnNkQmN7PCBjd9KsD) (Password: kQujmV)
 
 ### VisDA-17
 
@@ -65,7 +74,9 @@ Download MNIST+USPS SURF dataset [[MEGA](https://mega.nz/#F!oHJ2UCoK!r62nRoZ0gH8
 
 ### Amazon review
 
-[Download Amazon review dataset](https://mega.nz/#F!RS43DADD!4pWwFA0CBJP1oLhAR23bTA)
+Downlaod Amazon review dataset:
+- [Mega](https://mega.nz/#F!RS43DADD!4pWwFA0CBJP1oLhAR23bTA)
+- [Jianguoyun](https://www.jianguoyun.com/p/DfOeHxIQmN7PCBiT9asD) (Password: AXMDi5)
 
 ### Cross-dataset Testbed
 
@@ -77,11 +88,15 @@ Download COIL20 SURF dataset [[MEGA](https://mega.nz/#F!xWxyTDaZ!MWamSH17Uu065Xb
 
 ### CMU-PIE
 
-Download PIE SURF dataset [[MEGA](https://mega.nz/#F!lPgmkZQB!z2QuBEmCzj2XR5AAQaIj7Q)|[Baiduyun](https://pan.baidu.com/s/1o8KFgtO)]
+Download PIE SURF dataset:
+- [MEGA](https://mega.nz/#F!lPgmkZQB!z2QuBEmCzj2XR5AAQaIj7Q)
+- [Jianguoyun](https://www.jianguoyun.com/p/Da9HTXUQmN7PCBiO9asD) (Password: gWDSkq)
 
 ### VLSC
 
-Download the VLSC DeCAF dataset [[MEGA](https://mega.nz/#F!gTJxGTJK!w9UJjZVq3ClqGj4mBDmT4A)|[Baiduyun](https://pan.baidu.com/s/1nuNiJ0l)]
+Download the VLSC DeCAF dataset:
+- [MEGA](https://mega.nz/#F!gTJxGTJK!w9UJjZVq3ClqGj4mBDmT4A)
+- [Jianguoyun](https://www.jianguoyun.com/p/DegKxO8QmN7PCBiI9asD) (Password: FxQLfH)
 
 ### Animals-with-Attributes
 
