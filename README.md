@@ -59,11 +59,8 @@ author = {Wang, Jindong and others}
 [迁移学习文章汇总 Awesome transfer learning papers](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
 - **Weekly latest papers**
-	- 20200706 [Learn Faster and Forget Slower via Fast and Stable Task Adaptation](https://arxiv.org/abs/2007.01388)
-  	- 20200706 [In Search of Lost Domain Generalization](https://arxiv.org/abs/2007.01434)
-  	- 20200706 [ICML-20] [Continuously Indexed Domain Adaptation](https://arxiv.org/abs/2007.01807)
-  	- 20200706 [Interactive Knowledge Distillation](https://arxiv.org/abs/2007.01476)
-  	- 20200706 [Domain Adaptation without Source Data](https://arxiv.org/abs/2007.01524)
+	- 20200720 [ECCV-20] [Learning to Combine: Knowledge Aggregation for Multi-Source Domain Adaptation](https://arxiv.org/abs/2007.08801)
+	- 20200720 [Explanation-Guided Training for Cross-Domain Few-Shot Classification](https://arxiv.org/abs/2007.08790)
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
