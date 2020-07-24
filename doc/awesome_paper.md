@@ -397,6 +397,10 @@ Including domain adaptation and partial domain adaptation.
 
 ### 1.2.2. Deep / Adversarial Methods (深度/对抗迁移方法)
 
+- 20200724 [Learning to Match Distributions for Domain Adaptation](https://arxiv.org/abs/2007.10791)
+  	- 自动深度迁移学习
+  	- Automatic domain adaptation
+
 - 20200529 TNNLS [Deep Subdomain Adaptation Network for Image Classification](https://github.com/easezyc/deep-transfer-learning/tree/master/UDA/pytorch1.0/DSAN)
   	- A fine-grained adaptation method with LMMD, which is very simple and effective
   	- 一种细粒度自适应的方法，使用LMMD进行对齐，该方法非常简单有效

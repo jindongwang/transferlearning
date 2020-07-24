@@ -59,8 +59,9 @@ author = {Wang, Jindong and others}
 [迁移学习文章汇总 Awesome transfer learning papers](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
 - **Weekly latest papers**
-	- 20200720 [ECCV-20] [Learning to Combine: Knowledge Aggregation for Multi-Source Domain Adaptation](https://arxiv.org/abs/2007.08801)
-	- 20200720 [Explanation-Guided Training for Cross-Domain Few-Shot Classification](https://arxiv.org/abs/2007.08790)
+	- 20200724 [Learning to Match Distributions for Domain Adaptation](https://arxiv.org/abs/2007.10791)
+  	- 自动深度迁移学习
+  	- Automatic domain adaptation
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
