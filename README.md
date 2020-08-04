@@ -59,6 +59,15 @@ author = {Wang, Jindong and others}
 [迁移学习文章汇总 Awesome transfer learning papers](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
 - **Weekly latest papers**
+  - 20200804 ECCV-20 spotlight [Side-Tuning: A Baseline for Network Adaptation via Additive Side Networks](https://arxiv.org/abs/1912.13503)
+    - 将现有的finetune机制进行扩展
+    - Extending finetune mechanism
+  - 20200804 ACMMM-20 [Adversarial Bipartite Graph Learning for Video Domain Adaptation](https://arxiv.org/abs/2007.15829)
+    - Video domain adaptation
+    - 视频的领域自适应
+  - 20200804 MICCAI-20 [Whole MILC: generalizing learned dynamics across tasks, datasets, and populations](https://arxiv.org/abs/2007.16041)
+    - Generalizing across tasks, datasets, populations
+    - 在任务、数据集、人群之间做泛化
 	- 20200724 [Learning to Match Distributions for Domain Adaptation](https://arxiv.org/abs/2007.10791)
   	- 自动深度迁移学习
   	- Automatic domain adaptation
