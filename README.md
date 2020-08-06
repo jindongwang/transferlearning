@@ -60,6 +60,7 @@ author = {Wang, Jindong and others}
 
 - **Weekly latest papers**
   - 20200806 IJCAI-20 [Joint Partial Optimal Transport for Open Set Domain Adaptation](https://www.ijcai.org/Proceedings/2020/0352.pdf)
+    - 用最优传输来做open set DA
   - 20200804 ECCV-20 spotlight [Side-Tuning: A Baseline for Network Adaptation via Additive Side Networks](https://arxiv.org/abs/1912.13503)
     - 将现有的finetune机制进行扩展
     - Extending finetune mechanism
