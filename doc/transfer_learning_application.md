@@ -2,6 +2,9 @@
 
 迁移学习的应用
 
+- 20200813 [Transfer Learning for Protein Structure Classification and Function Inference at Low Resolution](https://arxiv.org/abs/2008.04757)
+    - 迁移学习用于低分辨率下的蛋白质结构分类
+
 - 20200529 WWW-20 [Modeling Users’ Behavior Sequences with Hierarchical Explainable Network for Cross-domain Fraud Detection](https://dl.acm.org/doi/abs/10.1145/3366423.3380172)
   	- Transfer learning for cross-domain fraud detection
   	- 迁移学习用于跨领域欺诈检测

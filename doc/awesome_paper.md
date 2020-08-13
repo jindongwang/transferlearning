@@ -5,34 +5,41 @@ Let's read some awesome transfer learning / domain adaptation papers.
 这里收录了迁移学习各个研究领域的最新文章。
 
 - [1. Awesome Transfer Learning Papers](#1-awesome-transfer-learning-papers)
-	- [1.1. General Transfer Learning (普通迁移学习)](#11-general-transfer-learning-普通迁移学习)
-		- [1.1.1. Theory (理论)](#111-theory-理论)
-		- [1.1.2. Others (其他)](#112-others-其他)
-	- [1.2. Domain Adaptation (领域自适应)](#12-domain-adaptation-领域自适应)
-		- [1.2.1. Traditional Methods (传统迁移方法)](#121-traditional-methods-传统迁移方法)
-		- [1.2.2. Deep / Adversarial Methods (深度/对抗迁移方法)](#122-deep--adversarial-methods-深度对抗迁移方法)
-	- [1.3. Domain Generalization](#13-domain-generalization)
-	- [1.4. Multi-source Transfer Learning (多源迁移学习)](#14-multi-source-transfer-learning-多源迁移学习)
-	- [1.5. Heterogeneous Transfer Learning (异构迁移学习)](#15-heterogeneous-transfer-learning-异构迁移学习)
-	- [1.6. Online Transfer Learning (在线迁移学习)](#16-online-transfer-learning-在线迁移学习)
-	- [1.7. Zero-shot / Few-shot Learning](#17-zero-shot--few-shot-learning)
-		- [1.7.1. Zero-shot Learning based on Data Synthesis (基于样本生成的零样本学习)](#171-zero-shot-learning-based-on-data-synthesis-基于样本生成的零样本学习)
-	- [1.8. Deep Transfer Learning (深度迁移学习)](#18-deep-transfer-learning-深度迁移学习)
-		- [1.8.1. Non-Adversarial Transfer Learning (非对抗深度迁移)](#181-non-adversarial-transfer-learning-非对抗深度迁移)
-		- [1.8.2. Deep Adversarial Transfer Learning (对抗迁移学习)](#182-deep-adversarial-transfer-learning-对抗迁移学习)
-	- [1.9. Multi-task Learning (多任务学习)](#19-multi-task-learning-多任务学习)
-	- [1.10. Transfer Reinforcement Learning (强化迁移学习)](#110-transfer-reinforcement-learning-强化迁移学习)
-	- [1.11. Transfer Metric Learning (迁移度量学习)](#111-transfer-metric-learning-迁移度量学习)
-	- [1.12. Transitive Transfer Learning (传递迁移学习)](#112-transitive-transfer-learning-传递迁移学习)
-	- [1.13. Lifelong Learning (终身迁移学习)](#113-lifelong-learning-终身迁移学习)
-	- [1.14. Negative Transfer (负迁移)](#114-negative-transfer-负迁移)
-	- [1.15. Transfer Learning Applications (应用)](#115-transfer-learning-applications-应用)
+  - [1.1. General Transfer Learning (普通迁移学习)](#11-general-transfer-learning-普通迁移学习)
+    - [1.1.1. Theory (理论)](#111-theory-理论)
+    - [1.1.2. Others (其他)](#112-others-其他)
+  - [1.2. Domain Adaptation (领域自适应)](#12-domain-adaptation-领域自适应)
+    - [1.2.1. Traditional Methods (传统迁移方法)](#121-traditional-methods-传统迁移方法)
+    - [1.2.2. Deep / Adversarial Methods (深度/对抗迁移方法)](#122-deep--adversarial-methods-深度对抗迁移方法)
+  - [1.3. Domain Generalization](#13-domain-generalization)
+  - [1.4. Multi-source Transfer Learning (多源迁移学习)](#14-multi-source-transfer-learning-多源迁移学习)
+  - [1.5. Heterogeneous Transfer Learning (异构迁移学习)](#15-heterogeneous-transfer-learning-异构迁移学习)
+  - [1.6. Online Transfer Learning (在线迁移学习)](#16-online-transfer-learning-在线迁移学习)
+  - [1.7. Zero-shot / Few-shot Learning](#17-zero-shot--few-shot-learning)
+    - [1.7.1. Zero-shot Learning based on Data Synthesis (基于样本生成的零样本学习)](#171-zero-shot-learning-based-on-data-synthesis-基于样本生成的零样本学习)
+  - [1.8. Deep Transfer Learning (深度迁移学习)](#18-deep-transfer-learning-深度迁移学习)
+    - [1.8.1. Non-Adversarial Transfer Learning (非对抗深度迁移)](#181-non-adversarial-transfer-learning-非对抗深度迁移)
+    - [1.8.2. Deep Adversarial Transfer Learning (对抗迁移学习)](#182-deep-adversarial-transfer-learning-对抗迁移学习)
+  - [1.9. Multi-task Learning (多任务学习)](#19-multi-task-learning-多任务学习)
+  - [1.10. Transfer Reinforcement Learning (强化迁移学习)](#110-transfer-reinforcement-learning-强化迁移学习)
+  - [1.11. Transfer Metric Learning (迁移度量学习)](#111-transfer-metric-learning-迁移度量学习)
+  - [1.12. Transitive Transfer Learning (传递迁移学习)](#112-transitive-transfer-learning-传递迁移学习)
+  - [1.13. Lifelong Learning (终身迁移学习)](#113-lifelong-learning-终身迁移学习)
+  - [1.14. Negative Transfer (负迁移)](#114-negative-transfer-负迁移)
+  - [1.15. Transfer Learning Applications (应用)](#115-transfer-learning-applications-应用)
 
 ## 1.1. General Transfer Learning (普通迁移学习)
 
 ### 1.1.1. Theory (理论)
 
-- 20200702 [ICML-20] [Few-shot domain adaptation by causal mechanism transfer](https://arxiv.org/pdf/2002.03497.pdf)
+- 20200813 [A Boundary Based Out-of-Distribution Classifier for Generalized Zero-Shot Learning](https://arxiv.org/abs/2008.04872)
+    - OOD classifier for generalized zero-shot learning
+
+- 20200813 ICML-20 [On Learning Language-Invariant Representations for Universal Machine Translation](https://arxiv.org/abs/2008.04510)
+    - Theory for universal machine translation
+    - 对统一机器翻译模型进行了理论论证
+
+- 20200702 ICML-20 [Few-shot domain adaptation by causal mechanism transfer](https://arxiv.org/pdf/2002.03497.pdf)
   	- The first work on causal transfer learning
   	- 日本理论组大佬Sugiyama的工作，causal transfer learning
 
@@ -65,7 +72,9 @@ Let's read some awesome transfer learning / domain adaptation papers.
 	- 对domain adaptation进行了一些理论上的分析
 
 ### 1.1.2. Others (其他)
-
+- 20200813 ECCV-20 [Learning to Cluster under Domain Shift](https://arxiv.org/abs/2008.04646)
+    - Learning to cluster under domain shift
+    - 在domain shift的情况下进行聚类
 - 20200706 [Learn Faster and Forget Slower via Fast and Stable Task Adaptation](https://arxiv.org/abs/2007.01388)
 - 20200706 [In Search of Lost Domain Generalization](https://arxiv.org/abs/2007.01434)
 - 20200706 [ICML-20] [Continuously Indexed Domain Adaptation](https://arxiv.org/abs/2007.01807)

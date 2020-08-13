@@ -59,20 +59,16 @@ author = {Wang, Jindong and others}
 [迁移学习文章汇总 Awesome transfer learning papers](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
 - **Weekly latest papers**
-  - 20200806 IJCAI-20 [Joint Partial Optimal Transport for Open Set Domain Adaptation](https://www.ijcai.org/Proceedings/2020/0352.pdf)
-    - 用最优传输来做open set DA
-  - 20200804 ECCV-20 spotlight [Side-Tuning: A Baseline for Network Adaptation via Additive Side Networks](https://arxiv.org/abs/1912.13503)
-    - 将现有的finetune机制进行扩展
-    - Extending finetune mechanism
-  - 20200804 ACMMM-20 [Adversarial Bipartite Graph Learning for Video Domain Adaptation](https://arxiv.org/abs/2007.15829)
-    - Video domain adaptation
-    - 视频的领域自适应
-  - 20200804 MICCAI-20 [Whole MILC: generalizing learned dynamics across tasks, datasets, and populations](https://arxiv.org/abs/2007.16041)
-    - Generalizing across tasks, datasets, populations
-    - 在任务、数据集、人群之间做泛化
-	- 20200724 [Learning to Match Distributions for Domain Adaptation](https://arxiv.org/abs/2007.10791)
-  	- 自动深度迁移学习
-  	- Automatic domain adaptation
+  - 20200813 ICML-20 [On Learning Language-Invariant Representations for Universal Machine Translation](https://arxiv.org/abs/2008.04510)
+    - Theory for universal machine translation
+    - 对统一机器翻译模型进行了理论论证
+- 20200813 ECCV-20 [Learning to Cluster under Domain Shift](https://arxiv.org/abs/2008.04646)
+    - Learning to cluster under domain shift
+    - 在domain shift的情况下进行聚类
+- 20200813 [Transfer Learning for Protein Structure Classification and Function Inference at Low Resolution](https://arxiv.org/abs/2008.04757)
+    - 迁移学习用于低分辨率下的蛋白质结构分类
+- 20200813 [A Boundary Based Out-of-Distribution Classifier for Generalized Zero-Shot Learning](https://arxiv.org/abs/2008.04872)
+    - OOD classifier for generalized zero-shot learning
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
@@ -178,11 +174,19 @@ Here are some articles on transfer learning theory and survey.
   - NIPS-08 [Learning Bounds for Domain Adaptation](http://papers.nips.cc/paper/3212-learning-bounds-for-domain-adaptation)
   - COLT-09 [Domain adaptation: Learning bounds and algorithms](https://arxiv.org/abs/0902.3430)
 
-- Latest theory papers - 近期值得注意的理论分析文章：
+- Latest theory papers
+  - ICML-20 [Few-shot domain adaptation by causal mechanism transfer](https://arxiv.org/pdf/2002.03497.pdf)
+  	- The first work on causal transfer learning
+  	- 日本理论组大佬Sugiyama的工作，causal transfer learning
+
+  - CVPR-19 [Characterizing and Avoiding Negative Transfer](https://arxiv.org/abs/1811.09751)
+  	- Characterizing and avoid negative transfer
+  	- 形式化并提出如何避免负迁移
+  - ICML-20 [On Learning Language-Invariant Representations for Universal Machine Translation](https://arxiv.org/abs/2008.04510)
+    - Theory for universal machine translation
+    - 对统一机器翻译模型进行了理论论证
   - ICML-19 [Bridging Theory and Algorithm for Domain Adaptation](http://proceedings.mlr.press/v97/zhang19i.html)
   - 最近几年在ICML、NIPS、COLT、ALT上出现了一些理论分析的文章，以domain adaptation为关键字可以搜索到。
-
-- 理论研究方面，重点关注Alex Smola、Ben-David、Bernhard Schölkopf、Arthur Gretton等人的研究。
 
 - MMD (Maximum mean discrepancy):
   - MMD的提出：[A Hilbert Space Embedding for Distributions](https://link.springer.com/chapter/10.1007/978-3-540-75225-7_5) 以及 [A Kernel Two-Sample Test](http://www.jmlr.org/papers/v13/gretton12a.html)
