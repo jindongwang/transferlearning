@@ -59,16 +59,17 @@ author = {Wang, Jindong and others}
 [迁移学习文章汇总 Awesome transfer learning papers](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
 - **Weekly latest papers**
+  - 20200821 ECCV-20 [Towards Recognizing Unseen Categories in Unseen Domains](https://arxiv.org/abs/2007.12256)
+    - Recognizing unseen classes in unseen domains
+    - 对未知领域识别未知类
+- 20200821 [Self-Supervised Learning Across Domains](https://arxiv.org/abs/2007.12368)
+    - 跨领域自监督学习
   - 20200813 ICML-20 [On Learning Language-Invariant Representations for Universal Machine Translation](https://arxiv.org/abs/2008.04510)
     - Theory for universal machine translation
     - 对统一机器翻译模型进行了理论论证
 - 20200813 ECCV-20 [Learning to Cluster under Domain Shift](https://arxiv.org/abs/2008.04646)
     - Learning to cluster under domain shift
     - 在domain shift的情况下进行聚类
-- 20200813 [Transfer Learning for Protein Structure Classification and Function Inference at Low Resolution](https://arxiv.org/abs/2008.04757)
-    - 迁移学习用于低分辨率下的蛋白质结构分类
-- 20200813 [A Boundary Based Out-of-Distribution Classifier for Generalized Zero-Shot Learning](https://arxiv.org/abs/2008.04872)
-    - OOD classifier for generalized zero-shot learning
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
