@@ -59,17 +59,12 @@ author = {Wang, Jindong and others}
 [迁移学习文章汇总 Awesome transfer learning papers](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
 - **Weekly latest papers**
-  - 20200821 ECCV-20 [Towards Recognizing Unseen Categories in Unseen Domains](https://arxiv.org/abs/2007.12256)
-    - Recognizing unseen classes in unseen domains
-    - 对未知领域识别未知类
-- 20200821 [Self-Supervised Learning Across Domains](https://arxiv.org/abs/2007.12368)
-    - 跨领域自监督学习
-  - 20200813 ICML-20 [On Learning Language-Invariant Representations for Universal Machine Translation](https://arxiv.org/abs/2008.04510)
-    - Theory for universal machine translation
-    - 对统一机器翻译模型进行了理论论证
-- 20200813 ECCV-20 [Learning to Cluster under Domain Shift](https://arxiv.org/abs/2008.04646)
-    - Learning to cluster under domain shift
-    - 在domain shift的情况下进行聚类
+  - 20200914 ECML-PKDD-20 [Towards Interpretable Multi-Task Learning Using Bilevel Programming](https://arxiv.org/abs/2009.05483)
+    - 用bilevel programming解释多任务学习
+  - 20200914 [A First Step Towards Distribution Invariant Regression Metrics](https://arxiv.org/abs/2009.05176)
+    - 分布无关的回归评价
+  - 20200914 [Transfer Learning of Graph Neural Networks with Ego-graph Information Maximization](https://arxiv.org/abs/2009.05204)
+    - 迁移学习用于GNN
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 

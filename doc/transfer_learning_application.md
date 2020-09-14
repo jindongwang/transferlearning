@@ -2,6 +2,9 @@
 
 迁移学习的应用
 
+- 20200914 [Transfer Learning of Graph Neural Networks with Ego-graph Information Maximization](https://arxiv.org/abs/2009.05204)
+    - 迁移学习用于GNN
+
 - 20200813 [Transfer Learning for Protein Structure Classification and Function Inference at Low Resolution](https://arxiv.org/abs/2008.04757)
     - 迁移学习用于低分辨率下的蛋白质结构分类
 

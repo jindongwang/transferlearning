@@ -72,6 +72,9 @@ Let's read some awesome transfer learning / domain adaptation papers.
 	- 对domain adaptation进行了一些理论上的分析
 
 ### 1.1.2. Others (其他)
+
+- 20200914 [A First Step Towards Distribution Invariant Regression Metrics](https://arxiv.org/abs/2009.05176)
+    - 分布无关的回归评价
 - 20200821 ECCV-20 [Towards Recognizing Unseen Categories in Unseen Domains](https://arxiv.org/abs/2007.12256)
     - Recognizing unseen classes in unseen domains
     - 对未知领域识别未知类
@@ -1321,6 +1324,9 @@ Including domain adaptation and partial domain adaptation.
 - - -
 
 ## 1.9. Multi-task Learning (多任务学习)
+
+- 20200914 ECML-PKDD-20 [Towards Interpretable Multi-Task Learning Using Bilevel Programming](https://arxiv.org/abs/2009.05483)
+    - 用bilevel programming解释多任务学习
 
 - 20191202 arXiv [AdaShare: Learning What To Share For Efficient Deep Multi-Task Learning](https://arxiv.org/abs/1911.12423)
    - Learning what to share for multi-task learning
