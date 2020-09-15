@@ -59,6 +59,8 @@ author = {Wang, Jindong and others}
 [迁移学习文章汇总 Awesome transfer learning papers](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
 - **Weekly latest papers**
+  - 20200915 [Overcoming Negative Transfer: A Survey](https://arxiv.org/abs/2009.00909)
+    - 负迁移的综述
   - 20200914 ECML-PKDD-20 [Towards Interpretable Multi-Task Learning Using Bilevel Programming](https://arxiv.org/abs/2009.05483)
     - 用bilevel programming解释多任务学习
   - 20200914 [A First Step Towards Distribution Invariant Regression Metrics](https://arxiv.org/abs/2009.05176)
@@ -142,7 +144,7 @@ Here are some articles on transfer learning theory and survey.
 - The most influential survey on transfer learning （最权威和经典的综述）: [A survey on transfer learning](http://ieeexplore.ieee.org/abstract/document/5288526/).
 
 - Latest survey - 较新的综述：
-
+  - 2020 负迁移的综述：[Overcoming Negative Transfer: A Survey](https://arxiv.org/abs/2009.00909)
 	- 2020 知识蒸馏的综述: [Knowledge Distillation: A Survey](https://arxiv.org/abs/2006.05525)
     - 用transfer learning进行sentiment classification的综述：[A Survey of Sentiment Analysis Based on Transfer Learning](https://ieeexplore.ieee.org/abstract/document/8746210) 
 	- 2019 一篇新survey：[Transfer Adaptation Learning: A Decade Survey](https://arxiv.org/abs/1903.04687)
