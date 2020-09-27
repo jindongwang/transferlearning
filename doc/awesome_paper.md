@@ -73,6 +73,9 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 ### 1.1.2. Others (其他)
 
+- 20200927 [Privacy-preserving Transfer Learning via Secure Maximum Mean Discrepancy](https://arxiv.org/abs/2009.11680)
+    - 加密情况下的MMD用于迁移学习
+
 - 20200914 [A First Step Towards Distribution Invariant Regression Metrics](https://arxiv.org/abs/2009.05176)
     - 分布无关的回归评价
 - 20200821 ECCV-20 [Towards Recognizing Unseen Categories in Unseen Domains](https://arxiv.org/abs/2007.12256)
@@ -1324,6 +1327,9 @@ Including domain adaptation and partial domain adaptation.
 - - -
 
 ## 1.9. Multi-task Learning (多任务学习)
+
+- 20200927 [Knowledge Distillation for Multi-task Learning](https://arxiv.org/abs/2007.06889)
+    - 针对多任务学习的知识蒸馏
 
 - 20200914 ECML-PKDD-20 [Towards Interpretable Multi-Task Learning Using Bilevel Programming](https://arxiv.org/abs/2009.05483)
     - 用bilevel programming解释多任务学习

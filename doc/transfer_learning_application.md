@@ -2,6 +2,12 @@
 
 迁移学习的应用
 
+- 20200927 [Transfer Learning by Cascaded Network to identify and classify lung nodules for cancer detection](https://arxiv.org/abs/2009.11587)
+    - 迁移学习用于肺癌检测
+
+- 20200927 EMNLP-20 [Feature Adaptation of Pre-Trained Language Models across Languages and Domains for Text Classification](https://arxiv.org/abs/2009.11538)
+    - 跨语言和领域的预训练模型用于文本分类
+
 - 20200914 [Transfer Learning of Graph Neural Networks with Ego-graph Information Maximization](https://arxiv.org/abs/2009.05204)
     - 迁移学习用于GNN
 
