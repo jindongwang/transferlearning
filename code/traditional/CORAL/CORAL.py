@@ -26,7 +26,7 @@ class CORAL:
         cov_tar = np.cov(Xt.T) + np.eye(Xt.shape[1])
         A_coral = np.dot(scipy.linalg.fractional_matrix_power(cov_src, -0.5),
                          scipy.linalg.fractional_matrix_power(cov_tar, 0.5))
-        Xs_new = np.dot(Xs, A_coral)
+        Xs_new = np.real(np.dot(Xs, A_coral))
         return Xs_new
 
     def fit_predict(self, Xs, Ys, Xt, Yt):

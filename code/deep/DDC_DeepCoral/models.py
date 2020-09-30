@@ -1,5 +1,4 @@
 import torch.nn as nn
-import torchvision
 from Coral import CORAL
 import mmd
 import backbone
