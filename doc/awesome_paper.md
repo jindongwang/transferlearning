@@ -73,6 +73,11 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 ### 1.1.2. Others (其他)
 
+ - 20201016 [Deep Ensembles for Low-Data Transfer Learning](https://arxiv.org/abs/2010.06866)
+    - Deep ensemble models for transfer learning
+- 20201016 [Energy-based Out-of-distribution Detection](https://arxiv.org/abs/2010.03759)
+    - Energy-based OOD
+
 - 20200927 [Privacy-preserving Transfer Learning via Secure Maximum Mean Discrepancy](https://arxiv.org/abs/2009.11680)
     - 加密情况下的MMD用于迁移学习
 

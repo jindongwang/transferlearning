@@ -60,18 +60,16 @@ author = {Wang, Jindong and others}
 
 - **Weekly latest papers**
 
+  - 20201016 [Deep Ensembles for Low-Data Transfer Learning](https://arxiv.org/abs/2010.06866)
+    - Deep ensemble models for transfer learning
+  - 20201016 [Energy-based Out-of-distribution Detection](https://arxiv.org/abs/2010.03759)
+    - Energy-based OOD
   - 20200927 [Privacy-preserving Transfer Learning via Secure Maximum Mean Discrepancy](https://arxiv.org/abs/2009.11680)
     - 加密情况下的MMD用于迁移学习
   - 20200927 EMNLP-20 [Feature Adaptation of Pre-Trained Language Models across Languages and Domains for Text Classification](https://arxiv.org/abs/2009.11538)
     - 跨语言和领域的预训练模型用于文本分类
   - 20200927 [Transfer Learning by Cascaded Network to identify and classify lung nodules for cancer detection](https://arxiv.org/abs/2009.11587)
     - 迁移学习用于肺癌检测
-  - 20200927 [Knowledge Distillation for Multi-task Learning](https://arxiv.org/abs/2007.06889)
-    - 针对多任务学习的知识蒸馏
-  - 20200915 [Overcoming Negative Transfer: A Survey](https://arxiv.org/abs/2009.00909)
-    - 负迁移的综述
-  - 20200914 ECML-PKDD-20 [Towards Interpretable Multi-Task Learning Using Bilevel Programming](https://arxiv.org/abs/2009.05483)
-    - 用bilevel programming解释多任务学习
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
