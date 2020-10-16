@@ -1,5 +1,6 @@
 from torchvision import datasets, transforms
 import torch
+import os
 
 
 def load_data(root_path, dir, batch_size, phase):
@@ -17,7 +18,7 @@ def load_data(root_path, dir, batch_size, phase):
          transforms.Normalize(mean=[0.485, 0.456, 0.406],
                               std=[0.229, 0.224, 0.225]),
          ])}
-    data = datasets.ImageFolder(root=root_path + dir, transform=transform_dict[phase])
+    data = datasets.ImageFolder(root=os.path.join(root_path, dir), transform=transform_dict[phase])
     data_loader = torch.utils.data.DataLoader(data, batch_size=batch_size, shuffle=True, drop_last=False, num_workers=4)
     return data_loader
 
@@ -36,7 +37,7 @@ def load_train(root_path, dir, batch_size, phase):
              transforms.Normalize(mean=[0.485, 0.456, 0.406],
                                   std=[0.229, 0.224, 0.225]),
              ])}
-    data = datasets.ImageFolder(root=root_path + dir, transform=transform_dict[phase])
+    data = datasets.ImageFolder(root=os.path.join(root_path, dir), transform=transform_dict[phase])
     train_size = int(0.8 * len(data))
     test_size = len(data) - train_size
     data_train, data_val = torch.utils.data.random_split(data, [train_size, test_size])

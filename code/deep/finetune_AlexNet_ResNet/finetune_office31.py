@@ -13,36 +13,34 @@ import time
 
 # Command setting
 parser = argparse.ArgumentParser(description='Finetune')
-parser.add_argument('-model', '-m', type=str,
-                    help='model name', default='resnet')
-parser.add_argument('-batchsize', '-b', type=int,
-                    help='batch size', default=64)
-parser.add_argument('-cuda', '-g', type=int, help='cuda id', default=0)
-parser.add_argument('-source', '-src', type=str, default='amazon')
-parser.add_argument('-target', '-tar', type=str, default='webcam')
+parser.add_argument('--model', type=str, default='resnet')
+parser.add_argument('--batchsize', type=int, default=64)
+parser.add_argument('--src', type=str, default='amazon')
+parser.add_argument('--tar', type=str, default='webcam')
+parser.add_argument('--n_class', type=int, default=31)
+parser.add_argument('--lr', type=float, default=1e-4)
+parser.add_argument('--n_epoch', type=int, default=100)
+parser.add_argument('--momentum', type=float, default=0.9)
+parser.add_argument('--decay', type=float, default=5e-4)
+parser.add_argument('--data', type=str, default='Your dataset folder')
+parser.add_argument('--early_stop', type=int, default=20)
 args = parser.parse_args()
 
 # Parameter setting
-DEVICE = torch.device('cuda:' + str(args.cuda)
-                      if torch.cuda.is_available() else 'cpu')
-N_CLASS = 31
-LEARNING_RATE = 1e-4
+DEVICE = torch.device('cuda')
 BATCH_SIZE = {'src': int(args.batchsize), 'tar': int(args.batchsize)}
-N_EPOCH = 100
-MOMENTUM = 0.9
-DECAY = 5e-4
 
 
 def load_model(name='alexnet'):
     if name == 'alexnet':
         model = torchvision.models.alexnet(pretrained=True)
         n_features = model.classifier[6].in_features
-        fc = torch.nn.Linear(n_features, N_CLASS)
+        fc = torch.nn.Linear(n_features, args.n_class)
         model.classifier[6] = fc
     elif name == 'resnet':
         model = torchvision.models.resnet50(pretrained=True)
         n_features = model.fc.in_features
-        fc = torch.nn.Linear(n_features, N_CLASS)
+        fc = torch.nn.Linear(n_features, args.n_class)
         model.fc = fc
     model.fc.weight.data.normal_(0, 0.005)
     model.fc.bias.data.fill_(0.1)
@@ -50,7 +48,7 @@ def load_model(name='alexnet'):
 
 
 def get_optimizer(model_name):
-    learning_rate = LEARNING_RATE
+    learning_rate = args.lr
     if model_name == 'alexnet':
         param_group = [
             {'params': model.features.parameters(), 'lr': learning_rate}]
@@ -66,7 +64,7 @@ def get_optimizer(model_name):
                 param_group += [{'params': v, 'lr': learning_rate}]
             else:
                 param_group += [{'params': v, 'lr': learning_rate * 10}]
-    optimizer = optim.SGD(param_group, momentum=MOMENTUM)
+    optimizer = optim.SGD(param_group, momentum=args.momentum)
     return optimizer
 
 
@@ -78,21 +76,35 @@ def lr_schedule(optimizer, epoch):
     for i in range(len(optimizer.param_groups)):
         if i < len(optimizer.param_groups) - 1:
             optimizer.param_groups[i]['lr'] = lr_decay(
-                LEARNING_RATE, N_EPOCH, epoch)
+                args.lr, args.n_epoch, epoch)
         else:
             optimizer.param_groups[i]['lr'] = lr_decay(
-                LEARNING_RATE, N_EPOCH, epoch) * 10
+                args.lr, args.n_epoch, epoch) * 10
 
+def test(model, target_test_loader):
+    model.eval()
+    correct = 0
+    criterion = torch.nn.CrossEntropyLoss()
+    len_target_dataset = len(target_test_loader.dataset)
+    with torch.no_grad():
+        for data, target in target_test_loader:
+            data, target = data.to(DEVICE), target.to(DEVICE)
+            s_output = model(data)
+            loss = criterion(s_output, target)
+            pred = torch.max(s_output, 1)[1]
+            correct += torch.sum(pred == target)
+    acc = correct.double() / len(target_test_loader.dataset)
+    return acc
 
 def finetune(model, dataloaders, optimizer):
     since = time.time()
-    best_acc = 0.0
-    acc_hist = []
+    best_acc = 0
     criterion = nn.CrossEntropyLoss()
-    for epoch in range(1, N_EPOCH + 1):
+    stop = 0
+    for epoch in range(1, args.n_epoch + 1):
+        stop += 1
+        # You can uncomment this line for scheduling learning rate
         # lr_schedule(optimizer, epoch)
-        print('Learning rate: {:.8f}'.format(optimizer.param_groups[0]['lr']))
-        print('Learning rate: {:.8f}'.format(optimizer.param_groups[-1]['lr']))
         for phase in ['src', 'val', 'tar']:
             if phase == 'src':
                 model.train()
@@ -113,40 +125,35 @@ def finetune(model, dataloaders, optimizer):
                 correct += torch.sum(preds == labels.data)
             epoch_loss = total_loss / len(dataloaders[phase].dataset)
             epoch_acc = correct.double() / len(dataloaders[phase].dataset)
-            acc_hist.append([epoch_loss, epoch_acc])
-            print('Epoch: [{:02d}/{:02d}]---{}, loss: {:.6f}, acc: {:.4f}'.format(epoch, N_EPOCH, phase, epoch_loss,
+            print('Epoch: [{:02d}/{:02d}]---{}, loss: {:.6f}, acc: {:.4f}'.format(epoch, args.n_epoch, phase, epoch_loss,
                                                                                   epoch_acc))
-            if phase == 'tar' and epoch_acc > best_acc:
+            if phase == 'val' and epoch_acc > best_acc:
+                stop = 0
                 best_acc = epoch_acc
+                torch.save(model.state_dict(), 'model.pkl')
+        if stop >= args.early_stop:
+            break
         print()
-        fname = 'finetune_result' + model_name + \
-            str(LEARNING_RATE) + str(args.source) + \
-            '-' + str(args.target) + '.csv'
-        np.savetxt(fname, np.asarray(a=acc_hist, dtype=float), delimiter=',',
-                   fmt='%.4f')
+    model.load_state_dict(torch.load('model.pkl'))
+    acc_test = test(model, dataloaders['tar'])
     time_pass = time.time() - since
-    print('Training complete in {:.0f}m {:.0f}s'.format(
-        time_pass // 60, time_pass % 60))
-
-    return model, best_acc, acc_hist
+    print('Training complete in {:.0f}m {:.0f}s'.format(time_pass // 60, time_pass % 60))
+    return model, acc_test
 
 
 if __name__ == '__main__':
     torch.manual_seed(10)
     # Load data
-    root_dir = 'data/OFFICE31/'
-    domain = {'src': str(args.source), 'tar': str(args.target)}
+    root_dir = args.data
+    domain = {'src': str(args.src), 'tar': str(args.tar)}
     dataloaders = {}
-    dataloaders['tar'] = data_loader.load_data(
-        root_dir, domain['tar'], BATCH_SIZE['tar'], 'tar')
-    dataloaders['src'], dataloaders['val'] = data_loader.load_train(
-        root_dir, domain['src'], BATCH_SIZE['src'], 'src')
-    print(len(dataloaders['src'].dataset), len(dataloaders['val'].dataset))
+    dataloaders['tar'] = data_loader.load_data(root_dir, domain['tar'], BATCH_SIZE['tar'], 'tar')
+    dataloaders['src'], dataloaders['val'] = data_loader.load_train(root_dir, domain['src'], BATCH_SIZE['src'], 'src')
     # Load model
     model_name = str(args.model)
     model = load_model(model_name).to(DEVICE)
-    print('Source:{}, target:{}, model: {}'.format(
-        domain['src'], domain['tar'], model_name))
+    print('Source: {} ({}), target: {} ({}), model: {}'.format(
+        domain['src'], len(dataloaders['src'].dataset), domain['tar'], len(dataloaders['val'].dataset), model_name))
     optimizer = get_optimizer(model_name)
-    model_best, best_acc, acc_hist = finetune(model, dataloaders, optimizer)
-    print('{}Best acc: {}'.format('*' * 10, best_acc))
+    model_best, best_acc = finetune(model, dataloaders, optimizer)
+    print('Best acc: {}'.format(best_acc))

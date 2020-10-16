@@ -56,8 +56,8 @@ class KMM:
         K = kernel(self.kernel_type, Xs, None, self.gamma)
         kappa = np.sum(kernel(self.kernel_type, Xs, Xt, self.gamma) * float(ns) / float(nt), axis=1)
 
-        K = matrix(K)
-        kappa = matrix(kappa)
+        K = matrix(K.astype(np.double))
+        kappa = matrix(kappa.astype(np.double))
         G = matrix(np.r_[np.ones((1, ns)), -np.ones((1, ns)), np.eye(ns), -np.eye(ns)])
         h = matrix(np.r_[ns * (1 + self.eps), ns * (self.eps - 1), self.B * np.ones((ns,)), np.zeros((ns,))])
 
@@ -74,3 +74,4 @@ if __name__ == '__main__':
     beta = kmm.fit(Xs, Xt)
     print(beta)
     print(beta.shape)
+    # If you want to perform classification, you can get the new Xs by Xs_new = beta * Xs, then train a classifier on Xs_new.
