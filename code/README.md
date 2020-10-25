@@ -43,6 +43,9 @@ Testing **dataset** can be found [here](https://github.com/jindongwang/transferl
 ## Useful tools 常用工具
 
 - Feature visualization using t-SNE (用t-SNE进行特征可视化)：[Python](https://github.com/jindongwang/transferlearning/tree/master/code/utils/feature_vis.py)
+- **Gradient Reversal Layer (梯度反转层，GRL)**：[Pytorch](https://github.com/jindongwang/transferlearning/tree/master/code/utils/grl.py)
+  - Support all Pytorch versions! (We know that `autograd` has been changed since 1.0)
+
 
 ## Traditional transfer learning methods  非深度迁移
 
