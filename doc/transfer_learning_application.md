@@ -2,6 +2,15 @@
 
 迁移学习的应用
 
+- 20201116 [Cross-Domain Learning for Classifying Propaganda in Online Contents](https://arxiv.org/abs/2011.06844)
+    - 跨领域学习用于检测在线推广
+- 20201116 [Arabic Dialect Identification Using BERT-Based Domain Adaptation](https://arxiv.org/abs/2011.06977)
+    - 用基于BERT的domain adaptation进行阿拉伯方言识别
+- 20201116 [Filter Pre-Pruning for Improved Fine-tuning of Quantized Deep Neural Networks](https://arxiv.org/abs/2011.06751)
+    - 量子神经网络中的finetune
+- 20201116 [A Study of Domain Generalization on Ultrasound-based Multi-Class Segmentation of Arteries, Veins, Ligaments, and Nerves Using Transfer Learning](https://arxiv.org/abs/2011.07019)
+    - Domain generalization用于医学分类
+
 - 20200927 [Transfer Learning by Cascaded Network to identify and classify lung nodules for cancer detection](https://arxiv.org/abs/2009.11587)
     - 迁移学习用于肺癌检测
 

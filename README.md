@@ -60,16 +60,16 @@ author = {Wang, Jindong and others}
 
 - **Weekly latest papers**
 
-  - 20201016 [Deep Ensembles for Low-Data Transfer Learning](https://arxiv.org/abs/2010.06866)
-    - Deep ensemble models for transfer learning
-  - 20201016 [Energy-based Out-of-distribution Detection](https://arxiv.org/abs/2010.03759)
-    - Energy-based OOD
-  - 20200927 [Privacy-preserving Transfer Learning via Secure Maximum Mean Discrepancy](https://arxiv.org/abs/2009.11680)
-    - 加密情况下的MMD用于迁移学习
-  - 20200927 EMNLP-20 [Feature Adaptation of Pre-Trained Language Models across Languages and Domains for Text Classification](https://arxiv.org/abs/2009.11538)
-    - 跨语言和领域的预训练模型用于文本分类
-  - 20200927 [Transfer Learning by Cascaded Network to identify and classify lung nodules for cancer detection](https://arxiv.org/abs/2009.11587)
-    - 迁移学习用于肺癌检测
+  - 20201116 [Cross-Domain Learning for Classifying Propaganda in Online Contents](https://arxiv.org/abs/2011.06844)
+    - 跨领域学习用于检测在线推广
+  - 20201116 [Arabic Dialect Identification Using BERT-Based Domain Adaptation](https://arxiv.org/abs/2011.06977)
+    - 用基于BERT的domain adaptation进行阿拉伯方言识别
+  - 20201116 [Filter Pre-Pruning for Improved Fine-tuning of Quantized Deep Neural Networks](https://arxiv.org/abs/2011.06751)
+    - 量子神经网络中的finetune
+  - 20201116 [Transductive Zero-Shot Learning using Cross-Modal CycleGAN](https://arxiv.org/abs/2011.06850)
+    - 用跨模态的cycleGAN进行传递式zero-shot学习
+  - 20201116 [A Study of Domain Generalization on Ultrasound-based Multi-Class Segmentation of Arteries, Veins, Ligaments, and Nerves Using Transfer Learning](https://arxiv.org/abs/2011.07019)
+    - Domain generalization用于医学分类
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 

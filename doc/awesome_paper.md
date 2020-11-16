@@ -781,6 +781,9 @@ Including domain adaptation and partial domain adaptation.
 
 ## 1.7. Zero-shot / Few-shot Learning
 
+- 20201116 [Filter Pre-Pruning for Improved Fine-tuning of Quantized Deep Neural Networks](https://arxiv.org/abs/2011.06751)
+    - 量子神经网络中的finetune
+
 - 20200608 ICML-20 [Few-Shot Learning as Domain Adaptation: Algorithm and Analysis](https://arxiv.org/abs/2002.02050)
     - Using domain adaptation to solve the few-shot learning
 
