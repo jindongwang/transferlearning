@@ -60,16 +60,12 @@ author = {Wang, Jindong and others}
 
 - **Weekly latest papers**
 
-  - 20201116 [Cross-Domain Learning for Classifying Propaganda in Online Contents](https://arxiv.org/abs/2011.06844)
-    - 跨领域学习用于检测在线推广
-  - 20201116 [Arabic Dialect Identification Using BERT-Based Domain Adaptation](https://arxiv.org/abs/2011.06977)
-    - 用基于BERT的domain adaptation进行阿拉伯方言识别
-  - 20201116 [Filter Pre-Pruning for Improved Fine-tuning of Quantized Deep Neural Networks](https://arxiv.org/abs/2011.06751)
-    - 量子神经网络中的finetune
-  - 20201116 [Transductive Zero-Shot Learning using Cross-Modal CycleGAN](https://arxiv.org/abs/2011.06850)
-    - 用跨模态的cycleGAN进行传递式zero-shot学习
-  - 20201116 [A Study of Domain Generalization on Ultrasound-based Multi-Class Segmentation of Arteries, Veins, Ligaments, and Nerves Using Transfer Learning](https://arxiv.org/abs/2011.07019)
-    - Domain generalization用于医学分类
+  - 20201203 [Unpaired Image-to-Image Translation via Latent Energy Transport](https://arxiv.org/abs/2012.00649)
+    - 用能量模型做图像翻译
+  - 20201203 [Pre-Trained Image Processing Transformer](https://arxiv.org/abs/2012.00364)
+    - 用transformer做low-level的图像任务
+  - 20201203 [How to fine-tune deep neural networks in few-shot learning?](https://arxiv.org/abs/2012.00204)
+    - 对few-shot任务如何fine-tune深度网络？
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 

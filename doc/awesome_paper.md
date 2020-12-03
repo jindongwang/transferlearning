@@ -73,7 +73,13 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 ### 1.1.2. Others (其他)
 
- - 20201016 [Deep Ensembles for Low-Data Transfer Learning](https://arxiv.org/abs/2010.06866)
+- 20201203 [Pre-Trained Image Processing Transformer](https://arxiv.org/abs/2012.00364)
+    - 用transformer做low-level的图像任务
+
+
+- 20201203 [Unpaired Image-to-Image Translation via Latent Energy Transport](https://arxiv.org/abs/2012.00649)
+    - 用能量模型做图像翻译
+- 20201016 [Deep Ensembles for Low-Data Transfer Learning](https://arxiv.org/abs/2010.06866)
     - Deep ensemble models for transfer learning
 - 20201016 [Energy-based Out-of-distribution Detection](https://arxiv.org/abs/2010.03759)
     - Energy-based OOD
@@ -780,6 +786,9 @@ Including domain adaptation and partial domain adaptation.
 - - -
 
 ## 1.7. Zero-shot / Few-shot Learning
+
+- 20201203 [How to fine-tune deep neural networks in few-shot learning?](https://arxiv.org/abs/2012.00204)
+    - 对few-shot任务如何fine-tune深度网络？
 
 - 20201116 [Filter Pre-Pruning for Improved Fine-tuning of Quantized Deep Neural Networks](https://arxiv.org/abs/2011.06751)
     - 量子神经网络中的finetune
