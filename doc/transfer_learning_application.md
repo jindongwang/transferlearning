@@ -2,6 +2,11 @@
 
 迁移学习的应用
 
+- 20201208 [Domain Adaptation of Aerial Semantic Segmentation](http://arxiv.org/abs/2012.02264)
+    - 用domain adaptation做航空图像分割
+- 20201208 [Fine-tuning BERT for Low-Resource Natural Language Understanding via Active Learning](http://arxiv.org/abs/2012.02462)
+    - 用BERT结合主动学习进行低资源的NLP任务
+
 - 20201116 [Cross-Domain Learning for Classifying Propaganda in Online Contents](https://arxiv.org/abs/2011.06844)
     - 跨领域学习用于检测在线推广
 - 20201116 [Arabic Dialect Identification Using BERT-Based Domain Adaptation](https://arxiv.org/abs/2011.06977)

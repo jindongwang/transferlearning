@@ -72,11 +72,10 @@ Let's read some awesome transfer learning / domain adaptation papers.
 	- 对domain adaptation进行了一些理论上的分析
 
 ### 1.1.2. Others (其他)
-
+- 20201208 TIP [Effective Label Propagation for Discriminative Semi-Supervised Domain Adaptation](http://arxiv.org/abs/2012.02621)
+    - 用label propagation做半监督domain adaptation
 - 20201203 [Pre-Trained Image Processing Transformer](https://arxiv.org/abs/2012.00364)
     - 用transformer做low-level的图像任务
-
-
 - 20201203 [Unpaired Image-to-Image Translation via Latent Energy Transport](https://arxiv.org/abs/2012.00649)
     - 用能量模型做图像翻译
 - 20201016 [Deep Ensembles for Low-Data Transfer Learning](https://arxiv.org/abs/2010.06866)
@@ -427,6 +426,9 @@ Including domain adaptation and partial domain adaptation.
 	- 发表在IEEE Trans. Knowledge and Data Engineering期刊上
 
 ### 1.2.2. Deep / Adversarial Methods (深度/对抗迁移方法)
+
+- 20201208 NIPS-20 [Heuristic Domain Adaptation](https://proceedings.neurips.cc/paper/2020/file/555d6702c950ecb729a966504af0a635-Paper.pdf)
+    - 启发式domain adaptation
 
 - 20200804 ECCV-20 spotlight [Side-Tuning: A Baseline for Network Adaptation via Additive Side Networks](https://arxiv.org/abs/1912.13503)
     - 将现有的finetune机制进行扩展
