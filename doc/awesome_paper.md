@@ -699,7 +699,7 @@ Including domain adaptation and partial domain adaptation.
 
 - 20190902 AAAI-19 [Aligning Domain-Specific Distribution and Classifier for Cross-Domain Classification from Multiple Sources](https://www.aaai.org/ojs/index.php/AAAI/article/download/4551/4429)
   	- Multi-source domain adaptation using both features and classifier adaptation
-  	- 利用特征和分类器同时适配进行多源迁移
+  	- 利用特征和分类器同时适配进行多源迁移，效果很好
 
 - 20181212 AIKP [Multi-source Transfer Learning](https://link.springer.com/chapter/10.1007/978-3-030-00734-8_8)
     - Multi-source transfer

@@ -37,6 +37,8 @@ Finetuned ResNet-50 models For Office-31 dataset: [BaiduYun](https://pan.baidu.c
 | aaai19[25]  | JDDA      | 82.6  | 95.2  | 99.7   | 79.8  | 57.4  | 66.7  | 80.2  |
 | aaai18[26]  | MADA      | 90.1  | 97.4  | 99.6   | 87.8  | 70.3  | 66.4  | 85.2  |
 | acmmm18[27] | MEDA | 86.2  | 97.2  | 99.4  | 85.3  | 72.4  | 74.0  | 85.8 |
+| neural network19[28] | MRAN | 91.4 | 96.9 | 99.8 | 86.4 | 68.3 | 70.9 | 85.6 |
+| TNNLS20[29] | DSAN | **93.6** | **98.4** | **100.0** | **90.2** | **73.5** | **74.8** | **88.4** |
 
 ## Office-Home
 
@@ -58,7 +60,9 @@ Finetuned ResNet-50 models For Office-Home dataset: [BaiduYun](https://pan.baidu
 | icml17[21]  | JAN       | 45.9  | 61.2  | 68.9  | 50.4  | 59.7  | 61.0  | 45.8  | 43.4  | 70.3  | 63.9  | 52.4  | 76.8  | 58.3  |
 | nips18[23]  | CDAN-RM   | 49.2  | 64.8  | 72.9  | 53.8  | 62.4  | 62.9  | 49.8  | 48.8  | 71.5  | 65.8  | 56.4  | 79.2  | 61.5  |
 | nips18[23]  | CDAN-M    | 50.6  | 65.9  | 73.4  | 55.7  | 62.7  | 64.2  | 51.8  | 49.1  | 74.5  | 68.2  | 56.9  | 80.7  | 62.8  |
-| acmmm18[27] | MEDA | **55.2**  | **76.2**  | **77.3**  | **58.0**  | **73.7**  | **71.9**  | **59.3**  | **52.4**  | **77.9**  | **68.2**  | **57.5**  | **81.8**  | **67.5**  |
+| acmmm18[27] | MEDA | **55.2**  | **76.2**  | **77.3**  | 58.0  | **73.7**  | **71.9**  | 59.3  | 52.4  | 77.9  | 68.2  | 57.5  | 81.8  | **67.5**  |
+| neural network[28] | MRAN | 53.8 | 68.6 | 75.0 | 57.3 | 68.5 | 68.3 | 58.5 | 54.6 | 77.5 | 70.4 | 60.0 | 82.2 | 66.2  |
+| TNNLS20[29] | DSAN | 54.4 | 70.8 | 75.4 | **60.4** | 67.8 | 68.0 | **62.6** | **55.9** | **78.5** | **73.8** | **60.6** | **83.1** | **67.6** |
 
 ## Image-CLEF DA
 
@@ -84,7 +88,9 @@ Finetuned ResNet-50 models For ImageCLEF dataset: [BaiduYun](https://pan.baidu.c
 | nips18[23]  | CDAN-M    | 78.3  | 91.2  | 96.7  | 91.2  | 77.2  | 93.7  | 88.1  |
 | cvpr18[24]  | CAN       | 78.2  | 87.5  | 94.2  | 89.5  | 75.8  | 89.2  | 85.7  |
 | cvpr18[24] | iCAN      | 79.5  | 89.7  | 94.7  | 89.9  | 78.5  | 92.0  | 87.4  |
-| acmmm18[27] | MEDA      | **80.2**  | **91.5**  | 96.2  | **92.7**  | **79.1**  | **95.8**  | **89.3**  |
+| acmmm18[27] | MEDA      | **80.2**  | 91.5  | 96.2  | 92.7  | 79.1  | 95.8  | 89.3  |
+| neural network19[28] | MRAN      | 78.8 | 91.7 |  95.0 | 93.5 | 77.7 | 93.1 | 88.3 |
+| TNNLS20[29] | DSAN      | **80.2** | **93.3** | 97.2 | **93.8** | **80.8** |**95.9** | **90.2** |
 
 ## Office+Caltech
 
@@ -154,6 +160,7 @@ There are plenty of different configurations in MNIST+USPS datasets. Here we onl
 |  CyCADA |    95.6    |
 | PixelDA |    95.9    |
 |   UNIT  |    95.9    |
+|   DSAN  |    96.9    |
 
 ## References
 
@@ -210,5 +217,9 @@ There are plenty of different configurations in MNIST+USPS datasets. Here we onl
 [26] Zhongyi Pei, Zhangjie Cao, Mingsheng Long, and Jianmin Wang. Multi-adversarial domain adaptation. In AAAI Conference on Artificial Intelligence, 2018.
 
 [27] Wang, Jindong, et al. "Visual Domain Adaptation with Manifold Embedded Distribution Alignment." 2018 ACM Multimedia Conference on Multimedia Conference. ACM, 2018.
+
+[28] Yongchun Zhu, Fuzhen Zhuang, Jindong Wang, et al. "Multi-representation adaptation network for cross-domain image classification." Neural Network 2019, 119.
+
+[29] Yongchun Zhu, Fuzhen Zhuang, Jindong Wang, et al. "Deep Subdomain Adaptation Network for Image Classification." IEEE Transactions on Neural Networks and Learning Systems 2020.
 
 
