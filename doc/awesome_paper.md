@@ -427,6 +427,10 @@ Including domain adaptation and partial domain adaptation.
 
 ### 1.2.2. Deep / Adversarial Methods (深度/对抗迁移方法)
 
+- 20201214 WWW-20 [Domain Adaptation with Category Attention Network for Deep Sentiment Analysis](https://dl.acm.org/doi/abs/10.1145/3366423.3380088?casa_token=W6UxRKT4pDQAAAAA%3ACTbuFKp72M88OdbcURQSSua5XaM0GI2Y90795GGFv6ZiEx584ZGj8HT3x8nBSAUhvr2-DhQbnmVY1YM)
+	- Unify pivots and non-pivots, and provide interpretability for domain adaptation in sentiment analysis
+	- 统一pivots和non-pivots，并提供可解释性进行DA情感分析
+
 - 20201208 NIPS-20 [Heuristic Domain Adaptation](https://proceedings.neurips.cc/paper/2020/file/555d6702c950ecb729a966504af0a635-Paper.pdf)
     - 启发式domain adaptation
 
