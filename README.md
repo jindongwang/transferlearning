@@ -58,18 +58,27 @@ author = {Wang, Jindong and others}
 
 [迁移学习文章汇总 Awesome transfer learning papers](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
-- **Weekly latest papers**
+- **Latest papers**
+
+  - 20201215 AAAI-21 [Multilingual Transfer Learning for QA Using Translation as Data Augmentation](https://arxiv.org/abs/2012.05958)
+    - Multilingual transfer learning for QA
+    - 用于QA任务的多语言迁移学习
+
+  - 20201215 AAAI-21 [Reinforced Multi-Teacher Selection for Knowledge Distillation](http://arxiv.org/abs/2012.06048)
+    - Using RL for teacher selection for KD
+    - 在知识蒸馏中用强化学习进行老师的选择
+
+  - 20201215 [Distant Domain Transfer Learning for Medical Imaging](https://arxiv.org/abs/2012.06346)
+    - Distant domain transfer learning for medical imaging
+    - 用于COVID检测的远领域迁移学习
+
+  - 20201215 AAAI-21 [Transfer Graph Neural Networks for Pandemic Forecasting](https://arxiv.org/abs/2009.08388)
+    - GNN and transfer learning for pandemic forecasting
+    - 用基于GNN的迁移学习进行流行病预测
 
   - 20201208 TIP [Effective Label Propagation for Discriminative Semi-Supervised Domain Adaptation](http://arxiv.org/abs/2012.02621)
     - 用label propagation做半监督domain adaptation
-  - 20201208 [Domain Adaptation of Aerial Semantic Segmentation](http://arxiv.org/abs/2012.02264)
-    - 用domain adaptation做航空图像分割
-  - 20201208 [Fine-tuning BERT for Low-Resource Natural Language Understanding via Active Learning](http://arxiv.org/abs/2012.02462)
-    - 用BERT结合主动学习进行低资源的NLP任务
-  - 20201208 [Multi-source Domain Adaptation in the Deep Learning Era: A Systematic Survey](http://arxiv.org/abs/2002.12169)
-    - 多源迁移的综述
-  - 20201208 NIPS-20 [Heuristic Domain Adaptation](https://proceedings.neurips.cc/paper/2020/file/555d6702c950ecb729a966504af0a635-Paper.pdf)
-    - 启发式domain adaptation
+
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
