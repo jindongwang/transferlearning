@@ -60,6 +60,14 @@ author = {Wang, Jindong and others}
 
 - **Latest papers**
 
+  - 20201222 [Transfer Learning Through Weighted Loss Function and Group Normalization for Vessel Segmentation from Retinal Images](http://arxiv.org/abs/2012.09250)
+    - Transfer learning for vessel segmentation from retinal images
+    - 迁移学习用于视网膜血管分割
+
+  - 20201222 AAAI-21 [DecAug: Out-of-Distribution Generalization via Decomposed Feature Representation and Semantic Augmentation](http://arxiv.org/abs/2012.09382)
+    - OOD generalization
+    - 用特征分解和语义增强做OOD泛化
+
   - 20201215 AAAI-21 [Multilingual Transfer Learning for QA Using Translation as Data Augmentation](https://arxiv.org/abs/2012.05958)
     - Multilingual transfer learning for QA
     - 用于QA任务的多语言迁移学习
@@ -71,13 +79,6 @@ author = {Wang, Jindong and others}
   - 20201215 [Distant Domain Transfer Learning for Medical Imaging](https://arxiv.org/abs/2012.06346)
     - Distant domain transfer learning for medical imaging
     - 用于COVID检测的远领域迁移学习
-
-  - 20201215 AAAI-21 [Transfer Graph Neural Networks for Pandemic Forecasting](https://arxiv.org/abs/2009.08388)
-    - GNN and transfer learning for pandemic forecasting
-    - 用基于GNN的迁移学习进行流行病预测
-
-  - 20201208 TIP [Effective Label Propagation for Discriminative Semi-Supervised Domain Adaptation](http://arxiv.org/abs/2012.02621)
-    - 用label propagation做半监督domain adaptation
 
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)

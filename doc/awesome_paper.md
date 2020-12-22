@@ -72,6 +72,11 @@ Let's read some awesome transfer learning / domain adaptation papers.
 	- 对domain adaptation进行了一些理论上的分析
 
 ### 1.1.2. Others (其他)
+
+- 20201222 AAAI-21 [DecAug: Out-of-Distribution Generalization via Decomposed Feature Representation and Semantic Augmentation](http://arxiv.org/abs/2012.09382)
+    - OOD generalization
+    - 用特征分解和语义增强做OOD泛化
+
 - 20201208 TIP [Effective Label Propagation for Discriminative Semi-Supervised Domain Adaptation](http://arxiv.org/abs/2012.02621)
     - 用label propagation做半监督domain adaptation
 - 20201203 [Pre-Trained Image Processing Transformer](https://arxiv.org/abs/2012.00364)

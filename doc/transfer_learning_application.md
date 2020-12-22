@@ -2,6 +2,10 @@
 
 迁移学习的应用
 
+- 20201222 [Transfer Learning Through Weighted Loss Function and Group Normalization for Vessel Segmentation from Retinal Images](http://arxiv.org/abs/2012.09250)
+  - Transfer learning for vessel segmentation from retinal images
+  - 迁移学习用于视网膜血管分割
+
 - 20201215 AAAI-21 [Multilingual Transfer Learning for QA Using Translation as Data Augmentation](https://arxiv.org/abs/2012.05958)
     - Multilingual transfer learning for QA
     - 用于QA任务的多语言迁移学习
