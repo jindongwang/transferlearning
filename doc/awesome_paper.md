@@ -73,6 +73,9 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 ### 1.1.2. Others (其他)
 
+- 20210104 [A Closer Look at Few-Shot Crosslingual Transfer: Variance, Benchmarks and Baselines](http://arxiv.org/abs/2012.15682)
+    - A closer look at few-shot crosslingual transfer
+
 - 20201222 AAAI-21 [DecAug: Out-of-Distribution Generalization via Decomposed Feature Representation and Semantic Augmentation](http://arxiv.org/abs/2012.09382)
     - OOD generalization
     - 用特征分解和语义增强做OOD泛化

@@ -60,6 +60,9 @@ author = {Wang, Jindong and others}
 
 - **Latest papers**
 
+  - 20210104 [A Closer Look at Few-Shot Crosslingual Transfer: Variance, Benchmarks and Baselines](http://arxiv.org/abs/2012.15682)
+    - A closer look at few-shot crosslingual transfer
+
   - 20201222 [Transfer Learning Through Weighted Loss Function and Group Normalization for Vessel Segmentation from Retinal Images](http://arxiv.org/abs/2012.09250)
     - Transfer learning for vessel segmentation from retinal images
     - 迁移学习用于视网膜血管分割
@@ -76,9 +79,6 @@ author = {Wang, Jindong and others}
     - Using RL for teacher selection for KD
     - 在知识蒸馏中用强化学习进行老师的选择
 
-  - 20201215 [Distant Domain Transfer Learning for Medical Imaging](https://arxiv.org/abs/2012.06346)
-    - Distant domain transfer learning for medical imaging
-    - 用于COVID检测的远领域迁移学习
 
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
