@@ -42,11 +42,9 @@ class MMD_loss(nn.Module):
             batch_size = int(source.size()[0])
             kernels = self.guassian_kernel(
                 source, target, kernel_mul=self.kernel_mul, kernel_num=self.kernel_num, fix_sigma=self.fix_sigma)
-            with torch.no_grad():
-                XX = torch.mean(kernels[:batch_size, :batch_size])
-                YY = torch.mean(kernels[batch_size:, batch_size:])
-                XY = torch.mean(kernels[:batch_size, batch_size:])
-                YX = torch.mean(kernels[batch_size:, :batch_size])
-                loss = torch.mean(XX + YY - XY - YX)
-            torch.cuda.empty_cache()
+            XX = torch.mean(kernels[:batch_size, :batch_size])
+            YY = torch.mean(kernels[batch_size:, batch_size:])
+            XY = torch.mean(kernels[:batch_size, batch_size:])
+            YX = torch.mean(kernels[batch_size:, :batch_size])
+            loss = torch.mean(XX + YY - XY - YX)
             return loss
