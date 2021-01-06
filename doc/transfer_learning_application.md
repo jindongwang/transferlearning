@@ -2,6 +2,10 @@
 
 迁移学习的应用
 
+- 20210106 [Decoding Time Lexical Domain Adaptation for Neural Machine Translation](http://arxiv.org/abs/2101.00421)
+    - DA for NMT
+    - DA用于机器翻译任务上
+
 - 20201222 [Transfer Learning Through Weighted Loss Function and Group Normalization for Vessel Segmentation from Retinal Images](http://arxiv.org/abs/2012.09250)
   - Transfer learning for vessel segmentation from retinal images
   - 迁移学习用于视网膜血管分割

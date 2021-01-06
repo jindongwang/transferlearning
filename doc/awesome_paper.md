@@ -73,6 +73,10 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 ### 1.1.2. Others (其他)
 
+- 20210106 [Style Normalization and Restitution for DomainGeneralization and Adaptation](http://arxiv.org/abs/2101.00588)
+    - Style normalization and restitution for DA and DG
+    - 风格归一化用于DA和DG任务
+
 - 20210104 [A Closer Look at Few-Shot Crosslingual Transfer: Variance, Benchmarks and Baselines](http://arxiv.org/abs/2012.15682)
     - A closer look at few-shot crosslingual transfer
 

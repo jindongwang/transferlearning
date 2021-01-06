@@ -60,6 +60,13 @@ author = {Wang, Jindong and others}
 
 - **Latest papers**
 
+  - 20210106 [Style Normalization and Restitution for DomainGeneralization and Adaptation](http://arxiv.org/abs/2101.00588)
+    - Style normalization and restitution for DA and DG
+    - 风格归一化用于DA和DG任务
+  - 20210106 [Decoding Time Lexical Domain Adaptation for Neural Machine Translation](http://arxiv.org/abs/2101.00421)
+    - DA for NMT
+    - DA用于机器翻译任务上
+
   - 20210104 [A Closer Look at Few-Shot Crosslingual Transfer: Variance, Benchmarks and Baselines](http://arxiv.org/abs/2012.15682)
     - A closer look at few-shot crosslingual transfer
 
@@ -70,15 +77,6 @@ author = {Wang, Jindong and others}
   - 20201222 AAAI-21 [DecAug: Out-of-Distribution Generalization via Decomposed Feature Representation and Semantic Augmentation](http://arxiv.org/abs/2012.09382)
     - OOD generalization
     - 用特征分解和语义增强做OOD泛化
-
-  - 20201215 AAAI-21 [Multilingual Transfer Learning for QA Using Translation as Data Augmentation](https://arxiv.org/abs/2012.05958)
-    - Multilingual transfer learning for QA
-    - 用于QA任务的多语言迁移学习
-
-  - 20201215 AAAI-21 [Reinforced Multi-Teacher Selection for Knowledge Distillation](http://arxiv.org/abs/2012.06048)
-    - Using RL for teacher selection for KD
-    - 在知识蒸馏中用强化学习进行老师的选择
-
 
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
