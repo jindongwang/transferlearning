@@ -60,6 +60,10 @@ author = {Wang, Jindong and others}
 
 - **Latest papers**
 
+  - 20210113 [How does the Combined Risk Affect the Performance of Unsupervised Domain Adaptation Approaches?](https://arxiv.org/abs/2101.01104)
+    - The meaning of the combined risk, and how to control its increase 
+    - 组合风险的意义以及如何控制它的增长
+
   - 20210106 [Style Normalization and Restitution for DomainGeneralization and Adaptation](http://arxiv.org/abs/2101.00588)
     - Style normalization and restitution for DA and DG
     - 风格归一化用于DA和DG任务
@@ -301,7 +305,7 @@ See [HERE](https://github.com/jindongwang/transferlearning/blob/master/doc/trans
 迁移学习应用请见[这里](https://github.com/jindongwang/transferlearning/blob/master/doc/transfer_learning_application.md)。
 
 - - -
-  
+
 ## Other Resources (其他资源)
 
 - Call for papers:
@@ -317,7 +321,7 @@ See [HERE](https://github.com/jindongwang/transferlearning/blob/master/doc/trans
 
 If you are interested in contributing, please refer to [HERE](https://github.com/jindongwang/transferlearning/blob/master/CONTRIBUTING.md) for instructions in contribution.
 
-- - - 
+- - -
 
 ### Copyright notice
 
