@@ -32,6 +32,10 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 ### 1.1.1. Theory (理论)
 
+- 20210127 [A Unified Joint Maximum Mean Discrepancy for Domain Adaptation](http://arxiv.org/abs/2101.09979)
+    - 一个理论上更一般化的MMD差异用于领域自适应
+    - A more general MMD for domain adaptation
+
 - 20200813 [A Boundary Based Out-of-Distribution Classifier for Generalized Zero-Shot Learning](https://arxiv.org/abs/2008.04872)
     - OOD classifier for generalized zero-shot learning
 
@@ -438,6 +442,10 @@ Including domain adaptation and partial domain adaptation.
 	- 发表在IEEE Trans. Knowledge and Data Engineering期刊上
 
 ### 1.2.2. Deep / Adversarial Methods (深度/对抗迁移方法)
+
+- 20210127 [Hierarchical Domain Invariant Variational Auto-Encoding with weak domain supervision](http://arxiv.org/abs/2101.09436)
+    - 利用VAE和解耦去做domain generalization
+    - Using VAE and disentanglement for domain generalization
 
 - 20201214 WWW-20 [Domain Adaptation with Category Attention Network for Deep Sentiment Analysis](https://dl.acm.org/doi/abs/10.1145/3366423.3380088?casa_token=W6UxRKT4pDQAAAAA%3ACTbuFKp72M88OdbcURQSSua5XaM0GI2Y90795GGFv6ZiEx584ZGj8HT3x8nBSAUhvr2-DhQbnmVY1YM)
 	- Unify pivots and non-pivots, and provide interpretability for domain adaptation in sentiment analysis

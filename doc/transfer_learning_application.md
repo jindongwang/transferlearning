@@ -2,6 +2,10 @@
 
 迁移学习的应用
 
+- 20210127 [Transferable Interactiveness Knowledge for Human-Object Interaction Detection](http://arxiv.org/abs/2101.10292)
+    - A transferable HOI model
+    - 一个可迁移的人-物交互检测模型
+
 - 20210106 [Decoding Time Lexical Domain Adaptation for Neural Machine Translation](http://arxiv.org/abs/2101.00421)
     - DA for NMT
     - DA用于机器翻译任务上

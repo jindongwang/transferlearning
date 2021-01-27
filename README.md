@@ -60,6 +60,18 @@ author = {Wang, Jindong and others}
 
 - **Latest papers**
 
+  - 20210127 [Hierarchical Domain Invariant Variational Auto-Encoding with weak domain supervision](http://arxiv.org/abs/2101.09436)
+    - 利用VAE和解耦去做domain generalization
+    - Using VAE and disentanglement for domain generalization
+
+  - 20210127 [A Unified Joint Maximum Mean Discrepancy for Domain Adaptation](http://arxiv.org/abs/2101.09979)
+    - 一个理论上更一般化的MMD差异用于领域自适应
+    - A more general MMD for domain adaptation
+
+  - 20210127 [Transferable Interactiveness Knowledge for Human-Object Interaction Detection](http://arxiv.org/abs/2101.10292)
+    - A transferable HOI model
+    - 一个可迁移的人-物交互检测模型
+
   - 20210113 [How does the Combined Risk Affect the Performance of Unsupervised Domain Adaptation Approaches?](https://arxiv.org/abs/2101.01104)
     - The meaning of the combined risk, and how to control its increase 
     - 组合风险的意义以及如何控制它的增长
@@ -70,18 +82,6 @@ author = {Wang, Jindong and others}
   - 20210106 [Decoding Time Lexical Domain Adaptation for Neural Machine Translation](http://arxiv.org/abs/2101.00421)
     - DA for NMT
     - DA用于机器翻译任务上
-
-  - 20210104 [A Closer Look at Few-Shot Crosslingual Transfer: Variance, Benchmarks and Baselines](http://arxiv.org/abs/2012.15682)
-    - A closer look at few-shot crosslingual transfer
-
-  - 20201222 [Transfer Learning Through Weighted Loss Function and Group Normalization for Vessel Segmentation from Retinal Images](http://arxiv.org/abs/2012.09250)
-    - Transfer learning for vessel segmentation from retinal images
-    - 迁移学习用于视网膜血管分割
-
-  - 20201222 AAAI-21 [DecAug: Out-of-Distribution Generalization via Decomposed Feature Representation and Semantic Augmentation](http://arxiv.org/abs/2012.09382)
-    - OOD generalization
-    - 用特征分解和语义增强做OOD泛化
-
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
