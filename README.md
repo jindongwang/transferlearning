@@ -210,6 +210,8 @@ _ _ _
 
 请见[这里](https://github.com/jindongwang/transferlearning/tree/master/code) | Please see [HERE](https://github.com/jindongwang/transferlearning/tree/master/code) for some popular transfer learning codes.
 
+See [HERE](https://colab.research.google.com/drive/1MVuk95mMg4ecGyUAIG94vedF81HtWQAr?usp=sharing) for an instant run using Google's Colab.
+
 _ _ _
 
 ## 5.Transfer Learning Scholars (著名学者)

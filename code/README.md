@@ -12,6 +12,11 @@ Testing **dataset** can be found [here](https://github.com/jindongwang/transferl
 
 - - -
 
+## Notebooks
+
+**There's even no need to install a library or package, which will make things worse.** I've already put everything you need into a jupyter notebook, which you can access in Google's colab or just see it in this repo [here](https://github.com/jindongwang/transferlearning/tree/master/notebooks/deep_transfer_tutorial.ipynb).
+To run it instantly without any configuration, I also put it to Google's Colab: [Colab](https://colab.research.google.com/drive/1MVuk95mMg4ecGyUAIG94vedF81HtWQAr?usp=sharing)
+
 ## Fine-tune 最简单的深度迁移学习
 
 - Fine-tune using **AlexNet** and **ResNet**
