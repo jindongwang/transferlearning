@@ -77,6 +77,10 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 ### 1.1.2. Others (其他)
 
+- 20210202 ICLR-21 [Rethinking Soft Labels for Knowledge Distillation: A Bias-Variance Tradeoff Perspective](https://arxiv.org/abs/2102.00650)
+    - Rethink soft labels for KD in a bias-variance tradeoff perspective
+    - 从偏差-方差的角度重新思考蒸馏中的软标签
+
 - 20210106 [Style Normalization and Restitution for DomainGeneralization and Adaptation](http://arxiv.org/abs/2101.00588)
     - Style normalization and restitution for DA and DG
     - 风格归一化用于DA和DG任务

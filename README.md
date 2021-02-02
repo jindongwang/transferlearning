@@ -60,6 +60,17 @@ author = {Wang, Jindong and others}
 
 - **Latest papers**
 
+  - 20210202 [Admix: Enhancing the Transferability of Adversarial Attacks](https://arxiv.org/abs/2102.00436)
+    - Enhancing the transferability of adversarial attacks
+    - 增强对抗攻击的可迁移性
+
+  - 20210202 [Transfer Learning Approach for Detecting Psychological Distress in Brexit Tweets](https://arxiv.org/abs/2102.00912)
+    - 检测英国脱欧twitter中的心理压力
+
+  - 20210202 ICLR-21 [Rethinking Soft Labels for Knowledge Distillation: A Bias-Variance Tradeoff Perspective](https://arxiv.org/abs/2102.00650)
+    - Rethink soft labels for KD in a bias-variance tradeoff perspective
+    - 从偏差-方差的角度重新思考蒸馏中的软标签
+
   - 20210127 [Hierarchical Domain Invariant Variational Auto-Encoding with weak domain supervision](http://arxiv.org/abs/2101.09436)
     - 利用VAE和解耦去做domain generalization
     - Using VAE and disentanglement for domain generalization
@@ -71,17 +82,6 @@ author = {Wang, Jindong and others}
   - 20210127 [Transferable Interactiveness Knowledge for Human-Object Interaction Detection](http://arxiv.org/abs/2101.10292)
     - A transferable HOI model
     - 一个可迁移的人-物交互检测模型
-
-  - 20210113 [How does the Combined Risk Affect the Performance of Unsupervised Domain Adaptation Approaches?](https://arxiv.org/abs/2101.01104)
-    - The meaning of the combined risk, and how to control its increase 
-    - 组合风险的意义以及如何控制它的增长
-
-  - 20210106 [Style Normalization and Restitution for DomainGeneralization and Adaptation](http://arxiv.org/abs/2101.00588)
-    - Style normalization and restitution for DA and DG
-    - 风格归一化用于DA和DG任务
-  - 20210106 [Decoding Time Lexical Domain Adaptation for Neural Machine Translation](http://arxiv.org/abs/2101.00421)
-    - DA for NMT
-    - DA用于机器翻译任务上
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 

@@ -2,6 +2,13 @@
 
 迁移学习的应用
 
+- 20210202 [Admix: Enhancing the Transferability of Adversarial Attacks](https://arxiv.org/abs/2102.00436)
+    - Enhancing the transferability of adversarial attacks
+    - 增强对抗攻击的可迁移性
+
+- 20210202 [Transfer Learning Approach for Detecting Psychological Distress in Brexit Tweets](https://arxiv.org/abs/2102.00912)
+    - 检测英国脱欧twitter中的心理压力
+
 - 20210127 [Transferable Interactiveness Knowledge for Human-Object Interaction Detection](http://arxiv.org/abs/2101.10292)
     - A transferable HOI model
     - 一个可迁移的人-物交互检测模型
