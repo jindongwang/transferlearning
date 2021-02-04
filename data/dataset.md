@@ -202,7 +202,7 @@ This is a Decaf7 based cross-dataset image classification dataset. It contains 4
 
 This is a dataset from ImageCLEF 2014 challenge.
 
-[Download the ImageCLEF dataset](https://pan.baidu.com/s/1lx2u1SMlSamsHnAPWrAHWA)
+[Download the ImageCLEF dataset](https://pan.baidu.com/s/1-06SNBiG1sfwVfPwrscwGw 提取码: xftq)
 
 [Download Image-CLEF ResNet-50 pretrained features](https://pan.baidu.com/s/16wBgDJI6drA0oYq537h4FQ) | [Download from MEGA](https://mega.nz/#F!QPJCzShS!b6qQUXWnCCGBMVs0m6MdQw)
 

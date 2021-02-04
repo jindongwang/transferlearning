@@ -54,7 +54,7 @@ Download Office-31 Resnet-50 features:
 
 ### ImageCLEF
 
-[Download the ImageCLEF dataset](https://pan.baidu.com/s/1lx2u1SMlSamsHnAPWrAHWA) | [MEGA](https://mega.nz/#!AKYhEYaY!mSwEK3_9SLVSqXXNzUxNWpQymlH10vcEhuC8fbOIAwk)
+[Download the ImageCLEF dataset](https://pan.baidu.com/s/1-06SNBiG1sfwVfPwrscwGw 提取码: xftq) | [MEGA](https://mega.nz/#!AKYhEYaY!mSwEK3_9SLVSqXXNzUxNWpQymlH10vcEhuC8fbOIAwk)
 
 [Download Image-CLEF ResNet-50 pretrained features](https://pan.baidu.com/s/16wBgDJI6drA0oYq537h4FQ) | [Download from MEGA](https://mega.nz/#F!QPJCzShS!b6qQUXWnCCGBMVs0m6MdQw)
 
