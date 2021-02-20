@@ -32,6 +32,10 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 ### 1.1.1. Theory (理论)
 
+- 20200220 [Butterfly: One-step Approach towards Wildly Unsupervised Domain Adaptation](http://arxiv.org/abs/1905.07720)
+    - Noisy domain adaptation
+    - 用于噪声环境中的domain adaptation的方法
+
 - 20210127 [A Unified Joint Maximum Mean Discrepancy for Domain Adaptation](http://arxiv.org/abs/2101.09979)
     - 一个理论上更一般化的MMD差异用于领域自适应
     - A more general MMD for domain adaptation

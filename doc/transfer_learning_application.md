@@ -2,6 +2,10 @@
 
 迁移学习的应用
 
+- 20210220 [DRIV100: In-The-Wild Multi-Domain Dataset and Evaluation for Real-World Domain Adaptation of Semantic Segmentation](http://arxiv.org/abs/2102.00150)
+    - A new dataset for domain adaptation on semantic segmentation
+    - 一个用于domain adaptation做语义分割的新数据集
+
 - 20210202 [Admix: Enhancing the Transferability of Adversarial Attacks](https://arxiv.org/abs/2102.00436)
     - Enhancing the transferability of adversarial attacks
     - 增强对抗攻击的可迁移性

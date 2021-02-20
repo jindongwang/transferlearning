@@ -60,6 +60,14 @@ author = {Wang, Jindong and others}
 
 - **Latest papers**
 
+  - 20210220 [DRIV100: In-The-Wild Multi-Domain Dataset and Evaluation for Real-World Domain Adaptation of Semantic Segmentation](http://arxiv.org/abs/2102.00150)
+    - A new dataset for domain adaptation on semantic segmentation
+    - 一个用于domain adaptation做语义分割的新数据集
+
+  - 20200220 [Butterfly: One-step Approach towards Wildly Unsupervised Domain Adaptation](http://arxiv.org/abs/1905.07720)
+    - Noisy domain adaptation
+    - 用于噪声环境中的domain adaptation的方法
+
   - 20210202 [Admix: Enhancing the Transferability of Adversarial Attacks](https://arxiv.org/abs/2102.00436)
     - Enhancing the transferability of adversarial attacks
     - 增强对抗攻击的可迁移性
@@ -71,17 +79,6 @@ author = {Wang, Jindong and others}
     - Rethink soft labels for KD in a bias-variance tradeoff perspective
     - 从偏差-方差的角度重新思考蒸馏中的软标签
 
-  - 20210127 [Hierarchical Domain Invariant Variational Auto-Encoding with weak domain supervision](http://arxiv.org/abs/2101.09436)
-    - 利用VAE和解耦去做domain generalization
-    - Using VAE and disentanglement for domain generalization
-
-  - 20210127 [A Unified Joint Maximum Mean Discrepancy for Domain Adaptation](http://arxiv.org/abs/2101.09979)
-    - 一个理论上更一般化的MMD差异用于领域自适应
-    - A more general MMD for domain adaptation
-
-  - 20210127 [Transferable Interactiveness Knowledge for Human-Object Interaction Detection](http://arxiv.org/abs/2101.10292)
-    - A transferable HOI model
-    - 一个可迁移的人-物交互检测模型
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
