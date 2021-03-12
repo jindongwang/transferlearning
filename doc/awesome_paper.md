@@ -451,6 +451,14 @@ Including domain adaptation and partial domain adaptation.
 
 ### 1.2.2. Deep / Adversarial Methods (深度/对抗迁移方法)
 
+- 20210312 [Discrepancy-Based Active Learning for Domain Adaptation](https://arxiv.org/abs/2103.03757v1)
+    - Discrepancy and active learning for DA
+    - 基于主动学习的DA
+
+- 20210312 [Unbalanced minibatch Optimal Transport; applications to Domain Adaptation](https://arxiv.org/abs/2103.03606v1)
+    - Unbalanced minibatch OT for DA
+    - 非均衡的OT用于DA问题
+
 - 20210127 [Hierarchical Domain Invariant Variational Auto-Encoding with weak domain supervision](http://arxiv.org/abs/2101.09436)
     - 利用VAE和解耦去做domain generalization
     - Using VAE and disentanglement for domain generalization

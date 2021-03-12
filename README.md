@@ -60,6 +60,14 @@ author = {Wang, Jindong and others}
 
 - **Latest papers**
 
+  - 20210312 [Discrepancy-Based Active Learning for Domain Adaptation](https://arxiv.org/abs/2103.03757v1)
+    - Discrepancy and active learning for DA
+    - 基于主动学习的DA
+
+  - 20210312 [Unbalanced minibatch Optimal Transport; applications to Domain Adaptation](https://arxiv.org/abs/2103.03606v1)
+    - Unbalanced minibatch OT for DA
+    - 非均衡的OT用于DA问题
+
   - 20210220 [DRIV100: In-The-Wild Multi-Domain Dataset and Evaluation for Real-World Domain Adaptation of Semantic Segmentation](http://arxiv.org/abs/2102.00150)
     - A new dataset for domain adaptation on semantic segmentation
     - 一个用于domain adaptation做语义分割的新数据集
@@ -71,13 +79,6 @@ author = {Wang, Jindong and others}
   - 20210202 [Admix: Enhancing the Transferability of Adversarial Attacks](https://arxiv.org/abs/2102.00436)
     - Enhancing the transferability of adversarial attacks
     - 增强对抗攻击的可迁移性
-
-  - 20210202 [Transfer Learning Approach for Detecting Psychological Distress in Brexit Tweets](https://arxiv.org/abs/2102.00912)
-    - 检测英国脱欧twitter中的心理压力
-
-  - 20210202 ICLR-21 [Rethinking Soft Labels for Knowledge Distillation: A Bias-Variance Tradeoff Perspective](https://arxiv.org/abs/2102.00650)
-    - Rethink soft labels for KD in a bias-variance tradeoff perspective
-    - 从偏差-方差的角度重新思考蒸馏中的软标签
 
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
