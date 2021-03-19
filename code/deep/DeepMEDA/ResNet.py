@@ -1,11 +1,6 @@
 import torch.nn as nn
 import math
 import torch.utils.model_zoo as model_zoo
-import mmd
-import torch
-import numpy as np
-from Config import bottle_neck
-import proxy_a_distance
 
 __all__ = ['ResNet', 'resnet18', 'resnet34', 'resnet50', 'resnet101',
            'resnet152']

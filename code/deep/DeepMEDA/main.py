@@ -1,93 +1,152 @@
 import torch
 import torch.nn.functional as F
-import os
 import math
-import time
 import pretty_errors
+import argparse
+import numpy as np
 
 from deep_meda import DeepMEDA
 import data_loader
-from Config import *
 
 
-kwargs = {'num_workers': 1, 'pin_memory': True}
+def load_data(root_path, src, tar, batch_size):
+    kwargs = {'num_workers': 1, 'pin_memory': True}
+    loader_src = data_loader.load_training(root_path, src, batch_size, kwargs)
+    loader_tar = data_loader.load_training(root_path, tar, batch_size, kwargs)
+    loader_tar_test = data_loader.load_testing(
+        root_path, tar, batch_size, kwargs)
+    return loader_src, loader_tar, loader_tar_test
 
-source_loader = data_loader.load_training(root_path, source_name, batch_size, kwargs)
-target_train_loader = data_loader.load_training(root_path, target_name, batch_size, kwargs)
-target_test_loader = data_loader.load_testing(root_path, target_name, batch_size, kwargs)
 
-len_source_dataset = len(source_loader.dataset)
-len_target_dataset = len(target_test_loader.dataset)
-len_source_loader = len(source_loader)
-len_target_loader = len(target_train_loader)
-
-def train(epoch, model):
-    LEARNING_RATE = lr / math.pow((1 + 10 * (epoch - 1) / epochs), 0.75)
-    print('learning rate{: .4f}'.format(LEARNING_RATE) )
-    if bottle_neck:
+def train_epoch(epoch, model, dataloaders):
+    LEARNING_RATE = args.lr / \
+        math.pow((1 + 10 * (epoch - 1) / args.nepoch), 0.75)
+    print('learning rate{: .4f}'.format(LEARNING_RATE))
+    if args.bottleneck:
         optimizer = torch.optim.SGD([
             {'params': model.feature_layers.parameters()},
             {'params': model.bottle.parameters(), 'lr': LEARNING_RATE},
             {'params': model.cls_fc.parameters(), 'lr': LEARNING_RATE},
-        ], lr=LEARNING_RATE / 10, momentum=momentum, weight_decay=l2_decay)
+        ], lr=LEARNING_RATE / 10, momentum=args.momentum, weight_decay=args.decay)
     else:
         optimizer = torch.optim.SGD([
             {'params': model.feature_layers.parameters()},
             {'params': model.cls_fc.parameters(), 'lr': LEARNING_RATE},
-            ], lr=LEARNING_RATE / 10, momentum=momentum, weight_decay=l2_decay)
+        ], lr=LEARNING_RATE / 10, momentum=args.momentum, weight_decay=args.decay)
 
     model.train()
-
+    source_loader, target_train_loader, _ = dataloaders
     iter_source = iter(source_loader)
     iter_target = iter(target_train_loader)
-    num_iter = len_source_loader
+    num_iter = len(source_loader)
     for i in range(1, num_iter):
         data_source, label_source = iter_source.next()
         data_target, _ = iter_target.next()
-        if i % len_target_loader == 0:
+        if i % len(target_train_loader) == 0:
             iter_target = iter(target_train_loader)
         data_source, label_source = data_source.cuda(), label_source.cuda()
         data_target = data_target.cuda()
 
         optimizer.zero_grad()
-        label_source_pred, loss_c, loss_m, mu = model(data_source, data_target, label_source)
+        label_source_pred, loss_c, loss_m, mu = model(
+            data_source, data_target, label_source)
         loss_mmd = (1-mu) * loss_m + mu * loss_c
-        loss_cls = F.nll_loss(F.log_softmax(label_source_pred, dim=1), label_source)
-        lambd = 2 / (1 + math.exp(-10 * (epoch) / epochs)) - 1
-        loss = loss_cls + param * lambd * loss_mmd
+        loss_cls = F.nll_loss(F.log_softmax(
+            label_source_pred, dim=1), label_source)
+        lambd = 2 / (1 + math.exp(-10 * (epoch) / args.nepoch)) - 1
+        loss = loss_cls + args.weight * lambd * loss_mmd
+
         loss.backward()
         optimizer.step()
-        if i % log_interval == 0:
-            print(f'Epoch: [{epoch:2d}/{num_iter}]\tLoss: {loss.item():.4f}\tcls_Loss: {loss_cls.item():.4f}\tl_mar: {loss_m.item():.4f}, l_con: {loss_c.item():.4f}\tmu: {mu:.2f}')
 
-def test(model):
+        if i % args.log_interval == 0:
+            print(f'Epoch: [{epoch:2d}/{num_iter}], Loss: {loss.item():.4f}, cls_Loss: {loss_cls.item():.4f}, l_mar: {loss_m.item():.4f}, l_con: {loss_c.item():.4f}, mu: {mu:.2f}')
+
+
+def test(model, dataloader):
     model.eval()
     test_loss = 0
     correct = 0
     with torch.no_grad():
-        for data, target in target_test_loader:
+        for data, target in dataloader:
             data, target = data.cuda(), target.cuda()
             pred = model.predict(data)
-            test_loss += F.nll_loss(F.log_softmax(pred, dim = 1), target).item() # sum up batch loss
+            # sum up batch loss
+            test_loss += F.nll_loss(F.log_softmax(pred, dim=1), target).item()
             pred = pred.data.max(1)[1]
             correct += pred.eq(target.data.view_as(pred)).cpu().sum()
 
-        test_loss /= len_target_dataset
-        print(f'{target_name} set: Average loss: {test_loss:.4f}, Accuracy: {correct}/{len_target_dataset} ({100. * correct / len_target_dataset:.2f}%)')
+        test_loss /= len(dataloader)
+        print(
+            f'Average loss: {test_loss:.4f}, Accuracy: {correct}/{len(dataloader)} ({100. * correct / len(dataloader):.2f}%)')
     return correct
 
 
+def get_args():
+    def str2bool(v):
+        if v.lower() in ('yes', 'true', 't', 'y', '1'):
+            return True
+        elif v.lower() in ('no', 'false', 'f', 'n', '0'):
+            return False
+        else:
+            raise argparse.ArgumentTypeError('Unsupported value encountered.')
+
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--root_path', type=str, help='Root path for dataset',
+                        default='/data/jindongwang/office31/')
+    parser.add_argument('--src', type=str,
+                        help='Source domain', default='dslr')
+    parser.add_argument('--tar', type=str,
+                        help='Target domain', default='amazon')
+    parser.add_argument('--nclass', type=int,
+                        help='Number of classes', default=31)
+    parser.add_argument('--batch_size', type=float,
+                        help='batch size', default=32)
+    parser.add_argument('--nepoch', type=int,
+                        help='Total epoch num', default=200)
+    parser.add_argument('--lr', type=float, help='Learning rate', default=0.01)
+    parser.add_argument('--early_stop', type=int,
+                        help='Early stoping number', default=30)
+    parser.add_argument('--weight', type=float,
+                        help='Weight for adaptation loss', default=0.3)
+    parser.add_argument('--momentum', type=float, help='Momentum', default=0.9)
+    parser.add_argument('--decay', type=float,
+                        help='L2 weight decay', default=5e-4)
+    parser.add_argument('--bottleneck', type=str2bool,
+                        nargs='?', const=True, default=True)
+    parser.add_argument('--log_interval', type=int,
+                        help='Log interval', default=10)
+    args = parser.parse_args()
+    return args
+
+
 if __name__ == '__main__':
-    model = DeepMEDA(num_classes=class_num).cuda()
+    args = get_args()
+    print(vars(args))
+    SEED = 1
+    np.random.seed(SEED)
+    torch.manual_seed(SEED)
+    torch.cuda.manual_seed_all(SEED)
+    torch.backends.cudnn.deterministic = True
+    torch.backends.cudnn.benchmark = False
+
+    dataloaders = load_data(args.root_path, args.src,
+                            args.tar, args.batch_size)
+    model = DeepMEDA(num_classes=args.nclass).cuda()
     correct = 0
-    model.cuda()
-    time_start=time.time()
-    for epoch in range(1, epochs + 1):
-        train(epoch, model)
-        t_correct = test(model)
+    stop = 0
+    for epoch in range(1, args.nepoch + 1):
+        stop += 1
+        train_epoch(epoch, model, dataloaders)
+        t_correct = test(model, dataloaders[-1])
         if t_correct > correct:
             correct = t_correct
+            stop = 0
             torch.save(model, 'model.pkl')
-        end_time = time.time()
-        print(f'{source_name}-{target_name}: max correct: {correct} max accuracy: {100. * correct / len_target_dataset:.2f}%\n')
-        print('cost time:', end_time - time_start)
+        print(
+            f'{args.src}-{args.tar}: max correct: {correct} max accuracy: {100. * correct / len(dataloaders[-1].dataset):.2f}%\n')
+
+        if stop >= args.early_stop:
+            print(
+                f'Final test acc: {100. * correct / len(dataloaders[-1].dataset):.2f}%')
+            break

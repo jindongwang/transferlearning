@@ -1,6 +1,5 @@
 import numpy as np
 import torch
-from Config import class_num
 def convert_to_onehot(sca_label, class_num=31):
     return np.eye(class_num)[sca_label]
 

@@ -1,6 +1,3 @@
-# Compute A-distance using numpy and sklearn
-# Reference: Analysis of representations in domain adaptation, NIPS-07.
-
 import numpy as np
 from sklearn import svm
 
@@ -43,6 +40,9 @@ def proxy_a_distance(source_X, target_X, verbose=False):
 
 
 def estimate_mu(_X1, _Y1, _X2, _Y2):
+    """
+    Estimate value of mu using conditional and marginal A-distance.
+    """
     adist_m = proxy_a_distance(_X1, _X2)
     Cs, Ct = np.unique(_Y1), np.unique(_Y2)
     C = np.intersect1d(Cs, Ct)

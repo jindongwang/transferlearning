@@ -2,15 +2,15 @@ import torch
 import torch.nn as nn
 import ResNet
 import mmd
-from Config import bottle_neck
-import proxy_a_distance
+import dynamic_factor
 
 class DeepMEDA(nn.Module):
 
-    def __init__(self, num_classes=31):
+    def __init__(self, num_classes=31, bottle_neck=True):
         super(DeepMEDA, self).__init__()
         self.feature_layers = ResNet.resnet50(True)
-        self.mmd_marginal = mmd.MMD_loss()
+        self.mmd_loss = mmd.MMD_loss()
+        self.bottle_neck = bottle_neck
         if bottle_neck:
             self.bottle = nn.Linear(2048, 256)
             self.cls_fc = nn.Linear(256, num_classes)
@@ -20,23 +20,20 @@ class DeepMEDA(nn.Module):
 
     def forward(self, source, target, s_label):
         source = self.feature_layers(source)
-        if bottle_neck:
+        if self.bottle_neck:
             source = self.bottle(source)
         s_pred = self.cls_fc(source)
-        if self.training ==True:
-            target = self.feature_layers(target)
-            if bottle_neck:
-                target = self.bottle(target)
-            t_label = self.cls_fc(target)
-            loss_c = mmd.lmmd(source, target, s_label, torch.nn.functional.softmax(t_label, dim=1))
-            loss_m = self.mmd_marginal(source, target)
-            mu = proxy_a_distance.estimate_mu(source.detach().cpu().numpy(), s_label.detach().cpu().numpy(), target.detach().cpu().numpy(), torch.max(t_label, 1)[1].detach().cpu().numpy())
-        else:
-            loss_c, loss_m, mu = 0
+        target = self.feature_layers(target)
+        if self.bottle_neck:
+            target = self.bottle(target)
+        t_label = self.cls_fc(target)
+        loss_c = self.mmd_loss.conditional(source, target, s_label, torch.nn.functional.softmax(t_label, dim=1))
+        loss_m = self.mmd_loss.marginal(source, target)
+        mu = dynamic_factor.estimate_mu(source.detach().cpu().numpy(), s_label.detach().cpu().numpy(), target.detach().cpu().numpy(), torch.max(t_label, 1)[1].detach().cpu().numpy())
         return s_pred, loss_c, loss_m, mu
 
     def predict(self, x):
         x = self.feature_layers(x)
-        if bottle_neck:
+        if self.bottle_neck:
             x = self.bottle(x)
         return self.cls_fc(x)
