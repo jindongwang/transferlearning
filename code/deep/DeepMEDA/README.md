@@ -1,6 +1,6 @@
 # DeepMEDA (DDAN)
 
-A PyTorch implementation of 'Transfer Learning with Dynamic Distribution Adaptation' which has published on ACM Transactions on Intelligent Systems and Technology.
+A PyTorch implementation of **Transfer Learning with Dynamic Distribution Adaptation** which has published on ACM Transactions on Intelligent Systems and Technology.
 
 This is also called **DDAN (Deep Dynamic Adaptation Network)**.
 
