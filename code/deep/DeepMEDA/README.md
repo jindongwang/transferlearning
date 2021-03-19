@@ -14,18 +14,16 @@ Matlab version is [HERE](https://github.com/jindongwang/transferlearning/tree/ma
 
 ## Usage
 
-1. You can download Office31 dataset [here](https://pan.baidu.com/s/1o8igXT4#list/path=%2F). And then unrar dataset in ./dataset/.
-2. You can change the `source_name` and `target_name` in `Config.py` to set different transfer tasks.
-3. Run `python main.py`.
+1. You can download Office31 dataset [here](https://pan.baidu.com/s/1o8igXT4#list/path=%2F). Also, other datasets are supported in [here](https://github.com/jindongwang/transferlearning/tree/master/data).
+2. Run `python main.py --src dslr --tar amazon --batch_size 32`.
 
 > Note that for tasks D-A and W-A, setting epochs = 800 or larger could achieve better performance.
 
 ## Reference
 
 ```
-
-Wang J, Chen Y, Feng W, et al. Transfer learning with dynamic distribution adaptation[J]. ACM Transactions on Intelligent Systems and Technology (TIST), 2020, 11(1): 1-25.
-
+Wang J, Chen Y, Feng W, et al. Transfer learning with dynamic distribution adaptation[J]. 
+ACM Transactions on Intelligent Systems and Technology (TIST), 2020, 11(1): 1-25.
 ```
 
 or in bibtex style:
