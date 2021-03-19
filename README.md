@@ -50,6 +50,10 @@ author = {Wang, Jindong and others}
 
 - - -
 
+**NOTE:** You can directly open the code in Gihub Codespaces on the web to run them without downloading! See this figure:
+
+![](png/codespace.png)
+
 ## 0.Latest Publications (最新论文)
 
 **A good website to see the latest arXiv preprints by search: [Transfer learning](http://arxitics.com/search?q=transfer%20learning&sort=updated#1904.01376/abstract), [Domain adaptation](http://arxitics.com/search?q=domain%20adaptation&sort=updated)**
