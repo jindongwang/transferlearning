@@ -81,6 +81,10 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 ### 1.1.2. Others (其他)
 
+- 20210319 [Cross-domain Activity Recognition via Substructural Optimal Transport](https://arxiv.org/abs/2102.03353) | [知乎文章](https://zhuanlan.zhihu.com/p/356904023) | [微信公众号](https://mp.weixin.qq.com/s/QuVrqnPruHgfolYltI1Peg)
+    - Using sub-structures for domain adaptation
+    - 采用子结构进行domain adaptation，比传统方法快5倍
+
 - 20210202 ICLR-21 [Rethinking Soft Labels for Knowledge Distillation: A Bias-Variance Tradeoff Perspective](https://arxiv.org/abs/2102.00650)
     - Rethink soft labels for KD in a bias-variance tradeoff perspective
     - 从偏差-方差的角度重新思考蒸馏中的软标签
@@ -927,6 +931,10 @@ Including domain adaptation and partial domain adaptation.
 ## 1.8. Deep Transfer Learning (深度迁移学习)
 
 ### 1.8.1. Non-Adversarial Transfer Learning (非对抗深度迁移)
+
+- 20210319 [Learning Invariant Representations across Domains and Tasks](https://arxiv.org/abs/2103.05114)
+    - Automatically learn to match distributions
+    - 自动适配分布的任务适配网络
 
 - 20191222 arXiv [Dreaming to Distill: Data-free Knowledge Transfer via DeepInversion](https://arxiv.org/abs/1912.08795)
    - Generate data without priors for transfer learning based on deep dream

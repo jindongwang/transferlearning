@@ -66,26 +66,17 @@ author = {Wang, Jindong and others}
 
 - **Latest papers**
 
-  - 20210312 [Discrepancy-Based Active Learning for Domain Adaptation](https://arxiv.org/abs/2103.03757v1)
-    - Discrepancy and active learning for DA
-    - 基于主动学习的DA
+  - 20210319 [Learning Invariant Representations across Domains and Tasks](https://arxiv.org/abs/2103.05114)
+    - Automatically learn to match distributions
+    - 自动适配分布的任务适配网络
 
-  - 20210312 [Unbalanced minibatch Optimal Transport; applications to Domain Adaptation](https://arxiv.org/abs/2103.03606v1)
-    - Unbalanced minibatch OT for DA
-    - 非均衡的OT用于DA问题
+  - 20210319 [Generalizing to Unseen Domains: A Survey on Domain Generalization](https://arxiv.org/abs/2103.03097) | [知乎文章](https://zhuanlan.zhihu.com/p/354740610) | [微信公众号](https://mp.weixin.qq.com/s/DsoVDYqLB1N7gj9X5UnYqw)
+    - First survey on domain generalization
+    - 第一篇对Domain generalization (领域泛化)的综述
 
-  - 20210220 [DRIV100: In-The-Wild Multi-Domain Dataset and Evaluation for Real-World Domain Adaptation of Semantic Segmentation](http://arxiv.org/abs/2102.00150)
-    - A new dataset for domain adaptation on semantic segmentation
-    - 一个用于domain adaptation做语义分割的新数据集
-
-  - 20200220 [Butterfly: One-step Approach towards Wildly Unsupervised Domain Adaptation](http://arxiv.org/abs/1905.07720)
-    - Noisy domain adaptation
-    - 用于噪声环境中的domain adaptation的方法
-
-  - 20210202 [Admix: Enhancing the Transferability of Adversarial Attacks](https://arxiv.org/abs/2102.00436)
-    - Enhancing the transferability of adversarial attacks
-    - 增强对抗攻击的可迁移性
-
+  - 20210319 [Cross-domain Activity Recognition via Substructural Optimal Transport](https://arxiv.org/abs/2102.03353) | [知乎文章](https://zhuanlan.zhihu.com/p/356904023) | [微信公众号](https://mp.weixin.qq.com/s/QuVrqnPruHgfolYltI1Peg)
+    - Using sub-structures for domain adaptation
+    - 采用子结构进行domain adaptation，比传统方法快5倍
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
@@ -161,6 +152,9 @@ Here are some articles on transfer learning theory and survey.
 - The most influential survey on transfer learning （最权威和经典的综述）: [A survey on transfer learning](http://ieeexplore.ieee.org/abstract/document/5288526/).
 
 - Latest survey - 较新的综述：
+    - 2021 微软亚洲研究院：[Generalizing to Unseen Domains: A Survey on Domain Generalization](https://arxiv.org/abs/2103.03097) | [知乎文章](https://zhuanlan.zhihu.com/p/354740610) | [微信公众号](https://mp.weixin.qq.com/s/DsoVDYqLB1N7gj9X5UnYqw)
+      - First survey on domain generalization
+      - 第一篇对Domain generalization (领域泛化)的综述
     - 2020 迁移学习最新survey，来自中科院计算所庄福振团队，发表在Proceedings of the IEEE: [A Comprehensive Survey on Transfer Learning](https://arxiv.org/abs/1911.02685)
     - 2020 负迁移的综述：[Overcoming Negative Transfer: A Survey](https://arxiv.org/abs/2009.00909)
 	- 2020 知识蒸馏的综述: [Knowledge Distillation: A Survey](https://arxiv.org/abs/2006.05525)
