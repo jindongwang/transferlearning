@@ -8,6 +8,8 @@ The original code is written using Matlab R2017a. I think all versions after 201
 
 For Python users, I add a `MEDA.py` implementation. The Python version will need to import GFK module (can be found [here](https://github.com/jindongwang/transferlearning/tree/master/code/traditional/GFK)). However, this Python version is only for reference since the graph Laplacian (as exactly in Matlab) is not implemented.
 
+**For deep version (DeepMEDA), see [here](https://github.com/jindongwang/transferlearning/tree/master/code/deep/DeepMEDA)!**
+
 ## Demo
 
 I offer a basic demo to run on the Office+Caltech10 datasets. Download the datasets [here](https://github.com/jindongwang/transferlearning/tree/master/data) and put the data (mat files) into the `data` folder.
@@ -104,6 +106,8 @@ If you use this code, please cite it as:
 
 `
 Jindong Wang, Wenjie Feng, Yiqiang Chen, Han Yu, Meiyu Huang, Philip S. Yu. Visual Domain Adaptation with Manifold Embedded Distribution Alignment. ACM Multimedia conference 2018.
+
+Wang J, Chen Y, Feng W, et al. Transfer learning with dynamic distribution adaptation[J]. ACM Transactions on Intelligent Systems and Technology (TIST), 2020, 11(1): 1-25.
 `
 
 Or in bibtex style:
@@ -114,5 +118,18 @@ Or in bibtex style:
     author={Wang, Jindong and Feng, Wenjie and Chen, Yiqiang and Yu, Han and Huang, Meiyu and Yu, Philip S},
     booktitle={ACM Multimedia Conference (ACM MM)},
     year={2018}
+}
+```
+
+```
+@article{wang2020transfer,
+  title={Transfer learning with dynamic distribution adaptation},
+  author={Wang, Jindong and Chen, Yiqiang and Feng, Wenjie and Yu, Han and Huang, Meiyu and Yang, Qiang},
+  journal={ACM Transactions on Intelligent Systems and Technology (TIST)},
+  volume={11},
+  number={1},
+  pages={1--25},
+  year={2020},
+  publisher={ACM New York, NY, USA}
 }
 ```
