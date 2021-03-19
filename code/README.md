@@ -94,6 +94,8 @@ To run it instantly without any configuration, I also put it to Google's Colab: 
 	- [Matlab](https://github.com/twanvl/rwa-da/tree/master/src)
 - **MEDA** (Manifold Embedded Distribution Alignment, ACM MM-18) [47]
 	- [Matlab(Official)](https://github.com/jindongwang/transferlearning/tree/master/code/traditional/MEDA)
+- **DeepMEDA (DDAN)** (Deep version of MEDA, or DDAN) [82]
+	- [Pytorch(official)](https://github.com/jindongwang/transferlearning/tree/master/code/deep/DeepMEDA)
 - **EasyTL** (Practically Easy Transfer Learning, ICME-19) [63]
     - [Matlab(Official)](https://github.com/jindongwang/transferlearning/tree/master/code/traditional/EasyTL) | [Python](https://github.com/jindongwang/transferlearning/tree/master/code/traditional/pyEasyTL)
 
@@ -404,3 +406,5 @@ accepted in International Conference on Computer Vision (ICCV 2015), Santiago, C
 [80] Chaohui Yu, Jindong Wang, Yiqiang Chen, Meihu Huang. Transfer learnign with dynamic adversarial adaptation network. ICDM 2019.
 
 [81] Kaiyang Zhou, Yongxin Yang, Yu Qiao, Tao Xiang. Domain Adaptive Ensemble Learning. ArXiv preprint, 2020.
+
+[82] Wang J, Chen Y, Feng W, et al. Transfer learning with dynamic distribution adaptation[J]. ACM Transactions on Intelligent Systems and Technology (TIST), 2020, 11(1): 1-25.
