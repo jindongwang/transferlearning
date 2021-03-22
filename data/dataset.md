@@ -18,6 +18,7 @@ Most datasets are image datasets:
 |:--------------:|:------------------:|:-------:|:-------------------:|:------:|:------------:|:--------:|
 | [Office+Caltech](#office+caltech) | Object recognition |   2533  | SURF:800 DeCAF:4096 |   10   |  C, A, W, D  |   [1]       |
 | [Office-31](#office-31) | Object recognition |   4110  | SURF:800 DeCAF:4096 |   31   |  A, W, D  |   [1]       |
+| [Modern Office-31](#modern-office-31) | Image Classification | 6712 | — | 31 | A, S, W | [20] |
 |   [MNIST+USPS](#mnist+usps)   |  Digit recognition |   3800  |         256         |   10   |  USPS, MNIST |    [4]      |
 |     [COIL20](#coil20)     | Object recognition |   1440  |         1024        |   20   | COIL1, COIL2 |    [4]      |
 |       [PIE](#pie)      |  Face recognition  |  11554  |         1024        |   68   |   PIE1~PIE5  |     [6]     |
@@ -32,6 +33,7 @@ Most datasets are image datasets:
 |    [ImageCLEF](#imageclef)    |       Image Classification      |   *  |      raw    |    12   |       3 domains     |       [17]  |
 |    [VisDA](#VisDA)    |       Image Classification / segmentation      |   280157  |      raw    |    12   |       3 domains/3 domain     |       [18]  |
 |    [LSDAC](#LSDAC)    |       Image Classification      |   569010  |      raw    |    345   |       6 domains     |       [19]  |
+|    [Adaptiope](#adaptiope)  |    Image Classification   |   36900   |   —   |  123 |   P, S, R |  [20]  |
 
 
 **NEW** A even larger dataset called [DomainNet](http://ai.bu.edu/M3SDA/#refs) is released by BU, with half a million images, 6 domains, and 345 classes!
@@ -232,7 +234,23 @@ This is probably the **largest and latest** domain adaptation datasets ever! It 
 
 For more image datasets, please refer to https://sites.google.com/site/crossdataset/home/files
 
+- - -
 
+### Adaptiope
+
+Adaptiope is probably one of the most versatile domain adaptation datasets with **synthetic images** (3D renderings). Overall, Adaptiope contains images of 123 categories in the 3 domains product, real life and synthetic for a total of 36,900 images. Please refer to the [project website](https://gitlab.com/tringwald/adaptiope) for more information.
+
+[Download Adaptiope](https://drive.google.com/file/d/1FmdsvetC0oVyrFJ9ER7fcN-cXPOWx2gq/view?usp=sharing)
+
+- - -
+
+### Modern-Office-31
+
+Modern Office-31 is a modernized version of the popular [Office-31](#office-31) dataset. This version fixes many of the annotation errors in the original dataset and also adds a challenging synthetic domain. Overall, Modern Office-31 contains 6,712 images in the 3 domains Amazon, synthetic and webcam.
+Please refer to the [project website](https://gitlab.com/tringwald/adaptiope) for more information.
+
+[Download Modern Office-31](https://drive.google.com/file/d/1p7ecv9kP3YbmdiY49vSjTaG0Aw51n26x/view?usp=sharing)
+- - -
 
 
 ### References
@@ -274,3 +292,5 @@ For more image datasets, please refer to https://sites.google.com/site/crossdat
 [18] Peng X. VisDA: The Visual Domain Adaptation Challenge. arXiv preprint arXiv:1710.06924.
 
 [19] Xingchao Peng, et al. Moment Matching for Multi-Source Domain Adaptation. arXiv 1812.01754.
+
+[20] T. Ringwald, et al. "Adaptiope: A Modern Benchmark for Unsupervised Domain Adaptation", Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2021
