@@ -66,6 +66,14 @@ author = {Wang, Jindong and others}
 
 - **Latest papers**
 
+  - 20210329 [Adversarial Branch Architecture Search for Unsupervised Domain Adaptation](https://arxiv.org/abs/2102.06679v2)
+    - NAS for domain adaptation
+    - 用神经网络结构搜索做领域自适应
+
+  - 20210329 ICLR-21 [Tent: Fully Test-Time Adaptation by Entropy Minimization](https://openreview.net/forum?id=uXl3bZLkr3c)
+    - Test time adaptation by entropy minimization
+    - 测试时通过熵最小化进行adaptation
+
   - 20210319 [Learning Invariant Representations across Domains and Tasks](https://arxiv.org/abs/2103.05114)
     - Automatically learn to match distributions
     - 自动适配分布的任务适配网络

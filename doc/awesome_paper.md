@@ -455,6 +455,14 @@ Including domain adaptation and partial domain adaptation.
 
 ### 1.2.2. Deep / Adversarial Methods (深度/对抗迁移方法)
 
+- 20210329 ICLR-21 [Tent: Fully Test-Time Adaptation by Entropy Minimization](https://openreview.net/forum?id=uXl3bZLkr3c)
+    - Test time adaptation by entropy minimization
+    - 测试时通过熵最小化进行adaptation
+
+- 20210329 [Adversarial Branch Architecture Search for Unsupervised Domain Adaptation](https://arxiv.org/abs/2102.06679v2)
+    - NAS for domain adaptation
+    - 用神经网络结构搜索做领域自适应
+
 - 20210312 [Discrepancy-Based Active Learning for Domain Adaptation](https://arxiv.org/abs/2103.03757v1)
     - Discrepancy and active learning for DA
     - 基于主动学习的DA
