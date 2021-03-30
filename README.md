@@ -288,7 +288,7 @@ Here are some popular thesis on transfer learning.
 
 - 2009 上海交通大学戴文渊的[基于实例和特征的迁移学习算法研究](https://pan.baidu.com/s/1i4Vyygd)
 
-其他的文章，请见[完整版](https://pan.baidu.com/s/1bqXEASn)。
+其他的文章，请见[完整版](https://pan.baidu.com/share/init?surl=iuzZhHdumrD64-yx_VAybA), 提取码：txyz。
 
 - - -
 
