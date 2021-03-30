@@ -12,6 +12,14 @@ Please note that the original BDA (with $\mu$) has been extensively extended by 
 
 Hence, from now on, the name **BDA** will specifically refer to **W-BDA** (for imbalanced transfer) in this ICDM paper. Therefore, the code default will also be the imbalanced version. If still want to use the original BDA, you can change the settings in the code.
 
+We also provide a notebook for you to directly run two algorithms using **Jupyter notebook**.
+
+You can easily download the notebook from [here](https://github.com/jindongwang/transferlearning/tree/master/notebooks/traditional_transfer_learning.ipynb).
+
+We also put it on [Google Colab](https://colab.research.google.com/drive/1w4WkCrZeCKaornJo66P4hxC7kzm4l70U?usp=sharing).
+
+Try and experiment on them!
+
 ### Citation
 You can cite this paper as
 
