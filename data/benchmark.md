@@ -7,6 +7,7 @@ The full list of datasets can be found in [datasets](https://github.com/jindongw
 Here, we provide benchmark results for the following datasets:
 
 - [Benchmark](#benchmark)
+  - [Adaptiope dataset](#adaptiope-dataset)
   - [Office-31 dataset](#office-31-dataset)
   - [Office-Home](#office-home)
   - [Image-CLEF DA](#image-clef-da)
@@ -15,6 +16,20 @@ Here, we provide benchmark results for the following datasets:
     - [Decaf6](#decaf6)
   - [MNIST+USPS](#mnistusps)
   - [References](#references)
+
+
+## Adaptiope dataset 
+
+Using ResNet-50 features (compare with the latest deep methods with ResNet-50 as backbone). 
+
+
+| Cite        | Method    | P-R | P-S | R-P    | R-S | S-P | S-R   | AVG   |
+|---------|-----------|-------|-------|--------|-------|-------|-------|-------|
+|   | Source Only | 63.6  | 26.7  | 85.3   | 27.6  | 7.6  | 2.0  | 35.5  |
+| icml15[19]  | RSDA-DANN      | **78.6**  | 48.5  | 90.0   | 43.9  | 63.2  | 37.0  | 60.2  |
+| icml18[30]  | RSDA-MSTN      | 73.8  | 59.2  | 87.5   | 50.3  | **69.5**  | 44.6  | 64.2  |
+| TNNLS20[29] | DSAN | 77.8 | **60.1** | **91.9** | **55.7** | 68.8 | **47.8** | **67.0** |
+
 
 ## Office-31 dataset 
 
@@ -191,5 +206,7 @@ There are plenty of different configurations in MNIST+USPS datasets. Here we onl
 [28] Yongchun Zhu, Fuzhen Zhuang, Jindong Wang, et al. "Multi-representation adaptation network for cross-domain image classification." Neural Network 2019, 119.
 
 [29] Yongchun Zhu, Fuzhen Zhuang, Jindong Wang, et al. "Deep Subdomain Adaptation Network for Image Classification." IEEE Transactions on Neural Networks and Learning Systems 2020.
+
+[30] Xie S, Zheng Z, Chen L, et al. Learning semantic representations for unsupervised domain adaptation. International conference on machine learning. PMLR, 2018: 5423-5432.
 
 
