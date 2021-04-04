@@ -51,7 +51,7 @@ class TCA:
         X = np.hstack((Xs.T, Xt.T))
         X /= np.linalg.norm(X, axis=0)
         m, n = X.shape
-        ns, nt = len(Xs), len(Xt1)
+        ns, nt = len(Xs), len(Xt)
         e = np.vstack((1 / ns * np.ones((ns, 1)), -1 / nt * np.ones((nt, 1))))
         M = e * e.T
         M = M / np.linalg.norm(M, 'fro')
@@ -91,6 +91,7 @@ class TCA:
         :param Xs : ns * n_feature, source feature
         :param Xt : nt * n_feature, target feature
         :param Xt2: n_s, n_feature, target feature to be mapped
+        :return: Xt2_new, mapped Xt2 with projection created by Xs and Xt
         '''
         # Computing projection matrix A from Xs an Xt
         X = np.hstack((Xs.T, Xt.T))
@@ -117,10 +118,11 @@ class TCA:
         
         return Xt2_new
     
-    def fit_new_predict(self, Xt, Xs, Ys, Xt2, Yt2):
+    def fit_predict_new(self, Xt, Xs, Ys, Xt2, Yt2):
         '''
-        Transform Xt2 using projection matrix created by Xs and Xt
-        Then make predictions on Xt2 using classifier trained on Xs
+        Transfrom Xt and Xs, get Xs_new
+        Transform Xt2 with projection matrix created by Xs and Xt, get Xt2_new
+        Make predictions on Xt2_new using classifier trained on Xs_new
         :param Xt: ns * n_feature, target feature
         :param Xs: ns * n_feature, source feature
         :param Ys: ns * 1, source label
@@ -156,7 +158,7 @@ if __name__ == '__main__':
                 acc1, ypre1 = tca.fit_predict(Xs, Ys, Xt1, Yt1)
                 
                 # Project and evaluate Xt2 existing projection matrix and classifier
-                acc2, ypre2 = tca.fit_new_predict(Xt1, Xs, Ys, Xt2, Yt2)
+                acc2, ypre2 = tca.fit_predict_new(Xt1, Xs, Ys, Xt2, Yt2)
                 
     print(f'Accuracy of mapped source and target1 data : {acc1:.3f}') #0.800
     print(f'Accuracy of mapped target2 data            : {acc2:.3f}') #0.706
