@@ -5,6 +5,36 @@ import argparse
 import numpy as np
 import collections
 import json
+
+
+
+def load_head_from_pretrained_model(model, model_path):
+    model_dict = torch.load(model_path, map_location=lambda storage, loc: storage)
+    if "model" in model_dict.keys():
+        model_dict = model_dict["model"]
+    src_dict = {k: v for k, v in model_dict.items() if "decoder.embed." in k or "ctc." in k or "decoder.output_layer." in k}
+    dst_state = model.state_dict()
+    dst_state.update(src_dict)
+    for key in dst_state.keys():
+        if key in src_dict.keys():
+            logging.info("loading " + key)
+    model.load_state_dict(dst_state)
+def load_adapter_from_pretrained_model(model, model_path, src_adapter, tgt_adapter):
+    '''
+    src_adapter, tgt_adapter: str, names of the source and target adapters to load parameters
+    '''
+    model_dict = torch.load(model_path, map_location=lambda storage, loc: storage)
+    if "model" in model_dict.keys():
+        model_dict = model_dict["model"]
+    src_dict = {k.replace(src_adapter, tgt_adapter): v for k, v in model_dict.items() if f"adapters.{src_adapter}" in k}
+    dst_state = model.state_dict()
+    dst_state.update(src_dict)
+    for key in dst_state.keys():
+        if key in src_dict.keys():
+            logging.info("loading " + key)
+    model.load_state_dict(dst_state)
+
+# ====================  EasyEspnet functions =================================
 def str2bool(str):
 	return True if str.lower() == 'true' else False
 def setup_logging(verbose=1):
@@ -159,6 +189,17 @@ def compute_wer(ref, hyp, normalize=False):
     if normalize:
         wer /= len(ref)
     return wer, n_sub, n_ins, n_del, n_cor
+
+def token2text(tokens, bpemodel=None):
+    if bpemodel:
+        text = bpemodel.decode_pieces(tokens)
+    else:
+        text = (
+            " ".join(tokens)
+            .replace(" ", "")
+            .replace("<space>", " ")
+        )  # sclite does not consider the number of spaces when splitting
+    return text
 def recognize_and_evaluate(dataloader, model, args, model_path=None, wer=False, write_to_json=False):
     if model_path:
         torch_load(model_path, model)
@@ -222,22 +263,8 @@ def recognize_and_evaluate(dataloader, model, args, model_path=None, wer=False, 
                 ]
                 for key in sorted(err_dict.keys()):  # cer then wer
                     if key == "wer":
-                        if args.bpemodel:
-                            ref_token = args.bpemodel.decode_pieces(ref_token).split()
-                            hyp_token = args.bpemodel.decode_pieces(hyp_token).split()
-                        else:
-                            ref_token = (
-                                " ".join(ref_token)
-                                .replace(" ", "")
-                                .replace("<space>", " ")
-                                .split()
-                            )  # sclite does not consider the number of spaces when splitting
-                            hyp_token = (
-                                " ".join(hyp_token)
-                                .replace(" ", "")
-                                .replace("<space>", " ")
-                                .split()
-                            )
+                        ref_token = token2text(ref_token, args.bpemodel).split()
+                        hyp_token = token2text(hyp_token, args.bpemodel).split()
                         logging.debug("HYP: " + str(hyp_token))
                         logging.debug("REF: " + str(ref_token))
                     utt_err, utt_nsub, utt_nins, utt_ndel, utt_ncor = compute_wer(
