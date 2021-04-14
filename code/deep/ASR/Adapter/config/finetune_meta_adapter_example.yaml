@@ -54,7 +54,7 @@ adapter_train_languages: "ar"
 shared_adapter: "ru_cy_it_eu_pt" # Set to the source languages on which it is meta-trained
 dataset: ru_cy_it_eu_pt_ar
 adapter_fusion: false
-train_adapter_with_head: false
+train_adapter_with_head: true
 # cs
 opt: adam
 adam_lr: 0.01

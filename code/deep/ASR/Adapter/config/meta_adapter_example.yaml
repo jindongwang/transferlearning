@@ -56,7 +56,8 @@ meta_train: true
 shared_adapter: "ru_cy_it_eu_pt" # The name of shared_adapter, other name is also okay
 adapter_fusion: false
 batch-size: 32 # Real batch size is given by this batch-size * number of languages
-train_adapter_with_head: false
+train_adapter_with_head: true
+
 meta_lr: 0.0001 # 1.0
 adam_lr: 0.01 # inner learning rate
 # cs

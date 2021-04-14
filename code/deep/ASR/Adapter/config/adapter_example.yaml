@@ -50,10 +50,10 @@ lm-weight: 0.7
 
 use_adapters: true
 load_pretrained_model: "<path-to-your-pretrained-model>:<modules-to-load>:<excluded-modules>" # Example: lid_42.pt::decoder.embed,decoder.output_layer,ctc.
-dataset: "ru_cy_it_eu_pt_ar" # <dataset used to train>
-adapter_train_languages: "ar"
+dataset: "ru_cy_it_eu_pt_ar" # <languages for which adapters are initialized>, we recommend to write all the dataset that you want to perform AdapterFusion later (if you want)
+adapter_train_languages: "ar" # The language(s) that is really used for this time
 adapter_fusion: false
-train_adapter_with_head: false
-# cs
+train_adapter_with_head: true
+
 opt: adam
 adam_lr: 0.001
