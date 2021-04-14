@@ -66,4 +66,4 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 python -m torch.distributed.launch --nproc_per_node
 
 [1] Wenxin Hou, Yidong Wang, Shengzhou Gao, Takahiro Shinozaki, “Meta-Adapter: Efficient Cross-Lingual Adaptation with Meta-Learning”, in Proc. IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP), Toronto, Ontario, Canada, June 2021. (to appear)
 
-[2] Wenxin Hou, Yidong Wang, Jindong Wang, Tao Qin, Takahiro Shinozaki, ”Transfer Learning for Cross-lingual ASR Adaptation with AdapterFusion”, submitted to INTERSPEECH 2021.
+[2] Wenxin Hou, Yidong Wang, Jindong Wang, Tao Qin, Takahiro Shinozaki, ”Transfer Learning for Cross-lingual ASR Adaptation with AdapterFusion”, Arxiv preprint.
