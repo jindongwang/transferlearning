@@ -5,8 +5,10 @@ import argparse
 import numpy as np
 import collections
 import json
+
 def str2bool(str):
 	return True if str.lower() == 'true' else False
+    
 def setup_logging(verbose=1):
     if verbose > 0:
         logging.basicConfig(
@@ -186,8 +188,6 @@ def recognize_and_evaluate(dataloader, model, args, model_path=None, wer=False, 
     }
     recog_args = argparse.Namespace(**recog_args)
 
-    #progress_bar = tqdm(dataloader)
-    #progress_bar.set_description("Testing CER/WERs")
     err_dict = (
         dict(cer=None)
         if not wer
