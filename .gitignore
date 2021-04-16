@@ -7,3 +7,4 @@ code/.DS_Store
 *.pkl
 outputs/
 __pycache__/
+Adapter*/
