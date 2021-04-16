@@ -1,6 +1,6 @@
 # CMatch: Cross-domain Speech Recognition with Unsupervised Character-level Distribution Matching
 
-This project implements our paper "Cross-domain Speech Recognition with Unsupervised Character-level Distribution Matching". based on [EasyEspnet](https://github.com/jindongwang/EasyEspnet). Please refer to [EasyEspnet](https://github.com/jindongwang/EasyEspnet) for the program introduction, installation and usage. And our paper [1] for the method and technical details.
+This project implements our paper [Cross-domain Speech Recognition with Unsupervised Character-level Distribution Matching](https://arxiv.org/abs/2104.07491) based on [EasyEspnet](https://github.com/jindongwang/EasyEspnet). Please refer to [EasyEspnet](https://github.com/jindongwang/EasyEspnet) for the program introduction, installation and usage. And our paper [1] for the method and technical details.
 
 ## Run
 

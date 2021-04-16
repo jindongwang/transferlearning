@@ -139,9 +139,9 @@ To run it instantly without any configuration, I also put it to Google's Colab: 
 ## Applications
 
 - Learning to select data for transfer learning with Bayesian Optimization (EMNLP-17) [69] [Python](https://github.com/sebastianruder/learn-to-select-data)
-
 - **SDG4DA** (Reinforced Training Data Selection for Domain Adaptation, ACL-19) [70] [Tensorflow](https://github.com/timerstime/SDG4DA)
 
+- **CMatch** (Cross-domain Speech Recognition with Unsupervised Character-level Distribution Matching, arXiv-21) [83] [Pytorch](https://github.com/jindongwang/transferlearning/tree/master/code/ASR/CMatch)
 - - -
 
 #### References
@@ -309,3 +309,5 @@ accepted in International Conference on Computer Vision (ICCV 2015), Santiago, C
 [81] Kaiyang Zhou, Yongxin Yang, Yu Qiao, Tao Xiang. Domain Adaptive Ensemble Learning. ArXiv preprint, 2020.
 
 [82] Wang J, Chen Y, Feng W, et al. Transfer learning with dynamic distribution adaptation[J]. ACM Transactions on Intelligent Systems and Technology (TIST), 2020, 11(1): 1-25.
+
+[83] Wenxin Hou, Jindong Wang, Xu Tan, Tao Qin, Takahiro Shinozaki, "Cross-domain Speech Recognition with Unsupervised Character-level Distribution Matching", arxiv 2104.07491.
