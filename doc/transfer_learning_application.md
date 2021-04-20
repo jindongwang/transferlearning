@@ -2,6 +2,14 @@
 
 迁移学习的应用
 
+- 20210420 arXiv [Domain Adaptation and Multi-Domain Adaptation for Neural Machine Translation: A Survey](https://arxiv.org/abs/2104.06951)
+    - A survey on domain adaptation for machine translation
+    - 关于用领域自适应进行神经机器翻译的综述
+
+- 20210420 arXiv [Cross-domain Speech Recognition with Unsupervised Character-level Distribution Matching](https://arxiv.org/abs/2104.07491)
+    - Domain adaptation for speech recognition
+    - 用domain adaptation进行跨领域的语音识别
+
 - 20210220 [DRIV100: In-The-Wild Multi-Domain Dataset and Evaluation for Real-World Domain Adaptation of Semantic Segmentation](http://arxiv.org/abs/2102.00150)
     - A new dataset for domain adaptation on semantic segmentation
     - 一个用于domain adaptation做语义分割的新数据集

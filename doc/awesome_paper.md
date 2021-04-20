@@ -940,6 +940,10 @@ Including domain adaptation and partial domain adaptation.
 
 ### 1.8.1. Non-Adversarial Transfer Learning (非对抗深度迁移)
 
+- 20210420 arXiv [On Universal Black-Box Domain Adaptation](https://arxiv.org/abs/2104.04665)
+    - Universal black-box domain adaptation
+    - 黑盒情况下的universal domain adaptation
+
 - 20210319 [Learning Invariant Representations across Domains and Tasks](https://arxiv.org/abs/2103.05114)
     - Automatically learn to match distributions
     - 自动适配分布的任务适配网络
