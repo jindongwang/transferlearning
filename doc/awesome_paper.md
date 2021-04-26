@@ -81,6 +81,10 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 ### 1.1.2. Others (其他)
 
+- 20210426 [Distill on the Go: Online knowledge distillation in self-supervised learning](http://arxiv.org/abs/2104.09866)
+    - Online knowledge distillation in self-supervised learning
+    - 自监督学习中的在线知识蒸馏
+
 - 20210319 [Cross-domain Activity Recognition via Substructural Optimal Transport](https://arxiv.org/abs/2102.03353) | [知乎文章](https://zhuanlan.zhihu.com/p/356904023) | [微信公众号](https://mp.weixin.qq.com/s/QuVrqnPruHgfolYltI1Peg)
     - Using sub-structures for domain adaptation
     - 采用子结构进行domain adaptation，比传统方法快5倍
@@ -715,6 +719,9 @@ Including domain adaptation and partial domain adaptation.
 
 ## 1.3. Domain Generalization
 
+- 2021 Domain generalization: IJCAI-21 [Generalizing to Unseen Domains: A Survey on Domain Generalization](https://arxiv.org/abs/2103.03097) | [知乎文章](https://zhuanlan.zhihu.com/p/354740610) | [微信公众号](https://mp.weixin.qq.com/s/DsoVDYqLB1N7gj9X5UnYqw)
+    - First survey on domain generalization
+    - 第一篇对Domain generalization (领域泛化)的综述
 - 20180701 arXiv 做迁移时，只用source数据，不用target数据训练：[Generalizing to Unseen Domains via Adversarial Data Augmentation](https://arxiv.org/abs/1805.12018)
 
 - 201711 ICLR-18 [GENERALIZING ACROSS DOMAINS VIA CROSS-GRADIENT TRAINING](https://openreview.net/pdf?id=r1Dx7fbCW)
@@ -840,6 +847,10 @@ Including domain adaptation and partial domain adaptation.
 - - -
 
 ## 1.7. Zero-shot / Few-shot Learning
+
+- 20210426 [Few-shot Continual Learning: a Brain-inspired Approach](http://arxiv.org/abs/2104.09034)
+    - Few-shot continual learning
+    - 小样本持续学习
 
 - 20201203 [How to fine-tune deep neural networks in few-shot learning?](https://arxiv.org/abs/2012.00204)
     - 对few-shot任务如何fine-tune深度网络？

@@ -66,6 +66,12 @@ author = {Wang, Jindong and others}
 
 - **Latest papers**
 
+  - 20210426 [Distill on the Go: Online knowledge distillation in self-supervised learning](http://arxiv.org/abs/2104.09866)
+    - Online knowledge distillation in self-supervised learning
+    - 自监督学习中的在线知识蒸馏
+  - 20210426 [Few-shot Continual Learning: a Brain-inspired Approach](http://arxiv.org/abs/2104.09034)
+    - Few-shot continual learning
+    - 小样本持续学习
   - 20210420 arXiv [Cross-domain Speech Recognition with Unsupervised Character-level Distribution Matching](https://arxiv.org/abs/2104.07491)
     - Domain adaptation for speech recognition
     - 用domain adaptation进行跨领域的语音识别
