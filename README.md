@@ -66,6 +66,13 @@ author = {Wang, Jindong and others}
 
 - **Latest papers**
 
+  - 20210430 [Graphical Modeling for Multi-Source Domain Adaptation](http://arxiv.org/abs/2104.13057)
+    - Graphical models for multi-source DA
+    - 用概率图模型进行多源领域自适应
+  - 20210430 [Unsupervised Multi-Source Domain Adaptation for Person Re-Identification](http://arxiv.org/abs/2104.12961)
+    - ReID using multi-source DA
+    - 用多源领域自适应进行ReID任务
+
   - 20210426 [Distill on the Go: Online knowledge distillation in self-supervised learning](http://arxiv.org/abs/2104.09866)
     - Online knowledge distillation in self-supervised learning
     - 自监督学习中的在线知识蒸馏
