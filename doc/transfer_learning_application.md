@@ -2,6 +2,10 @@
 
 迁移学习的应用
 
+- 20210511 [Adaptive Domain-Specific Normalization for Generalizable Person Re-Identification](https://arxiv.org/abs/2105.03042)
+    - Adaptive domain-specific normalization for generalizable ReID
+    - 自适应的领域特异归一化用于ReID
+
 - 20210420 arXiv [Domain Adaptation and Multi-Domain Adaptation for Neural Machine Translation: A Survey](https://arxiv.org/abs/2104.06951)
     - A survey on domain adaptation for machine translation
     - 关于用领域自适应进行神经机器翻译的综述

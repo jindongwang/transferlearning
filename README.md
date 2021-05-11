@@ -66,6 +66,12 @@ author = {Wang, Jindong and others}
 
 - **Latest papers**
 
+  - 20210511 ACL-21 [Are Pre-trained Convolutions Better than Pre-trained Transformers?](https://arxiv.org/abs/2105.03322)
+    - Empirically investigate pre-trained convolutions and Transformers
+    - 设计实验探索预训练的卷积和Transformer的对比
+  - 20210511 [Adaptive Domain-Specific Normalization for Generalizable Person Re-Identification](https://arxiv.org/abs/2105.03042)
+    - Adaptive domain-specific normalization for generalizable ReID
+    - 自适应的领域特异归一化用于ReID
   - 20210430 [Graphical Modeling for Multi-Source Domain Adaptation](http://arxiv.org/abs/2104.13057)
     - Graphical models for multi-source DA
     - 用概率图模型进行多源领域自适应
@@ -82,12 +88,6 @@ author = {Wang, Jindong and others}
   - 20210420 arXiv [Cross-domain Speech Recognition with Unsupervised Character-level Distribution Matching](https://arxiv.org/abs/2104.07491)
     - Domain adaptation for speech recognition
     - 用domain adaptation进行跨领域的语音识别
-  - 20210420 arXiv [Domain Adaptation and Multi-Domain Adaptation for Neural Machine Translation: A Survey](https://arxiv.org/abs/2104.06951)
-    - A survey on domain adaptation for machine translation
-    - 关于用领域自适应进行神经机器翻译的综述
-  - 20210420 arXiv [On Universal Black-Box Domain Adaptation](https://arxiv.org/abs/2104.04665)
-    - Universal black-box domain adaptation
-    - 黑盒情况下的universal domain adaptation
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 

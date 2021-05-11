@@ -81,6 +81,10 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 ### 1.1.2. Others (其他)
 
+- 20210511 ACL-21 [Are Pre-trained Convolutions Better than Pre-trained Transformers?](https://arxiv.org/abs/2105.03322)
+    - Empirically investigate pre-trained convolutions and Transformers
+    - 设计实验探索预训练的卷积和Transformer的对比
+
 - 20210426 [Distill on the Go: Online knowledge distillation in self-supervised learning](http://arxiv.org/abs/2104.09866)
     - Online knowledge distillation in self-supervised learning
     - 自监督学习中的在线知识蒸馏
