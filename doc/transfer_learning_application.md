@@ -2,6 +2,10 @@
 
 迁移学习的应用
 
+- 20210516 [A cost-benefit analysis of cross-lingual transfer methods](https://arxiv.org/abs/2105.06813)
+  - Analysis of the running time of cross-lingual transfer
+  - 分析了跨语言迁移方法的时间
+
 - 20210511 [Adaptive Domain-Specific Normalization for Generalizable Person Re-Identification](https://arxiv.org/abs/2105.03042)
     - Adaptive domain-specific normalization for generalizable ReID
     - 自适应的领域特异归一化用于ReID

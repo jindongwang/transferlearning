@@ -21,7 +21,7 @@ author = {Wang, Jindong and others}
         <td>Contents</td>
     </tr>
     <tr>
-        <td><a href="#0latest-publications-最新论文">0.Latest Publications (最新论文)</a></td>
+        <td><a href="#0latest-publications-最新论文">0.Papers (论文)</a></td>
         <td><a href="#1introduction-and-tutorials-简介与教程">1.Introduction and Tutorials (简介与教程)</a></td>
     </tr>
     <tr>
@@ -64,7 +64,13 @@ author = {Wang, Jindong and others}
 
 [迁移学习文章汇总 Awesome transfer learning papers](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
-- **Latest papers**
+- **Papers**
+
+Latest: [**所有 all papers...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
+
+  - 20210516 [A cost-benefit analysis of cross-lingual transfer methods](https://arxiv.org/abs/2105.06813)
+    - Analysis of the running time of cross-lingual transfer
+    - 分析了跨语言迁移方法的时间
 
   - 20210511 ACL-21 [Are Pre-trained Convolutions Better than Pre-trained Transformers?](https://arxiv.org/abs/2105.03322)
     - Empirically investigate pre-trained convolutions and Transformers
@@ -89,7 +95,7 @@ author = {Wang, Jindong and others}
     - Domain adaptation for speech recognition
     - 用domain adaptation进行跨领域的语音识别
 
-[**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
+[**所有 all papers...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
 - - -
 
