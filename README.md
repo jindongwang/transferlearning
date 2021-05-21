@@ -68,6 +68,13 @@ author = {Wang, Jindong and others}
 
 Latest: [**所有 all papers...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
+  - 20210521 ECCV-20 [Efficient Transfer Learning via Joint Adaptation of Network Architecture and Weight](https://arxiv.org/abs/2008.01883)
+    - Using NAS for transfer learning
+    - 用NAS做迁移学习
+  - 20210521 [When is invariance useful in an Out-of-Distribution Generalization problem ?](http://arxiv.org/abs/2008.01883)
+    - When is invariant useful in OOD?
+    - 理论上分析了在OOD问题中invariance什么时候有用
+
   - 20210516 [A cost-benefit analysis of cross-lingual transfer methods](https://arxiv.org/abs/2105.06813)
     - Analysis of the running time of cross-lingual transfer
     - 分析了跨语言迁移方法的时间
@@ -81,19 +88,6 @@ Latest: [**所有 all papers...**](https://github.com/jindongwang/transferlearni
   - 20210430 [Graphical Modeling for Multi-Source Domain Adaptation](http://arxiv.org/abs/2104.13057)
     - Graphical models for multi-source DA
     - 用概率图模型进行多源领域自适应
-  - 20210430 [Unsupervised Multi-Source Domain Adaptation for Person Re-Identification](http://arxiv.org/abs/2104.12961)
-    - ReID using multi-source DA
-    - 用多源领域自适应进行ReID任务
-
-  - 20210426 [Distill on the Go: Online knowledge distillation in self-supervised learning](http://arxiv.org/abs/2104.09866)
-    - Online knowledge distillation in self-supervised learning
-    - 自监督学习中的在线知识蒸馏
-  - 20210426 [Few-shot Continual Learning: a Brain-inspired Approach](http://arxiv.org/abs/2104.09034)
-    - Few-shot continual learning
-    - 小样本持续学习
-  - 20210420 arXiv [Cross-domain Speech Recognition with Unsupervised Character-level Distribution Matching](https://arxiv.org/abs/2104.07491)
-    - Domain adaptation for speech recognition
-    - 用domain adaptation进行跨领域的语音识别
 
 [**所有 all papers...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 

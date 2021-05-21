@@ -2,6 +2,10 @@
 
 迁移学习的应用
 
+- 20210521 ECCV-20 [Efficient Transfer Learning via Joint Adaptation of Network Architecture and Weight](https://arxiv.org/abs/2008.01883)
+    - Using NAS for transfer learning
+    - 用NAS做迁移学习
+
 - 20210516 [A cost-benefit analysis of cross-lingual transfer methods](https://arxiv.org/abs/2105.06813)
   - Analysis of the running time of cross-lingual transfer
   - 分析了跨语言迁移方法的时间

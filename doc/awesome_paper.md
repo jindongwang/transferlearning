@@ -32,6 +32,10 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 ### 1.1.1. Theory (理论)
 
+- 20210521 [When is invariance useful in an Out-of-Distribution Generalization problem ?](http://arxiv.org/abs/2008.01883)
+    - When is invariant useful in OOD?
+    - 理论上分析了在OOD问题中invariance什么时候有用
+
 - 20200220 [Butterfly: One-step Approach towards Wildly Unsupervised Domain Adaptation](http://arxiv.org/abs/1905.07720)
     - Noisy domain adaptation
     - 用于噪声环境中的domain adaptation的方法
