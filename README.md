@@ -54,8 +54,6 @@ author = {Wang, Jindong and others}
 
 ![](png/codespace.png)
 
-![](png/codespace22.png)
-
 ## 0.Latest Publications (最新论文)
 
 **A good website to see the latest arXiv preprints by search: [Transfer learning](http://arxitics.com/search?q=transfer%20learning&sort=updated#1904.01376/abstract), [Domain adaptation](http://arxitics.com/search?q=domain%20adaptation&sort=updated)**
@@ -97,8 +95,9 @@ Latest: [**所有 all papers...**](https://github.com/jindongwang/transferlearni
 
 Want to quickly learn transfer learning？想尽快入门迁移学习？看下面的教程。
 
-- The first transfer learning tutorial 入门教程 
-	- [**《迁移学习简明手册》Transfer Learning Tutorial**](https://zhuanlan.zhihu.com/p/35352154) [Read online](https://tutorial.transferlearning.xyz/), [PDF](http://jd92.wang/assets/files/transfer_learning_tutorial_wjd.pdf)
+- The transfer learning tutorial 入门教程 
+  - Book: [**《迁移学习导论》Introduction to Transfer Learning**](https://zhuanlan.zhihu.com/p/374927278) [Buy](https://item.jd.com/13283188.html)
+	- [《迁移学习简明手册》Transfer Learning Tutorial](https://zhuanlan.zhihu.com/p/35352154) [Read online](https://tutorial.transferlearning.xyz/), [PDF](http://jd92.wang/assets/files/transfer_learning_tutorial_wjd.pdf)
 	- [Zhihu blogs - 知乎专栏《小王爱迁移》系列文章](https://zhuanlan.zhihu.com/p/130244395)
 
 - Video tutorials 视频教程 
