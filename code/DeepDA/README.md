@@ -27,7 +27,7 @@ We recommend to use `Python 3.7.10` which is our development environment.
 1. Modify the configuration file in the corresponding directories
 2. Run the `main.py` with specified config, for example, `python main.py --config DAN/DAN.yaml`
 
-* We provide shell scripts to help you reproduce our experimental results.
+* We provide shell scripts to help you reproduce our experimental results: `bash DAN/DAN.sh`.
 
 ## Customization
 
