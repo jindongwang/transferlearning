@@ -37,6 +37,8 @@ Using ResNet-50 features (compare with the latest deep methods with ResNet-50 as
 
 Finetuned ResNet-50 models For Office-31 dataset: [BaiduYun](https://pan.baidu.com/s/1mRVDYOpeLz3siIId3tni6Q) | [Mega](https://mega.nz/file/dSpjyCwR#9ctB4q1RIE65a4NoJy0ox3gngh15cJqKq1XpOILJt9s)
 
+**Results reported in original papers:**
+
 | Cite        | Method    | A-W | D-W | W-D    | A-D | D-A | W-A   | AVG   |
 |---------|-----------|-------|-------|--------|-------|-------|-------|-------|
 | cvpr16  | ResNet-50 | 68.4  | 96.7  | 99.3   | 68.9  | 62.5  | 60.7  | 76.1  |
@@ -51,11 +53,23 @@ Finetuned ResNet-50 models For Office-31 dataset: [BaiduYun](https://pan.baidu.c
 | neural network19[28] | MRAN | 91.4 | 96.9 | 99.8 | 86.4 | 68.3 | 70.9 | 85.6 |
 | TNNLS20[29] | DSAN | **93.6** | **98.4** | **100.0** | **90.2** | **73.5** | **74.8** | **88.4** |
 
+**Results using our unified and fair [codes](https://github.com/jindongwang/transferlearning/tree/master/code/DeepDA):**
+
+|     Method        | D - A | D - W | A - W | W - A | A - D  | W - D  | Average |
+|-------------|-------|-------|-------|-------|--------|--------|---------|
+| Source-only | 66.17 | 97.61 | 80.63 | 65.07 | 82.73  | 100.00 | 82.03   |
+| DAN [1]         | 68.16 | 97.48 | 85.79 | 66.56 | 84.34  | 100.00 | 83.72   |
+| DeepCoral [2]       | 66.06 | 97.36 | 80.25 | 65.32 | 82.53  | 100.00 | 81.92   |
+| DANN [3]        | 67.06 | 97.86 | 84.65 | 71.03 | 82.73  | 100.00 | 83.89   |
+| DSAN [4]        | 76.04 | 98.49 | 94.34 | 72.91 | 89.96  | 100.00 | 88.62   |
+
 ## Office-Home
 
 Using ResNet-50 features (compare with the latest deep methods with ResNet-50 as backbone). Again, it seems that **MEDA** achieves the best performance. 
 
 Finetuned ResNet-50 models For Office-Home dataset: [BaiduYun](https://pan.baidu.com/s/1i_g-QC2HZ0ZUhTnnySFIWw) | [Mega](https://mega.nz/#F!pGIkjIxC!MDD3ps6RzTXWobMfHh0Slw)
+
+**Results reported in original papers:**
 
 |  Cite       | Method    | Ar-Cl | Ar-Pr | Ar-Rw | Cl-Ar | Cl-Pr | Cl-Rw | Pr-Ar | Pr-Cl | Pr-Rw | Rw-Ar | Rw-Cl | Rw-Pr | Avg   |
 |---------|-----------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
@@ -70,6 +84,16 @@ Finetuned ResNet-50 models For Office-Home dataset: [BaiduYun](https://pan.baidu
 | acmmm18[27] | MEDA | **55.2**  | **76.2**  | **77.3**  | 58.0  | **73.7**  | **71.9**  | 59.3  | 52.4  | 77.9  | 68.2  | 57.5  | 81.8  | **67.5**  |
 | neural network19[28] | MRAN | 53.8 | 68.6 | 75.0 | 57.3 | 68.5 | 68.3 | 58.5 | 54.6 | 77.5 | 70.4 | 60.0 | 82.2 | 66.2  |
 | TNNLS20[29] | DSAN | 54.4 | 70.8 | 75.4 | **60.4** | 67.8 | 68.0 | **62.6** | **55.9** | **78.5** | **73.8** | **60.6** | **83.1** | **67.6** |
+
+**Results using our unified and fair [codes](https://github.com/jindongwang/transferlearning/tree/master/code/DeepDA):**
+
+|     Method       | A - C | A - P | A - R | C - A | C - P | C - R | P - A | P - C | P - R | R - A | R - C | R - P | Average |
+|-------------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|---------|
+| Source-only | 51.04 | 68.21 | 74.85 | 54.22 | 63.64 | 66.84 | 53.65 | 45.41 | 74.57 | 65.68 | 53.56 | 79.34 | 62.58   |
+| DAN [1]        | 52.51 | 68.48 | 74.82 | 57.48 | 65.71 | 67.82 | 55.42 | 47.51 | 75.28 | 66.54 | 54.36 | 79.91 | 63.82   |
+| DeepCoral [2]      | 52.26 | 67.72 | 74.91 | 56.20 | 64.70 | 67.48 | 55.79 | 47.17 | 74.89 | 66.13 | 54.34 | 79.05 | 63.39   |
+| DANN [3]        | 51.48 | 67.27 | 74.18 | 53.23 | 65.10 | 65.41 | 53.15 | 50.22 | 75.05 | 65.35 | 57.48 | 79.45 | 63.12   |
+| DSAN [4]        | 54.48 | 71.12 | 75.37 | 60.53 | 70.92 | 68.53 | 62.71 | 56.04 | 78.29 | 74.37 | 60.34 | 82.99 | 67.97   |
 
 ## Image-CLEF DA
 
