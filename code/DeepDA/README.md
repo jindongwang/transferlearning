@@ -1,10 +1,11 @@
 # DeepDA: Deep Domain Adaptation Toolkit
 
-A lightweight, easy-to-extend, easy-to-learn and high-performance toolkit based on PyTorch for domain adaptation (DA) of deep neural networks.
+A lightweight, easy-to-extend, easy-to-learn, high-performance, and for-fair-comparison toolkit based on PyTorch for domain adaptation (DA) of deep neural networks.
 
 
 ## Implemented Algorithms
-As initial version, we support the following algoirthms. We are working on more algorithms.
+
+As initial version, we support the following algoirthms. We are working on more algorithms. Of course, you are welcome to add your algorithms here.
 
 1. DAN (DDC) [1, 2]
 2. DeepCoral [3]
