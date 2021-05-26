@@ -66,6 +66,10 @@ author = {Wang, Jindong and others}
 
 Latest: [**所有 all papers...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
+  - 20210526 [Exploiting Adapters for Cross-lingual Low-resource Speech Recognition](https://arxiv.org/abs/2105.11905)
+    - Investigate cross-lingual speech recognition for low-resource languages using Adapter and its variants.
+    - 探究使用Adapter及其变体进行对低资源语言进行跨语言语音识别
+    
   - 20210521 ECCV-20 [Efficient Transfer Learning via Joint Adaptation of Network Architecture and Weight](https://arxiv.org/abs/2008.01883)
     - Using NAS for transfer learning
     - 用NAS做迁移学习
