@@ -97,8 +97,9 @@ Want to quickly learn transfer learning？想尽快入门迁移学习？看下�
 
 - The transfer learning tutorial 入门教程 
   - Book: [**《迁移学习导论》Introduction to Transfer Learning**](https://zhuanlan.zhihu.com/p/374927278) [Buy](https://item.jd.com/13283188.html)
-	- [《迁移学习简明手册》Transfer Learning Tutorial](https://zhuanlan.zhihu.com/p/35352154) [Read online](https://tutorial.transferlearning.xyz/), [PDF](http://jd92.wang/assets/files/transfer_learning_tutorial_wjd.pdf)
-	- [Zhihu blogs - 知乎专栏《小王爱迁移》系列文章](https://zhuanlan.zhihu.com/p/130244395)
+  - [Zhihu blogs - 知乎专栏《小王爱迁移》系列文章](https://zhuanlan.zhihu.com/p/130244395)
+	- [《迁移学习简明手册》Transfer Learning Tutorial](https://zhuanlan.zhihu.com/p/35352154) [PDF](http://jd92.wang/assets/files/transfer_learning_tutorial_wjd.pdf)
+	
 
 - Video tutorials 视频教程 
 	- [Domain adaptation - 迁移学习中的领域自适应方法(中文)](https://www.bilibili.com/video/BV1T7411R75a/)
