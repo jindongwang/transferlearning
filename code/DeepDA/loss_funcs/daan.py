@@ -51,5 +51,4 @@ class DAANLoss(AdversarialLoss):
             self.d_g = self.d_g / epoch_length
             self.d_l = self.d_l / epoch_length
             self.dynamic_factor = 1 - self.d_g / (self.d_g + self.d_l)
-        print(self.dynamic_factor)
         self.d_g, self.d_l = 0, 0

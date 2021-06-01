@@ -11,6 +11,7 @@ As initial version, we support the following algoirthms. We are working on more 
 2. DeepCoral [3]
 3. DANN [4]
 4. DSAN [5]
+5. DAAN [6] (NEW!)
 
 The detailed explanation of those methods are in the `README.md` files of corresponding directories.
 
@@ -79,6 +80,8 @@ The toolkit is under active development and contributions are welcome! Feel free
 [4] Ganin, Yaroslav, and Victor Lempitsky. "Unsupervised domain adaptation by backpropagation." International conference on machine learning. PMLR, 2015.
 
 [5] Zhu, Yongchun, et al. "Deep subdomain adaptation network for image classification." IEEE transactions on neural networks and learning systems (2020).
+
+[6] Yu, Chaohui, et al. "Transfer learning with dynamic adversarial adaptation network." 2019 IEEE International Conference on Data Mining (ICDM). IEEE, 2019.
 
 ## Citation
 If you think this toolkit or the results are helpful to you and your research, please cite us!
