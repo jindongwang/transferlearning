@@ -18,8 +18,8 @@ class DAANLoss(AdversarialLoss):
         target_loss_g = self.get_adversarial_result(target, False, lamb)
         source_loss_l = self.get_local_adversarial_result(source, source_logits, True, lamb)
         target_loss_l = self.get_local_adversarial_result(target, target_logits, False, lamb)
-        global_loss = 0.5 * (source_loss_g + target_loss_g) * 0.5
-        local_loss = 0.5 * (source_loss_l + target_loss_l) * 0.1
+        global_loss = 0.5 * (source_loss_g + target_loss_g) * 0.05
+        local_loss = 0.5 * (source_loss_l + target_loss_l) * 0.01
 
         self.d_g = self.d_g + 2 * (1 - 2 * global_loss.cpu().item())
         self.d_l = self.d_l + 2 * (1 - 2 * (local_loss / self.num_class).cpu().item())
@@ -35,7 +35,7 @@ class DAANLoss(AdversarialLoss):
         for c in range(self.num_class):
             logits_c = logits[:, c].reshape((logits.shape[0],1)) # (B, 1)
             features_c = logits_c * x
-            domain_pred = self.local_classifiers[c](x)
+            domain_pred = self.local_classifiers[c](features_c)
             device = domain_pred.device
             if source:
                 domain_label = torch.ones(len(x), 1).long()
