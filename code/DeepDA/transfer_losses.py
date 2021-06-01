@@ -13,6 +13,8 @@ class TransferLoss(nn.Module):
             self.loss_func = CORAL
         elif loss_type == "adv":
             self.loss_func = AdversarialLoss(**kwargs)
+        elif loss_type == "daan":
+            self.loss_func = DAANLoss(**kwargs)
         else:
             print("WARNING: No valid transfer loss function is used.")
             self.loss_func = lambda x, y: 0 # return 0
