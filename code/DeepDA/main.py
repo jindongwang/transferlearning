@@ -123,6 +123,7 @@ def train(source_loader, target_train_loader, target_test_loader, model, optimiz
         train_loss_clf = utils.AverageMeter()
         train_loss_transfer = utils.AverageMeter()
         train_loss_total = utils.AverageMeter()
+        model.epoch_based_processing(n_batch)
         
         if max(len_target_loader, len_source_loader) != 0:
             iter_source, iter_target = iter(source_loader), iter(target_train_loader)

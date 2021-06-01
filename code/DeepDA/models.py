@@ -7,6 +7,7 @@ import backbones
 class TransferNet(nn.Module):
     def __init__(self, num_class, base_net='resnet50', transfer_loss='mmd', use_bottleneck=True, bottleneck_width=256, max_iter=1000, **kwargs):
         super(TransferNet, self).__init__()
+        self.num_class = num_class
         self.base_network = backbones.get_backbone(base_net)
         self.use_bottleneck = use_bottleneck
         self.transfer_loss = transfer_loss
@@ -44,6 +45,12 @@ class TransferNet(nn.Module):
             kwargs['source_label'] = source_label
             target_clf = self.classifier_layer(target)
             kwargs['target_logits'] = torch.nn.functional.softmax(target_clf, dim=1)
+        elif self.transfer_loss == "daan":
+            source_clf = self.classifier_layer(source)
+            kwargs['source_logits'] = torch.nn.functional.softmax(source_clf, dim=1)
+            target_clf = self.classifier_layer(target)
+            kwargs['target_logits'] = torch.nn.functional.softmax(target_clf, dim=1)
+        
         transfer_loss = self.adapt_loss(source, target, **kwargs)
         return clf_loss, transfer_loss
     
@@ -56,9 +63,17 @@ class TransferNet(nn.Module):
             params.append(
                 {'params': self.bottleneck_layer.parameters(), 'lr': 1.0 * initial_lr}
             )
+        # Loss-dependent
         if self.transfer_loss == "adv":
             params.append(
                 {'params': self.adapt_loss.loss_func.domain_classifier.parameters(), 'lr': 1.0 * initial_lr}
+            )
+        elif self.transfer_loss == "daan":
+            params.append(
+                {'params': self.adapt_loss.loss_func.domain_classifier.parameters(), 'lr': 1.0 * initial_lr}
+            )
+            params.append(
+                {'params': self.adapt_loss.loss_func.local_classifiers.parameters(), 'lr': 1.0 * initial_lr}
             )
         return params
 
@@ -67,3 +82,9 @@ class TransferNet(nn.Module):
         x = self.bottleneck_layer(features)
         clf = self.classifier_layer(x)
         return clf
+
+    def epoch_based_processing(self, *args, **kwargs):
+        if self.transfer_loss == "daan":
+            self.adapt_loss.loss_func.update_dynamic_factor(*args, **kwargs)
+        else:
+            pass
