@@ -77,7 +77,7 @@ To run it instantly without any configuration, I also put it to Google's Colab: 
 - **DeepMEDA (DDAN)** (Deep version of MEDA, or DDAN) [82] [Pytorch(official)](https://github.com/jindongwang/transferlearning/tree/master/code/deep/DeepMEDA)
 - **EasyTL** (Practically Easy Transfer Learning, ICME-19) [63] [Matlab(Official)](https://github.com/jindongwang/transferlearning/tree/master/code/traditional/EasyTL) | [Python](https://github.com/jindongwang/transferlearning/tree/master/code/traditional/pyEasyTL)
 - **SCA** (Scatter Component Analysis, TPAMI-17) [79] [Matlab](https://github.com/amber0309/SCA)
-
+- **SOT** (Substructural Optimal Transport, arxiv-21) [84] [python](https://github.com/jindongwang/transferlearning/tree/master/code/traditional/sot)
 
 ## Deep transfer learning methods  深度迁移
 
@@ -311,3 +311,5 @@ accepted in International Conference on Computer Vision (ICCV 2015), Santiago, C
 [82] Wang J, Chen Y, Feng W, et al. Transfer learning with dynamic distribution adaptation[J]. ACM Transactions on Intelligent Systems and Technology (TIST), 2020, 11(1): 1-25.
 
 [83] Wenxin Hou, Jindong Wang, Xu Tan, Tao Qin, Takahiro Shinozaki, "Cross-domain Speech Recognition with Unsupervised Character-level Distribution Matching", arxiv 2104.07491.
+
+[84] Lu W, Chen Y, Wang J, et al. Cross-domain Activity Recognition via Substructural Optimal Transport[J]. arXiv preprint arXiv:2102.03353, 2021.
