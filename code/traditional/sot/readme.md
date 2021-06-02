@@ -4,7 +4,7 @@ This is the implementation of SOT in Python.
 
 ### Usage
 
-4 hyper-paramters need to be carefully set. $d$ means the cluster numbers of the target data. $reg_e$ corresponds to $\lambda$, $reg_{cl}$ corresponds to $\eta$, and $reg_{ce}$ corresponds to $\lambda_1$ in the origin paper.
+4 hyper-paramters need to be carefully set. d means the cluster numbers of the target data. reg_e corresponds to λ, reg_cl corresponds to η, and reg_ce corresponds to λ1 in the origin paper.
 
 ### Demo
 
