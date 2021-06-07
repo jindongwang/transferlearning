@@ -50,9 +50,7 @@ author = {Wang, Jindong and others}
 
 - - -
 
-**NOTE:** You can directly open the code in Gihub Codespaces on the web to run them without downloading! See this figure:
-
-![](png/codespace.png)
+**NOTE:** You can directly open the code in Gihub Codespaces on the web to run them without downloading!
 
 ## 0.Latest Publications (最新论文)
 
@@ -66,31 +64,26 @@ author = {Wang, Jindong and others}
 
 Latest: [**所有 all papers...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
+  - 20210607 [FedHealth 2: Weighted Federated Transfer Learning via Batch Normalization for Personalized Healthcare](https://arxiv.org/abs/2106.01009)
+    - Federated transfer learning framework 2
+    - FedHealth联邦迁移学习框架第二代
+
+  - 20210607 ICML-21 [Sequential Domain Adaptation by Synthesizing Distributionally Robust Experts](http://arxiv.org/abs/2106.00322)
+    - Sequential DA using distributionally robust experts
+    - 用鲁棒专家模型进行连续式领域自适应
+
+  - 20210607 [Bilingual Alignment Pre-training for Zero-shot Cross-lingual Transfer](http://arxiv.org/abs/2106.01732)
+    - Zero-shot cross-lingual transfer using bilingual alignment pretraining
+    - 通过双语言进行对齐预训练进行零资源的跨语言迁移
+
+  - 20210607 [Pre-training Universal Language Representation](http://arxiv.org/abs/2105.14478)
+    - Pretraining for universal language representation
+    - 用统一的预训练进行语言表征建模
+
   - 20210526 [Exploiting Adapters for Cross-lingual Low-resource Speech Recognition](https://arxiv.org/abs/2105.11905)
     - Investigate cross-lingual speech recognition for low-resource languages using Adapter and its variants.
     - 探究使用Adapter及其变体进行对低资源语言进行跨语言语音识别
-    
-  - 20210521 ECCV-20 [Efficient Transfer Learning via Joint Adaptation of Network Architecture and Weight](https://arxiv.org/abs/2008.01883)
-    - Using NAS for transfer learning
-    - 用NAS做迁移学习
-  - 20210521 [When is invariance useful in an Out-of-Distribution Generalization problem ?](http://arxiv.org/abs/2008.01883)
-    - When is invariant useful in OOD?
-    - 理论上分析了在OOD问题中invariance什么时候有用
-
-  - 20210516 [A cost-benefit analysis of cross-lingual transfer methods](https://arxiv.org/abs/2105.06813)
-    - Analysis of the running time of cross-lingual transfer
-    - 分析了跨语言迁移方法的时间
-
-  - 20210511 ACL-21 [Are Pre-trained Convolutions Better than Pre-trained Transformers?](https://arxiv.org/abs/2105.03322)
-    - Empirically investigate pre-trained convolutions and Transformers
-    - 设计实验探索预训练的卷积和Transformer的对比
-  - 20210511 [Adaptive Domain-Specific Normalization for Generalizable Person Re-Identification](https://arxiv.org/abs/2105.03042)
-    - Adaptive domain-specific normalization for generalizable ReID
-    - 自适应的领域特异归一化用于ReID
-  - 20210430 [Graphical Modeling for Multi-Source Domain Adaptation](http://arxiv.org/abs/2104.13057)
-    - Graphical models for multi-source DA
-    - 用概率图模型进行多源领域自适应
-
+    - 
 [**所有 all papers...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
 - - -

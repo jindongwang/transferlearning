@@ -2,6 +2,18 @@
 
 迁移学习的应用
 
+- 20210607 [FedHealth 2: Weighted Federated Transfer Learning via Batch Normalization for Personalized Healthcare](https://arxiv.org/abs/2106.01009)
+    - Federated transfer learning framework 2
+    - FedHealth联邦迁移学习框架第二代
+
+- 20210607 [Bilingual Alignment Pre-training for Zero-shot Cross-lingual Transfer](http://arxiv.org/abs/2106.01732)
+  - Zero-shot cross-lingual transfer using bilingual alignment pretraining
+  - 通过双语言进行对齐预训练进行零资源的跨语言迁移
+
+- 20210607 [Pre-training Universal Language Representation](http://arxiv.org/abs/2105.14478)
+  - Pretraining for universal language representation
+  - 用统一的预训练进行语言表征建模
+
 - 20210521 ECCV-20 [Efficient Transfer Learning via Joint Adaptation of Network Architecture and Weight](https://arxiv.org/abs/2008.01883)
     - Using NAS for transfer learning
     - 用NAS做迁移学习

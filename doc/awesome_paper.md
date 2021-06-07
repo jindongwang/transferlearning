@@ -339,6 +339,10 @@ Including domain adaptation and partial domain adaptation.
 
 ### 1.2.1. Traditional Methods (传统迁移方法)
 
+- 20210607 ICML-21 [Sequential Domain Adaptation by Synthesizing Distributionally Robust Experts](http://arxiv.org/abs/2106.00322)
+  - Sequential DA using distributionally robust experts
+  - 用鲁棒专家模型进行连续式领域自适应
+
 - 20200615 [Deep Transfer Learning with Ridge Regression](https://arxiv.org/abs/2006.06791)
 
 - 20200324 [Domain Adaptation by Class Centroid Matching and Local Manifold Self-Learning](https://arxiv.org/abs/2003.09391)
