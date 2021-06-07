@@ -68,7 +68,7 @@ Latest: [**所有 all papers...**](https://github.com/jindongwang/transferlearni
     - Federated transfer learning framework 2
     - FedHealth联邦迁移学习框架第二代
 
-  - 20210607 Interspeech-21 [Cross-domain Speech Recognition with Unsupervised Character-level Distribution Matching](https://arxiv.org/abs/2104.07491)
+  - 20210607 Interspeech-21 [Cross-domain Speech Recognition with Unsupervised Character-level Distribution Matching](https://arxiv.org/abs/2104.07491) [知乎](https://zhuanlan.zhihu.com/p/370691801)
     - Domain adaptation for speech recognition
     - 用domain adaptation进行跨领域的语音识别
 
