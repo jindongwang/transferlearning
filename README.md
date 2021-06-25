@@ -64,6 +64,18 @@ author = {Wang, Jindong and others}
 
 Latest: [**所有 all papers...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
+  - 20210625 ICML-21 [f-Domain-Adversarial Learning: Theory and Algorithms](http://arxiv.org/abs/2106.11344)
+    - New theory based on f-divergence
+    - 基于f-divergence给出新的DA理论和算法
+
+  - 20210625 CVPR-21 [Generalized Domain Adaptation](http://arxiv.org/abs/2106.01656)
+    - Generalized domain adaptation
+    - 更通用更一般的domain adaptation
+
+  - 20210625 CVPR-21 [A Fourier-based Framework for Domain Generalization](http://arxiv.org/abs/2105.11120)
+    - Fourier based domain generalization
+    - 基于傅里叶特征的DG
+
   - 20210607 [FedHealth 2: Weighted Federated Transfer Learning via Batch Normalization for Personalized Healthcare](https://arxiv.org/abs/2106.01009)
     - Federated transfer learning framework 2
     - FedHealth联邦迁移学习框架第二代
