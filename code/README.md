@@ -52,6 +52,10 @@ To run it instantly without any configuration, I also put it to Google's Colab: 
   - Support all Pytorch versions! (We know that `autograd` has been changed since 1.0)
 
 
+## Domain generalization 领域泛化
+
+- **DeepDG** [Pytorch](https://github.com/jindongwang/transferlearning/tree/master/code/DeepDG)
+
 ## Traditional transfer learning methods  非深度迁移
 
 - **SVM** (baseline) [Matlab](https://github.com/jindongwang/transferlearning/tree/master/code/traditional/SVM.m)
@@ -142,6 +146,9 @@ To run it instantly without any configuration, I also put it to Google's Colab: 
 - **SDG4DA** (Reinforced Training Data Selection for Domain Adaptation, ACL-19) [70] [Tensorflow](https://github.com/timerstime/SDG4DA)
 
 - **CMatch** (Cross-domain Speech Recognition with Unsupervised Character-level Distribution Matching, arXiv-21) [83] [Pytorch](https://github.com/jindongwang/transferlearning/tree/master/code/ASR/CMatch)
+
+- **Adapter** for speech recognition (Adapter-based Cross-lingual ASR with EasyEspnet) [Pytorch](https://github.com/jindongwang/transferlearning/tree/master/code/ASR/Adapter) [85]
+
 - - -
 
 #### References
@@ -313,3 +320,5 @@ accepted in International Conference on Computer Vision (ICCV 2015), Santiago, C
 [83] Wenxin Hou, Jindong Wang, Xu Tan, Tao Qin, Takahiro Shinozaki, "Cross-domain Speech Recognition with Unsupervised Character-level Distribution Matching", arxiv 2104.07491.
 
 [84] Lu W, Chen Y, Wang J, et al. Cross-domain Activity Recognition via Substructural Optimal Transport[J]. arXiv preprint arXiv:2102.03353, 2021.
+
+[85] Hou W, Zhu H, Wang Y, et al. Exploiting Adapters for Cross-lingual Low-resource Speech Recognition[J]. arXiv preprint arXiv:2105.11905, 2021.
