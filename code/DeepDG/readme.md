@@ -17,8 +17,8 @@ As initial version, we support the following algoirthms. We are working on more 
 ## Installation
 
 ```
-git clone 
-cd 
+git clone https://github.com/jindongwang/transferlearning.git
+cd code/DeepDG
 pip install -r requirements.txt
 ```
 We recommend to use `Python 3.8.8` which is our development environment.
@@ -130,7 +130,7 @@ If you think this toolkit or the results are helpful to you and your research, p
 
 ```
 @Misc{deepda,
-howpublished = {\url{}},   
+howpublished = {\url{https://github.com/jindongwang/transferlearning/tree/master/code/DeepDG}},   
 title = {DG: Domain Generalization Toolkit},  
 author = {Wang, Jindong and Wang Lu}
 }  
