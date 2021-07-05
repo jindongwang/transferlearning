@@ -28,7 +28,7 @@ def get_args():
     parser.add_argument('--classifier', type=str,
                         default="linear", choices=["linear", "wn"])
     parser.add_argument('--data_file', type=str, default='',
-                        help='used when sending results to blob')
+                        help='root_dir')
     parser.add_argument('--dataset', type=str, default='office')
     parser.add_argument('--data_dir', type=str, default='', help='data dir')
     parser.add_argument('--dis_hidden', type=int,
@@ -65,7 +65,6 @@ def get_args():
     parser.add_argument('--rsc_b_drop_factor', type=float,
                         default=1/3, help='rsc hyper-param')
     parser.add_argument('--save_model_every_checkpoint', action='store_true')
-    parser.add_argument('--save_to_blob', action='store_true')
     parser.add_argument('--seed', type=int, default=0)
     parser.add_argument('--split_style', type=str, default='strat',
                         help="the style to split the train and eval datasets")
@@ -79,7 +78,6 @@ def get_args():
     args = parser.parse_args()
     args.step_per_epoch = 100000000000
     args.data_dir = args.data_file+args.data_dir
-    args.blob_output = args.output.split('/')[-1]
     os.environ['CUDA_VISIBLE_DEVICS'] = args.gpu_id
     os.makedirs(args.output, exist_ok=True)
     sys.stdout = Tee(os.path.join(args.output, 'out.txt'))
@@ -144,11 +142,3 @@ if __name__ == '__main__':
         f.write('done\n')
         f.write('total cost time:%s\n' % (str(time.time()-sss)))
         f.write('target acc:%.4f' % (target_acc))
-
-    if args.save_to_blob:
-        from utils.uploadblob import save_to_azure
-        filelist = os.listdir(args.output)
-        for item in filelist:
-            file = args.output+'/'+item
-            save_to_azure(file, 'train/lw/result/mydg/' +
-                          args.blob_output+'/'+item)
