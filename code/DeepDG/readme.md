@@ -1,4 +1,4 @@
-# DG: Domain Generalization Toolkit
+# DeepDG: Deep Domain Generalization Toolkit
 
 An easy-to-learn, easy-to-extend, and for-fair-comparison toolkit based on PyTorch for domain generalization (DG).
 
@@ -127,7 +127,7 @@ If you think this toolkit or the results are helpful to you and your research, p
 ```
 @Misc{deepdg,
 howpublished = {\url{https://github.com/jindongwang/transferlearning/tree/master/code/DeepDG}},   
-title = {DG: Domain Generalization Toolkit},  
+title = {DeepDG: Deep Domain Generalization Toolkit},  
 author = {Wang, Jindong and Wang Lu}
 }  
 ```
