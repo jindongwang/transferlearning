@@ -129,7 +129,7 @@ Great thanks to [DomainBed](https://github.com/facebookresearch/DomainBed). We s
 If you think this toolkit or the results are helpful to you and your research, please cite us!
 
 ```
-@Misc{deepda,
+@Misc{deepdg,
 howpublished = {\url{https://github.com/jindongwang/transferlearning/tree/master/code/DeepDG}},   
 title = {DG: Domain Generalization Toolkit},  
 author = {Wang, Jindong and Wang Lu}
