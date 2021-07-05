@@ -98,10 +98,6 @@ We present results of our implementations on 2 popular benchmarks: PACS and Offi
 | MMD | 51.83 | 38.05 | 63.82 | 67.00 | 55.17 |
 | MLDG | 45.65 | 32.28 | 58.62 | 60.64 | 49.30 |
 
-## Future Work
-
-We will add Human Activity Recognition experiments in a short future.
-
 ## Contribution
 
 The toolkit is under active development and contributions are welcome! Feel free to submit issues and PRs to ask questions or contribute your code. If you would like to implement new features, please submit a issue to discuss with us first.
