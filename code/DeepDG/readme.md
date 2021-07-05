@@ -43,7 +43,7 @@ If you want to use your own dataset, please organize your data in the following 
 
 ```
 RootDir
-└───Domain1Nmae
+└───Domain1Name
 │   └───Class1Name
 │       │   file1.jpg
 │       │   file2.jpg
