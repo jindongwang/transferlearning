@@ -7,18 +7,23 @@ The full list of datasets can be found in [datasets](https://github.com/jindongw
 Here, we provide benchmark results for the following datasets:
 
 - [Benchmark](#benchmark)
-  - [Adaptiope dataset](#adaptiope-dataset)
-  - [Office-31 dataset](#office-31-dataset)
-  - [Office-Home](#office-home)
-  - [Image-CLEF DA](#image-clef-da)
-  - [Office+Caltech](#officecaltech)
-    - [SURF](#surf)
-    - [Decaf6](#decaf6)
-  - [MNIST+USPS](#mnistusps)
+  - [Domain adaptation](#domain-adaptation)
+    - [Adaptiope dataset](#adaptiope-dataset)
+    - [Office-31 dataset](#office-31-dataset)
+    - [Office-Home](#office-home)
+    - [Image-CLEF DA](#image-clef-da)
+    - [Office+Caltech](#officecaltech)
+      - [SURF](#surf)
+      - [Decaf6](#decaf6)
+    - [MNIST+USPS](#mnistusps)
+  - [Domain generalization](#domain-generalization)
+    - [PACS (Resnet-18)](#pacs-resnet-18)
+    - [Office-Home (Resnet-18)](#office-home-resnet-18)
   - [References](#references)
 
+## Domain adaptation
 
-## Adaptiope dataset 
+### Adaptiope dataset 
 
 Using ResNet-50 features (compare with the latest deep methods with ResNet-50 as backbone). 
 
@@ -31,7 +36,7 @@ Using ResNet-50 features (compare with the latest deep methods with ResNet-50 as
 | TNNLS20[29] | DSAN | 77.8 | **60.1** | **91.9** | **55.7** | 68.8 | **47.8** | **67.0** |
 
 
-## Office-31 dataset 
+### Office-31 dataset 
 
 Using ResNet-50 features (compare with the latest deep methods with ResNet-50 as backbone). It seems **MEDA** is the only traditional method that can challenge these heavy deep adversarial methods.
 
@@ -63,7 +68,7 @@ Finetuned ResNet-50 models For Office-31 dataset: [BaiduYun](https://pan.baidu.c
 | DANN [3]        | 67.06 | 97.86 | 84.65 | 71.03 | 82.73  | 100.00 | 83.89   |
 | DSAN [4]        | 76.04 | 98.49 | 94.34 | 72.91 | 89.96  | 100.00 | 88.62   |
 
-## Office-Home
+### Office-Home
 
 Using ResNet-50 features (compare with the latest deep methods with ResNet-50 as backbone). Again, it seems that **MEDA** achieves the best performance. 
 
@@ -95,7 +100,7 @@ Finetuned ResNet-50 models For Office-Home dataset: [BaiduYun](https://pan.baidu
 | DANN [3]        | 51.48 | 67.27 | 74.18 | 53.23 | 65.10 | 65.41 | 53.15 | 50.22 | 75.05 | 65.35 | 57.48 | 79.45 | 63.12   |
 | DSAN [4]        | 54.48 | 71.12 | 75.37 | 60.53 | 70.92 | 68.53 | 62.71 | 56.04 | 78.29 | 74.37 | 60.34 | 82.99 | 67.97   |
 
-## Image-CLEF DA
+### Image-CLEF DA
 
 using ResNet-50 features (compare with the latest deep methods with ResNet-50 as backbone). Again, it seems that **MEDA** achieves the best performance. 
 
@@ -119,11 +124,11 @@ Finetuned ResNet-50 models For ImageCLEF dataset: [BaiduYun](https://pan.baidu.c
 | neural network19[28] | MRAN      | 78.8 | 91.7 |  95.0 | 93.5 | 77.7 | 93.1 | 88.3 |
 | TNNLS20[29] | DSAN      | **80.2** | **93.3** | **97.2** | **93.8** | **80.8** |**95.9** | **90.2** |
 
-## Office+Caltech
+### Office+Caltech
 
 We provide results on SURF and DeCaf features.
 
-### SURF
+#### SURF
 
 |            Task |     C - A   |     C - W   |     C - D   |     A - C   |     A - W   |     A - D   |     W - C |     W - A   |     W - D   |     D - C   |     D - A   |     D - W   |     Average |
 |-----------------|-------------|-------------|-------------|-------------|-------------|-------------|-----------|-------------|-------------|-------------|-------------|-------------|-------------|
@@ -139,7 +144,7 @@ We provide results on SURF and DeCaf features.
 |     MEDA[27]        |     **56.5**    |     **53.9**    |     **50.3**    |     **43.9**    |     **53.2**    |     **45.9**    |     **34.0**    |     **42.7**    |     **88.5**    |     **34.9**    |     **41.2**    |     **87.5**    |     **52.7**    |
 - - -
 
-### Decaf6
+#### Decaf6
 
 |        Method  |     C - A      |     C - W      |     C - D      |     A - C      |     A - W      |     A - D      |     W - C      |     W - A      |     W - D      |     D - C      |     D - A      |     D - W      |     Average    |
 |----------------|----------------|----------------|----------------|----------------|----------------|----------------|----------------|----------------|----------------|----------------|----------------|----------------|----------------|
@@ -160,7 +165,7 @@ We provide results on SURF and DeCaf features.
 
 - - -
 
-## MNIST+USPS
+### MNIST+USPS
 
 There are plenty of different configurations in MNIST+USPS datasets. Here we only show some the recent results with the same network (based on LeNet) and training/test split.
 
@@ -176,6 +181,34 @@ There are plenty of different configurations in MNIST+USPS datasets. Here we onl
 | PixelDA |    95.9    |
 |   UNIT  |    95.9    |
 |   DSAN  |    96.9    |
+
+## Domain generalization
+
+We get the results on PACS and Office-Home using our [codebase](https://github.com/jindongwang/transferlearning/blob/master/code/DeepDG).
+
+### PACS (Resnet-18)
+
+| Method | A | C | P | S | AVG |
+|----------|----------|----------|----------|----------|----------|
+| ERM | 60.84 | 54.31 | 93.59 | 39.70 | 62.11 |
+| DANN | 63.82 | 57.68 | 93.65 | 38.61 | 63.44 |
+| Mixup | 63.87 | 54.65 | 93.05 | 43.57 | 63.79 |
+| RSC | 63.38 | 55.12 | 93.95 | 40.19 | 63.16 |
+| CORAL | 58.54 | 58.70 | 89.94 | 36.04 | 60.80 |
+| MMD | 58.94 | 57.81 | 89.70 | 36.04 | 60.62 |
+| MLDG | 58.79 | 55.80 | 95.39 | 52.94 | 65.73 |
+
+### Office-Home (Resnet-18)
+
+| Method | A | C | P | R | AVG |
+|----------|----------|----------|----------|----------|----------|
+| ERM | 51.38 | 37.69 | 64.83 | 67.62 | 55.38 |
+| DANN | 51.59 | 38.01 | 64.56 | 67.41 | 55.39 |
+| Mixup | 50.97 | 37.64 | 62.81 | 66.28 | 54.43 |
+| RSC | 52.45 | 39.15 | 65.24 | 67.96 | 56.20 |
+| CORAL | 51.71 | 38.53 | 63.84 | 67.00 | 55.27 |
+| MMD | 51.83 | 38.05 | 63.82 | 67.00 | 55.17 |
+| MLDG | 45.65 | 32.28 | 58.62 | 60.64 | 49.30 |
 
 ## References
 

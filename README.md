@@ -232,9 +232,11 @@ _ _ _
 
 ## 4.Code (代码)
 
-请见[这里](https://github.com/jindongwang/transferlearning/tree/master/code) | Please see [HERE](https://github.com/jindongwang/transferlearning/tree/master/code) for some popular transfer learning codes.
+Unified codebases for:
+- [Deep domain adaptation](https://github.com/jindongwang/transferlearning/tree/master/code/DeepDA)
+- [Deep domain generalization](https://github.com/jindongwang/transferlearning/tree/master/code/DeepDG)
 
-See [HERE](https://colab.research.google.com/drive/1MVuk95mMg4ecGyUAIG94vedF81HtWQAr?usp=sharing) for an instant run using Google's Colab.
+More: see [HERE](https://github.com/jindongwang/transferlearning/tree/master/code) and [HERE](https://colab.research.google.com/drive/1MVuk95mMg4ecGyUAIG94vedF81HtWQAr?usp=sharing) for an instant run using Google's Colab.
 
 _ _ _
 
