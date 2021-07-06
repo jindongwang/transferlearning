@@ -117,7 +117,7 @@ def img_param_init(args):
         args.input_shape = (3, 32, 32)
         args.num_classes = 10
     else:
-        args.input_shape = (3, 224, 244)
+        args.input_shape = (3, 224, 224)
         if args.dataset == 'office-home':
             args.num_classes = 65
         elif args.dataset == 'office':
