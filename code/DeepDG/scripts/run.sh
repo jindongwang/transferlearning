@@ -8,7 +8,7 @@ net='resnet18'
 task='img_dg'
 output='../../data/train_output/test'
 
-i=2
+i=0
 
 python train.py --data_dir $data_dir --max_epoch $max_epoch --net $net --task $task --output $output \
---test_envs $test_envs --dataset $dataset --algorithm ${algorithm[i]} --mldg_beta 10 #--save_to_blob
+--test_envs $test_envs --dataset $dataset --algorithm ${algorithm[i]} --mldg_beta 10
