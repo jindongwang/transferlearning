@@ -26,6 +26,7 @@ Let's read some awesome transfer learning / domain adaptation papers.
 	- [1.12. Transitive Transfer Learning (传递迁移学习)](#112-transitive-transfer-learning-传递迁移学习)
 	- [1.13. Lifelong Learning (终身迁移学习)](#113-lifelong-learning-终身迁移学习)
 	- [1.14. Negative Transfer (负迁移)](#114-negative-transfer-负迁移)
+	- [Domain generalization (领域泛化)](#domain-generalization-领域泛化)
 	- [1.15. Transfer Learning Applications (应用)](#115-transfer-learning-applications-应用)
 
 ## 1.1. General Transfer Learning (普通迁移学习)
@@ -470,6 +471,14 @@ Including domain adaptation and partial domain adaptation.
 	- 发表在IEEE Trans. Knowledge and Data Engineering期刊上
 
 ### 1.2.2. Deep / Adversarial Methods (深度/对抗迁移方法)
+
+- 20210706 CVPR-21 [Instance Level Affinity-Based Transfer for Unsupervised Domain Adaptation](https://openaccess.thecvf.com/content/CVPR2021/html/Sharma_Instance_Level_Affinity-Based_Transfer_for_Unsupervised_Domain_Adaptation_CVPR_2021_paper.html)
+    - Instance affinity learning for domain adaptation
+    - 样本间相似度学习，用于DA
+
+- 20210706 CVPR-21 [Multi-Target Domain Adaptation With Collaborative Consistency Learning](https://openaccess.thecvf.com/content/CVPR2021/html/Isobe_Multi-Target_Domain_Adaptation_With_Collaborative_Consistency_Learning_CVPR_2021_paper.html)
+    - Using collaborative consistency training for multi-target DA
+    - 用多个模型做集成一致性训练进行多目标DA
 
 - 20210625 ICML-21 [f-Domain-Adversarial Learning: Theory and Algorithms](http://arxiv.org/abs/2106.11344)
     - New theory based on f-divergence
@@ -1652,6 +1661,22 @@ Including domain adaptation and partial domain adaptation.
 - 20181128 arXiv [Characterizing and Avoiding Negative Transfer](https://arxiv.org/abs/1811.09751)
 	-  Analyzing and formalizing negative transfer, then propose a new method
 	- 分析并形式化负迁移，进而提出自己的方法
+
+- - -
+
+## Domain generalization (领域泛化)
+
+- 20210706 CVPR-21 [Progressive Domain Expansion Network for Single Domain Generalization](https://openaccess.thecvf.com/content/CVPR2021/html/Li_Progressive_Domain_Expansion_Network_for_Single_Domain_Generalization_CVPR_2021_paper.html)
+    - Progressive domain expansion network for DG
+    - 动态生成多个domain然后做DG
+
+- 20210706 CVPR-21 [FSDR: Frequency Space Domain Randomization for Domain Generalization](https://openaccess.thecvf.com/content/CVPR2021/html/Huang_FSDR_Frequency_Space_Domain_Randomization_for_Domain_Generalization_CVPR_2021_paper.html)
+    - Domain generalization from frequency space
+    - 在频率空间进行领域泛化
+
+- 2021 Domain generalization: IJCAI-21 [Generalizing to Unseen Domains: A Survey on Domain Generalization](https://arxiv.org/abs/2103.03097) | [知乎文章](https://zhuanlan.zhihu.com/p/354740610) | [微信公众号](https://mp.weixin.qq.com/s/DsoVDYqLB1N7gj9X5UnYqw)
+    - First survey on domain generalization
+    - 第一篇对Domain generalization (领域泛化)的综述
 
 - - -
 

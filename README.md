@@ -64,6 +64,22 @@ author = {Wang, Jindong and others}
 
 Latest: [**所有 all papers...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
+  - 20210706 CVPR-21 [Multi-Target Domain Adaptation With Collaborative Consistency Learning](https://openaccess.thecvf.com/content/CVPR2021/html/Isobe_Multi-Target_Domain_Adaptation_With_Collaborative_Consistency_Learning_CVPR_2021_paper.html)
+    - Using collaborative consistency training for multi-target DA
+    - 用多个模型做集成一致性训练进行多目标DA
+
+  - 20210706 CVPR-21 [FSDR: Frequency Space Domain Randomization for Domain Generalization](https://openaccess.thecvf.com/content/CVPR2021/html/Huang_FSDR_Frequency_Space_Domain_Randomization_for_Domain_Generalization_CVPR_2021_paper.html)
+    - Domain generalization from frequency space
+    - 在频率空间进行领域泛化
+
+  - 20210706 CVPR-21 [Instance Level Affinity-Based Transfer for Unsupervised Domain Adaptation](https://openaccess.thecvf.com/content/CVPR2021/html/Sharma_Instance_Level_Affinity-Based_Transfer_for_Unsupervised_Domain_Adaptation_CVPR_2021_paper.html)
+    - Instance affinity learning for domain adaptation
+    - 样本间相似度学习，用于DA
+
+  - 20210706 CVPR-21 [Progressive Domain Expansion Network for Single Domain Generalization](https://openaccess.thecvf.com/content/CVPR2021/html/Li_Progressive_Domain_Expansion_Network_for_Single_Domain_Generalization_CVPR_2021_paper.html)
+    - Progressive domain expansion network for DG
+    - 动态生成多个domain然后做DG
+
   - 20210625 ICML-21 [f-Domain-Adversarial Learning: Theory and Algorithms](http://arxiv.org/abs/2106.11344)
     - New theory based on f-divergence
     - 基于f-divergence给出新的DA理论和算法
@@ -83,22 +99,6 @@ Latest: [**所有 all papers...**](https://github.com/jindongwang/transferlearni
   - 20210607 Interspeech-21 [Cross-domain Speech Recognition with Unsupervised Character-level Distribution Matching](https://arxiv.org/abs/2104.07491) [知乎](https://zhuanlan.zhihu.com/p/370691801)
     - Domain adaptation for speech recognition
     - 用domain adaptation进行跨领域的语音识别
-
-  - 20210607 ICML-21 [Sequential Domain Adaptation by Synthesizing Distributionally Robust Experts](http://arxiv.org/abs/2106.00322)
-    - Sequential DA using distributionally robust experts
-    - 用鲁棒专家模型进行连续式领域自适应
-
-  - 20210607 [Bilingual Alignment Pre-training for Zero-shot Cross-lingual Transfer](http://arxiv.org/abs/2106.01732)
-    - Zero-shot cross-lingual transfer using bilingual alignment pretraining
-    - 通过双语言进行对齐预训练进行零资源的跨语言迁移
-
-  - 20210607 [Pre-training Universal Language Representation](http://arxiv.org/abs/2105.14478)
-    - Pretraining for universal language representation
-    - 用统一的预训练进行语言表征建模
-
-  - 20210526 [Exploiting Adapters for Cross-lingual Low-resource Speech Recognition](https://arxiv.org/abs/2105.11905)
-    - Investigate cross-lingual speech recognition for low-resource languages using Adapter and its variants.
-    - 探究使用Adapter及其变体进行对低资源语言进行跨语言语音识别
     - 
 [**所有 all papers...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
