@@ -14,8 +14,8 @@ lr_gamma: 0.0003
 lr_decay: 0.75
 
 # Training related
-n_iter_per_epoch: 20
-n_epoch: 500
+n_iter_per_epoch: 500
+n_epoch: 20
 
 # Others
 seed: 1
