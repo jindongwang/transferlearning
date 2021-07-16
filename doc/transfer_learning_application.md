@@ -2,6 +2,18 @@
 
 迁移学习的应用
 
+- 20210716 MICCAI-21 [Few-Shot Domain Adaptation with Polymorphic Transformers](https://arxiv.org/abs/2107.04805)
+    - Few-shot domain adaptation with polymorphic transformer
+    - 用多模态transformer做少样本的domain adaptation
+
+- 20210716 InterSpeech-21 [Speech2Video: Cross-Modal Distillation for Speech to Video Generation](https://arxiv.org/abs/2107.04806)
+  - Cross-model distillation for video generation
+  - 跨模态蒸馏用于语音到video的生成
+
+- 20210716 ICML-21 workshop [Leveraging Domain Adaptation for Low-Resource Geospatial Machine Learning](https://arxiv.org/abs/2107.04983)
+  - Using domain adaptation for geospatial ML
+  - 用domain adaptation进行地理空间的机器学习
+
 - 20210607 [FedHealth 2: Weighted Federated Transfer Learning via Batch Normalization for Personalized Healthcare](https://arxiv.org/abs/2106.01009)
     - Federated transfer learning framework 2
     - FedHealth联邦迁移学习框架第二代

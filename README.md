@@ -64,42 +64,31 @@ author = {Wang, Jindong and others}
 
 Latest: [**所有 all papers...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
-  - 20210706 CVPR-21 [Multi-Target Domain Adaptation With Collaborative Consistency Learning](https://openaccess.thecvf.com/content/CVPR2021/html/Isobe_Multi-Target_Domain_Adaptation_With_Collaborative_Consistency_Learning_CVPR_2021_paper.html)
-    - Using collaborative consistency training for multi-target DA
-    - 用多个模型做集成一致性训练进行多目标DA
+  - 20210716 ICML-21 [Continual Learning in the Teacher-Student Setup: Impact of Task Similarity](https://arxiv.org/abs/2107.04384)
+    - Investigating task similarity in teacher-student learning
+    - 调研在continual learning下teacher-student learning问题的任务相似度
 
-  - 20210706 CVPR-21 [FSDR: Frequency Space Domain Randomization for Domain Generalization](https://openaccess.thecvf.com/content/CVPR2021/html/Huang_FSDR_Frequency_Space_Domain_Randomization_for_Domain_Generalization_CVPR_2021_paper.html)
-    - Domain generalization from frequency space
-    - 在频率空间进行领域泛化
+  - 20210716 BMCV-extend [Exploring Dropout Discriminator for Domain Adaptation](https://arxiv.org/abs/2107.04231)
+    - Using multiple discriminators for domain adaptation
+    - 用分布估计代替点估计来做domain adaptation
 
-  - 20210706 CVPR-21 [Instance Level Affinity-Based Transfer for Unsupervised Domain Adaptation](https://openaccess.thecvf.com/content/CVPR2021/html/Sharma_Instance_Level_Affinity-Based_Transfer_for_Unsupervised_Domain_Adaptation_CVPR_2021_paper.html)
-    - Instance affinity learning for domain adaptation
-    - 样本间相似度学习，用于DA
+  - 20210716 TPAMI-21 [Lifelong Teacher-Student Network Learning](https://arxiv.org/abs/2107.04689)
+    - Lifelong distillation
+    - 持续的知识蒸馏
 
-  - 20210706 CVPR-21 [Progressive Domain Expansion Network for Single Domain Generalization](https://openaccess.thecvf.com/content/CVPR2021/html/Li_Progressive_Domain_Expansion_Network_for_Single_Domain_Generalization_CVPR_2021_paper.html)
-    - Progressive domain expansion network for DG
-    - 动态生成多个domain然后做DG
+  - 20210716 MICCAI-21 [Few-Shot Domain Adaptation with Polymorphic Transformers](https://arxiv.org/abs/2107.04805)
+    - Few-shot domain adaptation with polymorphic transformer
+    - 用多模态transformer做少样本的domain adaptation
 
-  - 20210625 ICML-21 [f-Domain-Adversarial Learning: Theory and Algorithms](http://arxiv.org/abs/2106.11344)
-    - New theory based on f-divergence
-    - 基于f-divergence给出新的DA理论和算法
+  - 20210716 InterSpeech-21 [Speech2Video: Cross-Modal Distillation for Speech to Video Generation](https://arxiv.org/abs/2107.04806)
+    - Cross-model distillation for video generation
+    - 跨模态蒸馏用于语音到video的生成
 
-  - 20210625 CVPR-21 [Generalized Domain Adaptation](http://arxiv.org/abs/2106.01656)
-    - Generalized domain adaptation
-    - 更通用更一般的domain adaptation
+  - 20210716 ICML-21 workshop [Leveraging Domain Adaptation for Low-Resource Geospatial Machine Learning](https://arxiv.org/abs/2107.04983)
+    - Using domain adaptation for geospatial ML
+    - 用domain adaptation进行地理空间的机器学习 
 
-  - 20210625 CVPR-21 [A Fourier-based Framework for Domain Generalization](http://arxiv.org/abs/2105.11120)
-    - Fourier based domain generalization
-    - 基于傅里叶特征的DG
-
-  - 20210607 [FedHealth 2: Weighted Federated Transfer Learning via Batch Normalization for Personalized Healthcare](https://arxiv.org/abs/2106.01009)
-    - Federated transfer learning framework 2
-    - FedHealth联邦迁移学习框架第二代
-
-  - 20210607 Interspeech-21 [Cross-domain Speech Recognition with Unsupervised Character-level Distribution Matching](https://arxiv.org/abs/2104.07491) [知乎](https://zhuanlan.zhihu.com/p/370691801)
-    - Domain adaptation for speech recognition
-    - 用domain adaptation进行跨领域的语音识别
-    - 
+  
 [**所有 all papers...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
 - - -

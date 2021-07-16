@@ -86,6 +86,18 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 ### 1.1.2. Others (其他)
 
+- 20210716 ICML-21 [Continual Learning in the Teacher-Student Setup: Impact of Task Similarity](https://arxiv.org/abs/2107.04384)
+    - Investigating task similarity in teacher-student learning
+    - 调研在continual learning下teacher-student learning问题的任务相似度
+
+- 20210716 BMCV-extend [Exploring Dropout Discriminator for Domain Adaptation](https://arxiv.org/abs/2107.04231)
+  - Using multiple discriminators for domain adaptation
+  - 用分布估计代替点估计来做domain adaptation
+
+- 20210716 TPAMI-21 [Lifelong Teacher-Student Network Learning](https://arxiv.org/abs/2107.04689)
+  - Lifelong distillation
+  - 持续的知识蒸馏
+
 - 20210511 ACL-21 [Are Pre-trained Convolutions Better than Pre-trained Transformers?](https://arxiv.org/abs/2105.03322)
     - Empirically investigate pre-trained convolutions and Transformers
     - 设计实验探索预训练的卷积和Transformer的对比
