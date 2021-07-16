@@ -64,6 +64,9 @@ author = {Wang, Jindong and others}
 
 Latest: [**所有 all papers...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
+<details>
+  <summary>Latest papers (2021-07-16)</summary>
+
   - 20210716 ICML-21 [Continual Learning in the Teacher-Student Setup: Impact of Task Similarity](https://arxiv.org/abs/2107.04384)
     - Investigating task similarity in teacher-student learning
     - 调研在continual learning下teacher-student learning问题的任务相似度
@@ -88,6 +91,7 @@ Latest: [**所有 all papers...**](https://github.com/jindongwang/transferlearni
     - Using domain adaptation for geospatial ML
     - 用domain adaptation进行地理空间的机器学习 
 
+</details>
   
 [**所有 all papers...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
