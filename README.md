@@ -21,7 +21,7 @@ author = {Wang, Jindong and others}
         <td>Contents</td>
     </tr>
     <tr>
-        <td><a href="#0latest-publications-最新论文">0.Papers (论文)</a></td>
+        <td><a href="#0papers-论文">0.Papers (论文)</a></td>
         <td><a href="#1introduction-and-tutorials-简介与教程">1.Introduction and Tutorials (简介与教程)</a></td>
     </tr>
     <tr>
@@ -52,17 +52,15 @@ author = {Wang, Jindong and others}
 
 **NOTE:** You can directly open the code in Gihub Codespaces on the web to run them without downloading!
 
-## 0.Latest Publications (最新论文)
+## 0.Papers (论文)
 
-**A good website to see the latest arXiv preprints by search: [Transfer learning](http://arxitics.com/search?q=transfer%20learning&sort=updated#1904.01376/abstract), [Domain adaptation](http://arxitics.com/search?q=domain%20adaptation&sort=updated)**
+- Arxitics: a good website to see the latest arXiv papers: [Transfer learning](http://arxitics.com/search?q=transfer%20learning&sort=updated#1904.01376/abstract), [Domain adaptation](http://arxitics.com/search?q=domain%20adaptation&sort=updated)
 
-**一个很好的网站，可以直接看到最新的arXiv文章: [Transfer learning](http://arxitics.com/search?q=transfer%20learning&sort=updated#1904.01376/abstract), [Domain adaptation](http://arxitics.com/search?q=domain%20adaptation&sort=updated)**
+- [Paperweekly](http://www.paperweekly.site/collections/231/papers): A good website to recommend and read paper notes (一个推荐、分享论文的网站比较好，上面会持续整理相关的文章并分享阅读笔记)
 
-[迁移学习文章汇总 Awesome transfer learning papers](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
+- [Awesome transfer learning papers (迁移学习文章汇总)](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
-- **Papers**
-
-Latest: [**所有 all papers...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
+- **Latest papers**:
 
 <details>
   <summary>Latest papers (2021-07-16)</summary>
@@ -92,8 +90,6 @@ Latest: [**所有 all papers...**](https://github.com/jindongwang/transferlearni
     - 用domain adaptation进行地理空间的机器学习 
 
 </details>
-  
-[**所有 all papers...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
 - - -
 
@@ -101,12 +97,12 @@ Latest: [**所有 all papers...**](https://github.com/jindongwang/transferlearni
 
 Want to quickly learn transfer learning？想尽快入门迁移学习？看下面的教程。
 
-- The transfer learning tutorial 入门教程 
-  - Book: [**《迁移学习导论》Introduction to Transfer Learning**](https://zhuanlan.zhihu.com/p/374927278) [Buy](https://item.jd.com/13283188.html)
-  - [Zhihu blogs - 知乎专栏《小王爱迁移》系列文章](https://zhuanlan.zhihu.com/p/130244395)
-	- [《迁移学习简明手册》Transfer Learning Tutorial](https://zhuanlan.zhihu.com/p/35352154) [PDF](http://jd92.wang/assets/files/transfer_learning_tutorial_wjd.pdf)
-	
+- Books 书籍
+  - [**《迁移学习导论》Introduction to Transfer Learning**](http://jd92.wang/tlbook) [Buy](https://item.jd.com/13283188.html)
 
+- Blogs 博客
+  - [Zhihu blogs - 知乎专栏《小王爱迁移》系列文章](https://zhuanlan.zhihu.com/p/130244395)
+	
 - Video tutorials 视频教程 
   - [Recent advance of transfer learning - 2021年最新迁移学习发展现状探讨](https://www.bilibili.com/video/BV1N5411T7Sb)
 	- [Domain adaptation - 迁移学习中的领域自适应方法(中文)](https://www.bilibili.com/video/BV1T7411R75a/)
@@ -134,7 +130,9 @@ Want to quickly learn transfer learning？想尽快入门迁移学习？看下�
 
 ## 2.Transfer Learning Areas and Papers (研究领域与相关论文)
 
-Related articles by research areas:
+<details>
+<summary>
+Related articles by research areas:</summary>
 
 - [General Transfer Learning (普通迁移学习)](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#general-transfer-learning-%E6%99%AE%E9%80%9A%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0)
   - [Theory (理论)](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#theory-%E7%90%86%E8%AE%BA)
@@ -158,7 +156,7 @@ Related articles by research areas:
 - [Negative Transfer (负迁移)](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#negative-transfer-%E8%B4%9F%E8%BF%81%E7%A7%BB)
 - [Transfer Learning Applications (应用)](https://github.com/jindongwang/transferlearning/blob/master/doc/transfer_learning_application.md)
 
-[Paperweekly](http://www.paperweekly.site/collections/231/papers): 一个推荐、分享论文的网站比较好，上面会持续整理相关的文章并分享阅读笔记。
+</details>
 
 - - -
 
@@ -168,27 +166,24 @@ Here are some articles on transfer learning theory and survey.
 
 **Survey (综述文章)：**
 
-- The most influential survey on transfer learning （最权威和经典的综述）: [A survey on transfer learning](http://ieeexplore.ieee.org/abstract/document/5288526/).
-
-- Latest survey - 较新的综述：
-    - 2021 Domain generalization: IJCAI-21 [Generalizing to Unseen Domains: A Survey on Domain Generalization](https://arxiv.org/abs/2103.03097) | [知乎文章](https://zhuanlan.zhihu.com/p/354740610) | [微信公众号](https://mp.weixin.qq.com/s/DsoVDYqLB1N7gj9X5UnYqw)
-      - First survey on domain generalization
-      - 第一篇对Domain generalization (领域泛化)的综述
-    - 2020 迁移学习最新survey，来自中科院计算所庄福振团队，发表在Proceedings of the IEEE: [A Comprehensive Survey on Transfer Learning](https://arxiv.org/abs/1911.02685)
-    - 2020 负迁移的综述：[Overcoming Negative Transfer: A Survey](https://arxiv.org/abs/2009.00909)
-	- 2020 知识蒸馏的综述: [Knowledge Distillation: A Survey](https://arxiv.org/abs/2006.05525)
-    - 用transfer learning进行sentiment classification的综述：[A Survey of Sentiment Analysis Based on Transfer Learning](https://ieeexplore.ieee.org/abstract/document/8746210) 
-	- 2019 一篇新survey：[Transfer Adaptation Learning: A Decade Survey](https://arxiv.org/abs/1903.04687)
-	- 2018 一篇迁移度量学习的综述: [Transfer Metric Learning: Algorithms, Applications and Outlooks](https://arxiv.org/abs/1810.03944)
-	- 2018 一篇最近的非对称情况下的异构迁移学习综述：[Asymmetric Heterogeneous Transfer Learning: A Survey](https://arxiv.org/abs/1804.10834)
-	- 2018 Neural style transfer的一个survey：[Neural Style Transfer: A Review](https://arxiv.org/abs/1705.04058)
-	- 2018 深度domain adaptation的一个综述：[Deep Visual Domain Adaptation: A Survey](https://www.sciencedirect.com/science/article/pii/S0925231218306684)
-	- 2017 多任务学习的综述，来自香港科技大学杨强团队：[A survey on multi-task learning](https://arxiv.org/abs/1707.08114)
-	- 2017 异构迁移学习的综述：[A survey on heterogeneous transfer learning](https://link.springer.com/article/10.1186/s40537-017-0089-0)
-	- 2017 跨领域数据识别的综述：[Cross-dataset recognition: a survey](https://arxiv.org/abs/1705.04396)
-	- 2016 [A survey of transfer learning](https://pan.baidu.com/s/1gfgXLXT)。其中交代了一些比较经典的如同构、异构等学习方法代表性文章。
-	- 2015 中文综述：[迁移学习研究进展](https://pan.baidu.com/s/1bpautob)
-
+- 2021 Domain generalization: IJCAI-21 [Generalizing to Unseen Domains: A Survey on Domain Generalization](https://arxiv.org/abs/2103.03097) | [知乎文章](https://zhuanlan.zhihu.com/p/354740610) | [微信公众号](https://mp.weixin.qq.com/s/DsoVDYqLB1N7gj9X5UnYqw)
+  - First survey on domain generalization
+  - 第一篇对Domain generalization (领域泛化)的综述
+- 2020 迁移学习最新survey，来自中科院计算所庄福振团队，发表在Proceedings of the IEEE: [A Comprehensive Survey on Transfer Learning](https://arxiv.org/abs/1911.02685)
+- 2020 负迁移的综述：[Overcoming Negative Transfer: A Survey](https://arxiv.org/abs/2009.00909)
+- 2020 知识蒸馏的综述: [Knowledge Distillation: A Survey](https://arxiv.org/abs/2006.05525)
+- 用transfer learning进行sentiment classification的综述：[A Survey of Sentiment Analysis Based on Transfer Learning](https://ieeexplore.ieee.org/abstract/document/8746210) 
+- 2019 一篇新survey：[Transfer Adaptation Learning: A Decade Survey](https://arxiv.org/abs/1903.04687)
+- 2018 一篇迁移度量学习的综述: [Transfer Metric Learning: Algorithms, Applications and Outlooks](https://arxiv.org/abs/1810.03944)
+- 2018 一篇最近的非对称情况下的异构迁移学习综述：[Asymmetric Heterogeneous Transfer Learning: A Survey](https://arxiv.org/abs/1804.10834)
+- 2018 Neural style transfer的一个survey：[Neural Style Transfer: A Review](https://arxiv.org/abs/1705.04058)
+- 2018 深度domain adaptation的一个综述：[Deep Visual Domain Adaptation: A Survey](https://www.sciencedirect.com/science/article/pii/S0925231218306684)
+- 2017 多任务学习的综述，来自香港科技大学杨强团队：[A survey on multi-task learning](https://arxiv.org/abs/1707.08114)
+- 2017 异构迁移学习的综述：[A survey on heterogeneous transfer learning](https://link.springer.com/article/10.1186/s40537-017-0089-0)
+- 2017 跨领域数据识别的综述：[Cross-dataset recognition: a survey](https://arxiv.org/abs/1705.04396)
+- 2016 [A survey of transfer learning](https://pan.baidu.com/s/1gfgXLXT)。其中交代了一些比较经典的如同构、异构等学习方法代表性文章。
+- 2015 中文综述：[迁移学习研究进展](https://pan.baidu.com/s/1bpautob)
+- 2010 [A survey on transfer learning](http://ieeexplore.ieee.org/abstract/document/5288526/)
 - Survey on applications - 应用导向的综述：
 	- 视觉domain adaptation综述：[Visual Domain Adaptation: A Survey of Recent Advances](https://pan.baidu.com/s/1o8BR7Vc)
 	- 迁移学习应用于行为识别综述：[Transfer Learning for Activity Recognition: A Survey](https://pan.baidu.com/s/1kVABOYr)
@@ -197,29 +192,21 @@ Here are some articles on transfer learning theory and survey.
 
 **Theory （理论文章）:**
 
-- Early transfer learning theory papers - 早期迁移学习的理论分析文章：
-  - NIPS-06 [Analysis of Representations for Domain Adaptation](https://dl.acm.org/citation.cfm?id=2976474)
-  - ML-10 [A Theory of Learning from Different Domains](https://link.springer.com/article/10.1007/s10994-009-5152-4)
-  - NIPS-08 [Learning Bounds for Domain Adaptation](http://papers.nips.cc/paper/3212-learning-bounds-for-domain-adaptation)
-  - COLT-09 [Domain adaptation: Learning bounds and algorithms](https://arxiv.org/abs/0902.3430)
-
-- Latest theory papers
-  - ICML-20 [Few-shot domain adaptation by causal mechanism transfer](https://arxiv.org/pdf/2002.03497.pdf)
-  	- The first work on causal transfer learning
-  	- 日本理论组大佬Sugiyama的工作，causal transfer learning
-
-  - CVPR-19 [Characterizing and Avoiding Negative Transfer](https://arxiv.org/abs/1811.09751)
-  	- Characterizing and avoid negative transfer
-  	- 形式化并提出如何避免负迁移
-  - ICML-20 [On Learning Language-Invariant Representations for Universal Machine Translation](https://arxiv.org/abs/2008.04510)
-    - Theory for universal machine translation
-    - 对统一机器翻译模型进行了理论论证
-
-
-- MMD (Maximum mean discrepancy):
-  - MMD的提出：[A Hilbert Space Embedding for Distributions](https://link.springer.com/chapter/10.1007/978-3-540-75225-7_5) 以及 [A Kernel Two-Sample Test](http://www.jmlr.org/papers/v13/gretton12a.html)
-  - 多核MMD(MK-MMD)：[Optimal kernel choice for large-scale two-sample tests](http://papers.nips.cc/paper/4727-optimal-kernel-choice-for-large-scale-two-sample-tests)
-  - MMD及多核MMD代码：[Matlab](https://github.com/lopezpaz/classifier_tests/tree/master/code/unit_test_mmd) | [Python](https://github.com/jindongwang/transferlearning/tree/master/code/basic/mmd.py)
+- ICML-20 [Few-shot domain adaptation by causal mechanism transfer](https://arxiv.org/pdf/2002.03497.pdf)
+	- The first work on causal transfer learning
+	- 日本理论组大佬Sugiyama的工作，causal transfer learning
+- CVPR-19 [Characterizing and Avoiding Negative Transfer](https://arxiv.org/abs/1811.09751)
+	- Characterizing and avoid negative transfer
+	- 形式化并提出如何避免负迁移
+- ICML-20 [On Learning Language-Invariant Representations for Universal Machine Translation](https://arxiv.org/abs/2008.04510)
+  - Theory for universal machine translation
+  - 对统一机器翻译模型进行了理论论证
+- NIPS-06 [Analysis of Representations for Domain Adaptation](https://dl.acm.org/citation.cfm?id=2976474)
+- ML-10 [A Theory of Learning from Different Domains](https://link.springer.com/article/10.1007/s10994-009-5152-4)
+- NIPS-08 [Learning Bounds for Domain Adaptation](http://papers.nips.cc/paper/3212-learning-bounds-for-domain-adaptation)
+- COLT-09 [Domain adaptation: Learning bounds and algorithms](https://arxiv.org/abs/0902.3430)
+- MMD paper：[A Hilbert Space Embedding for Distributions](https://link.springer.com/chapter/10.1007/978-3-540-75225-7_5) and [A Kernel Two-Sample Test](http://www.jmlr.org/papers/v13/gretton12a.html)
+- Multi-kernel MMD paper: [Optimal kernel choice for large-scale two-sample tests](http://papers.nips.cc/paper/4727-optimal-kernel-choice-for-large-scale-two-sample-tests)
 
 _ _ _
 
