@@ -9,7 +9,7 @@ For a complete survey on these and more DG algorithms, please refer to this surv
 As initial version, we support the following algoirthms. We are working on more algorithms. Of course, you are welcome to add your algorithms here.
 
 1. ERM
-2. DCC [1]
+2. DDC [1]
 3. CORL [2]
 4. DANN [3]
 5. MLDG [4]
