@@ -63,6 +63,35 @@ author = {Wang, Jindong and others}
 - **Latest papers**:
 
 <details>
+  <summary>Latest papers (2021-07-27)</summary>
+
+  - CVPR-21 [Conditional Bures Metric for Domain Adaptation](https://openaccess.thecvf.com/content/CVPR2021/html/Luo_Conditional_Bures_Metric_for_Domain_Adaptation_CVPR_2021_paper.html)
+    - A new metric for domain adaptation
+    - 提出一个新的metric用于domain adaptation
+
+  - CVPR-21 [Wasserstein Barycenter for Multi-Source Domain Adaptation](https://openaccess.thecvf.com/content/CVPR2021/html/Montesuma_Wasserstein_Barycenter_for_Multi-Source_Domain_Adaptation_CVPR_2021_paper.html)
+    - Use Wasserstein Barycenter for multi-source domain adaptation
+    - 利用Wasserstein Barycenter进行DA
+
+  - CVPR-21 [Generalized Domain Adaptation](https://openaccess.thecvf.com/content/CVPR2021/html/Mitsuzumi_Generalized_Domain_Adaptation_CVPR_2021_paper.html)
+    - A general definition for domain adaptation
+    - 一个更抽象更一般的domain adaptation定义
+
+  - CVPR-21 [Reducing Domain Gap by Reducing Style Bias](https://openaccess.thecvf.com/content/CVPR2021/html/Nam_Reducing_Domain_Gap_by_Reducing_Style_Bias_CVPR_2021_paper.html)
+    - Syle-invariant training for adaptation and generalization
+    - 通过训练图像对style无法辨别来进行DA和DG
+
+  - CVPR-21 [Uncertainty-Guided Model Generalization to Unseen Domains](https://openaccess.thecvf.com/content/CVPR2021/html/Qiao_Uncertainty-Guided_Model_Generalization_to_Unseen_Domains_CVPR_2021_paper.html)
+    - Uncertainty-guided generalization
+    - 基于不确定性的domain generalization
+
+  - CVPR-21 [Adaptive Methods for Real-World Domain Generalization](https://openaccess.thecvf.com/content/CVPR2021/html/Dubey_Adaptive_Methods_for_Real-World_Domain_Generalization_CVPR_2021_paper.html)
+    - Adaptive methods for domain generalization
+    - 动态算法，用于domain generalization
+
+</details>
+
+<details>
   <summary>Latest papers (2021-07-16)</summary>
 
   - 20210716 ICML-21 [Continual Learning in the Teacher-Student Setup: Impact of Task Similarity](https://arxiv.org/abs/2107.04384)
