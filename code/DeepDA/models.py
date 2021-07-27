@@ -50,6 +50,9 @@ class TransferNet(nn.Module):
             kwargs['source_logits'] = torch.nn.functional.softmax(source_clf, dim=1)
             target_clf = self.classifier_layer(target)
             kwargs['target_logits'] = torch.nn.functional.softmax(target_clf, dim=1)
+        elif self.transfer_loss == 'bnm':
+            tar_clf = self.classifier_layer(target)
+            target = nn.Softmax(dim=1)(tar_clf)
         
         transfer_loss = self.adapt_loss(source, target, **kwargs)
         return clf_loss, transfer_loss
