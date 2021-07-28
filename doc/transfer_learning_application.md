@@ -2,6 +2,14 @@
 
 迁移学习的应用
 
+- [Toward Co-creative Dungeon Generation via Transfer Learning](http://arxiv.org/abs/2107.12533)
+    - Game scene generation with transfer learning
+    - 用迁移学习生成游戏场景
+
+- [Transfer Learning in Electronic Health Records through Clinical Concept Embedding](https://arxiv.org/abs/2107.12919)
+  - Transfer learning in electronic health record
+  - 迁移学习用于医疗记录管理
+
 - 20210716 MICCAI-21 [Few-Shot Domain Adaptation with Polymorphic Transformers](https://arxiv.org/abs/2107.04805)
     - Few-shot domain adaptation with polymorphic transformer
     - 用多模态transformer做少样本的domain adaptation

@@ -63,6 +63,19 @@ author = {Wang, Jindong and others}
 - **Latest papers**:
 
 <details>
+  <summary>Latest papers (2021-07-28)</summary>
+
+  - [Toward Co-creative Dungeon Generation via Transfer Learning](http://arxiv.org/abs/2107.12533)
+    - Game scene generation with transfer learning
+    - 用迁移学习生成游戏场景
+
+  - [Transfer Learning in Electronic Health Records through Clinical Concept Embedding](https://arxiv.org/abs/2107.12919)
+    - Transfer learning in electronic health record
+    - 迁移学习用于医疗记录管理
+
+</details>
+
+<details>
   <summary>Latest papers (2021-07-27)</summary>
 
   - CVPR-21 [Conditional Bures Metric for Domain Adaptation](https://openaccess.thecvf.com/content/CVPR2021/html/Luo_Conditional_Bures_Metric_for_Domain_Adaptation_CVPR_2021_paper.html)
