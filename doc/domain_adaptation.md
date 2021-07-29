@@ -28,35 +28,4 @@ Domain adaptation，DA，中文可翻译为域适配、域匹配、域适应，�
 
 ![Domain adaptation](https://raw.githubusercontent.com/jindongwang/transferlearning/master/png/domain%20_adaptation.png)
 
-- - -
-
-#### 代表方法与文章
-
-**[最新完整版请看这里]([我的解读](https://zhuanlan.zhihu.com/p/31834244))**
-
-Domain adaptation可以算是迁移学习领域最火的研究点了。因此，试图来解决此问题的方法层出不穷。从早期的基于实例的迁移、基于模型的迁移，到偏重数学变换的基于特征的迁移，再到如今的深度迁移，诞生了许多经典的DA方法。我们不打算面面俱到，也没有必要。在这里仅列出最经典的那些方法（何为最经典？引用量大且发表会议/刊物级别高），并在之后单独写文章深入介绍每个方法。时间有限，并且为了保证质量，不可能一次做完。
-
-代表性的方法及文章：
-
-- 迁移成分分析方法(Transfer component analysis, TCA)
-	- [Domain adaptation via tranfer component analysis](https://mega.nz/#!JTwElLrL!j5-TanhHCMESsGBNvY6I_hX6uspsrTxyopw8bPQ2azU)
-	- 发表在IEEE Trans. Neural Network期刊上（现改名为IEEE trans. Neural Network and Learning System），前作会议文章发在AAAI-09上
-	- [我的解读](https://zhuanlan.zhihu.com/p/26764147?group_id=844611188275965952)
-
-- 联合分布适配方法（joint distribution adaptation，JDA）
-	- [Transfer Feature Learning with Joint Distribution Adaptation](http://ise.thss.tsinghua.edu.cn/~mlong/doc/joint-distribution-adaptation-iccv13.pdf)
-	- 发表在2013年的ICCV上
-	- [我的解读](https://zhuanlan.zhihu.com/p/27336930)
-
-- 测地线流式核方法(Geodesic flow kernel, GFK)
-	- [Geodesic flow kernel for unsupervised domain adaptation](https://mega.nz/#!tDY1lCSD!flMSgl-0uIswpSFL3sdZgKi6fOyFVLtcO8P6SE0OUPU)
-	- 发表在CVPR-12上
-	- [我的解读](https://zhuanlan.zhihu.com/p/27782708)
-- 领域不变性迁移核学习(Transfer Kernel Learning, TKL)
-	- [Domain invariant transfer kernel learning](https://mega.nz/#!tOoCCRhB!YyoorOUcp6XIPPd6A0s7qglYnaSiRJFEQBphtZ2c58Q)
-	- 发表在IEEE Trans. Knowledge and Data Engineering期刊上
-- 深度适配网络（Deep Adaptation Network, DAN）
-	- 发表在ICML-15上：learning transferable features with deep adaptation networks
-	- [我的解读](https://zhuanlan.zhihu.com/p/27657910)
-
-接下来会继续添加方法，以及开始对每种方法的细致说明
+代表方法和文章请见这里：https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#deep-domain-adaptation
