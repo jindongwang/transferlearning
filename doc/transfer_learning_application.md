@@ -54,6 +54,9 @@
     - Domain adaptation for speech recognition
     - 用domain adaptation进行跨领域的语音识别
 
+- 20210104 [A Closer Look at Few-Shot Crosslingual Transfer: Variance, Benchmarks and Baselines](http://arxiv.org/abs/2012.15682)
+    - A closer look at few-shot crosslingual transfer
+
 - 20210220 [DRIV100: In-The-Wild Multi-Domain Dataset and Evaluation for Real-World Domain Adaptation of Semantic Segmentation](http://arxiv.org/abs/2102.00150)
     - A new dataset for domain adaptation on semantic segmentation
     - 一个用于domain adaptation做语义分割的新数据集
@@ -618,6 +621,18 @@
 - 20181114 arXiv [A Framework of Transfer Learning in Object Detection for Embedded Systems](https://arxiv.org/abs/1811.04863)
 	- English: Transfer learning in embedded system for object detection
 	- 中文：在嵌入式系统中进行针对目标检测的迁移学习
+
+- 20181130 arXiv [Identity Preserving Generative Adversarial Network for Cross-Domain Person Re-identification](https://arxiv.org/abs/1811.11510)
+	- Cross-domain reID
+	- 跨领域的行人再识别
+
+- 20181129 AAAI-19 [Exploiting Coarse-to-Fine Task Transfer for Aspect-level Sentiment Classification](https://arxiv.org/abs/1811.10999)
+	-  Aspect-level sentiment classification
+	- 迁移学习用于情感分类
+
+- 20181128 arXiv [Low-resolution Face Recognition in the Wild via Selective Knowledge Distillation](https://arxiv.org/abs/1811.09998)
+	-  Knowledge distilation for low-resolution face recognition
+	- 将知识蒸馏应用于低分辨率的人脸识别
 
 - 20181107 ICONIP-18 [Transductive Learning with String Kernels for Cross-Domain Text Classification](https://arxiv.org/abs/1811.01734)
 	- English: String kernel for cross-domain text classification using transfer learning

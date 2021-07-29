@@ -1,37 +1,64 @@
-# 1. Awesome Transfer Learning Papers
+# Awesome Transfer Learning Papers
 
 Let's read some awesome transfer learning / domain adaptation papers.
 
 这里收录了迁移学习各个研究领域的最新文章。
 
-- [1. Awesome Transfer Learning Papers](#1-awesome-transfer-learning-papers)
-	- [1.1. General Transfer Learning (普通迁移学习)](#11-general-transfer-learning-普通迁移学习)
-		- [1.1.1. Theory (理论)](#111-theory-理论)
-		- [1.1.2. Others (其他)](#112-others-其他)
-	- [1.2. Domain Adaptation (领域自适应)](#12-domain-adaptation-领域自适应)
-		- [1.2.1. Traditional Methods (传统迁移方法)](#121-traditional-methods-传统迁移方法)
-		- [1.2.2. Deep / Adversarial Methods (深度/对抗迁移方法)](#122-deep--adversarial-methods-深度对抗迁移方法)
-	- [1.3. Domain Generalization](#13-domain-generalization)
-	- [1.4. Multi-source Transfer Learning (多源迁移学习)](#14-multi-source-transfer-learning-多源迁移学习)
-	- [1.5. Heterogeneous Transfer Learning (异构迁移学习)](#15-heterogeneous-transfer-learning-异构迁移学习)
-	- [1.6. Online Transfer Learning (在线迁移学习)](#16-online-transfer-learning-在线迁移学习)
-	- [1.7. Zero-shot / Few-shot Learning](#17-zero-shot--few-shot-learning)
-		- [1.7.1. Zero-shot Learning based on Data Synthesis (基于样本生成的零样本学习)](#171-zero-shot-learning-based-on-data-synthesis-基于样本生成的零样本学习)
-	- [1.8. Deep Transfer Learning (深度迁移学习)](#18-deep-transfer-learning-深度迁移学习)
-		- [1.8.1. Non-Adversarial Transfer Learning (非对抗深度迁移)](#181-non-adversarial-transfer-learning-非对抗深度迁移)
-		- [1.8.2. Deep Adversarial Transfer Learning (对抗迁移学习)](#182-deep-adversarial-transfer-learning-对抗迁移学习)
-	- [1.9. Multi-task Learning (多任务学习)](#19-multi-task-learning-多任务学习)
-	- [1.10. Transfer Reinforcement Learning (强化迁移学习)](#110-transfer-reinforcement-learning-强化迁移学习)
-	- [1.11. Transfer Metric Learning (迁移度量学习)](#111-transfer-metric-learning-迁移度量学习)
-	- [1.12. Transitive Transfer Learning (传递迁移学习)](#112-transitive-transfer-learning-传递迁移学习)
-	- [1.13. Lifelong Learning (终身迁移学习)](#113-lifelong-learning-终身迁移学习)
-	- [1.14. Negative Transfer (负迁移)](#114-negative-transfer-负迁移)
-	- [Domain generalization (领域泛化)](#domain-generalization-领域泛化)
-	- [1.15. Transfer Learning Applications (应用)](#115-transfer-learning-applications-应用)
+- [Awesome Transfer Learning Papers](#awesome-transfer-learning-papers)
+	- [Survey](#survey)
+	- [Theory](#theory)
+	- [Per-training/Finetuning](#per-trainingfinetuning)
+	- [Knowledge distillation](#knowledge-distillation)
+	- [Traditional domain adaptation](#traditional-domain-adaptation)
+	- [Deep domain adaptation](#deep-domain-adaptation)
+	- [Domain generalization](#domain-generalization)
+	- [Source-free domain adaptation](#source-free-domain-adaptation)
+	- [Multi-source domain adaptation](#multi-source-domain-adaptation)
+	- [Heterogeneous transfer learning](#heterogeneous-transfer-learning)
+	- [Online transfer learning](#online-transfer-learning)
+	- [Zero-shot / few-shot learning](#zero-shot--few-shot-learning)
+	- [Multi-task learning](#multi-task-learning)
+	- [Transfer reinforcement learning](#transfer-reinforcement-learning)
+	- [Transfer metric learning](#transfer-metric-learning)
+	- [Federated transfer learning](#federated-transfer-learning)
+	- [Lifelong transfer learning](#lifelong-transfer-learning)
+	- [Transfer learning applications](#transfer-learning-applications)
 
-## 1.1. General Transfer Learning (普通迁移学习)
 
-### 1.1.1. Theory (理论)
+## Survey
+
+- 2021 Domain generalization: IJCAI-21 [Generalizing to Unseen Domains: A Survey on Domain Generalization](https://arxiv.org/abs/2103.03097) | [知乎文章](https://zhuanlan.zhihu.com/p/354740610) | [微信公众号](https://mp.weixin.qq.com/s/DsoVDYqLB1N7gj9X5UnYqw)
+  - First survey on domain generalization
+  - 第一篇对Domain generalization (领域泛化)的综述
+- 2020 迁移学习最新survey，来自中科院计算所庄福振团队，发表在Proceedings of the IEEE: [A Comprehensive Survey on Transfer Learning](https://arxiv.org/abs/1911.02685)
+- 2020 负迁移的综述：[Overcoming Negative Transfer: A Survey](https://arxiv.org/abs/2009.00909)
+- 2020 知识蒸馏的综述: [Knowledge Distillation: A Survey](https://arxiv.org/abs/2006.05525)
+- 用transfer learning进行sentiment classification的综述：[A Survey of Sentiment Analysis Based on Transfer Learning](https://ieeexplore.ieee.org/abstract/document/8746210) 
+- 2019 一篇新survey：[Transfer Adaptation Learning: A Decade Survey](https://arxiv.org/abs/1903.04687)
+- 2018 一篇迁移度量学习的综述: [Transfer Metric Learning: Algorithms, Applications and Outlooks](https://arxiv.org/abs/1810.03944)
+- 2018 一篇最近的非对称情况下的异构迁移学习综述：[Asymmetric Heterogeneous Transfer Learning: A Survey](https://arxiv.org/abs/1804.10834)
+- 2018 Neural style transfer的一个survey：[Neural Style Transfer: A Review](https://arxiv.org/abs/1705.04058)
+- 2018 深度domain adaptation的一个综述：[Deep Visual Domain Adaptation: A Survey](https://www.sciencedirect.com/science/article/pii/S0925231218306684)
+- 20181211 arXiv [Adversarial Transfer Learning](https://arxiv.org/abs/1812.02849)
+    -  A survey on adversarial domain adaptation
+    - 一个关于对抗迁移的综述，特别用在domain adaptation上
+- 2017 多任务学习的综述，来自香港科技大学杨强团队：[A survey on multi-task learning](https://arxiv.org/abs/1707.08114)
+- 2017 异构迁移学习的综述：[A survey on heterogeneous transfer learning](https://link.springer.com/article/10.1186/s40537-017-0089-0)
+- 2017 跨领域数据识别的综述：[Cross-dataset recognition: a survey](https://arxiv.org/abs/1705.04396)
+- 2016 [A survey of transfer learning](https://pan.baidu.com/s/1gfgXLXT)。其中交代了一些比较经典的如同构、异构等学习方法代表性文章。
+- 2015 中文综述：[迁移学习研究进展](https://pan.baidu.com/s/1bpautob)
+- 2010 [A survey on transfer learning](http://ieeexplore.ieee.org/abstract/document/5288526/)
+- Survey on applications - 应用导向的综述：
+	- 视觉domain adaptation综述：[Visual Domain Adaptation: A Survey of Recent Advances](https://pan.baidu.com/s/1o8BR7Vc)
+	- 迁移学习应用于行为识别综述：[Transfer Learning for Activity Recognition: A Survey](https://pan.baidu.com/s/1kVABOYr)
+	- 迁移学习与增强学习：[Transfer Learning for Reinforcement Learning Domains: A Survey](https://pan.baidu.com/s/1slfr0w1)
+	- 多个源域进行迁移的综述：[A Survey of Multi-source Domain Adaptation](https://pan.baidu.com/s/1eSGREF4)。
+
+## Theory
+
+- 20210625 ICML-21 [f-Domain-Adversarial Learning: Theory and Algorithms](http://arxiv.org/abs/2106.11344)
+    - New theory based on f-divergence
+    - 基于f-divergence给出新的DA理论和算法
 
 - 20210521 [When is invariance useful in an Out-of-Distribution Generalization problem ?](http://arxiv.org/abs/2008.01883)
     - When is invariant useful in OOD?
@@ -44,6 +71,8 @@ Let's read some awesome transfer learning / domain adaptation papers.
 - 20210127 [A Unified Joint Maximum Mean Discrepancy for Domain Adaptation](http://arxiv.org/abs/2101.09979)
     - 一个理论上更一般化的MMD差异用于领域自适应
     - A more general MMD for domain adaptation
+
+- 20200615 [Double Double Descent: On Generalization Errors in Transfer Learning between Linear Regression Tasks](https://arxiv.org/abs/2006.07002)
 
 - 20200813 [A Boundary Based Out-of-Distribution Classifier for Generalized Zero-Shot Learning](https://arxiv.org/abs/2008.04872)
     - OOD classifier for generalized zero-shot learning
@@ -84,297 +113,151 @@ Let's read some awesome transfer learning / domain adaptation papers.
 	-  Analyze some generalization bound for domain adaptation
 	- 对domain adaptation进行了一些理论上的分析
 
-### 1.1.2. Others (其他)
+- 20180724 arXiv [Generalization Bounds for Unsupervised Cross-Domain Mapping with WGANs](https://arxiv.org/abs/1807.08501)
+	-  Provide a generalization bound for unsupervised WGAN in transfer learning
+	- 对迁移学习中无监督的WGAN进行了一些理论上的分析
 
-- CVPR-21 [Conditional Bures Metric for Domain Adaptation](https://openaccess.thecvf.com/content/CVPR2021/html/Luo_Conditional_Bures_Metric_for_Domain_Adaptation_CVPR_2021_paper.html)
-    - A new metric for domain adaptation
-    - 提出一个新的metric用于domain adaptation
-
-- CVPR-21 [Wasserstein Barycenter for Multi-Source Domain Adaptation](https://openaccess.thecvf.com/content/CVPR2021/html/Montesuma_Wasserstein_Barycenter_for_Multi-Source_Domain_Adaptation_CVPR_2021_paper.html)
-  - Use Wasserstein Barycenter for multi-source domain adaptation
-  - 利用Wasserstein Barycenter进行DA
-
-- CVPR-21 [Generalized Domain Adaptation](https://openaccess.thecvf.com/content/CVPR2021/html/Mitsuzumi_Generalized_Domain_Adaptation_CVPR_2021_paper.html)
-  - A general definition for domain adaptation
-  - 一个更抽象更一般的domain adaptation定义
-
-- CVPR-21 [Reducing Domain Gap by Reducing Style Bias](https://openaccess.thecvf.com/content/CVPR2021/html/Nam_Reducing_Domain_Gap_by_Reducing_Style_Bias_CVPR_2021_paper.html)
-  - Syle-invariant training for adaptation and generalization
-  - 通过训练图像对style无法辨别来进行DA和DG
-
-- CVPR-21 [Uncertainty-Guided Model Generalization to Unseen Domains](https://openaccess.thecvf.com/content/CVPR2021/html/Qiao_Uncertainty-Guided_Model_Generalization_to_Unseen_Domains_CVPR_2021_paper.html)
-  - Uncertainty-guided generalization
-  - 基于不确定性的domain generalization
-
-- CVPR-21 [Adaptive Methods for Real-World Domain Generalization](https://openaccess.thecvf.com/content/CVPR2021/html/Dubey_Adaptive_Methods_for_Real-World_Domain_Generalization_CVPR_2021_paper.html)
-  - Adaptive methods for domain generalization
-  - 动态算法，用于domain generalization
-
-- 20210716 ICML-21 [Continual Learning in the Teacher-Student Setup: Impact of Task Similarity](https://arxiv.org/abs/2107.04384)
-    - Investigating task similarity in teacher-student learning
-    - 调研在continual learning下teacher-student learning问题的任务相似度
-
-- 20210716 BMCV-extend [Exploring Dropout Discriminator for Domain Adaptation](https://arxiv.org/abs/2107.04231)
-  - Using multiple discriminators for domain adaptation
-  - 用分布估计代替点估计来做domain adaptation
-
-- 20210716 TPAMI-21 [Lifelong Teacher-Student Network Learning](https://arxiv.org/abs/2107.04689)
-  - Lifelong distillation
-  - 持续的知识蒸馏
-
-- 20210511 ACL-21 [Are Pre-trained Convolutions Better than Pre-trained Transformers?](https://arxiv.org/abs/2105.03322)
-    - Empirically investigate pre-trained convolutions and Transformers
-    - 设计实验探索预训练的卷积和Transformer的对比
-
-- 20210426 [Distill on the Go: Online knowledge distillation in self-supervised learning](http://arxiv.org/abs/2104.09866)
-    - Online knowledge distillation in self-supervised learning
-    - 自监督学习中的在线知识蒸馏
-
-- 20210319 [Cross-domain Activity Recognition via Substructural Optimal Transport](https://arxiv.org/abs/2102.03353) | [知乎文章](https://zhuanlan.zhihu.com/p/356904023) | [微信公众号](https://mp.weixin.qq.com/s/QuVrqnPruHgfolYltI1Peg)
-    - Using sub-structures for domain adaptation
-    - 采用子结构进行domain adaptation，比传统方法快5倍
-
-- 20210202 ICLR-21 [Rethinking Soft Labels for Knowledge Distillation: A Bias-Variance Tradeoff Perspective](https://arxiv.org/abs/2102.00650)
-    - Rethink soft labels for KD in a bias-variance tradeoff perspective
-    - 从偏差-方差的角度重新思考蒸馏中的软标签
-
-- 20210106 [Style Normalization and Restitution for DomainGeneralization and Adaptation](http://arxiv.org/abs/2101.00588)
-    - Style normalization and restitution for DA and DG
-    - 风格归一化用于DA和DG任务
-
-- 20210104 [A Closer Look at Few-Shot Crosslingual Transfer: Variance, Benchmarks and Baselines](http://arxiv.org/abs/2012.15682)
-    - A closer look at few-shot crosslingual transfer
-
-- 20201222 AAAI-21 [DecAug: Out-of-Distribution Generalization via Decomposed Feature Representation and Semantic Augmentation](http://arxiv.org/abs/2012.09382)
-    - OOD generalization
-    - 用特征分解和语义增强做OOD泛化
-
-- 20201208 TIP [Effective Label Propagation for Discriminative Semi-Supervised Domain Adaptation](http://arxiv.org/abs/2012.02621)
-    - 用label propagation做半监督domain adaptation
-- 20201203 [Pre-Trained Image Processing Transformer](https://arxiv.org/abs/2012.00364)
-    - 用transformer做low-level的图像任务
-- 20201203 [Unpaired Image-to-Image Translation via Latent Energy Transport](https://arxiv.org/abs/2012.00649)
-    - 用能量模型做图像翻译
-- 20201016 [Deep Ensembles for Low-Data Transfer Learning](https://arxiv.org/abs/2010.06866)
-    - Deep ensemble models for transfer learning
-- 20201016 [Energy-based Out-of-distribution Detection](https://arxiv.org/abs/2010.03759)
-    - Energy-based OOD
-
-- 20200927 [Privacy-preserving Transfer Learning via Secure Maximum Mean Discrepancy](https://arxiv.org/abs/2009.11680)
-    - 加密情况下的MMD用于迁移学习
-
-- 20200914 [A First Step Towards Distribution Invariant Regression Metrics](https://arxiv.org/abs/2009.05176)
-    - 分布无关的回归评价
-- 20200821 ECCV-20 [Towards Recognizing Unseen Categories in Unseen Domains](https://arxiv.org/abs/2007.12256)
-    - Recognizing unseen classes in unseen domains
-    - 对未知领域识别未知类
-- 20200821 [Self-Supervised Learning Across Domains](https://arxiv.org/abs/2007.12368)
-    - 跨领域自监督学习
-- 20200813 ECCV-20 [Learning to Cluster under Domain Shift](https://arxiv.org/abs/2008.04646)
-    - Learning to cluster under domain shift
-    - 在domain shift的情况下进行聚类
-- 20200706 [Learn Faster and Forget Slower via Fast and Stable Task Adaptation](https://arxiv.org/abs/2007.01388)
-- 20200706 [In Search of Lost Domain Generalization](https://arxiv.org/abs/2007.01434)
-- 20200706 [ICML-20] [Continuously Indexed Domain Adaptation](https://arxiv.org/abs/2007.01807)
-- 20200706 [Interactive Knowledge Distillation](https://arxiv.org/abs/2007.01476)
-- 20200706 [Domain Adaptation without Source Data](https://arxiv.org/abs/2007.01524)
-
-- 20200629 [ICML-20] [Do We Really Need to Access the Source Data? Source Hypothesis Transfer for Unsupervised Domain Adaptation](https://arxiv.org/abs/2002.08546)
-    	- Source-free adaptation
-    	- 在adaptation过程中不访问source data
-- 20200629 [Transfer learning via L1 regulaziation](https://arxiv.org/abs/2006.14845)
-	- Using L1 regularizationg for transfer learning
-- 20200629 [ICML-20] [Graph Optimal Transport for Cross-Domain Alignment])(https://arxiv.org/abs/2006.14744)
-	- Graph OT for cross-domain alignment
-
-- 20200615 [Rethinking Pre-training and Self-training](https://arxiv.org/abs/2006.06882)
-
-- 20200615 [Double Double Descent: On Generalization Errors in Transfer Learning between Linear Regression Tasks](https://arxiv.org/abs/2006.07002)
-
-- 20200412 ICML-19 [Towards understanding knowledge distillation](http://proceedings.mlr.press/v97/phuong19a.html)
-  	- Some theoretical and empirical understanding to knowledge distllation
-  	- 对知识蒸馏的一些理论和实验的分析
-
-- 20200210 WACVW-20 [Impact of ImageNet Model Selection on Domain Adaptation](https://arxiv.org/abs/2002.02559)
-  	- A good experiment paper to indicate the power of representations
-  	- 一篇很好的实验paper，揭示了深度特征+传统方法的有效性
-
-- 20191202 AAAI-20 [Towards Oracle Knowledge Distillation with Neural Architecture Search](https://arxiv.org/abs/1911.13019)
-   - Using NAS for knowledge Distillation
-   - 用NAS帮助知识蒸馏
-
-- 20191202 AAAI-20 [Stable Learning via Sample Reweighting](https://arxiv.org/abs/1911.12580)
-   - Theoretical sample reweigting
-   - 理论和方法，用于sample reweight
-
-- 20191202 arXiv [Domain-invariant Stereo Matching Networks](https://arxiv.org/abs/1911.13287)
-   - Domain-invariant stereo matching networks
-   - 领域不变的匹配网络
-
-- 20191202 arXiv [Learning Generalizable Representations via Diverse Supervision](https://arxiv.org/abs/1911.12911)
-   - Diverse supervision helps to learn generalizable representations
-
-- 20191202 arXiv [Domain-Aware Dynamic Networks](https://arxiv.org/abs/1911.13237)
-     - Edge devices adaptative computing
-     - 边缘计算上的自适应计算
-
-- 20191029 [Adversarial Feature Alignment: Avoid Catastrophic Forgetting in Incremental Task Lifelong Learning](https://arxiv.org/abs/1910.10986)
-  	- Avoid catastrophic forgeeting in incremental task lifelong learning
-  	- 在终身学习中避免灾难遗忘
-
-- 20191029 [Reducing Domain Gap via Style-Agnostic Networks](https://arxiv.org/abs/1910.11645)
-  	- Use style-agnostic networks to avoid domain gap
-  	- 通过风格无关的网络来避免领域的gap
-
-- 20191015 arXiv [The Visual Task Adaptation Benchmark](https://arxiv.org/abs/1910.04867)
-  	- A new large benchmark for visual adaptation tasks by Google
-  	- Google提出的一个巨大的视觉迁移任务数据集
+## Per-training/Finetuning
 
 - 20191011 arXiv [Estimating Transfer Entropy via Copula Entropy](https://arxiv.org/abs/1910.04375)
   	- Evaluate the transfer entopy via copula entropy
   	- 评估迁移熵
 
-- 20191011 arXiv [Learning to Remember from a Multi-Task Teacher](https://arxiv.org/abs/1910.04650)
-  	- Dealing with the catastrophic forgetting during sequential learning
-  	- 在序列学习时处理灾难遗忘
+- 20180925 arXiv [DT-LET: Deep Transfer Learning by Exploring where to Transfer](https://arxiv.org/pdf/1809.08541.pdf)
+	-  Explore the suitable layers to transfer
+	- 探索深度网络中效果表现好的对应的迁移层
 
-- 20191008 arXiv [DIVA: Domain Invariant Variational Autoencoders](https://arxiv.org/abs/1905.10427)
-  	- Domain invariant variational autoencoders
-  	- 领域不变的变分自编码器
+- 20200629 [Transfer learning via L1 regulaziation](https://arxiv.org/abs/2006.14845)
+	- Using L1 regularizationg for transfer learning
 
-- 20190821 arXiv [Transfer Learning-Based Label Proportions Method with Data of Uncertainty](https://arxiv.org/abs/1908.06603)
-  	- Transfer learning with source and target having uncertainty
-  	- 当source和target都有不确定label时进行迁移
+- 20201016 [Deep Ensembles for Low-Data Transfer Learning](https://arxiv.org/abs/2010.06866)
+    - Deep ensemble models for transfer learning
 
-- 20190806 KDD-19 [Relation Extraction via Domain-aware Transfer Learning](https://dl.acm.org/citation.cfm?id=3330890)
-    - Relation extraction using transfer learning for knowledge base construction
-    - 利用迁移学习进行关系抽取
-
-- 20190703 arXiv [Inferred successor maps for better transfer learning](https://arxiv.org/abs/1906.07663)
-  	- Inferred successor maps for better transfer learning
-
-- 20190626 arXiv [Transfer of Machine Learning Fairness across Domains](https://arxiv.org/abs/1906.09688)
-  	- Transfer of machine learning fairness across domains
-  	- 机器学习的公平性的迁移
-
-- 20190531 IJCAI-19 [Adversarial Imitation Learning from Incomplete Demonstrations](https://arxiv.org/abs/1905.12310)
-  	- Adversarial imitation learning from imcomplete demonstrations
-  	- 基于不完整实例的对抗模仿学习
-
-- 20190517 arXiv [Budget-Aware Adapters for Multi-Domain Learning](https://arxiv.org/abs/1905.06242)
-    - Budget-Aware Adapters for Multi-Domain Learning
-
-- 20190409 arXiv [Improving Image Classification Robustness through Selective CNN-Filters Fine-Tuning](https://arxiv.org/abs/1904.03949)
-    - Improving Image Classification Robustness through Selective CNN-Filters Fine-Tuning
-    - 通过可选择的CNN滤波器进行图像分类的fine-tuning
-
-- 20190401 arXiv [Distilling Task-Specific Knowledge from BERT into Simple Neural Networks](https://arxiv.org/abs/1903.12136)
-    - Distill knowledge from BERT to simple neural networks
-    - 从BERT模型中迁移知识到简单网络中
-
-- 20190305 arXiv [Let's Transfer Transformations of Shared Semantic Representations](https://arxiv.org/abs/1903.00793)
-    - Transfer transformations from shared semantic representations
-    - 从共享的语义表示中进行特征迁移
-
-- 20190301 SysML-19 [FixyNN: Efficient Hardware for Mobile Computer Vision via Transfer Learning](https://arxiv.org/abs/1902.11128)
-    - An efficient hardware for mobile computer vision applications using transfer learning
-    - 提出一个高效的用于移动计算机视觉应用的硬件
-
-- 20190118 arXiv [Domain Adaptation for Structured Output via Discriminative Patch Representations](https://arxiv.org/abs/1901.05427)
-    - Domain adaptation for structured output
-    - Domain adaptation用于结构化输出
-
-- 20190111 arXiv [Low-Cost Transfer Learning of Face Tasks](https://arxiv.org/abs/1901.02675)
-    - Infer what task transfers better and how to transfer
-    - 探索对于一个预训练好的网络来说哪个任务适合迁移、如何迁移
+- 20210511 ACL-21 [Are Pre-trained Convolutions Better than Pre-trained Transformers?](https://arxiv.org/abs/2105.03322)
+    - Empirically investigate pre-trained convolutions and Transformers
+    - 设计实验探索预训练的卷积和Transformer的对比
 
 - 20190111 arXiv [Transfer Representation Learning with TSK Fuzzy System](https://arxiv.org/abs/1901.02703)
     - Transfer learning with fuzzy system
     - 基于模糊系统的迁移学习
 
-- 20190102 arXiv [An introduction to domain adaptation and transfer learning](https://arxiv.org/abs/1812.11806)
-    - Another introduction to transfer learning
-    - 另一个迁移学习和domain adaptation综述
+- 20201203 [Pre-Trained Image Processing Transformer](https://arxiv.org/abs/2012.00364)
+    - 用transformer做low-level的图像任务
 
-- 20181217 arXiv [When Semi-Supervised Learning Meets Transfer Learning: Training Strategies, Models and Datasets](https://arxiv.org/abs/1812.05313)
-    - Combining semi-supervised learning and transfer learning
-    - 将半监督方法应用于迁移学习
-
-- 20181127 arXiv [Privacy-preserving Transfer Learning for Knowledge Sharing](https://arxiv.org/abs/1811.09491)
-	-  First work on privacy preserving in transfer learning
-	- 第一篇探讨迁移学习中隐私保护的文章(第四范式、杨强)
-
-- 20181121 arXiv [An Efficient Transfer Learning Technique by Using Final Fully-Connected Layer Output Features of Deep Networks](https://arxiv.org/abs/1811.07459)
-    -  Using final fc layer to perform transfer learning
-    - 使用最后一层全连接层进行迁移学习
-
-- 20181121 arXiv [Not just a matter of semantics: the relationship between visual similarity and semantic similarity](https://arxiv.org/abs/1811.07120)
-    -  Interpreting relationships between visual similarity and semantic similarity
-    - 解释了视觉相似性和语义相似性的不同
-
-- 20181008 arXiv [Unsupervised Learning via Meta-Learning](https://arxiv.org/abs/1810.02334)
-	-  Meta-learning for unsupervised learning
-	- 用于无监督学习的元学习
-
-- 20101008 arXiv [Concept-drifting Data Streams are Time Series; The Case for Continuous Adaptation](https://arxiv.org/abs/1810.02266)
-	-  Continuous adaptation for time series data
-	- 对时间序列进行连续adaptation
-
-- 20180925 arXiv [DT-LET: Deep Transfer Learning by Exploring where to Transfer](https://arxiv.org/pdf/1809.08541.pdf)
-	-  Explore the suitable layers to transfer
-	- 探索深度网络中效果表现好的对应的迁移层
-
-- 20180919 JMLR [Invariant Models for Causal Transfer Learning](http://jmlr.csail.mit.edu/papers/volume19/16-432/16-432.pdf)
-	-  Invariant models for causal transfer learning
-	- 针对causal transfer learning提出不变模型
-
-
-
-- 20180912 arXiv [Transfer Learning with Neural AutoML](https://arxiv.org/abs/1803.02780)
-	- Applying transfer learning into autoML search
-	- 将迁移学习思想应用于automl
-
-- 20190904 arXiv [On the Minimal Supervision for Training Any Binary Classifier from Only Unlabeled Data](https://arxiv.org/abs/1808.10585)
-	- Train binary classifiers from only unlabeled data
-	- 仅从无标记数据训练二分类器
-
-- 20180904 arXiv [Learning Data-adaptive Nonparametric Kernels](https://arxiv.org/abs/1808.10724)
-	-  Learn a kernel that can do adaptation
-	- 学习一个可以自适应的kernel
-
-- 20180901 arXiv [Distance Based Source Domain Selection for Sentiment Classification](https://arxiv.org/abs/1808.09271)
-	-  Propose a new domain selection method by combining existing distance functions
-	- 提出一种混合已有多种距离公式的源领域选择方法
-
-- 20180901 KBS [Transfer subspace learning via low-rank and discriminative reconstruction matrix](https://www.sciencedirect.com/science/article/pii/S0950705118304222)
-	-  Transfer subspace learning via low-rank and discriminative reconstruction matrix
-	- 通过低秩和重构进行迁移学习
-
-- 20180825 arXiv [Transfer Learning for Estimating Causal Effects using Neural Networks](https://arxiv.org/abs/1808.07804)
-	-  Using transfer learning for casual effect learning
-	- 用迁移学习进行因果推理
-
-- 20180724 ICPKR-18 [Knowledge-based Transfer Learning Explanation](https://arxiv.org/abs/1807.08372)
-	-  Explain transfer learning things with some knowledge-based theory
-	- 用一些基于knowledge的方法解释迁移学习
-
-- 20180628 arXiv 提出Office数据集的实验室又放出一个数据集用于close set、open set、以及object detection的迁移学习：[Syn2Real: A New Benchmark forSynthetic-to-Real Visual Domain Adaptation](https://arxiv.org/abs/1806.09755)
-
-- 20180605 arXiv 解决federated learning中的数据不同分布的问题：[Federated Learning with Non-IID Data](https://arxiv.org/abs/1806.00582)
-
-- 20180604 arXiv 在Open set domain adaptation中，用共享和私有部分重建进行问题的解决：[Learning Factorized Representations for Open-set Domain Adaptation](https://arxiv.org/abs/1805.12277)
+- 20200821 [Self-Supervised Learning Across Domains](https://arxiv.org/abs/2007.12368)
+    - 跨领域自监督学习
 
 - 20180403 arXiv 选择最优的子类生成方便迁移的特征：[Class Subset Selection for Transfer Learning using Submodularity](https://arxiv.org/abs/1804.00060)
 
 - 20180326 ICMLA-17 在类别不平衡情况下比较了一些迁移学习和传统方法的性能，并做出一些结论：[Comparing Transfer Learning and Traditional Learning Under Domain Class Imbalance](http://ieeexplore.ieee.org/abstract/document/8260654/)
 
+- 20190626 arXiv [Transfer of Machine Learning Fairness across Domains](https://arxiv.org/abs/1906.09688)
+  	- Transfer of machine learning fairness across domains
+  	- 机器学习的公平性的迁移
+
+- 20200615 [Rethinking Pre-training and Self-training](https://arxiv.org/abs/2006.06882)
+
+- 20200210 WACVW-20 [Impact of ImageNet Model Selection on Domain Adaptation](https://arxiv.org/abs/2002.02559)
+  	- A good experiment paper to indicate the power of representations
+  	- 一篇很好的实验paper，揭示了深度特征+传统方法的有效性
+
+- 20191015 arXiv [The Visual Task Adaptation Benchmark](https://arxiv.org/abs/1910.04867)
+  	- A new large benchmark for visual adaptation tasks by Google
+  	- Google提出的一个巨大的视觉迁移任务数据集
+
+- 20190305 arXiv [Let's Transfer Transformations of Shared Semantic Representations](https://arxiv.org/abs/1903.00793)
+    - Transfer transformations from shared semantic representations
+    - 从共享的语义表示中进行特征迁移
+
+- 20190409 arXiv [Improving Image Classification Robustness through Selective CNN-Filters Fine-Tuning](https://arxiv.org/abs/1904.03949)
+    - Improving Image Classification Robustness through Selective CNN-Filters Fine-Tuning
+    - 通过可选择的CNN滤波器进行图像分类的fine-tuning
+
+- 20190111 arXiv [Low-Cost Transfer Learning of Face Tasks](https://arxiv.org/abs/1901.02675)
+    - Infer what task transfers better and how to transfer
+    - 探索对于一个预训练好的网络来说哪个任务适合迁移、如何迁移
+
+- 20191119 ICDM-19 [Towards Making Deep Transfer Learning Never Hurt](https://arxiv.org/abs/1911.07489)
+  	- Towards making deep transfer learning never hurt
+  	- 通过正则避免负迁移
+
+- 20181123 arXiv [SpotTune: Transfer Learning through Adaptive Fine-tuning](https://arxiv.org/abs/1811.08737)
+	-  Very interesting work: how exactly determine the finetune process?
+	- 很有意思的工作：如何决定finetune的策略？
+
+- 20180425 arXiv 探索各个层对于迁移任务的作用，方便以后的迁移。比较有意思：[CactusNets: Layer Applicability as a Metric for Transfer Learning](https://arxiv.org/abs/1804.07846)
+
+- 传递迁移学习的第一篇文章，来自杨强团队，发表在KDD-15上：[Transitive Transfer Learning](http://dl.acm.org/citation.cfm?id=2783295)
+
+- AAAI-17 杨强团队最新的传递迁移学习：[Distant Domain Transfer Learning](http://www3.ntu.edu.sg/home/sinnopan/publications/[AAAI17]Distant%20Domain%20Transfer%20Learning.pdf)
+
+- 20180819 LNCS-2018 [Distant Domain Adaptation for Text Classification](https://link.springer.com/chapter/10.1007/978-3-319-99365-2_5)
+	-  Propose a selected algorithm for distant domain text classification
+	- 提出一个用于远域的文本分类方法
+
+- 20190220 arXiv [Fully-Featured Attribute Transfer](https://arxiv.org/abs/1902.06258)
+    - Fully-featured image attribute transfer
+	- 图像特征迁移
+
+- 20190926 arXiv [Transfer Learning across Languages from Someone Else's NMT Model](https://arxiv.org/abs/1909.10955)
+  	- Transfer learning across languages from NMT pretrained model
+  	- 利用预训练好的NMT模型进行迁移学习
+
+- 20190929 NeurIPS-19 [Deep Model Transferability from Attribution Maps](https://arxiv.org/abs/1909.11902)
+  	- Using attribution map for network similarity
+  	- 与cvpr18的taskmony类似，这次用了属性图的方式探索网络的相似性
+
+- 20181121 arXiv [An Efficient Transfer Learning Technique by Using Final Fully-Connected Layer Output Features of Deep Networks](https://arxiv.org/abs/1811.07459)
+    -  Using final fc layer to perform transfer learning
+    - 使用最后一层全连接层进行迁移学习
+
+- ICML-14 著名的DeCAF特征：[DeCAF: A Deep Convolutional Activation Feature for Generic Visual Recognition](https://arxiv.org/abs/1310.1531.pdf)
+
+- [Simultaneous Deep Transfer Across Domains and Tasks](https://www.cv-foundation.org/openaccess/content_iccv_2015/html/Tzeng_Simultaneous_Deep_Transfer_ICCV_2015_paper.html)
+	- 发表在ICCV-15上，在传统深度迁移方法上又加了新东西
+	- [我的解读](https://zhuanlan.zhihu.com/p/30621691)
+
+## Knowledge distillation
+
+- 20210426 [Distill on the Go: Online knowledge distillation in self-supervised learning](http://arxiv.org/abs/2104.09866)
+    - Online knowledge distillation in self-supervised learning
+    - 自监督学习中的在线知识蒸馏
+
+- 20210202 ICLR-21 [Rethinking Soft Labels for Knowledge Distillation: A Bias-Variance Tradeoff Perspective](https://arxiv.org/abs/2102.00650)
+    - Rethink soft labels for KD in a bias-variance tradeoff perspective
+    - 从偏差-方差的角度重新思考蒸馏中的软标签
+
+- 20200706 [Interactive Knowledge Distillation](https://arxiv.org/abs/2007.01476)
+
+- 20200412 ICML-19 [Towards understanding knowledge distillation](http://proceedings.mlr.press/v97/phuong19a.html)
+  	- Some theoretical and empirical understanding to knowledge distllation
+  	- 对知识蒸馏的一些理论和实验的分析
+
+- 20191202 AAAI-20 [Towards Oracle Knowledge Distillation with Neural Architecture Search](https://arxiv.org/abs/1911.13019)
+   - Using NAS for knowledge Distillation
+   - 用NAS帮助知识蒸馏
+
+- 20190401 arXiv [Distilling Task-Specific Knowledge from BERT into Simple Neural Networks](https://arxiv.org/abs/1903.12136)
+    - Distill knowledge from BERT to simple neural networks
+    - 从BERT模型中迁移知识到简单网络中
+
+- 20181207 arXiv [Feature Matters: A Stage-by-Stage Approach for Knowledge Transfer](https://arxiv.org/abs/1812.01819)
+	-  Feature transfer in student-teacher networks
+	- 在学生-教师网络中进行特征迁移
+
+- 20191204 AAAI-20 [Online Knowledge Distillation with Diverse Peers](https://arxiv.org/abs/1912.00350)
+    - Online Knowledge Distillation with Diverse Peers
+
+- 20191222 AAAI-20 [Improved Knowledge Distillation via Teacher Assistant](https://arxiv.org/abs/1902.03393)
+    - Teacher assistant helps knowledge distillation
+
 - - - 
 
-## 1.2. Domain Adaptation (领域自适应)
+## Traditional domain adaptation
 
-Including domain adaptation and partial domain adaptation.
-
-### 1.2.1. Traditional Methods (传统迁移方法)
+- 20210319 [Cross-domain Activity Recognition via Substructural Optimal Transport](https://arxiv.org/abs/2102.03353) | [知乎文章](https://zhuanlan.zhihu.com/p/356904023) | [微信公众号](https://mp.weixin.qq.com/s/QuVrqnPruHgfolYltI1Peg)
+    - Using sub-structures for domain adaptation
+    - 采用子结构进行domain adaptation，比传统方法快5倍
 
 - 20210607 ICML-21 [Sequential Domain Adaptation by Synthesizing Distributionally Robust Experts](http://arxiv.org/abs/2106.00322)
   - Sequential DA using distributionally robust experts
@@ -506,19 +389,176 @@ Including domain adaptation and partial domain adaptation.
 	- [Domain invariant transfer kernel learning](https://mega.nz/#!tOoCCRhB!YyoorOUcp6XIPPd6A0s7qglYnaSiRJFEQBphtZ2c58Q)
 	- 发表在IEEE Trans. Knowledge and Data Engineering期刊上
 
-### 1.2.2. Deep / Adversarial Methods (深度/对抗迁移方法)
+## Deep domain adaptation
+
+- CVPR-21 [Conditional Bures Metric for Domain Adaptation](https://openaccess.thecvf.com/content/CVPR2021/html/Luo_Conditional_Bures_Metric_for_Domain_Adaptation_CVPR_2021_paper.html)
+    - A new metric for domain adaptation
+    - 提出一个新的metric用于domain adaptation
+
+- CVPR-21 [Generalized Domain Adaptation](https://openaccess.thecvf.com/content/CVPR2021/html/Mitsuzumi_Generalized_Domain_Adaptation_CVPR_2021_paper.html)
+  - A general definition for domain adaptation
+  - 一个更抽象更一般的domain adaptation定义
+
+- CVPR-21 [Reducing Domain Gap by Reducing Style Bias](https://openaccess.thecvf.com/content/CVPR2021/html/Nam_Reducing_Domain_Gap_by_Reducing_Style_Bias_CVPR_2021_paper.html)
+  - Syle-invariant training for adaptation and generalization
+  - 通过训练图像对style无法辨别来进行DA和DG
 
 - 20210706 CVPR-21 [Instance Level Affinity-Based Transfer for Unsupervised Domain Adaptation](https://openaccess.thecvf.com/content/CVPR2021/html/Sharma_Instance_Level_Affinity-Based_Transfer_for_Unsupervised_Domain_Adaptation_CVPR_2021_paper.html)
     - Instance affinity learning for domain adaptation
     - 样本间相似度学习，用于DA
 
+- 20210716 BMCV-extend [Exploring Dropout Discriminator for Domain Adaptation](https://arxiv.org/abs/2107.04231)
+  - Using multiple discriminators for domain adaptation
+  - 用分布估计代替点估计来做domain adaptation
+
+
+- 20201208 TIP [Effective Label Propagation for Discriminative Semi-Supervised Domain Adaptation](http://arxiv.org/abs/2012.02621)
+    - 用label propagation做半监督domain adaptation
+
+- 20201203 [Unpaired Image-to-Image Translation via Latent Energy Transport](https://arxiv.org/abs/2012.00649)
+    - 用能量模型做图像翻译
+
+
+
+- 20200927 [Privacy-preserving Transfer Learning via Secure Maximum Mean Discrepancy](https://arxiv.org/abs/2009.11680)
+    - 加密情况下的MMD用于迁移学习
+
+- 20200914 [A First Step Towards Distribution Invariant Regression Metrics](https://arxiv.org/abs/2009.05176)
+    - 分布无关的回归评价
+
+
+- 20200813 ECCV-20 [Learning to Cluster under Domain Shift](https://arxiv.org/abs/2008.04646)
+    - Learning to cluster under domain shift
+    - 在domain shift的情况下进行聚类
+- 20200706 [Learn Faster and Forget Slower via Fast and Stable Task Adaptation](https://arxiv.org/abs/2007.01388)
+
+
+- 20200629 [ICML-20] [Graph Optimal Transport for Cross-Domain Alignment](https://arxiv.org/abs/2006.14744)
+	- Graph OT for cross-domain alignment
+
+
+- 20191202 AAAI-20 [Stable Learning via Sample Reweighting](https://arxiv.org/abs/1911.12580)
+   - Theoretical sample reweigting
+   - 理论和方法，用于sample reweight
+
+- 20191202 arXiv [Domain-invariant Stereo Matching Networks](https://arxiv.org/abs/1911.13287)
+   - Domain-invariant stereo matching networks
+   - 领域不变的匹配网络
+
+- 20191202 arXiv [Learning Generalizable Representations via Diverse Supervision](https://arxiv.org/abs/1911.12911)
+   - Diverse supervision helps to learn generalizable representations
+
+- 20191202 arXiv [Domain-Aware Dynamic Networks](https://arxiv.org/abs/1911.13237)
+     - Edge devices adaptative computing
+     - 边缘计算上的自适应计算
+
+
+
+- 20191029 [Reducing Domain Gap via Style-Agnostic Networks](https://arxiv.org/abs/1910.11645)
+  	- Use style-agnostic networks to avoid domain gap
+  	- 通过风格无关的网络来避免领域的gap
+
+
+
+
+
+
+
+- 20191008 arXiv [DIVA: Domain Invariant Variational Autoencoders](https://arxiv.org/abs/1905.10427)
+  	- Domain invariant variational autoencoders
+  	- 领域不变的变分自编码器
+
+- 20190821 arXiv [Transfer Learning-Based Label Proportions Method with Data of Uncertainty](https://arxiv.org/abs/1908.06603)
+  	- Transfer learning with source and target having uncertainty
+  	- 当source和target都有不确定label时进行迁移
+
+
+
+- 20190703 arXiv [Inferred successor maps for better transfer learning](https://arxiv.org/abs/1906.07663)
+  	- Inferred successor maps for better transfer learning
+
+
+
+- 20190531 IJCAI-19 [Adversarial Imitation Learning from Incomplete Demonstrations](https://arxiv.org/abs/1905.12310)
+  	- Adversarial imitation learning from imcomplete demonstrations
+  	- 基于不完整实例的对抗模仿学习
+
+- 20190517 arXiv [Budget-Aware Adapters for Multi-Domain Learning](https://arxiv.org/abs/1905.06242)
+    - Budget-Aware Adapters for Multi-Domain Learning
+
+- 20190301 SysML-19 [FixyNN: Efficient Hardware for Mobile Computer Vision via Transfer Learning](https://arxiv.org/abs/1902.11128)
+    - An efficient hardware for mobile computer vision applications using transfer learning
+    - 提出一个高效的用于移动计算机视觉应用的硬件
+
+- 20190118 arXiv [Domain Adaptation for Structured Output via Discriminative Patch Representations](https://arxiv.org/abs/1901.05427)
+    - Domain adaptation for structured output
+    - Domain adaptation用于结构化输出
+
+
+
+
+
+- 20181217 arXiv [When Semi-Supervised Learning Meets Transfer Learning: Training Strategies, Models and Datasets](https://arxiv.org/abs/1812.05313)
+    - Combining semi-supervised learning and transfer learning
+    - 将半监督方法应用于迁移学习
+
+- 20181127 arXiv [Privacy-preserving Transfer Learning for Knowledge Sharing](https://arxiv.org/abs/1811.09491)
+	- First work on privacy preserving in transfer learning
+	- 探讨迁移学习中隐私保护的文章
+
+
+
+- 20181121 arXiv [Not just a matter of semantics: the relationship between visual similarity and semantic similarity](https://arxiv.org/abs/1811.07120)
+    -  Interpreting relationships between visual similarity and semantic similarity
+    - 解释了视觉相似性和语义相似性的不同
+
+- 20181008 arXiv [Unsupervised Learning via Meta-Learning](https://arxiv.org/abs/1810.02334)
+	- Meta-learning for unsupervised learning
+	- 用于无监督学习的元学习
+
+- 20180919 JMLR [Invariant Models for Causal Transfer Learning](http://jmlr.csail.mit.edu/papers/volume19/16-432/16-432.pdf)
+	-  Invariant models for causal transfer learning
+	- 针对causal transfer learning提出不变模型
+
+
+
+- 20180912 arXiv [Transfer Learning with Neural AutoML](https://arxiv.org/abs/1803.02780)
+	- Applying transfer learning into autoML search
+	- 将迁移学习思想应用于automl
+
+- 20190904 arXiv [On the Minimal Supervision for Training Any Binary Classifier from Only Unlabeled Data](https://arxiv.org/abs/1808.10585)
+	- Train binary classifiers from only unlabeled data
+	- 仅从无标记数据训练二分类器
+
+- 20180904 arXiv [Learning Data-adaptive Nonparametric Kernels](https://arxiv.org/abs/1808.10724)
+	-  Learn a kernel that can do adaptation
+	- 学习一个可以自适应的kernel
+
+- 20180901 arXiv [Distance Based Source Domain Selection for Sentiment Classification](https://arxiv.org/abs/1808.09271)
+	-  Propose a new domain selection method by combining existing distance functions
+	- 提出一种混合已有多种距离公式的源领域选择方法
+
+- 20180901 KBS [Transfer subspace learning via low-rank and discriminative reconstruction matrix](https://www.sciencedirect.com/science/article/pii/S0950705118304222)
+	-  Transfer subspace learning via low-rank and discriminative reconstruction matrix
+	- 通过低秩和重构进行迁移学习
+
+- 20180825 arXiv [Transfer Learning for Estimating Causal Effects using Neural Networks](https://arxiv.org/abs/1808.07804)
+	-  Using transfer learning for casual effect learning
+	- 用迁移学习进行因果推理
+
+- 20180724 ICPKR-18 [Knowledge-based Transfer Learning Explanation](https://arxiv.org/abs/1807.08372)
+	-  Explain transfer learning things with some knowledge-based theory
+	- 用一些基于knowledge的方法解释迁移学习
+
+- 20180628 arXiv 提出Office数据集的实验室又放出一个数据集用于close set、open set、以及object detection的迁移学习：[Syn2Real: A New Benchmark forSynthetic-to-Real Visual Domain Adaptation](https://arxiv.org/abs/1806.09755)
+
+
+
+- 20180604 arXiv 在Open set domain adaptation中，用共享和私有部分重建进行问题的解决：[Learning Factorized Representations for Open-set Domain Adaptation](https://arxiv.org/abs/1805.12277)
+
 - 20210706 CVPR-21 [Multi-Target Domain Adaptation With Collaborative Consistency Learning](https://openaccess.thecvf.com/content/CVPR2021/html/Isobe_Multi-Target_Domain_Adaptation_With_Collaborative_Consistency_Learning_CVPR_2021_paper.html)
     - Using collaborative consistency training for multi-target DA
     - 用多个模型做集成一致性训练进行多目标DA
-
-- 20210625 ICML-21 [f-Domain-Adversarial Learning: Theory and Algorithms](http://arxiv.org/abs/2106.11344)
-    - New theory based on f-divergence
-    - 基于f-divergence给出新的DA理论和算法
 
 - 20210625 CVPR-21 [Generalized Domain Adaptation](http://arxiv.org/abs/2106.01656)
   - Generalized domain adaptation
@@ -780,17 +820,403 @@ Including domain adaptation and partial domain adaptation.
 
 - NIPS-17 [Learning Multiple Tasks with Multilinear Relationship Networks](http://papers.nips.cc/paper/6757-learning-multiple-tasks-with-deep-relationship-networks) 
 
-- 深度适配网络（Deep Adaptation Network, DAN）
-	- 发表在ICML-15上：learning transferable features with deep adaptation networks
-	- [我的解读](https://zhuanlan.zhihu.com/p/27657910)
+- 20210420 arXiv [On Universal Black-Box Domain Adaptation](https://arxiv.org/abs/2104.04665)
+    - Universal black-box domain adaptation
+    - 黑盒情况下的universal domain adaptation
+
+- 20210319 [Learning Invariant Representations across Domains and Tasks](https://arxiv.org/abs/2103.05114)
+    - Automatically learn to match distributions
+    - 自动适配分布的任务适配网络
+
+- 20191222 arXiv [Dreaming to Distill: Data-free Knowledge Transfer via DeepInversion](https://arxiv.org/abs/1912.08795)
+   - Generate data without priors for transfer learning based on deep dream
+   - 只用网络架构不用原来数据，生成新数据用于迁移
+
+- 20191201 arXiv [A Unified Framework for Lifelong Learning in Deep Neural Networks](https://arxiv.org/abs/1911.09704)
+     - A unified framework for life-long learing in DNN
+
+- 20191201 arXiv [ReMixMatch: Semi-Supervised Learning with Distribution Alignment and Augmentation Anchoring](https://arxiv.org/abs/1911.09785)
+     - Semi-Supervised Learning with Distribution Alignment and Augmentation Anchoring
+
+- 20191119 NIPS-19 workshop [Collaborative Unsupervised Domain Adaptation for Medical Image Diagnosis](https://arxiv.org/abs/1911.07293)
+  	- Ensemble DA using noise labels
+  	- 在ensemble中出现noise label时如何处理
+
+- 20191029 KBS [Semi-supervised representation learning via dual autoencoders for domain adaptation](https://arxiv.org/abs/1908.01342)
+  	- Semi-supervised domain adaptation with autoencoders
+  	- 用自动编码器进行半监督的DA
+
+- 20190926 arXiv [Learning a Domain-Invariant Embedding for Unsupervised Domain Adaptation Using Class-Conditioned Distribution Alignment](https://arxiv.org/abs/1907.02271)
+  	- Use class-conditional DA for domain adaptation
+  	- 使用类条件对齐进行domain adaptation
+
+- 20190926 arXiv [A Deep Learning-Based Approach for Measuring the Domain Similarity of Persian Texts](https://arxiv.org/abs/1909.09690)
+  	- Deep learning based domain similarity learning
+  	- 利用深度学习进行领域相似度的学习
+
+- 20190926 arXiv [FEED: Feature-level Ensemble for Knowledge Distillation](https://arxiv.org/abs/1909.10754)
+  	- Feature-level knowledge distillation
+  	- 特征层面的知识蒸馏
+
+- 20190926 ICCV-19 [Self-similarity Grouping: A Simple Unsupervised Cross Domain Adaptation Approach for Person Re-identification](https://arxiv.org/abs/1811.10144)
+  	- A simple approach for domain adaptation
+  	- 一个很简单的DA方法
+
+- 20190910 BMVC-19 [Curriculum based Dropout Discriminator for Domain Adaptation](https://arxiv.org/abs/1907.10628)
+  	- Curriculum dropout for domain adaptation
+  	- 基于课程学习的dropout用于DA
+
+
+
+- 20190909 PAMI [Inferring Latent Domains for Unsupervised Deep Domain Adaptation](https://ieeexplore.ieee.org/abstract/document/8792192)
+  	- Inferring latent domains for unsupervised deep domain
+  	- 在深度迁移学习中推断隐含领域
+
+- 20190729 ICCV workshop [Multi-level Domain Adaptive learning for Cross-Domain Detection](https://arxiv.org/abs/1907.11484)
+  	- Multi-level domain adaptation for cross-domain Detection
+  	- 多层次的domain adaptation
+
+- 20190626 IJCAI-19 [Bayesian Uncertainty Matching for Unsupervised Domain Adaptation](https://arxiv.org/abs/1906.09693)
+  	- Bayesian uncertainty matching for da
+  	- 贝叶斯网络用于da
+
+- 20190419 CVPR-19 [DDLSTM: Dual-Domain LSTM for Cross-Dataset Action Recognition](https://arxiv.org/abs/1904.08634)
+  	- Dual-Domain LSTM for Cross-Dataset Action Recognition
+  	- 跨数据集的动作识别
+
+- 20190109 InfSc [Robust Unsupervised Domain Adaptation for Neural Networks via Moment Alignment](https://doi.org/10.1016/j.ins.2019.01.025)
+    - Extension of Central Moment Discrepancy (ICLR-17) approach
+
+- 20181212 ICONIP-18 [Domain Adaptation via Identical Distribution Across Models and Tasks](https://link.springer.com/chapter/10.1007/978-3-030-04167-0_21)
+    -  Transfer from large net to small net
+    - 从大网络迁移到小网络
+
+- 20181212 AIKP [Deep Domain Adaptation](https://link.springer.com/chapter/10.1007/978-3-030-00734-8_9)
+    -  Low-rank + deep nn for domain adaptation
+    - Low-rank用于深度迁移
+
+- 20181211 arXiv [Deep Variational Transfer: Transfer Learning through Semi-supervised Deep Generative Models](https://arxiv.org/abs/1812.03123)
+    -  Transfer learning with deep generative model
+    - 通过深度生成模型进行迁移学习
+
+- 20181121 arXiv [Integrating domain knowledge: using hierarchies to improve deep classifiers](https://arxiv.org/abs/1811.07125)
+    -  Using hierarchies to help deep learning
+    - 借助于层次关系来帮助深度网络进行学习
+
+- 20181117 arXiv [AdapterNet - learning input transformation for domain adaptation](https://arxiv.org/abs/1805.11601)
+	-  Learning input transformation for domain adaptation
+	- 对domain adaptation任务学习输入的自适应
+
+- 20181115 AAAI-19 [Exploiting Local Feature Patterns for Unsupervised Domain Adaptation](https://arxiv.org/abs/1811.05042)
+	-  Local domain alignment for domain adaptation
+	- 局部领域自适应
+
+- 20181115 NIPS-18 [Co-regularized Alignment for Unsupervised Domain Adaptation](https://arxiv.org/abs/1811.05443)
+	-  The idea is the same with the above one...
+
+- 20181113 NIPS-18 [Generalized Zero-Shot Learning with Deep Calibration Network](http://ise.thss.tsinghua.edu.cn/~mlong/doc/deep-calibration-network-nips18.pdf)
+	-  Deep calibration network for zero-shot learning
+	- 提出deep calibration network进行zero-shot learning
+
+- 20181110 AAAI-19 [Knowledge Transfer via Distillation of Activation Boundaries Formed by Hidden Neurons](https://arxiv.org/abs/1811.03233)
+	-  Transfer learning for bounding neuron activation boundaries
+	- 使用迁移学习进行神经元激活边界判定
+
+- 20181108 arXiv [Deep feature transfer between localization and segmentation tasks](https://arxiv.org/abs/1811.02539)
+	-  Feature transfer between localization and segmentation
+	- 在定位与分割任务间进行迁移
+
+- 20181107 BigData-18 [Transfer learning for time series classification](https://arxiv.org/abs/1811.01533)
+	-  First work on deep transfer learning for time series classification
+	- 第一个将深度迁移学习用于时间序列分类
+
+- 20181106 PRCV-18 [Deep Local Descriptors with Domain Adaptation](https://link.springer.com/chapter/10.1007/978-3-030-03335-4_30)
+	-  Adding MMD layers to conv and fc layers
+	- 在卷积和全连接层都加入MMD
+
+- 20181106 LNCS-18 [LSTN: Latent Subspace Transfer Network for Unsupervised Domain Adaptation](https://link.springer.com/chapter/10.1007/978-3-030-03335-4_24)
+	-  Combine subspace learning and neural network for DA
+	- 将子空间表示和深度网络结合起来用于DA
+
+- 20181105 SIGGRAPI-18 [Unsupervised representation learning using convolutional and stacked auto-encoders: a domain and cross-domain feature space analysis](https://arxiv.org/abs/1811.00473)
+	-  Representation learning for cross-domains
+	- 跨领域的特征学习
+
+- 20181105 arXiv [Progressive Memory Banks for Incremental Domain Adaptation](https://arxiv.org/abs/1811.00239)
+	-  Progressive memory bank in RNN for incremental DA
+	- 针对增量的domain adaptation，进行记忆单元的RNN学习
+
+- 20180901 arXiv [Joint Domain Alignment and Discriminative Feature Learning for Unsupervised Deep Domain Adaptation](https://arxiv.org/abs/1808.09347)
+	-  deep domain adaptation + intra-class / inter-class distance
+	- 深度domain adaptation再加上类内类间距离学习
+
+- 20180819 arXiv [Conceptual Domain Adaptation Using Deep Learning](https://arxiv.org/abs/1808.05355)
+	-  A search framework for deep transfer learning
+	- 提出一个可以搜索的framework进行迁移学习
+
+- 20180731 ECCV-18 [DeepJDOT: Deep Joint Distribution Optimal Transport for Unsupervised Domain Adaptation](https://arxiv.org/abs/1803.10081)
+	-  Deep + Joint distribution adaptation + optimal transport
+	- 深度 + 联合分布适配 + optimal transport
+	
+- 20180731 ICLR-18 [Few Shot Learning with Simplex](https://arxiv.org/abs/1807.10726)
+	-  Represent deep learning using the simplex
+	- 用单纯性表征深度学习
+
+- 20180724 AIAI-18 [Improving Deep Models of Person Re-identification for Cross-Dataset Usage](https://arxiv.org/abs/1807.08526)
+	-  apply deep models to cross-dataset RE-ID
+	- 将深度迁移学习应用于跨数据集的Re-ID
+
+- 20180724 ECCV-18 [Zero-Shot Deep Domain Adaptation](https://arxiv.org/abs/1707.01922)
+	-  Perform zero-shot domain adaptation when there is no target domain data available 
+	- 当目标领域的数据不可用时如何进行domain adaptation :
+
+- 20180724 ICCSE-18 [Deep Transfer Learning for Cross-domain Activity Recognition](https://arxiv.org/abs/1807.07963)
+	-  Provide source domain selection and activity recognition for cross-domain activity recognition
+	- 提出了跨领域行为识别中的深度方法模型，以及相关的领域选择方法
+
+- 20180530 arXiv 用于深度网络的鲁棒性domain adaptation方法：[Robust Unsupervised Domain Adaptation for Neural Networks via Moment Alignment](https://arxiv.org/abs/1711.06114)
+
+- 20180522 arXiv 用CNN进行跨领域的属性学习：[Cross-domain attribute representation based on convolutional neural network](https://arxiv.org/abs/1805.07295)
+
+- 20180428 CVPR-18 相互协同学习：[Deep Mutual Learning](https://github.com/YingZhangDUT/Deep-Mutual-Learning)
+
+- 20180428 ICLR-18 自集成学习用于domain adaptation：[Self-ensembling for visual domain adaptation](https://github.com/Britefury/self-ensemble-visual-domain-adapt)
+
+- 20180428 IJCAI-18 将knowledge distilation用于transfer learning，然后进行视频分类：[Better and Faster: Knowledge Transfer from Multiple Self-supervised Learning Tasks via Graph Distillation for Video Classification](https://arxiv.org/abs/1804.10069)
+
+- 20180426 arXiv 深度学习中的参数如何进行迁移？（杨强团队）：[Parameter Transfer Unit for Deep Neural Networks](https://arxiv.org/abs/1804.08613)
+
+- 20180425 CVPR-18(oral) 对不同的视觉任务进行建模，从而可以进行深层次的transfer：[Taskonomy: Disentangling Task Transfer Learning](https://arxiv.org/abs/1804.08328)
+
+- 20180410 ICLR-17 第一篇用可变RNN进行多维时间序列迁移的文章：[Variational Recurrent Adversarial Deep Domain Adaptation](https://openreview.net/forum?id=rk9eAFcxg&noteId=SJN7BGyPl)
+
+- 20180403 arXiv 本地和云端CNN迁移融合的图片分类：[Hierarchical Transfer Convolutional Neural Networks for Image Classification](https://arxiv.org/abs/1804.00021)
+
+- 20180402 CVPR-18 渐进式domain adaptation：[Cross-Domain Weakly-Supervised Object Detection through Progressive Domain Adaptation](https://arxiv.org/abs/1803.11365)
+
+- 20180329 arXiv 基于attention机制的多任务学习：[End-to-End Multi-Task Learning with Attention](https://arxiv.org/abs/1803.10704)
+
+- 20180326 arXiv 将迁移学习用于Faster R-CNN对象识别中：[Domain Adaptive Faster R-CNN for Object Detection in the Wild](https://arxiv.org/abs/1803.03243)
+
+- 20180326 Pattern Recognition-17 多标签迁移学习方法应用于脸部属性分类：[Multi-label Learning Based Deep Transfer Neural Network for Facial Attribute Classification](https://www.sciencedirect.com/science/article/pii/S0031320318301080)
+
+- 20180326 类似于ResNet的思想，在传统layer的ReLU之前加一个additive layer进行domain adaptation，思想简洁，效果非常好：[Layer-wise domain correction for unsupervised domain adaptation](https://link.springer.com/article/10.1631/FITEE.1700774)
+
+- 20180326 Pattern Recognition-17 基于Batch normalization提出了AdaBN，很简单：[Adaptive Batch Normalization for practical domain adaptation](http://ieeexplore.ieee.org/abstract/document/8168121/)
+
+- 20180309 arXiv 利用已有网络的先验知识来加速目标网络的训练：[Transfer Automatic Machine Learning](https://arxiv.org/abs/1803.02780)
+
+- 2018 ICLR-18 最小熵领域对齐方法 [Minimal-Entropy Correlation Alignment for Unsupervised Deep Domain Adaptation](https://openreview.net/forum?id=rJWechg0Z) [code](https://github.com/pmorerio/minimal-entropy-correlation-alignment/tree/master/svhn2mnist)
+
+- ICLR-17 [Central Moment Discrepancy (CMD) for Domain-Invariant Representation Learning](https://openreview.net/pdf?id=SkB-_mcel)
+
+- ICCV-17 [AutoDIAL: Automatic DomaIn Alignment Layers](https://arxiv.org/pdf/1704.08082.pdf)
+
+- ICCV-17 [CCSA: Unified Deep Supervised Domain Adaptation and Generalization](http://vision.csee.wvu.edu/~motiian/papers/CCSA.pdf)
+
+- ICML-17 [JAN: Deep Transfer Learning with Joint Adaptation Networks](http://ise.thss.tsinghua.edu.cn/~mlong/doc/joint-adaptation-networks-icml17.pdf)
+
+- 2017 Google: [Learning Transferable Architectures for Scalable Image Recognition](https://arxiv.org/abs/1707.07012)
+
+- NIPS-16 [RTN: Unsupervised Domain Adaptation with Residual Transfer Networks](http://ise.thss.tsinghua.edu.cn/~mlong/doc/residual-transfer-network-nips16.pdf)
+
+- CoRR abs/1603.04779 (2016) [AdaBN: Revisiting batch normalization for practical domain adaptation](https://arxiv.org/pdf/1603.04779.pdf)
+
+- JMLR-16 [DANN: Domain-adversarial training of neural networks](http://www.jmlr.org/papers/volume17/15-239/15-239.pdf)
+
+- 20171226 NIPS 2016 把传统工作搬到深度网络中的范例：不是只学习domain之间的共同feature，还学习每个domain specific的feature。这篇文章写得非常清楚，通俗易懂！ [Domain Separation Networks](http://papers.nips.cc/paper/6254-domain-separation-networks) | [代码](https://github.com/tensorflow/models/tree/master/research/domain_adaptation)
+
+- 20171222 ICCV 2017 对于target中只有很少量的标记数据，用深度网络结合孪生网络的思想进行泛化：[Unified Deep Supervised Domain Adaptation and Generalization](http://openaccess.thecvf.com/content_ICCV_2017/papers/Motiian_Unified_Deep_Supervised_ICCV_2017_paper.pdf) | [代码和数据](https://github.com/samotiian/CCSA)
+
+- 20171126 NIPS-17 [Label Efficient Learning of Transferable Representations acrosss Domains and Tasks](http://papers.nips.cc/paper/6621-label-efficient-learning-of-transferable-representations-acrosss-domains-and-tasks)    
+    - 李飞飞小组发在NIPS 2017的文章。针对不同的domain、不同的feature、不同的label space，统一学习一个深度网络进行表征。
+
+- 201711 一个很好的深度学习+迁移学习的实践教程，有代码有数据，可以直接上手：[基于深度学习和迁移学习的识花实践](https://cosx.org/2017/10/transfer-learning/)
+
+- ECCV-16 [Deep CORAL: Correlation Alignment for Deep Domain Adaptation](https://arxiv.org/abs/1607.01719.pdf)
+
+- ECCV-16 [DRCN: Deep Reconstruction-Classification Networks for Unsupervised Domain Adaptation](https://arxiv.org/abs/1607.03516.pdf)
+
+- ICML-15 [DAN: Learning Transferable Features with Deep Adaptation Networks](http://ise.thss.tsinghua.edu.cn/~mlong/doc/deep-adaptation-networks-icml15.pdf)
+
+- ICML-15 [GRL: Unsupervised Domain Adaptation by Backpropagation](http://sites.skoltech.ru/compvision/projects/grl/files/paper.pdf)
+
+- ICCV-15 [Simultaneous Deep Transfer Across Domains and Tasks](https://people.eecs.berkeley.edu/~jhoffman/papers/Tzeng_ICCV2015.pdf)
+
+- NIPS-14 [How transferable are features in deep neural networks?](http://yosinski.com/media/papers/Yosinski__2014__NIPS__How_Transferable_with_Supp.pdf)
+
+- CoRR abs/1412.3474 (2014) [Deep Domain Confusion(DDC): Maximizing for Domain Invariance](http://www.arxiv.org/pdf/1412.3474.pdf)
+
+
+
+- [深度联合适配网络](http://proceedings.mlr.press/v70/long17a.html)（Joint Adaptation Network, JAN）
+	- Deep Transfer Learning with Joint Adaptation Networks
+	- 延续了之前的DAN工作，这次考虑联合适配
+
+- 20191214 arXiv [Learning Domain Adaptive Features with Unlabeled Domain Bridges](https://arxiv.org/abs/1912.05004)
+    - Learning domain adaptive features with unlabeled CycleGAN
+
+- 20191214 AAAI-20 [Adversarial Domain Adaptation with Domain Mixup](https://arxiv.org/abs/1912.01805)
+    - Domain adaptation with data mixup
+
+- 20190916 arXiv [Compound Domain Adaptation in an Open World](https://arxiv.org/abs/1909.03403)
+  	- Domain adaptation using the target domain knowledge
+  	- 使用目标域的知识来进行domain adaptation
+
+- 20101008 ICCV-19 [Enhancing Adversarial Example Transferability with an Intermediate Level Attack](https://arxiv.org/abs/1907.10823)
+  	- Enhancing adversarial examples transerability
+  	- 增强对抗样本的可迁移性
+
+- 20190408 arXiv [DeceptionNet: Network-Driven Domain Randomization](https://arxiv.org/abs/1904.02750)
+    - Using only source data for domain randomization
+    - 仅利用源域数据进行domain randomization
+
+- 20190220 arXiv [Unsupervised Domain Adaptation using Deep Networks with Cross-Grafted Stacks](https://arxiv.org/abs/1902.06328)
+    - Domain adaptation using deep learning with cross-grafted stacks
+    - 用跨领域嫁接栈进行domain adaptation
+
+- 20181217 arXiv [DLOW: Domain Flow for Adaptation and Generalization](https://arxiv.org/abs/1812.05418)
+    - Domain flow for adaptation and generalization
+    - 域流方法应用于领域自适应和扩展
+
+- 20181212 arXiv [Learning Transferable Adversarial Examples via Ghost Networks](https://arxiv.org/abs/1812.03413)
+    - Use ghost networks to learn transferrable adversarial examples
+    - 使用ghost网络来学习可迁移的对抗样本
+
+- 20181205 arXiv [Unsupervised Domain Adaptation using Generative Models and Self-ensembling](https://arxiv.org/abs/1812.00479)
+	-  UDA using CycleGAN
+	- 基于CycleGAN的domain adaptation
+
+- 20181205 arXiv [VADRA: Visual Adversarial Domain Randomization and Augmentation](https://arxiv.org/abs/1812.00491)
+	- Domain randomization and augmentation
+	- Domain randomization和增强
+
+- 20181128 arXiv [Geometry-Consistent Generative Adversarial Networks for One-Sided Unsupervised Domain Mapping](https://arxiv.org/abs/1809.05852)
+  - CycleGAN for domain adaptation
+
+- 20181127 arXiv [Distorting Neural Representations to Generate Highly Transferable Adversarial Examples](https://arxiv.org/abs/1811.09020)
+	-  Generate transferrable examples to fool networks
+	- 生成一些可迁移的对抗样本来迷惑神经网络，在各个网络上都表现好
+
+- 20181123 arXiv [Progressive Feature Alignment for Unsupervised Domain Adaptation](https://arxiv.org/abs/1811.08585)
+    - Progressively selecting confident pseudo labeled samples for transfer
+    - 渐进式选择置信度高的伪标记进行迁移
+
+- 20181113 NIPS-18 [Conditional Adversarial Domain Adaptation](http://ise.thss.tsinghua.edu.cn/~mlong/doc/conditional-adversarial-domain-adaptation-nips18.pdf)
+	-  Using conditional GAN for domain adaptation
+	- 用conditional GAN进行domain adaptation
+
+- 20181107 NIPS-18 [Invariant Representations without Adversarial Training](https://arxiv.org/abs/1805.09458)
+	-  Get invariant representations without adversarial training
+	- 不进行对抗训练获得不变特征表达
+
+- 20181105 arXiv [Efficient Multi-Domain Dictionary Learning with GANs](https://arxiv.org/abs/1811.00274)
+	-  Dictionary learning for multi-domains using GAN
+	- 用GAN进行多个domain的字典学习
+
+- 20181012 arXiv [Domain Confusion with Self Ensembling for Unsupervised Adaptation](https://arxiv.org/abs/1810.04472)
+	-  Domain confusion and self-ensembling for DA
+	- 用于Domain adaptation的confusion和self-ensembling方法
+
+- 20180912 arXiv [Improving Adversarial Discriminative Domain Adaptation](https://arxiv.org/abs/1809.03625)
+	-  Improve ADDA using source domain labels
+	- 提高ADDA方法的精度，使用source domain的label
+
+- 20180731 ECCV-18 [Dist-GAN: An Improved GAN using Distance Constraints](https://arxiv.org/abs/1803.08887)
+	- Embed an autoencoder in GAN to improve its stability in training and propose two distances
+	- 将autoencoder集成到GAN中，提出相应的两种距离进行度量，提高了GAN的稳定性
+
+- 20180724 ECCV-18 [Unsupervised Image-to-Image Translation with Stacked Cycle-Consistent Adversarial Networks](https://arxiv.org/abs/1807.08536)
+	-  Using stacked CycleGAN to perform image-to-image translation
+	- 用stacked cycleGAN进行image-to-image的翻译
+
+- 20180628 ICML-18 Pixel-level和feature-level的domain adaptation：[CyCADA: Cycle-Consistent Adversarial Domain Adaptation](https://arxiv.org/abs/1711.03213)
+
+- 20180619 CVPR-18 将optimal transport加入adversarial中进行domain adaptation：[Re-weighted Adversarial Adaptation Network for Unsupervised Domain Adaptation](http://openaccess.thecvf.com/content_cvpr_2018/CameraReady/1224.pdf)
+
+- 20180616 CVPR-18 用GAN进行domain adaptation：[Generate To Adapt: Aligning Domains using Generative Adversarial Networks](https://arxiv.org/abs/1704.01705)
+
+- 20180612 ICML-18 利用多个数据集辅助，从而提高目标领域的学习能力：[RadialGAN: Leveraging multiple datasets to improve target-specific predictive models using Generative Adversarial Networks](https://arxiv.org/abs/1802.06403)
+
+- 20180612 ICML-18 利用GAN进行多个domain的联合分布优化：[JointGAN: Multi-Domain Joint Distribution Learning with Generative Adversarial Nets](https://arxiv.org/abs/1806.02978)
+
+- 20180605 arXiv [NAM: Non-Adversarial Unsupervised Domain Mapping](https://arxiv.org/abs/1806.00804)
+
+- 20180508 arXiv 利用GAN，从有限数据中生成另一个domain的数据：[Transferring GANs: generating images from limited data](https://arxiv.org/abs/1805.01677)
+
+- 20180501 arXiv Open set domain adaptation的对抗网络版本：[Open Set Domain Adaptation by Backpropagation](https://arxiv.org/abs/1804.10427)
+
+- 20180427 arXiv 提出了adversarial residual的概念，进行深度对抗迁移：[Unsupervised Domain Adaptation with Adversarial Residual Transform Networks](https://arxiv.org/abs/1804.09578)
+
+- 20180424 CVPR-18 用GAN和迁移学习进行图像增强：[Adversarial Feature Augmentation for Unsupervised Domain Adaptation](https://arxiv.org/pdf/1711.08561.pdf)
+
+- 20180413 arXiv 一种思想非常简单的深度迁移方法，仅考虑进行domain之间的类别概率矫正就能取得非常好的效果：[Simple Domain Adaptation with Class Prediction Uncertainty Alignment](https://arxiv.org/abs/1804.04448)
+
+- 20180413 arXiv Mingming Gong提出的用因果生成网络进行深度迁移：[Causal Generative Domain Adaptation Networks](https://arxiv.org/abs/1804.04333)
+
+- 20180410 CVPR-18(oral) 用两个分类器进行对抗迁移：[Maximum Classifier Discrepancy for Unsupervised Domain Adaptation](https://arxiv.org/abs/1712.02560) [代码](https://github.com/mil-tokyo/MCD_DA)
+
+- 20180403 CVPR-18 将样本权重应用于对抗partial transfer中：[Importance Weighted Adversarial Nets for Partial Domain Adaptation](https://arxiv.org/abs/1803.09210
+
+- 20180326 MLSP-17 把domain separation network和对抗结合起来，提出了一个对抗网络进行迁移学习：[Adversarial domain separation and adaptation](http://ieeexplore.ieee.org/abstract/document/8168121/)
+
+- 20180326 ICIP-17 类似于domain separation network，加入了对抗判别训练，同时优化分类、判别、相似度三个loss：[Semi-supervised domain adaptation via convolutional neural network](http://ieeexplore.ieee.org/abstract/document/8296801/)
+
+- 20180116 ICLR-18 用对偶的形式替代对抗训练中原始问题的表达，从而进行分布对齐 [Stable Distribution Alignment using the Dual of the Adversarial Distance](https://arxiv.org/abs/1707.04046)
+
+- 20180111 arXiv 在GAN中用原始问题的对偶问题替换max问题，使得梯度更好收敛 [Stable Distribution Alignment Using the Dual of the Adversarial Distance](https://arxiv.org/abs/1707.04046)
+
+- 20180110 AAAI-18 将Wasserstein GAN用到domain adaptaiton中 [Wasserstein Distance Guided Representation Learning for Domain Adaptation](https://arxiv.org/abs/1707.01217)
+
+- 201707 CVPR-17 [Adversarial Representation Learning For Domain Adaptation](https://arxiv.org/abs/1707.01217)
+
+- AAAI-18 [Multi-Adversarial Domain Adaptation](http://ise.thss.tsinghua.edu.cn/~mlong/doc/multi-adversarial-domain-adaptation-aaai18.pdf)
+
+- ICCV-17 [CycleGAN: Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks](https://arxiv.org/pdf/1703.10593.pdf)
+
+- ICCV-17 [DualGAN: DualGAN: Unsupervised Dual Learning for Image-to-Image Translation](https://arxiv.org/pdf/1704.02510.pdf)
+
+- CVPR-17 [Asymmetric Tri-training for Unsupervised Domain Adaptation](https://arxiv.org/abs/1702.08400.pdf)
+
+- ICML-17 [DiscoGAN: Learning to Discover Cross-Domain Relations with Generative Adversarial Networks](https://arxiv.org/abs/1703.05192)
 
 - - -
 
-## 1.3. Domain Generalization
+## Domain generalization
 
 - 2021 Domain generalization: IJCAI-21 [Generalizing to Unseen Domains: A Survey on Domain Generalization](https://arxiv.org/abs/2103.03097) | [知乎文章](https://zhuanlan.zhihu.com/p/354740610) | [微信公众号](https://mp.weixin.qq.com/s/DsoVDYqLB1N7gj9X5UnYqw)
     - First survey on domain generalization
     - 第一篇对Domain generalization (领域泛化)的综述
+
+- 20190531 arXiv [Image Alignment in Unseen Domains via Domain Deep Generalization](https://arxiv.org/abs/1905.12028)
+  	- Deep domain generalization for image alignment
+  	- 深度领域泛化用于图像对齐
+
+- 20200821 ECCV-20 [Towards Recognizing Unseen Categories in Unseen Domains](https://arxiv.org/abs/2007.12256)
+    - Recognizing unseen classes in unseen domains
+    - 对未知领域识别未知类
+
+- 20200706 ICLR-21 [In Search of Lost Domain Generalization](https://arxiv.org/abs/2007.01434)
+
+- 20201016 [Energy-based Out-of-distribution Detection](https://arxiv.org/abs/2010.03759)
+    - Energy-based OOD
+
+- 20201222 AAAI-21 [DecAug: Out-of-Distribution Generalization via Decomposed Feature Representation and Semantic Augmentation](http://arxiv.org/abs/2012.09382)
+    - OOD generalization
+    - 用特征分解和语义增强做OOD泛化
+
+- 20210106 [Style Normalization and Restitution for Domain Generalization and Adaptation](http://arxiv.org/abs/2101.00588)
+    - Style normalization and restitution for DA and DG
+    - 风格归一化用于DA和DG任务
+
+- CVPR-21 [Uncertainty-Guided Model Generalization to Unseen Domains](https://openaccess.thecvf.com/content/CVPR2021/html/Qiao_Uncertainty-Guided_Model_Generalization_to_Unseen_Domains_CVPR_2021_paper.html)
+  - Uncertainty-guided generalization
+  - 基于不确定性的domain generalization
+
+- CVPR-21 [Adaptive Methods for Real-World Domain Generalization](https://openaccess.thecvf.com/content/CVPR2021/html/Dubey_Adaptive_Methods_for_Real-World_Domain_Generalization_CVPR_2021_paper.html)
+  - Adaptive methods for domain generalization
+  - 动态算法，用于domain generalization
+
 - 20180701 arXiv 做迁移时，只用source数据，不用target数据训练：[Generalizing to Unseen Domains via Adversarial Data Augmentation](https://arxiv.org/abs/1805.12018)
 
 - 201711 ICLR-18 [GENERALIZING ACROSS DOMAINS VIA CROSS-GRADIENT TRAINING](https://openreview.net/pdf?id=r1Dx7fbCW)
@@ -819,7 +1245,21 @@ Including domain adaptation and partial domain adaptation.
 
 - - -
 
-## 1.4. Multi-source Transfer Learning (多源迁移学习)
+## Source-free domain adaptation
+
+- 20200706 [Domain Adaptation without Source Data](https://arxiv.org/abs/2007.01524)
+
+- 20200629 ICML-20 [Do We Really Need to Access the Source Data? Source Hypothesis Transfer for Unsupervised Domain Adaptation](https://arxiv.org/abs/2002.08546)
+    	- Source-free adaptation
+    	- 在adaptation过程中不访问source data
+
+- - -
+
+## Multi-source domain adaptation
+
+- CVPR-21 [Wasserstein Barycenter for Multi-Source Domain Adaptation](https://openaccess.thecvf.com/content/CVPR2021/html/Montesuma_Wasserstein_Barycenter_for_Multi-Source_Domain_Adaptation_CVPR_2021_paper.html)
+  - Use Wasserstein Barycenter for multi-source domain adaptation
+  - 利用Wasserstein Barycenter进行DA
 
 - 20210430 [Graphical Modeling for Multi-Source Domain Adaptation](http://arxiv.org/abs/2104.13057)
     - Graphical models for multi-source DA
@@ -859,7 +1299,7 @@ Including domain adaptation and partial domain adaptation.
 
 - - -
 
-## 1.5. Heterogeneous Transfer Learning (异构迁移学习)
+## Heterogeneous transfer learning
 
 - 20190717 AAAI [Heterogeneous Transfer Learning via Deep Matrix Completion with Adversarial Kernel Embedding](https://144.208.67.177/ojs/index.php/AAAI/article/view/4880)
 	- Transfer Learning via Deep Matrix Completion with Adversarial Kernel Embedding
@@ -885,7 +1325,7 @@ Including domain adaptation and partial domain adaptation.
 
 - - -
 
-## 1.6. Online Transfer Learning (在线迁移学习)
+## Online transfer learning
 
 - 20180326 考虑主动获取label的budget情况下的在线迁移学习：[Online domain adaptation by exploiting labeled features and pro-active learning](https://dl.acm.org/citation.cfm?id=3152507)
 
@@ -922,7 +1362,11 @@ Including domain adaptation and partial domain adaptation.
 
 - - -
 
-## 1.7. Zero-shot / Few-shot Learning
+## Zero-shot / few-shot learning
+
+- 20181128 arXiv [One Shot Domain Adaptation for Person Re-Identification](https://arxiv.org/abs/1811.10144)
+	-  One shot learning for REID
+	- One shot for再识别
 
 - 20210426 [Few-shot Continual Learning: a Brain-inspired Approach](http://arxiv.org/abs/2104.09034)
     - Few-shot continual learning
@@ -991,9 +1435,6 @@ Including domain adaptation and partial domain adaptation.
 - 20171216 arXiv [Zero-Shot Deep Domain Adaptation](https://arxiv.org/abs/1707.01922)
     - 当target domain的数据不可用时，如何用相关domain的数据进行辅助学习？
 
-### 1.7.1. Zero-shot Learning based on Data Synthesis (基于样本生成的零样本学习)
-[详细介绍](https://github.com/PatrickZH/Zero-shot-Learning) <br>
-
 - 20191204 arXiv [MetAdapt: Meta-Learned Task-Adaptive Architecture for Few-Shot Classification](https://arxiv.org/abs/1912.00412)
      - Task adaptive structure for few-shot learning
      - 目标自适应的结构用于小样本学习
@@ -1006,8 +1447,7 @@ Including domain adaptation and partial domain adaptation.
     - Zero-shot image recognition
     - 零次学习的图像识别
 
-- 20190301 NeurIPS-18 workshp [One-Shot Federated Learning](https://arxiv.org/abs/1902.11175)
-    - One-shot federated learning
+
 
 - 20171022 ICCVW-17 [Zero-shot learning posed as a missing data problem](http://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w38/Zhao_Zero-Shot_Learning_Posed_ICCV_2017_paper.pdf)
     - 算法首先学习 semantic embeddings 的结构性知识，利用学习到的知识和已知类的 image features 合成未知类的 image features。再利用无标记的未知类数据对合成数据进行修正。 算法假设未知类数据呈混合高斯分布，用 GMM-EM 算法进行无监督修正。
@@ -1023,476 +1463,16 @@ Including domain adaptation and partial domain adaptation.
 
 - - -
 
-## 1.8. Deep Transfer Learning (深度迁移学习)
 
-### 1.8.1. Non-Adversarial Transfer Learning (非对抗深度迁移)
+## Multi-task learning
 
-- 20210420 arXiv [On Universal Black-Box Domain Adaptation](https://arxiv.org/abs/2104.04665)
-    - Universal black-box domain adaptation
-    - 黑盒情况下的universal domain adaptation
-
-- 20210319 [Learning Invariant Representations across Domains and Tasks](https://arxiv.org/abs/2103.05114)
-    - Automatically learn to match distributions
-    - 自动适配分布的任务适配网络
-
-- 20191222 arXiv [Dreaming to Distill: Data-free Knowledge Transfer via DeepInversion](https://arxiv.org/abs/1912.08795)
-   - Generate data without priors for transfer learning based on deep dream
-   - 只用网络架构不用原来数据，生成新数据用于迁移
-
-- 20191222 AAAI-20 [Improved Knowledge Distillation via Teacher Assistant](https://arxiv.org/abs/1902.03393)
-    - Teacher assistant helps knowledge distillation
-
-- 20191204 AAAI-20 [Online Knowledge Distillation with Diverse Peers](https://arxiv.org/abs/1912.00350)
-    - Online Knowledge Distillation with Diverse Peers
-- 20191201 arXiv [A Unified Framework for Lifelong Learning in Deep Neural Networks](https://arxiv.org/abs/1911.09704)
-     - A unified framework for life-long learing in DNN
-
-- 20191201 arXiv [ReMixMatch: Semi-Supervised Learning with Distribution Alignment and Augmentation Anchoring](https://arxiv.org/abs/1911.09785)
-     - Semi-Supervised Learning with Distribution Alignment and Augmentation Anchoring
-
-- 20191119 ICDM-19 [Towards Making Deep Transfer Learning Never Hurt](https://arxiv.org/abs/1911.07489)
-  	- Towards making deep transfer learning never hurt
-  	- 通过正则避免负迁移
-
-- 20191119 NIPS-19 workshop [Collaborative Unsupervised Domain Adaptation for Medical Image Diagnosis](https://arxiv.org/abs/1911.07293)
-  	- Ensemble DA using noise labels
-  	- 在ensemble中出现noise label时如何处理
-
-- 20191119 NIPS-19 [Transferable Normalization: Towards Improving Transferability of Deep Neural Networks](http://scholar.google.com/scholar_url?url=https://papers.nips.cc/paper/8470-transferable-normalization-towards-improving-transferability-of-deep-neural-networks.pdf&hl=en&sa=X&d=9221290800687054760&scisig=AAGBfm0aM7wBD0WhQjvvfe_vxKxIF8STLw&nossl=1&oi=scholaralrt&hist=hBZ_tKsAAAAJ:17338659929613568812:AAGBfm3MBWiQSh14vpyLyxgl0RCrplQyWg)
-  	- Transfer normalization
-
-- 20191029 KBS [Semi-supervised representation learning via dual autoencoders for domain adaptation](https://arxiv.org/abs/1908.01342)
-  	- Semi-supervised domain adaptation with autoencoders
-  	- 用自动编码器进行半监督的DA
-
-- 20190929 NeurIPS-19 [Deep Model Transferability from Attribution Maps](https://arxiv.org/abs/1909.11902)
-  	- Using attribution map for network similarity
-  	- 与cvpr18的taskmony类似，这次用了属性图的方式探索网络的相似性
-
-- 20190926 arXiv [Learning a Domain-Invariant Embedding for Unsupervised Domain Adaptation Using Class-Conditioned Distribution Alignment](https://arxiv.org/abs/1907.02271)
-  	- Use class-conditional DA for domain adaptation
-  	- 使用类条件对齐进行domain adaptation
-
-- 20190926 arXiv [A Deep Learning-Based Approach for Measuring the Domain Similarity of Persian Texts](https://arxiv.org/abs/1909.09690)
-  	- Deep learning based domain similarity learning
-  	- 利用深度学习进行领域相似度的学习
-
-- 20190926 arXiv [Transfer Learning across Languages from Someone Else's NMT Model](https://arxiv.org/abs/1909.10955)
-  	- Transfer learning across languages from NMT pretrained model
-  	- 利用预训练好的NMT模型进行迁移学习
-
-- 20190926 arXiv [FEED: Feature-level Ensemble for Knowledge Distillation](https://arxiv.org/abs/1909.10754)
-  	- Feature-level knowledge distillation
-  	- 特征层面的知识蒸馏
-
-- 20190926 ICCV-19 [Self-similarity Grouping: A Simple Unsupervised Cross Domain Adaptation Approach for Person Re-identification](https://arxiv.org/abs/1811.10144)
-  	- A simple approach for domain adaptation
-  	- 一个很简单的DA方法
-
-- 20190910 BMVC-19 [Curriculum based Dropout Discriminator for Domain Adaptation](https://arxiv.org/abs/1907.10628)
-  	- Curriculum dropout for domain adaptation
-  	- 基于课程学习的dropout用于DA
-
-- 20190909 IJCAI-FML-19 [FedHealth: A Federated Transfer Learning Framework for Wearable Healthcare](http://jd92.wang/assets/files/a15_ijcai19.pdf)
-  	- The first work on federated transfer learning for wearable healthcare
-  	- 第一个将联邦迁移学习用于可穿戴健康监护的工作
-
-- 20190909 PAMI [Inferring Latent Domains for Unsupervised Deep Domain Adaptation](https://ieeexplore.ieee.org/abstract/document/8792192)
-  	- Inferring latent domains for unsupervised deep domain
-  	- 在深度迁移学习中推断隐含领域
-
-- 20190729 ICCV workshop [Multi-level Domain Adaptive learning for Cross-Domain Detection](https://arxiv.org/abs/1907.11484)
-  	- Multi-level domain adaptation for cross-domain Detection
-  	- 多层次的domain adaptation
-
-- 20190626 IJCAI-19 [Bayesian Uncertainty Matching for Unsupervised Domain Adaptation](https://arxiv.org/abs/1906.09693)
-  	- Bayesian uncertainty matching for da
-  	- 贝叶斯网络用于da
-
-- 20190419 CVPR-19 [DDLSTM: Dual-Domain LSTM for Cross-Dataset Action Recognition](https://arxiv.org/abs/1904.08634)
-  	- Dual-Domain LSTM for Cross-Dataset Action Recognition
-  	- 跨数据集的动作识别
-
-- 20190109 InfSc [Robust Unsupervised Domain Adaptation for Neural Networks via Moment Alignment](https://doi.org/10.1016/j.ins.2019.01.025)
-    - Extension of Central Moment Discrepancy (ICLR-17) approach
-
-- 20181212 ICONIP-18 [Domain Adaptation via Identical Distribution Across Models and Tasks](https://link.springer.com/chapter/10.1007/978-3-030-04167-0_21)
-    -  Transfer from large net to small net
-    - 从大网络迁移到小网络
-
-- 20181212 AIKP [Deep Domain Adaptation](https://link.springer.com/chapter/10.1007/978-3-030-00734-8_9)
-    -  Low-rank + deep nn for domain adaptation
-    - Low-rank用于深度迁移
-
-- 20181211 arXiv [Deep Variational Transfer: Transfer Learning through Semi-supervised Deep Generative Models](https://arxiv.org/abs/1812.03123)
-    -  Transfer learning with deep generative model
-    - 通过深度生成模型进行迁移学习
-
-- 20181207 arXiv [Feature Matters: A Stage-by-Stage Approach for Knowledge Transfer](https://arxiv.org/abs/1812.01819)
-	-  Feature transfer in student-teacher networks
-	- 在学生-教师网络中进行特征迁移
-
-- 20181128 arXiv [Low-resolution Face Recognition in the Wild via Selective Knowledge Distillation](https://arxiv.org/abs/1811.09998)
-	-  Knowledge distilation for low-resolution face recognition
-	- 将知识蒸馏应用于低分辨率的人脸识别
-
-- 20181128 arXiv [One Shot Domain Adaptation for Person Re-Identification](https://arxiv.org/abs/1811.10144)
-	-  One shot learning for REID
-	- One shot for再识别
-
-- 20181123 arXiv [SpotTune: Transfer Learning through Adaptive Fine-tuning](https://arxiv.org/abs/1811.08737)
-	-  Very interesting work: how exactly determine the finetune process?
-	- 很有意思的工作：如何决定finetune的策略？
-
-- 20181121 arXiv [Integrating domain knowledge: using hierarchies to improve deep classifiers](https://arxiv.org/abs/1811.07125)
-    -  Using hierarchies to help deep learning
-    - 借助于层次关系来帮助深度网络进行学习
-
-- 20181117 arXiv [AdapterNet - learning input transformation for domain adaptation](https://arxiv.org/abs/1805.11601)
-	-  Learning input transformation for domain adaptation
-	- 对domain adaptation任务学习输入的自适应
-
-- 20181115 AAAI-19 [Exploiting Local Feature Patterns for Unsupervised Domain Adaptation](https://arxiv.org/abs/1811.05042)
-	-  Local domain alignment for domain adaptation
-	- 局部领域自适应
-
-- 20181115 NIPS-18 [Co-regularized Alignment for Unsupervised Domain Adaptation](https://arxiv.org/abs/1811.05443)
-	-  The idea is the same with the above one...
-	- 仍然是局部对齐。。。
-
-- 20181113 NIPS-18 [Generalized Zero-Shot Learning with Deep Calibration Network](http://ise.thss.tsinghua.edu.cn/~mlong/doc/deep-calibration-network-nips18.pdf)
-	-  Deep calibration network for zero-shot learning
-	- 提出deep calibration network进行zero-shot learning
-
-- 20181110 AAAI-19 [Knowledge Transfer via Distillation of Activation Boundaries Formed by Hidden Neurons](https://arxiv.org/abs/1811.03233)
-	-  Transfer learning for bounding neuron activation boundaries
-	- 使用迁移学习进行神经元激活边界判定
-
-- 20181109 PAMI-18 [Transferable Representation Learning with Deep Adaptation Networks](https://ieeexplore.ieee.org/abstract/document/8454781/authors#authors)
-	-  Journal version of DAN paper
-	- DAN的Journal版本
-
-- 20181108 arXiv [Deep feature transfer between localization and segmentation tasks](https://arxiv.org/abs/1811.02539)
-	-  Feature transfer between localization and segmentation
-	- 在定位与分割任务间进行迁移
-
-- 20181107 BigData-18 [Transfer learning for time series classification](https://arxiv.org/abs/1811.01533)
-	-  First work on deep transfer learning for time series classification
-	- 第一个将深度迁移学习用于时间序列分类
-
-- 20181106 PRCV-18 [Deep Local Descriptors with Domain Adaptation](https://link.springer.com/chapter/10.1007/978-3-030-03335-4_30)
-	-  Adding MMD layers to conv and fc layers
-	- 在卷积和全连接层都加入MMD
-
-- 20181106 LNCS-18 [LSTN: Latent Subspace Transfer Network for Unsupervised Domain Adaptation](https://link.springer.com/chapter/10.1007/978-3-030-03335-4_24)
-	-  Combine subspace learning and neural network for DA
-	- 将子空间表示和深度网络结合起来用于DA
-
-
-
-- 20181105 SIGGRAPI-18 [Unsupervised representation learning using convolutional and stacked auto-encoders: a domain and cross-domain feature space analysis](https://arxiv.org/abs/1811.00473)
-	-  Representation learning for cross-domains
-	- 跨领域的特征学习
-
-- 20181105 arXiv [Progressive Memory Banks for Incremental Domain Adaptation](https://arxiv.org/abs/1811.00239)
-	-  Progressive memory bank in RNN for incremental DA
-	- 针对增量的domain adaptation，进行记忆单元的RNN学习
-
-- 20180909 arXiv [A Survey on Deep Transfer Learning](https://arxiv.org/abs/1808.01974)
-	-  A survey on deep transfer learning
-	- 深度迁移学习的survey
-
-- 20180901 arXiv [Joint Domain Alignment and Discriminative Feature Learning for Unsupervised Deep Domain Adaptation](https://arxiv.org/abs/1808.09347)
-	-  deep domain adaptation + intra-class / inter-class distance
-	- 深度domain adaptation再加上类内类间距离学习
-
-- 20180819 arXiv [Conceptual Domain Adaptation Using Deep Learning](https://arxiv.org/abs/1808.05355)
-	-  A search framework for deep transfer learning
-	- 提出一个可以搜索的framework进行迁移学习
-
-- 20180731 ECCV-18 [DeepJDOT: Deep Joint Distribution Optimal Transport for Unsupervised Domain Adaptation](https://arxiv.org/abs/1803.10081)
-	-  Deep + Joint distribution adaptation + optimal transport
-	- 深度 + 联合分布适配 + optimal transport
-	
-- 20180731 ICLR-18 [Few Shot Learning with Simplex](https://arxiv.org/abs/1807.10726)
-	-  Represent deep learning using the simplex
-	- 用单纯性表征深度学习
-
-- 20180724 AIAI-18 [Improving Deep Models of Person Re-identification for Cross-Dataset Usage](https://arxiv.org/abs/1807.08526)
-	-  apply deep models to cross-dataset RE-ID
-	- 将深度迁移学习应用于跨数据集的Re-ID
-
-- 20180724 ECCV-18 [Zero-Shot Deep Domain Adaptation](https://arxiv.org/abs/1707.01922)
-	-  Perform zero-shot domain adaptation when there is no target domain data available 
-	- 当目标领域的数据不可用时如何进行domain adaptation :
-
-- 20180724 ICCSE-18 [Deep Transfer Learning for Cross-domain Activity Recognition](https://arxiv.org/abs/1807.07963)
-	-  Provide source domain selection and activity recognition for cross-domain activity recognition
-	- 提出了跨领域行为识别中的深度方法模型，以及相关的领域选择方法
-
-- 20180530 arXiv 用于深度网络的鲁棒性domain adaptation方法：[Robust Unsupervised Domain Adaptation for Neural Networks via Moment Alignment](https://arxiv.org/abs/1711.06114)
-
-- 20180522 arXiv 用CNN进行跨领域的属性学习：[Cross-domain attribute representation based on convolutional neural network](https://arxiv.org/abs/1805.07295)
-
-- 20180428 CVPR-18 相互协同学习：[Deep Mutual Learning](https://github.com/YingZhangDUT/Deep-Mutual-Learning)
-
-- 20180428 ICLR-18 自集成学习用于domain adaptation：[Self-ensembling for visual domain adaptation](https://github.com/Britefury/self-ensemble-visual-domain-adapt)
-
-- 20180428 IJCAI-18 将knowledge distilation用于transfer learning，然后进行视频分类：[Better and Faster: Knowledge Transfer from Multiple Self-supervised Learning Tasks via Graph Distillation for Video Classification](https://arxiv.org/abs/1804.10069)
-
-- 20180426 arXiv 深度学习中的参数如何进行迁移？（杨强团队）：[Parameter Transfer Unit for Deep Neural Networks](https://arxiv.org/abs/1804.08613)
-
-- 20180425 CVPR-18(oral) 对不同的视觉任务进行建模，从而可以进行深层次的transfer：[Taskonomy: Disentangling Task Transfer Learning](https://arxiv.org/abs/1804.08328)
-
-- 20180410 ICLR-17 第一篇用可变RNN进行多维时间序列迁移的文章：[Variational Recurrent Adversarial Deep Domain Adaptation](https://openreview.net/forum?id=rk9eAFcxg&noteId=SJN7BGyPl)
-
-- 20180403 arXiv 本地和云端CNN迁移融合的图片分类：[Hierarchical Transfer Convolutional Neural Networks for Image Classification](https://arxiv.org/abs/1804.00021)
-
-- 20180402 CVPR-18 渐进式domain adaptation：[Cross-Domain Weakly-Supervised Object Detection through Progressive Domain Adaptation](https://arxiv.org/abs/1803.11365)
-
-- 20180329 arXiv 基于attention机制的多任务学习：[End-to-End Multi-Task Learning with Attention](https://arxiv.org/abs/1803.10704)
-
-- 20180326 arXiv 将迁移学习用于Faster R-CNN对象识别中：[Domain Adaptive Faster R-CNN for Object Detection in the Wild](https://arxiv.org/abs/1803.03243)
-
-- 20180326 Pattern Recognition-17 多标签迁移学习方法应用于脸部属性分类：[Multi-label Learning Based Deep Transfer Neural Network for Facial Attribute Classification](https://www.sciencedirect.com/science/article/pii/S0031320318301080)
-
-- 20180326 类似于ResNet的思想，在传统layer的ReLU之前加一个additive layer进行domain adaptation，思想简洁，效果非常好：[Layer-wise domain correction for unsupervised domain adaptation](https://link.springer.com/article/10.1631/FITEE.1700774)
-
-- 20180326 Pattern Recognition-17 基于Batch normalization提出了AdaBN，很简单：[Adaptive Batch Normalization for practical domain adaptation](http://ieeexplore.ieee.org/abstract/document/8168121/)
-
-- 20180309 arXiv 利用已有网络的先验知识来加速目标网络的训练：[Transfer Automatic Machine Learning](https://arxiv.org/abs/1803.02780)
-
-- 2018 ICLR-18 最小熵领域对齐方法 [Minimal-Entropy Correlation Alignment for Unsupervised Deep Domain Adaptation](https://openreview.net/forum?id=rJWechg0Z) [code](https://github.com/pmorerio/minimal-entropy-correlation-alignment/tree/master/svhn2mnist)
-
-- 2018 arXiv 最新发表在arXiv上的深度domain adaptation的综述：[Deep Visual Domain Adaptation: A Survey](https://arxiv.org/abs/1802.03601)
-
-- ICLR-17 [Central Moment Discrepancy (CMD) for Domain-Invariant Representation Learning](https://openreview.net/pdf?id=SkB-_mcel)
-
-- ICCV-17 [AutoDIAL: Automatic DomaIn Alignment Layers](https://arxiv.org/pdf/1704.08082.pdf)
-
-- ICCV-17 [CCSA: Unified Deep Supervised Domain Adaptation and Generalization](http://vision.csee.wvu.edu/~motiian/papers/CCSA.pdf)
-
-- ICML-17 [JAN: Deep Transfer Learning with Joint Adaptation Networks](http://ise.thss.tsinghua.edu.cn/~mlong/doc/joint-adaptation-networks-icml17.pdf)
-
-- 2017 Google: [Learning Transferable Architectures for Scalable Image Recognition](https://arxiv.org/abs/1707.07012)
-
-- NIPS-16 [RTN: Unsupervised Domain Adaptation with Residual Transfer Networks](http://ise.thss.tsinghua.edu.cn/~mlong/doc/residual-transfer-network-nips16.pdf)
-
-- CoRR abs/1603.04779 (2016) [AdaBN: Revisiting batch normalization for practical domain adaptation](https://arxiv.org/pdf/1603.04779.pdf)
-
-- JMLR-16 [DANN: Domain-adversarial training of neural networks](http://www.jmlr.org/papers/volume17/15-239/15-239.pdf)
-
-- 20171226 NIPS 2016 把传统工作搬到深度网络中的范例：不是只学习domain之间的共同feature，还学习每个domain specific的feature。这篇文章写得非常清楚，通俗易懂！ [Domain Separation Networks](http://papers.nips.cc/paper/6254-domain-separation-networks) | [代码](https://github.com/tensorflow/models/tree/master/research/domain_adaptation)
-
-- 20171222 ICCV 2017 对于target中只有很少量的标记数据，用深度网络结合孪生网络的思想进行泛化：[Unified Deep Supervised Domain Adaptation and Generalization](http://openaccess.thecvf.com/content_ICCV_2017/papers/Motiian_Unified_Deep_Supervised_ICCV_2017_paper.pdf) | [代码和数据](https://github.com/samotiian/CCSA)
-
-- 20171126 NIPS-17 [Label Efficient Learning of Transferable Representations acrosss Domains and Tasks](http://papers.nips.cc/paper/6621-label-efficient-learning-of-transferable-representations-acrosss-domains-and-tasks)    
-    - 李飞飞小组发在NIPS 2017的文章。针对不同的domain、不同的feature、不同的label space，统一学习一个深度网络进行表征。
-
-- 201711 一个很好的深度学习+迁移学习的实践教程，有代码有数据，可以直接上手：[基于深度学习和迁移学习的识花实践](https://cosx.org/2017/10/transfer-learning/)
-
-- ECCV-16 [Deep CORAL: Correlation Alignment for Deep Domain Adaptation](https://arxiv.org/abs/1607.01719.pdf)
-
-- ECCV-16 [DRCN: Deep Reconstruction-Classification Networks for Unsupervised Domain Adaptation](https://arxiv.org/abs/1607.03516.pdf)
-
-- ICML-15 [DAN: Learning Transferable Features with Deep Adaptation Networks](http://ise.thss.tsinghua.edu.cn/~mlong/doc/deep-adaptation-networks-icml15.pdf)
-
-- ICML-15 [GRL: Unsupervised Domain Adaptation by Backpropagation](http://sites.skoltech.ru/compvision/projects/grl/files/paper.pdf)
-
-- ICCV-15 [Simultaneous Deep Transfer Across Domains and Tasks](https://people.eecs.berkeley.edu/~jhoffman/papers/Tzeng_ICCV2015.pdf)
-
-- NIPS-14 [How transferable are features in deep neural networks?](http://yosinski.com/media/papers/Yosinski__2014__NIPS__How_Transferable_with_Supp.pdf)
-
-- CoRR abs/1412.3474 (2014) [Deep Domain Confusion(DDC): Maximizing for Domain Invariance](http://www.arxiv.org/pdf/1412.3474.pdf)
-
-- ICML-14 著名的DeCAF特征：[DeCAF: A Deep Convolutional Activation Feature for Generic Visual Recognition](https://arxiv.org/abs/1310.1531.pdf)
-
-- [Simultaneous Deep Transfer Across Domains and Tasks](https://www.cv-foundation.org/openaccess/content_iccv_2015/html/Tzeng_Simultaneous_Deep_Transfer_ICCV_2015_paper.html)
-	- 发表在ICCV-15上，在传统深度迁移方法上又加了新东西
-	- [我的解读](https://zhuanlan.zhihu.com/p/30621691)
-
-- 深度适配网络（Deep Adaptation Network, DAN）
-	- 发表在ICML-15上：learning transferable features with deep adaptation networks
-	- [我的解读](https://zhuanlan.zhihu.com/p/27657910)
-
-- [深度联合适配网络](http://proceedings.mlr.press/v70/long17a.html)（Joint Adaptation Network, JAN）
-	- Deep Transfer Learning with Joint Adaptation Networks
-	- 延续了之前的DAN工作，这次考虑联合适配
-- - -
-
-### 1.8.2. Deep Adversarial Transfer Learning (对抗迁移学习)
-
-- 20191214 arXiv [Learning Domain Adaptive Features with Unlabeled Domain Bridges](https://arxiv.org/abs/1912.05004)
-    - Learning domain adaptive features with unlabeled CycleGAN
-
-- 20191214 AAAI-20 [Adversarial Domain Adaptation with Domain Mixup](https://arxiv.org/abs/1912.01805)
-    - Domain adaptation with data mixup
-
-- 20190916 arXiv [Compound Domain Adaptation in an Open World](https://arxiv.org/abs/1909.03403)
-  	- Domain adaptation using the target domain knowledge
-  	- 使用目标域的知识来进行domain adaptation
-
-- 20101008 ICCV-19 [Enhancing Adversarial Example Transferability with an Intermediate Level Attack](https://arxiv.org/abs/1907.10823)
-  	- Enhancing adversarial examples transerability
-  	- 增强对抗样本的可迁移性
-
-- 20190531 arXiv [Adaptive Deep Kernel Learning](https://arxiv.org/abs/1905.12131)
-  	- Adaptive deep kernel learning
-  	- 自适应深度核学习
+- 20190806 KDD-19 [Relation Extraction via Domain-aware Transfer Learning](https://dl.acm.org/citation.cfm?id=3330890)
+    - Relation extraction using transfer learning for knowledge base construction
+    - 利用迁移学习进行关系抽取
 
 - 20190531 arXiv [Multi-task Learning in Deep Gaussian Processes with Multi-kernel Layers](https://arxiv.org/abs/1905.12407)
   	- Multi-task learning in deep Gaussian process
   	- 深度高斯过程中的多任务学习
-
-- 20190531 arXiv [Image Alignment in Unseen Domains via Domain Deep Generalization](https://arxiv.org/abs/1905.12028)
-  	- Deep domain generalization for image alignment
-  	- 深度领域泛化用于图像对齐
-
-- 20190408 arXiv [DeceptionNet: Network-Driven Domain Randomization](https://arxiv.org/abs/1904.02750)
-    - Using only source data for domain randomization
-    - 仅利用源域数据进行domain randomization
-
-- 20190220 arXiv [Fully-Featured Attribute Transfer](https://arxiv.org/abs/1902.06258)
-    - Fully-featured image attribute transfer
-	- 图像特征迁移
-
-- 20190220 arXiv [Unsupervised Domain Adaptation using Deep Networks with Cross-Grafted Stacks](https://arxiv.org/abs/1902.06328)
-    - Domain adaptation using deep learning with cross-grafted stacks
-    - 用跨领域嫁接栈进行domain adaptation
-
-- 20181217 arXiv [DLOW: Domain Flow for Adaptation and Generalization](https://arxiv.org/abs/1812.05418)
-    - Domain flow for adaptation and generalization
-    - 域流方法应用于领域自适应和扩展
-
-- 20181212 arXiv [Learning Transferable Adversarial Examples via Ghost Networks](https://arxiv.org/abs/1812.03413)
-    - Use ghost networks to learn transferrable adversarial examples
-    - 使用ghost网络来学习可迁移的对抗样本
-
-- 20181211 arXiv [Adversarial Transfer Learning](https://arxiv.org/abs/1812.02849)
-    -  A survey on adversarial domain adaptation
-    - 一个关于对抗迁移的综述，特别用在domain adaptation上
-
-- 20181205 arXiv [Unsupervised Domain Adaptation using Generative Models and Self-ensembling](https://arxiv.org/abs/1812.00479)
-	-  UDA using CycleGAN
-	- 基于CycleGAN的domain adaptation
-
-- 20181205 arXiv [VADRA: Visual Adversarial Domain Randomization and Augmentation](https://arxiv.org/abs/1812.00491)
-	-  Domain randomization and augmentation
-	- Domain randomization和增强
-
-- 20181130 arXiv [Identity Preserving Generative Adversarial Network for Cross-Domain Person Re-identification](https://arxiv.org/abs/1811.11510)
-	-  Cross-domain reID
-	- 跨领域的行人再识别
-
-- 20181129 AAAI-19 [Exploiting Coarse-to-Fine Task Transfer for Aspect-level Sentiment Classification](https://arxiv.org/abs/1811.10999)
-	-  Aspect-level sentiment classification
-	- 迁移学习用于情感分类
-
-- 20181128 arXiv [Geometry-Consistent Generative Adversarial Networks for One-Sided Unsupervised Domain Mapping](https://arxiv.org/abs/1809.05852)
-	-  CycleGAN for domain adaptation
-	- CycleGAN用于domain adaptation
-
-- 20181127 arXiv [Distorting Neural Representations to Generate Highly Transferable Adversarial Examples](https://arxiv.org/abs/1811.09020)
-	-  Generate transferrable examples to fool networks
-	- 生成一些可迁移的对抗样本来迷惑神经网络，在各个网络上都表现好
-
-- 20181123 arXiv [Progressive Feature Alignment for Unsupervised Domain Adaptation](https://arxiv.org/abs/1811.08585)
-		-  Progressively selecting confident pseudo labeled samples for transfer
-		- 渐进式选择置信度高的伪标记进行迁移
-
-- 20181113 NIPS-18 [Conditional Adversarial Domain Adaptation](http://ise.thss.tsinghua.edu.cn/~mlong/doc/conditional-adversarial-domain-adaptation-nips18.pdf)
-	-  Using conditional GAN for domain adaptation
-	- 用conditional GAN进行domain adaptation
-
-- 20181107 NIPS-18 [Invariant Representations without Adversarial Training](https://arxiv.org/abs/1805.09458)
-	-  Get invariant representations without adversarial training
-	- 不进行对抗训练获得不变特征表达
-
-- 20181105 arXiv [Efficient Multi-Domain Dictionary Learning with GANs](https://arxiv.org/abs/1811.00274)
-	-  Dictionary learning for multi-domains using GAN
-	- 用GAN进行多个domain的字典学习
-
-- 20181012 arXiv [Domain Confusion with Self Ensembling for Unsupervised Adaptation](https://arxiv.org/abs/1810.04472)
-	-  Domain confusion and self-ensembling for DA
-	- 用于Domain adaptation的confusion和self-ensembling方法
-
-- 20180912 arXiv [Improving Adversarial Discriminative Domain Adaptation](https://arxiv.org/abs/1809.03625)
-	-  Improve ADDA using source domain labels
-	- 提高ADDA方法的精度，使用source domain的label
-
-- 20180731 ECCV-18 [Dist-GAN: An Improved GAN using Distance Constraints](https://arxiv.org/abs/1803.08887)
-	-  Embed an autoencoder in GAN to improve its stability in training and propose two distances
-	- 将autoencoder集成到GAN中，提出相应的两种距离进行度量，提高了GAN的稳定性
-	- Code: [Tensorflow](https://github.com/tntrung/gan)
-
-- 20180724 arXiv [Generalization Bounds for Unsupervised Cross-Domain Mapping with WGANs](https://arxiv.org/abs/1807.08501)
-	-  Provide a generalization bound for unsupervised WGAN in transfer learning
-	- 对迁移学习中无监督的WGAN进行了一些理论上的分析
-
-- 20180724 ECCV-18 [Unsupervised Image-to-Image Translation with Stacked Cycle-Consistent Adversarial Networks](https://arxiv.org/abs/1807.08536)
-	-  Using stacked CycleGAN to perform image-to-image translation
-	- 用stacked cycleGAN进行image-to-image的翻译
-
-- 20180628 ICML-18 Pixel-level和feature-level的domain adaptation：[CyCADA: Cycle-Consistent Adversarial Domain Adaptation](https://arxiv.org/abs/1711.03213)
-
-- 20180619 CVPR-18 将optimal transport加入adversarial中进行domain adaptation：[Re-weighted Adversarial Adaptation Network for Unsupervised Domain Adaptation](http://openaccess.thecvf.com/content_cvpr_2018/CameraReady/1224.pdf)
-
-- 20180616 CVPR-18 用GAN进行domain adaptation：[Generate To Adapt: Aligning Domains using Generative Adversarial Networks](https://arxiv.org/abs/1704.01705)
-
-- 20180612 ICML-18 利用多个数据集辅助，从而提高目标领域的学习能力：[RadialGAN: Leveraging multiple datasets to improve target-specific predictive models using Generative Adversarial Networks](https://arxiv.org/abs/1802.06403)
-
-- 20180612 ICML-18 利用GAN进行多个domain的联合分布优化：[JointGAN: Multi-Domain Joint Distribution Learning with Generative Adversarial Nets](https://arxiv.org/abs/1806.02978)
-
-- 20180605 arXiv [NAM: Non-Adversarial Unsupervised Domain Mapping](https://arxiv.org/abs/1806.00804)
-
-- 20180508 arXiv 利用GAN，从有限数据中生成另一个domain的数据：[Transferring GANs: generating images from limited data](https://arxiv.org/abs/1805.01677)
-
-- 20180501 arXiv Open set domain adaptation的对抗网络版本：[Open Set Domain Adaptation by Backpropagation](https://arxiv.org/abs/1804.10427)
-
-- 20180427 arXiv 提出了adversarial residual的概念，进行深度对抗迁移：[Unsupervised Domain Adaptation with Adversarial Residual Transform Networks](https://arxiv.org/abs/1804.09578)
-
-- 20180424 CVPR-18 用GAN和迁移学习进行图像增强：[Adversarial Feature Augmentation for Unsupervised Domain Adaptation](https://arxiv.org/pdf/1711.08561.pdf)
-
-- 20180413 arXiv 一种思想非常简单的深度迁移方法，仅考虑进行domain之间的类别概率矫正就能取得非常好的效果：[Simple Domain Adaptation with Class Prediction Uncertainty Alignment](https://arxiv.org/abs/1804.04448)
-
-- 20180413 arXiv Mingming Gong提出的用因果生成网络进行深度迁移：[Causal Generative Domain Adaptation Networks](https://arxiv.org/abs/1804.04333)
-
-- 20180410 CVPR-18(oral) 用两个分类器进行对抗迁移：[Maximum Classifier Discrepancy for Unsupervised Domain Adaptation](https://arxiv.org/abs/1712.02560) [代码](https://github.com/mil-tokyo/MCD_DA)
-
-- 20180403 CVPR-18 将样本权重应用于对抗partial transfer中：[Importance Weighted Adversarial Nets for Partial Domain Adaptation](https://arxiv.org/abs/1803.09210)
-
-- 20180326 MLSP-17 把domain separation network和对抗结合起来，提出了一个对抗网络进行迁移学习：[Adversarial domain separation and adaptation](http://ieeexplore.ieee.org/abstract/document/8168121/)
-
-- 20180326 ICIP-17 类似于domain separation network，加入了对抗判别训练，同时优化分类、判别、相似度三个loss：[Semi-supervised domain adaptation via convolutional neural network](http://ieeexplore.ieee.org/abstract/document/8296801/)
-
-- 20180312 arXiv 来自Google Brain团队的[Wasserstein Auto-Encoders](https://arxiv.org/abs/1711.01558) [代码](https://arxiv.org/abs/1711.01558)
-
-- 20180226 CVPR-18 当源域的类别大于目标域的类别时，如何进行迁移学习？[Partial Transfer Learning with Selective Adversarial Networks](https://arxiv.org/abs/1707.07901)
-
-- 20180116 ICLR-18 用对偶的形式替代对抗训练中原始问题的表达，从而进行分布对齐 [Stable Distribution Alignment using the Dual of the Adversarial Distance](https://arxiv.org/abs/1707.04046)
-
-- 20180111 arXiv 在GAN中用原始问题的对偶问题替换max问题，使得梯度更好收敛 [Stable Distribution Alignment Using the Dual of the Adversarial Distance](https://arxiv.org/abs/1707.04046)
-
-- 20180110 AAAI-18 将Wasserstein GAN用到domain adaptaiton中 [Wasserstein Distance Guided Representation Learning for Domain Adaptation](https://arxiv.org/abs/1707.01217)
-
-- 20171218 arXiv [Partial Transfer Learning with Selective Adversarial Networks](https://arxiv.org/abs/1707.07901)
-    - 假设target domain中的class是包含在source domain中，然后进行选择性的对抗学习
-
-- 201707 发表在CVPR-17上，目前最好的对抗迁移学习文章：[Adversarial Representation Learning For Domain Adaptation](https://arxiv.org/abs/1707.01217)
-
-- AAAI-18 [Multi-Adversarial Domain Adaptation](http://ise.thss.tsinghua.edu.cn/~mlong/doc/multi-adversarial-domain-adaptation-aaai18.pdf)
-
-- ICCV-17 [CycleGAN: Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks](https://arxiv.org/pdf/1703.10593.pdf)
-
-- ICCV-17 [DualGAN: DualGAN: Unsupervised Dual Learning for Image-to-Image Translation](https://arxiv.org/pdf/1704.02510.pdf)
-
-- CVPR-17 [Asymmetric Tri-training for Unsupervised Domain Adaptation](https://arxiv.org/abs/1702.08400.pdf)
-
-- ICML-17 [DiscoGAN: Learning to Discover Cross-Domain Relations with Generative Adversarial Networks](https://arxiv.org/abs/1703.05192)
-
-- - -
-
-## 1.9. Multi-task Learning (多任务学习)
 
 - 20200927 [Knowledge Distillation for Multi-task Learning](https://arxiv.org/abs/2007.06889)
     - 针对多任务学习的知识蒸馏
@@ -1561,7 +1541,7 @@ Including domain adaptation and partial domain adaptation.
 	- 评估多任务学习对于表型的作用
 
 - 20180828 arXiv [Self-Paced Multi-Task Clustering](https://arxiv.org/abs/1808.08068)
-	-  Multi-task clustering
+	- Multi-task clustering
 	- 多任务聚类
 
 - 20180622 arXiv 探索了多任务迁移学习中的不确定性：[Uncertainty in Multitask Transfer Learning](https://arxiv.org/abs/1806.07528)
@@ -1570,7 +1550,7 @@ Including domain adaptation and partial domain adaptation.
 
 - - -
 
-## 1.10. Transfer Reinforcement Learning (强化迁移学习)
+## Transfer reinforcement learning
 
 - 20191214 arXiv [Does Knowledge Transfer Always Help to Learn a Better Policy?](https://arxiv.org/abs/1912.02986)
     - Transfer learning in reinforcement learning
@@ -1595,7 +1575,7 @@ Including domain adaptation and partial domain adaptation.
     - 迁移学习用于机器人的强化学习目标搜寻
 
 - 20181212 NeurIPS-18 workshop [Efficient transfer learning and online adaptation with latent variable models for continuous control](https://arxiv.org/abs/1812.03399)
-    -  Reinforcement transfer learning with latent models
+    - Reinforcement transfer learning with latent models
     - 隐变量模型用于迁移强化学习的控制
 
 - 20181128 arXiv [Hardware Conditioned Policies for Multi-Robot Transfer Learning](https://arxiv.org/abs/1811.09864)
@@ -1630,7 +1610,7 @@ Including domain adaptation and partial domain adaptation.
 
 - - -
 
-## 1.11. Transfer Metric Learning (迁移度量学习)
+## Transfer metric learning
 
 - 20190515 TNNLS-19 [A Distributed Approach towards Discriminative Distance Metric Learning](https://arxiv.org/abs/1905.05177)
   	- Discriminative distance metric learning
@@ -1664,23 +1644,44 @@ Including domain adaptation and partial domain adaptation.
 
 - 20180605 CVPR-15 深度度量迁移学习：[Deep metric transfer learning](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Hu_Deep_Transfer_Metric_2015_CVPR_paper.pdf)
 
-- 20180425 arXiv 探索各个层对于迁移任务的作用，方便以后的迁移。比较有意思：[CactusNets: Layer Applicability as a Metric for Transfer Learning](https://arxiv.org/abs/1804.07846)
-
 - - -
 
-## 1.12. Transitive Transfer Learning (传递迁移学习)
+## Federated transfer learning
 
-- 传递迁移学习的第一篇文章，来自杨强团队，发表在KDD-15上：[Transitive Transfer Learning](http://dl.acm.org/citation.cfm?id=2783295)
+- 20190909 IJCAI-FML-19 [FedHealth: A Federated Transfer Learning Framework for Wearable Healthcare](http://jd92.wang/assets/files/a15_ijcai19.pdf)
+  	- The first work on federated transfer learning for wearable healthcare
+  	- 第一个将联邦迁移学习用于可穿戴健康监护的工作
 
-- AAAI-17 杨强团队最新的传递迁移学习：[Distant Domain Transfer Learning](http://www3.ntu.edu.sg/home/sinnopan/publications/[AAAI17]Distant%20Domain%20Transfer%20Learning.pdf)
+- 20180605 arXiv 解决federated learning中的数据不同分布的问题：[Federated Learning with Non-IID Data](https://arxiv.org/abs/1806.00582)
 
-- 20180819 LNCS-2018 [Distant Domain Adaptation for Text Classification](https://link.springer.com/chapter/10.1007/978-3-319-99365-2_5)
-	-  Propose a selected algorithm for distant domain text classification
-	- 提出一个用于远域的文本分类方法
+- 20190301 NeurIPS-18 workshp [One-Shot Federated Learning](https://arxiv.org/abs/1902.11175)
+    - One-shot federated learning
 
-- - -
+- - - 
 
-## 1.13. Lifelong Learning (终身迁移学习)
+## Lifelong transfer learning
+
+- 20101008 arXiv [Concept-drifting Data Streams are Time Series; The Case for Continuous Adaptation](https://arxiv.org/abs/1810.02266)
+	- Continuous adaptation for time series data
+	- 对时间序列进行连续adaptation
+
+- 20191011 arXiv [Learning to Remember from a Multi-Task Teacher](https://arxiv.org/abs/1910.04650)
+  	- Dealing with the catastrophic forgetting during sequential learning
+  	- 在序列学习时处理灾难遗忘
+
+- 20191029 [Adversarial Feature Alignment: Avoid Catastrophic Forgetting in Incremental Task Lifelong Learning](https://arxiv.org/abs/1910.10986)
+  	- Avoid catastrophic forgeeting in incremental task lifelong learning
+  	- 在终身学习中避免灾难遗忘
+
+- 20200706 [ICML-20] [Continuously Indexed Domain Adaptation](https://arxiv.org/abs/2007.01807)
+
+- 20210716 TPAMI-21 [Lifelong Teacher-Student Network Learning](https://arxiv.org/abs/2107.04689)
+  - Lifelong distillation
+  - 持续的知识蒸馏
+
+- 20210716 ICML-21 [Continual Learning in the Teacher-Student Setup: Impact of Task Similarity](https://arxiv.org/abs/2107.04384)
+    - Investigating task similarity in teacher-student learning
+    - 调研在continual learning下teacher-student learning问题的任务相似度
 
 - 20190912 NeurIPS-19 [Meta-Learning with Implicit Gradients](https://arxiv.org/abs/1909.04630)
   - Meta-learning with implicit gradients
@@ -1692,30 +1693,6 @@ Including domain adaptation and partial domain adaptation.
 
 - - -
 
-## 1.14. Negative Transfer (负迁移)
-
-- 20181128 arXiv [Characterizing and Avoiding Negative Transfer](https://arxiv.org/abs/1811.09751)
-	-  Analyzing and formalizing negative transfer, then propose a new method
-	- 分析并形式化负迁移，进而提出自己的方法
-
-- - -
-
-## Domain generalization (领域泛化)
-
-- 20210706 CVPR-21 [Progressive Domain Expansion Network for Single Domain Generalization](https://openaccess.thecvf.com/content/CVPR2021/html/Li_Progressive_Domain_Expansion_Network_for_Single_Domain_Generalization_CVPR_2021_paper.html)
-    - Progressive domain expansion network for DG
-    - 动态生成多个domain然后做DG
-
-- 20210706 CVPR-21 [FSDR: Frequency Space Domain Randomization for Domain Generalization](https://openaccess.thecvf.com/content/CVPR2021/html/Huang_FSDR_Frequency_Space_Domain_Randomization_for_Domain_Generalization_CVPR_2021_paper.html)
-    - Domain generalization from frequency space
-    - 在频率空间进行领域泛化
-
-- 2021 Domain generalization: IJCAI-21 [Generalizing to Unseen Domains: A Survey on Domain Generalization](https://arxiv.org/abs/2103.03097) | [知乎文章](https://zhuanlan.zhihu.com/p/354740610) | [微信公众号](https://mp.weixin.qq.com/s/DsoVDYqLB1N7gj9X5UnYqw)
-    - First survey on domain generalization
-    - 第一篇对Domain generalization (领域泛化)的综述
-
-- - -
-
-## 1.15. Transfer Learning Applications (应用)
+## Transfer learning applications
 
 See [HERE](https://github.com/jindongwang/transferlearning/blob/master/doc/transfer_learning_application.md) for a full list of transfer learning applications.
