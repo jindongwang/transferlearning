@@ -63,6 +63,19 @@ author = {Wang, Jindong and others}
 - **Latest papers**:
 
 <details>
+  <summary>Latest papers (2021-07-30)</summary>
+
+  - CVPR-21 [Efficient Conditional GAN Transfer With Knowledge Propagation Across Classes](https://openaccess.thecvf.com/content/CVPR2021/html/Shahbazi_Efficient_Conditional_GAN_Transfer_With_Knowledge_Propagation_Across_Classes_CVPR_2021_paper.html)
+    - Transfer conditional GANs to unseen classes
+    - 通过知识传递，迁移预训练的conditional GAN到新类别
+
+  - CVPR-21 [Ego-Exo: Transferring Visual Representations From Third-Person to First-Person Videos](https://openaccess.thecvf.com/content/CVPR2021/html/Li_Ego-Exo_Transferring_Visual_Representations_From_Third-Person_to_First-Person_Videos_CVPR_2021_paper.html)
+    - Transfer learning from third-person to first-person video
+    - 从第三人称视频迁移到第一人称
+
+</details>
+
+<details>
   <summary>Latest papers (2021-07-28)</summary>
 
   - [Toward Co-creative Dungeon Generation via Transfer Learning](http://arxiv.org/abs/2107.12533)

@@ -2,6 +2,10 @@
 
 迁移学习的应用
 
+- CVPR-21 [Ego-Exo: Transferring Visual Representations From Third-Person to First-Person Videos](https://openaccess.thecvf.com/content/CVPR2021/html/Li_Ego-Exo_Transferring_Visual_Representations_From_Third-Person_to_First-Person_Videos_CVPR_2021_paper.html)
+    - Transfer learning from third-person to first-person video
+    - 从第三人称视频迁移到第一人称
+
 - [Toward Co-creative Dungeon Generation via Transfer Learning](http://arxiv.org/abs/2107.12533)
     - Game scene generation with transfer learning
     - 用迁移学习生成游戏场景
