@@ -2,6 +2,14 @@
 
 This is the implementation of SOT in Python.
 
+### Requirements
+
+The codes only need common machine learning packages and ```ot```. To install ot, just run the following command,
+
+```pip install pot```
+
+To get more information on POT, please refer to [pot](https://pythonot.github.io/).
+
 ### Usage
 
 4 hyper-paramters need to be carefully set. d means the cluster numbers of the target data. reg_e corresponds to λ, reg_cl corresponds to η, and reg_ce corresponds to λ1 in the origin paper.
