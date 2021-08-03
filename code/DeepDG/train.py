@@ -35,6 +35,7 @@ def get_args():
                         default=256, help='dis hidden dimension')
     parser.add_argument('--gpu_id', type=str, nargs='?',
                         default='0', help="device id to run")
+    parser.add_argument('--groupdro_eta', type=float, default=1, help="groupdro eta")
     parser.add_argument('--layer', type=str, default="bn",
                         choices=["ori", "bn"], help='bottleneck normalization style')
     parser.add_argument('--inner_lr', type=float,
