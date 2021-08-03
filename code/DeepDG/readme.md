@@ -87,6 +87,7 @@ We present results of our implementations on 2 popular benchmarks: PACS and Offi
 | CORAL | 58.54 | 58.70 | 89.94 | 36.04 | 60.80 |
 | MMD | 58.94 | 57.81 | 89.70 | 36.04 | 60.62 |
 | MLDG | 58.79 | 55.80 | 95.39 | 52.94 | 65.73 |
+| GroupDRO | 54.15 | 58.66 | 88.38 | 42.99 | 61.04 |
 
 2. Results on Office-Home (resnet-18)
 
@@ -99,6 +100,7 @@ We present results of our implementations on 2 popular benchmarks: PACS and Offi
 | CORAL | 51.71 | 38.53 | 63.84 | 67.00 | 55.27 |
 | MMD | 51.83 | 38.05 | 63.82 | 67.00 | 55.17 |
 | MLDG | 45.65 | 32.28 | 58.62 | 60.64 | 49.30 |
+|GroupDRO | 49.40 | 37.75 | 59.16 | 64.54 | 52.71|
 
 ## Contribution
 

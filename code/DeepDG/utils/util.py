@@ -49,6 +49,7 @@ def alg_loss_dict(args):
                  'Mixup': ['class'],
                  'MLDG': ['total'],
                  'MMD': ['class', 'mmd', 'total'],
+                 'GroupDRO':['group'],
                  'RSC': ['class']}
     return loss_dict[args.algorithm]
 

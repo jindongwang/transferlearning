@@ -6,6 +6,7 @@ from alg.algs.DANN import DANN
 from alg.algs.RSC import RSC
 from alg.algs.Mixup import Mixup
 from alg.algs.MLDG import MLDG
+from alg.algs.GroupDRO import GroupDRO
 
 ALGORITHMS = [
     'ERM',
@@ -14,6 +15,7 @@ ALGORITHMS = [
     'MMD',
     'DANN',
     'MLDG',
+    'GroupDRO',
     'RSC'
 ]
 
