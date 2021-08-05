@@ -21,14 +21,6 @@ To run it instantly without any configuration, I also put it to Google's Colab: 
 
 - Fine-tune using **AlexNet** and **ResNet**
 	- [PyTorch](https://github.com/jindongwang/transferlearning/tree/master/code/deep/finetune_AlexNet_ResNet)
-	- [Another example using Pytorch](https://github.com/Spandan-Madan/Pytorch_fine_tuning_Tutorial)
-	- [Pytorch CNN fine-tune](https://github.com/creafz/pytorch-cnn-finetune)
-
-- Fast learn transfer learning:
-	- [Pytorch](https://github.com/miguelgfierro/sciblog_support/blob/master/A_Gentle_Introduction_to_Transfer_Learning/Intro_Transfer_Learning.ipynb) | [Tensorflow](https://cosx.org/2017/10/transfer-learning/)
-
-- **Google's Tensorflow Hub** (Tensorflow library released by Google for transfer learning)
-	- [Tensorflow](https://github.com/tensorflow/hub)
 
 ## Deep feature extractor 提取深度网络特征用于传统方法
 
@@ -54,7 +46,8 @@ To run it instantly without any configuration, I also put it to Google's Colab: 
 
 ## Domain generalization 领域泛化
 
-- **DeepDG** [Pytorch](https://github.com/jindongwang/transferlearning/tree/master/code/DeepDG)
+- **DeepDG** (Deep domain generalization toolkit) [Pytorch](https://github.com/jindongwang/transferlearning/tree/master/code/DeepDG)
+  - Including: ERM, MMD, DANN, CORAL, Mixup, RSC, GroupDRO, etc.
 
 ## Traditional transfer learning methods  非深度迁移
 
