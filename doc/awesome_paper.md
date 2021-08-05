@@ -119,6 +119,14 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 ## Per-training/Finetuning
 
+- [Pre-trained Models for Sonar Images](http://arxiv.org/abs/2108.01111)
+    - Pre-trained models for sonar images
+    - 针对声纳图像的预训练模型
+
+- [Domain Adaptor Networks for Hyperspectral Image Recognition](http://arxiv.org/abs/2108.01555)
+  - Finetune for hyperspectral image recognition
+  - 针对高光谱图像识别的迁移学习
+
 - CVPR-21 [Efficient Conditional GAN Transfer With Knowledge Propagation Across Classes](https://openaccess.thecvf.com/content/CVPR2021/html/Shahbazi_Efficient_Conditional_GAN_Transfer_With_Knowledge_Propagation_Across_Classes_CVPR_2021_paper.html)
     - Transfer conditional GANs to unseen classes
     - 通过知识传递，迁移预训练的conditional GAN到新类别

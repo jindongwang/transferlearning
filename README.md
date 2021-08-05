@@ -63,6 +63,19 @@ author = {Wang, Jindong and others}
 - **Latest papers**:
 
 <details>
+  <summary>Latest papers (2021-08-05)</summary>
+
+  - [Pre-trained Models for Sonar Images](http://arxiv.org/abs/2108.01111)
+    - Pre-trained models for sonar images
+    - 针对声纳图像的预训练模型
+
+  - [Domain Adaptor Networks for Hyperspectral Image Recognition](http://arxiv.org/abs/2108.01555)
+    - Finetune for hyperspectral image recognition
+    - 针对高光谱图像识别的迁移学习
+
+</details>
+
+<details>
   <summary>Latest papers (2021-07-30)</summary>
 
   - CVPR-21 [Efficient Conditional GAN Transfer With Knowledge Propagation Across Classes](https://openaccess.thecvf.com/content/CVPR2021/html/Shahbazi_Efficient_Conditional_GAN_Transfer_With_Knowledge_Propagation_Across_Classes_CVPR_2021_paper.html)
