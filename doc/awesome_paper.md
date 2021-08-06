@@ -119,6 +119,10 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 ## Per-training/Finetuning
 
+- [Finetuning Pretrained Transformers into Variational Autoencoders](https://arxiv.org/abs/2108.02446)
+    - Finetune transformer to VAE
+    - 把transformer迁移到VAE
+
 - [Pre-trained Models for Sonar Images](http://arxiv.org/abs/2108.01111)
     - Pre-trained models for sonar images
     - 针对声纳图像的预训练模型

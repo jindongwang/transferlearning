@@ -63,6 +63,15 @@ author = {Wang, Jindong and others}
 - **Latest papers**:
 
 <details>
+  <summary>Latest papers (2021-08-06)</summary>
+
+  - [Finetuning Pretrained Transformers into Variational Autoencoders](https://arxiv.org/abs/2108.02446)
+    - Finetune transformer to VAE
+    - 把transformer迁移到VAE
+
+</details>
+
+<details>
   <summary>Latest papers (2021-08-05)</summary>
 
   - [Pre-trained Models for Sonar Images](http://arxiv.org/abs/2108.01111)
