@@ -60,7 +60,7 @@ author = {Wang, Jindong and others}
 
 - [Awesome transfer learning papers (迁移学习文章汇总)](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
-- **Latest papers**:
+- **Latest papers**: (These papers are also put in `docs/awesome_papers.md`)
 
 <details>
   <summary>Latest papers (2021-08-09)</summary>
