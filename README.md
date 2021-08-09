@@ -63,6 +63,24 @@ author = {Wang, Jindong and others}
 - **Latest papers**:
 
 <details>
+  <summary>Latest papers (2021-08-09)</summary>
+
+  - [A Data Augmented Approach to Transfer Learning for Covid-19 Detection](https://arxiv.org/abs/2108.02870)
+    - Data augmentation to transfer learning for COVID
+    - 迁移学习使用数据增强，用于COVID-19
+
+  - MM-21 [Few-shot Unsupervised Domain Adaptation with Image-to-class Sparse Similarity Encoding](https://arxiv.org/abs/2108.02953)
+    - Few-shot DA with image-to-class sparse similarity encoding
+    - 小样本的领域自适应
+
+  - [Dual-Tuning: Joint Prototype Transfer and Structure Regularization for Compatible Feature Learning](https://arxiv.org/abs/2108.02959)
+    - Prototype transfer and structure regularization
+    - 原型的迁移学习
+
+
+</details>
+
+<details>
   <summary>Latest papers (2021-08-06)</summary>
 
   - [Finetuning Pretrained Transformers into Variational Autoencoders](https://arxiv.org/abs/2108.02446)

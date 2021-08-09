@@ -119,6 +119,10 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 ## Per-training/Finetuning
 
+- [A Data Augmented Approach to Transfer Learning for Covid-19 Detection](https://arxiv.org/abs/2108.02870)
+    - Data augmentation to transfer learning for COVID
+    - 迁移学习使用数据增强，用于COVID-19
+
 - [Finetuning Pretrained Transformers into Variational Autoencoders](https://arxiv.org/abs/2108.02446)
     - Finetune transformer to VAE
     - 把transformer迁移到VAE
@@ -406,6 +410,14 @@ Let's read some awesome transfer learning / domain adaptation papers.
 	- 发表在IEEE Trans. Knowledge and Data Engineering期刊上
 
 ## Deep domain adaptation
+
+- MM-21 [Few-shot Unsupervised Domain Adaptation with Image-to-class Sparse Similarity Encoding](https://arxiv.org/abs/2108.02953)
+  - Few-shot DA with image-to-class sparse similarity encoding
+  - 小样本的领域自适应
+
+- [Dual-Tuning: Joint Prototype Transfer and Structure Regularization for Compatible Feature Learning](https://arxiv.org/abs/2108.02959)
+  - Prototype transfer and structure regularization
+  - 原型的迁移学习
 
 - CVPR-21 [Conditional Bures Metric for Domain Adaptation](https://openaccess.thecvf.com/content/CVPR2021/html/Luo_Conditional_Bures_Metric_for_Domain_Adaptation_CVPR_2021_paper.html)
     - A new metric for domain adaptation

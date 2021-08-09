@@ -2,6 +2,10 @@
 
 迁移学习的应用
 
+- [A Data Augmented Approach to Transfer Learning for Covid-19 Detection](https://arxiv.org/abs/2108.02870)
+    - Data augmentation to transfer learning for COVID
+    - 迁移学习使用数据增强，用于COVID-19
+
 - CVPR-21 [Ego-Exo: Transferring Visual Representations From Third-Person to First-Person Videos](https://openaccess.thecvf.com/content/CVPR2021/html/Li_Ego-Exo_Transferring_Visual_Representations_From_Third-Person_to_First-Person_Videos_CVPR_2021_paper.html)
     - Transfer learning from third-person to first-person video
     - 从第三人称视频迁移到第一人称
