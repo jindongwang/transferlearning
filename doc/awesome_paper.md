@@ -411,6 +411,10 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 ## Deep domain adaptation
 
+- ICCV-21 [BiMaL: Bijective Maximum Likelihood Approach to Domain Adaptation in Semantic Scene Segmentation](https://arxiv.org/abs/2108.03267)
+  - Bijective MMD for domain adaptation
+  - 双射MMD用于语义分割
+
 - MM-21 [Few-shot Unsupervised Domain Adaptation with Image-to-class Sparse Similarity Encoding](https://arxiv.org/abs/2108.02953)
   - Few-shot DA with image-to-class sparse similarity encoding
   - 小样本的领域自适应

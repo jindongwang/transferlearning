@@ -2,6 +2,22 @@
 
 迁移学习的应用
 
+- SemDIAL-21 [Generating Personalized Dialogue via Multi-Task Meta-Learning](https://arxiv.org/abs/2108.03377)
+    - Generate personalized dialogue using multi-task meta-learning
+    - 用多任务元学习生成个性化的对话
+
+- TKDE-21 [Unsupervised Deep Anomaly Detection for Multi-Sensor Time-Series Signals](https://arxiv.org/abs/2107.12626)
+    - Anomaly detection using semi-supervised and transfer learning
+    - 半监督学习用于无监督异常检测
+
+- ICCV-21 [BiMaL: Bijective Maximum Likelihood Approach to Domain Adaptation in Semantic Scene Segmentation](https://arxiv.org/abs/2108.03267)
+    - Bijective MMD for domain adaptation
+    - 双射MMD用于语义分割
+
+- [A Survey on Cross-domain Recommendation: Taxonomies, Methods, and Future Directions](https://arxiv.org/abs/2108.03357)
+    - A survey on cross-domain recommendation
+    - 跨领域的推荐的综述
+
 - [A Data Augmented Approach to Transfer Learning for Covid-19 Detection](https://arxiv.org/abs/2108.02870)
     - Data augmentation to transfer learning for COVID
     - 迁移学习使用数据增强，用于COVID-19

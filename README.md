@@ -60,7 +60,28 @@ author = {Wang, Jindong and others}
 
 - [Awesome transfer learning papers (迁移学习文章汇总)](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
-- **Latest papers**: (These papers are also put in `docs/awesome_papers.md`)
+- **Latest papers**: (These papers are also put in `doc/awesome_papers.md`)
+
+<details>
+  <summary>Latest papers (2021-08-10)</summary>
+
+  - TKDE-21 [Unsupervised Deep Anomaly Detection for Multi-Sensor Time-Series Signals](https://arxiv.org/abs/2107.12626)
+    - Anomaly detection using semi-supervised and transfer learning
+    - 半监督学习用于无监督异常检测
+
+  - SemDIAL-21 [Generating Personalized Dialogue via Multi-Task Meta-Learning](https://arxiv.org/abs/2108.03377)
+    - Generate personalized dialogue using multi-task meta-learning
+    - 用多任务元学习生成个性化的对话
+
+  - ICCV-21 [BiMaL: Bijective Maximum Likelihood Approach to Domain Adaptation in Semantic Scene Segmentation](https://arxiv.org/abs/2108.03267)
+    - Bijective MMD for domain adaptation
+    - 双射MMD用于语义分割
+
+  - [A Survey on Cross-domain Recommendation: Taxonomies, Methods, and Future Directions](https://arxiv.org/abs/2108.03357)
+    - A survey on cross-domain recommendation
+    - 跨领域的推荐的综述
+
+</details>
 
 <details>
   <summary>Latest papers (2021-08-09)</summary>
