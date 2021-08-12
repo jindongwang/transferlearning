@@ -18,11 +18,16 @@ The detailed explanation of those methods are in the `README.md` files of corres
 
 ## Installation
 
+You can either git clone this whole repo by:
+
 ```
 git clone https://github.com/jindongwang/transferlearning.git
 cd code/DeepDA
 pip install -r requirements.txt
 ```
+
+Or if you just want to use this folder (i.e., no other things in this big transferlearning repo), you can go to [this site](https://minhaskamal.github.io/DownGit/#/home) and paste the url of this DeepDA folder (https://github.com/jindongwang/transferlearning/edit/master/code/DeepDA) and then download only this folder!
+
 We recommend to use `Python 3.7.10` which is our development environment.
 
 ## Usage
