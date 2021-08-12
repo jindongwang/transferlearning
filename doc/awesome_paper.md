@@ -1216,6 +1216,10 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 ## Domain generalization
 
+- CIKM-21 [AdaRNN: Adaptive Learning and Forecasting of Time Series](https://arxiv.org/abs/2108.04443) [Code](https://github.com/jindongwang/transferlearning/tree/master/code/deep/adarnn) [知乎文章](https://zhuanlan.zhihu.com/p/398036372) [Video](https://www.bilibili.com/video/BV1Gh411B7rj/)
+    - A new perspective to using transfer learning for time series analysis
+    - 一种新的建模时间序列的迁移学习视角
+
 - 2021 Domain generalization: IJCAI-21 [Generalizing to Unseen Domains: A Survey on Domain Generalization](https://arxiv.org/abs/2103.03097) | [知乎文章](https://zhuanlan.zhihu.com/p/354740610) | [微信公众号](https://mp.weixin.qq.com/s/DsoVDYqLB1N7gj9X5UnYqw)
     - First survey on domain generalization
     - 第一篇对Domain generalization (领域泛化)的综述

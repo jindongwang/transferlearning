@@ -63,6 +63,15 @@ author = {Wang, Jindong and others}
 - **Latest papers**: (These papers are also put in `doc/awesome_papers.md`)
 
 <details>
+  <summary>Latest papers (2021-08-12)</summary>
+
+  - CIKM-21 [AdaRNN: Adaptive Learning and Forecasting of Time Series](https://arxiv.org/abs/2108.04443) [Code](https://github.com/jindongwang/transferlearning/tree/master/code/deep/adarnn) [知乎文章](https://zhuanlan.zhihu.com/p/398036372) [Video](https://www.bilibili.com/video/BV1Gh411B7rj/)
+    - A new perspective to using transfer learning for time series analysis
+    - 一种新的建模时间序列的迁移学习视角
+
+</details>
+
+<details>
   <summary>Latest papers (2021-08-10)</summary>
 
   - TKDE-21 [Unsupervised Deep Anomaly Detection for Multi-Sensor Time-Series Signals](https://arxiv.org/abs/2107.12626)
