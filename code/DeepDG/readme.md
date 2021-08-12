@@ -19,11 +19,16 @@ As initial version, we support the following algoirthms. We are working on more 
 
 ## Installation
 
+You can either clone this whole big repo:
+
 ```
 git clone https://github.com/jindongwang/transferlearning.git
 cd code/DeepDG
 pip install -r requirements.txt
 ```
+
+Or *if you just want to use this folder* (i.e., no other things in this big transferlearning repo), you can go to [this site](https://minhaskamal.github.io/DownGit/#/home) and paste the url of this DeepDG folder (https://github.com/jindongwang/transferlearning/edit/master/code/DeepDG) and then download only this folder!
+
 We recommend to use `Python 3.8.8` which is our development environment.
 
 ## Dataset
