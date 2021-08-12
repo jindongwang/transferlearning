@@ -43,13 +43,13 @@ def get_args():
     parser.add_argument('--lr', type=float, default=1e-2, help="learning rate")
     parser.add_argument('--lr_decay', type=float, default=0.75, help='for sgd')
     parser.add_argument('--lr_decay1', type=float,
-                        default=0.1, help='for pretrained featurizer')
+                        default=1.0, help='for pretrained featurizer')
     parser.add_argument('--lr_decay2', type=float, default=1.0,
                         help='inital learning rate decay of network')
     parser.add_argument('--lr_gamma', type=float,
                         default=0.0003, help='for optimizer')
     parser.add_argument('--max_epoch', type=int,
-                        default=20, help="max iterations")
+                        default=120, help="max iterations")
     parser.add_argument('--mixupalpha', type=float,
                         default=0.2, help='mixup hyper-param')
     parser.add_argument('--mldg_beta', type=float,
@@ -66,6 +66,7 @@ def get_args():
     parser.add_argument('--rsc_b_drop_factor', type=float,
                         default=1/3, help='rsc hyper-param')
     parser.add_argument('--save_model_every_checkpoint', action='store_true')
+    parser.add_argument('--schuse', action='store_true')
     parser.add_argument('--seed', type=int, default=0)
     parser.add_argument('--split_style', type=str, default='strat',
                         help="the style to split the train and eval datasets")
@@ -115,6 +116,12 @@ if __name__ == '__main__':
             minibatches_device = [(data)
                                   for data in next(train_minibatches_iterator)]
             step_vals = algorithm.update(minibatches_device, opt, sch)
+        
+        if (epoch in [int(args.max_epoch*0.7), int(args.max_epoch*0.9)]) and (not args.schuse):
+            print('manually descrease lr')
+            for params in opt.param_groups:
+                params['lr']=params['lr']*0.1
+
         if (epoch == (args.max_epoch-1)) or (epoch % args.checkpoint_freq == 0):
             print('===========epoch %d===========' % (epoch))
             s = ''
