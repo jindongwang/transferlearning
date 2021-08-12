@@ -2,6 +2,8 @@
 
 This project implements our paper [AdaRNN: Adaptive Learning and Forecasting for Time Series](https://arxiv.org/abs/2108.04443). Please refer to our paper [1] for the method and technical details.
 
+**NOTE: All codes will be released within a month since the first author is currently busy with another project. Thanks for your patience.**
+
 ## Request
 - cuda 10.1 
 - Python 3.7.7
