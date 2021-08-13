@@ -2,6 +2,14 @@
 
 This project implements our paper [AdaRNN: Adaptive Learning and Forecasting for Time Series](https://arxiv.org/abs/2108.04443) at CIKM 2021. Please refer to our paper [1] for the method and technical details.
 
+<img src = "https://z3.ax1x.com/2021/08/13/fslCgH.png" align = "right" width = "400">
+
+**Abstract:** Time series has wide applications in the real world and is known to be difficult to forecast. Since its statistical properties change over time, its distribution also changes temporally, which will cause severe distribution shift problem to existing methods. However, it remains unexplored to model the time series in the distribution perspective. In this paper, we term this as **Temporal Covariate Shift (TCS)**. This paper proposes **Adaptive RNNs (AdaRNN)** to tackle the TCS problem by building an adaptive model that generalizes well on the unseen test data. AdaRNN is sequentially composed of two novel algorithms. First, we propose **Temporal Distribution Characterization** to better characterize the distribution information in the TS. Second, we propose **Temporal Distribution Matching** to reduce the distribution mismatch in TS to learn the adaptive TS model. AdaRNN is a general framework with flexible distribution distances integrated. Experiments on human activity recognition, air quality prediction, and financial analysis show that AdaRNN outperforms the latest methods by a classification accuracy of 2.6% and significantly reduces the RMSE by 9.0%. We also show that the temporal distribution matching algorithm can be extended in Transformer structure to boost its performance.
+
+[Paper video](https://www.bilibili.com/video/BV1Gh411B7rj/) | [Zhihu article](https://zhuanlan.zhihu.com/p/398036372)
+
+![](https://z3.ax1x.com/2021/08/13/fslkDI.png)
+
 ## Requirement
 
 - CUDA 10.1 
