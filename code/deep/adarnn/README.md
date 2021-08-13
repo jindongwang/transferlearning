@@ -17,7 +17,7 @@ This project implements our paper [AdaRNN: Adaptive Learning and Forecasting for
 - Pytorch == 1.6.0
 - Torchvision == 0.7.0
 
-The required packages are listed in requirements.txt 
+The required packages are listed in `requirements.txt`. 
 
 
 ## Dataset 
@@ -28,8 +28,6 @@ The original air-quality dataset is downloaded from [Beijing Multi-Site Air-Qual
 ## How to run
 
 The code for air-quality dataset is in `train_weather.py`. After downloading the dataset, you can change args.data_path in `train_weather.py` to the folder where you place the data.
-
-
 
 Then you can run the code. Taking Dongsi station as example, you can run 
 
