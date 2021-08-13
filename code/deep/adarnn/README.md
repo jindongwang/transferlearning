@@ -2,8 +2,9 @@
 
 This project implements our paper [AdaRNN: Adaptive Learning and Forecasting for Time Series](https://arxiv.org/abs/2108.04443) at CIKM 2021. Please refer to our paper [1] for the method and technical details.
 
-## Request
-- cuda 10.1 
+## Requirement
+
+- CUDA 10.1 
 - Python 3.7.7
 - Pytorch == 1.6.0
 - Torchvision == 0.7.0
@@ -45,14 +46,16 @@ Then you can run the code. Taking Dongsi station as example, you can run
 | ADARNN      | **0.0295**  | **0.0185**  | **0.0164**  | **0.0112**  |    **0.0196**    | **0.0122**  |  **0.0233**  | **0.0150**  |
 
 # Contact
+
 - dz1833005@smail.nju.edu.cn
 - jindongwang@outlook.com
 
-## Notice
+## Statement
 
 This work was done in August 2020, thus has been over 1 year. Since the first author finished his internship at MSRA at September 2020, he has been busy with his own projects since then. It has been long time. We will try our best to add all the codes back, including: temporal distribution characterization, adaptive transformer, and more datasets. Please be patient and stay tuned.
 
 # References
+
 ```
 @inproceedings{Du2021ADARNN,
   title={AdaRNN: Adaptive Learning and Forecasting for Time Series},
