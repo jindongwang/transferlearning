@@ -43,21 +43,6 @@ def get_split_time(num_domain=2, mode='pre_process'):
     }
     if mode == 'pre_process':
         return spilt_time[str(num_domain)]
-    elif mode == 'auto':
-        auto_split_time = []
-        d1 = datetime.datetime.strptime(
-            '2013-03-01 00:00:00', '%Y-%m-%d %H:%M:%S')
-        d2 = datetime.datetime.strptime(
-            '2016-06-30 23:00:00', '%Y-%m-%d %H:%M:%S')
-        num_day = (d2 - d1).days
-        start_time = d1
-        for i in range(num_domain):
-            end_time = start_time + \
-                datetime.timedelta(days=int(num_day / num_domain) - 1)
-            auto_split_time.append((start_time.strftime(
-                "%Y-%m-%d %H:%M:%S"), end_time.strftime("%Y-%m-%d %H:%M:%S")))
-            start_time = end_time + datetime.timedelta(days=1)
-        return auto_split_time
     else:
         print("error in mode")
 
