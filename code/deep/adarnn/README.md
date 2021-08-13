@@ -54,10 +54,10 @@ This work was done in August 2020, thus has been over 1 year. Since the first au
 
 # References
 ```
-@article{Du2021ADARNN,
+@inproceedings{Du2021ADARNN,
   title={AdaRNN: Adaptive Learning and Forecasting for Time Series},
   author={Du, Yuntao and Wang, Jindong and Feng, Wenjie and Pan, Sinno and Qin, Tao and Xu, Renjun and Wang, Chongjun},
-  journal={Proceedings of the 30th ACM International Conference on Information \& Knowledge Management},
+  booktitle={Proceedings of the 30th ACM International Conference on Information \& Knowledge Management (CIKM)},
   year={2021}
 }
 ```
