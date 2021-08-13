@@ -1,8 +1,6 @@
 # AdaRNN: Adaptive Learning and Forecasting for Time Series
 
-This project implements our paper [AdaRNN: Adaptive Learning and Forecasting for Time Series](https://arxiv.org/abs/2108.04443) accepted at CIKM 2021. Please refer to our paper for the method and technical details.
-
-**NOTE: All codes will be released within a month since the first author is currently busy with another project. Thanks for your patience.**
+This project implements our paper [AdaRNN: Adaptive Learning and Forecasting for Time Series](https://arxiv.org/abs/2108.04443). Please refer to our paper [1] for the method and technical details.
 
 ## Request
 - cuda 10.1 
@@ -29,7 +27,7 @@ The code for air-quality dataset is in `train_weather.py`. After downloading the
 
 Then you can run the code. Taking Dongsi station as example, you can run 
 
-`python train_weather.py --model_name 'AdaRNN' --station 'Dongsi' --pre_epoch 50 --dw 0.5`
+`python train_weather.py --model_name 'AdaRNN' --station 'Dongsi' --pre_epoch 40 --dw 0.5`
 
 # Results
 
@@ -55,10 +53,10 @@ Then you can run the code. Taking Dongsi station as example, you can run
 
 # References
 ```
-@inproceedings{du2021ADARNN,
+@article{Du2021ADARNN,
   title={AdaRNN: Adaptive Learning and Forecasting for Time Series},
   author={Yuntao Du, Jindong Wang, Wenjie Feng, Sinno Pan, Tao Qin, Chongjun Wang},
-  booktitle={Proceedings of the 30th ACM International Conference on Information \& Knowledge Management (CIKM)},
+  journal={Proceedings of the 30th ACM International Conference on Information \& Knowledge Management},
   year={2021}
 }
 ```
