@@ -1,6 +1,6 @@
 # AdaRNN: Adaptive Learning and Forecasting for Time Series
 
-This project implements our paper [AdaRNN: Adaptive Learning and Forecasting for Time Series](https://arxiv.org/abs/2108.04443). Please refer to our paper [1] for the method and technical details.
+This project implements our paper [AdaRNN: Adaptive Learning and Forecasting for Time Series](https://arxiv.org/abs/2108.04443) at CIKM 2021. Please refer to our paper [1] for the method and technical details.
 
 ## Request
 - cuda 10.1 
@@ -14,9 +14,6 @@ The required packages are listed in requirements.txt
 ## Dataset 
 
 The original air-quality dataset is downloaded from [Beijing Multi-Site Air-Quality Data Data Set](https://archive.ics.uci.edu/ml/datasets/Beijing+Multi-Site+Air-Quality+Data) . The air-quality dataset contains hourly air quality information collected from 12 stations in Beijing from 03/2013 to 02/2017. We randomly chose four stations (Dongsi, Tiantan, Nongzhanguan, and Dingling) and select six features (PM2.5, PM10, S02, NO2, CO, and O3). Since there are some missing data, we simply fill the empty slots using averaged values. Then, the dataset is normalized before feeding into the network to scale all features into the same range. This process is accomplished by max-min normalization and ranges data between 0 and 1. The processed  air-quality dataset can be downloaded at [dataset link](https://box.nju.edu.cn/f/2239259e06dd4f4cbf64/?dl=1). 
-
-
-
 
 
 ## How to run
@@ -51,11 +48,15 @@ Then you can run the code. Taking Dongsi station as example, you can run
 - dz1833005@smail.nju.edu.cn
 - jindongwang@outlook.com
 
+## Notice
+
+This work was done in August 2020, thus has been over 1 year. Since the first author finished his internship at MSRA at September 2020, he has been busy with his own projects since then. It has been long time. We will try our best to add all the codes back, including: temporal distribution characterization, adaptive transformer, and more datasets. Please be patient and stay tuned.
+
 # References
 ```
 @article{Du2021ADARNN,
   title={AdaRNN: Adaptive Learning and Forecasting for Time Series},
-  author={Yuntao Du, Jindong Wang, Wenjie Feng, Sinno Pan, Tao Qin, Chongjun Wang},
+  author={Du, Yuntao and Wang, Jindong and Feng, Wenjie and Pan, Sinno and Qin, Tao and Xu, Renjun and Wang, Chongjun},
   journal={Proceedings of the 30th ACM International Conference on Information \& Knowledge Management},
   year={2021}
 }
