@@ -417,7 +417,7 @@ def get_args():
     parser = argparse.ArgumentParser()
 
     # model
-    parser.add_argument('--model_name', default='Boosting')
+    parser.add_argument('--model_name', default='AdaRNN')
     parser.add_argument('--d_feat', type=int, default=6)
 
     parser.add_argument('--hidden_size', type=int, default=64)
