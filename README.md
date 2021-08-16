@@ -63,6 +63,23 @@ author = {Wang, Jindong and others}
 - **Latest papers**: (These papers are also put in `doc/awesome_papers.md`)
 
 <details>
+  <summary>Latest papers (2021-08-16)</summary>
+
+  - [Learning Transferable Parameters for Unsupervised Domain Adaptation](https://arxiv.org/abs/2108.06129)
+    - Learning partial transfer parameters for DA
+    - 学习适用于迁移部分的参数做UDA任务
+
+  - MICCAI-21 [A Systematic Benchmarking Analysis of Transfer Learning for Medical Image Analysis](https://arxiv.org/abs/2108.05930)
+    - A benchmark of transfer learning for medical image
+    - 一个详细的迁移学习用于医学图像的benchmark
+
+  - [TVT: Transferable Vision Transformer for Unsupervised Domain Adaptation](https://arxiv.org/abs/2108.05988)
+    - Vision transformer for domain adaptation
+    - 用视觉transformer进行DA
+
+</details>
+
+<details>
   <summary>Latest papers (2021-08-12)</summary>
 
   - CIKM-21 [AdaRNN: Adaptive Learning and Forecasting of Time Series](https://arxiv.org/abs/2108.04443) [Code](https://github.com/jindongwang/transferlearning/tree/master/code/deep/adarnn) [知乎文章](https://zhuanlan.zhihu.com/p/398036372) [Video](https://www.bilibili.com/video/BV1Gh411B7rj/)

@@ -411,6 +411,14 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 ## Deep domain adaptation
 
+- [TVT: Transferable Vision Transformer for Unsupervised Domain Adaptation](https://arxiv.org/abs/2108.05988)
+  - Vision transformer for domain adaptation
+  - 用视觉transformer进行DA
+
+- [Learning Transferable Parameters for Unsupervised Domain Adaptation](https://arxiv.org/abs/2108.06129)
+  - Learning partial transfer parameters for DA
+  - 学习适用于迁移部分的参数做UDA任务
+
 - ICCV-21 [BiMaL: Bijective Maximum Likelihood Approach to Domain Adaptation in Semantic Scene Segmentation](https://arxiv.org/abs/2108.03267)
   - Bijective MMD for domain adaptation
   - 双射MMD用于语义分割

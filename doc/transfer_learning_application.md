@@ -2,6 +2,10 @@
 
 迁移学习的应用
 
+- MICCAI-21 [A Systematic Benchmarking Analysis of Transfer Learning for Medical Image Analysis](https://arxiv.org/abs/2108.05930)
+    - A benchmark of transfer learning for medical image
+    - 一个详细的迁移学习用于医学图像的benchmark
+
 - CIKM-21 [AdaRNN: Adaptive Learning and Forecasting of Time Series](https://arxiv.org/abs/2108.04443) [Code](https://github.com/jindongwang/transferlearning/tree/master/code/deep/adarnn) [知乎文章](https://zhuanlan.zhihu.com/p/398036372) [Video](https://www.bilibili.com/video/BV1Gh411B7rj/)
     - A new perspective to using transfer learning for time series analysis
     - 一种新的建模时间序列的迁移学习视角
