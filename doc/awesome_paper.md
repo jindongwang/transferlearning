@@ -1692,6 +1692,14 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 ## Federated transfer learning
 
+- [Fine-tuning is Fine in Federated Learning](http://arxiv.org/abs/2108.07313)
+    - Finetuning in federated learning
+    - 在联邦学习中进行finetune
+
+- [Federated Multi-Target Domain Adaptation](http://arxiv.org/abs/2108.07792)
+    - Federated multi-target DA
+    - 联邦学习场景下的多目标DA
+
 - 20190909 IJCAI-FML-19 [FedHealth: A Federated Transfer Learning Framework for Wearable Healthcare](http://jd92.wang/assets/files/a15_ijcai19.pdf)
   	- The first work on federated transfer learning for wearable healthcare
   	- 第一个将联邦迁移学习用于可穿戴健康监护的工作

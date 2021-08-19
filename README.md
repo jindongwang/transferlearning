@@ -60,7 +60,20 @@ author = {Wang, Jindong and others}
 
 - [Awesome transfer learning papers (迁移学习文章汇总)](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
-- **Latest papers**: (These papers are also put in `doc/awesome_papers.md`)
+**Latest papers**: (These papers are also put in `doc/awesome_papers.md`)
+
+<details>
+  <summary>Latest papers (2021-08-19)</summary>
+
+  - [Fine-tuning is Fine in Federated Learning](http://arxiv.org/abs/2108.07313)
+    - Finetuning in federated learning
+    - 在联邦学习中进行finetune
+
+  - [Federated Multi-Target Domain Adaptation](http://arxiv.org/abs/2108.07792)
+    - Federated multi-target DA
+    - 联邦学习场景下的多目标DA
+
+</details>
 
 <details>
   <summary>Latest papers (2021-08-16)</summary>
