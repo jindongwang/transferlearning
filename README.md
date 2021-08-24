@@ -60,7 +60,20 @@ author = {Wang, Jindong and others}
 
 - [Awesome transfer learning papers (迁移学习文章汇总)](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
-**Latest papers**: (These papers are also put in `doc/awesome_papers.md`)
+**Latest papers**: (These papers are also put in [doc/awesome_papers.md](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md))
+
+<details>
+  <summary>Latest papers (2021-08-24)</summary>
+
+  - [Robust Ensembling Network for Unsupervised Domain Adaptation](https://arxiv.org/abs/2108.09473)
+    - Ensembling network for domain adaptation
+    - 集成嵌入网络用于domain adaptation
+
+  - [Federated Multi-Task Learning under a Mixture of Distributions](https://arxiv.org/abs/2108.10252)
+    - Federated multi-task learning
+    - 联邦多任务学习
+
+</details>
 
 <details>
   <summary>Latest papers (2021-08-19)</summary>

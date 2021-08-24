@@ -411,6 +411,10 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 ## Deep domain adaptation
 
+- [Robust Ensembling Network for Unsupervised Domain Adaptation](https://arxiv.org/abs/2108.09473)
+  - Ensembling network for domain adaptation
+  - 集成嵌入网络用于domain adaptation
+
 - [TVT: Transferable Vision Transformer for Unsupervised Domain Adaptation](https://arxiv.org/abs/2108.05988)
   - Vision transformer for domain adaptation
   - 用视觉transformer进行DA
@@ -1691,6 +1695,10 @@ Let's read some awesome transfer learning / domain adaptation papers.
 - - -
 
 ## Federated transfer learning
+
+- [Federated Multi-Task Learning under a Mixture of Distributions](https://arxiv.org/abs/2108.10252)
+    - Federated multi-task learning
+    - 联邦多任务学习
 
 - [Fine-tuning is Fine in Federated Learning](http://arxiv.org/abs/2108.07313)
     - Finetuning in federated learning
