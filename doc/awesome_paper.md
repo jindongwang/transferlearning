@@ -119,6 +119,10 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 ## Per-training/Finetuning
 
+- [How Does Adversarial Fine-Tuning Benefit BERT?](https://arxiv.org/abs/2108.13602)
+    - Examine how does adversarial fine-tuning help BERT
+    - 探索对抗性finetune如何帮助BERT
+
 - [A Data Augmented Approach to Transfer Learning for Covid-19 Detection](https://arxiv.org/abs/2108.02870)
     - Data augmentation to transfer learning for COVID
     - 迁移学习使用数据增强，用于COVID-19

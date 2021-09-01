@@ -63,6 +63,19 @@ author = {Wang, Jindong and others}
 **Latest papers**: (These papers are also put in [doc/awesome_papers.md](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md))
 
 <details>
+  <summary>Latest papers (2021-09-01)</summary>
+
+  - [How Does Adversarial Fine-Tuning Benefit BERT?](https://arxiv.org/abs/2108.13602)
+    - Examine how does adversarial fine-tuning help BERT
+    - 探索对抗性finetune如何帮助BERT
+
+  - [Contrastive Domain Adaptation for Question Answering using Limited Text Corpora](https://arxiv.org/abs/2108.13854)
+    - Contrastive domain adaptation for QA
+    - QA任务中应用对比domain adaptation
+
+</details>
+
+<details>
   <summary>Latest papers (2021-08-24)</summary>
 
   - [Robust Ensembling Network for Unsupervised Domain Adaptation](https://arxiv.org/abs/2108.09473)

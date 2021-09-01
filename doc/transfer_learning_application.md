@@ -2,6 +2,10 @@
 
 迁移学习的应用
 
+- [Contrastive Domain Adaptation for Question Answering using Limited Text Corpora](https://arxiv.org/abs/2108.13854)
+    - Contrastive domain adaptation for QA
+    - QA任务中应用对比domain adaptation
+
 - MICCAI-21 [A Systematic Benchmarking Analysis of Transfer Learning for Medical Image Analysis](https://arxiv.org/abs/2108.05930)
     - A benchmark of transfer learning for medical image
     - 一个详细的迁移学习用于医学图像的benchmark
