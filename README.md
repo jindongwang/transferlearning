@@ -63,6 +63,23 @@ author = {Wang, Jindong and others}
 **Latest papers**: (These papers are also put in [doc/awesome_papers.md](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md))
 
 <details>
+  <summary>Latest papers (2021-09-10)</summary>
+
+  - [Class-conditioned Domain Generalization via Wasserstein Distributional Robust Optimization](https://arxiv.org/abs/2109.03676)
+    - Domain generalization with wasserstein DRO
+    - 使用Wasserstein DRO进行domain generalization
+
+  - [FedZKT: Zero-Shot Knowledge Transfer towards Heterogeneous On-Device Models in Federated Learning](https://arxiv.org/abs/2109.03775)
+    - Zero-shot transfer in heterogeneous federated learning
+    - 零次迁移用于联邦学习
+
+  - [Fishr: Invariant Gradient Variances for Out-of-distribution Generalization](https://arxiv.org/abs/2109.02934)
+    - Invariant gradient variances for OOD generalization
+    - 不变梯度方差，用于OOD
+
+</details>
+
+<details>
   <summary>Latest papers (2021-09-01)</summary>
 
   - [How Does Adversarial Fine-Tuning Benefit BERT?](https://arxiv.org/abs/2108.13602)

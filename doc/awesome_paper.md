@@ -1232,6 +1232,16 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 ## Domain generalization
 
+
+- [Fishr: Invariant Gradient Variances for Out-of-distribution Generalization](https://arxiv.org/abs/2109.02934)
+    - Invariant gradient variances for OOD generalization
+    - 不变梯度方差，用于OOD
+
+- [Class-conditioned Domain Generalization via Wasserstein Distributional Robust Optimization](https://arxiv.org/abs/2109.03676)
+    - Domain generalization with wasserstein DRO
+    - 使用Wasserstein DRO进行domain generalization
+
+
 - CIKM-21 [AdaRNN: Adaptive Learning and Forecasting of Time Series](https://arxiv.org/abs/2108.04443) [Code](https://github.com/jindongwang/transferlearning/tree/master/code/deep/adarnn) [知乎文章](https://zhuanlan.zhihu.com/p/398036372) [Video](https://www.bilibili.com/video/BV1Gh411B7rj/)
     - A new perspective to using transfer learning for time series analysis
     - 一种新的建模时间序列的迁移学习视角
@@ -1699,6 +1709,10 @@ Let's read some awesome transfer learning / domain adaptation papers.
 - - -
 
 ## Federated transfer learning
+
+- [FedZKT: Zero-Shot Knowledge Transfer towards Heterogeneous On-Device Models in Federated Learning](https://arxiv.org/abs/2109.03775)
+    - Zero-shot transfer in heterogeneous federated learning
+    - 零次迁移用于联邦学习
 
 - [Federated Multi-Task Learning under a Mixture of Distributions](https://arxiv.org/abs/2108.10252)
     - Federated multi-task learning
