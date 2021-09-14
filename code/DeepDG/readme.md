@@ -16,6 +16,7 @@ As initial version, we support the following algoirthms. We are working on more 
 6. Mixup [5]
 7. RSC [6]
 8. GroupDRO [7]
+9. ANDMask [8]
 
 ## Installation
 
@@ -127,6 +128,8 @@ Great thanks to [DomainBed](https://github.com/facebookresearch/DomainBed). We s
 [6] Huang, Zeyi, et al. "Self-challenging improves cross-domain generalization." ECCV 2020.
 
 [7] Sagawa S, Koh P W, Hashimoto T B, et al. Distributionally robust neural networks for group shifts: On the importance of regularization for worst-case generalization, ICLR 2020.
+
+[8] Parascandolo G, Neitz A, ORVIETO A, et al. Learning explanations that are hard to vary[C]//International Conference on Learning Representations. 2020.
 
 ## Citation
 
