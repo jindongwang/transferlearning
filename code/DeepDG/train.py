@@ -35,7 +35,8 @@ def get_args():
                         default=256, help='dis hidden dimension')
     parser.add_argument('--gpu_id', type=str, nargs='?',
                         default='0', help="device id to run")
-    parser.add_argument('--groupdro_eta', type=float, default=1, help="groupdro eta")
+    parser.add_argument('--groupdro_eta', type=float,
+                        default=1, help="groupdro eta")
     parser.add_argument('--layer', type=str, default="bn",
                         choices=["ori", "bn"], help='bottleneck normalization style')
     parser.add_argument('--inner_lr', type=float,
@@ -72,6 +73,7 @@ def get_args():
                         help="the style to split the train and eval datasets")
     parser.add_argument('--task', type=str, default="img_dg",
                         choices=["img_dg"], help='now only support image tasks')
+    parser.add_argument('--tau', type=float, default=1, help="andmask tau")
     parser.add_argument('--test_envs', type=int, nargs='+',
                         default=[0], help='target domains')
     parser.add_argument('--output', type=str,
@@ -116,11 +118,11 @@ if __name__ == '__main__':
             minibatches_device = [(data)
                                   for data in next(train_minibatches_iterator)]
             step_vals = algorithm.update(minibatches_device, opt, sch)
-        
+
         if (epoch in [int(args.max_epoch*0.7), int(args.max_epoch*0.9)]) and (not args.schuse):
             print('manually descrease lr')
             for params in opt.param_groups:
-                params['lr']=params['lr']*0.1
+                params['lr'] = params['lr']*0.1
 
         if (epoch == (args.max_epoch-1)) or (epoch % args.checkpoint_freq == 0):
             print('===========epoch %d===========' % (epoch))
