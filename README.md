@@ -63,6 +63,27 @@ author = {Wang, Jindong and others}
 **Latest papers**: (These papers are also put in [doc/awesome_papers.md](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md))
 
 <details>
+  <summary>Latest papers (2021-09-15)</summary>
+
+  - [Unsupervised domain adaptation for cross-modality liver segmentation via joint adversarial learning and self-learning](https://arxiv.org/abs/2109.05664)
+    - Domain adaptation for cross-modality liver segmentation
+    - 使用domain adaptation进行肝脏的跨模态分割
+
+  - [CDTrans: Cross-domain Transformer for Unsupervised Domain Adaptation](https://arxiv.org/abs/2109.06165)
+    - Cross-domain transformer for domain adaptation
+    - 基于transformer进行domain adaptation
+
+  - ICCV-21 [Shape-Biased Domain Generalization via Shock Graph Embeddings](https://arxiv.org/abs/2109.05671)
+    - Domain generalization based on shape information
+    - 基于形状进行domain generalization
+
+  - [Domain and Content Adaptive Convolution for Domain Generalization in Medical Image Segmentation](https://arxiv.org/abs/2109.05676)
+    - Domain generalization for medical image segmentation
+    - 领域泛化用于医学图像分割
+
+</details>
+
+<details>
   <summary>Latest papers (2021-09-10)</summary>
 
   - [Class-conditioned Domain Generalization via Wasserstein Distributional Robust Optimization](https://arxiv.org/abs/2109.03676)

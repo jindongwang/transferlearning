@@ -415,6 +415,14 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 ## Deep domain adaptation
 
+- [Unsupervised domain adaptation for cross-modality liver segmentation via joint adversarial learning and self-learning](https://arxiv.org/abs/2109.05664)
+  - Domain adaptation for cross-modality liver segmentation
+  - 使用domain adaptation进行肝脏的跨模态分割
+
+- [CDTrans: Cross-domain Transformer for Unsupervised Domain Adaptation](https://arxiv.org/abs/2109.06165)
+  - Cross-domain transformer for domain adaptation
+  - 基于transformer进行domain adaptation
+
 - [Robust Ensembling Network for Unsupervised Domain Adaptation](https://arxiv.org/abs/2108.09473)
   - Ensembling network for domain adaptation
   - 集成嵌入网络用于domain adaptation
@@ -1232,6 +1240,13 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 ## Domain generalization
 
+- ICCV-21 [Shape-Biased Domain Generalization via Shock Graph Embeddings](https://arxiv.org/abs/2109.05671)
+  - Domain generalization based on shape information
+  - 基于形状进行domain generalization
+
+- [Domain and Content Adaptive Convolution for Domain Generalization in Medical Image Segmentation](https://arxiv.org/abs/2109.05676)
+  - Domain generalization for medical image segmentation
+  - 领域泛化用于医学图像分割
 
 - [Fishr: Invariant Gradient Variances for Out-of-distribution Generalization](https://arxiv.org/abs/2109.02934)
     - Invariant gradient variances for OOD generalization

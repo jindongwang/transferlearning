@@ -2,6 +2,14 @@
 
 迁移学习的应用
 
+- [Domain and Content Adaptive Convolution for Domain Generalization in Medical Image Segmentation](https://arxiv.org/abs/2109.05676)
+    - Domain generalization for medical image segmentation
+    - 领域泛化用于医学图像分割
+
+- [Unsupervised domain adaptation for cross-modality liver segmentation via joint adversarial learning and self-learning](https://arxiv.org/abs/2109.05664)
+    - Domain adaptation for cross-modality liver segmentation
+    - 使用domain adaptation进行肝脏的跨模态分割
+
 - [Contrastive Domain Adaptation for Question Answering using Limited Text Corpora](https://arxiv.org/abs/2108.13854)
     - Contrastive domain adaptation for QA
     - QA任务中应用对比domain adaptation
