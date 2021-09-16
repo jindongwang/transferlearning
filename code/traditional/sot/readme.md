@@ -1,6 +1,6 @@
 ## SOT (Substructural Optimal Transport)
 
-This is the implementation of SOT in Python.
+This is the implementation of SOT in Python. Please refer to the paper [Cross-domain Activity Recognition via Substructural Optimal Transport](https://arxiv.org/abs/2102.03353) for more detail.
 
 ### Requirements
 
@@ -12,11 +12,15 @@ To get more information on POT, please refer to [pot](https://pythonot.github.io
 
 ### Usage
 
-4 hyper-paramters need to be carefully set. d means the cluster numbers of the target data. reg_e corresponds to λ, reg_cl corresponds to η, and reg_ce corresponds to λ1 in the origin paper.
+4 hyper-paramters need to be carefully set:
+- `d` means the cluster numbers of the target data
+- `reg_e` corresponds to λ
+- `reg_cl` corresponds to η
+- `reg_ce` corresponds to λ1 in the origin paper.
 
 ### Demo
 
-I offer a basic demo to run on the datasets used in the paper. Download the test data [HERE](https://pan.baidu.com/s/1m-lkCklSWSreuEeBfp9GPQ). Extraction code is ```1zk9```. Run
+We offer a basic demo to run on the datasets used in the paper. Download the test data [HERE](https://pan.baidu.com/s/1m-lkCklSWSreuEeBfp9GPQ). Extraction code is ```1zk9```. Run
 ```python main.py```
 
 ### Results
@@ -43,7 +47,7 @@ SOT achieved **state-of-the-art** performances compared to a lot of traditional 
 If you use this code, please cite it as:
 
 `
-Lu W, Chen Y, Wang J, et al. Cross-domain Activity Recognition via Substructural Optimal Transport[J]. arXiv preprint arXiv:2102.03353, 2021.
+Lu W, Chen Y, Wang J, et al. Cross-domain Activity Recognition via Substructural Optimal Transport[J]. Neurocomputing, 2021.
 `
 
 Or in bibtex style:
@@ -52,7 +56,7 @@ Or in bibtex style:
 @article{lu2021cross,
   title={Cross-domain Activity Recognition via Substructural Optimal Transport},
   author={Lu, Wang and Chen, Yiqiang and Wang, Jindong and Qin, Xin},
-  journal={arXiv preprint arXiv:2102.03353},
+  journal={Neurocomputing},
   year={2021}
 }
 ```
