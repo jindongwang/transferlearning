@@ -63,6 +63,27 @@ author = {Wang, Jindong and others}
 **Latest papers**: (These papers are also put in [doc/awesome_papers.md](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md))
 
 <details>
+  <summary>Latest papers (2021-09-17)</summary>
+
+  - EMNLP-21 [Few-Shot Intent Detection via Contrastive Pre-Training and Fine-Tuning](https://arxiv.org/abs/2109.06349)
+    - Few-shot intent detection using pretrain and finetune
+    - 用迁移学习进行少样本意图检测
+
+  - EMNLP-21 [Non-Parametric Unsupervised Domain Adaptation for Neural Machine Translation](https://arxiv.org/abs/2109.06604)
+    - UDA for machine translation
+    - 用领域自适应进行机器翻译
+
+  - [KroneckerBERT: Learning Kronecker Decomposition for Pre-trained Language Models via Knowledge Distillation](https://arxiv.org/abs/2109.06243)
+    - Using Kronecker decomposition and knowledge distillation for pre-trained language models compression
+    - 用Kronecker分解和知识蒸馏来进行语言模型的压缩
+
+  - [Cross-Region Domain Adaptation for Class-level Alignment](https://arxiv.org/abs/2109.06422)
+    - Cross-region domain adaptation for class-level alignment
+    - 跨区域的领域自适应用于类级别的对齐
+
+</details>
+
+<details>
   <summary>Latest papers (2021-09-15)</summary>
 
   - [Unsupervised domain adaptation for cross-modality liver segmentation via joint adversarial learning and self-learning](https://arxiv.org/abs/2109.05664)

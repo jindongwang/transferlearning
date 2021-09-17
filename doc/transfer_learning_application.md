@@ -2,6 +2,14 @@
 
 迁移学习的应用
 
+- EMNLP-21 [Few-Shot Intent Detection via Contrastive Pre-Training and Fine-Tuning](https://arxiv.org/abs/2109.06349)
+    - Few-shot intent detection using pretrain and finetune
+    - 用迁移学习进行少样本意图检测
+
+- EMNLP-21 [Non-Parametric Unsupervised Domain Adaptation for Neural Machine Translation](https://arxiv.org/abs/2109.06604)
+  - UDA for machine translation
+  - 用领域自适应进行机器翻译
+
 - [Domain and Content Adaptive Convolution for Domain Generalization in Medical Image Segmentation](https://arxiv.org/abs/2109.05676)
     - Domain generalization for medical image segmentation
     - 领域泛化用于医学图像分割

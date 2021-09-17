@@ -119,6 +119,14 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 ## Per-training/Finetuning
 
+- EMNLP-21 [Few-Shot Intent Detection via Contrastive Pre-Training and Fine-Tuning](https://arxiv.org/abs/2109.06349)
+    - Few-shot intent detection using pretrain and finetune
+    - 用迁移学习进行少样本意图检测
+
+- [KroneckerBERT: Learning Kronecker Decomposition for Pre-trained Language Models via Knowledge Distillation](https://arxiv.org/abs/2109.06243)
+    - Using Kronecker decomposition and knowledge distillation for pre-trained language models compression
+    - 用Kronecker分解和知识蒸馏来进行语言模型的压缩
+
 - [How Does Adversarial Fine-Tuning Benefit BERT?](https://arxiv.org/abs/2108.13602)
     - Examine how does adversarial fine-tuning help BERT
     - 探索对抗性finetune如何帮助BERT
@@ -414,6 +422,14 @@ Let's read some awesome transfer learning / domain adaptation papers.
 	- 发表在IEEE Trans. Knowledge and Data Engineering期刊上
 
 ## Deep domain adaptation
+
+- [Cross-Region Domain Adaptation for Class-level Alignment](https://arxiv.org/abs/2109.06422)
+  - Cross-region domain adaptation for class-level alignment
+  - 跨区域的领域自适应用于类级别的对齐
+
+- EMNLP-21 [Non-Parametric Unsupervised Domain Adaptation for Neural Machine Translation](https://arxiv.org/abs/2109.06604)
+  - UDA for machine translation
+  - 用领域自适应进行机器翻译
 
 - [Unsupervised domain adaptation for cross-modality liver segmentation via joint adversarial learning and self-learning](https://arxiv.org/abs/2109.05664)
   - Domain adaptation for cross-modality liver segmentation
