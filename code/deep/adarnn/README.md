@@ -8,7 +8,7 @@ This project implements our paper [AdaRNN: Adaptive Learning and Forecasting for
 
 ![](https://z3.ax1x.com/2021/08/13/fslkDI.png)
 
-To use this code, you can either git clone this transferlearning repo, or if you just want to use this folder, you can go to [this site](https://minhaskamal.github.io/DownGit/#/home) to paste the url of this code (https://github.com/jindongwang/transferlearning/edit/master/code/DeepDG) and then download just this folder.
+To use this code, you can either git clone this transferlearning repo, or if you just want to use this folder, you can go to [this site](https://minhaskamal.github.io/DownGit/#/home) to paste the url of this code (https://github.com/jindongwang/transferlearning/edit/master/code/deep/adarnn) and then download just this folder.
 
 ## Requirement
 
