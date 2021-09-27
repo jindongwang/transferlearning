@@ -2,6 +2,10 @@
 
 迁移学习的应用
 
+- [Adversarial Domain Feature Adaptation for Bronchoscopic Depth Estimation](https://arxiv.org/abs/2109.11798)
+    - Adversarial domain adaptation for bronchoscopic depth estimation
+    - 用对抗领域自适应进行支气管镜的深度估计
+
 - EMNLP-21 [Few-Shot Intent Detection via Contrastive Pre-Training and Fine-Tuning](https://arxiv.org/abs/2109.06349)
     - Few-shot intent detection using pretrain and finetune
     - 用迁移学习进行少样本意图检测

@@ -63,6 +63,16 @@ author = {Wang, Jindong and others}
 **Latest papers**: (These papers are also put in [doc/awesome_papers.md](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md))
 
 <details>
+  <summary>Latest papers (2021-09-27)</summary>
+
+  - [Adversarial Domain Feature Adaptation for Bronchoscopic Depth Estimation](https://arxiv.org/abs/2109.11798)
+    - Adversarial domain adaptation for bronchoscopic depth estimation
+    - 用对抗领域自适应进行支气管镜的深度估计
+
+</details>
+
+
+<details>
   <summary>Latest papers (2021-09-17)</summary>
 
   - EMNLP-21 [Few-Shot Intent Detection via Contrastive Pre-Training and Fine-Tuning](https://arxiv.org/abs/2109.06349)
