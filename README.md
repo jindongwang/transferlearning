@@ -53,7 +53,7 @@ author = {Wang, Jindong and others}
 **Latest papers**: (All papers are also put in [doc/awesome_papers.md](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md))
 
 <details>
-  <summary>Latest papers (2021-09-29)</summary>
+  <summary>Latest papers (2021-09)</summary>
 
   - IEEE TIP-21 [Joint Clustering and Discriminative Feature Alignment for Unsupervised Domain Adaptation](https://ieeexplore.ieee.org/abstract/document/9535218)
     - Clustering and discriminative alignment for DA
@@ -63,20 +63,9 @@ author = {Wang, Jindong and others}
     - Entropy minimization versus diversity max for DA
     - 熵最小化与diversity最大化
 
-</details>
-
-<details>
-  <summary>Latest papers (2021-09-27)</summary>
-
   - [Adversarial Domain Feature Adaptation for Bronchoscopic Depth Estimation](https://arxiv.org/abs/2109.11798)
     - Adversarial domain adaptation for bronchoscopic depth estimation
     - 用对抗领域自适应进行支气管镜的深度估计
-
-</details>
-
-
-<details>
-  <summary>Latest papers (2021-09-17)</summary>
 
   - EMNLP-21 [Few-Shot Intent Detection via Contrastive Pre-Training and Fine-Tuning](https://arxiv.org/abs/2109.06349)
     - Few-shot intent detection using pretrain and finetune
@@ -94,11 +83,6 @@ author = {Wang, Jindong and others}
     - Cross-region domain adaptation for class-level alignment
     - 跨区域的领域自适应用于类级别的对齐
 
-</details>
-
-<details>
-  <summary>Latest papers (2021-09-15)</summary>
-
   - [Unsupervised domain adaptation for cross-modality liver segmentation via joint adversarial learning and self-learning](https://arxiv.org/abs/2109.05664)
     - Domain adaptation for cross-modality liver segmentation
     - 使用domain adaptation进行肝脏的跨模态分割
@@ -115,11 +99,6 @@ author = {Wang, Jindong and others}
     - Domain generalization for medical image segmentation
     - 领域泛化用于医学图像分割
 
-</details>
-
-<details>
-  <summary>Latest papers (2021-09-10)</summary>
-
   - [Class-conditioned Domain Generalization via Wasserstein Distributional Robust Optimization](https://arxiv.org/abs/2109.03676)
     - Domain generalization with wasserstein DRO
     - 使用Wasserstein DRO进行domain generalization
@@ -132,11 +111,6 @@ author = {Wang, Jindong and others}
     - Invariant gradient variances for OOD generalization
     - 不变梯度方差，用于OOD
 
-</details>
-
-<details>
-  <summary>Latest papers (2021-09-01)</summary>
-
   - [How Does Adversarial Fine-Tuning Benefit BERT?](https://arxiv.org/abs/2108.13602)
     - Examine how does adversarial fine-tuning help BERT
     - 探索对抗性finetune如何帮助BERT
@@ -148,7 +122,7 @@ author = {Wang, Jindong and others}
 </details>
 
 <details>
-  <summary>Latest papers (2021-08-24)</summary>
+  <summary>Latest papers (2021-08)</summary>
 
   - [Robust Ensembling Network for Unsupervised Domain Adaptation](https://arxiv.org/abs/2108.09473)
     - Ensembling network for domain adaptation
@@ -158,11 +132,6 @@ author = {Wang, Jindong and others}
     - Federated multi-task learning
     - 联邦多任务学习
 
-</details>
-
-<details>
-  <summary>Latest papers (2021-08-19)</summary>
-
   - [Fine-tuning is Fine in Federated Learning](http://arxiv.org/abs/2108.07313)
     - Finetuning in federated learning
     - 在联邦学习中进行finetune
@@ -170,11 +139,6 @@ author = {Wang, Jindong and others}
   - [Federated Multi-Target Domain Adaptation](http://arxiv.org/abs/2108.07792)
     - Federated multi-target DA
     - 联邦学习场景下的多目标DA
-
-</details>
-
-<details>
-  <summary>Latest papers (2021-08-16)</summary>
 
   - [Learning Transferable Parameters for Unsupervised Domain Adaptation](https://arxiv.org/abs/2108.06129)
     - Learning partial transfer parameters for DA
@@ -188,19 +152,9 @@ author = {Wang, Jindong and others}
     - Vision transformer for domain adaptation
     - 用视觉transformer进行DA
 
-</details>
-
-<details>
-  <summary>Latest papers (2021-08-12)</summary>
-
   - CIKM-21 [AdaRNN: Adaptive Learning and Forecasting of Time Series](https://arxiv.org/abs/2108.04443) [Code](https://github.com/jindongwang/transferlearning/tree/master/code/deep/adarnn) [知乎文章](https://zhuanlan.zhihu.com/p/398036372) [Video](https://www.bilibili.com/video/BV1Gh411B7rj/)
     - A new perspective to using transfer learning for time series analysis
     - 一种新的建模时间序列的迁移学习视角
-
-</details>
-
-<details>
-  <summary>Latest papers (2021-08-10)</summary>
 
   - TKDE-21 [Unsupervised Deep Anomaly Detection for Multi-Sensor Time-Series Signals](https://arxiv.org/abs/2107.12626)
     - Anomaly detection using semi-supervised and transfer learning
@@ -218,11 +172,6 @@ author = {Wang, Jindong and others}
     - A survey on cross-domain recommendation
     - 跨领域的推荐的综述
 
-</details>
-
-<details>
-  <summary>Latest papers (2021-08-09)</summary>
-
   - [A Data Augmented Approach to Transfer Learning for Covid-19 Detection](https://arxiv.org/abs/2108.02870)
     - Data augmentation to transfer learning for COVID
     - 迁移学习使用数据增强，用于COVID-19
@@ -235,20 +184,9 @@ author = {Wang, Jindong and others}
     - Prototype transfer and structure regularization
     - 原型的迁移学习
 
-
-</details>
-
-<details>
-  <summary>Latest papers (2021-08-06)</summary>
-
   - [Finetuning Pretrained Transformers into Variational Autoencoders](https://arxiv.org/abs/2108.02446)
     - Finetune transformer to VAE
     - 把transformer迁移到VAE
-
-</details>
-
-<details>
-  <summary>Latest papers (2021-08-05)</summary>
 
   - [Pre-trained Models for Sonar Images](http://arxiv.org/abs/2108.01111)
     - Pre-trained models for sonar images
@@ -261,7 +199,7 @@ author = {Wang, Jindong and others}
 </details>
 
 <details>
-  <summary>Latest papers (2021-07-30)</summary>
+  <summary>Latest papers (2021-07)</summary>
 
   - CVPR-21 [Efficient Conditional GAN Transfer With Knowledge Propagation Across Classes](https://openaccess.thecvf.com/content/CVPR2021/html/Shahbazi_Efficient_Conditional_GAN_Transfer_With_Knowledge_Propagation_Across_Classes_CVPR_2021_paper.html)
     - Transfer conditional GANs to unseen classes
@@ -271,11 +209,6 @@ author = {Wang, Jindong and others}
     - Transfer learning from third-person to first-person video
     - 从第三人称视频迁移到第一人称
 
-</details>
-
-<details>
-  <summary>Latest papers (2021-07-28)</summary>
-
   - [Toward Co-creative Dungeon Generation via Transfer Learning](http://arxiv.org/abs/2107.12533)
     - Game scene generation with transfer learning
     - 用迁移学习生成游戏场景
@@ -283,11 +216,6 @@ author = {Wang, Jindong and others}
   - [Transfer Learning in Electronic Health Records through Clinical Concept Embedding](https://arxiv.org/abs/2107.12919)
     - Transfer learning in electronic health record
     - 迁移学习用于医疗记录管理
-
-</details>
-
-<details>
-  <summary>Latest papers (2021-07-27)</summary>
 
   - CVPR-21 [Conditional Bures Metric for Domain Adaptation](https://openaccess.thecvf.com/content/CVPR2021/html/Luo_Conditional_Bures_Metric_for_Domain_Adaptation_CVPR_2021_paper.html)
     - A new metric for domain adaptation
@@ -312,11 +240,6 @@ author = {Wang, Jindong and others}
   - CVPR-21 [Adaptive Methods for Real-World Domain Generalization](https://openaccess.thecvf.com/content/CVPR2021/html/Dubey_Adaptive_Methods_for_Real-World_Domain_Generalization_CVPR_2021_paper.html)
     - Adaptive methods for domain generalization
     - 动态算法，用于domain generalization
-
-</details>
-
-<details>
-  <summary>Latest papers (2021-07-16)</summary>
 
   - 20210716 ICML-21 [Continual Learning in the Teacher-Student Setup: Impact of Task Similarity](https://arxiv.org/abs/2107.04384)
     - Investigating task similarity in teacher-student learning
