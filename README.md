@@ -3,10 +3,30 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![MIT License](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE) [![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
 
+<h1 align="center">
+  <br>
+  <img src="png/logo.jpg" alt="Overleaf" width="500">
+</h1>
 
-Everything about Transfer Learning (Probably the **most complete** repository?). *Your contribution is highly valued!* If you find this repo helpful, please cite it as follows:
+<h4 align="center">Everything about Transfer Learning.</h4>
 
-关于迁移学习的所有资料，包括：介绍、综述文章、最新文章、代表工作及其代码、常用数据集、硕博士论文、比赛等等。(可能是**目前最全**的迁移学习资料库？) *欢迎一起贡献！* 如果认为本仓库有用，请在你的论文和其他出版物中进行引用！ 
+<p align="center">
+  <a href="#0papers-论文">Papers</a> •
+  <a href="#1introduction-and-tutorials-简介与教程">Tutorials</a> •
+  <a href="#2transfer-learning-areas-and-papers-研究领域与相关论文">Research areas</a> •
+  <a href="#3theory-and-survey-理论与综述">Theory</a> •
+  <a href="#3theory-and-survey-理论与综述">Survey</a> •
+  <a href="#4code-代码">Code</a> •
+  <a href="#7datasets-and-benchmarks-数据集与评测结果">Dataset & benchmark</a>
+</p>
+<p align="center">
+<a href="#6transfer-learning-thesis-硕博士论文">Thesis</a> •
+  <a href="#5transfer-learning-scholars-著名学者">Scholars</a> •
+  <a href="#8transfer-learning-challenges-迁移学习比赛">Contests</a> •
+  <a href="#applications-迁移学习应用">Applications</a> •
+  <a href="#other-resources-其他资源">Others</a> •
+  <a href="#contributing-欢迎参与贡献">Contributing</a>
+</p>
 
 ```
 @Misc{transferlearning.xyz,
@@ -16,37 +36,7 @@ author = {Wang, Jindong and others}
 }  
 ```
 
-<table>
-    <tr>
-        <td>Contents</td>
-    </tr>
-    <tr>
-        <td><a href="#0papers-论文">0.Papers (论文)</a></td>
-        <td><a href="#1introduction-and-tutorials-简介与教程">1.Introduction and Tutorials (简介与教程)</a></td>
-    </tr>
-    <tr>
-        <td><a href="#2transfer-learning-areas-and-papers-研究领域与相关论文">2.Transfer Learning Areas and Papers (研究领域与相关论文)</a></td>
-        <td><a href="#3theory-and-survey-理论与综述">3.Theory and Survey (理论与综述)</a></td>
-    </tr>
-    <tr>
-        <td><a href="#4code-代码">4.Code (代码)</a></td>
-        <td><a href="#5transfer-learning-scholars-著名学者">5.Transfer Learning Scholars (著名学者)</a></td>
-    </tr>
-    <tr>
-        <td><a href="#6transfer-learning-thesis-硕博士论文">6.Transfer Learning Thesis (硕博士论文)</a></td>
-        <td><a href="#7datasets-and-benchmarks-数据集与评测结果">7.Datasets and Benchmarks (数据集与评测结果)</a></td>
-    </tr>
-    <tr>
-        <td><a href="#8transfer-learning-challenges-迁移学习比赛">8.Transfer Learning Challenges (迁移学习比赛)</a></td>
-        <td><a href="#applications-迁移学习应用">Applications (迁移学习应用)</a></td>
-    </tr>
-    <tr>
-        <td><a href="#other-resources-其他资源">Other Resources (其他资源)</a></td>
-        <td><a href="#contributing-欢迎参与贡献">Contributing (欢迎参与贡献)</a></td>
-    </tr>
-</table>
-
-> 关于机器学习和行为识别的资料，请参考：[行为识别](https://github.com/jindongwang/activityrecognition)｜[机器学习](https://github.com/jindongwang/MachineLearning)
+> More related repos：[Activity recognition](https://github.com/jindongwang/activityrecognition)｜[Machine learning](https://github.com/jindongwang/MachineLearning)
 
 - - -
 
@@ -54,13 +44,13 @@ author = {Wang, Jindong and others}
 
 ## 0.Papers (论文)
 
+[Awesome transfer learning papers (迁移学习文章汇总)](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
+
 - Arxitics: a good website to see the latest arXiv papers: [Transfer learning](http://arxitics.com/search?q=transfer%20learning&sort=updated#1904.01376/abstract), [Domain adaptation](http://arxitics.com/search?q=domain%20adaptation&sort=updated)
 
 - [Paperweekly](http://www.paperweekly.site/collections/231/papers): A good website to recommend and read paper notes (一个推荐、分享论文的网站比较好，上面会持续整理相关的文章并分享阅读笔记)
 
-- [Awesome transfer learning papers (迁移学习文章汇总)](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
-
-**Latest papers**: (These papers are also put in [doc/awesome_papers.md](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md))
+**Latest papers**: (All papers are also put in [doc/awesome_papers.md](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md))
 
 <details>
   <summary>Latest papers (2021-09-29)</summary>
