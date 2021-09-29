@@ -40,7 +40,7 @@ author = {Wang, Jindong and others}
 
 - - -
 
-**NOTE:** You can directly open the code in Gihub Codespaces on the web to run them without downloading!
+**NOTE:** You can directly open the code in [Gihub Codespaces](https://docs.github.com/en/codespaces/getting-started/quickstart#introduction) on the web to run them without downloading!
 
 ## 0.Papers (论文)
 
