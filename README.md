@@ -63,6 +63,19 @@ author = {Wang, Jindong and others}
 **Latest papers**: (These papers are also put in [doc/awesome_papers.md](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md))
 
 <details>
+  <summary>Latest papers (2021-09-29)</summary>
+
+  - IEEE TIP-21 [Joint Clustering and Discriminative Feature Alignment for Unsupervised Domain Adaptation](https://ieeexplore.ieee.org/abstract/document/9535218)
+    - Clustering and discriminative alignment for DA
+    - 聚类与判定式对齐用于DA
+
+  - IEEE TNNLS-21 [Entropy Minimization Versus Diversity Maximization for Domain Adaptation](https://ieeexplore.ieee.org/abstract/document/9537640)
+    - Entropy minimization versus diversity max for DA
+    - 熵最小化与diversity最大化
+
+</details>
+
+<details>
   <summary>Latest papers (2021-09-27)</summary>
 
   - [Adversarial Domain Feature Adaptation for Bronchoscopic Depth Estimation](https://arxiv.org/abs/2109.11798)

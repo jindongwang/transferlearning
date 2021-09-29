@@ -423,6 +423,14 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 ## Deep domain adaptation
 
+- IEEE TIP-21 [Joint Clustering and Discriminative Feature Alignment for Unsupervised Domain Adaptation](https://ieeexplore.ieee.org/abstract/document/9535218)
+  - Clustering and discriminative alignment for DA
+  - 聚类与判定式对齐用于DA
+
+- IEEE TNNLS-21 [Entropy Minimization Versus Diversity Maximization for Domain Adaptation](https://ieeexplore.ieee.org/abstract/document/9537640)
+  - Entropy minimization versus diversity max for DA
+  - 熵最小化与diversity最大化
+
 - [Cross-Region Domain Adaptation for Class-level Alignment](https://arxiv.org/abs/2109.06422)
   - Cross-region domain adaptation for class-level alignment
   - 跨区域的领域自适应用于类级别的对齐
