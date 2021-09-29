@@ -11,13 +11,13 @@
 <h4 align="center">Everything about Transfer Learning.</h4>
 
 <p align="center">
-  <a href="#0papers-论文">Papers</a> •
-  <a href="#1introduction-and-tutorials-简介与教程">Tutorials</a> •
+  <strong><a href="#0papers-论文">Papers</a></strong> •
+  <strong><a href="#1introduction-and-tutorials-简介与教程">Tutorials</a></strong> •
   <a href="#2transfer-learning-areas-and-papers-研究领域与相关论文">Research areas</a> •
   <a href="#3theory-and-survey-理论与综述">Theory</a> •
   <a href="#3theory-and-survey-理论与综述">Survey</a> •
-  <a href="#4code-代码">Code</a> •
-  <a href="#7datasets-and-benchmarks-数据集与评测结果">Dataset & benchmark</a>
+  <strong><a href="#4code-代码">Code</a></strong> •
+  <strong><a href="#7datasets-and-benchmarks-数据集与评测结果">Dataset & benchmark</a></strong>
 </p>
 <p align="center">
 <a href="#6transfer-learning-thesis-硕博士论文">Thesis</a> •
