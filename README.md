@@ -53,6 +53,27 @@ author = {Wang, Jindong and others}
 **Latest papers**: (All papers are also put in [doc/awesome_papers.md](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md))
 
 <details>
+  <summary>Latest papers (2021-10-11)</summary>
+
+  - NeurIPS-21 [Model Adaptation: Historical Contrastive Learning for Unsupervised Domain Adaptation without Source Data](http://arxiv.org/abs/2110.03374)
+    - Source-free domain adaptation using constrastive learning
+    - 无源域数据的DA，利用对比学习
+
+  - [Understanding Domain Randomization for Sim-to-real Transfer](http://arxiv.org/abs/2110.03239)
+    - Understanding domain randomizationfor sim-to-real transfer
+    - 对强化学习中的sim-to-real transfer进行理论上的分析
+
+  - [Dynamically Decoding Source Domain Knowledge For Unseen Domain Generalization](http://arxiv.org/abs/2110.03027)
+    - Ensemble learning for domain generalization
+    - 用集成学习进行domain generalization
+
+  - [Scale Invariant Domain Generalization Image Recapture Detection](http://arxiv.org/abs/2110.03496)
+    - Scale invariant domain generalizaiton
+    - 尺度不变的domain generalization
+
+</details>
+
+<details>
   <summary>Latest papers (2021-09)</summary>
 
   - IEEE TIP-21 [Joint Clustering and Discriminative Feature Alignment for Unsupervised Domain Adaptation](https://ieeexplore.ieee.org/abstract/document/9535218)

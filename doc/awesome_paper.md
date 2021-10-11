@@ -1264,6 +1264,14 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 ## Domain generalization
 
+- [Dynamically Decoding Source Domain Knowledge For Unseen Domain Generalization](http://arxiv.org/abs/2110.03027)
+  - Ensemble learning for domain generalization
+  - 用集成学习进行domain generalization
+
+- [Scale Invariant Domain Generalization Image Recapture Detection](http://arxiv.org/abs/2110.03496)
+  - Scale invariant domain generalizaiton
+  - 尺度不变的domain generalization
+
 - ICCV-21 [Shape-Biased Domain Generalization via Shock Graph Embeddings](https://arxiv.org/abs/2109.05671)
   - Domain generalization based on shape information
   - 基于形状进行domain generalization
@@ -1347,6 +1355,10 @@ Let's read some awesome transfer learning / domain adaptation papers.
 - - -
 
 ## Source-free domain adaptation
+
+- NeurIPS-21 [Model Adaptation: Historical Contrastive Learning for Unsupervised Domain Adaptation without Source Data](http://arxiv.org/abs/2110.03374)
+    - Source-free domain adaptation using constrastive learning
+    - 无源域数据的DA，利用对比学习
 
 - 20200706 [Domain Adaptation without Source Data](https://arxiv.org/abs/2007.01524)
 
@@ -1652,6 +1664,10 @@ Let's read some awesome transfer learning / domain adaptation papers.
 - - -
 
 ## Transfer reinforcement learning
+
+- [Understanding Domain Randomization for Sim-to-real Transfer](http://arxiv.org/abs/2110.03239)
+    - Understanding domain randomizationfor sim-to-real transfer
+    - 对强化学习中的sim-to-real transfer进行理论上的分析
 
 - 20191214 arXiv [Does Knowledge Transfer Always Help to Learn a Better Policy?](https://arxiv.org/abs/1912.02986)
     - Transfer learning in reinforcement learning
