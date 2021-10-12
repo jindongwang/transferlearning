@@ -46,8 +46,6 @@ author = {Wang, Jindong and others}
 
 [Awesome transfer learning papers (迁移学习文章汇总)](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
-- Arxitics: a good website to see the latest arXiv papers: [Transfer learning](http://arxitics.com/search?q=transfer%20learning&sort=updated#1904.01376/abstract), [Domain adaptation](http://arxitics.com/search?q=domain%20adaptation&sort=updated)
-
 - [Paperweekly](http://www.paperweekly.site/collections/231/papers): A good website to recommend and read paper notes (一个推荐、分享论文的网站比较好，上面会持续整理相关的文章并分享阅读笔记)
 
 **Latest papers**: (All papers are also put in [doc/awesome_papers.md](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md))
