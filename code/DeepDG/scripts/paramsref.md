@@ -1,4 +1,4 @@
-## We offer a hyperparameter reference for our method.
+## We offer a hyperparameter reference for our implementations.
 
 ### Common hyperparameters
 * max_epoch:120
