@@ -14,12 +14,11 @@ class GroupDRO(ERM):
         self.args=args
 
     def update(self, minibatches, opt,sch):
-        device = minibatches[0][0].device
 
         if not len(self.q):
-            self.q = torch.ones(len(minibatches)).to(device)
+            self.q = torch.ones(len(minibatches)).cuda()
 
-        losses = torch.zeros(len(minibatches)).to(device)
+        losses = torch.zeros(len(minibatches)).cuda()
 
         for m in range(len(minibatches)):
             x, y = minibatches[m][0].cuda().float(),minibatches[m][1].cuda().long()

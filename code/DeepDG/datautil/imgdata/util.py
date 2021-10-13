@@ -19,6 +19,8 @@ def image_train(dataset, resize_size=256, crop_size=224):
         transforms.Resize((resize_size, resize_size)),
         transforms.RandomCrop(crop_size),
         transforms.RandomHorizontalFlip(),
+        transforms.ColorJitter(0.3, 0.3, 0.3, 0.3),
+        transforms.RandomGrayscale(),
         transforms.ToTensor(),
         normalize
     ])
