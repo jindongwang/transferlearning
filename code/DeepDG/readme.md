@@ -81,7 +81,7 @@ It is easy to design your own method following the steps:
 
 ## Results
 
-We present results of our implementations on 2 popular benchmarks: PACS and Office-Home. We did not perform careful parameter tuning. You can easily reproduce our results!
+We present results of our implementations on 2 popular benchmarks: PACS and Office-Home. We did not perform careful parameter tuning. You can easily reproduce our results using the hyperparameters [here](https://github.com/jindongwang/transferlearning/blob/master/code/DeepDG/scripts/paramsref.md).
 
 1. Results on PACS (resnet-18)
 
