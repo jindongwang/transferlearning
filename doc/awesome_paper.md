@@ -119,6 +119,10 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 ## Per-training/Finetuning
 
+- [Rethinking supervised pre-training for better downstream transferring](https://arxiv.org/abs/2110.06014)
+    - Rethink better finetune
+    - 重新思考预训练以便更好finetune
+
 - EMNLP-21 [Few-Shot Intent Detection via Contrastive Pre-Training and Fine-Tuning](https://arxiv.org/abs/2109.06349)
     - Few-shot intent detection using pretrain and finetune
     - 用迁移学习进行少样本意图检测

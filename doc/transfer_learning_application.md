@@ -2,6 +2,10 @@
 
 迁移学习的应用
 
+- [Music Sentiment Transfer](https://arxiv.org/abs/2110.05765)
+    - Music sentiment transfer learning
+    - 迁移学习用于音乐sentiment
+
 - [Adversarial Domain Feature Adaptation for Bronchoscopic Depth Estimation](https://arxiv.org/abs/2109.11798)
     - Adversarial domain adaptation for bronchoscopic depth estimation
     - 用对抗领域自适应进行支气管镜的深度估计

@@ -51,6 +51,19 @@ author = {Wang, Jindong and others}
 **Latest papers**: (All papers are also put in [doc/awesome_papers.md](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md))
 
 <details>
+  <summary>Latest papers (2021-10-14)</summary>
+
+  - [Rethinking supervised pre-training for better downstream transferring](https://arxiv.org/abs/2110.06014)
+    - Rethink better finetune
+    - 重新思考预训练以便更好finetune
+
+  - [Music Sentiment Transfer](https://arxiv.org/abs/2110.05765)
+    - Music sentiment transfer learning
+    - 迁移学习用于音乐sentiment
+
+</details>
+
+<details>
   <summary>Latest papers (2021-10-11)</summary>
 
   - NeurIPS-21 [Model Adaptation: Historical Contrastive Learning for Unsupervised Domain Adaptation without Source Data](http://arxiv.org/abs/2110.03374)
