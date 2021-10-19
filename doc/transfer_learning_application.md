@@ -2,6 +2,10 @@
 
 迁移学习的应用
 
+- NeurIPS-21 [FlexMatch: Boosting Semi-Supervised Learning with Curriculum Pseudo Labeling](https://arxiv.org/abs/2110.08263) [知乎解读](https://zhuanlan.zhihu.com/p/422930830) [code](https://github.com/TorchSSL/TorchSSL)
+    - Curriculum pseudo label with a unified codebase TorchSSL
+    - 半监督方法FlexMatch和统一算法库TorchSSL
+
 - [Music Sentiment Transfer](https://arxiv.org/abs/2110.05765)
     - Music sentiment transfer learning
     - 迁移学习用于音乐sentiment

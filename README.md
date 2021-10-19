@@ -51,6 +51,15 @@ author = {Wang, Jindong and others}
 **Latest papers**: (All papers are also put in [doc/awesome_papers.md](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md))
 
 <details>
+  <summary>Latest papers (2021-10-19)</summary>
+
+  - NeurIPS-21 [FlexMatch: Boosting Semi-Supervised Learning with Curriculum Pseudo Labeling](https://arxiv.org/abs/2110.08263) [知乎解读](https://zhuanlan.zhihu.com/p/422930830) [code](https://github.com/TorchSSL/TorchSSL)
+    - Curriculum pseudo label with a unified codebase TorchSSL
+    - 半监督方法FlexMatch和统一算法库TorchSSL
+
+</details>
+
+<details>
   <summary>Latest papers (2021-10-14)</summary>
 
   - [Rethinking supervised pre-training for better downstream transferring](https://arxiv.org/abs/2110.06014)
