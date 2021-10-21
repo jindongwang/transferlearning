@@ -51,6 +51,19 @@ author = {Wang, Jindong and others}
 **Latest papers**: (All papers are also put in [doc/awesome_papers.md](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md))
 
 <details>
+  <summary>Latest papers (2021-10-21)</summary>
+
+  - WACV-21 [Domain Generalization through Audio-Visual Relative Norm Alignment in First Person Action Recognition](https://arxiv.org/abs/2110.10101)
+    - Domain generalization by audio-visual alignment
+    - 通过音频-视频对齐进行domain generalization
+
+  - BMVC-21 [Dynamic Feature Alignment for Semi-supervised Domain Adaptation](https://arxiv.org/abs/2110.09641)
+    - Dynamic feature alignment for semi-supervised DA
+    - 动态特征对齐用于半监督DA
+
+</details>
+
+<details>
   <summary>Latest papers (2021-10-19)</summary>
 
   - NeurIPS-21 [FlexMatch: Boosting Semi-Supervised Learning with Curriculum Pseudo Labeling](https://arxiv.org/abs/2110.08263) [知乎解读](https://zhuanlan.zhihu.com/p/422930830) [code](https://github.com/TorchSSL/TorchSSL)

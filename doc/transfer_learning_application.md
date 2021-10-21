@@ -2,6 +2,10 @@
 
 迁移学习的应用
 
+- WACV-21 [Domain Generalization through Audio-Visual Relative Norm Alignment in First Person Action Recognition](https://arxiv.org/abs/2110.10101)
+    - Domain generalization by audio-visual alignment
+    - 通过音频-视频对齐进行domain generalization
+
 - NeurIPS-21 [FlexMatch: Boosting Semi-Supervised Learning with Curriculum Pseudo Labeling](https://arxiv.org/abs/2110.08263) [知乎解读](https://zhuanlan.zhihu.com/p/422930830) [code](https://github.com/TorchSSL/TorchSSL)
     - Curriculum pseudo label with a unified codebase TorchSSL
     - 半监督方法FlexMatch和统一算法库TorchSSL

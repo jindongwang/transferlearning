@@ -427,6 +427,10 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 ## Deep domain adaptation
 
+- BMVC-21 [Dynamic Feature Alignment for Semi-supervised Domain Adaptation](https://arxiv.org/abs/2110.09641)
+    - Dynamic feature alignment for semi-supervised DA
+    - 动态特征对齐用于半监督DA
+
 - IEEE TIP-21 [Joint Clustering and Discriminative Feature Alignment for Unsupervised Domain Adaptation](https://ieeexplore.ieee.org/abstract/document/9535218)
   - Clustering and discriminative alignment for DA
   - 聚类与判定式对齐用于DA
@@ -1267,6 +1271,10 @@ Let's read some awesome transfer learning / domain adaptation papers.
 - - -
 
 ## Domain generalization
+
+- WACV-21 [Domain Generalization through Audio-Visual Relative Norm Alignment in First Person Action Recognition](https://arxiv.org/abs/2110.10101)
+    - Domain generalization by audio-visual alignment
+    - 通过音频-视频对齐进行domain generalization
 
 - [Dynamically Decoding Source Domain Knowledge For Unseen Domain Generalization](http://arxiv.org/abs/2110.03027)
   - Ensemble learning for domain generalization
