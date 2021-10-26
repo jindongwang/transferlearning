@@ -427,6 +427,10 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 ## Deep domain adaptation
 
+- [Domain Adaptation for Rare Classes Augmented with Synthetic Samples](https://arxiv.org/abs/2110.12216)
+    - Domain adaptation for rare class
+    - 稀疏类的domain adaptation
+
 - BMVC-21 [Dynamic Feature Alignment for Semi-supervised Domain Adaptation](https://arxiv.org/abs/2110.09641)
     - Dynamic feature alignment for semi-supervised DA
     - 动态特征对齐用于半监督DA
@@ -1676,6 +1680,10 @@ Let's read some awesome transfer learning / domain adaptation papers.
 - - -
 
 ## Transfer reinforcement learning
+
+- NeurIPS-21 [Unsupervised Domain Adaptation with Dynamics-Aware Rewards in Reinforcement Learning](https://arxiv.org/abs/2110.12997)
+    - Domain adaptation in reinforcement learning
+    - 在强化学习中应用domain adaptation
 
 - [Understanding Domain Randomization for Sim-to-real Transfer](http://arxiv.org/abs/2110.03239)
     - Understanding domain randomizationfor sim-to-real transfer

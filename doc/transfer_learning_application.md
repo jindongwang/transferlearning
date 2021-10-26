@@ -18,6 +18,22 @@ By reverse chronological order.
 
 ## Computer vision
 
+- BMVC-21 [SILT: Self-supervised Lighting Transfer Using Implicit Image Decomposition](https://arxiv.org/abs/2110.12914)
+    - Lighting transfer using implicit image decomposition
+    - 用隐式图像分解进行光照迁移
+
+- [Domain Adaptation in Multi-View Embedding for Cross-Modal Video Retrieval](https://arxiv.org/abs/2110.12812)
+  - Domain adaptation for cross-modal video retrieval
+  - 用领域自适应进行跨模态的视频检索
+
+- [Age and Gender Prediction using Deep CNNs and Transfer Learning](https://arxiv.org/abs/2110.12633)
+  - Age and gender prediction using transfer learning
+  - 用迁移学习进行年龄和性别预测
+
+- WACV-22 [AuxAdapt: Stable and Efficient Test-Time Adaptation for Temporally Consistent Video Semantic Segmentation](https://arxiv.org/abs/2110.12369)
+    - Test-time adaptation for video semantic segmentation
+    - 测试时adaptation用于视频语义分割
+
 - NeurIPS-21 [FlexMatch: Boosting Semi-Supervised Learning with Curriculum Pseudo Labeling](https://arxiv.org/abs/2110.08263) [知乎解读](https://zhuanlan.zhihu.com/p/422930830) [code](https://github.com/TorchSSL/TorchSSL)
     - Curriculum pseudo label with a unified codebase TorchSSL
     - 半监督方法FlexMatch和统一算法库TorchSSL

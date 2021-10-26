@@ -48,6 +48,35 @@ author = {Wang, Jindong and others}
 **Latest papers**: (All papers are also put in [doc/awesome_papers.md](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md))
 
 <details>
+  <summary>Latest papers (2021-10-26)</summary>
+
+  - BMVC-21 [SILT: Self-supervised Lighting Transfer Using Implicit Image Decomposition](https://arxiv.org/abs/2110.12914)
+    - Lighting transfer using implicit image decomposition
+    - 用隐式图像分解进行光照迁移
+
+  - [Domain Adaptation in Multi-View Embedding for Cross-Modal Video Retrieval](https://arxiv.org/abs/2110.12812)
+    - Domain adaptation for cross-modal video retrieval
+    - 用领域自适应进行跨模态的视频检索
+
+  - [Age and Gender Prediction using Deep CNNs and Transfer Learning](https://arxiv.org/abs/2110.12633)
+    - Age and gender prediction using transfer learning
+    - 用迁移学习进行年龄和性别预测
+
+  - [Domain Adaptation for Rare Classes Augmented with Synthetic Samples](https://arxiv.org/abs/2110.12216)
+    - Domain adaptation for rare class
+    - 稀疏类的domain adaptation
+
+  - WACV-22 [AuxAdapt: Stable and Efficient Test-Time Adaptation for Temporally Consistent Video Semantic Segmentation](https://arxiv.org/abs/2110.12369)
+    - Test-time adaptation for video semantic segmentation
+    - 测试时adaptation用于视频语义分割
+
+  - NeurIPS-21 [Unsupervised Domain Adaptation with Dynamics-Aware Rewards in Reinforcement Learning](https://arxiv.org/abs/2110.12997)
+    - Domain adaptation in reinforcement learning
+    - 在强化学习中应用domain adaptation
+
+</details>
+
+<details>
   <summary>Latest papers (2021-10-21)</summary>
 
   - WACV-21 [Domain Generalization through Audio-Visual Relative Norm Alignment in First Person Action Recognition](https://arxiv.org/abs/2110.10101)
