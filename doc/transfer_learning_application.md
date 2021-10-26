@@ -2,6 +2,14 @@
 
 迁移学习的应用
 
+- WSDM-22 [Personalized Transfer of User Preferences for Cross-domain Recommendation](https://arxiv.org/pdf/2110.11154.pdf) [code](https://github.com/easezyc/WSDM2022-PTUPCDR) 
+    - Personalized Transfer of User Preferences by meta learner for cross-domain recommendation.
+    - 使用元学习器个性化迁移用户兴趣偏好，用于跨领域推荐
+
+- SIGIR-21 [Transfer-Meta Framework for Cross-domain Recommendation to Cold-Start Users](https://arxiv.org/abs/2105.04785)
+    - A Transfer-Meta Training Framework for cross-domain recommendation
+    - 一种新的迁移-元学习训练框架用于跨领域推荐
+
 - WACV-21 [Domain Generalization through Audio-Visual Relative Norm Alignment in First Person Action Recognition](https://arxiv.org/abs/2110.10101)
     - Domain generalization by audio-visual alignment
     - 通过音频-视频对齐进行domain generalization

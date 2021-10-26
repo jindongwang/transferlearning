@@ -135,11 +135,10 @@ To run it instantly without any configuration, I also put it to Google's Colab: 
 
 ## Applications
 
+- **PTUPCDR** Personalized Transfer of User Preferences for Cross-domain Recommendation (WSDM-22) [86] [Pytorch](https://github.com/easezyc/WSDM2022-PTUPCDR) 
 - Learning to select data for transfer learning with Bayesian Optimization (EMNLP-17) [69] [Python](https://github.com/sebastianruder/learn-to-select-data)
 - **SDG4DA** (Reinforced Training Data Selection for Domain Adaptation, ACL-19) [70] [Tensorflow](https://github.com/timerstime/SDG4DA)
-
 - **CMatch** (Cross-domain Speech Recognition with Unsupervised Character-level Distribution Matching, arXiv-21) [83] [Pytorch](https://github.com/jindongwang/transferlearning/tree/master/code/ASR/CMatch)
-
 - **Adapter** for speech recognition (Adapter-based Cross-lingual ASR with EasyEspnet) [Pytorch](https://github.com/jindongwang/transferlearning/tree/master/code/ASR/Adapter) [85]
 
 - - -
@@ -315,3 +314,5 @@ accepted in International Conference on Computer Vision (ICCV 2015), Santiago, C
 [84] Lu W, Chen Y, Wang J, et al. Cross-domain Activity Recognition via Substructural Optimal Transport[J]. arXiv preprint arXiv:2102.03353, 2021.
 
 [85] Hou W, Zhu H, Wang Y, et al. Exploiting Adapters for Cross-lingual Low-resource Speech Recognition[J]. arXiv preprint arXiv:2105.11905, 2021.
+
+[86] Yongchun Zhu, ZhenWei Tang, Yudan Liu, et al. Personalized Transfer of User Preferences for Cross-domain Recommendation[C]. WSDM, 2022.
