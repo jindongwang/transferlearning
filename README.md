@@ -17,9 +17,10 @@
   <strong><a href="#7datasets-and-benchmarks-数据集与评测结果">Dataset & benchmark</a></strong>
 </p>
 <p align="center">
-<a href="#6transfer-learning-thesis-硕博士论文">Thesis</a> •
+  <a href="#6transfer-learning-thesis-硕博士论文">Thesis</a> •
   <a href="#5transfer-learning-scholars-著名学者">Scholars</a> •
   <a href="#8transfer-learning-challenges-迁移学习比赛">Contests</a> •
+  <a href="#journals-and-conferences">Journal/conference</a> •
   <a href="#applications-迁移学习应用">Applications</a> •
   <a href="#other-resources-其他资源">Others</a> •
   <a href="#contributing-欢迎参与贡献">Contributing</a>
@@ -33,7 +34,7 @@ author = {Wang, Jindong and others}
 }  
 ```
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![MIT License](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT) [![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE) [![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu) More related repos：[Activity recognition](https://github.com/jindongwang/activityrecognition)｜[Machine learning](https://github.com/jindongwang/MachineLearning)
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![MIT License](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT) [![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE) [![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu) Related repos：[Activity recognition](https://github.com/jindongwang/activityrecognition)｜[Machine learning](https://github.com/jindongwang/MachineLearning)
 
 - - -
 
@@ -503,6 +504,12 @@ Please see [HERE](https://github.com/jindongwang/transferlearning/blob/master/da
 ## 8.Transfer Learning Challenges (迁移学习比赛)
 
 - [Visual Domain Adaptation Challenge (VisDA)](http://ai.bu.edu/visda-2018/)
+
+- - -
+
+## Journals and Conferences
+
+See [here](https://github.com/jindongwang/transferlearning/blob/master/doc/venues.md) for a full list of related journals and conferences.
 
 - - -
 
