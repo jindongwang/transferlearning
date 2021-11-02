@@ -373,13 +373,14 @@ Want to quickly learn transfer learning？想尽快入门迁移学习？看下�
 
 - Books 书籍
   - **《迁移学习》（杨强）** [[Buy](https://item.jd.com/12930984.html)] [[English version](https://www.cambridge.org/core/books/transfer-learning/CCFFAFE3CDBC245047F1DEC71D9EF3C7)]
-  - **《迁移学习导论》Introduction to Transfer Learning** [[Homepage](http://jd92.wang/tlbook)] [[Buy](https://item.jd.com/13283188.html)]
+  - **《迁移学习导论》(王晋东、陈益强著))** [[Homepage](http://jd92.wang/tlbook)] [[Buy](https://item.jd.com/13283188.html)]
 
 - Blogs 博客
   - [Zhihu blogs - 知乎专栏《小王爱迁移》系列文章](https://zhuanlan.zhihu.com/p/130244395)
 	
 - Video tutorials 视频教程 
   - [Recent advance of transfer learning - 2021年最新迁移学习发展现状探讨](https://www.bilibili.com/video/BV1N5411T7Sb)
+  - [Definitions of transfer learning area - 迁移学习领域名词解释](https://www.bilibili.com/video/BV1fu411o7BW) [[Article](https://zhuanlan.zhihu.com/p/428097044)]
   - [Domain generalization - 迁移学习新兴研究方向领域泛化](https://www.bilibili.com/video/BV1ro4y1S7dd/)
   
   - [Domain adaptation - 迁移学习中的领域自适应方法(中文)](https://www.bilibili.com/video/BV1T7411R75a/) 
