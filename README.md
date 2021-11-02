@@ -372,6 +372,7 @@ author = {Wang, Jindong and others}
 Want to quickly learn transfer learning？想尽快入门迁移学习？看下面的教程。
 
 - Books 书籍
+  - **《迁移学习》（杨强）** [Buy](https://item.jd.com/12930984.html) [English version](https://www.cambridge.org/core/books/transfer-learning/CCFFAFE3CDBC245047F1DEC71D9EF3C7)
   - **《迁移学习导论》Introduction to Transfer Learning** [Homepage](http://jd92.wang/tlbook) [Buy](https://item.jd.com/13283188.html)
 
 - Blogs 博客
