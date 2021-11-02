@@ -18,6 +18,10 @@ By reverse chronological order.
 
 ## Computer vision
 
+- [C-MADA: Unsupervised Cross-Modality Adversarial Domain Adaptation framework for medical Image Segmentation](https://arxiv.org/abs/2110.15823)
+    - Cross-modality domain adaptation for medical image segmentation
+    - 跨模态的DA用于医学图像分割
+
 - BMVC-21 [SILT: Self-supervised Lighting Transfer Using Implicit Image Decomposition](https://arxiv.org/abs/2110.12914)
     - Lighting transfer using implicit image decomposition
     - 用隐式图像分解进行光照迁移
@@ -420,6 +424,10 @@ By reverse chronological order.
 
 ## Natural language processing
 
+- [Deep Transfer Learning for Multi-source Entity Linkage via Domain Adaptation](https://arxiv.org/abs/2110.14509)
+    - Domain adaptation for multi-source entiry linkage
+    - 用DA进行多源的实体链接
+
 - EMNLP-21 [Non-Parametric Unsupervised Domain Adaptation for Neural Machine Translation](https://arxiv.org/abs/2109.06604)
   - UDA for machine translation
   - 用领域自适应进行机器翻译
@@ -638,6 +646,10 @@ By reverse chronological order.
 
 ## Speech
 
+- [Temporal Knowledge Distillation for On-device Audio Classification](https://arxiv.org/abs/2110.14131)
+    - Temporal knowledge distillation for on-device ASR
+    - 时序知识蒸馏用于设备端的语音识别
+
 - [Music Sentiment Transfer](https://arxiv.org/abs/2110.05765)
     - Music sentiment transfer learning
     - 迁移学习用于音乐sentiment
@@ -685,6 +697,10 @@ By reverse chronological order.
 - 20180408 ASRU-18 用迁移学习中的domain separation network进行speech recognition：[Unsupervised Adaptation with Domain Separation Networks for Robust Speech Recognition](https://arxiv.org/abs/1711.08010)
 
 ## Multimedia
+
+- [Transferring Domain-Agnostic Knowledge in Video Question Answering](https://arxiv.org/abs/2110.13395)
+    - Domain-agnostic learning for VQA
+    - 在VQA任务中进行迁移学习
 
 - WACV-21 [Domain Generalization through Audio-Visual Relative Norm Alignment in First Person Action Recognition](https://arxiv.org/abs/2110.10101)
     - Domain generalization by audio-visual alignment

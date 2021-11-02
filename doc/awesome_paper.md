@@ -119,6 +119,10 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 ## Per-training/Finetuning
 
+- NeurIPS-21 [Modular Gaussian Processes for Transfer Learning](https://arxiv.org/abs/2110.13515)
+    - Modular Gaussian process for transfer learning
+    - 在迁移学习中使用modular Gaussian过程
+
 - [Rethinking supervised pre-training for better downstream transferring](https://arxiv.org/abs/2110.06014)
     - Rethink better finetune
     - 重新思考预训练以便更好finetune
@@ -255,6 +259,10 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 ## Knowledge distillation
 
+- [Estimating and Maximizing Mutual Information for Knowledge Distillation](https://arxiv.org/abs/2110.15946)
+    - Global and local mutual information maximation for knowledge distillation
+    - 局部和全局互信息最大化用于蒸馏
+
 - 20210426 [Distill on the Go: Online knowledge distillation in self-supervised learning](http://arxiv.org/abs/2104.09866)
     - Online knowledge distillation in self-supervised learning
     - 自监督学习中的在线知识蒸馏
@@ -290,6 +298,10 @@ Let's read some awesome transfer learning / domain adaptation papers.
 - - - 
 
 ## Traditional domain adaptation
+
+- [On Label Shift in Domain Adaptation via Wasserstein Distance](https://arxiv.org/abs/2110.15520)
+    - Using Wasserstein distance to solve label shift in domain adaptation
+    - 在DA领域中用Wasserstein distance去解决label shift问题
 
 - 20210319 [Cross-domain Activity Recognition via Substructural Optimal Transport](https://arxiv.org/abs/2102.03353) | [知乎文章](https://zhuanlan.zhihu.com/p/356904023) | [微信公众号](https://mp.weixin.qq.com/s/QuVrqnPruHgfolYltI1Peg)
     - Using sub-structures for domain adaptation
@@ -426,6 +438,10 @@ Let's read some awesome transfer learning / domain adaptation papers.
 	- 发表在IEEE Trans. Knowledge and Data Engineering期刊上
 
 ## Deep domain adaptation
+
+- [C-MADA: Unsupervised Cross-Modality Adversarial Domain Adaptation framework for medical Image Segmentation](https://arxiv.org/abs/2110.15823)
+    - Cross-modality domain adaptation for medical image segmentation
+    - 跨模态的DA用于医学图像分割
 
 - [Domain Adaptation for Rare Classes Augmented with Synthetic Samples](https://arxiv.org/abs/2110.12216)
     - Domain adaptation for rare class
@@ -1680,6 +1696,10 @@ Let's read some awesome transfer learning / domain adaptation papers.
 - - -
 
 ## Transfer reinforcement learning
+
+- [Xi-Learning: Successor Feature Transfer Learning for General Reward Functions](https://arxiv.org/abs/2110.15701)
+    - General reward function transfer learning in RL
+    - 在强化学习中general reward function的迁移学习
 
 - NeurIPS-21 [Unsupervised Domain Adaptation with Dynamics-Aware Rewards in Reinforcement Learning](https://arxiv.org/abs/2110.12997)
     - Domain adaptation in reinforcement learning

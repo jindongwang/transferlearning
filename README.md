@@ -49,7 +49,44 @@ author = {Wang, Jindong and others}
 **Latest papers**: (All papers are also put in [doc/awesome_papers.md](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md))
 
 <details>
-  <summary>Latest papers (2021-10-26)</summary>
+  <summary>Latest papers (2021-11-02)</summary>
+
+  - NeurIPS-21 [Modular Gaussian Processes for Transfer Learning](https://arxiv.org/abs/2110.13515)
+    - Modular Gaussian process for transfer learning
+    - 在迁移学习中使用modular Gaussian过程
+
+  - [Estimating and Maximizing Mutual Information for Knowledge Distillation](https://arxiv.org/abs/2110.15946)
+    - Global and local mutual information maximation for knowledge distillation
+    - 局部和全局互信息最大化用于蒸馏
+
+  - [On Label Shift in Domain Adaptation via Wasserstein Distance](https://arxiv.org/abs/2110.15520)
+    - Using Wasserstein distance to solve label shift in domain adaptation
+    - 在DA领域中用Wasserstein distance去解决label shift问题
+
+  - [Xi-Learning: Successor Feature Transfer Learning for General Reward Functions](https://arxiv.org/abs/2110.15701)
+    - General reward function transfer learning in RL
+    - 在强化学习中general reward function的迁移学习
+
+  - [C-MADA: Unsupervised Cross-Modality Adversarial Domain Adaptation framework for medical Image Segmentation](https://arxiv.org/abs/2110.15823)
+    - Cross-modality domain adaptation for medical image segmentation
+    - 跨模态的DA用于医学图像分割
+
+  - [Deep Transfer Learning for Multi-source Entity Linkage via Domain Adaptation](https://arxiv.org/abs/2110.14509)
+    - Domain adaptation for multi-source entiry linkage
+    - 用DA进行多源的实体链接
+
+  - [Temporal Knowledge Distillation for On-device Audio Classification](https://arxiv.org/abs/2110.14131)
+    - Temporal knowledge distillation for on-device ASR
+    - 时序知识蒸馏用于设备端的语音识别
+
+  - [Transferring Domain-Agnostic Knowledge in Video Question Answering](https://arxiv.org/abs/2110.13395)
+    - Domain-agnostic learning for VQA
+    - 在VQA任务中进行迁移学习
+
+</details>
+
+<details>
+  <summary>Latest papers (2021-10)</summary>
 
   - BMVC-21 [SILT: Self-supervised Lighting Transfer Using Implicit Image Decomposition](https://arxiv.org/abs/2110.12914)
     - Lighting transfer using implicit image decomposition
@@ -75,32 +112,17 @@ author = {Wang, Jindong and others}
     - Domain adaptation in reinforcement learning
     - 在强化学习中应用domain adaptation
 
-</details>
-
-<details>
-  <summary>Latest papers (2021-10-21)</summary>
-
   - WACV-21 [Domain Generalization through Audio-Visual Relative Norm Alignment in First Person Action Recognition](https://arxiv.org/abs/2110.10101)
-    - Domain generalization by audio-visual alignment
-    - 通过音频-视频对齐进行domain generalization
+      - Domain generalization by audio-visual alignment
+      - 通过音频-视频对齐进行domain generalization
 
   - BMVC-21 [Dynamic Feature Alignment for Semi-supervised Domain Adaptation](https://arxiv.org/abs/2110.09641)
     - Dynamic feature alignment for semi-supervised DA
     - 动态特征对齐用于半监督DA
 
-</details>
-
-<details>
-  <summary>Latest papers (2021-10-19)</summary>
-
   - NeurIPS-21 [FlexMatch: Boosting Semi-Supervised Learning with Curriculum Pseudo Labeling](https://arxiv.org/abs/2110.08263) [知乎解读](https://zhuanlan.zhihu.com/p/422930830) [code](https://github.com/TorchSSL/TorchSSL)
     - Curriculum pseudo label with a unified codebase TorchSSL
     - 半监督方法FlexMatch和统一算法库TorchSSL
-
-</details>
-
-<details>
-  <summary>Latest papers (2021-10-14)</summary>
 
   - [Rethinking supervised pre-training for better downstream transferring](https://arxiv.org/abs/2110.06014)
     - Rethink better finetune
@@ -109,11 +131,6 @@ author = {Wang, Jindong and others}
   - [Music Sentiment Transfer](https://arxiv.org/abs/2110.05765)
     - Music sentiment transfer learning
     - 迁移学习用于音乐sentiment
-
-</details>
-
-<details>
-  <summary>Latest papers (2021-10-11)</summary>
 
   - NeurIPS-21 [Model Adaptation: Historical Contrastive Learning for Unsupervised Domain Adaptation without Source Data](http://arxiv.org/abs/2110.03374)
     - Source-free domain adaptation using constrastive learning
