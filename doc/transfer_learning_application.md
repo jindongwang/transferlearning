@@ -698,6 +698,9 @@ By reverse chronological order.
 
 ## Multimedia
 
+- [TimeMatch: Unsupervised Cross-Region Adaptation by Temporal Shift Estimation](https://arxiv.org/abs/2111.02682)
+    - Temporal domain adaptation
+
 - [Transferring Domain-Agnostic Knowledge in Video Question Answering](https://arxiv.org/abs/2110.13395)
     - Domain-agnostic learning for VQA
     - 在VQA任务中进行迁移学习

@@ -49,6 +49,14 @@ author = {Wang, Jindong and others}
 **Latest papers**: (All papers are also put in [doc/awesome_papers.md](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md))
 
 <details>
+  <summary>Latest papers (2021-11-05)</summary>
+
+  - [TimeMatch: Unsupervised Cross-Region Adaptation by Temporal Shift Estimation](https://arxiv.org/abs/2111.02682)
+    - Temporal domain adaptation
+
+</details>
+
+<details>
   <summary>Latest papers (2021-11-02)</summary>
 
   - NeurIPS-21 [Modular Gaussian Processes for Transfer Learning](https://arxiv.org/abs/2110.13515)
@@ -373,7 +381,7 @@ Want to quickly learn transfer learning？想尽快入门迁移学习？看下�
 
 - Books 书籍
   - **《迁移学习》（杨强）** [[Buy](https://item.jd.com/12930984.html)] [[English version](https://www.cambridge.org/core/books/transfer-learning/CCFFAFE3CDBC245047F1DEC71D9EF3C7)]
-  - **《迁移学习导论》(王晋东、陈益强著))** [[Homepage](http://jd92.wang/tlbook)] [[Buy](https://item.jd.com/13283188.html)]
+  - **《迁移学习导论》(王晋东、陈益强著)** [[Homepage](http://jd92.wang/tlbook)] [[Buy](https://item.jd.com/13283188.html)]
 
 - Blogs 博客
   - [Zhihu blogs - 知乎专栏《小王爱迁移》系列文章](https://zhuanlan.zhihu.com/p/130244395)
