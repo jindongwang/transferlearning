@@ -19,14 +19,22 @@ class LambdaSheduler(nn.Module):
     def step(self):
         self.curr_iter = min(self.curr_iter + 1, self.max_iter)
 
-class AdversarialLoss(LambdaSheduler):
-    def __init__(self, gamma=1.0, max_iter=1000, **kwargs):
+class AdversarialLoss(nn.Module):
+    '''
+    Acknowledgement: The adversarial loss implementation is inspired by Transfer-Learning-Library: https://github.com/thuml/Transfer-Learning-Library/blob/master/dalib/adaptation/dann.py
+    '''
+    def __init__(self, gamma=1.0, max_iter=1000, use_lambda_scheduler=True, **kwargs):
         super(AdversarialLoss, self).__init__(gamma=gamma, max_iter=max_iter, **kwargs)
         self.domain_classifier = Discriminator()
-    
+        self.use_lambda_scheduler = use_lambda_scheduler
+        if self.use_lambda_scheduler:
+            self.lambda_scheduler = LambdaSheduler(gamma, max_iter)
+        
     def forward(self, source, target):
-        lamb = self.lamb()
-        self.step()
+        lamb = 1.0
+        if self.use_lambda_scheduler:
+            lamb = self.lambda_scheduler.lamb()
+            self.lambda_scheduler.step()
         source_loss = self.get_adversarial_result(source, True, lamb)
         target_loss = self.get_adversarial_result(target, False, lamb)
         adv_loss = 0.5 * (source_loss + target_loss)
