@@ -49,6 +49,27 @@ author = {Wang, Jindong and others}
 **Latest papers**: (All papers are also put in [doc/awesome_papers.md](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md))
 
 <details>
+  <summary>Latest papers (2021-11-10)</summary>
+
+  - BMVC-21 [Domain Attention Consistency for Multi-Source Domain Adaptation](https://arxiv.org/abs/2111.03911)
+    - Multi-source domain adaptation using attention consistency
+    - 用attention一致性进行多源的domain adaptation
+
+  - [Action Recognition using Transfer Learning and Majority Voting for CSGO](https://arxiv.org/abs/2111.03882)
+    - Using transfer learning and majority voting for action recognition
+    - 使用迁移学习和多数投票进行动作识别
+  
+  - [Open-Set Crowdsourcing using Multiple-Source Transfer Learning](https://arxiv.org/abs/2111.04073)
+    - Open-set crowdsourcing using multiple-source transfer learning
+    - 使用多源迁移进行开放集的crowdsourcing
+
+  - [Improved Regularization and Robustness for Fine-tuning in Neural Networks](https://arxiv.org/abs/2111.04578)
+    - Improve regularization and robustness for finetuning
+    - 针对finetune提高其正则和鲁棒性
+
+</details>
+
+<details>
   <summary>Latest papers (2021-11-05)</summary>
 
   - [TimeMatch: Unsupervised Cross-Region Adaptation by Temporal Shift Estimation](https://arxiv.org/abs/2111.02682)
