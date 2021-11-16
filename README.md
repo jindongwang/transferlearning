@@ -44,9 +44,17 @@ author = {Wang, Jindong and others}
 
 [Awesome transfer learning papers (迁移学习文章汇总)](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
-- [Paperweekly](http://www.paperweekly.site/collections/231/papers): A good website to recommend and read paper notes (一个推荐、分享论文的网站比较好，上面会持续整理相关的文章并分享阅读笔记)
+- [Paperweekly](http://www.paperweekly.site/collections/231/papers): A website to recommend and read paper notes
 
 **Latest papers**: (All papers are also put in [doc/awesome_papers.md](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md))
+
+<details>
+  <summary>Latest papers (2021-11-15)</summary>
+
+  - [On Representation Knowledge Distillation for Graph Neural Networks](https://arxiv.org/abs/2111.04964)
+    - Knowledge distillation for GNN
+    - 适用于GNN的知识蒸馏
+</details>
 
 <details>
   <summary>Latest papers (2021-11-10)</summary>

@@ -18,6 +18,10 @@ By reverse chronological order.
 
 ## Computer vision
 
+- [Action Recognition using Transfer Learning and Majority Voting for CSGO](https://arxiv.org/abs/2111.03882)
+    - Using transfer learning and majority voting for action recognition
+    - 使用迁移学习和多数投票进行动作识别
+
 - [C-MADA: Unsupervised Cross-Modality Adversarial Domain Adaptation framework for medical Image Segmentation](https://arxiv.org/abs/2110.15823)
     - Cross-modality domain adaptation for medical image segmentation
     - 跨模态的DA用于医学图像分割

@@ -119,6 +119,10 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 ## Per-training/Finetuning
 
+- [Improved Regularization and Robustness for Fine-tuning in Neural Networks](https://arxiv.org/abs/2111.04578)
+    - Improve regularization and robustness for finetuning
+    - 针对finetune提高其正则和鲁棒性
+
 - NeurIPS-21 [Modular Gaussian Processes for Transfer Learning](https://arxiv.org/abs/2110.13515)
     - Modular Gaussian process for transfer learning
     - 在迁移学习中使用modular Gaussian过程
@@ -258,6 +262,10 @@ Let's read some awesome transfer learning / domain adaptation papers.
 	- [我的解读](https://zhuanlan.zhihu.com/p/30621691)
 
 ## Knowledge distillation
+
+- [On Representation Knowledge Distillation for Graph Neural Networks](https://arxiv.org/abs/2111.04964)
+    - Knowledge distillation for GNN
+    - 适用于GNN的知识蒸馏
 
 - [Estimating and Maximizing Mutual Information for Knowledge Distillation](https://arxiv.org/abs/2110.15946)
     - Global and local mutual information maximation for knowledge distillation
@@ -1401,6 +1409,14 @@ Let's read some awesome transfer learning / domain adaptation papers.
 - - -
 
 ## Multi-source domain adaptation
+
+- [Open-Set Crowdsourcing using Multiple-Source Transfer Learning](https://arxiv.org/abs/2111.04073)
+    - Open-set crowdsourcing using multiple-source transfer learning
+    - 使用多源迁移进行开放集的crowdsourcing
+
+- BMVC-21 [Domain Attention Consistency for Multi-Source Domain Adaptation](https://arxiv.org/abs/2111.03911)
+    - Multi-source domain adaptation using attention consistency
+    - 用attention一致性进行多源的domain adaptation
 
 - CVPR-21 [Wasserstein Barycenter for Multi-Source Domain Adaptation](https://openaccess.thecvf.com/content/CVPR2021/html/Montesuma_Wasserstein_Barycenter_for_Multi-Source_Domain_Adaptation_CVPR_2021_paper.html)
   - Use Wasserstein Barycenter for multi-source domain adaptation
