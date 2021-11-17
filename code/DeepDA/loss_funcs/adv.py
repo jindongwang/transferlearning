@@ -24,7 +24,7 @@ class AdversarialLoss(nn.Module):
     Acknowledgement: The adversarial loss implementation is inspired by Transfer-Learning-Library: https://github.com/thuml/Transfer-Learning-Library/blob/master/dalib/adaptation/dann.py
     '''
     def __init__(self, gamma=1.0, max_iter=1000, use_lambda_scheduler=True, **kwargs):
-        super(AdversarialLoss, self).__init__(gamma=gamma, max_iter=max_iter, **kwargs)
+        super(AdversarialLoss, self).__init__()
         self.domain_classifier = Discriminator()
         self.use_lambda_scheduler = use_lambda_scheduler
         if self.use_lambda_scheduler:
