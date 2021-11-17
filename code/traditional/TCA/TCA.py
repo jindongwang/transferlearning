@@ -10,20 +10,24 @@ import sklearn.metrics
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.model_selection import train_test_split
 
+
 def kernel(ker, X1, X2, gamma):
     K = None
     if not ker or ker == 'primal':
         K = X1
     elif ker == 'linear':
         if X2 is not None:
-            K = sklearn.metrics.pairwise.linear_kernel(np.asarray(X1).T, np.asarray(X2).T)
+            K = sklearn.metrics.pairwise.linear_kernel(
+                np.asarray(X1).T, np.asarray(X2).T)
         else:
             K = sklearn.metrics.pairwise.linear_kernel(np.asarray(X1).T)
     elif ker == 'rbf':
         if X2 is not None:
-            K = sklearn.metrics.pairwise.rbf_kernel(np.asarray(X1).T, np.asarray(X2).T, gamma)
+            K = sklearn.metrics.pairwise.rbf_kernel(
+                np.asarray(X1).T, np.asarray(X2).T, gamma)
         else:
-            K = sklearn.metrics.pairwise.rbf_kernel(np.asarray(X1).T, None, gamma)
+            K = sklearn.metrics.pairwise.rbf_kernel(
+                np.asarray(X1).T, None, gamma)
     return K
 
 
@@ -58,13 +62,13 @@ class TCA:
         H = np.eye(n) - 1 / n * np.ones((n, n))
         K = kernel(self.kernel_type, X, None, gamma=self.gamma)
         n_eye = m if self.kernel_type == 'primal' else n
-        a, b = np.linalg.multi_dot([K, M, K.T]) + self.lamb * np.eye(n_eye), np.linalg.multi_dot([K, H, K.T])
+        a, b = K @ M @ K.T + self.lamb * np.eye(n_eye), K @ H @ K.T
         w, V = scipy.linalg.eig(a, b)
         ind = np.argsort(w)
         A = V[:, ind[:self.dim]]
-        Z = np.dot(A.T, K)
+        Z = A.T @ K
         Z /= np.linalg.norm(Z, axis=0)
-        
+
         Xs_new, Xt_new = Z[:, :ns].T, Z[:, ns:].T
         return Xs_new, Xt_new
 
@@ -82,8 +86,10 @@ class TCA:
         clf.fit(Xs_new, Ys.ravel())
         y_pred = clf.predict(Xt_new)
         acc = sklearn.metrics.accuracy_score(Yt, y_pred)
-       
+
         return acc, y_pred
+
+    # TCA code is done here. You can ignore fit_new and fit_predict_new.
 
     def fit_new(self, Xs, Xt, Xt2):
         '''
@@ -104,20 +110,21 @@ class TCA:
         H = np.eye(n) - 1 / n * np.ones((n, n))
         K = kernel(self.kernel_type, X, None, gamma=self.gamma)
         n_eye = m if self.kernel_type == 'primal' else n
-        a, b = np.linalg.multi_dot([K, M, K.T]) + self.lamb * np.eye(n_eye), np.linalg.multi_dot([K, H, K.T])
+        a, b = np.linalg.multi_dot(
+            [K, M, K.T]) + self.lamb * np.eye(n_eye), np.linalg.multi_dot([K, H, K.T])
         w, V = scipy.linalg.eig(a, b)
         ind = np.argsort(w)
         A = V[:, ind[:self.dim]]
-        
+
         # Compute kernel with Xt2 as target and X as source
         Xt2 = Xt2.T
-        K = kernel(self.kernel_type, X1 = Xt2, X2 = X, gamma=self.gamma)
-        
+        K = kernel(self.kernel_type, X1=Xt2, X2=X, gamma=self.gamma)
+
         # New target features
         Xt2_new = K @ A
-        
+
         return Xt2_new
-    
+
     def fit_predict_new(self, Xt, Xs, Ys, Xt2, Yt2):
         '''
         Transfrom Xt and Xs, get Xs_new
@@ -131,34 +138,54 @@ class TCA:
         :return: Accuracy and predicted_labels on the target domain
         '''
         Xs_new, _ = self.fit(Xs, Xt)
-        Xt2_new   = self.fit_new(Xs, Xt, Xt2)
+        Xt2_new = self.fit_new(Xs, Xt, Xt2)
         clf = KNeighborsClassifier(n_neighbors=1)
         clf.fit(Xs_new, Ys.ravel())
         y_pred = clf.predict(Xt2_new)
         acc = sklearn.metrics.accuracy_score(Yt2, y_pred)
-        
-        return acc, y_pred
-    
-    
 
-if __name__ == '__main__':
+        return acc, y_pred
+
+
+def train_valid():
+    # If you want to perform train-valid-test, you can use this function
     domains = ['caltech.mat', 'amazon.mat', 'webcam.mat', 'dslr.mat']
     for i in [1]:
         for j in [2]:
             if i != j:
                 src, tar = 'data/' + domains[i], 'data/' + domains[j]
-                src_domain, tar_domain = scipy.io.loadmat(src), scipy.io.loadmat(tar)
-                Xs, Ys, Xt, Yt = src_domain['feas'], src_domain['labels'], tar_domain['feas'], tar_domain['labels']
-                
+                src_domain, tar_domain = scipy.io.loadmat(
+                    src), scipy.io.loadmat(tar)
+                Xs, Ys, Xt, Yt = src_domain['feas'], src_domain['label'], tar_domain['feas'], tar_domain['label']
+
                 # Split target data
-                Xt1, Xt2, Yt1, Yt2  = train_test_split(Xt, Yt, train_size=50, stratify=Yt, random_state=42)
-                
+                Xt1, Xt2, Yt1, Yt2 = train_test_split(
+                    Xt, Yt, train_size=50, stratify=Yt, random_state=42)
+
                 # Create latent space and evaluate using Xs and Xt1
                 tca = TCA(kernel_type='linear', dim=30, lamb=1, gamma=1)
                 acc1, ypre1 = tca.fit_predict(Xs, Ys, Xt1, Yt1)
-                
+
                 # Project and evaluate Xt2 existing projection matrix and classifier
                 acc2, ypre2 = tca.fit_predict_new(Xt1, Xs, Ys, Xt2, Yt2)
-                
-    print(f'Accuracy of mapped source and target1 data : {acc1:.3f}') #0.800
-    print(f'Accuracy of mapped target2 data            : {acc2:.3f}') #0.706
+
+    print(f'Accuracy of mapped source and target1 data : {acc1:.3f}')  # 0.800
+    print(f'Accuracy of mapped target2 data            : {acc2:.3f}')  # 0.706
+
+
+if __name__ == '__main__':
+    # Note: if the .mat file names are not the same, you can change them.
+    # Note: to reproduce the results of my transfer learning book, use the dataset here: https://www.jianguoyun.com/p/DWJ_7qgQmN7PCBj29KsD
+
+    domains = ['caltech_surf_10.mat', 'amazon_surf_10.mat',
+               'webcam_surf_10.mat', 'dslr_surf_10.mat']
+    for i in [0]:
+        for j in [1]:
+            if i != j:
+                src, tar = domains[i], domains[j]
+                src_domain, tar_domain = scipy.io.loadmat(
+                    src), scipy.io.loadmat(tar)
+                Xs, Ys, Xt, Yt = src_domain['feas'], src_domain['label'], tar_domain['feas'], tar_domain['label']
+                tca = TCA(kernel_type='linear', dim=30, lamb=1, gamma=1)
+                acc, ypred = tca.fit_predict(Xs, Ys, Xt, Yt)
+                print(f'Accuracy: {acc:.3f}')

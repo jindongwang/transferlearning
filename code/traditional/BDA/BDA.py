@@ -152,12 +152,11 @@ class BDA:
             M /= np.linalg.norm(M, 'fro')
             K = kernel(self.kernel_type, X, None, gamma=self.gamma)
             n_eye = m if self.kernel_type == 'primal' else n
-            a, b = np.linalg.multi_dot(
-                [K, M, K.T]) + self.lamb * np.eye(n_eye), np.linalg.multi_dot([K, H, K.T])
+            a, b = K @ M @ K.T + self.lamb * np.eye(n_eye), K @ H @ K.T
             w, V = scipy.linalg.eig(a, b)
             ind = np.argsort(w)
             A = V[:, ind[:self.dim]]
-            Z = np.dot(A.T, K)
+            Z = A.T @ K
             Z /= np.linalg.norm(Z, axis=0)
             Xs_new, Xt_new = Z[:, :ns].T, Z[:, ns:].T
 
@@ -173,7 +172,7 @@ class BDA:
 if __name__ == '__main__':
     domains = ['caltech.mat', 'amazon.mat', 'webcam.mat', 'dslr.mat']
     i, j = 0, 1  # Caltech -> Amazon
-    src, tar = '../data/' + domains[i], '../data/' + domains[j]
+    src, tar = domains[i], domains[j]
     src_domain, tar_domain = scipy.io.loadmat(src), scipy.io.loadmat(tar)
     Xs, Ys, Xt, Yt = src_domain['feas'], src_domain['label'], tar_domain['feas'], tar_domain['label']
     bda = BDA(kernel_type='primal', dim=30, lamb=1, mu=0.5,
