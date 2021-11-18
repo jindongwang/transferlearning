@@ -132,6 +132,7 @@ To run it instantly without any configuration, I also put it to Google's Colab: 
 - **DAAN** (Dynamic Adversarial Adaptation Network, ICDM 2019) [80] [Pytorch](https://github.com/jindongwang/transferlearning/tree/master/code/deep/DAAN)
 - **DAEL** (Domain Adaptive Ensemble Learning, ArXiv 2020) [81] [Pytorch](https://github.com/KaiyangZhou/Dassl.pytorch)
 - **DSAN** (Deep Subdomain Adaptation Network for Image Classification, DSAN 2020) [82] [Pytorch](https://github.com/jindongwang/transferlearning/tree/master/code/deep/DSAN)
+- **CSG** (Learning Causal Semantic Representation for Out-of-Distribution Prediction) [87] [Pytorch](https://github.com/jindongwang/transferlearning/tree/master/code/deep/CSG)
 
 ## Applications
 
@@ -316,3 +317,5 @@ accepted in International Conference on Computer Vision (ICCV 2015), Santiago, C
 [85] Hou W, Zhu H, Wang Y, et al. Exploiting Adapters for Cross-lingual Low-resource Speech Recognition[J]. arXiv preprint arXiv:2105.11905, 2021.
 
 [86] Yongchun Zhu, ZhenWei Tang, Yudan Liu, et al. Personalized Transfer of User Preferences for Cross-domain Recommendation[C]. WSDM, 2022.
+
+[87] Chang Liu, Xinwei Sun, Jindong Wang, et al. Learning Causal Semantic Representation for Out-of-Distribution Prediction. NeurIPS 2021.
