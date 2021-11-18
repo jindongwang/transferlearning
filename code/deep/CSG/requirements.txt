@@ -1,0 +1,11 @@
+cvxopt==1.2.7
+dalib==0.2
+lime==0.2.0.1
+jupyter==1.0.0
+matplotlib==3.3.2
+numpy==1.19.5
+scikit-image==0.17.1
+tabulate==0.8.9
+torch==1.8.1
+torchvision==0.9.1
+tqdm==4.60.0
