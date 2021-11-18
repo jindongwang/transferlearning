@@ -1,0 +1,48 @@
+{
+    "MLPsvy1x": {
+        "lite": {
+            "dims_postx2prev": [400],
+            "dim_v": 100,
+            "dim_parav": 100,
+            "dims_postv2s": [50],
+            "dims_posts2prey": []
+        },
+        "lite-1.5x": {
+            "dims_postx2prev": [600],
+            "dim_v": 150,
+            "dim_parav": 150,
+            "dims_postv2s": [75],
+            "dims_posts2prey": []
+        },
+        "bt882": {
+            "dims_postx2prev": [400, 200],
+            "dim_v": 8,
+            "dim_parav": 8,
+            "dims_postv2s": [2],
+            "dims_posts2prey": []
+        },
+        "irm": {
+            "dims_postx2prev": [256],
+            "dim_v": 128,
+            "dim_parav": 128,
+            "dims_postv2s": [256],
+            "dims_posts2prey": []
+        },
+        "bt882-256": {
+            "dims_postx2prev": [256, 256],
+            "dim_v": 8,
+            "dim_parav": 8,
+            "dims_postv2s": [2],
+            "dims_posts2prey": []
+        }
+    },
+    "MLPx1sv": {
+    },
+    "MLPx1s": {
+    },
+    "MLPv1s": {
+        "s2v0": {
+            "dims_pres2postv": []
+        }
+    }
+}
