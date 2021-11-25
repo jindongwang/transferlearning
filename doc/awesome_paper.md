@@ -1300,6 +1300,18 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 ## Domain generalization
 
+- [Federated Learning with Domain Generalization](https://arxiv.org/abs/2111.10487)
+    - Federated domain generalization
+    - 联邦学习+domain generalization
+
+  - [Semi-Supervised Domain Generalization in Real World:New Benchmark and Strong Baseline](https://arxiv.org/abs/2111.10221)
+    - Semi-supervised domain generalization
+    - 半监督+domain generalization
+
+  - MICCAI-21 [Domain Generalization for Mammography Detection via Multi-style and Multi-view Contrastive Learning](https://arxiv.org/abs/2111.10827)
+    - Domain generalization for mammography detection
+    - 领域泛化用于乳房X射线检查
+
 - WACV-21 [Domain Generalization through Audio-Visual Relative Norm Alignment in First Person Action Recognition](https://arxiv.org/abs/2110.10101)
     - Domain generalization by audio-visual alignment
     - 通过音频-视频对齐进行domain generalization

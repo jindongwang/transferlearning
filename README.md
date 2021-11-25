@@ -49,6 +49,22 @@ author = {Wang, Jindong and others}
 **Latest papers**: (All papers are also put in [doc/awesome_papers.md](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md))
 
 <details>
+  <summary>Latest papers (2021-11-25)</summary>
+
+  - [Federated Learning with Domain Generalization](https://arxiv.org/abs/2111.10487)
+    - Federated domain generalization
+    - 联邦学习+domain generalization
+
+  - [Semi-Supervised Domain Generalization in Real World:New Benchmark and Strong Baseline](https://arxiv.org/abs/2111.10221)
+    - Semi-supervised domain generalization
+    - 半监督+domain generalization
+
+  - MICCAI-21 [Domain Generalization for Mammography Detection via Multi-style and Multi-view Contrastive Learning](https://arxiv.org/abs/2111.10827)
+    - Domain generalization for mammography detection
+    - 领域泛化用于乳房X射线检查
+</details>
+
+<details>
   <summary>Latest papers (2021-11-15)</summary>
 
   - [On Representation Knowledge Distillation for Graph Neural Networks](https://arxiv.org/abs/2111.04964)
