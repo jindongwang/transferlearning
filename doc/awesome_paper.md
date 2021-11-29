@@ -5,24 +5,24 @@ Let's read some awesome transfer learning / domain adaptation papers.
 这里收录了迁移学习各个研究领域的最新文章。
 
 - [Awesome Transfer Learning Papers](#awesome-transfer-learning-papers)
-	- [Survey](#survey)
-	- [Theory](#theory)
-	- [Per-training/Finetuning](#per-trainingfinetuning)
-	- [Knowledge distillation](#knowledge-distillation)
-	- [Traditional domain adaptation](#traditional-domain-adaptation)
-	- [Deep domain adaptation](#deep-domain-adaptation)
-	- [Domain generalization](#domain-generalization)
-	- [Source-free domain adaptation](#source-free-domain-adaptation)
-	- [Multi-source domain adaptation](#multi-source-domain-adaptation)
-	- [Heterogeneous transfer learning](#heterogeneous-transfer-learning)
-	- [Online transfer learning](#online-transfer-learning)
-	- [Zero-shot / few-shot learning](#zero-shot--few-shot-learning)
-	- [Multi-task learning](#multi-task-learning)
-	- [Transfer reinforcement learning](#transfer-reinforcement-learning)
-	- [Transfer metric learning](#transfer-metric-learning)
-	- [Federated transfer learning](#federated-transfer-learning)
-	- [Lifelong transfer learning](#lifelong-transfer-learning)
-	- [Transfer learning applications](#transfer-learning-applications)
+  - [Survey](#survey)
+  - [Theory](#theory)
+  - [Per-training/Finetuning](#per-trainingfinetuning)
+  - [Knowledge distillation](#knowledge-distillation)
+  - [Traditional domain adaptation](#traditional-domain-adaptation)
+  - [Deep domain adaptation](#deep-domain-adaptation)
+  - [Domain generalization](#domain-generalization)
+  - [Source-free domain adaptation](#source-free-domain-adaptation)
+  - [Multi-source domain adaptation](#multi-source-domain-adaptation)
+  - [Heterogeneous transfer learning](#heterogeneous-transfer-learning)
+  - [Online transfer learning](#online-transfer-learning)
+  - [Zero-shot / few-shot learning](#zero-shot--few-shot-learning)
+  - [Multi-task learning](#multi-task-learning)
+  - [Transfer reinforcement learning](#transfer-reinforcement-learning)
+  - [Transfer metric learning](#transfer-metric-learning)
+  - [Federated transfer learning](#federated-transfer-learning)
+  - [Lifelong transfer learning](#lifelong-transfer-learning)
+  - [Transfer learning applications](#transfer-learning-applications)
 
 
 ## Survey
@@ -118,6 +118,14 @@ Let's read some awesome transfer learning / domain adaptation papers.
 	- 对迁移学习中无监督的WGAN进行了一些理论上的分析
 
 ## Per-training/Finetuning
+
+- NeurIPS-21 workshop [Maximum Mean Discrepancy for Generalization in the Presence of Distribution and Missingness Shift](https://arxiv.org/abs/2111.10344)
+    - MMD for covariate shift
+    - 用MMD来解决covariate shift问题
+
+- [Combined Scaling for Zero-shot Transfer Learning](https://arxiv.org/abs/2111.10050)
+    - Scaling up for zero-shot transfer learning
+    - 增大训练规模用于zero-shot迁移学习
 
 - [Improved Regularization and Robustness for Fine-tuning in Neural Networks](https://arxiv.org/abs/2111.04578)
     - Improve regularization and robustness for finetuning
@@ -1724,6 +1732,10 @@ Let's read some awesome transfer learning / domain adaptation papers.
 - - -
 
 ## Transfer reinforcement learning
+
+- NeurIPS-21 workshop [Component Transfer Learning for Deep RL Based on Abstract Representations](https://arxiv.org/abs/2111.11525)
+    - Deep transfer learning for RL
+    - 深度迁移学习用于强化学习
 
 - [Xi-Learning: Successor Feature Transfer Learning for General Reward Functions](https://arxiv.org/abs/2110.15701)
     - General reward function transfer learning in RL

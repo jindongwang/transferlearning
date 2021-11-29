@@ -49,6 +49,26 @@ author = {Wang, Jindong and others}
 **Latest papers**: (All papers are also put in [doc/awesome_papers.md](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md))
 
 <details>
+  <summary>Latest papers (2021-11-29)</summary>
+
+  - NeurIPS-21 workshop [CytoImageNet: A large-scale pretraining dataset for bioimage transfer learning](https://arxiv.org/abs/2111.11646)
+    - A large-scale dataset for bioimage transfer learning
+    - 一个大规模的生物图像数据集用于迁移学习
+  
+  - NeurIPS-21 workshop [Component Transfer Learning for Deep RL Based on Abstract Representations](https://arxiv.org/abs/2111.11525)
+    - Deep transfer learning for RL
+    - 深度迁移学习用于强化学习
+
+  - NeurIPS-21 workshop [Maximum Mean Discrepancy for Generalization in the Presence of Distribution and Missingness Shift](https://arxiv.org/abs/2111.10344)
+    - MMD for covariate shift
+    - 用MMD来解决covariate shift问题
+
+  - [Combined Scaling for Zero-shot Transfer Learning](https://arxiv.org/abs/2111.10050)
+    - Scaling up for zero-shot transfer learning
+    - 增大训练规模用于zero-shot迁移学习
+</details>
+
+<details>
   <summary>Latest papers (2021-11-25)</summary>
 
   - [Federated Learning with Domain Generalization](https://arxiv.org/abs/2111.10487)

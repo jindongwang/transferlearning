@@ -18,6 +18,10 @@ By reverse chronological order.
 
 ## Computer vision
 
+- NeurIPS-21 workshop [CytoImageNet: A large-scale pretraining dataset for bioimage transfer learning](https://arxiv.org/abs/2111.11646)
+    - A large-scale dataset for bioimage transfer learning
+    - 一个大规模的生物图像数据集用于迁移学习
+
 - MICCAI-21 [Domain Generalization for Mammography Detection via Multi-style and Multi-view Contrastive Learning](https://arxiv.org/abs/2111.10827)
     - Domain generalization for mammography detection
     - 领域泛化用于乳房X射线检查
