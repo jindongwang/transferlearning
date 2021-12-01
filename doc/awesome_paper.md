@@ -56,6 +56,10 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 ## Theory
 
+- NeurIPS-21 [On Learning Domain-Invariant Representations for Transfer Learning with Multiple Sources](https://arxiv.org/abs/2111.13822)
+    - Theory and algorithm of domain-invariant learning for transfer learning
+    - 对invariant representation的理论和算法
+
 - 20210625 ICML-21 [f-Domain-Adversarial Learning: Theory and Algorithms](http://arxiv.org/abs/2106.11344)
     - New theory based on f-divergence
     - 基于f-divergence给出新的DA理论和算法
@@ -454,6 +458,10 @@ Let's read some awesome transfer learning / domain adaptation papers.
 	- 发表在IEEE Trans. Knowledge and Data Engineering期刊上
 
 ## Deep domain adaptation
+
+- WACV-22 [Semi-supervised Domain Adaptation via Sample-to-Sample Self-Distillation](https://arxiv.org/abs/2111.14353)
+    - Sample-level self-distillation for semi-supervised DA
+    - 样本层次的自蒸馏用于半监督DA
 
 - [C-MADA: Unsupervised Cross-Modality Adversarial Domain Adaptation framework for medical Image Segmentation](https://arxiv.org/abs/2110.15823)
     - Cross-modality domain adaptation for medical image segmentation
@@ -1307,6 +1315,14 @@ Let's read some awesome transfer learning / domain adaptation papers.
 - - -
 
 ## Domain generalization
+
+- [ROBIN : A Benchmark for Robustness to Individual Nuisancesin Real-World Out-of-Distribution Shifts](https://arxiv.org/abs/2111.14341)
+    - A benchmark for robustness to individual OOD
+    - 一个OOD的benchmark
+
+- ICML-21 workshop [Towards Principled Disentanglement for Domain Generalization](https://arxiv.org/abs/2111.13839)
+    - Principled disentanglement for domain generalization
+    - Principled解耦用于domain generalization
 
 - [Federated Learning with Domain Generalization](https://arxiv.org/abs/2111.10487)
     - Federated domain generalization

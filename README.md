@@ -49,7 +49,27 @@ author = {Wang, Jindong and others}
 **Latest papers**: (All papers are also put in [doc/awesome_papers.md](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md))
 
 <details>
-  <summary>Latest papers (2021-11-29)</summary>
+  <summary>Latest papers (2021-12-01)</summary>
+
+  - NeurIPS-21 [On Learning Domain-Invariant Representations for Transfer Learning with Multiple Sources](https://arxiv.org/abs/2111.13822)
+    - Theory and algorithm of domain-invariant learning for transfer learning
+    - 对invariant representation的理论和算法
+
+  - WACV-22 [Semi-supervised Domain Adaptation via Sample-to-Sample Self-Distillation](https://arxiv.org/abs/2111.14353)
+    - Sample-level self-distillation for semi-supervised DA
+    - 样本层次的自蒸馏用于半监督DA
+
+  - [ROBIN : A Benchmark for Robustness to Individual Nuisancesin Real-World Out-of-Distribution Shifts](https://arxiv.org/abs/2111.14341)
+    - A benchmark for robustness to individual OOD
+    - 一个OOD的benchmark
+
+  - ICML-21 workshop [Towards Principled Disentanglement for Domain Generalization](https://arxiv.org/abs/2111.13839)
+    - Principled disentanglement for domain generalization
+    - Principled解耦用于domain generalization
+</details>
+
+<details>
+  <summary>Latest papers (2021-11)</summary>
 
   - NeurIPS-21 workshop [CytoImageNet: A large-scale pretraining dataset for bioimage transfer learning](https://arxiv.org/abs/2111.11646)
     - A large-scale dataset for bioimage transfer learning
@@ -66,10 +86,6 @@ author = {Wang, Jindong and others}
   - [Combined Scaling for Zero-shot Transfer Learning](https://arxiv.org/abs/2111.10050)
     - Scaling up for zero-shot transfer learning
     - 增大训练规模用于zero-shot迁移学习
-</details>
-
-<details>
-  <summary>Latest papers (2021-11-25)</summary>
 
   - [Federated Learning with Domain Generalization](https://arxiv.org/abs/2111.10487)
     - Federated domain generalization
@@ -82,18 +98,10 @@ author = {Wang, Jindong and others}
   - MICCAI-21 [Domain Generalization for Mammography Detection via Multi-style and Multi-view Contrastive Learning](https://arxiv.org/abs/2111.10827)
     - Domain generalization for mammography detection
     - 领域泛化用于乳房X射线检查
-</details>
-
-<details>
-  <summary>Latest papers (2021-11-15)</summary>
 
   - [On Representation Knowledge Distillation for Graph Neural Networks](https://arxiv.org/abs/2111.04964)
     - Knowledge distillation for GNN
     - 适用于GNN的知识蒸馏
-</details>
-
-<details>
-  <summary>Latest papers (2021-11-10)</summary>
 
   - BMVC-21 [Domain Attention Consistency for Multi-Source Domain Adaptation](https://arxiv.org/abs/2111.03911)
     - Multi-source domain adaptation using attention consistency
@@ -111,18 +119,8 @@ author = {Wang, Jindong and others}
     - Improve regularization and robustness for finetuning
     - 针对finetune提高其正则和鲁棒性
 
-</details>
-
-<details>
-  <summary>Latest papers (2021-11-05)</summary>
-
   - [TimeMatch: Unsupervised Cross-Region Adaptation by Temporal Shift Estimation](https://arxiv.org/abs/2111.02682)
     - Temporal domain adaptation
-
-</details>
-
-<details>
-  <summary>Latest papers (2021-11-02)</summary>
 
   - NeurIPS-21 [Modular Gaussian Processes for Transfer Learning](https://arxiv.org/abs/2110.13515)
     - Modular Gaussian process for transfer learning
