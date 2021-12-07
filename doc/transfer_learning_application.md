@@ -18,6 +18,10 @@ By reverse chronological order.
 
 ## Computer vision
 
+- [Subtask-dominated Transfer Learning for Long-tail Person Search](https://arxiv.org/abs/2112.00527)
+    - Subtask-dominated transfer for long-tail person search
+    - 子任务驱动的长尾人物搜索
+
 - NeurIPS-21 workshop [CytoImageNet: A large-scale pretraining dataset for bioimage transfer learning](https://arxiv.org/abs/2111.11646)
     - A large-scale dataset for bioimage transfer learning
     - 一个大规模的生物图像数据集用于迁移学习

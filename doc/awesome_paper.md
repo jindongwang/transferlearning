@@ -123,6 +123,10 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 ## Per-training/Finetuning
 
+- [Revisiting the Transferability of Supervised Pretraining: an MLP Perspective](https://arxiv.org/abs/2112.00496)
+    - Revisit the transferability of supervised pretraining
+    - 重新思考有监督预训练的可迁移性
+
 - NeurIPS-21 workshop [Maximum Mean Discrepancy for Generalization in the Presence of Distribution and Missingness Shift](https://arxiv.org/abs/2111.10344)
     - MMD for covariate shift
     - 用MMD来解决covariate shift问题
@@ -458,6 +462,10 @@ Let's read some awesome transfer learning / domain adaptation papers.
 	- 发表在IEEE Trans. Knowledge and Data Engineering期刊上
 
 ## Deep domain adaptation
+
+- [Boosting Unsupervised Domain Adaptation with Soft Pseudo-label and Curriculum Learning](https://arxiv.org/abs/2112.01948)
+    - Using soft pseudo-label and curriculum learning to boost UDA
+    - 用软的伪标签和课程学习增强UDA方法
 
 - WACV-22 [Semi-supervised Domain Adaptation via Sample-to-Sample Self-Distillation](https://arxiv.org/abs/2111.14353)
     - Sample-level self-distillation for semi-supervised DA
@@ -1748,6 +1756,10 @@ Let's read some awesome transfer learning / domain adaptation papers.
 - - -
 
 ## Transfer reinforcement learning
+
+- [Multi-Agent Transfer Learning in Reinforcement Learning-Based Ride-Sharing Systems](https://arxiv.org/abs/2112.00424)
+    - Multi-agent transfer in RL
+    - 在RL中的多智能体迁移
 
 - NeurIPS-21 workshop [Component Transfer Learning for Deep RL Based on Abstract Representations](https://arxiv.org/abs/2111.11525)
     - Deep transfer learning for RL

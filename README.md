@@ -49,6 +49,26 @@ author = {Wang, Jindong and others}
 **Latest papers**: (All papers are also put in [doc/awesome_papers.md](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md))
 
 <details>
+  <summary>Latest papers (2021-12-07)</summary>
+
+  - [Boosting Unsupervised Domain Adaptation with Soft Pseudo-label and Curriculum Learning](https://arxiv.org/abs/2112.01948)
+    - Using soft pseudo-label and curriculum learning to boost UDA
+    - 用软的伪标签和课程学习增强UDA方法
+  
+  - [Subtask-dominated Transfer Learning for Long-tail Person Search](https://arxiv.org/abs/2112.00527)
+    - Subtask-dominated transfer for long-tail person search
+    - 子任务驱动的长尾人物搜索
+
+  - [Revisiting the Transferability of Supervised Pretraining: an MLP Perspective](https://arxiv.org/abs/2112.00496)
+    - Revisit the transferability of supervised pretraining
+    - 重新思考有监督预训练的可迁移性
+  
+  - [Multi-Agent Transfer Learning in Reinforcement Learning-Based Ride-Sharing Systems](https://arxiv.org/abs/2112.00424)
+    - Multi-agent transfer in RL
+    - 在RL中的多智能体迁移
+</details>
+
+<details>
   <summary>Latest papers (2021-12-01)</summary>
 
   - NeurIPS-21 [On Learning Domain-Invariant Representations for Transfer Learning with Multiple Sources](https://arxiv.org/abs/2111.13822)
