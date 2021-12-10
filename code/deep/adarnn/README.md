@@ -31,7 +31,10 @@ The code for air-quality dataset is in `train_weather.py`. After downloading the
 
 Then you can run the code. Taking Dongsi station as example, you can run 
 
-`python train_weather.py --model_name 'AdaRNN' --station 'Dongsi' --pre_epoch 40 --dw 0.5`
+`python train_weather.py --model_name 'AdaRNN' --station 'Tiantan' --pre_epoch 20 --dw 0.1 --data_mode 'tdc'`
+
+For transformer model, the adapted transformer model is in `transformer_adapt.py`, you can run,
+`python transformer_adapt.py  --station 'Tiantan' --dw 1.0`
 
 # Results
 
