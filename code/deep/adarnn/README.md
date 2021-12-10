@@ -59,9 +59,6 @@ For transformer model, the adapted transformer model is in `transformer_adapt.py
 - dz1833005@smail.nju.edu.cn
 - jindongwang@outlook.com
 
-## Statement
-
-This work was done in August 2020, thus has been over 1 year. Since the first author finished his internship at MSRA at September 2020, he has been busy with his own projects since then. It has been long time. We will try our best to add all the codes back, including: temporal distribution characterization, adaptive transformer, and more datasets. Please be patient and stay tuned.
 
 # References
 
