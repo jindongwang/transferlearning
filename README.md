@@ -49,6 +49,26 @@ author = {Wang, Jindong and others}
 **Latest papers**: (All papers are also put in [doc/awesome_papers.md](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md))
 
 <details>
+  <summary>Latest papers (2021-12-14)</summary>
+
+  - [Federated Learning with Adaptive Batchnorm for Personalized Healthcare](https://arxiv.org/abs/2112.00734)
+    - Federated learning with adaptive batchnorm
+    - 用自适应BN进行个性化联邦学习
+
+  - [Unsupervised Domain Adaptation: A Reality Check](https://arxiv.org/abs/2111.15672)
+    - Doing experiments to show the progress of DA methods over the years
+    - 用大量的实验来验证近几年来DA方法的进展
+  
+  - [Hierarchical Optimal Transport for Unsupervised Domain Adaptation](https://arxiv.org/abs/2112.02073)
+    - hierarchical optimal transport for UDA
+    - 层次性的最优传输用于domain adaptation
+
+  - [Unsupervised Domain Generalization by Learning a Bridge Across Domains](https://arxiv.org/abs/2112.02300)
+    - Unsupervised domain generalization
+    - 无监督的domain generalization
+</details>
+
+<details>
   <summary>Latest papers (2021-12-07)</summary>
 
   - [Boosting Unsupervised Domain Adaptation with Soft Pseudo-label and Curriculum Learning](https://arxiv.org/abs/2112.01948)

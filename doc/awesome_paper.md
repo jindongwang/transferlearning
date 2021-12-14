@@ -463,6 +463,14 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 ## Deep domain adaptation
 
+- [Unsupervised Domain Adaptation: A Reality Check](https://arxiv.org/abs/2111.15672)
+    - Doing experiments to show the progress of DA methods over the years
+    - 用大量的实验来验证近几年来DA方法的进展
+  
+- [Hierarchical Optimal Transport for Unsupervised Domain Adaptation](https://arxiv.org/abs/2112.02073)
+    - hierarchical optimal transport for UDA
+    - 层次性的最优传输用于domain adaptation
+
 - [Boosting Unsupervised Domain Adaptation with Soft Pseudo-label and Curriculum Learning](https://arxiv.org/abs/2112.01948)
     - Using soft pseudo-label and curriculum learning to boost UDA
     - 用软的伪标签和课程学习增强UDA方法
@@ -1323,6 +1331,10 @@ Let's read some awesome transfer learning / domain adaptation papers.
 - - -
 
 ## Domain generalization
+
+- [Unsupervised Domain Generalization by Learning a Bridge Across Domains](https://arxiv.org/abs/2112.02300)
+    - Unsupervised domain generalization
+    - 无监督的domain generalization
 
 - [ROBIN : A Benchmark for Robustness to Individual Nuisancesin Real-World Out-of-Distribution Shifts](https://arxiv.org/abs/2111.14341)
     - A benchmark for robustness to individual OOD
