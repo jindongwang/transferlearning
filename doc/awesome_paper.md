@@ -1885,6 +1885,10 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 ## Federated transfer learning
 
+- [Federated Learning with Adaptive Batchnorm for Personalized Healthcare](https://arxiv.org/abs/2112.00734)
+    - Federated learning with adaptive batchnorm
+    - 用自适应BN进行个性化联邦学习
+
 - [FedZKT: Zero-Shot Knowledge Transfer towards Heterogeneous On-Device Models in Federated Learning](https://arxiv.org/abs/2109.03775)
     - Zero-shot transfer in heterogeneous federated learning
     - 零次迁移用于联邦学习

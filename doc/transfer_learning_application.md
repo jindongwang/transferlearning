@@ -236,6 +236,10 @@ By reverse chronological order.
 
 ## Medical and healthcare
 
+- [Federated Learning with Adaptive Batchnorm for Personalized Healthcare](https://arxiv.org/abs/2112.00734)
+    - Federated learning with adaptive batchnorm
+    - 用自适应BN进行个性化联邦学习
+
 - [Adversarial Domain Feature Adaptation for Bronchoscopic Depth Estimation](https://arxiv.org/abs/2109.11798)
     - Adversarial domain adaptation for bronchoscopic depth estimation
     - 用对抗领域自适应进行支气管镜的深度估计
