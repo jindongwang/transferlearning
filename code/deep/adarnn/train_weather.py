@@ -424,7 +424,7 @@ def get_args():
     parser.add_argument('--num_layers', type=int, default=2)
     parser.add_argument('--dropout', type=float, default=0.0)
     parser.add_argument('--class_num', type=int, default=1)
-    parser.add_argument('--pre_epoch', type=int, default=40)  # 25
+    parser.add_argument('--pre_epoch', type=int, default=20)  # 30, 40, 50
 
     # training
     parser.add_argument('--n_epochs', type=int, default=200)
@@ -432,17 +432,17 @@ def get_args():
     parser.add_argument('--early_stop', type=int, default=40)
     parser.add_argument('--smooth_steps', type=int, default=5)
     parser.add_argument('--batch_size', type=int, default=36)
-    parser.add_argument('--dw', type=float, default=0.5) # 0.05, 1.0
+    parser.add_argument('--dw', type=float, default=0.1) # 0.05, 1.0, 5.0, 0.05
     parser.add_argument('--loss_type', type=str, default='cosine')
-    parser.add_argument('--station', type=str, default='Dongsi')
+    parser.add_argument('--station', type=str, default='Tiantan')
     parser.add_argument('--data_mode', type=str,
-                        default='pre_process')
+                        default='tdc')
     parser.add_argument('--num_domain', type=int, default=2)
     parser.add_argument('--len_seq', type=int, default=24)
 
     # other
     parser.add_argument('--seed', type=int, default=10)
-    parser.add_argument('--data_path', default="/root/Messi_du")
+    parser.add_argument('--data_path', default="/root/Messi_du/adarnn/")
     parser.add_argument('--outdir', default='./outputs')
     parser.add_argument('--overwrite', action='store_true')
     parser.add_argument('--log_file', type=str, default='run.log')
