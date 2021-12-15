@@ -21,9 +21,6 @@ Training and prediction algorithms are developed based on variational Bayes with
 Theoretical guarantees on the identifiability of the causal factor and the benefits for OOD prediction are presented.
 
 This codebase implements the CSG methods, and implements or integrates various baselines.
-Most domain adaptation baselines (except [BNM](https://github.com/cuishuhao/BNM)) use the [dalib](https://github.com/thuml/Transfer-Learning-Library) package.
-The experiment setups on the PACS and VLCS datasets are adopted from the [domainbed](https://github.com/facebookresearch/DomainBed) repository.
-Authorships are clarified in each file or module.
 
 ## Requirements
 

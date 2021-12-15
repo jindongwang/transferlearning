@@ -21,7 +21,7 @@ class LambdaSheduler(nn.Module):
 
 class AdversarialLoss(nn.Module):
     '''
-    Acknowledgement: The adversarial loss implementation is inspired by Transfer-Learning-Library: https://github.com/thuml/Transfer-Learning-Library/blob/master/dalib/adaptation/dann.py
+    Acknowledgement: The adversarial loss implementation is inspired by http://transfer.thuml.ai/
     '''
     def __init__(self, gamma=1.0, max_iter=1000, use_lambda_scheduler=True, **kwargs):
         super(AdversarialLoss, self).__init__()
