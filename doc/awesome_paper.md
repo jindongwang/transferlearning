@@ -123,6 +123,10 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 ## Per-training/Finetuning
 
+- [VL-Adapter: Parameter-Efficient Transfer Learning for Vision-and-Language Tasks](http://arxiv.org/abs/2112.06825)
+    - Vision-language efficient transfer learning
+    - 参数高校的vision-language任务迁移
+
 - [Revisiting the Transferability of Supervised Pretraining: an MLP Perspective](https://arxiv.org/abs/2112.00496)
     - Revisit the transferability of supervised pretraining
     - 重新思考有监督预训练的可迁移性
@@ -462,6 +466,10 @@ Let's read some awesome transfer learning / domain adaptation papers.
 	- 发表在IEEE Trans. Knowledge and Data Engineering期刊上
 
 ## Deep domain adaptation
+
+- [A Survey of Unsupervised Domain Adaptation for Visual Recognition](http://arxiv.org/abs/2112.06745)
+    - A new survey article of domain adaptation
+    - 对UDA的一个综述文章，来自作者博士论文
 
 - [Unsupervised Domain Adaptation: A Reality Check](https://arxiv.org/abs/2111.15672)
     - Doing experiments to show the progress of DA methods over the years

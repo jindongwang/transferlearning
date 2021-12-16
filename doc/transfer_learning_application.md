@@ -666,6 +666,10 @@ By reverse chronological order.
 
 ## Speech
 
+- IEEE TASLP-22 [Exploiting Adapters for Cross-lingual Low-resource Speech Recognition](https://arxiv.org/abs/2105.11905)
+    - Cross-lingual speech recogntion using meta-learning and transfer learning
+    - 用元学习和迁移学习进行跨语言的低资源语音识别
+
 - [Temporal Knowledge Distillation for On-device Audio Classification](https://arxiv.org/abs/2110.14131)
     - Temporal knowledge distillation for on-device ASR
     - 时序知识蒸馏用于设备端的语音识别
@@ -717,6 +721,10 @@ By reverse chronological order.
 - 20180408 ASRU-18 用迁移学习中的domain separation network进行speech recognition：[Unsupervised Adaptation with Domain Separation Networks for Robust Speech Recognition](https://arxiv.org/abs/1711.08010)
 
 ## Multimedia
+
+- [VL-Adapter: Parameter-Efficient Transfer Learning for Vision-and-Language Tasks](http://arxiv.org/abs/2112.06825)
+    - Vision-language efficient transfer learning
+    - 参数高校的vision-language任务迁移
 
 - [TimeMatch: Unsupervised Cross-Region Adaptation by Temporal Shift Estimation](https://arxiv.org/abs/2111.02682)
     - Temporal domain adaptation

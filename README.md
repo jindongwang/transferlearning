@@ -49,6 +49,23 @@ author = {Wang, Jindong and others}
 **Latest papers**: (All papers are also put in [doc/awesome_papers.md](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md))
 
 <details>
+  <summary>Latest papers (2021-12-16)</summary>
+
+  - IEEE TASLP-22 [Exploiting Adapters for Cross-lingual Low-resource Speech Recognition](https://arxiv.org/abs/2105.11905)
+    - Cross-lingual speech recogntion using meta-learning and transfer learning
+    - 用元学习和迁移学习进行跨语言的低资源语音识别
+
+  - [A Survey of Unsupervised Domain Adaptation for Visual Recognition](http://arxiv.org/abs/2112.06745)
+    - A new survey article of domain adaptation
+    - 对UDA的一个综述文章，来自作者博士论文
+
+  - [VL-Adapter: Parameter-Efficient Transfer Learning for Vision-and-Language Tasks](http://arxiv.org/abs/2112.06825)
+    - Vision-language efficient transfer learning
+    - 参数高校的vision-language任务迁移
+
+</details>
+
+<details>
   <summary>Latest papers (2021-12-14)</summary>
 
   - [Federated Learning with Adaptive Batchnorm for Personalized Healthcare](https://arxiv.org/abs/2112.00734)
