@@ -666,6 +666,10 @@ By reverse chronological order.
 
 ## Speech
 
+- [Domain Prompts: Towards memory and compute efficient domain adaptation of ASR systems](https://arxiv.org/abs/2112.08718)
+    - Prompt for domain adaptation in speech recognition
+    - 用Prompt在语音识别中进行domain adaptation
+
 - IEEE TASLP-22 [Exploiting Adapters for Cross-lingual Low-resource Speech Recognition](https://arxiv.org/abs/2105.11905)
     - Cross-lingual speech recogntion using meta-learning and transfer learning
     - 用元学习和迁移学习进行跨语言的低资源语音识别
@@ -721,6 +725,10 @@ By reverse chronological order.
 - 20180408 ASRU-18 用迁移学习中的domain separation network进行speech recognition：[Unsupervised Adaptation with Domain Separation Networks for Robust Speech Recognition](https://arxiv.org/abs/1711.08010)
 
 ## Multimedia
+
+- [Domain Adaptation on Point Clouds via Geometry-Aware Implicits](https://arxiv.org/abs/2112.09343)
+    - Domain adaptation for point cloud
+    - 针对点云的domain adaptation
 
 - [VL-Adapter: Parameter-Efficient Transfer Learning for Vision-and-Language Tasks](http://arxiv.org/abs/2112.06825)
     - Vision-language efficient transfer learning

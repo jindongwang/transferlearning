@@ -49,6 +49,23 @@ author = {Wang, Jindong and others}
 **Latest papers**: (All papers are also put in [doc/awesome_papers.md](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md))
 
 <details>
+  <summary>Latest papers (2021-12-20)</summary>
+
+  - [Domain Prompts: Towards memory and compute efficient domain adaptation of ASR systems](https://arxiv.org/abs/2112.08718)
+    - Prompt for domain adaptation in speech recognition
+    - 用Prompt在语音识别中进行domain adaptation
+
+  - [UMAD: Universal Model Adaptation under Domain and Category Shift](https://arxiv.org/abs/2112.08553)
+    - Model adaptation under domain and category shift
+    - 在domain和class都有shift的前提下进行模型适配
+
+  - [Domain Adaptation on Point Clouds via Geometry-Aware Implicits](https://arxiv.org/abs/2112.09343)
+    - Domain adaptation for point cloud
+    - 针对点云的domain adaptation
+
+</details>
+
+<details>
   <summary>Latest papers (2021-12-16)</summary>
 
   - IEEE TASLP-22 [Exploiting Adapters for Cross-lingual Low-resource Speech Recognition](https://arxiv.org/abs/2105.11905)

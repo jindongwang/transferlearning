@@ -467,6 +467,10 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 ## Deep domain adaptation
 
+- [UMAD: Universal Model Adaptation under Domain and Category Shift](https://arxiv.org/abs/2112.08553)
+    - Model adaptation under domain and category shift
+    - 在domain和class都有shift的前提下进行模型适配
+
 - [A Survey of Unsupervised Domain Adaptation for Visual Recognition](http://arxiv.org/abs/2112.06745)
     - A new survey article of domain adaptation
     - 对UDA的一个综述文章，来自作者博士论文
@@ -1955,6 +1959,8 @@ Let's read some awesome transfer learning / domain adaptation papers.
 - 20180323 arXiv 终身迁移学习与增量学习结合：[Incremental Learning-to-Learn with Statistical Guarantees](https://arxiv.org/abs/1803.08089)
 
 - 20180111 arXiv 一种新的终身学习框架，与L2T的思路有一些类似 [Lifelong Learning for Sentiment Classification](https://arxiv.org/abs/1801.02808)
+
+
 
 - - -
 
