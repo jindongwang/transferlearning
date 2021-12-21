@@ -43,20 +43,20 @@ Download Office-31 DeCAF6 and DeCAF7 features:
 - [Jianguoyun](https://www.jianguoyun.com/p/DcNAUg0QmN7PCBiF9asD) (Password: qqLA7D)
 
 Download Office-31 Resnet-50 features:
-- [Baiduyun](https://pan.baidu.com/s/1UoyJSqoCKCda-NcP-zraVg)
+- [Jianguoyun](https://www.jianguoyun.com/p/DSO1BC0QmN7PCBicraIE) (Password: eS5fMT)
 - [MEGA](https://mega.nz/#F!laI2lKoJ!nSmVQXrpu1Ov794sy2wFKg)
 
 ### Office-Home
 
-[Download Office-Home original images](http://hemanthdv.org/OfficeHome-Dataset/)
+[Download Office-Home original images](https://www.jianguoyun.com/p/DSCLvuoQmN7PCBiWraIE) (Password: 726GYD)
 
 [Download Office-Home ResNet-50 pretrained features](https://pan.baidu.com/s/1qvcWJCXVG8JkZnoM4BVoGg) | [Download from MEGA](https://mega.nz/#F!pGIkjIxC!MDD3ps6RzTXWobMfHh0Slw)
 
 ### ImageCLEF
 
-[Download the ImageCLEF dataset](https://pan.baidu.com/s/1-06SNBiG1sfwVfPwrscwGw 提取码: xftq) | [MEGA](https://mega.nz/#!AKYhEYaY!mSwEK3_9SLVSqXXNzUxNWpQymlH10vcEhuC8fbOIAwk)
+[Raw images from Jianguoyun](https://www.jianguoyun.com/p/DW5Gc_sQmN7PCBjwrKIE) (Password: e5v8GG) | [From MEGA](https://mega.nz/#!AKYhEYaY!mSwEK3_9SLVSqXXNzUxNWpQymlH10vcEhuC8fbOIAwk)
 
-[Download Image-CLEF ResNet-50 pretrained features](https://pan.baidu.com/s/16wBgDJI6drA0oYq537h4FQ) | [Download from MEGA](https://mega.nz/#F!QPJCzShS!b6qQUXWnCCGBMVs0m6MdQw)
+[ResNet-50 pretrained features](https://pan.baidu.com/s/16wBgDJI6drA0oYq537h4FQ) | [Download from MEGA](https://mega.nz/#F!QPJCzShS!b6qQUXWnCCGBMVs0m6MdQw)
 
 ### USPS+MNIST
 

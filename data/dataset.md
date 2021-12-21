@@ -184,7 +184,9 @@ Download the SURF/SIFT/DeCAF features [[MEGA](https://mega.nz/#F!Na5jyLiC!LT29_g
 
 This is a **new** dataset released at CVPR 2017. It contains 65 kinds of objects crawled from the web. The main research goal is for domain adatpation algorithms benchmark.
 
-The project home page is: http://hemanthdv.org/OfficeHome-Dataset/, the dataset can be downloaded there.
+The project home page is: http://hemanthdv.org/OfficeHome-Dataset/.
+
+[Download the raw image](https://www.jianguoyun.com/p/DSCLvuoQmN7PCBiWraIE) (Password: 726GYD)
 
 Currently, there are no feature files, which is bad for traditional (no-deep) methods. I extracted features using ResNet-50 for you to use:
 
@@ -204,7 +206,7 @@ This is a Decaf7 based cross-dataset image classification dataset. It contains 4
 
 This is a dataset from ImageCLEF 2014 challenge.
 
-[Download the ImageCLEF dataset](https://pan.baidu.com/s/1-06SNBiG1sfwVfPwrscwGw 提取码: xftq)
+[Download the ImageCLEF dataset](https://www.jianguoyun.com/p/DW5Gc_sQmN7PCBjwrKIE) (Password: e5v8GG)
 
 [Download Image-CLEF ResNet-50 pretrained features](https://pan.baidu.com/s/16wBgDJI6drA0oYq537h4FQ) | [Download from MEGA](https://mega.nz/#F!QPJCzShS!b6qQUXWnCCGBMVs0m6MdQw)
 
