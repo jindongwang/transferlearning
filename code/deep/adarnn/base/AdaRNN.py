@@ -161,10 +161,11 @@ class AdaRNN(nn.Module):
 
     # For Boosting-based
     def update_weight_Boosting(self, weight_mat, dist_old, dist_new):
-        epsilon = 1e-5
+        epsilon = 1e-10
         dist_old = dist_old.detach()
         dist_new = dist_new.detach()
         ind = dist_new > dist_old + epsilon
+        print(ind)
         weight_mat[ind] = weight_mat[ind] * \
             (1 + torch.sigmoid(dist_new[ind] - dist_old[ind]))
         weight_norm = torch.norm(weight_mat, dim=1, p=1)
