@@ -165,12 +165,12 @@ class AdaRNN(nn.Module):
         dist_old = dist_old.detach()
         dist_new = dist_new.detach()
         ind = dist_new > dist_old + epsilon
-        print(ind)
+        # print(ind)
         weight_mat[ind] = weight_mat[ind] * \
             (1 + torch.sigmoid(dist_new[ind] - dist_old[ind]))
         weight_norm = torch.norm(weight_mat, dim=1, p=1)
         weight_mat = weight_mat / weight_norm.t().unsqueeze(1).repeat(1, self.len_seq)
-        print(weight_mat)
+        # print(weight_mat)
         return weight_mat
 
     def predict(self, x):
