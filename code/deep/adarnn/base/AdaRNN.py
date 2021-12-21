@@ -161,7 +161,7 @@ class AdaRNN(nn.Module):
 
     # For Boosting-based
     def update_weight_Boosting(self, weight_mat, dist_old, dist_new):
-        epsilon = 1e-5
+        epsilon = 1e-12
         dist_old = dist_old.detach()
         dist_new = dist_new.detach()
         ind = dist_new > dist_old + epsilon
