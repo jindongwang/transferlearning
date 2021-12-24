@@ -49,6 +49,19 @@ author = {Wang, Jindong and others}
 **Latest papers**: (All papers are also put in [doc/awesome_papers.md](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md))
 
 <details>
+  <summary>Latest papers (2021-12-24)</summary>
+
+- [More is Better: A Novel Multi-view Framework for Domain Generalization](https://arxiv.org/abs/2112.12329)
+    - Multi-view learning for domain generalization
+    - 使用多视图学习来进行domain generalization
+
+- [SLIP: Self-supervision meets Language-Image Pre-training](https://arxiv.org/abs/2112.12750)
+    - Self-supervised learning + language image pretraining
+    - 用自监督学习用于语言到图像的预训练
+
+</details>
+
+<details>
   <summary>Latest papers (2021-12-20)</summary>
 
   - [Domain Prompts: Towards memory and compute efficient domain adaptation of ASR systems](https://arxiv.org/abs/2112.08718)

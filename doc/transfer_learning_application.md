@@ -726,6 +726,10 @@ By reverse chronological order.
 
 ## Multimedia
 
+- [SLIP: Self-supervision meets Language-Image Pre-training](https://arxiv.org/abs/2112.12750)
+    - Self-supervised learning + language image pretraining
+    - 用自监督学习用于语言到图像的预训练
+
 - [Domain Adaptation on Point Clouds via Geometry-Aware Implicits](https://arxiv.org/abs/2112.09343)
     - Domain adaptation for point cloud
     - 针对点云的domain adaptation

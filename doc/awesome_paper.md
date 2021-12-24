@@ -123,6 +123,10 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 ## Per-training/Finetuning
 
+- [SLIP: Self-supervision meets Language-Image Pre-training](https://arxiv.org/abs/2112.12750)
+    - Self-supervised learning + language image pretraining
+    - 用自监督学习用于语言到图像的预训练
+
 - [VL-Adapter: Parameter-Efficient Transfer Learning for Vision-and-Language Tasks](http://arxiv.org/abs/2112.06825)
     - Vision-language efficient transfer learning
     - 参数高校的vision-language任务迁移
@@ -1343,6 +1347,10 @@ Let's read some awesome transfer learning / domain adaptation papers.
 - - -
 
 ## Domain generalization
+
+- [More is Better: A Novel Multi-view Framework for Domain Generalization](https://arxiv.org/abs/2112.12329)
+    - Multi-view learning for domain generalization
+    - 使用多视图学习来进行domain generalization
 
 - [Unsupervised Domain Generalization by Learning a Bridge Across Domains](https://arxiv.org/abs/2112.02300)
     - Unsupervised domain generalization
