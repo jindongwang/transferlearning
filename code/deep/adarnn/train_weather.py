@@ -432,7 +432,7 @@ def get_args():
     parser.add_argument('--early_stop', type=int, default=40)
     parser.add_argument('--smooth_steps', type=int, default=5)
     parser.add_argument('--batch_size', type=int, default=36)
-    parser.add_argument('--dw', type=float, default=0.1) # 0.05, 1.0, 5.0, 0.05
+    parser.add_argument('--dw', type=float, default=0.05) # 1.0, 0.01, 5.0
     parser.add_argument('--loss_type', type=str, default='cosine')
     parser.add_argument('--station', type=str, default='Tiantan')
     parser.add_argument('--data_mode', type=str,
