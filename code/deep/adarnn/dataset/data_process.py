@@ -51,7 +51,7 @@ def get_split_time(num_domain=2, mode='pre_process', data_file = None, station =
         print("error in mode")
 
 
-def TDC(num_domain, data_file, station, dis_type = 'mmd'):
+def TDC(num_domain, data_file, station, dis_type = 'coral'):
     
     start_time = datetime.datetime.strptime(
             '2013-03-01 00:00:00', '%Y-%m-%d %H:%M:%S')
@@ -62,6 +62,7 @@ def TDC(num_domain, data_file, station, dis_type = 'mmd'):
     data=pd.read_pickle(data_file)[station]
     feat =data[0][0:num_day]
     feat=torch.tensor(feat, dtype=torch.float32)
+    feat_shape_1 = feat.shape[1] 
     feat =feat.reshape(-1, feat.shape[2])
     feat = feat.cuda()
     # num_day_new = feat.shape[0]
@@ -79,11 +80,11 @@ def TDC(num_domain, data_file, station, dis_type = 'mmd'):
                 dis_temp = 0
                 for i in range(1, len(selected)-1):
                     for j in range(i, len(selected)-1):
-                        index_part1_start = start + math.floor(selected[i-1] / split_N * num_day) * 24
-                        index_part1_end = start + math.floor(selected[i] / split_N * num_day) * 24
+                        index_part1_start = start + math.floor(selected[i-1] / split_N * num_day) * feat_shape_1
+                        index_part1_end = start + math.floor(selected[i] / split_N * num_day) * feat_shape_1
                         feat_part1 = feat[index_part1_start: index_part1_end]
-                        index_part2_start = start + math.floor(selected[j] / split_N * num_day) * 24
-                        index_part2_end = start + math.floor(selected[j+1] / split_N * num_day) * 24
+                        index_part2_start = start + math.floor(selected[j] / split_N * num_day) * feat_shape_1
+                        index_part2_end = start + math.floor(selected[j+1] / split_N * num_day) * feat_shape_1
                         feat_part2 = feat[index_part2_start:index_part2_end]
                         criterion_transder = TransferLoss(loss_type= dis_type, input_dim=feat_part1.shape[1])
                         dis_temp += criterion_transder.compute(feat_part1, feat_part2)
