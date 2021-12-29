@@ -4,10 +4,11 @@ import numpy as np
 from datautil.util import Nmax
 from datautil.imgdata.util import rgb_loader, l_loader
 from torchvision.datasets import ImageFolder
+from torchvision.datasets.folder import default_loader
 
 
 class ImageDataset(object):
-    def __init__(self, dataset, task, root_dir, domain_name, domain_label=-1, labels=None, transform=None, target_transform=None, indices=None, test_envs=[], mode='RGB'):
+    def __init__(self, dataset, task, root_dir, domain_name, domain_label=-1, labels=None, transform=None, target_transform=None, indices=None, test_envs=[], mode='Default'):
         self.imgs = ImageFolder(root_dir+domain_name).imgs
         self.domain_num = 0
         self.task = task
@@ -22,7 +23,9 @@ class ImageDataset(object):
             self.indices = np.arange(len(imgs))
         else:
             self.indices = indices
-        if mode == 'RGB':
+        if mode == 'Default':
+            self.loader = default_loader
+        elif mode == 'RGB':
             self.loader = rgb_loader
         elif mode == 'L':
             self.loader = l_loader

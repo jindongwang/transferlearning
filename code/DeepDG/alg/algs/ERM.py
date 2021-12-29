@@ -16,13 +16,11 @@ class ERM(Algorithm):
     def __init__(self, args):
         super(ERM, self).__init__(args)
         self.featurizer = get_fea(args)
-        self.bottleneck = common_network.feat_bottleneck(
-            self.featurizer.in_features, args.bottleneck, args.layer)
         self.classifier = common_network.feat_classifier(
-            args.num_classes, args.bottleneck, args.classifier)
+            args.num_classes, self.featurizer.in_features, args.classifier)
 
         self.network = nn.Sequential(
-            self.featurizer, self.bottleneck, self.classifier)
+            self.featurizer, self.classifier)
 
     def update(self, minibatches, opt, sch):
         all_x = torch.cat([data[0].cuda().float() for data in minibatches])

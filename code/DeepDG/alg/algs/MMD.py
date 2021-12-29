@@ -40,8 +40,8 @@ class MMD(ERM):
         penalty = 0
         nmb = len(minibatches)
 
-        features = [self.bottleneck(self.featurizer(
-            data[0].cuda().float())) for data in minibatches]
+        features = [self.featurizer(
+            data[0].cuda().float()) for data in minibatches]
         classifs = [self.classifier(fi) for fi in features]
         targets = [data[1].cuda().long() for data in minibatches]
 

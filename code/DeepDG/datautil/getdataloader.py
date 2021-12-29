@@ -11,12 +11,13 @@ from datautil.mydataloader import InfiniteDataLoader
 def get_img_dataloader(args):
     rate = 0.2
     trdatalist, tedatalist = [], []
+
     names = args.img_dataset[args.dataset]
     args.domain_num = len(names)
     for i in range(len(names)):
         if i in args.test_envs:
             tedatalist.append(ImageDataset(args.dataset, args.task, args.data_dir,
-                              names[i], i, transform=imgutil.image_test(args.dataset), test_envs=args.test_envs))
+                                           names[i], i, transform=imgutil.image_test(args.dataset), test_envs=args.test_envs))
         else:
             tmpdatay = ImageDataset(args.dataset, args.task, args.data_dir,
                                     names[i], i, transform=imgutil.image_train(args.dataset), test_envs=args.test_envs).labels
@@ -32,14 +33,12 @@ def get_img_dataloader(args):
                 np.random.seed(args.seed)
                 np.random.shuffle(indexall)
                 ted = int(l*rate)
-                indextr, indexte = indexall[ted:], indexall[:ted]
-            tstep_per_epoch = int(len(indextr)/args.batch_size)
-            if tstep_per_epoch < args.step_per_epoch:
-                args.step_per_epoch = tstep_per_epoch
+                indextr, indexte = indexall[:-ted], indexall[-ted:]
+
             trdatalist.append(ImageDataset(args.dataset, args.task, args.data_dir,
-                              names[i], i, transform=imgutil.image_train(args.dataset), indices=indextr, test_envs=args.test_envs))
+                                           names[i], i, transform=imgutil.image_train(args.dataset), indices=indextr, test_envs=args.test_envs))
             tedatalist.append(ImageDataset(args.dataset, args.task, args.data_dir,
-                              names[i], i, transform=imgutil.image_test(args.dataset), indices=indexte, test_envs=args.test_envs))
+                                           names[i], i, transform=imgutil.image_test(args.dataset), indices=indexte, test_envs=args.test_envs))
 
     train_loaders = [InfiniteDataLoader(
         dataset=env,

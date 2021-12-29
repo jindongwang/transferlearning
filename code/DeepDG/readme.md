@@ -17,6 +17,7 @@ As initial version, we support the following algoirthms. We are working on more 
 7. RSC [6]
 8. GroupDRO [7]
 9. ANDMask [8]
+10. VREx [9]
 
 ## Installation
 
@@ -85,25 +86,59 @@ We present results of our implementations on 2 popular benchmarks: PACS and Offi
 
 1. Results on PACS (resnet-18)
 
-| Method | A | C | P | S | AVG |
-|----------|----------|----------|----------|----------|----------|
-| ERM | 76.90 | 76.41 | 93.83 | 65.26 | 78.10 |
-| DANN | 79.30 | 77.13 | 92.93 | 77.20 | 81.64 |
-| Mixup | 76.32 | 71.93 | 92.28 | 70.50 | 77.76 |
-| RSC | 75.68 | 75.60 | 94.43 | 70.81 | 79.13 |
-| CORAL | 73.34 | 76.62 | 87.96 | 73.86 | 77.94 |
-| GroupDRO | 71.92 | 77.13 | 87.13 | 75.01 | 77.80 |
+| Method   | A     | C     | P     | S     | AVG   |
+|----------|-------|-------|-------|-------|-------|
+| ERM      | 81.1  | 77.94 | 95.03 | 76.94 | 82.75 |
+| DANN     | 82.86 | 78.33 | 96.11 | 76.99 | 83.57 |
+| Mixup    | 81.84 | 75.43 | 95.27 | 76.51 | 82.26 |
+| RSC      | 82.13 | 77.99 | 94.43 | 79.87 | 83.6  |
+| MMD      | 80.32 | 76.45 | 92.46 | 83.63 | 83.21 |
+| CORAL    | 79.39 | 77.9  | 91.98 | 82.03 | 82.83 |
+| GroupDRO | 79.15 | 76.75 | 91.32 | 81.52 | 82.19 |
+| ANDMask  | 80.81 | 73.29 | 95.81 | 71.95 | 80.47 |
+| Vrex     | 81.54 | 78.11 | 95.39 | 80.35 | 83.85 |
 
 2. Results on Office-Home (resnet-18)
 
-| Method | A | C | P | R | AVG |
-|----------|----------|----------|----------|----------|----------|
-| ERM | 55.21 | 46.05 | 73.30 | 72.60 | 61.79 |
-| DANN | 56.08 | 44.51 | 70.49 | 70.92 | 60.50 |
-| Mixup | 54.31 | 45.82 | 72.22 | 73.33 | 61.42 |
-| RSC | 58.47 | 47.51 | 73.44 | 74.29 | 63.43 |
-| CORAL | 58.30 | 48.32 | 72.83 | 74.78 | 63.56 |
-| GroupDRO | 57.11 | 48.36 | 71.59 | 73.58 | 62.66 |
+| Method   | A     | C     | P     | R     | AVG   |
+|----------|-------|-------|-------|-------|-------|
+| ERM      | 57.77 | 50.63 | 71.3  | 74.45 | 63.54 |
+| DANN     | 57.6  | 48.52 | 71.16 | 72.99 | 62.57 |
+| Mixup    | 58.71 | 51    | 72.2  | 75.42 | 64.33 |
+| RSC      | 57.07 | 50.77 | 71.93 | 73.63 | 63.35 |
+| MMD      | 59.29 | 50.52 | 72.34 | 74.43 | 64.15 |
+| CORAL    | 59.29 | 50.15 | 72.25 | 74.2  | 63.97 |
+| GroupDRO | 59.09 | 50.22 | 71.91 | 74.48 | 63.92 |
+| ANDMask  | 53.61 | 47.54 | 69.36 | 72.23 | 60.69 |
+| Vrex     | 59.09 | 49.81 | 71.64 | 74.82 | 63.84 |
+
+3. Results on PACS (resnet-50)
+
+| Method   | A     | C     | P     | S     | AVG   |
+|----------|-------|-------|-------|-------|-------|
+| ERM      | 83.2  | 81.7  | 96.65 | 83.69 | 86.31 |
+| DANN     | 87.26 | 83.45 | 95.33 | 84.35 | 87.6  |
+| Mixup    | 89.36 | 82.08 | 96.65 | 84.63 | 88.18 |
+| RSC      | 87.84 | 80.33 | 97.72 | 81.5  | 86.85 |
+| MMD      | 85.74 | 83.58 | 95.51 | 83.46 | 87.07 |
+| CORAL    | 86.77 | 84.04 | 94.85 | 85.95 | 87.9  |
+| GroupDRO | 84.18 | 83.15 | 96.11 | 83.94 | 86.84 |
+| ANDMask  | 84.91 | 76.45 | 97.72 | 81.19 | 85.07 |
+| Vrex     | 87.11 | 82.85 | 96.95 | 84.07 | 87.75 |
+
+4. Results on Office-Home (resnet-50)
+
+| Method   | A     | C     | P     | R     | AVG   |
+|----------|-------|-------|-------|-------|-------|
+| ERM      | 67.66 | 55.92 | 77.7  | 80.47 | 70.44 |
+| DANN     | 67.49 | 56.66 | 76.73 | 79.21 | 70.02 |
+| Mixup    | 67.41 | 58.24 | 78.46 | 80.84 | 71.24 |
+| RSC      | 66.3  | 55.21 | 76.95 | 79    | 69.36 |
+| MMD      | 66.71 | 56.54 | 78.37 | 79.8  | 70.36 |
+| CORAL    | 66.58 | 56.17 | 78.55 | 79.76 | 70.27 |
+| GroupDRO | 66.87 | 57.04 | 77.97 | 79.69 | 70.39 |
+| ANDMask  | 62.3  | 54.78 | 74.99 | 78.31 | 67.59 |
+| Vrex     | 68.19 | 56.29 | 78.35 | 80.42 | 70.81 |
 
 ## Contribution
 
@@ -130,6 +165,8 @@ Great thanks to [DomainBed](https://github.com/facebookresearch/DomainBed). We s
 [7] Sagawa S, Koh P W, Hashimoto T B, et al. Distributionally robust neural networks for group shifts: On the importance of regularization for worst-case generalization, ICLR 2020.
 
 [8] Parascandolo G, Neitz A, ORVIETO A, et al. Learning explanations that are hard to vary[C]//International Conference on Learning Representations. 2020.
+
+[9] Krueger D, Caballero E, Jacobsen J H, et al. Out-of-distribution generalization via risk extrapolation (rex)[C]//International Conference on Machine Learning. PMLR, 2021.
 
 ## Citation
 

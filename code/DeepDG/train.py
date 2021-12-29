@@ -17,14 +17,14 @@ def get_args():
     parser.add_argument('--algorithm', type=str, default="ERM")
     parser.add_argument('--alpha', type=float,
                         default=1, help='DANN dis alpha')
+    parser.add_argument('--anneal_iters', type=int,
+                        default=500, help='Penalty anneal iters used in VREx')
     parser.add_argument('--batch_size', type=int,
                         default=32, help='batch_size')
     parser.add_argument('--beta1', type=float, default=0.5,
                         help='Adam hyper-param')
-    parser.add_argument('--bottleneck', type=int,
-                        default=256, help='bottleneck dim')
     parser.add_argument('--checkpoint_freq', type=int,
-                        default=1, help='Checkpoint every N epoch')
+                        default=3, help='Checkpoint every N epoch')
     parser.add_argument('--classifier', type=str,
                         default="linear", choices=["linear", "wn"])
     parser.add_argument('--data_file', type=str, default='',
@@ -37,10 +37,10 @@ def get_args():
                         default='0', help="device id to run")
     parser.add_argument('--groupdro_eta', type=float,
                         default=1, help="groupdro eta")
-    parser.add_argument('--layer', type=str, default="bn",
-                        choices=["ori", "bn"], help='bottleneck normalization style')
     parser.add_argument('--inner_lr', type=float,
                         default=1e-2, help="learning rate used in MLDG")
+    parser.add_argument('--lam', type=float,
+                        default=1, help="tradeoff hyperparameter used in VREx")
     parser.add_argument('--lr', type=float, default=1e-2, help="learning rate")
     parser.add_argument('--lr_decay', type=float, default=0.75, help='for sgd')
     parser.add_argument('--lr_decay1', type=float,
@@ -68,6 +68,7 @@ def get_args():
                         default=1/3, help='rsc hyper-param')
     parser.add_argument('--save_model_every_checkpoint', action='store_true')
     parser.add_argument('--schuse', action='store_true')
+    parser.add_argument('--schusech', type=str, default='cos')
     parser.add_argument('--seed', type=int, default=0)
     parser.add_argument('--split_style', type=str, default='strat',
                         help="the style to split the train and eval datasets")
@@ -80,7 +81,7 @@ def get_args():
                         default="train_output", help='result output path')
     parser.add_argument('--weight_decay', type=float, default=5e-4)
     args = parser.parse_args()
-    args.step_per_epoch = 100000000000
+    args.steps_per_epoch = 100
     args.data_dir = args.data_file+args.data_dir
     os.environ['CUDA_VISIBLE_DEVICS'] = args.gpu_id
     os.makedirs(args.output, exist_ok=True)
@@ -114,9 +115,12 @@ if __name__ == '__main__':
     print('===========start training===========')
     sss = time.time()
     for epoch in range(args.max_epoch):
-        for iter_num in range(args.step_per_epoch):
+        for iter_num in range(args.steps_per_epoch):
             minibatches_device = [(data)
                                   for data in next(train_minibatches_iterator)]
+            if args.algorithm == 'VREx' and algorithm.update_count == args.anneal_iters:
+                opt = get_optimizer(algorithm, args)
+                sch = get_scheduler(opt, args)
             step_vals = algorithm.update(minibatches_device, opt, sch)
 
         if (epoch in [int(args.max_epoch*0.7), int(args.max_epoch*0.9)]) and (not args.schuse):

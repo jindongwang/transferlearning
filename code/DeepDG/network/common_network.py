@@ -11,7 +11,7 @@ class feat_bottleneck(nn.Module):
         self.relu = nn.ReLU(inplace=True)
         self.dropout = nn.Dropout(p=0.5)
         self.bottleneck = nn.Linear(feature_dim, bottleneck_dim)
-        self.bottleneck.apply(init_weights)
+        # self.bottleneck.apply(init_weights)
         self.type = type
 
     def forward(self, x):
@@ -28,10 +28,10 @@ class feat_classifier(nn.Module):
         if type == 'wn':
             self.fc = weightNorm(
                 nn.Linear(bottleneck_dim, class_num), name="weight")
-            self.fc.apply(init_weights)
+            # self.fc.apply(init_weights)
         else:
             self.fc = nn.Linear(bottleneck_dim, class_num)
-            self.fc.apply(init_weights)
+            # self.fc.apply(init_weights)
 
     def forward(self, x):
         x = self.fc(x)
@@ -43,9 +43,9 @@ class feat_classifier_two(nn.Module):
         super(feat_classifier_two, self).__init__()
         self.type = type
         self.fc0 = nn.Linear(input_dim, bottleneck_dim)
-        self.fc0.apply(init_weights)
+        # self.fc0.apply(init_weights)
         self.fc1 = nn.Linear(bottleneck_dim, class_num)
-        self.fc1.apply(init_weights)
+        # self.fc1.apply(init_weights)
 
     def forward(self, x):
         x = self.fc0(x)

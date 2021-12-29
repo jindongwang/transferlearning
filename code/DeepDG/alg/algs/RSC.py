@@ -18,7 +18,7 @@ class RSC(ERM):
         all_x = torch.cat([data[0].cuda().float() for data in minibatches])
         all_y = torch.cat([data[1].cuda().long() for data in minibatches])
         all_o = torch.nn.functional.one_hot(all_y, self.num_classes)
-        all_f = self.bottleneck(self.featurizer(all_x))
+        all_f = self.featurizer(all_x)
         all_p = self.classifier(all_f)
 
         # Equation (1): compute gradients with respect to representation

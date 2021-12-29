@@ -61,7 +61,6 @@ class MLDG(ERM):
                     p.grad.data.add_(
                         self.args.mldg_beta * g_j.data / num_mb)
 
-
         objective /= len(minibatches)
 
         opt.step()

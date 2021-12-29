@@ -51,7 +51,9 @@ def alg_loss_dict(args):
                  'MLDG': ['total'],
                  'MMD': ['class', 'mmd', 'total'],
                  'GroupDRO': ['group'],
-                 'RSC': ['class']}
+                 'RSC': ['class'],
+                 'VREx': ['loss', 'nll', 'penalty']
+                 }
     return loss_dict[args.algorithm]
 
 
