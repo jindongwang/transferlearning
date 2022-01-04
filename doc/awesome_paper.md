@@ -27,6 +27,10 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 ## Survey
 
+- [Data-Free Knowledge Transfer: A Survey](https://arxiv.org/abs/2112.15278)
+  - A survey on data-free distillation and source-free DA
+  - 一篇关于data-free蒸馏和source-free DA的综述
+
 - 2021 Domain generalization: IJCAI-21 [Generalizing to Unseen Domains: A Survey on Domain Generalization](https://arxiv.org/abs/2103.03097) | [知乎文章](https://zhuanlan.zhihu.com/p/354740610) | [微信公众号](https://mp.weixin.qq.com/s/DsoVDYqLB1N7gj9X5UnYqw)
   - First survey on domain generalization
   - 第一篇对Domain generalization (领域泛化)的综述
@@ -55,6 +59,10 @@ Let's read some awesome transfer learning / domain adaptation papers.
 	- 多个源域进行迁移的综述：[A Survey of Multi-source Domain Adaptation](https://pan.baidu.com/s/1eSGREF4)。
 
 ## Theory
+
+- [Optimal Representations for Covariate Shift](https://arxiv.org/abs/2201.00057)
+  - Learning optimal representations for covariate shift
+  - 为covariate shift学习最优的表达
 
 - NeurIPS-21 [On Learning Domain-Invariant Representations for Transfer Learning with Multiple Sources](https://arxiv.org/abs/2111.13822)
     - Theory and algorithm of domain-invariant learning for transfer learning
@@ -122,6 +130,10 @@ Let's read some awesome transfer learning / domain adaptation papers.
 	- 对迁移学习中无监督的WGAN进行了一些理论上的分析
 
 ## Per-training/Finetuning
+
+- [An Ensemble of Pre-trained Transformer Models For Imbalanced Multiclass Malware Classification](https://arxiv.org/abs/2112.13236)
+  - An ensemble of pre-trained transformer for malware classification
+  - 预训练的transformer通过集成进行恶意软件检测
 
 - [SLIP: Self-supervision meets Language-Image Pre-training](https://arxiv.org/abs/2112.12750)
     - Self-supervised learning + language image pretraining
@@ -1348,6 +1360,18 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 ## Domain generalization
 
+- TKDE-22 [Adaptive Memory Networks with Self-supervised Learning for Unsupervised Anomaly Detection](https://arxiv.org/abs/2201.00464)
+  - Adaptiev memory network for anomaly detection
+  - 自适应的记忆网络用于异常检测
+
+- ICIP-22 [Meta-Learned Feature Critics for Domain Generalized Semantic Segmentation](https://arxiv.org/abs/2112.13538)
+  - Meta-learning for domain generalization
+  - 元学习用于domain generalization
+
+- ICIP-22 [Few-Shot Classification in Unseen Domains by Episodic Meta-Learning Across Visual Domains](https://arxiv.org/abs/2112.13539)
+  - Few-shot generalization using meta-learning
+  - 用元学习进行小样本的泛化
+
 - [More is Better: A Novel Multi-view Framework for Domain Generalization](https://arxiv.org/abs/2112.12329)
     - Multi-view learning for domain generalization
     - 使用多视图学习来进行domain generalization
@@ -1968,9 +1992,10 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 - 20180111 arXiv 一种新的终身学习框架，与L2T的思路有一些类似 [Lifelong Learning for Sentiment Classification](https://arxiv.org/abs/1801.02808)
 
-
-
 - - -
+
+
+
 
 ## Transfer learning applications
 

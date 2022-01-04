@@ -2,7 +2,7 @@
 
 <h1 align="center">
   <br>
-  <img src="png/logo.jpg" alt="Overleaf" width="500">
+  <img src="png/logo.jpg" alt="Transfer Leanring" width="500">
 </h1>
 
 <h4 align="center">Everything about Transfer Learning.</h4>
@@ -49,7 +49,52 @@ author = {Wang, Jindong and others}
 **Latest papers**: (All papers are also put in [doc/awesome_papers.md](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md))
 
 <details>
-  <summary>Latest papers (2021-12-24)</summary>
+  <summary>Latest papers (2022-01)</summary>
+
+- TKDE-22 [Adaptive Memory Networks with Self-supervised Learning for Unsupervised Anomaly Detection](https://arxiv.org/abs/2201.00464)
+  - Adaptiev memory network for anomaly detection
+  - 自适应的记忆网络用于异常检测
+
+- ICIP-22 [Meta-Learned Feature Critics for Domain Generalized Semantic Segmentation](https://arxiv.org/abs/2112.13538)
+  - Meta-learning for domain generalization
+  - 元学习用于domain generalization
+
+- ICIP-22 [Few-Shot Classification in Unseen Domains by Episodic Meta-Learning Across Visual Domains](https://arxiv.org/abs/2112.13539)
+  - Few-shot generalization using meta-learning
+  - 用元学习进行小样本的泛化
+
+- [Data-Free Knowledge Transfer: A Survey](https://arxiv.org/abs/2112.15278)
+  - A survey on data-free distillation and source-free DA
+  - 一篇关于data-free蒸馏和source-free DA的综述
+
+- [An Ensemble of Pre-trained Transformer Models For Imbalanced Multiclass Malware Classification](https://arxiv.org/abs/2112.13236)
+  - An ensemble of pre-trained transformer for malware classification
+  - 预训练的transformer通过集成进行恶意软件检测
+
+- [Optimal Representations for Covariate Shift](https://arxiv.org/abs/2201.00057)
+  - Learning optimal representations for covariate shift
+  - 为covariate shift学习最优的表达
+
+- [Transfer-learning-based Surrogate Model for Thermal Conductivity of Nanofluids](https://arxiv.org/abs/2201.00435)
+  - Transfer learning for thermal conductivity
+  - 迁移学习用于热传导
+
+- [Transfer learning of phase transitions in percolation and directed percolation](https://arxiv.org/abs/2112.15516)
+  - Transfer learning of phase transitions in percolation and directed percolation
+  - 迁移学习用于precolation
+
+- [Transfer learning for cancer diagnosis in histopathological images](https://arxiv.org/abs/2112.15523)
+  - Transfer learning for cancer diagnosis
+  - 迁移学习用于癌症诊断
+
+</details>
+
+<details>
+  <summary>Latest papers (2021-12)</summary>
+
+- IEEE TASLP-22 [Exploiting Adapters for Cross-lingual Low-resource Speech Recognition](https://arxiv.org/abs/2105.11905)  [Zhihu article](https://zhuanlan.zhihu.com/p/448216624)
+    - Cross-lingual speech recogntion using meta-learning and transfer learning
+    - 用元学习和迁移学习进行跨语言的低资源语音识别
 
 - [More is Better: A Novel Multi-view Framework for Domain Generalization](https://arxiv.org/abs/2112.12329)
     - Multi-view learning for domain generalization
@@ -58,11 +103,6 @@ author = {Wang, Jindong and others}
 - [SLIP: Self-supervision meets Language-Image Pre-training](https://arxiv.org/abs/2112.12750)
     - Self-supervised learning + language image pretraining
     - 用自监督学习用于语言到图像的预训练
-
-</details>
-
-<details>
-  <summary>Latest papers (2021-12-20)</summary>
 
   - [Domain Prompts: Towards memory and compute efficient domain adaptation of ASR systems](https://arxiv.org/abs/2112.08718)
     - Prompt for domain adaptation in speech recognition
@@ -76,15 +116,6 @@ author = {Wang, Jindong and others}
     - Domain adaptation for point cloud
     - 针对点云的domain adaptation
 
-</details>
-
-<details>
-  <summary>Latest papers (2021-12-16)</summary>
-
-  - IEEE TASLP-22 [Exploiting Adapters for Cross-lingual Low-resource Speech Recognition](https://arxiv.org/abs/2105.11905)
-    - Cross-lingual speech recogntion using meta-learning and transfer learning
-    - 用元学习和迁移学习进行跨语言的低资源语音识别
-
   - [A Survey of Unsupervised Domain Adaptation for Visual Recognition](http://arxiv.org/abs/2112.06745)
     - A new survey article of domain adaptation
     - 对UDA的一个综述文章，来自作者博士论文
@@ -92,11 +123,6 @@ author = {Wang, Jindong and others}
   - [VL-Adapter: Parameter-Efficient Transfer Learning for Vision-and-Language Tasks](http://arxiv.org/abs/2112.06825)
     - Vision-language efficient transfer learning
     - 参数高校的vision-language任务迁移
-
-</details>
-
-<details>
-  <summary>Latest papers (2021-12-14)</summary>
 
   - [Federated Learning with Adaptive Batchnorm for Personalized Healthcare](https://arxiv.org/abs/2112.00734)
     - Federated learning with adaptive batchnorm
@@ -113,10 +139,6 @@ author = {Wang, Jindong and others}
   - [Unsupervised Domain Generalization by Learning a Bridge Across Domains](https://arxiv.org/abs/2112.02300)
     - Unsupervised domain generalization
     - 无监督的domain generalization
-</details>
-
-<details>
-  <summary>Latest papers (2021-12-07)</summary>
 
   - [Boosting Unsupervised Domain Adaptation with Soft Pseudo-label and Curriculum Learning](https://arxiv.org/abs/2112.01948)
     - Using soft pseudo-label and curriculum learning to boost UDA
@@ -133,10 +155,6 @@ author = {Wang, Jindong and others}
   - [Multi-Agent Transfer Learning in Reinforcement Learning-Based Ride-Sharing Systems](https://arxiv.org/abs/2112.00424)
     - Multi-agent transfer in RL
     - 在RL中的多智能体迁移
-</details>
-
-<details>
-  <summary>Latest papers (2021-12-01)</summary>
 
   - NeurIPS-21 [On Learning Domain-Invariant Representations for Transfer Learning with Multiple Sources](https://arxiv.org/abs/2111.13822)
     - Theory and algorithm of domain-invariant learning for transfer learning

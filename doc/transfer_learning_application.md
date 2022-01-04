@@ -18,6 +18,14 @@ By reverse chronological order.
 
 ## Computer vision
 
+- [Transfer learning of phase transitions in percolation and directed percolation](https://arxiv.org/abs/2112.15516)
+  - Transfer learning of phase transitions in percolation and directed percolation
+  - 迁移学习用于precolation
+
+- [Transfer learning for cancer diagnosis in histopathological images](https://arxiv.org/abs/2112.15523)
+  - Transfer learning for cancer diagnosis
+  - 迁移学习用于癌症诊断
+
 - [Subtask-dominated Transfer Learning for Long-tail Person Search](https://arxiv.org/abs/2112.00527)
     - Subtask-dominated transfer for long-tail person search
     - 子任务驱动的长尾人物搜索
@@ -813,6 +821,10 @@ By reverse chronological order.
 
 ## Human activity recognition
 
+- TKDE-22 [Adaptive Memory Networks with Self-supervised Learning for Unsupervised Anomaly Detection](https://arxiv.org/abs/2201.00464)
+  - Adaptiev memory network for anomaly detection
+  - 自适应的记忆网络用于异常检测
+
 - [迁移学习用于行为识别 Transfer learning for activity recognition](https://github.com/jindongwang/activityrecognition/tree/master/notes)
 
 - 20200405 arXiv [Joint Deep Cross-Domain Transfer Learning for Emotion Recognition](https://arxiv.org/abs/2003.11136)
@@ -859,6 +871,10 @@ By reverse chronological order.
     - 迁移学习用于自动驾驶车辆的策略迁移
 
 ## Others
+
+- [Transfer-learning-based Surrogate Model for Thermal Conductivity of Nanofluids](https://arxiv.org/abs/2201.00435)
+  - Transfer learning for thermal conductivity
+  - 迁移学习用于热传导
 
 - [Toward Co-creative Dungeon Generation via Transfer Learning](http://arxiv.org/abs/2107.12533)
     - Game scene generation with transfer learning
