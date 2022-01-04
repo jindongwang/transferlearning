@@ -1,0 +1,16 @@
+net: "models/BJMMD/alexnet/train_val.prototxt"
+test_iter: 795 # target domain: amazon 2817, webcam 795, dslr 498
+test_interval: 500
+base_lr: 0.003
+lr_policy: "inv"
+gamma: 0.001
+power: 0.75
+display: 500
+max_iter: 100000
+momentum: 0.9
+weight_decay: 0.0005
+snapshot: 600000
+snapshot_prefix: "models/BJMMD/alexnet/trained_model"
+snapshot_after_train: false
+solver_mode: GPU
+random_seed: 8

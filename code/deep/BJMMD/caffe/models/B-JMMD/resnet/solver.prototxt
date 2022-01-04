@@ -1,0 +1,15 @@
+net: "models/BJMMD/resnet/train_val.prototxt"
+test_iter: 795 # target domain: amazon 2817, webcam 795, dslr 498
+test_interval: 500
+base_lr: 0.0003
+lr_policy: "inv"
+gamma: 0.001
+power: 0.75
+display: 1000
+max_iter: 30000
+momentum: 0.9
+weight_decay: 0.0005
+snapshot: 60000
+snapshot_prefix: "models/BJMMD/resnet/trained_model"
+snapshot_after_train: false
+solver_mode: GPU
