@@ -49,7 +49,20 @@ author = {Wang, Jindong and others}
 **Latest papers**: (All papers are also put in [doc/awesome_papers.md](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md))
 
 <details>
-  <summary>Latest papers (2022-01)</summary>
+  <summary>Latest papers (2022-01-07)</summary>
+
+- IEEE TMM-22 [Decompose to Adapt: Cross-domain Object Detection via Feature Disentanglement](https://arxiv.org/abs/2201.01929)
+  - Invariant and shared components for Faster RCNN detection
+  - 解耦公共和私有表征进行目标检测
+
+- [Mixture of basis for interpretable continual learning with distribution shifts](https://arxiv.org/abs/2201.01853)
+  - Incremental learning with mixture of basis
+  - 用mixture of domains进行增量学习
+
+</details>
+
+<details>
+  <summary>Latest papers (2022-01-04)</summary>
 
 - TKDE-22 [Adaptive Memory Networks with Self-supervised Learning for Unsupervised Anomaly Detection](https://arxiv.org/abs/2201.00464)
   - Adaptiev memory network for anomaly detection

@@ -18,6 +18,10 @@ By reverse chronological order.
 
 ## Computer vision
 
+- IEEE TMM-22 [Decompose to Adapt: Cross-domain Object Detection via Feature Disentanglement](https://arxiv.org/abs/2201.01929)
+  - Invariant and shared components for Faster RCNN detection
+  - 解耦公共和私有表征进行目标检测
+
 - [Transfer learning of phase transitions in percolation and directed percolation](https://arxiv.org/abs/2112.15516)
   - Transfer learning of phase transitions in percolation and directed percolation
   - 迁移学习用于precolation

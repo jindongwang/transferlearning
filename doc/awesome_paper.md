@@ -1588,6 +1588,10 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 ## Online transfer learning
 
+- [Mixture of basis for interpretable continual learning with distribution shifts](https://arxiv.org/abs/2201.01853)
+  - Incremental learning with mixture of basis
+  - 用mixture of domains进行增量学习
+
 - 20180326 考虑主动获取label的budget情况下的在线迁移学习：[Online domain adaptation by exploiting labeled features and pro-active learning](https://dl.acm.org/citation.cfm?id=3152507)
 
 - 20180128 **第一篇**在线迁移学习的文章，发表在ICML-10上，系统性地定义了在线迁移学习的任务，给出了进行在线同构和异构迁移学习的两种学习模式。[Online Transfer Learning](https://dl.acm.org/citation.cfm?id=3104478) 
@@ -1962,6 +1966,10 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 ## Lifelong transfer learning
 
+- [Mixture of basis for interpretable continual learning with distribution shifts](https://arxiv.org/abs/2201.01853)
+  - Incremental learning with mixture of basis
+  - 用mixture of domains进行增量学习
+
 - 20101008 arXiv [Concept-drifting Data Streams are Time Series; The Case for Continuous Adaptation](https://arxiv.org/abs/1810.02266)
 	- Continuous adaptation for time series data
 	- 对时间序列进行连续adaptation
@@ -1992,10 +2000,9 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 - 20180111 arXiv 一种新的终身学习框架，与L2T的思路有一些类似 [Lifelong Learning for Sentiment Classification](https://arxiv.org/abs/1801.02808)
 
+
+
 - - -
-
-
-
 
 ## Transfer learning applications
 
