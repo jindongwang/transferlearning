@@ -4,20 +4,20 @@ An easy-to-learn, easy-to-extend, and for-fair-comparison toolkit based on PyTor
 
 For a complete survey on these and more DG algorithms, please refer to this survey published at IJCAI 2021 survey track: [Generalizing to Unseen Domains: A Survey on Domain Generalization](https://arxiv.org/abs/2103.03097).
 
-## Implemented Algorithm
+## Implemented Algorithms
 
-As initial version, we support the following algoirthms. We are working on more algorithms. Of course, you are welcome to add your algorithms here.
+We currently support the following algoirthms. We are working on more algorithms. Of course, you are welcome to add your algorithms here.
 
 1. ERM
-2. DDC [1]
-3. CORL [2]
-4. DANN [3]
-5. MLDG [4]
-6. Mixup [5]
-7. RSC [6]
-8. GroupDRO [7]
-9. ANDMask [8]
-10. VREx [9]
+2. DDC (Deep Domain Confusion, arXiv 2014) [1]
+3. CORAL (COrrelation Alignment, ECCV-16) [2]
+4. DANN (Domain-adversarial Neural Network, JMLR-16) [3]
+5. MLDG (Meta-learning Domain Generalization, AAAI-18) [4]
+6. Mixup (ICLR-18) [5]
+7. RSC (Representation Self-Challenging, ECCV-20) [6]
+8. GroupDRO (ICLR-20) [7]
+9. ANDMask (ICLR-21) [8]
+10. VREx (ICML-21) [9]
 
 ## Installation
 
@@ -33,20 +33,15 @@ Or *if you just want to use this folder* (i.e., no other things in this big tran
 We recommend to use `Python 3.8.8` which is our development environment. 
 It is better to use the same environment following (https://hub.docker.com/r/jindongwang/docker).
 
-## Dataset
+## Datasets
 
 Our code supports the following dataset:
 
-* [office](https://mega.nz/file/dSpjyCwR#9ctB4q1RIE65a4NoJy0ox3gngh15cJqKq1XpOILJt9s)
-
-* [office-home](https://www.hemanthdv.org/officeHomeDataset.html)
-
-* [office-caltech](https://pan.baidu.com/s/14JEGQ56LJX7LMbd6GLtxCw)
-
+* [Office-31](https://github.com/jindongwang/transferlearning/tree/master/data#office-31)
+* [Office-Home](https://github.com/jindongwang/transferlearning/tree/master/data#office-home)
+* [Office-Caltech](https://github.com/jindongwang/transferlearning/tree/master/data#office-caltech10)
 * [PACS](https://drive.google.com/uc?id=0B6x7gtvErXgfbF9CSk53UkRxVzg)
-
-* [dg5](https://transferlearningdrive.blob.core.windows.net/teamdrive/dataset/dg5.tar.gz)
-
+* [Digit-Five](https://transferlearningdrive.blob.core.windows.net/teamdrive/dataset/dg5.tar.gz)
 * [VLCS](https://drive.google.com/uc?id=1skwblH1_okBwxWxmRsp9_qi15hyPpxg8)
 
 If you want to use your own dataset, please organize your data in the following structure.
@@ -63,28 +58,28 @@ RootDir
 |   ...    
 ```
 
-And then, modifty util/util.py to contain the dataset.
+And then, modifty `util/util.py` to contain the dataset.
 
 ## Usage
 
 1. Modify the file in the scripts
-2. `bash run.sh`
+2. The main script file is `train.py`, which can be runned by using `run.sh` from `scripts/run.sh`: `cd scripts; bash run.sh`.
 
 ## Customization
 
 It is easy to design your own method following the steps:
 
-1. Add your method to alg/algs, and add the reference to it in the alg/alg.py
+1. Add your method (a Python file) to `alg/algs`, and add the reference to it in the `alg/alg.py`
 
-2. Modify utils/util.py to make it adapt your own parameters
+2. Modify `utils/util.py` to make it adapt your own parameters
 
-3. Midify scripts/run.sh and execuate it
+3. Midify `scripts/run.sh` and execuate it
 
 ## Results
 
-We present results of our implementations on 2 popular benchmarks: PACS and Office-Home. We did not perform careful parameter tuning. You can easily reproduce our results using the hyperparameters [here](https://github.com/jindongwang/transferlearning/blob/master/code/DeepDG/scripts/paramsref.md).
+We present results of our implementations on 2 popular benchmarks: **PACS** and **Office-Home**. We did not perform careful parameter tuning. You can easily reproduce our results using the hyperparameters [here](https://github.com/jindongwang/transferlearning/blob/master/code/DeepDG/scripts/paramsref.md).
 
-1. Results on PACS (resnet-18)
+### Results on PACS (ResNet-18)
 
 | Method   | A     | C     | P     | S     | AVG   |
 |----------|-------|-------|-------|-------|-------|
@@ -98,7 +93,7 @@ We present results of our implementations on 2 popular benchmarks: PACS and Offi
 | ANDMask  | 80.81 | 73.29 | 95.81 | 71.95 | 80.47 |
 | Vrex     | 81.54 | 78.11 | 95.39 | 80.35 | 83.85 |
 
-2. Results on Office-Home (resnet-18)
+### Results on Office-Home (ResNet-18)
 
 | Method   | A     | C     | P     | R     | AVG   |
 |----------|-------|-------|-------|-------|-------|
@@ -112,7 +107,7 @@ We present results of our implementations on 2 popular benchmarks: PACS and Offi
 | ANDMask  | 53.61 | 47.54 | 69.36 | 72.23 | 60.69 |
 | Vrex     | 59.09 | 49.81 | 71.64 | 74.82 | 63.84 |
 
-3. Results on PACS (resnet-50)
+### Results on PACS (ResNet-50)
 
 | Method   | A     | C     | P     | S     | AVG   |
 |----------|-------|-------|-------|-------|-------|
@@ -126,7 +121,7 @@ We present results of our implementations on 2 popular benchmarks: PACS and Offi
 | ANDMask  | 84.91 | 76.45 | 97.72 | 81.19 | 85.07 |
 | Vrex     | 87.11 | 82.85 | 96.95 | 84.07 | 87.75 |
 
-4. Results on Office-Home (resnet-50)
+### Results on Office-Home (ResNet-50)
 
 | Method   | A     | C     | P     | R     | AVG   |
 |----------|-------|-------|-------|-------|-------|
@@ -142,7 +137,7 @@ We present results of our implementations on 2 popular benchmarks: PACS and Offi
 
 ## Contribution
 
-The toolkit is under active development and contributions are welcome! Feel free to submit issues and PRs to ask questions or contribute your code. If you would like to implement new features, please submit a issue to discuss with us first.
+The toolkit is under active development and contributions are welcome! Feel free to submit issues and PRs to ask questions or contribute your code. If you would like to implement new features, please submit a issue to discuss with us first. You are welcome to our another related project: [DeepDA](https://github.com/jindongwang/transferlearning/edit/master/code/DeepDA).
 
 ## Acknowledgment
 
