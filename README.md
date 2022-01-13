@@ -48,6 +48,24 @@ author = {Wang, Jindong and others}
 
 **Latest papers**: (All papers are also put in [doc/awesome_papers.md](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md))
 
+
+<details>
+  <summary>Latest papers (2022-01-13)</summary>
+
+- KBS-22 [Intra-domain and cross-domain transfer learning for time series data -- How transferable are the features](https://arxiv.org/abs/2201.04449)
+  - An overview of transfer learning for time series data
+  - 一个用迁移学习进行时间序列分析的小综述
+
+- [A Likelihood Ratio based Domain Adaptation Method for E2E Models](2201.03655)
+  - Domain adaptation for speech recognition
+  - 用domain adaptation进行语音识别
+
+- [Transfer Learning for Scene Text Recognition in Indian Languages](2201.03180)
+  - Transfer learning for scene text recognition in Indian languages
+  - 用迁移学习进行印度语的场景文字识别
+
+</details>
+
 <details>
   <summary>Latest papers (2022-01-07)</summary>
 

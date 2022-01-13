@@ -18,6 +18,10 @@ By reverse chronological order.
 
 ## Computer vision
 
+- [Transfer Learning for Scene Text Recognition in Indian Languages](2201.03180)
+  - Transfer learning for scene text recognition in Indian languages
+  - 用迁移学习进行印度语的场景文字识别
+
 - IEEE TMM-22 [Decompose to Adapt: Cross-domain Object Detection via Feature Disentanglement](https://arxiv.org/abs/2201.01929)
   - Invariant and shared components for Faster RCNN detection
   - 解耦公共和私有表征进行目标检测
@@ -662,6 +666,10 @@ By reverse chronological order.
 
 ## Time series
 
+- KBS-22 [Intra-domain and cross-domain transfer learning for time series data -- How transferable are the features](https://arxiv.org/abs/2201.04449)
+  - An overview of transfer learning for time series data
+  - 一个用迁移学习进行时间序列分析的小综述
+
 - CIKM-21 [AdaRNN: Adaptive Learning and Forecasting of Time Series](https://arxiv.org/abs/2108.04443) [Code](https://github.com/jindongwang/transferlearning/tree/master/code/deep/adarnn) [知乎文章](https://zhuanlan.zhihu.com/p/398036372) [Video](https://www.bilibili.com/video/BV1Gh411B7rj/)
     - A new perspective to using transfer learning for time series analysis
     - 一种新的建模时间序列的迁移学习视角
@@ -677,6 +685,10 @@ By reverse chronological order.
 
 
 ## Speech
+
+- [A Likelihood Ratio based Domain Adaptation Method for E2E Models](2201.03655)
+  - Domain adaptation for speech recognition
+  - 用domain adaptation进行语音识别
 
 - [Domain Prompts: Towards memory and compute efficient domain adaptation of ASR systems](https://arxiv.org/abs/2112.08718)
     - Prompt for domain adaptation in speech recognition
