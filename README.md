@@ -50,6 +50,19 @@ author = {Wang, Jindong and others}
 
 
 <details>
+  <summary>Latest papers (2022-01-19)</summary>
+
+- AAAI-22 [Knowledge Sharing via Domain Adaptation in Customs Fraud Detection](https://arxiv.org/abs/2201.06759)
+  - Domain adaptation for fraud detection
+  - 用领域自适应进行欺诈检测
+
+- [Continual Coarse-to-Fine Domain Adaptation in Semantic Segmentation](https://arxiv.org/abs/2201.06974)
+  - Domain adaptation in semantic segmentation
+  - 领域自适应在语义分割的应用
+
+</details>
+
+<details>
   <summary>Latest papers (2022-01-13)</summary>
 
 - KBS-22 [Intra-domain and cross-domain transfer learning for time series data -- How transferable are the features](https://arxiv.org/abs/2201.04449)

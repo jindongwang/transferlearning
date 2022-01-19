@@ -18,6 +18,10 @@ By reverse chronological order.
 
 ## Computer vision
 
+- [Continual Coarse-to-Fine Domain Adaptation in Semantic Segmentation](https://arxiv.org/abs/2201.06974)
+  - Domain adaptation in semantic segmentation
+  - 领域自适应在语义分割的应用
+
 - [Transfer Learning for Scene Text Recognition in Indian Languages](2201.03180)
   - Transfer learning for scene text recognition in Indian languages
   - 用迁移学习进行印度语的场景文字识别
@@ -887,6 +891,10 @@ By reverse chronological order.
     - 迁移学习用于自动驾驶车辆的策略迁移
 
 ## Others
+
+- AAAI-22 [Knowledge Sharing via Domain Adaptation in Customs Fraud Detection](https://arxiv.org/abs/2201.06759)
+  - Domain adaptation for fraud detection
+  - 用领域自适应进行欺诈检测
 
 - [Transfer-learning-based Surrogate Model for Thermal Conductivity of Nanofluids](https://arxiv.org/abs/2201.00435)
   - Transfer learning for thermal conductivity
