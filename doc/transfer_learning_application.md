@@ -892,6 +892,10 @@ By reverse chronological order.
 
 ## Others
 
+- [DROPO: Sim-to-Real Transfer with Offline Domain Randomization](https://arxiv.org/abs/2201.08434)
+  - Sim-to-real transfer with domain randomization
+  - 用domain randomization进行sim-to-real transfer
+
 - AAAI-22 [Knowledge Sharing via Domain Adaptation in Customs Fraud Detection](https://arxiv.org/abs/2201.06759)
   - Domain adaptation for fraud detection
   - 用领域自适应进行欺诈检测

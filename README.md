@@ -50,6 +50,15 @@ author = {Wang, Jindong and others}
 
 
 <details>
+  <summary>Latest papers (2022-01-25)</summary>
+
+- [DROPO: Sim-to-Real Transfer with Offline Domain Randomization](https://arxiv.org/abs/2201.08434)
+  - Sim-to-real transfer with domain randomization
+  - 用domain randomization进行sim-to-real transfer
+
+</details>
+
+<details>
   <summary>Latest papers (2022-01-19)</summary>
 
 - AAAI-22 [Knowledge Sharing via Domain Adaptation in Customs Fraud Detection](https://arxiv.org/abs/2201.06759)
