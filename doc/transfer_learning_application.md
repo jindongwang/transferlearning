@@ -18,6 +18,10 @@ By reverse chronological order.
 
 ## Computer vision
 
+- [Domain generalization in deep learning-based mass detection in mammography: A large-scale multi-center study](https://arxiv.org/abs/2201.11620)
+  - Domain generalization in mass detection in mammography
+  - Domain generalization进行胸部射线检测
+
 - [Continual Coarse-to-Fine Domain Adaptation in Semantic Segmentation](https://arxiv.org/abs/2201.06974)
   - Domain adaptation in semantic segmentation
   - 领域自适应在语义分割的应用
@@ -464,6 +468,10 @@ By reverse chronological order.
 
 ## Natural language processing
 
+- [IGLUE: A Benchmark for Transfer Learning across Modalities, Tasks, and Languages](https://arxiv.org/abs/2201.11732)
+  - A benchmark for transfer learning in NLP
+  - 一个用于NLP跨模态、任务、语言的benchmark
+
 - [Deep Transfer Learning for Multi-source Entity Linkage via Domain Adaptation](https://arxiv.org/abs/2110.14509)
     - Domain adaptation for multi-source entiry linkage
     - 用DA进行多源的实体链接
@@ -669,6 +677,10 @@ By reverse chronological order.
     - Optimal transport domain adaptation
 
 ## Time series
+
+- [Domain-Invariant Representation Learning from EEG with Private Encoders](https://arxiv.org/abs/2201.11613)
+  - Domain-invariant learning from EEG
+  - 用于EEG信号的领域不变特征研究
 
 - KBS-22 [Intra-domain and cross-domain transfer learning for time series data -- How transferable are the features](https://arxiv.org/abs/2201.04449)
   - An overview of transfer learning for time series data

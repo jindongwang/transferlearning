@@ -48,6 +48,27 @@ author = {Wang, Jindong and others}
 
 **Latest papers**: (All papers are also put in [doc/awesome_papers.md](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md))
 
+<details>
+  <summary>Latest papers (2022-01-28)</summary>
+
+- [IGLUE: A Benchmark for Transfer Learning across Modalities, Tasks, and Languages](https://arxiv.org/abs/2201.11732)
+  - A benchmark for transfer learning in NLP
+  - 一个用于NLP跨模态、任务、语言的benchmark
+
+- [Domain generalization in deep learning-based mass detection in mammography: A large-scale multi-center study](https://arxiv.org/abs/2201.11620)
+  - Domain generalization in mass detection in mammography
+  - Domain generalization进行胸部射线检测
+
+- [Domain-Invariant Representation Learning from EEG with Private Encoders](https://arxiv.org/abs/2201.11613)
+  - Domain-invariant learning from EEG
+  - 用于EEG信号的领域不变特征研究
+
+- [Gap Minimization for Knowledge Sharing and Transfer](https://arxiv.org/abs/2201.11231)
+  - Multitask learning with gap minimization
+  - 用于多任务学习的gap minimization方法
+
+</details>
+
 
 <details>
   <summary>Latest papers (2022-01-25)</summary>

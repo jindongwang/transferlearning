@@ -22,6 +22,7 @@ Let's read some awesome transfer learning / domain adaptation papers.
   - [Transfer metric learning](#transfer-metric-learning)
   - [Federated transfer learning](#federated-transfer-learning)
   - [Lifelong transfer learning](#lifelong-transfer-learning)
+  - [Safe transfer learning](#safe-transfer-learning)
   - [Transfer learning applications](#transfer-learning-applications)
 
 
@@ -1731,6 +1732,10 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 ## Multi-task learning
 
+- [Gap Minimization for Knowledge Sharing and Transfer](https://arxiv.org/abs/2201.11231)
+  - Multitask learning with gap minimization
+  - 用于多任务学习的gap minimization方法
+
 - 20190806 KDD-19 [Relation Extraction via Domain-aware Transfer Learning](https://dl.acm.org/citation.cfm?id=3330890)
     - Relation extraction using transfer learning for knowledge base construction
     - 利用迁移学习进行关系抽取
@@ -2000,7 +2005,30 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 - 20180111 arXiv 一种新的终身学习框架，与L2T的思路有一些类似 [Lifelong Learning for Sentiment Classification](https://arxiv.org/abs/1801.02808)
 
+- - -
 
+
+## Safe transfer learning
+
+- CVPR workshop-21 [Renofeation: A Simple Transfer Learning Method for Improved Adversarial Robustness](https://openaccess.thecvf.com/content/CVPR2021W/TCV/html/Chin_Renofeation_A_Simple_Transfer_Learning_Method_for_Improved_Adversarial_Robustness_CVPRW_2021_paper.html)
+  - Improve adversarial robustness of transfer learning models
+  - 提高迁移学习对于adversarial robustness的鲁棒性
+
+- ICLR-20 [A Target-Agnostic Attack on Deep Models: Exploiting Security Vulnerabilities of Transfer Learning](https://openreview.net/forum?id=BylVcTNtDS)
+  - Softmax layer is easy to get attacked
+  - 设计实验来攻击迁移学习的softmax layer
+
+- RAID'18 [Fine-Pruning: Defending Against Backdooring Attacks on Deep Neural Networks](https://link.springer.com/chapter/10.1007/978-3-030-00470-5_13)
+  - Finetune and prune the weights against backdoor attack
+  - 在finetune过程中剪枝来预防后门攻击
+
+- ACM CCS-18 [Model-Reuse Attacks on Deep Learning Systems](https://dl.acm.org/doi/10.1145/3243734.3243757)
+  - Model-resuse attack on transfer learning models
+  - 设计实验来攻击迁移学习的预训练模型
+
+- USENIX Security-18 [With Great Training Comes Great Vulnerability: Practical Attacks against Transfer Learning](https://www.usenix.org/system/files/conference/usenixsecurity18/sec18-wang.pdf)
+  - First work to design experiments to attack pretrained models
+  - 第一个设计实验来攻击预训练模型的工作
 
 - - -
 
