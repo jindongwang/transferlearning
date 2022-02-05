@@ -668,10 +668,17 @@ Here are some articles on transfer learning theory and survey.
 
 **Survey (综述文章)：**
 
-- 2022: 迁移学习最新survey，来自清华大学Mingsheng Long团队，主要讨论transfer learning在deep architectures, pre-training, task adaptation and domain adaptation四个方面的进展和挑战。[Transferability in Deep Learning: A Survey. _arXiv prePrint_](https://arxiv.org/pdf/2201.05867v1.pdf)。另外他们也通过开源框架[Transfer-Learning-Library](https://github.com/thuml/Transfer-Learning-Library)实现了文中的transfer learning benchmark。
+- 2022 [Transfer Learning for Future Wireless Networks: A Comprehensive Survey](https://arxiv.org/abs/2102.07572)
+- 2022 [A Review of Deep Transfer Learning and Recent Advancements](https://arxiv.org/abs/2201.09679)
+
+- 2022 [Transferability in Deep Learning: A Survey](https://paperswithcode.com/paper/transferability-in-deep-learning-a-survey), from Mingsheng Long in THU.
+
 - 2021 Domain generalization: IJCAI-21 [Generalizing to Unseen Domains: A Survey on Domain Generalization](https://arxiv.org/abs/2103.03097) | [知乎文章](https://zhuanlan.zhihu.com/p/354740610) | [微信公众号](https://mp.weixin.qq.com/s/DsoVDYqLB1N7gj9X5UnYqw)
   - First survey on domain generalization
   - 第一篇对Domain generalization (领域泛化)的综述
+- 2021 Vision-based activity recognition: [A Survey of Vision-Based Transfer Learning in Human Activity Recognition](https://www.mdpi.com/2079-9292/10/19/2412)
+- 2021 ICSAI [A State-of-the-Art Survey of Transfer Learning in Structural Health Monitoring](https://ieeexplore.ieee.org/abstract/document/9664171)
+- 2020 [Transfer learning: survey and classification](https://link.springer.com/chapter/10.1007/978-981-15-5345-5_13), Advances in Intelligent Systems and Computing. 
 - 2020 迁移学习最新survey，来自中科院计算所庄福振团队，发表在Proceedings of the IEEE: [A Comprehensive Survey on Transfer Learning](https://arxiv.org/abs/1911.02685)
 - 2020 负迁移的综述：[Overcoming Negative Transfer: A Survey](https://arxiv.org/abs/2009.00909)
 - 2020 知识蒸馏的综述: [Knowledge Distillation: A Survey](https://arxiv.org/abs/2006.05525)
