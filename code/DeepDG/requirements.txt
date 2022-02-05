@@ -1,0 +1,5 @@
+Please refer to https://hub.docker.com/r/jindongwang/docker.
+
+CUDA: 10.1
+Pytorch: 1.7
+Torchvision: 0.8.1

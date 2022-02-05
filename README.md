@@ -34,6 +34,10 @@ author = {Wang, Jindong and others}
 }  
 ```
 
+**Widely used by top conferences and journals:** 
+- Conferences: [[NeurIPS'21](https://proceedings.neurips.cc/paper/2021/file/731b03008e834f92a03085ef47061c4a-Paper.pdf)] [[IJCAI'21](https://arxiv.org/abs/2103.03097)] [[ESEC/FSE'20](https://dl.acm.org/doi/abs/10.1145/3368089.3409696)] [[IJCNN'20](https://ieeexplore.ieee.org/abstract/document/9207556)] [[ACMMM'18](https://dl.acm.org/doi/abs/10.1145/3240508.3240512)] [[ICME'19](https://ieeexplore.ieee.org/abstract/document/8784776/)]
+- Journals: [[ACM TIST](https://dl.acm.org/doi/abs/10.1145/3360309)] [[Information sciences](https://www.sciencedirect.com/science/article/pii/S0020025520308458)] [[Neurocomputing](https://www.sciencedirect.com/science/article/pii/S0925231221007025)] [[IEEE Transactions on Cognitive and Developmental Systems](https://ieeexplore.ieee.org/abstract/document/9659817)]
+
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![MIT License](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT) [![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE) [![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu) Related repos：[Activity recognition](https://github.com/jindongwang/activityrecognition)｜[Machine learning](https://github.com/jindongwang/MachineLearning)
 
 - - -
@@ -49,7 +53,7 @@ author = {Wang, Jindong and others}
 **Latest papers**: (All papers are also put in [doc/awesome_papers.md](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md))
 
 <details>
-  <summary>Latest papers (2022-01-28)</summary>
+  <summary>Latest papers (2022-01)</summary>
 
 - [IGLUE: A Benchmark for Transfer Learning across Modalities, Tasks, and Languages](https://arxiv.org/abs/2201.11732)
   - A benchmark for transfer learning in NLP
@@ -67,20 +71,9 @@ author = {Wang, Jindong and others}
   - Multitask learning with gap minimization
   - 用于多任务学习的gap minimization方法
 
-</details>
-
-
-<details>
-  <summary>Latest papers (2022-01-25)</summary>
-
 - [DROPO: Sim-to-Real Transfer with Offline Domain Randomization](https://arxiv.org/abs/2201.08434)
   - Sim-to-real transfer with domain randomization
   - 用domain randomization进行sim-to-real transfer
-
-</details>
-
-<details>
-  <summary>Latest papers (2022-01-19)</summary>
 
 - AAAI-22 [Knowledge Sharing via Domain Adaptation in Customs Fraud Detection](https://arxiv.org/abs/2201.06759)
   - Domain adaptation for fraud detection
@@ -89,11 +82,6 @@ author = {Wang, Jindong and others}
 - [Continual Coarse-to-Fine Domain Adaptation in Semantic Segmentation](https://arxiv.org/abs/2201.06974)
   - Domain adaptation in semantic segmentation
   - 领域自适应在语义分割的应用
-
-</details>
-
-<details>
-  <summary>Latest papers (2022-01-13)</summary>
 
 - KBS-22 [Intra-domain and cross-domain transfer learning for time series data -- How transferable are the features](https://arxiv.org/abs/2201.04449)
   - An overview of transfer learning for time series data
@@ -107,11 +95,6 @@ author = {Wang, Jindong and others}
   - Transfer learning for scene text recognition in Indian languages
   - 用迁移学习进行印度语的场景文字识别
 
-</details>
-
-<details>
-  <summary>Latest papers (2022-01-07)</summary>
-
 - IEEE TMM-22 [Decompose to Adapt: Cross-domain Object Detection via Feature Disentanglement](https://arxiv.org/abs/2201.01929)
   - Invariant and shared components for Faster RCNN detection
   - 解耦公共和私有表征进行目标检测
@@ -119,11 +102,6 @@ author = {Wang, Jindong and others}
 - [Mixture of basis for interpretable continual learning with distribution shifts](https://arxiv.org/abs/2201.01853)
   - Incremental learning with mixture of basis
   - 用mixture of domains进行增量学习
-
-</details>
-
-<details>
-  <summary>Latest papers (2022-01-04)</summary>
 
 - TKDE-22 [Adaptive Memory Networks with Self-supervised Learning for Unsupervised Anomaly Detection](https://arxiv.org/abs/2201.00464)
   - Adaptiev memory network for anomaly detection
@@ -627,7 +605,7 @@ Want to quickly learn transfer learning？想尽快入门迁移学习？看下�
 
 - Blogs 博客
   - [Zhihu blogs - 知乎专栏《小王爱迁移》系列文章](https://zhuanlan.zhihu.com/p/130244395)
-  
+	
 - Video tutorials 视频教程 
   - [Recent advance of transfer learning - 2021年最新迁移学习发展现状探讨](https://www.bilibili.com/video/BV1N5411T7Sb)
   - [Definitions of transfer learning area - 迁移学习领域名词解释](https://www.bilibili.com/video/BV1fu411o7BW) [[Article](https://zhuanlan.zhihu.com/p/428097044)]
@@ -643,17 +621,17 @@ Want to quickly learn transfer learning？想尽快入门迁移学习？看下�
   - [Domain generalization survey](http://jd92.wang/assets/files/DGSurvey-ppt.pdf)
   
   - [Brief introduction in Chinese](https://github.com/jindongwang/transferlearning/blob/master/doc/%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0%E7%AE%80%E4%BB%8B.md)
-  - [PPT (English)](http://jd92.wang/assets/files/l03_transferlearning.pdf) | [PPT (中文)](http://jd92.wang/assets/files/l08_tl_zh.pdf)
-  
+	- [PPT (English)](http://jd92.wang/assets/files/l03_transferlearning.pdf) | [PPT (中文)](http://jd92.wang/assets/files/l08_tl_zh.pdf)
+	
   - 迁移学习中的领域自适应方法 Domain adaptation: [PDF](http://jd92.wang/assets/files/l12_da.pdf) ｜ [Video on Bilibili](https://www.bilibili.com/video/BV1T7411R75a/) | [Video on Youtube](https://www.youtube.com/watch?v=RbIsHNtluwQ&t=22s)
-  
+	
   - Tutorial on transfer learning by Qiang Yang: [IJCAI'13](http://ijcai13.org/files/tutorial_slides/td2.pdf) | [2016 version](http://kddchina.org/file/IntroTL2016.pdf)
 
 - Talk is cheap, show me the code 动手教程、代码、数据 
   - [Pytorch官方迁移学习示意代码](https://pytorch.org/tutorials/beginner/transfer_learning_tutorial.html)
-  - [Pytorch的finetune Fine-tune based on Alexnet and Resnet](https://github.com/jindongwang/transferlearning/tree/master/code/AlexNet_ResNet)
-  - [用Pytorch进行深度特征提取](https://github.com/jindongwang/transferlearning/tree/master/code/feature_extractor)
-  - [更多 More...](https://github.com/jindongwang/transferlearning/tree/master/code)
+	- [Pytorch的finetune Fine-tune based on Alexnet and Resnet](https://github.com/jindongwang/transferlearning/tree/master/code/AlexNet_ResNet)
+	- [用Pytorch进行深度特征提取](https://github.com/jindongwang/transferlearning/tree/master/code/feature_extractor)
+	- [更多 More...](https://github.com/jindongwang/transferlearning/tree/master/code)
 
 - [Transfer Learning Scholars and Labs - 迁移学习领域的著名学者、代表工作及实验室介绍](https://github.com/jindongwang/transferlearning/blob/master/doc/scholar_TL.md)
 
@@ -690,7 +668,7 @@ Here are some articles on transfer learning theory and survey.
 
 **Survey (综述文章)：**
 
-- 2022 [Transferability in Deep Learning: A Survey](https://paperswithcode.com/paper/transferability-in-deep-learning-a-survey) 来自清华Mingsheng Long团队，侧重从deep architectures, pre-training, task adaptation and domain adaptation四个方面探讨最新的transfer learning进展以及挑战。最后他们实现了基于Pytorch的[benchmark](https://github.com/thuml/Transfer-Learning-Library)来比较文中列举的方法。
+- 2022: 迁移学习最新survey，来自清华大学Mingsheng Long团队，主要讨论transfer learning在deep architectures, pre-training, task adaptation and domain adaptation四个方面的进展和挑战。[Transferability in Deep Learning: A Survey. _arXiv prePrint_](https://arxiv.org/pdf/2201.05867v1.pdf)。另外他们也通过开源框架[Transfer-Learning-Library](https://github.com/thuml/Transfer-Learning-Library)实现了文中的transfer learning benchmark。
 - 2021 Domain generalization: IJCAI-21 [Generalizing to Unseen Domains: A Survey on Domain Generalization](https://arxiv.org/abs/2103.03097) | [知乎文章](https://zhuanlan.zhihu.com/p/354740610) | [微信公众号](https://mp.weixin.qq.com/s/DsoVDYqLB1N7gj9X5UnYqw)
   - First survey on domain generalization
   - 第一篇对Domain generalization (领域泛化)的综述
@@ -710,19 +688,19 @@ Here are some articles on transfer learning theory and survey.
 - 2015 中文综述：[迁移学习研究进展](https://pan.baidu.com/s/1bpautob)
 - 2010 [A survey on transfer learning](http://ieeexplore.ieee.org/abstract/document/5288526/)
 - Survey on applications - 应用导向的综述：
-  - 视觉domain adaptation综述：[Visual Domain Adaptation: A Survey of Recent Advances](https://pan.baidu.com/s/1o8BR7Vc)
-  - 迁移学习应用于行为识别综述：[Transfer Learning for Activity Recognition: A Survey](https://pan.baidu.com/s/1kVABOYr)
-  - 迁移学习与增强学习：[Transfer Learning for Reinforcement Learning Domains: A Survey](https://pan.baidu.com/s/1slfr0w1)
-  - 多个源域进行迁移的综述：[A Survey of Multi-source Domain Adaptation](https://pan.baidu.com/s/1eSGREF4)。
+	- 视觉domain adaptation综述：[Visual Domain Adaptation: A Survey of Recent Advances](https://pan.baidu.com/s/1o8BR7Vc)
+	- 迁移学习应用于行为识别综述：[Transfer Learning for Activity Recognition: A Survey](https://pan.baidu.com/s/1kVABOYr)
+	- 迁移学习与增强学习：[Transfer Learning for Reinforcement Learning Domains: A Survey](https://pan.baidu.com/s/1slfr0w1)
+	- 多个源域进行迁移的综述：[A Survey of Multi-source Domain Adaptation](https://pan.baidu.com/s/1eSGREF4)。
 
 **Theory （理论文章）:**
 
 - ICML-20 [Few-shot domain adaptation by causal mechanism transfer](https://arxiv.org/pdf/2002.03497.pdf)
-  - The first work on causal transfer learning
-  - 日本理论组大佬Sugiyama的工作，causal transfer learning
+	- The first work on causal transfer learning
+	- 日本理论组大佬Sugiyama的工作，causal transfer learning
 - CVPR-19 [Characterizing and Avoiding Negative Transfer](https://arxiv.org/abs/1811.09751)
-  - Characterizing and avoid negative transfer
-  - 形式化并提出如何避免负迁移
+	- Characterizing and avoid negative transfer
+	- 形式化并提出如何避免负迁移
 - ICML-20 [On Learning Language-Invariant Representations for Universal Machine Translation](https://arxiv.org/abs/2008.04510)
   - Theory for universal machine translation
   - 对统一机器翻译模型进行了理论论证
@@ -740,7 +718,6 @@ _ _ _
 Unified codebases for:
 - [Deep domain adaptation](https://github.com/jindongwang/transferlearning/tree/master/code/DeepDA)
 - [Deep domain generalization](https://github.com/jindongwang/transferlearning/tree/master/code/DeepDG)
-- [Transfer-Learning-Library (Tsinghua)](https://github.com/thuml/Transfer-Learning-Library)
 
 More: see [HERE](https://github.com/jindongwang/transferlearning/tree/master/code) and [HERE](https://colab.research.google.com/drive/1MVuk95mMg4ecGyUAIG94vedF81HtWQAr?usp=sharing) for an instant run using Google's Colab.
 
