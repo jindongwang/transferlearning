@@ -668,6 +668,7 @@ Here are some articles on transfer learning theory and survey.
 
 **Survey (综述文章)：**
 
+- 2022: 迁移学习最新survey，来自清华大学Mingsheng Long团队，主要讨论transfer learning在deep architectures, pre-training, task adaptation and domain adaptation四个方面的进展和挑战。[Transferability in Deep Learning: A Survey. _arXiv prePrint_](https://arxiv.org/pdf/2201.05867v1.pdf)。另外他们也通过开源框架[Transfer-Learning-Library](https://github.com/thuml/Transfer-Learning-Library)实现了文中的transfer learning benchmark。
 - 2021 Domain generalization: IJCAI-21 [Generalizing to Unseen Domains: A Survey on Domain Generalization](https://arxiv.org/abs/2103.03097) | [知乎文章](https://zhuanlan.zhihu.com/p/354740610) | [微信公众号](https://mp.weixin.qq.com/s/DsoVDYqLB1N7gj9X5UnYqw)
   - First survey on domain generalization
   - 第一篇对Domain generalization (领域泛化)的综述
