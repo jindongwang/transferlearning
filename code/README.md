@@ -6,6 +6,11 @@
 
 > You are welcome to contribute and suggest other methods.
 
+**Codes here are widely used by top conferences and journals:** 
+- Conferences: [[NeurIPS'21](https://proceedings.neurips.cc/paper/2021/file/731b03008e834f92a03085ef47061c4a-Paper.pdf)] [[IJCAI'21](https://arxiv.org/abs/2103.03097)] [[ESEC/FSE'20](https://dl.acm.org/doi/abs/10.1145/3368089.3409696)] [[IJCNN'20](https://ieeexplore.ieee.org/abstract/document/9207556)] [[ACMMM'18](https://dl.acm.org/doi/abs/10.1145/3240508.3240512)] [[ICME'19](https://ieeexplore.ieee.org/abstract/document/8784776/)]
+- Journals: [[ACM TIST](https://dl.acm.org/doi/abs/10.1145/3360309)] [[Information sciences](https://www.sciencedirect.com/science/article/pii/S0020025520308458)] [[Neurocomputing](https://www.sciencedirect.com/science/article/pii/S0925231221007025)] [[IEEE Transactions on Cognitive and Developmental Systems](https://ieeexplore.ieee.org/abstract/document/9659817)]
+- If you find the codes are useful, please cite it in your research.
+
 This document contains codes from several aspects: **tutorial**, **theory**, **traditional** methods, and **deep** methods.
 
 Testing **dataset** can be found [here](https://github.com/jindongwang/transferlearning/blob/master/data/dataset.md).

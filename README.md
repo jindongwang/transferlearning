@@ -53,7 +53,7 @@ author = {Wang, Jindong and others}
 **Latest papers**: (All papers are also put in [doc/awesome_papers.md](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md))
 
 <details>
-  <summary>Latest papers (2022-01-28)</summary>
+  <summary>Latest papers (2022-01)</summary>
 
 - [IGLUE: A Benchmark for Transfer Learning across Modalities, Tasks, and Languages](https://arxiv.org/abs/2201.11732)
   - A benchmark for transfer learning in NLP
@@ -71,20 +71,9 @@ author = {Wang, Jindong and others}
   - Multitask learning with gap minimization
   - 用于多任务学习的gap minimization方法
 
-</details>
-
-
-<details>
-  <summary>Latest papers (2022-01-25)</summary>
-
 - [DROPO: Sim-to-Real Transfer with Offline Domain Randomization](https://arxiv.org/abs/2201.08434)
   - Sim-to-real transfer with domain randomization
   - 用domain randomization进行sim-to-real transfer
-
-</details>
-
-<details>
-  <summary>Latest papers (2022-01-19)</summary>
 
 - AAAI-22 [Knowledge Sharing via Domain Adaptation in Customs Fraud Detection](https://arxiv.org/abs/2201.06759)
   - Domain adaptation for fraud detection
@@ -93,11 +82,6 @@ author = {Wang, Jindong and others}
 - [Continual Coarse-to-Fine Domain Adaptation in Semantic Segmentation](https://arxiv.org/abs/2201.06974)
   - Domain adaptation in semantic segmentation
   - 领域自适应在语义分割的应用
-
-</details>
-
-<details>
-  <summary>Latest papers (2022-01-13)</summary>
 
 - KBS-22 [Intra-domain and cross-domain transfer learning for time series data -- How transferable are the features](https://arxiv.org/abs/2201.04449)
   - An overview of transfer learning for time series data
@@ -111,11 +95,6 @@ author = {Wang, Jindong and others}
   - Transfer learning for scene text recognition in Indian languages
   - 用迁移学习进行印度语的场景文字识别
 
-</details>
-
-<details>
-  <summary>Latest papers (2022-01-07)</summary>
-
 - IEEE TMM-22 [Decompose to Adapt: Cross-domain Object Detection via Feature Disentanglement](https://arxiv.org/abs/2201.01929)
   - Invariant and shared components for Faster RCNN detection
   - 解耦公共和私有表征进行目标检测
@@ -123,11 +102,6 @@ author = {Wang, Jindong and others}
 - [Mixture of basis for interpretable continual learning with distribution shifts](https://arxiv.org/abs/2201.01853)
   - Incremental learning with mixture of basis
   - 用mixture of domains进行增量学习
-
-</details>
-
-<details>
-  <summary>Latest papers (2022-01-04)</summary>
 
 - TKDE-22 [Adaptive Memory Networks with Self-supervised Learning for Unsupervised Anomaly Detection](https://arxiv.org/abs/2201.00464)
   - Adaptiev memory network for anomaly detection
