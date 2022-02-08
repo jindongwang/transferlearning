@@ -137,6 +137,14 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 ## Per-training/Finetuning
 
+- ICLR-22 [BEiT: BERT Pre-Training of Image Transformers](https://openreview.net/forum?id=p-BhZSz59o4)
+  - BERT pre-training of image transformers
+  - 用BERT的方式pre-train transformer
+
+- [Improved Fine-tuning by Leveraging Pre-training Data: Theory and Practice](http://arxiv.org/abs/2111.12292)
+  - Using pre-training data to improve fine-tuning
+  - 使用预训练数据来帮助finetune
+
 - [An Ensemble of Pre-trained Transformer Models For Imbalanced Multiclass Malware Classification](https://arxiv.org/abs/2112.13236)
   - An ensemble of pre-trained transformer for malware classification
   - 预训练的transformer通过集成进行恶意软件检测
