@@ -497,6 +497,10 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 ## Deep domain adaptation
 
+- ICLR-22 [Graph-Relational Domain Adaptation](https://arxiv.org/abs/2202.03628)
+  - Graph-relational domain adapttion using topological structures
+  - 图级别的domain adaptation，使用拓扑结构
+
 - [UMAD: Universal Model Adaptation under Domain and Category Shift](https://arxiv.org/abs/2112.08553)
     - Model adaptation under domain and category shift
     - 在domain和class都有shift的前提下进行模型适配
@@ -1373,6 +1377,10 @@ Let's read some awesome transfer learning / domain adaptation papers.
 - - -
 
 ## Domain generalization
+
+- ICLR-22 [Uncertainty Modeling for Out-of-Distribution Generalization](https://arxiv.org/abs/2202.03958)
+  - Uncertainty modeling for OOD generalization
+  - 用于分布外泛化的不确定性建模
 
 - TKDE-22 [Adaptive Memory Networks with Self-supervised Learning for Unsupervised Anomaly Detection](https://arxiv.org/abs/2201.00464)
   - Adaptiev memory network for anomaly detection

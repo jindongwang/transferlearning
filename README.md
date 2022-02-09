@@ -29,7 +29,7 @@
 **Widely used by top conferences and journals:** 
 - Conferences: [[NeurIPS'21](https://proceedings.neurips.cc/paper/2021/file/731b03008e834f92a03085ef47061c4a-Paper.pdf)] [[IJCAI'21](https://arxiv.org/abs/2103.03097)] [[ESEC/FSE'20](https://dl.acm.org/doi/abs/10.1145/3368089.3409696)] [[IJCNN'20](https://ieeexplore.ieee.org/abstract/document/9207556)] [[ACMMM'18](https://dl.acm.org/doi/abs/10.1145/3240508.3240512)] [[ICME'19](https://ieeexplore.ieee.org/abstract/document/8784776/)]
 - Journals: [[ACM TIST](https://dl.acm.org/doi/abs/10.1145/3360309)] [[Information sciences](https://www.sciencedirect.com/science/article/pii/S0020025520308458)] [[Neurocomputing](https://www.sciencedirect.com/science/article/pii/S0925231221007025)] [[IEEE Transactions on Cognitive and Developmental Systems](https://ieeexplore.ieee.org/abstract/document/9659817)]
-- 
+
 
 ```
 @Misc{transferlearning.xyz,
@@ -54,6 +54,18 @@ Related repos：[[TorchSSL: a unified library for semi-supervised learning](http
 - [Paperweekly](http://www.paperweekly.site/collections/231/papers): A website to recommend and read paper notes
 
 **Latest papers**: (All papers are also put in [doc/awesome_papers.md](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md))
+
+- ICLR-22 [Graph-Relational Domain Adaptation](https://arxiv.org/abs/2202.03628)
+  - Graph-relational domain adapttion using topological structures
+  - 图级别的domain adaptation，使用拓扑结构
+
+- [Domain Adversarial Spatial-Temporal Network: A Transferable Framework for Short-term Traffic Forecasting across Cities](https://arxiv.org/abs/2202.03630)
+  - Transfer learning for traffic forecasting across cities
+  - 用迁移学习进行跨城市的交通流量预测
+
+- ICLR-22 [Uncertainty Modeling for Out-of-Distribution Generalization](https://arxiv.org/abs/2202.03958)
+  - Uncertainty modeling for OOD generalization
+  - 用于分布外泛化的不确定性建模
 
 <details>
   <summary>Latest papers (2022-02-08)</summary>

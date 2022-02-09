@@ -678,6 +678,10 @@ By reverse chronological order.
 
 ## Time series
 
+- [Domain Adversarial Spatial-Temporal Network: A Transferable Framework for Short-term Traffic Forecasting across Cities](https://arxiv.org/abs/2202.03630)
+  - Transfer learning for traffic forecasting across cities
+  - 用迁移学习进行跨城市的交通流量预测
+
 - [Domain-Invariant Representation Learning from EEG with Private Encoders](https://arxiv.org/abs/2201.11613)
   - Domain-invariant learning from EEG
   - 用于EEG信号的领域不变特征研究
@@ -697,8 +701,6 @@ By reverse chronological order.
 - 20190703 arXiv [Applying Transfer Learning To Deep Learned Models For EEG Analysis](https://arxiv.org/abs/1907.01332)
   	- Apply transfer learning to EEG
   	- 用深度迁移学习进行EEG分析
-
-
 
 ## Speech
 
