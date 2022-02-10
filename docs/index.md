@@ -1,7 +1,9 @@
 <h1 align="center">
   <br>
-  <a href="https://github.com/jindongwang/transferlearning"><img src="../png/logo.jpg" alt="Transfer Leanring" width="500"></a>
+  <a href="https://github.com/jindongwang/transferlearning"><img src="https://raw.githubusercontent.com/jindongwang/transferlearning/master/png/logo.jpg" alt="Transfer Leanring" width="500"></a>
 </h1>
+
+
 
 <h4 align="center">Everything about Transfer Learning.</h4>
 
