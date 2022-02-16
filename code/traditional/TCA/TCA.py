@@ -175,7 +175,7 @@ def train_valid():
 
 if __name__ == '__main__':
     # Note: if the .mat file names are not the same, you can change them.
-    # Note: to reproduce the results of my transfer learning book, use the dataset here: https://www.jianguoyun.com/p/DWJ_7qgQmN7PCBj29KsD
+    # Note: to reproduce the results of my transfer learning book, use the dataset here: https://www.jianguoyun.com/p/DWJ_7qgQmN7PCBj29KsD (Password: cnfjmc)
 
     domains = ['caltech_surf_10.mat', 'amazon_surf_10.mat',
                'webcam_surf_10.mat', 'dslr_surf_10.mat']

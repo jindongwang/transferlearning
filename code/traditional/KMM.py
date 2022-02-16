@@ -1,9 +1,3 @@
-# encoding=utf-8
-"""
-    Created on 9:53 2019/4/21 
-    @author: Jindong Wang
-"""
-
 """
 Kernel Mean Matching
 #  1. Gretton, Arthur, et al. "Covariate shift by kernel mean matching." Dataset shift in machine learning 3.4 (2009): 5.
@@ -13,6 +7,14 @@ Kernel Mean Matching
 import numpy as np
 import sklearn.metrics
 from cvxopt import matrix, solvers
+import os
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.metrics import accuracy_score
+import argparse
+
+parser = argparse.ArgumentParser()
+parser.add_argument('--norm', action='store_true')
+args = parser.parse_args()
 
 def kernel(ker, X1, X2, gamma):
     K = None
@@ -65,13 +67,40 @@ class KMM:
         beta = np.array(sol['x'])
         return beta
 
+def load_data(folder, domain):
+    from scipy import io
+    data = io.loadmat(os.path.join(folder, domain + '_fc6.mat'))
+    return data['fts'], data['labels']
 
-if __name__ == '__main__':
-    Xs = [[1, 2, 3], [4, 7, 4], [3, 3, 3], [4, 4, 4], [5, 5, 5], [3, 4, 5], [1, 2, 3], [4, 7, 4], [3, 3, 3], [4, 4, 4], [5, 5, 5], [3, 4, 5], [1, 2, 3], [4, 7, 4], [3, 3, 3], [4, 4, 4], [5, 5, 5], [3, 4, 5], [1, 2, 3], [4, 7, 4], [3, 3, 3], [4, 4, 4], [5, 5, 5], [3, 4, 5]]
-    Xt = [[5, 9, 10], [4, 5, 6], [10, 20, 30], [1, 2, 3], [3, 4, 5], [5, 6, 7], [7, 8, 9], [100, 100, 100], [11, 22, 33], [12, 11, 5], [5, 9, 10], [4, 5, 6], [10, 20, 30], [1, 2, 3], [3, 4, 5], [5, 6, 7], [7, 8, 9], [100, 100, 100], [11, 22, 33], [12, 11, 5]]
-    Xs, Xt = np.asarray(Xs), np.asarray(Xt)
+
+def knn_classify(Xs, Ys, Xt, Yt, k=1, norm=False):
+    model = KNeighborsClassifier(n_neighbors=k)
+    Ys = Ys.ravel()
+    Yt = Yt.ravel()
+    if norm:
+        from sklearn.preprocessing import StandardScaler
+        scaler = StandardScaler()
+        Xs = scaler.fit_transform(Xs)
+        Xt = scaler.fit_transform(Xt)
+    model.fit(Xs, Ys)
+    Yt_pred = model.predict(Xt)
+    acc = accuracy_score(Yt, Yt_pred)
+    print(f'Accuracy using kNN: {acc * 100:.2f}%')
+
+
+if __name__ == "__main__":
+    # download the dataset here: https://www.jianguoyun.com/p/DcNAUg0QmN7PCBiF9asD (Password: qqLA7D)
+    folder = '/home/jindwang/mine/office31'
+    src_domain = 'amazon'
+    tar_domain = 'webcam'
+    Xs, Ys = load_data(folder, src_domain)
+    Xt, Yt = load_data(folder, tar_domain)
+    print('Source:', src_domain, Xs.shape, Ys.shape)
+    print('Target:', tar_domain, Xt.shape, Yt.shape)
+
     kmm = KMM(kernel_type='rbf', B=10)
     beta = kmm.fit(Xs, Xt)
     print(beta)
     print(beta.shape)
-    # If you want to perform classification, you can get the new Xs by Xs_new = beta * Xs, then train a classifier on Xs_new.
+    Xs_new = beta * Xs
+    knn_classify(Xs_new, Ys, Xt, Yt, k=1, norm=args.norm)

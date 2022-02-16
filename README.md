@@ -56,7 +56,7 @@ Related repos：[[TorchSSL: a unified library for semi-supervised learning](http
 **Latest papers**: 
 
 - By topic: [doc/awesome_papers.md](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md)
-- By date: [[2022-01](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#2022-01)] [[2021-12](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#2021-12)] [[2021-11]([2022-01](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#2021-11))] [[2021-10](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#2021-10)] [[2021-09](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#2021-09)] [[2021-08](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#2021-08)] [[2021-07](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#2021-07)]
+- By date: [[2022-01](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#2022-01)] [[2021-12](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#2021-12)] [[2021-11](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#2021-11)] [[2021-10](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#2021-10)] [[2021-09](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#2021-09)] [[2021-08](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#2021-08)] [[2021-07](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#2021-07)]
 
 Updated at 2022-02-16:
 
