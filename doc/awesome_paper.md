@@ -137,6 +137,10 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 ## Per-training/Finetuning
 
+- ICLR-22 spotlight [Towards a Unified View of Parameter-Efficient Transfer Learning](https://openreview.net/pdf?id=0RDcd5Axok)
+  - Detailed analysis of parameter-efficient transfer learning
+  - 对参数高效的迁移学习进行分析
+
 - ICLR-22 [BEiT: BERT Pre-Training of Image Transformers](https://openreview.net/forum?id=p-BhZSz59o4)
   - BERT pre-training of image transformers
   - 用BERT的方式pre-train transformer
@@ -1377,6 +1381,14 @@ Let's read some awesome transfer learning / domain adaptation papers.
 - - -
 
 ## Domain generalization
+
+- ICLR-22 oral [A Fine-Grained Analysis on Distribution Shift](https://openreview.net/forum?id=Dl4LetuLdyK)
+  - Extensive experiments on distribution shift for OOD
+  - 大量的实验进行OOD验证
+
+- ICLR-22 oral [Fine-Tuning Distorts Pretrained Features and Underperforms Out-of-Distribution](https://openreview.net/forum?id=UYneFzXSJWh)
+  - Fine-tuning with linear probing for OOD
+  - 微调加上linear probing用于OOD
 
 - ICLR-22 [Uncertainty Modeling for Out-of-Distribution Generalization](https://arxiv.org/abs/2202.03958)
   - Uncertainty modeling for OOD generalization
