@@ -2,6 +2,8 @@
 
 Let's read some awesome transfer learning / domain adaptation papers.
 
+Here, we list some papers by topic. For list by date, please refer to [papers by date](awesome_paper.md).
+
 这里收录了迁移学习各个研究领域的最新文章。
 
 - [Awesome Transfer Learning Papers](#awesome-transfer-learning-papers)
