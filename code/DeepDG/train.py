@@ -150,9 +150,11 @@ if __name__ == '__main__':
 
     save_checkpoint('model.pkl', algorithm, args)
 
+    print('valid acc: %.4f' % best_valid_acc)
     print('DG result: %.4f' % target_acc)
 
     with open(os.path.join(args.output, 'done.txt'), 'w') as f:
         f.write('done\n')
         f.write('total cost time:%s\n' % (str(time.time()-sss)))
+        f.write('valid acc:%.4f\n' % (best_valid_acc))
         f.write('target acc:%.4f' % (target_acc))
