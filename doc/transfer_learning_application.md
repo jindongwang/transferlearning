@@ -906,6 +906,10 @@ By reverse chronological order.
 
 ## Others
 
+- [Deep Transfer Learning on Satellite Imagery Improves Air Quality Estimates in Developing Nations](https://arxiv.org/abs/2202.08890)
+  - Deep transfer learning for air quality estimate
+  - 深度迁移学习用于卫星图到空气质量预测
+
 - [DROPO: Sim-to-Real Transfer with Offline Domain Randomization](https://arxiv.org/abs/2201.08434)
   - Sim-to-real transfer with domain randomization
   - 用domain randomization进行sim-to-real transfer

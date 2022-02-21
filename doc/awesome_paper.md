@@ -1665,8 +1665,12 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ## Zero-shot / few-shot learning
 
+- [How Well Do Self-Supervised Methods Perform in Cross-Domain Few-Shot Learning?](https://arxiv.org/abs/2202.09014)
+  - Self-supervised learning for cross-domain few-shot
+  - 自监督用于跨领域小样本
+
 - 20181128 arXiv [One Shot Domain Adaptation for Person Re-Identification](https://arxiv.org/abs/1811.10144)
-	-  One shot learning for REID
+	- One shot learning for REID
 	- One shot for再识别
 
 - 20210426 [Few-shot Continual Learning: a Brain-inspired Approach](http://arxiv.org/abs/2104.09034)
