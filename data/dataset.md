@@ -102,15 +102,18 @@ See benchmarks on Office-31 datasets [here](https://github.com/jindongwang/trans
 
 #### Download
 
-[Download Office-31 raw images](https://pan.baidu.com/s/1o8igXT4) | [Download from MEGA](https://mega.nz/file/dSpjyCwR#9ctB4q1RIE65a4NoJy0ox3gngh15cJqKq1XpOILJt9s)
+Download Office-31 raw images:
+- [Jianguoyun](https://www.jianguoyun.com/p/Dblj5GcQmN7PCBiA9asD) (Password: FcaDrw)
+- [MEGA](https://mega.nz/file/dSpjyCwR#9ctB4q1RIE65a4NoJy0ox3gngh15cJqKq1XpOILJt9s)
+- [Azure (supports wget)](https://wjdcloud.blob.core.windows.net/dataset/OFFICE31.zip)
 
-[Download Office-31 DeCAF6 and DeCAF7 features](https://pan.baidu.com/s/1o7XrAzw)
+Download Office-31 DeCAF6 and DeCAF7 features:
+- [Jianguoyun](https://www.jianguoyun.com/p/DcNAUg0QmN7PCBiF9asD) (Password: qqLA7D)
 
-[Download Office-31 DeCAF features by Frame](https://pan.baidu.com/s/1i5KkNxb)
-
-[Download Office-31 SURF features](https://pan.baidu.com/s/1kU6tv4F)
-
-[Download Office-31 ResNet-50 features](https://pan.baidu.com/s/1UoyJSqoCKCda-NcP-zraVg) | [Download from MEGA](https://mega.nz/#F!laI2lKoJ!nSmVQXrpu1Ov794sy2wFKg)
+Download Office-31 Resnet-50 features:
+- [Jianguoyun](https://www.jianguoyun.com/p/DSO1BC0QmN7PCBicraIE) (Password: eS5fMT)
+- [MEGA](https://mega.nz/#F!laI2lKoJ!nSmVQXrpu1Ov794sy2wFKg)
+- [Azure (Supports wget)](https://wjdcloud.blob.core.windows.net/dataset/office31_resnet50.zip)
 
 - - -
 
@@ -186,11 +189,14 @@ This is a **new** dataset released at CVPR 2017. It contains 65 kinds of objects
 
 The project home page is: http://hemanthdv.org/OfficeHome-Dataset/.
 
-[Download the raw image](https://www.jianguoyun.com/p/DSCLvuoQmN7PCBiWraIE) (Password: 726GYD)
+Download original images:
+- [Jianguoyun](https://www.jianguoyun.com/p/DSCLvuoQmN7PCBiWraIE) (Password: 726GYD)
+- [Azure (Supports wget)](https://wjdcloud.blob.core.windows.net/dataset/OfficeHome.zip)
 
-Currently, there are no feature files, which is bad for traditional (no-deep) methods. I extracted features using ResNet-50 for you to use:
-
-[Download Office-Home ResNet-50 pretrained features](https://pan.baidu.com/s/1qvcWJCXVG8JkZnoM4BVoGg) | [Download from MEGA](https://mega.nz/#F!pGIkjIxC!MDD3ps6RzTXWobMfHh0Slw)
+Download ResNet-50 pre-trained features:
+- [Baiduyun](https://pan.baidu.com/s/1qvcWJCXVG8JkZnoM4BVoGg)
+- [MEGA](https://mega.nz/#F!pGIkjIxC!MDD3ps6RzTXWobMfHh0Slw)
+- [Azure (Supports wget)](https://wjdcloud.blob.core.windows.net/dataset/officehome_resnet50.zip)
 
 - - -
 
@@ -206,9 +212,14 @@ This is a Decaf7 based cross-dataset image classification dataset. It contains 4
 
 This is a dataset from ImageCLEF 2014 challenge.
 
-[Download the ImageCLEF dataset](https://www.jianguoyun.com/p/DW5Gc_sQmN7PCBjwrKIE) (Password: e5v8GG)
+Download original images:
+- [Jianguoyun](https://www.jianguoyun.com/p/DW5Gc_sQmN7PCBjwrKIE) (Password: e5v8GG)
+- [MEGA](https://mega.nz/#!AKYhEYaY!mSwEK3_9SLVSqXXNzUxNWpQymlH10vcEhuC8fbOIAwk)
+- [Azure (Supports wget)](https://wjdcloud.blob.core.windows.net/dataset/image_CLEF.zip)
 
-[Download Image-CLEF ResNet-50 pretrained features](https://pan.baidu.com/s/16wBgDJI6drA0oYq537h4FQ) | [Download from MEGA](https://mega.nz/#F!QPJCzShS!b6qQUXWnCCGBMVs0m6MdQw)
+Download ResNet-50 pre-trained features:
+- [Baiduyun](https://pan.baidu.com/s/16wBgDJI6drA0oYq537h4FQ)
+- [MEGA](https://mega.nz/#F!QPJCzShS!b6qQUXWnCCGBMVs0m6MdQw)
 
 - - -
 
@@ -232,9 +243,10 @@ This is probably the **largest and latest** domain adaptation datasets ever! It 
 
 ### Amazon review
 
-[Download Amazon review dataset](https://mega.nz/#F!RS43DADD!4pWwFA0CBJP1oLhAR23bTA)
-
-For more image datasets, please refer to https://sites.google.com/site/crossdataset/home/files
+Downlaod Amazon review dataset:
+- [Mega](https://mega.nz/#F!RS43DADD!4pWwFA0CBJP1oLhAR23bTA)
+- [Jianguoyun](https://www.jianguoyun.com/p/DfOeHxIQmN7PCBiT9asD) (Password: AXMDi5)
+- [Azure (Supports wget)](https://wjdcloud.blob.core.windows.net/dataset/amazon_review.zip)
 
 - - -
 

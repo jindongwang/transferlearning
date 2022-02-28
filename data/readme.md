@@ -38,25 +38,38 @@ Download Office+Caltech DeCAF dataset:
 Download Office-31 raw images:
 - [Jianguoyun](https://www.jianguoyun.com/p/Dblj5GcQmN7PCBiA9asD) (Password: FcaDrw)
 - [MEGA](https://mega.nz/file/dSpjyCwR#9ctB4q1RIE65a4NoJy0ox3gngh15cJqKq1XpOILJt9s)
-
-Download Office-31 DeCAF6 and DeCAF7 features:
-- [Jianguoyun](https://www.jianguoyun.com/p/DcNAUg0QmN7PCBiF9asD) (Password: qqLA7D)
+- [Azure (supports wget)](https://wjdcloud.blob.core.windows.net/dataset/OFFICE31.zip)
 
 Download Office-31 Resnet-50 features:
 - [Jianguoyun](https://www.jianguoyun.com/p/DSO1BC0QmN7PCBicraIE) (Password: eS5fMT)
 - [MEGA](https://mega.nz/#F!laI2lKoJ!nSmVQXrpu1Ov794sy2wFKg)
+- [Azure (Supports wget)](https://wjdcloud.blob.core.windows.net/dataset/office31_resnet50.zip)
+
+Download Office-31 DeCAF6 and DeCAF7 features:
+- [Jianguoyun](https://www.jianguoyun.com/p/DcNAUg0QmN7PCBiF9asD) (Password: qqLA7D)
 
 ### Office-Home
 
-[Download Office-Home original images](https://www.jianguoyun.com/p/DSCLvuoQmN7PCBiWraIE) (Password: 726GYD)
+Download original images:
+- [Jianguoyun](https://www.jianguoyun.com/p/DSCLvuoQmN7PCBiWraIE) (Password: 726GYD)
+- [Azure (Supports wget)](https://wjdcloud.blob.core.windows.net/dataset/OfficeHome.zip)
 
-[Download Office-Home ResNet-50 pretrained features](https://pan.baidu.com/s/1qvcWJCXVG8JkZnoM4BVoGg) | [Download from MEGA](https://mega.nz/#F!pGIkjIxC!MDD3ps6RzTXWobMfHh0Slw)
+Download ResNet-50 pre-trained features:
+- [Baiduyun](https://pan.baidu.com/s/1qvcWJCXVG8JkZnoM4BVoGg)
+- [MEGA](https://mega.nz/#F!pGIkjIxC!MDD3ps6RzTXWobMfHh0Slw)
+- [Azure (Supports wget)](https://wjdcloud.blob.core.windows.net/dataset/officehome_resnet50.zip)
 
 ### ImageCLEF
 
-[Raw images from Jianguoyun](https://www.jianguoyun.com/p/DW5Gc_sQmN7PCBjwrKIE) (Password: e5v8GG) | [From MEGA](https://mega.nz/#!AKYhEYaY!mSwEK3_9SLVSqXXNzUxNWpQymlH10vcEhuC8fbOIAwk)
+Download original images:
+- [Jianguoyun](https://www.jianguoyun.com/p/DW5Gc_sQmN7PCBjwrKIE) (Password: e5v8GG)
+- [MEGA](https://mega.nz/#!AKYhEYaY!mSwEK3_9SLVSqXXNzUxNWpQymlH10vcEhuC8fbOIAwk)
+- [Azure (Supports wget)](https://wjdcloud.blob.core.windows.net/dataset/image_CLEF.zip)
 
-[ResNet-50 pretrained features](https://pan.baidu.com/s/16wBgDJI6drA0oYq537h4FQ) | [Download from MEGA](https://mega.nz/#F!QPJCzShS!b6qQUXWnCCGBMVs0m6MdQw)
+Download ResNet-50 pre-trained features:
+- [Baiduyun](https://pan.baidu.com/s/16wBgDJI6drA0oYq537h4FQ)
+- [MEGA](https://mega.nz/#F!QPJCzShS!b6qQUXWnCCGBMVs0m6MdQw)
+- [Azure (Supports wget)](https://wjdcloud.blob.core.windows.net/dataset/imageCLEF_resnet50.zip)
 
 ### USPS+MNIST
 
@@ -77,6 +90,7 @@ Download MNIST+USPS SURF dataset:
 Downlaod Amazon review dataset:
 - [Mega](https://mega.nz/#F!RS43DADD!4pWwFA0CBJP1oLhAR23bTA)
 - [Jianguoyun](https://www.jianguoyun.com/p/DfOeHxIQmN7PCBiT9asD) (Password: AXMDi5)
+- [Azure (Supports wget)](https://wjdcloud.blob.core.windows.net/dataset/amazon_review.zip)
 
 ### Cross-dataset Testbed
 
