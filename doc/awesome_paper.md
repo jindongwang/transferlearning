@@ -503,6 +503,10 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ## Deep domain adaptation
 
+- [Causal Domain Adaptation with Copula Entropy based Conditional Independence Test](https://arxiv.org/abs/2202.13482)
+  - Use copula entropy based conditional independence test for csusal domain adaptation
+  - 使用基于copula entopy的条件独立测试进行causal domain adaptation
+
 - ICLR-22 [Graph-Relational Domain Adaptation](https://arxiv.org/abs/2202.03628)
   - Graph-relational domain adapttion using topological structures
   - 图级别的domain adaptation，使用拓扑结构
@@ -1384,6 +1388,14 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ## Domain generalization
 
+- [Learning Semantic Segmentation from Multiple Datasets with Label Shifts](https://arxiv.org/abs/2202.14030)
+  - Learning semantic segmentation from many datasets with label shifts
+  - 在有标签漂移的情况下从多个数据集中学习语义分割
+
+- PAKDD-22 [Layer Adaptive Deep Neural Networks for Out-of-distribution Detection](https://arxiv.org/abs/2203.00192)
+  - Layer adaptive network for OOD detection
+  - 层自适应的网络进行OOD检测
+
 - ICLR-22 oral [A Fine-Grained Analysis on Distribution Shift](https://openreview.net/forum?id=Dl4LetuLdyK)
   - Extensive experiments on distribution shift for OOD
   - 大量的实验进行OOD验证
@@ -1664,6 +1676,10 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 - - -
 
 ## Zero-shot / few-shot learning
+
+- [Interpretable Concept-based Prototypical Networks for Few-Shot Learning](https://arxiv.org/abs/2202.13474)
+  - Concept-based prototypical network for few-shot learning
+  - 基于概念的原型网络用于小样本学习
 
 - [How Well Do Self-Supervised Methods Perform in Cross-Domain Few-Shot Learning?](https://arxiv.org/abs/2202.09014)
   - Self-supervised learning for cross-domain few-shot

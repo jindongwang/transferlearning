@@ -2,6 +2,58 @@
 
 Here, we list some papers related to transfer learning by date (starting from 2021-07). For papers older than 2021-07, please refer to the [papers by topic](awesome_paper.md), which contains more papers.
 
+- [Awesome papers by date](#awesome-papers-by-date)
+  - [2022-02](#2022-02)
+  - [2022-01](#2022-01)
+  - [2021-12](#2021-12)
+  - [2021-11](#2021-11)
+  - [2021-10](#2021-10)
+  - [2021-09](#2021-09)
+  - [2021-08](#2021-08)
+  - [2021-07](#2021-07)
+
+## 2022-02
+
+- [How Well Do Self-Supervised Methods Perform in Cross-Domain Few-Shot Learning?](https://arxiv.org/abs/2202.09014)
+  - Self-supervised learning for cross-domain few-shot
+  - 自监督用于跨领域小样本
+
+- [Deep Transfer Learning on Satellite Imagery Improves Air Quality Estimates in Developing Nations](https://arxiv.org/abs/2202.08890)
+  - Deep transfer learning for air quality estimate
+  - 深度迁移学习用于卫星图到空气质量预测
+
+- ICLR-22 oral [A Fine-Grained Analysis on Distribution Shift](https://openreview.net/forum?id=Dl4LetuLdyK)
+  - Extensive experiments on distribution shift for OOD
+  - 大量的实验进行OOD验证
+
+- ICLR-22 oral [Fine-Tuning Distorts Pretrained Features and Underperforms Out-of-Distribution](https://openreview.net/forum?id=UYneFzXSJWh)
+  - Fine-tuning with linear probing for OOD
+  - 微调加上linear probing用于OOD
+
+- ICLR-22 spotlight [Towards a Unified View of Parameter-Efficient Transfer Learning](https://openreview.net/pdf?id=0RDcd5Axok)
+  - Detailed analysis of parameter-efficient transfer learning
+  - 对参数高效的迁移学习进行分析
+
+- ICLR-22 [Graph-Relational Domain Adaptation](https://arxiv.org/abs/2202.03628)
+  - Graph-relational domain adapttion using topological structures
+  - 图级别的domain adaptation，使用拓扑结构
+
+- [Domain Adversarial Spatial-Temporal Network: A Transferable Framework for Short-term Traffic Forecasting across Cities](https://arxiv.org/abs/2202.03630)
+  - Transfer learning for traffic forecasting across cities
+  - 用迁移学习进行跨城市的交通流量预测
+
+- ICLR-22 [Uncertainty Modeling for Out-of-Distribution Generalization](https://arxiv.org/abs/2202.03958)
+  - Uncertainty modeling for OOD generalization
+  - 用于分布外泛化的不确定性建模
+
+- ICLR-22 [BEiT: BERT Pre-Training of Image Transformers](https://openreview.net/forum?id=p-BhZSz59o4)
+  - BERT pre-training of image transformers
+  - 用BERT的方式pre-train transformer
+
+- [Improved Fine-tuning by Leveraging Pre-training Data: Theory and Practice](http://arxiv.org/abs/2111.12292)
+  - Using pre-training data to improve fine-tuning
+  - 使用预训练数据来帮助finetune
+
 ## 2022-01
 
 - [IGLUE: A Benchmark for Transfer Learning across Modalities, Tasks, and Languages](https://arxiv.org/abs/2201.11732)

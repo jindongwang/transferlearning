@@ -468,6 +468,10 @@ By reverse chronological order.
 
 ## Natural language processing
 
+- ACL-22 [Investigating Selective Prediction Approaches Across Several Tasks in IID, OOD, and Adversarial Settings](https://arxiv.org/abs/2203.00211)
+  - Investigate selective prediction approaches in IID, OOD, and ADV settings
+  - 在独立同分布、分布外、对抗情境中调研选择性预测方法
+
 - [IGLUE: A Benchmark for Transfer Learning across Modalities, Tasks, and Languages](https://arxiv.org/abs/2201.11732)
   - A benchmark for transfer learning in NLP
   - 一个用于NLP跨模态、任务、语言的benchmark

@@ -55,55 +55,29 @@ Related repos：[[TorchSSL: a unified library for semi-supervised learning](http
 **Latest papers**: 
 
 - By topic: [doc/awesome_papers.md](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md)
-- By date: [[2022-01](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#2022-01)] [[2021-12](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#2021-12)] [[2021-11](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#2021-11)] [[2021-10](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#2021-10)] [[2021-09](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#2021-09)] [[2021-08](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#2021-08)] [[2021-07](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#2021-07)]
+- By date: [[2022-02](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#2022-02)] [[2022-01](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#2022-01)] [[2021-12](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#2021-12)] [[2021-11](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#2021-11)] [[2021-10](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#2021-10)] [[2021-09](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#2021-09)] [[2021-08](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#2021-08)] [[2021-07](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#2021-07)]
 
-Updated at 2022-02-21:
+Updated at 2022-03-02:
 
-- [How Well Do Self-Supervised Methods Perform in Cross-Domain Few-Shot Learning?](https://arxiv.org/abs/2202.09014)
-  - Self-supervised learning for cross-domain few-shot
-  - 自监督用于跨领域小样本
+- ACL-22 [Investigating Selective Prediction Approaches Across Several Tasks in IID, OOD, and Adversarial Settings](https://arxiv.org/abs/2203.00211)
+  - Investigate selective prediction approaches in IID, OOD, and ADV settings
+  - 在独立同分布、分布外、对抗情境中调研选择性预测方法
 
-- [Deep Transfer Learning on Satellite Imagery Improves Air Quality Estimates in Developing Nations](https://arxiv.org/abs/2202.08890)
-  - Deep transfer learning for air quality estimate
-  - 深度迁移学习用于卫星图到空气质量预测
+- PAKDD-22 [Layer Adaptive Deep Neural Networks for Out-of-distribution Detection](https://arxiv.org/abs/2203.00192)
+  - Layer adaptive network for OOD detection
+  - 层自适应的网络进行OOD检测
 
-<details>
-  <summary>Latest papers (2022-02)</summary>
+- [Learning Semantic Segmentation from Multiple Datasets with Label Shifts](https://arxiv.org/abs/2202.14030)
+  - Learning semantic segmentation from many datasets with label shifts
+  - 在有标签漂移的情况下从多个数据集中学习语义分割
 
-- ICLR-22 oral [A Fine-Grained Analysis on Distribution Shift](https://openreview.net/forum?id=Dl4LetuLdyK)
-  - Extensive experiments on distribution shift for OOD
-  - 大量的实验进行OOD验证
+- [Causal Domain Adaptation with Copula Entropy based Conditional Independence Test](https://arxiv.org/abs/2202.13482)
+  - Use copula entropy based conditional independence test for csusal domain adaptation
+  - 使用基于copula entopy的条件独立测试进行causal domain adaptation
 
-- ICLR-22 oral [Fine-Tuning Distorts Pretrained Features and Underperforms Out-of-Distribution](https://openreview.net/forum?id=UYneFzXSJWh)
-  - Fine-tuning with linear probing for OOD
-  - 微调加上linear probing用于OOD
-
-- ICLR-22 spotlight [Towards a Unified View of Parameter-Efficient Transfer Learning](https://openreview.net/pdf?id=0RDcd5Axok)
-  - Detailed analysis of parameter-efficient transfer learning
-  - 对参数高效的迁移学习进行分析
-
-
-- ICLR-22 [Graph-Relational Domain Adaptation](https://arxiv.org/abs/2202.03628)
-  - Graph-relational domain adapttion using topological structures
-  - 图级别的domain adaptation，使用拓扑结构
-
-- [Domain Adversarial Spatial-Temporal Network: A Transferable Framework for Short-term Traffic Forecasting across Cities](https://arxiv.org/abs/2202.03630)
-  - Transfer learning for traffic forecasting across cities
-  - 用迁移学习进行跨城市的交通流量预测
-
-- ICLR-22 [Uncertainty Modeling for Out-of-Distribution Generalization](https://arxiv.org/abs/2202.03958)
-  - Uncertainty modeling for OOD generalization
-  - 用于分布外泛化的不确定性建模
-
-- ICLR-22 [BEiT: BERT Pre-Training of Image Transformers](https://openreview.net/forum?id=p-BhZSz59o4)
-  - BERT pre-training of image transformers
-  - 用BERT的方式pre-train transformer
-
-- [Improved Fine-tuning by Leveraging Pre-training Data: Theory and Practice](http://arxiv.org/abs/2111.12292)
-  - Using pre-training data to improve fine-tuning
-  - 使用预训练数据来帮助finetune
-
-</details>
+- [Interpretable Concept-based Prototypical Networks for Few-Shot Learning](https://arxiv.org/abs/2202.13474)
+  - Concept-based prototypical network for few-shot learning
+  - 基于概念的原型网络用于小样本学习
 
 - - -
 
