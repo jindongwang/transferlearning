@@ -57,7 +57,38 @@ Related repos：[[TorchSSL: a unified library for semi-supervised learning](http
 - By topic: [doc/awesome_papers.md](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md)
 - By date: [[2022-02](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#2022-02)] [[2022-01](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#2022-01)] [[2021-12](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#2021-12)] [[2021-11](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#2021-11)] [[2021-10](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#2021-10)] [[2021-09](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#2021-09)] [[2021-08](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#2021-08)] [[2021-07](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#2021-07)]
 
-Updated at 2022-03-02:
+*Updated at 2022-03-08:*
+
+- ACL-22 [Language-Agnostic Meta-Learning for Low-Resource Text-to-Speech with Articulatory Features](https://arxiv.org/abs/2203.03191)
+  - Language-agnostic meta-learning for TTS
+  - 语言无关的元学习用于TTS
+
+- [Input-Tuning: Adapting Unfamiliar Inputs to Frozen Pretrained Models](https://arxiv.org/abs/2203.03131)
+  - Adapt unfamiliar inputs to frozen pretrained models
+  - 让固定的预训练模型适配不熟悉的输入
+
+- [One Model, Multiple Tasks: Pathways for Natural Language Understanding](https://arxiv.org/abs/2203.03312)
+  - Pathways for natural language understanding
+  - 使用一个model用于所有NLP任务
+
+- [Pre-trained Token-replaced Detection Model as Few-shot Learner](https://arxiv.org/abs/2203.03235)
+  - Pre-trained token-replaced detection model as few-shot learner
+  - 预训练的替换token的检测模型
+
+- [Open Set Domain Adaptation By Novel Class Discovery](https://arxiv.org/abs/2203.03329)
+  - Open set DA by novel class discovery
+  - 基于新类发现的open set da
+
+- ICML-21 workshop [Domain Adaptation with Factorizable Joint Shift](https://arxiv.org/abs/2203.02902)
+  - Domain adaptation with factorizable joint shift
+  - 基于可分解的联合漂移的领域自适应
+
+- ICC-22 [Knowledge Transfer in Deep Reinforcement Learning for Slice-Aware Mobility Robustness Optimization](https://arxiv.org/abs/2203.03227)
+  - Knowledge transfer in RL
+  - 强化迁移学习
+
+
+*Updated at 2022-03-02:*
 
 - ACL-22 [Investigating Selective Prediction Approaches Across Several Tasks in IID, OOD, and Adversarial Settings](https://arxiv.org/abs/2203.00211)
   - Investigate selective prediction approaches in IID, OOD, and ADV settings

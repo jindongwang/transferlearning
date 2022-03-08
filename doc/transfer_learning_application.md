@@ -468,6 +468,10 @@ By reverse chronological order.
 
 ## Natural language processing
 
+- [One Model, Multiple Tasks: Pathways for Natural Language Understanding](https://arxiv.org/abs/2203.03312)
+  - Pathways for natural language understanding
+  - 使用一个model用于所有NLP任务
+
 - ACL-22 [Investigating Selective Prediction Approaches Across Several Tasks in IID, OOD, and Adversarial Settings](https://arxiv.org/abs/2203.00211)
   - Investigate selective prediction approaches in IID, OOD, and ADV settings
   - 在独立同分布、分布外、对抗情境中调研选择性预测方法
@@ -909,6 +913,10 @@ By reverse chronological order.
     - 迁移学习用于自动驾驶车辆的策略迁移
 
 ## Others
+
+- ICC-22 [Knowledge Transfer in Deep Reinforcement Learning for Slice-Aware Mobility Robustness Optimization](https://arxiv.org/abs/2203.03227)
+  - Knowledge transfer in RL
+  - 强化迁移学习
 
 - [Deep Transfer Learning on Satellite Imagery Improves Air Quality Estimates in Developing Nations](https://arxiv.org/abs/2202.08890)
   - Deep transfer learning for air quality estimate

@@ -139,6 +139,18 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ## Per-training/Finetuning
 
+- ACL-22 [Language-Agnostic Meta-Learning for Low-Resource Text-to-Speech with Articulatory Features](https://arxiv.org/abs/2203.03191)
+  - Language-agnostic meta-learning for TTS
+  - 语言无关的元学习用于TTS
+
+- [Input-Tuning: Adapting Unfamiliar Inputs to Frozen Pretrained Models](https://arxiv.org/abs/2203.03131)
+  - Adapt unfamiliar inputs to frozen pretrained models
+  - 让固定的预训练模型适配不熟悉的输入
+
+- [Pre-trained Token-replaced Detection Model as Few-shot Learner](https://arxiv.org/abs/2203.03235)
+  - Pre-trained token-replaced detection model as few-shot learner
+  - 预训练的替换token的检测模型
+
 - ICLR-22 spotlight [Towards a Unified View of Parameter-Efficient Transfer Learning](https://openreview.net/pdf?id=0RDcd5Axok)
   - Detailed analysis of parameter-efficient transfer learning
   - 对参数高效的迁移学习进行分析
@@ -502,6 +514,14 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 	- 发表在IEEE Trans. Knowledge and Data Engineering期刊上
 
 ## Deep domain adaptation
+
+- [Open Set Domain Adaptation By Novel Class Discovery](https://arxiv.org/abs/2203.03329)
+  - Open set DA by novel class discovery
+  - 基于新类发现的open set da
+
+- ICML-21 workshop [Domain Adaptation with Factorizable Joint Shift](https://arxiv.org/abs/2203.02902)
+  - Domain adaptation with factorizable joint shift
+  - 基于可分解的联合漂移的领域自适应
 
 - [Causal Domain Adaptation with Copula Entropy based Conditional Independence Test](https://arxiv.org/abs/2202.13482)
   - Use copula entropy based conditional independence test for csusal domain adaptation
