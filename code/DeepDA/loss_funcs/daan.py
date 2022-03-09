@@ -1,11 +1,11 @@
 from loss_funcs.adv import *
 
-class DAANLoss(AdversarialLoss):
+class DAANLoss(AdversarialLoss, LambdaSheduler):
     def __init__(self, num_class, gamma=1.0, max_iter=1000, **kwargs):
         super(DAANLoss, self).__init__(gamma=gamma, max_iter=max_iter, **kwargs)
         self.num_class = num_class
         self.local_classifiers = torch.nn.ModuleList()
-        for c in range(num_class):
+        for _ in range(num_class):
             self.local_classifiers.append(Discriminator())
 
         self.d_g, self.d_l = 0, 0

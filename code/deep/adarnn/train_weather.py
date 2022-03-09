@@ -446,7 +446,7 @@ def get_args():
     parser.add_argument('--outdir', default='./outputs')
     parser.add_argument('--overwrite', action='store_true')
     parser.add_argument('--log_file', type=str, default='run.log')
-    parser.add_argument('--gpu_id', type=int, default=1)
+    parser.add_argument('--gpu_id', type=int, default=0)
     parser.add_argument('--len_win', type=int, default=0)
     args = parser.parse_args()
 
