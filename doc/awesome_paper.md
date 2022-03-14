@@ -2085,6 +2085,10 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ## Safe transfer learning
 
+- ICSE-22 [ReMoS: Reducing Defect Inheritance in Transfer Learning via Relevant Model Slicing](https://link.zhihu.com/?target=https%3A//jd92.wang/assets/files/icse22-remos.pdf) | [Code](https://github.com/ziqi-zhang/ReMoS_artifact) | [Blog](https://zhuanlan.zhihu.com/p/446453487)
+  - Safe transfer learning by reducing defect inheritance
+  - 安全迁移学习的最新工作
+
 - CVPR workshop-21 [Renofeation: A Simple Transfer Learning Method for Improved Adversarial Robustness](https://openaccess.thecvf.com/content/CVPR2021W/TCV/html/Chin_Renofeation_A_Simple_Transfer_Learning_Method_for_Improved_Adversarial_Robustness_CVPRW_2021_paper.html)
   - Improve adversarial robustness of transfer learning models
   - 提高迁移学习对于adversarial robustness的鲁棒性
