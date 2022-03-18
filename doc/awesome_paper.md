@@ -331,6 +331,10 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ## Knowledge distillation
 
+- CVPR-22 [Decoupled Knowledge Distillation](https://arxiv.org/abs/2203.08679)
+  - Decoupled knowledge distillation
+  - 解耦的知识蒸馏
+
 - [On Representation Knowledge Distillation for Graph Neural Networks](https://arxiv.org/abs/2111.04964)
     - Knowledge distillation for GNN
     - 适用于GNN的知识蒸馏
@@ -2013,6 +2017,10 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ## Federated transfer learning
 
+- [SemiPFL: Personalized Semi-Supervised Federated Learning Framework for Edge Intelligence](https://arxiv.org/abs/2203.08176)
+  - Personalized federated learning
+  - 个性化联邦学习
+
 - [Federated Learning with Adaptive Batchnorm for Personalized Healthcare](https://arxiv.org/abs/2112.00734)
     - Federated learning with adaptive batchnorm
     - 用自适应BN进行个性化联邦学习
@@ -2085,7 +2093,7 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ## Safe transfer learning
 
-- ICSE-22 [ReMoS: Reducing Defect Inheritance in Transfer Learning via Relevant Model Slicing](https://link.zhihu.com/?target=https%3A//jd92.wang/assets/files/icse22-remos.pdf) | [Code](https://github.com/ziqi-zhang/ReMoS_artifact) | [Blog](https://zhuanlan.zhihu.com/p/446453487)
+- ICSE-22 [ReMoS: Reducing Defect Inheritance in Transfer Learning via Relevant Model Slicing](https://link.zhihu.com/?target=https%3A//jd92.wang/assets/files/icse22-remos.pdf) | [Code](https://github.com/ziqi-zhang/ReMoS_artifact) | [Blog](https://zhuanlan.zhihu.com/p/446453487) | [Video](https://www.bilibili.com/video/BV1mi4y1C7bP)
   - Safe transfer learning by reducing defect inheritance
   - 安全迁移学习的最新工作
 
