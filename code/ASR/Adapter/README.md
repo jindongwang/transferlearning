@@ -1,5 +1,9 @@
 # Adapter-based Cross-lingual ASR with EasyEspnet
 
+**NOTICE:** The latest code of Adapter has been moved to https://github.com/microsoft/NeuralSpeech/tree/master/AdapterASR for unified organization. Please refer to that repo.
+
+---
+
 This is a Adapter-based cross-lingual ASR implementation of our works [1, 2] built on top of [EasyEspnet](https://github.com/jindongwang/EasyEspnet). Please refer to it for the basic introduction, installation and usage.
 
 ## Run
