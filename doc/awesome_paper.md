@@ -139,6 +139,10 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ## Per-training/Finetuning
 
+- [A Broad Study of Pre-training for Domain Generalization and Adaptation](https://arxiv.org/abs/2203.11819)
+  - A broad study of pre-training models for DA and DG
+  - 大量的实验进行DA和DG
+
 - ACL-22 [Language-Agnostic Meta-Learning for Low-Resource Text-to-Speech with Articulatory Features](https://arxiv.org/abs/2203.03191)
   - Language-agnostic meta-learning for TTS
   - 语言无关的元学习用于TTS
@@ -518,6 +522,18 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 	- 发表在IEEE Trans. Knowledge and Data Engineering期刊上
 
 ## Deep domain adaptation
+
+- ISPASS-22 [Benchmarking Test-Time Unsupervised Deep Neural Network Adaptation on Edge Devices](https://arxiv.org/abs/2203.11295)
+  - Benchmarking test-time adaptation for edge devices
+  - 在端设备上评测test-time adaptation算法
+
+- [Multi-Source Domain Adaptation Based on Federated Knowledge Alignment](https://arxiv.org/abs/2203.11635)
+  - Multi-source domain adaptation
+  - 多源域自适应
+
+- [A Broad Study of Pre-training for Domain Generalization and Adaptation](https://arxiv.org/abs/2203.11819)
+  - A broad study of pre-training models for DA and DG
+  - 大量的实验进行DA和DG
 
 - [Open Set Domain Adaptation By Novel Class Discovery](https://arxiv.org/abs/2203.03329)
   - Open set DA by novel class discovery
@@ -1412,6 +1428,18 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ## Domain generalization
 
+- [Improving Generalization in Federated Learning by Seeking Flat Minima](https://arxiv.org/abs/2203.11834)
+  - Seeking flat minima for domain generalization in federated learning
+  - 通过寻找平坦值进行联邦学习领域泛化
+
+- [Gated Domain-Invariant Feature Disentanglement for Domain Generalizable Object Detection](https://arxiv.org/abs/2203.11432)
+  - Channel masking for domain generalization object detection
+  - 通过一个gate控制channel masking进行object detection DG
+
+- [A Broad Study of Pre-training for Domain Generalization and Adaptation](https://arxiv.org/abs/2203.11819)
+  - A broad study of pre-training models for DA and DG
+  - 大量的实验进行DA和DG
+
 - [Learning Semantic Segmentation from Multiple Datasets with Label Shifts](https://arxiv.org/abs/2202.14030)
   - Learning semantic segmentation from many datasets with label shifts
   - 在有标签漂移的情况下从多个数据集中学习语义分割
@@ -2016,6 +2044,10 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 - - -
 
 ## Federated transfer learning
+
+- [Improving Generalization in Federated Learning by Seeking Flat Minima](https://arxiv.org/abs/2203.11834)
+  - Seeking flat minima for domain generalization in federated learning
+  - 通过寻找平坦值进行联邦学习领域泛化
 
 - [SemiPFL: Personalized Semi-Supervised Federated Learning Framework for Edge Intelligence](https://arxiv.org/abs/2203.08176)
   - Personalized federated learning

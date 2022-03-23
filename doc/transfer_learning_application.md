@@ -18,6 +18,10 @@ By reverse chronological order.
 
 ## Computer vision
 
+- [Gated Domain-Invariant Feature Disentanglement for Domain Generalizable Object Detection](https://arxiv.org/abs/2203.11432)
+  - Channel masking for domain generalization object detection
+  - 通过一个gate控制channel masking进行object detection DG
+
 - [Domain generalization in deep learning-based mass detection in mammography: A large-scale multi-center study](https://arxiv.org/abs/2201.11620)
   - Domain generalization in mass detection in mammography
   - Domain generalization进行胸部射线检测
@@ -913,6 +917,10 @@ By reverse chronological order.
     - 迁移学习用于自动驾驶车辆的策略迁移
 
 ## Others
+
+- ISPASS-22 [Benchmarking Test-Time Unsupervised Deep Neural Network Adaptation on Edge Devices](https://arxiv.org/abs/2203.11295)
+  - Benchmarking test-time adaptation for edge devices
+  - 在端设备上评测test-time adaptation算法
 
 - ICC-22 [Knowledge Transfer in Deep Reinforcement Learning for Slice-Aware Mobility Robustness Optimization](https://arxiv.org/abs/2203.03227)
   - Knowledge transfer in RL

@@ -57,6 +57,30 @@ Related repos：[[TorchSSL: a unified library for semi-supervised learning](http
 - By topic: [doc/awesome_papers.md](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md)
 - By date: [[2022-02](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#2022-02)] [[2022-01](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#2022-01)] [[2021-12](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#2021-12)] [[2021-11](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#2021-11)] [[2021-10](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#2021-10)] [[2021-09](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#2021-09)] [[2021-08](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#2021-08)] [[2021-07](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#2021-07)]
 
+
+*Updated at 2022-03-23:*
+
+- [Gated Domain-Invariant Feature Disentanglement for Domain Generalizable Object Detection](https://arxiv.org/abs/2203.11432)
+  - Channel masking for domain generalization object detection
+  - 通过一个gate控制channel masking进行object detection DG
+
+- [A Broad Study of Pre-training for Domain Generalization and Adaptation](https://arxiv.org/abs/2203.11819)
+  - A broad study of pre-training models for DA and DG
+  - 大量的实验进行DA和DG
+
+- ISPASS-22 [Benchmarking Test-Time Unsupervised Deep Neural Network Adaptation on Edge Devices](https://arxiv.org/abs/2203.11295)
+  - Benchmarking test-time adaptation for edge devices
+  - 在端设备上评测test-time adaptation算法
+
+- [Multi-Source Domain Adaptation Based on Federated Knowledge Alignment](https://arxiv.org/abs/2203.11635)
+  - Multi-source domain adaptation
+  - 多源域自适应
+
+- [Improving Generalization in Federated Learning by Seeking Flat Minima](https://arxiv.org/abs/2203.11834)
+  - Seeking flat minima for domain generalization in federated learning
+  - 通过寻找平坦值进行联邦学习领域泛化
+  
+
 *Updated at 2022-03-18:*
 
 - CVPR-22 [Decoupled Knowledge Distillation](https://arxiv.org/abs/2203.08679)
