@@ -68,6 +68,7 @@ def train_epoch(args, model, optimizer, src_train_loader,  trg_train_loader, epo
     if epoch > 0:
         weight_mat = model.update_weight_Boosting(
                     weight_mat, dist_old, dist_mat)
+        a = 1
     return loss, loss_l1, weight_mat, dist_mat
 
 
@@ -161,7 +162,7 @@ def main_transfer(args):
 
     output_path = args.outdir + '_' + args.station + '_' + args.model_name + '_weather_' + \
         args.loss_type + '_' + str(args.pre_epoch) + \
-        '_'  + '_' + str(args.lr) + "_" + str(args.train_type) + "-layer-num-" + str(args.num_layer) + "-hidden-" + str(args.hidden_dim) + "-num_head-" + str(args.num_head) + "dw-" + str(args.dw)
+        '_update_'  + '_' + str(args.lr) + "_" + str(args.train_type) + "-layer-num-" + str(args.num_layer) + "-hidden-" + str(args.hidden_dim) + "-num_head-" + str(args.num_head) + "dw-" + str(args.dw)
         # "-hidden" + str(args.hidden_dim) + "-head" + str(args.num_head)
     save_model_name = args.model_name + '_' + args.loss_type + \
         '_' + str(args.dw) + '_' + str(args.lr) + '.pkl'
@@ -264,7 +265,7 @@ def get_args():
     parser.add_argument('--early_stop', type=int, default=40)
     parser.add_argument('--smooth_steps', type=int, default=5)
     parser.add_argument('--batch_size', type=int, default=36)
-    parser.add_argument('--dw', type=float, default=1.0)
+    parser.add_argument('--dw', type=float, default=0.5)
     parser.add_argument('--loss_type', type=str, default='cosine')
     parser.add_argument('--train_type', type=str, default='all')
     parser.add_argument('--station', type=str, default='Tiantan')
@@ -281,7 +282,7 @@ def get_args():
     parser.add_argument('--outdir', default='./outputs')
     parser.add_argument('--overwrite', action='store_true')
     parser.add_argument('--log_file', type=str, default='run.log')
-    parser.add_argument('--gpu_id', type=int, default=1)
+    parser.add_argument('--gpu_id', type=int, default=0)
     parser.add_argument('--len_win', type=int, default=0)
     args = parser.parse_args()
 
