@@ -161,7 +161,7 @@ def main_transfer(args):
 
     output_path = args.outdir + '_' + args.station + '_' + args.model_name + '_weather_' + \
         args.loss_type + '_' + str(args.pre_epoch) + \
-        '_update_'  + '_' + str(args.lr) + "_" + str(args.train_type) + "-layer-num-" + str(args.num_layer) + "-hidden-" + str(args.hidden_dim) + "-num_head-" + str(args.num_head) + "dw-" + str(args.dw)
+        '_'  + '_' + str(args.lr) + "_" + str(args.train_type) + "-layer-num-" + str(args.num_layer) + "-hidden-" + str(args.hidden_dim) + "-num_head-" + str(args.num_head) + "dw-" + str(args.dw)
         # "-hidden" + str(args.hidden_dim) + "-head" + str(args.num_head)
     save_model_name = args.model_name + '_' + args.loss_type + \
         '_' + str(args.dw) + '_' + str(args.lr) + '.pkl'
