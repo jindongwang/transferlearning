@@ -68,7 +68,6 @@ def train_epoch(args, model, optimizer, src_train_loader,  trg_train_loader, epo
     if epoch > 0:
         weight_mat = model.update_weight_Boosting(
                     weight_mat, dist_old, dist_mat)
-        a = 1
     return loss, loss_l1, weight_mat, dist_mat
 
 
