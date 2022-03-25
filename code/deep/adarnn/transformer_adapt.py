@@ -264,7 +264,7 @@ def get_args():
     parser.add_argument('--early_stop', type=int, default=40)
     parser.add_argument('--smooth_steps', type=int, default=5)
     parser.add_argument('--batch_size', type=int, default=36)
-    parser.add_argument('--dw', type=float, default=1.0)
+    parser.add_argument('--dw', type=float, default=0.5)
     parser.add_argument('--loss_type', type=str, default='cosine')
     parser.add_argument('--train_type', type=str, default='all')
     parser.add_argument('--station', type=str, default='Tiantan')
@@ -281,7 +281,7 @@ def get_args():
     parser.add_argument('--outdir', default='./outputs')
     parser.add_argument('--overwrite', action='store_true')
     parser.add_argument('--log_file', type=str, default='run.log')
-    parser.add_argument('--gpu_id', type=int, default=1)
+    parser.add_argument('--gpu_id', type=int, default=0)
     parser.add_argument('--len_win', type=int, default=0)
     args = parser.parse_args()
 
