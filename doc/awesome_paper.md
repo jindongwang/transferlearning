@@ -139,6 +139,10 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ## Per-training/Finetuning
 
+- ICLR-22 [Fine-Tuning can Distort Pretrained Features and Underperform Out-of-Distribution](https://openreview.net/forum?id=UYneFzXSJWh)
+  - Fin-tuning and linear probing for ood generalization
+  - 先linear probing最后一层再finetune对OOD任务最好
+
 - [A Broad Study of Pre-training for Domain Generalization and Adaptation](https://arxiv.org/abs/2203.11819)
   - A broad study of pre-training models for DA and DG
   - 大量的实验进行DA和DG
@@ -1427,6 +1431,14 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 - - -
 
 ## Domain generalization
+
+- ICLR-22 [Fine-Tuning can Distort Pretrained Features and Underperform Out-of-Distribution](https://openreview.net/forum?id=UYneFzXSJWh)
+  - Fin-tuning and linear probing for ood generalization
+  - 先linear probing最后一层再finetune对OOD任务最好
+
+- ICLR-22 [Asymmetry Learning for Counterfactually-invariant Classification in OOD Tasks](https://openreview.net/forum?id=avgclFZ221l)
+  - Asymmetry learning for OOD tasks
+  - 非对称学习用于OOD任务
 
 - [Improving Generalization in Federated Learning by Seeking Flat Minima](https://arxiv.org/abs/2203.11834)
   - Seeking flat minima for domain generalization in federated learning

@@ -55,100 +55,17 @@ Related repos：[[TorchSSL: a unified library for semi-supervised learning](http
 **Latest papers**: 
 
 - By topic: [doc/awesome_papers.md](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md)
-- By date: [[2022-02](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#2022-02)] [[2022-01](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#2022-01)] [[2021-12](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#2021-12)] [[2021-11](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#2021-11)] [[2021-10](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#2021-10)] [[2021-09](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#2021-09)] [[2021-08](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#2021-08)] [[2021-07](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#2021-07)]
+- By date: [[2022-03](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#2022-03)] [[2022-02](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#2022-02)] [[2022-01](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#2022-01)] [[2021-12](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#2021-12)] [[2021-11](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#2021-11)] [[2021-10](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#2021-10)] [[2021-09](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#2021-09)] [[2021-08](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#2021-08)] [[2021-07](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#2021-07)]
 
+*Updated at 2022-04-01:*
 
-*Updated at 2022-03-23:*
+- ICLR-22 [Fine-Tuning can Distort Pretrained Features and Underperform Out-of-Distribution](https://openreview.net/forum?id=UYneFzXSJWh)
+  - Fin-tuning and linear probing for ood generalization
+  - 先linear probing最后一层再finetune对OOD任务最好
 
-- [Gated Domain-Invariant Feature Disentanglement for Domain Generalizable Object Detection](https://arxiv.org/abs/2203.11432)
-  - Channel masking for domain generalization object detection
-  - 通过一个gate控制channel masking进行object detection DG
-
-- [A Broad Study of Pre-training for Domain Generalization and Adaptation](https://arxiv.org/abs/2203.11819)
-  - A broad study of pre-training models for DA and DG
-  - 大量的实验进行DA和DG
-
-- ISPASS-22 [Benchmarking Test-Time Unsupervised Deep Neural Network Adaptation on Edge Devices](https://arxiv.org/abs/2203.11295)
-  - Benchmarking test-time adaptation for edge devices
-  - 在端设备上评测test-time adaptation算法
-
-- [Multi-Source Domain Adaptation Based on Federated Knowledge Alignment](https://arxiv.org/abs/2203.11635)
-  - Multi-source domain adaptation
-  - 多源域自适应
-
-- [Improving Generalization in Federated Learning by Seeking Flat Minima](https://arxiv.org/abs/2203.11834)
-  - Seeking flat minima for domain generalization in federated learning
-  - 通过寻找平坦值进行联邦学习领域泛化
-  
-
-*Updated at 2022-03-18:*
-
-- CVPR-22 [Decoupled Knowledge Distillation](https://arxiv.org/abs/2203.08679)
-  - Decoupled knowledge distillation
-  - 解耦的知识蒸馏
-
-- [SemiPFL: Personalized Semi-Supervised Federated Learning Framework for Edge Intelligence](https://arxiv.org/abs/2203.08176)
-  - Personalized federated learning
-  - 个性化联邦学习
-
-*Updated at 2022-03-14:*
-
-- ICSE-22 [ReMoS: Reducing Defect Inheritance in Transfer Learning via Relevant Model Slicing](https://link.zhihu.com/?target=https%3A//jd92.wang/assets/files/icse22-remos.pdf) | [Code](https://github.com/ziqi-zhang/ReMoS_artifact) | [Blog](https://zhuanlan.zhihu.com/p/446453487) | [Video](https://www.bilibili.com/video/BV1mi4y1C7bP)
-  - Safe transfer learning by reducing defect inheritance
-  - 安全迁移学习的最新工作
-
-*Updated at 2022-03-08:*
-
-- ACL-22 [Language-Agnostic Meta-Learning for Low-Resource Text-to-Speech with Articulatory Features](https://arxiv.org/abs/2203.03191)
-  - Language-agnostic meta-learning for TTS
-  - 语言无关的元学习用于TTS
-
-- [Input-Tuning: Adapting Unfamiliar Inputs to Frozen Pretrained Models](https://arxiv.org/abs/2203.03131)
-  - Adapt unfamiliar inputs to frozen pretrained models
-  - 让固定的预训练模型适配不熟悉的输入
-
-- [One Model, Multiple Tasks: Pathways for Natural Language Understanding](https://arxiv.org/abs/2203.03312)
-  - Pathways for natural language understanding
-  - 使用一个model用于所有NLP任务
-
-- [Pre-trained Token-replaced Detection Model as Few-shot Learner](https://arxiv.org/abs/2203.03235)
-  - Pre-trained token-replaced detection model as few-shot learner
-  - 预训练的替换token的检测模型
-
-- [Open Set Domain Adaptation By Novel Class Discovery](https://arxiv.org/abs/2203.03329)
-  - Open set DA by novel class discovery
-  - 基于新类发现的open set da
-
-- ICML-21 workshop [Domain Adaptation with Factorizable Joint Shift](https://arxiv.org/abs/2203.02902)
-  - Domain adaptation with factorizable joint shift
-  - 基于可分解的联合漂移的领域自适应
-
-- ICC-22 [Knowledge Transfer in Deep Reinforcement Learning for Slice-Aware Mobility Robustness Optimization](https://arxiv.org/abs/2203.03227)
-  - Knowledge transfer in RL
-  - 强化迁移学习
-
-
-*Updated at 2022-03-02:*
-
-- ACL-22 [Investigating Selective Prediction Approaches Across Several Tasks in IID, OOD, and Adversarial Settings](https://arxiv.org/abs/2203.00211)
-  - Investigate selective prediction approaches in IID, OOD, and ADV settings
-  - 在独立同分布、分布外、对抗情境中调研选择性预测方法
-
-- PAKDD-22 [Layer Adaptive Deep Neural Networks for Out-of-distribution Detection](https://arxiv.org/abs/2203.00192)
-  - Layer adaptive network for OOD detection
-  - 层自适应的网络进行OOD检测
-
-- [Learning Semantic Segmentation from Multiple Datasets with Label Shifts](https://arxiv.org/abs/2202.14030)
-  - Learning semantic segmentation from many datasets with label shifts
-  - 在有标签漂移的情况下从多个数据集中学习语义分割
-
-- [Causal Domain Adaptation with Copula Entropy based Conditional Independence Test](https://arxiv.org/abs/2202.13482)
-  - Use copula entropy based conditional independence test for csusal domain adaptation
-  - 使用基于copula entopy的条件独立测试进行causal domain adaptation
-
-- [Interpretable Concept-based Prototypical Networks for Few-Shot Learning](https://arxiv.org/abs/2202.13474)
-  - Concept-based prototypical network for few-shot learning
-  - 基于概念的原型网络用于小样本学习
+- ICLR-22 [Asymmetry Learning for Counterfactually-invariant Classification in OOD Tasks](https://openreview.net/forum?id=avgclFZ221l)
+  - Asymmetry learning for OOD tasks
+  - 非对称学习用于OOD任务
 
 - - -
 
