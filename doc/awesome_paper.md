@@ -139,6 +139,22 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ## Per-training/Finetuning
 
+- NAACL-22 [GRAM: Fast Fine-tuning of Pre-trained Language Models for Content-based Collaborative Filtering](https://arxiv.org/abs/2204.04179)
+  - Fast fine-tuning for content-based collaborative filtering
+  - 快速的适用于协同过滤的微调
+
+- AAAI-22 [Powering Finetuning in Few-shot Learning: Domain-Agnostic Feature Adaptation with Rectified Class Prototypes](https://arxiv.org/abs/2204.03749)
+  - Finetuning in few-shot learning
+  - 小样本学习中的微调
+
+- CVPR-22 [Does Robustness on ImageNet Transfer to Downstream Tasks?](https://arxiv.org/abs/2204.03934)
+  - Transfer learning robustness
+  - 迁移学习鲁棒性
+
+- [Blockchain as an Enabler for Transfer Learning in Smart Environments](https://arxiv.org/abs/2204.03959)
+  - Blockchain transfer learning
+  - 用区块链进行迁移学习
+
 - ICLR-22 [Fine-Tuning can Distort Pretrained Features and Underperform Out-of-Distribution](https://openreview.net/forum?id=UYneFzXSJWh)
   - Fin-tuning and linear probing for ood generalization
   - 先linear probing最后一层再finetune对OOD任务最好

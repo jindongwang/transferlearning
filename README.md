@@ -57,6 +57,24 @@ Related repos：[[TorchSSL: a unified library for semi-supervised learning](http
 - By topic: [doc/awesome_papers.md](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md)
 - By date: [[2022-03](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#2022-03)] [[2022-02](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#2022-02)] [[2022-01](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#2022-01)] [[2021-12](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#2021-12)] [[2021-11](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#2021-11)] [[2021-10](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#2021-10)] [[2021-09](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#2021-09)] [[2021-08](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#2021-08)] [[2021-07](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#2021-07)]
 
+*Updated at 2022-04-11:*
+
+- NAACL-22 [GRAM: Fast Fine-tuning of Pre-trained Language Models for Content-based Collaborative Filtering](https://arxiv.org/abs/2204.04179)
+  - Fast fine-tuning for content-based collaborative filtering
+  - 快速的适用于协同过滤的微调
+
+- AAAI-22 [Powering Finetuning in Few-shot Learning: Domain-Agnostic Feature Adaptation with Rectified Class Prototypes](https://arxiv.org/abs/2204.03749)
+  - Finetuning in few-shot learning
+  - 小样本学习中的微调
+
+- CVPR-22 [Does Robustness on ImageNet Transfer to Downstream Tasks?](https://arxiv.org/abs/2204.03934)
+  - Transfer learning robustness
+  - 迁移学习鲁棒性
+
+- [Blockchain as an Enabler for Transfer Learning in Smart Environments](https://arxiv.org/abs/2204.03959)
+  - Blockchain transfer learning
+  - 用区块链进行迁移学习
+
 *Updated at 2022-04-01:*
 
 - ICLR-22 [Fine-Tuning can Distort Pretrained Features and Underperform Out-of-Distribution](https://openreview.net/forum?id=UYneFzXSJWh)

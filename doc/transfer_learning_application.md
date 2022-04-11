@@ -472,6 +472,10 @@ By reverse chronological order.
 
 ## Natural language processing
 
+- NAACL-22 [GRAM: Fast Fine-tuning of Pre-trained Language Models for Content-based Collaborative Filtering](https://arxiv.org/abs/2204.04179)
+  - Fast fine-tuning for content-based collaborative filtering
+  - 快速的适用于协同过滤的微调
+
 - [One Model, Multiple Tasks: Pathways for Natural Language Understanding](https://arxiv.org/abs/2203.03312)
   - Pathways for natural language understanding
   - 使用一个model用于所有NLP任务
