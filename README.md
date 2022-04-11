@@ -99,6 +99,7 @@ Want to quickly learn transfer learning？想尽快入门迁移学习？看下�
   - [Zhihu blogs - 知乎专栏《小王爱迁移》系列文章](https://zhuanlan.zhihu.com/p/130244395)
 	
 - Video tutorials 视频教程 
+  - [IJCAI-ECAI'22 tutorial on domain generalization - 领域泛化tutorial](https://dgresearch.github.io/)
   - [Recent advance of transfer learning - 2021年最新迁移学习发展现状探讨](https://www.bilibili.com/video/BV1N5411T7Sb)
   - [Definitions of transfer learning area - 迁移学习领域名词解释](https://www.bilibili.com/video/BV1fu411o7BW) [[Article](https://zhuanlan.zhihu.com/p/428097044)]
   - [Domain generalization - 迁移学习新兴研究方向领域泛化](https://www.bilibili.com/video/BV1ro4y1S7dd/)
