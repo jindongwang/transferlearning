@@ -57,6 +57,17 @@ Related repos：[[TorchSSL: a unified library for semi-supervised learning](http
 - By topic: [doc/awesome_papers.md](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md)
 - By date: [[2022-03](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-03)] [[2022-02](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-02)] [[2022-01](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-01)] [[2021-12](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-12)] [[2021-11](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-11)] [[2021-10](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-10)] [[2021-09](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-09)] [[2021-08](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-08)] [[2021-07](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-07)]
 
+*Updated at 2022-04-13:*
+
+- [Undoing the Damage of Label Shift for Cross-domain Semantic Segmentation](https://arxiv.org/abs/2204.05546)
+  - Handle the label shift in cross-domain semantic segmentation  在跨域语义分割时考虑label shift
+
+- CVPR-22 workshop [Out-Of-Distribution Detection In Unsupervised Continual Learning](https://arxiv.org/abs/2204.05462)
+  - OOD detection in unsupervised continual learning 无监督持续学习中进行OOD检测
+
+- [Transfer Learning for Autonomous Chatter Detection in Machining](https://arxiv.org/abs/2204.05400)
+  - Transfer learning for autonomous chatter detection
+
 *Updated at 2022-04-11:*
 
 - NAACL-22 [GRAM: Fast Fine-tuning of Pre-trained Language Models for Content-based Collaborative Filtering](https://arxiv.org/abs/2204.04179)

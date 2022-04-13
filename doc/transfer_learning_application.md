@@ -18,6 +18,9 @@ By reverse chronological order.
 
 ## Computer vision
 
+- [Undoing the Damage of Label Shift for Cross-domain Semantic Segmentation](https://arxiv.org/abs/2204.05546)
+  - Handle the label shift in cross-domain semantic segmentation  在跨域语义分割时考虑label shift
+
 - [Gated Domain-Invariant Feature Disentanglement for Domain Generalizable Object Detection](https://arxiv.org/abs/2203.11432)
   - Channel masking for domain generalization object detection
   - 通过一个gate控制channel masking进行object detection DG
@@ -921,6 +924,9 @@ By reverse chronological order.
     - 迁移学习用于自动驾驶车辆的策略迁移
 
 ## Others
+
+- [Transfer Learning for Autonomous Chatter Detection in Machining](https://arxiv.org/abs/2204.05400)
+  - Transfer learning for autonomous chatter detection
 
 - ISPASS-22 [Benchmarking Test-Time Unsupervised Deep Neural Network Adaptation on Edge Devices](https://arxiv.org/abs/2203.11295)
   - Benchmarking test-time adaptation for edge devices

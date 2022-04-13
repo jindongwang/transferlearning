@@ -1448,6 +1448,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ## Domain generalization
 
+- [Out-Of-Distribution Detection In Unsupervised Continual Learning](https://arxiv.org/abs/2204.05462)
+  - OOD detection in unsupervised continual learning 无监督持续学习中进行OOD检测
+
 - ICLR-22 [Fine-Tuning can Distort Pretrained Features and Underperform Out-of-Distribution](https://openreview.net/forum?id=UYneFzXSJWh)
   - Fin-tuning and linear probing for ood generalization
   - 先linear probing最后一层再finetune对OOD任务最好
