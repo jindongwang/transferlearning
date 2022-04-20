@@ -139,6 +139,12 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ## Per-training/Finetuning
 
+- [Just Fine-tune Twice: Selective Differential Privacy for Large Language Models](https://arxiv.org/abs/2204.07667)
+  - Differential privacy by just fine-tune twice 通过微调两次进行差分隐私
+
+- [On Effectively Learning of Knowledge in Continual Pre-training](https://arxiv.org/abs/2204.07994)
+  - Continual per-training 持续的预训练
+
 - NAACL-22 [GRAM: Fast Fine-tuning of Pre-trained Language Models for Content-based Collaborative Filtering](https://arxiv.org/abs/2204.04179)
   - Fast fine-tuning for content-based collaborative filtering
   - 快速的适用于协同过滤的微调
@@ -542,6 +548,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 	- 发表在IEEE Trans. Knowledge and Data Engineering期刊上
 
 ## Deep domain adaptation
+
+- CVPR-22 [Safe Self-Refinement for Transformer-based Domain Adaptation](https://arxiv.org/abs/2204.07683)
+  - Transformer-based domain adaptation 基于transformer的domain adaptation
 
 - ISPASS-22 [Benchmarking Test-Time Unsupervised Deep Neural Network Adaptation on Edge Devices](https://arxiv.org/abs/2203.11295)
   - Benchmarking test-time adaptation for edge devices
