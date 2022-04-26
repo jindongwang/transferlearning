@@ -30,6 +30,8 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ## Survey
 
+- IEEE TNNLS-22 [Towards Personalized Federated Learning](http://arxiv.org/abs/2103.00710)
+  - A survey on personalized federated learning 一个关于个性化联邦学习的综述
 - 2022 [Transfer Learning for Future Wireless Networks: A Comprehensive Survey](https://arxiv.org/abs/2102.07572)
 - 2022 [A Review of Deep Transfer Learning and Recent Advancements](https://arxiv.org/abs/2201.09679)
 
@@ -138,6 +140,12 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 	- 对迁移学习中无监督的WGAN进行了一些理论上的分析
 
 ## Per-training/Finetuning
+
+- ICLR-22 [Towards a Unified View of Parameter-Efficient Transfer Learning](https://openreview.net/forum?id=0RDcd5Axok)
+  - Unified view of parameter-efficient transfer learning 一个统一视角看待参数高效的迁移学习
+
+- ICLR-22 [Exploring the Limits of Large Scale Pre-training](https://openreview.net/forum?id=V3C8p78sDa)
+  - Many experiments to explore pre-training  许多实验来探索预训练
 
 - [Just Fine-tune Twice: Selective Differential Privacy for Large Language Models](https://arxiv.org/abs/2204.07667)
   - Differential privacy by just fine-tune twice 通过微调两次进行差分隐私
@@ -2084,6 +2092,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 - - -
 
 ## Federated transfer learning
+
+- IEEE TNNLS-22 [Towards Personalized Federated Learning](http://arxiv.org/abs/2103.00710)
+  - A survey on personalized federated learning 一个关于个性化联邦学习的综述
 
 - [Improving Generalization in Federated Learning by Seeking Flat Minima](https://arxiv.org/abs/2203.11834)
   - Seeking flat minima for domain generalization in federated learning
