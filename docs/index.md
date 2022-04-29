@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="https://github.com/jindongwang/transferlearning"><img src="https://raw.githubusercontent.com/jindongwang/transferlearning/master/png/logo.jpg" alt="Transfer Leanring" width="500"></a>
+  <a href="https://github.com/jindongwang/transferlearning"><img src="https://s1.ax1x.com/2022/04/29/LvNzM8.jpg" alt="Transfer Leanring" width="500"></a>
 </h1>
 
 

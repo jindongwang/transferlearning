@@ -18,6 +18,9 @@ By reverse chronological order.
 
 ## Computer vision
 
+- CVPR-22 [MM-TTA: Multi-Modal Test-Time Adaptation for 3D Semantic Segmentation](https://arxiv.org/abs/2204.12667)
+  - Multi-modal test-time adaptation for 3D semantic segmentation 多模态测试时adaptation用于3D语义分割
+
 - [Undoing the Damage of Label Shift for Cross-domain Semantic Segmentation](https://arxiv.org/abs/2204.05546)
   - Handle the label shift in cross-domain semantic segmentation  在跨域语义分割时考虑label shift
 
@@ -266,6 +269,9 @@ By reverse chronological order.
 
 
 ## Medical and healthcare
+
+- [Parkinson's disease diagnostics using AI and natural language knowledge transfer](https://arxiv.org/abs/2204.12559)
+  - Transfer learning for Parkinson's disease diagnostics 迁移学习用于帕金森诊断
 
 - [Federated Learning with Adaptive Batchnorm for Personalized Healthcare](https://arxiv.org/abs/2112.00734)
     - Federated learning with adaptive batchnorm

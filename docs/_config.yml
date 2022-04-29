@@ -1,1 +1,5 @@
-theme: jekyll-theme-cayman
+remote_theme: just-the-docs/just-the-docs
+title: Transfer Learning
+# description: Dates to be announced.
+search_enabled: false
+heading_anchors: true

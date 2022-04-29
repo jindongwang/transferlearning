@@ -141,6 +141,12 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ## Per-training/Finetuning
 
+- ACL-22 [Probing Simile Knowledge from Pre-trained Language Models](https://arxiv.org/abs/2204.12807)
+  - Probe simile knowledge from pre-trained model 从预训练模型中找出明喻知识
+
+- [Transfer Learning with Pre-trained Conditional Generative Models](https://arxiv.org/abs/2204.12833)
+  - Transfer learning with pre-trained conditional generative models 条件生成模型用于迁移学习
+
 - ICLR-22 [Towards a Unified View of Parameter-Efficient Transfer Learning](https://openreview.net/forum?id=0RDcd5Axok)
   - Unified view of parameter-efficient transfer learning 一个统一视角看待参数高效的迁移学习
 
