@@ -7,9 +7,11 @@
 
 <h4 align="center">Everything about Transfer Learning.</h4>
 
-<span class="fs-4" align="center">
+<p align="center">
+<span class="fs-4">
 [View on Github](https://github.com/jindongwang/transferlearning){: .btn }
 </span>
+</p>
 
 <p align="center">
   <strong><a href="https://github.com/jindongwang/transferlearning#0papers-论文">Papers</a></strong> •
