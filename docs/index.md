@@ -7,7 +7,7 @@
 
 <h4 align="center">Everything about Transfer Learning.</h4>
 
-<span class="fs-6">
+<span class="fs-4" align="center">
 [View on Github](https://github.com/jindongwang/transferlearning){: .btn }
 </span>
 
