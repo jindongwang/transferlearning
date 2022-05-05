@@ -8,9 +8,7 @@
 <h4 align="center">Everything about Transfer Learning.</h4>
 
 <p align="center">
-<span class="fs-4">
-[View on Github](https://github.com/jindongwang/transferlearning){: .btn }
-</span>
+[View on Github](https://github.com/jindongwang/transferlearning)
 </p>
 
 <p align="center">
