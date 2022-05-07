@@ -5,10 +5,10 @@
 
 
 
-<h4 align="center">Everything about Transfer Learning.</h4>
+<h4 align="center">Everything about Transfer Learning. 有关迁移学习的一切资料.</h4>
 
 <p align="center">
-[View on Github](https://github.com/jindongwang/transferlearning)
+<a href="https://github.com/jindongwang/transferlearning">View on Github</a>
 </p>
 
 <p align="center">
