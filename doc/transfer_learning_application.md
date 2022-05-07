@@ -18,6 +18,9 @@ By reverse chronological order.
 
 ## Computer vision
 
+- ICME-22 [Unsupervised Domain Adaptation Learning for Hierarchical Infant Pose Recognition with Synthetic Data](https://arxiv.org/abs/2205.01892)
+  - Unsupervised domain adaptation for infant pose recognition 用领域自适应进行婴儿姿势识别
+
 - CVPR-22 [MM-TTA: Multi-Modal Test-Time Adaptation for 3D Semantic Segmentation](https://arxiv.org/abs/2204.12667)
   - Multi-modal test-time adaptation for 3D semantic segmentation 多模态测试时adaptation用于3D语义分割
 
@@ -480,6 +483,9 @@ By reverse chronological order.
 
 
 ## Natural language processing
+
+- NAACL-22 [Efficient Few-Shot Fine-Tuning for Opinion Summarization](https://arxiv.org/abs/2205.02170)
+  - Few-shot fine-tuning for opinion summarization 小样本微调技术用于评论总结
 
 - NAACL-22 [GRAM: Fast Fine-tuning of Pre-trained Language Models for Content-based Collaborative Filtering](https://arxiv.org/abs/2204.04179)
   - Fast fine-tuning for content-based collaborative filtering

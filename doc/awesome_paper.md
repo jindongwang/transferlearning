@@ -141,6 +141,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ## Per-training/Finetuning
 
+- NAACL-22 [Efficient Few-Shot Fine-Tuning for Opinion Summarization](https://arxiv.org/abs/2205.02170)
+  - Few-shot fine-tuning for opinion summarization 小样本微调技术用于评论总结
+
 - ACL-22 [Probing Simile Knowledge from Pre-trained Language Models](https://arxiv.org/abs/2204.12807)
   - Probe simile knowledge from pre-trained model 从预训练模型中找出明喻知识
 
@@ -374,6 +377,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 	- [我的解读](https://zhuanlan.zhihu.com/p/30621691)
 
 ## Knowledge distillation
+
+- TIP-22 [Spot-adaptive Knowledge Distillation](https://arxiv.org/abs/2205.02399)
+  - Spot-adaptive knowledge distillation 层次自适应的知识蒸馏
 
 - CVPR-22 [Decoupled Knowledge Distillation](https://arxiv.org/abs/2203.08679)
   - Decoupled knowledge distillation

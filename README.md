@@ -55,83 +55,18 @@ Related repos：[[TorchSSL: a unified library for semi-supervised learning](http
 **Latest papers**: 
 
 - By topic: [doc/awesome_papers.md](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md)
-- By date: [[2022-03](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-03)] [[2022-02](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-02)] [[2022-01](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-01)] [[2021-12](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-12)] [[2021-11](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-11)] [[2021-10](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-10)] [[2021-09](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-09)] [[2021-08](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-08)] [[2021-07](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-07)]
+- By date: [[2022-04](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-04)] [[2022-03](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-03)] [[2022-02](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-02)] [[2022-01](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-01)] [[2021-12](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-12)] [[2021-11](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-11)] [[2021-10](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-10)] [[2021-09](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-09)] [[2021-08](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-08)] [[2021-07](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-07)]
 
-*Updated at 2022-04-29:*
+*Updated at 2022-05-07:*
 
-- ACL-22 [Probing Simile Knowledge from Pre-trained Language Models](https://arxiv.org/abs/2204.12807)
-  - Probe simile knowledge from pre-trained model 从预训练模型中找出明喻知识
+- TIP-22 [Spot-adaptive Knowledge Distillation](https://arxiv.org/abs/2205.02399)
+  - Spot-adaptive knowledge distillation 层次自适应的知识蒸馏
 
-- [Parkinson's disease diagnostics using AI and natural language knowledge transfer](https://arxiv.org/abs/2204.12559)
-  - Transfer learning for Parkinson's disease diagnostics 迁移学习用于帕金森诊断
+- NAACL-22 [Efficient Few-Shot Fine-Tuning for Opinion Summarization](https://arxiv.org/abs/2205.02170)
+  - Few-shot fine-tuning for opinion summarization 小样本微调技术用于评论总结
 
-- CVPR-22 [MM-TTA: Multi-Modal Test-Time Adaptation for 3D Semantic Segmentation](https://arxiv.org/abs/2204.12667)
-  - Multi-modal test-time adaptation for 3D semantic segmentation 多模态测试时adaptation用于3D语义分割
-
-- [Transfer Learning with Pre-trained Conditional Generative Models](https://arxiv.org/abs/2204.12833)
-  - Transfer learning with pre-trained conditional generative models 条件生成模型用于迁移学习
-
-*Updated at 2022-04-26:*
-
-- ICLR-22 [Towards a Unified View of Parameter-Efficient Transfer Learning](https://openreview.net/forum?id=0RDcd5Axok)
-  - Unified view of parameter-efficient transfer learning 一个统一视角看待参数高效的迁移学习
-
-- ICLR-22 [Exploring the Limits of Large Scale Pre-training](https://openreview.net/forum?id=V3C8p78sDa)
-  - Many experiments to explore pre-training  许多实验来探索预训练
-
-- IEEE TNNLS-22 [Towards Personalized Federated Learning](http://arxiv.org/abs/2103.00710)
-  - A survey on personalized federated learning 一个关于个性化联邦学习的综述
-
-*Updated at 2022-04-20:*
-
-- [On Effectively Learning of Knowledge in Continual Pre-training](https://arxiv.org/abs/2204.07994)
-  - Continual per-training 持续的预训练
-
-- [Just Fine-tune Twice: Selective Differential Privacy for Large Language Models](https://arxiv.org/abs/2204.07667)
-  - Differential privacy by just fine-tune twice 通过微调两次进行差分隐私
-
-- CVPR-22 [Safe Self-Refinement for Transformer-based Domain Adaptation](https://arxiv.org/abs/2204.07683)
-  - Transformer-based domain adaptation 基于transformer的domain adaptation
-
-
-*Updated at 2022-04-13:*
-
-- [Undoing the Damage of Label Shift for Cross-domain Semantic Segmentation](https://arxiv.org/abs/2204.05546)
-  - Handle the label shift in cross-domain semantic segmentation  在跨域语义分割时考虑label shift
-
-- CVPR-22 workshop [Out-Of-Distribution Detection In Unsupervised Continual Learning](https://arxiv.org/abs/2204.05462)
-  - OOD detection in unsupervised continual learning 无监督持续学习中进行OOD检测
-
-- [Transfer Learning for Autonomous Chatter Detection in Machining](https://arxiv.org/abs/2204.05400)
-  - Transfer learning for autonomous chatter detection
-
-*Updated at 2022-04-11:*
-
-- NAACL-22 [GRAM: Fast Fine-tuning of Pre-trained Language Models for Content-based Collaborative Filtering](https://arxiv.org/abs/2204.04179)
-  - Fast fine-tuning for content-based collaborative filtering
-  - 快速的适用于协同过滤的微调
-
-- AAAI-22 [Powering Finetuning in Few-shot Learning: Domain-Agnostic Feature Adaptation with Rectified Class Prototypes](https://arxiv.org/abs/2204.03749)
-  - Finetuning in few-shot learning
-  - 小样本学习中的微调
-
-- CVPR-22 [Does Robustness on ImageNet Transfer to Downstream Tasks?](https://arxiv.org/abs/2204.03934)
-  - Transfer learning robustness
-  - 迁移学习鲁棒性
-
-- [Blockchain as an Enabler for Transfer Learning in Smart Environments](https://arxiv.org/abs/2204.03959)
-  - Blockchain transfer learning
-  - 用区块链进行迁移学习
-
-*Updated at 2022-04-01:*
-
-- ICLR-22 [Fine-Tuning can Distort Pretrained Features and Underperform Out-of-Distribution](https://openreview.net/forum?id=UYneFzXSJWh)
-  - Fin-tuning and linear probing for ood generalization
-  - 先linear probing最后一层再finetune对OOD任务最好
-
-- ICLR-22 [Asymmetry Learning for Counterfactually-invariant Classification in OOD Tasks](https://openreview.net/forum?id=avgclFZ221l)
-  - Asymmetry learning for OOD tasks
-  - 非对称学习用于OOD任务
+- ICME-22 [Unsupervised Domain Adaptation Learning for Hierarchical Infant Pose Recognition with Synthetic Data](https://arxiv.org/abs/2205.01892)
+  - Unsupervised domain adaptation for infant pose recognition 用领域自适应进行婴儿姿势识别
 
 - - -
 
