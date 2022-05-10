@@ -484,6 +484,9 @@ By reverse chronological order.
 
 ## Natural language processing
 
+- ICLR-22 [Enhancing Cross-lingual Transfer by Manifold Mixup](https://arxiv.org/abs/2205.04182)
+  - Cross-lingual transfer using manifold mixup 用Mixup进行cross-lingual transfer
+
 - NAACL-22 [Efficient Few-Shot Fine-Tuning for Opinion Summarization](https://arxiv.org/abs/2205.02170)
   - Few-shot fine-tuning for opinion summarization 小样本微调技术用于评论总结
 
@@ -708,6 +711,9 @@ By reverse chronological order.
     - Optimal transport domain adaptation
 
 ## Time series
+
+- [Time-Series Domain Adaptation via Sparse Associative Structure Alignment: Learning Invariance and Variance](https://arxiv.org/abs/2205.03554)
+  - Time series domain adaptation 时间序列domain adaptation
 
 - [Domain Adversarial Spatial-Temporal Network: A Transferable Framework for Short-term Traffic Forecasting across Cities](https://arxiv.org/abs/2202.03630)
   - Transfer learning for traffic forecasting across cities

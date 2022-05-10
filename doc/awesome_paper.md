@@ -1748,6 +1748,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ## Online transfer learning
 
+- CVPR-22 workshop [Online Unsupervised Domain Adaptation for Person Re-identification](https://arxiv.org/abs/2205.04383)
+  - Online domain adaptation for REID 在线adaptation
+
 - [Mixture of basis for interpretable continual learning with distribution shifts](https://arxiv.org/abs/2201.01853)
   - Incremental learning with mixture of basis
   - 用mixture of domains进行增量学习

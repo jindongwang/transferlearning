@@ -57,6 +57,17 @@ Related repos：[[TorchSSL: a unified library for semi-supervised learning](http
 - By topic: [doc/awesome_papers.md](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md)
 - By date: [[2022-04](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-04)] [[2022-03](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-03)] [[2022-02](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-02)] [[2022-01](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-01)] [[2021-12](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-12)] [[2021-11](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-11)] [[2021-10](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-10)] [[2021-09](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-09)] [[2021-08](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-08)] [[2021-07](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-07)]
 
+*Updated at 2022-05-10:*
+
+- ICLR-22 [Enhancing Cross-lingual Transfer by Manifold Mixup](https://arxiv.org/abs/2205.04182)
+  - Cross-lingual transfer using manifold mixup 用Mixup进行cross-lingual transfer
+
+- CVPR-22 workshop [Online Unsupervised Domain Adaptation for Person Re-identification](https://arxiv.org/abs/2205.04383)
+  - Online domain adaptation for REID 在线adaptation
+
+- [Time-Series Domain Adaptation via Sparse Associative Structure Alignment: Learning Invariance and Variance](https://arxiv.org/abs/2205.03554)
+  - Time series domain adaptation 时间序列domain adaptation
+
 *Updated at 2022-05-07:*
 
 - TIP-22 [Spot-adaptive Knowledge Distillation](https://arxiv.org/abs/2205.02399)
