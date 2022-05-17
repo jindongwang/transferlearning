@@ -57,6 +57,17 @@ Related repos：[[TorchSSL: a unified library for semi-supervised learning](http
 - By topic: [doc/awesome_papers.md](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md)
 - By date: [[2022-04](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-04)] [[2022-03](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-03)] [[2022-02](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-02)] [[2022-01](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-01)] [[2021-12](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-12)] [[2021-11](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-11)] [[2021-10](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-10)] [[2021-09](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-09)] [[2021-08](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-08)] [[2021-07](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-07)]
 
+*Updated at 2022-05-17:*
+
+- [FreeMatch: Self-adaptive Thresholding for Semi-supervised Learning](https://arxiv.org/abs/2205.07246)
+  - Self-adaptive thresholding for semi-supervised learning 新的自适应阈值半监督方法
+
+- IJCAI-21 [Test-time Fourier Style Calibration for Domain Generalization](https://arxiv.org/abs/2205.06427)
+  - Test-time calibration for domain generalization 用傅立叶变化进行域泛化的测试时矫正
+
+- [Multiple Domain Causal Networks](https://arxiv.org/abs/2205.06791)
+  - Mlutiple domain causal networks 多领域的因果网络
+
 *Updated at 2022-05-10:*
 
 - ICLR-22 [Enhancing Cross-lingual Transfer by Manifold Mixup](https://arxiv.org/abs/2205.04182)
