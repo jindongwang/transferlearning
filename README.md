@@ -62,7 +62,7 @@ Related repos：[[TorchSSL: a unified library for semi-supervised learning](http
 - [FreeMatch: Self-adaptive Thresholding for Semi-supervised Learning](https://arxiv.org/abs/2205.07246)
   - Self-adaptive thresholding for semi-supervised learning 新的自适应阈值半监督方法
 
-- IJCAI-21 [Test-time Fourier Style Calibration for Domain Generalization](https://arxiv.org/abs/2205.06427)
+- IJCAI-22 [Test-time Fourier Style Calibration for Domain Generalization](https://arxiv.org/abs/2205.06427)
   - Test-time calibration for domain generalization 用傅立叶变化进行域泛化的测试时矫正
 
 - [Multiple Domain Causal Networks](https://arxiv.org/abs/2205.06791)
