@@ -57,6 +57,30 @@ Related repos：[[TorchSSL: a unified library for semi-supervised learning](http
 - By topic: [doc/awesome_papers.md](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md)
 - By date: [[2022-04](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-04)] [[2022-03](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-03)] [[2022-02](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-02)] [[2022-01](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-01)] [[2021-12](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-12)] [[2021-11](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-11)] [[2021-10](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-10)] [[2021-09](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-09)] [[2021-08](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-08)] [[2021-07](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-07)]
 
+*Updated at 2022-05-24:*
+
+- IJCAI-22 [Parameter-Efficient Sparsity for Large Language Models Fine-Tuning](https://arxiv.org/abs/2205.11005)
+  - Parameter-efficient sparsity for language model fine-tuning 参数高效的稀疏学习用于语言模型微调
+
+- [A Domain-adaptive Pre-training Approach for Language Bias Detection in News](https://arxiv.org/abs/2205.10773)
+  - Domain-adaptive pre-training for language bias detection 领域适配预训练用于新闻语言偏见检测
+
+- [ScholarBERT: Bigger is Not Always Better](https://arxiv.org/abs/2205.11342)
+  - Empirical study on fine-tuning experiments 提出ScholarBERT进行大规模finetuning实验
+
+- ICPR-22 [OTAdapt: Optimal Transport-based Approach For Unsupervised Domain Adaptation](https://arxiv.org/abs/2205.10738)
+  - Optimal transport-based domain adaptation 利用最优传输进行领域自适应
+
+- [Temporal Domain Generalization with Drift-Aware Dynamic Neural Network](https://arxiv.org/abs/2205.10664)
+  - Temporal domain generalization with drift-aware dynamic neural network 时序域泛化
+
+- [Active Source Free Domain Adaptation](https://arxiv.org/abs/2205.10711)
+  - Active source-free DA 主动学习-无源域DA
+
+- [Test-Time Robust Personalization for Federated Learning](https://arxiv.org/abs/2205.10920)
+  - Test-time robust personalization for FL 测试时鲁棒联邦学习
+
+
 *Updated at 2022-05-17:*
 
 - [FreeMatch: Self-adaptive Thresholding for Semi-supervised Learning](https://arxiv.org/abs/2205.07246)

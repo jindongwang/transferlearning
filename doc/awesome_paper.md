@@ -141,6 +141,15 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ## Per-training/Finetuning
 
+- [ScholarBERT: Bigger is Not Always Better](https://arxiv.org/abs/2205.11342)
+  - Empirical study on fine-tuning experiments 提出ScholarBERT进行大规模finetuning实验
+
+- [A Domain-adaptive Pre-training Approach for Language Bias Detection in News](https://arxiv.org/abs/2205.10773)
+  - Domain-adaptive pre-training for language bias detection 领域适配预训练用于新闻语言偏见检测
+
+- IJCAI-22 [Parameter-Efficient Sparsity for Large Language Models Fine-Tuning](https://arxiv.org/abs/2205.11005)
+  - Parameter-efficient sparsity for language model fine-tuning 参数高效的稀疏学习用于语言模型微调
+
 - NAACL-22 [Efficient Few-Shot Fine-Tuning for Opinion Summarization](https://arxiv.org/abs/2205.02170)
   - Few-shot fine-tuning for opinion summarization 小样本微调技术用于评论总结
 
@@ -571,6 +580,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 	- 发表在IEEE Trans. Knowledge and Data Engineering期刊上
 
 ## Deep domain adaptation
+
+- ICPR-22 [OTAdapt: Optimal Transport-based Approach For Unsupervised Domain Adaptation](https://arxiv.org/abs/2205.10738)
+  - Optimal transport-based domain adaptation 利用最优传输进行领域自适应
 
 - CVPR-22 [Safe Self-Refinement for Transformer-based Domain Adaptation](https://arxiv.org/abs/2204.07683)
   - Transformer-based domain adaptation 基于transformer的domain adaptation
@@ -1480,6 +1492,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ## Domain generalization
 
+- [Temporal Domain Generalization with Drift-Aware Dynamic Neural Network](https://arxiv.org/abs/2205.10664)
+  - Temporal domain generalization with drift-aware dynamic neural network 时序域泛化
+
 - [Multiple Domain Causal Networks](https://arxiv.org/abs/2205.06791)
   - Mlutiple domain causal networks 多领域的因果网络
 
@@ -1664,6 +1679,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 - - -
 
 ## Source-free domain adaptation
+
+- [Active Source Free Domain Adaptation](https://arxiv.org/abs/2205.10711)
+  - Active source-free DA 主动学习-无源域DA
 
 - NeurIPS-21 [Model Adaptation: Historical Contrastive Learning for Unsupervised Domain Adaptation without Source Data](http://arxiv.org/abs/2110.03374)
     - Source-free domain adaptation using constrastive learning
@@ -2116,6 +2134,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 - - -
 
 ## Federated transfer learning
+
+- [Test-Time Robust Personalization for Federated Learning](https://arxiv.org/abs/2205.10920)
+  - Test-time robust personalization for FL 测试时鲁棒联邦学习
 
 - IEEE TNNLS-22 [Towards Personalized Federated Learning](http://arxiv.org/abs/2103.00710)
   - A survey on personalized federated learning 一个关于个性化联邦学习的综述
