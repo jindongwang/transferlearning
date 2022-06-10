@@ -943,6 +943,9 @@ By reverse chronological order.
 
 ## Others
 
+- [On Transfer Learning in Functional Linear Regression](https://arxiv.org/abs/2206.04277)
+  - Transfer learning in functional linear regression 迁移学习用于函数式线性回归
+
 - [Transfer Learning for Autonomous Chatter Detection in Machining](https://arxiv.org/abs/2204.05400)
   - Transfer learning for autonomous chatter detection
 
