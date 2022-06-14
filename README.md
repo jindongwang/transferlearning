@@ -57,7 +57,25 @@ Related repos：[[TorchSSL: a unified library for semi-supervised learning](http
 - By topic: [doc/awesome_papers.md](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md)
 - By date: [[2022-05](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-05)] [[2022-04](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-04)] [[2022-03](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-03)] [[2022-02](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-02)] [[2022-01](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-01)] [[2021-12](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-12)] [[2021-11](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-11)] [[2021-10](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-10)] [[2021-09](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-09)] [[2021-08](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-08)] [[2021-07](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-07)]
 
-Recent papers:
+*Updated at 2022-06-14:*
+
+- [Wav2vec-S: Semi-Supervised Pre-Training for Speech Recognition](https://arxiv.org/abs/2110.04484)
+  - Pretraining for speech recognition 用预训练模型进行语音识别
+
+- [Causal Balancing for Domain Generalization](https://arxiv.org/abs/2206.05263)
+  - Causal balancing for domain generalization 因果平衡用于领域泛化
+
+- NAACL-22 [Modularized Transfer Learning with Multiple Knowledge Graphs for Zero-shot Commonsense Reasoning](https://arxiv.org/abs/2206.03715)
+  - Transfer learning for zero-shot reasoning 迁移学习用于零次常识推理
+
+- [ConFUDA: Contrastive Fewshot Unsupervised Domain Adaptation for Medical Image Segmentation](https://arxiv.org/abs/2206.03888)
+  - Fewshot UDA for medical image segmentation 小样本域自适应用于医疗图像分割
+
+- [One Ring to Bring Them All: Towards Open-Set Recognition under Domain Shift](https://arxiv.org/abs/2206.03600)
+  - Open set recognition with domain shift 开放集+domain shift
+
+- [Toward Certified Robustness Against Real-World Distribution Shifts](https://arxiv.org/abs/2206.03669)
+  - Certified robustness against real-world distribution shifts 真实世界中的distribution shift
 
 *Updated at 2022-06-10:*
 

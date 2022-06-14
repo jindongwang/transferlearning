@@ -141,6 +141,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ## Per-training/Finetuning
 
+- [Wav2vec-S: Semi-Supervised Pre-Training for Speech Recognition](https://arxiv.org/abs/2110.04484)
+  - Pretraining for speech recognition 用预训练模型进行语音识别
+
 - [ScholarBERT: Bigger is Not Always Better](https://arxiv.org/abs/2205.11342)
   - Empirical study on fine-tuning experiments 提出ScholarBERT进行大规模finetuning实验
 
@@ -1491,6 +1494,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 - - -
 
 ## Domain generalization
+
+- [Causal Balancing for Domain Generalization](https://arxiv.org/abs/2206.05263)
+  - Causal balancing for domain generalization 因果平衡用于领域泛化
 
 - [Temporal Domain Generalization with Drift-Aware Dynamic Neural Network](https://arxiv.org/abs/2205.10664)
   - Temporal domain generalization with drift-aware dynamic neural network 时序域泛化

@@ -18,6 +18,15 @@ By reverse chronological order.
 
 ## Computer vision
 
+- [Toward Certified Robustness Against Real-World Distribution Shifts](https://arxiv.org/abs/2206.03669)
+  - Certified robustness against real-world distribution shifts 真实世界中的distribution shift
+
+- [One Ring to Bring Them All: Towards Open-Set Recognition under Domain Shift](https://arxiv.org/abs/2206.03600)
+  - Open set recognition with domain shift 开放集+domain shift
+
+- [ConFUDA: Contrastive Fewshot Unsupervised Domain Adaptation for Medical Image Segmentation](https://arxiv.org/abs/2206.03888)
+  - Fewshot UDA for medical image segmentation 小样本域自适应用于医疗图像分割
+
 - ICME-22 [Unsupervised Domain Adaptation Learning for Hierarchical Infant Pose Recognition with Synthetic Data](https://arxiv.org/abs/2205.01892)
   - Unsupervised domain adaptation for infant pose recognition 用领域自适应进行婴儿姿势识别
 
@@ -483,6 +492,9 @@ By reverse chronological order.
 
 
 ## Natural language processing
+
+- NAACL-22 [Modularized Transfer Learning with Multiple Knowledge Graphs for Zero-shot Commonsense Reasoning](https://arxiv.org/abs/2206.03715)
+  - Transfer learning for zero-shot reasoning 迁移学习用于零次常识推理
 
 - ICLR-22 [Enhancing Cross-lingual Transfer by Manifold Mixup](https://arxiv.org/abs/2205.04182)
   - Cross-lingual transfer using manifold mixup 用Mixup进行cross-lingual transfer
