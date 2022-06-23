@@ -18,6 +18,12 @@ By reverse chronological order.
 
 ## Computer vision
 
+- [FiT: Parameter Efficient Few-shot Transfer Learning for Personalized and Federated Image Classification](https://arxiv.org/abs/2206.08671)
+  - Few-shot transfer learning for image classification 小样本迁移学习用于图像分类
+
+- [COVID-19 Detection using Transfer Learning with Convolutional Neural Network](https://arxiv.org/abs/2206.08557)
+  - COVID-19 using transfer learning 用迁移学习进行COVID-19检测
+
 - [Toward Certified Robustness Against Real-World Distribution Shifts](https://arxiv.org/abs/2206.03669)
   - Certified robustness against real-world distribution shifts 真实世界中的distribution shift
 

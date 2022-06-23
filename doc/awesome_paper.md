@@ -141,6 +141,12 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ## Per-training/Finetuning
 
+- [Zero-Shot AutoML with Pretrained Models](https://arxiv.org/abs/2206.08476)
+  - 用预训练模型进行零样本的自动机器学习 
+
+- [How robust are pre-trained models to distribution shift?](https://arxiv.org/abs/2206.08871)
+  - How robust are pre-trained models to distribution shift 评估预训练模型对于distribution shift的鲁棒性
+
 - [Wav2vec-S: Semi-Supervised Pre-Training for Speech Recognition](https://arxiv.org/abs/2110.04484)
   - Pretraining for speech recognition 用预训练模型进行语音识别
 
@@ -583,6 +589,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 	- 发表在IEEE Trans. Knowledge and Data Engineering期刊上
 
 ## Deep domain adaptation
+
+- [Few-Max: Few-Shot Domain Adaptation for Unsupervised Contrastive Representation Learning](https://arxiv.org/abs/2206.10137)
+  - Few-shot DA for unsupervised constrastive learning 小样本DA用于无监督对比学习
 
 - ICPR-22 [OTAdapt: Optimal Transport-based Approach For Unsupervised Domain Adaptation](https://arxiv.org/abs/2205.10738)
   - Optimal transport-based domain adaptation 利用最优传输进行领域自适应
@@ -1495,6 +1504,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ## Domain generalization
 
+- [The Importance of Background Information for Out of Distribution Generalization](https://arxiv.org/abs/2206.08794)
+  - Background information for OOD generalization 背景信息对于OOD泛化的重要性
+
 - [Causal Balancing for Domain Generalization](https://arxiv.org/abs/2206.05263)
   - Causal balancing for domain generalization 因果平衡用于领域泛化
 
@@ -1824,6 +1836,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 - - -
 
 ## Zero-shot / few-shot learning
+
+- [Few-Max: Few-Shot Domain Adaptation for Unsupervised Contrastive Representation Learning](https://arxiv.org/abs/2206.10137)
+  - Few-shot DA for unsupervised constrastive learning 小样本DA用于无监督对比学习
 
 - [Interpretable Concept-based Prototypical Networks for Few-Shot Learning](https://arxiv.org/abs/2202.13474)
   - Concept-based prototypical network for few-shot learning

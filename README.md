@@ -57,6 +57,26 @@ Related repos：[[TorchSSL: a unified library for semi-supervised learning](http
 - By topic: [doc/awesome_papers.md](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md)
 - By date: [[2022-05](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-05)] [[2022-04](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-04)] [[2022-03](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-03)] [[2022-02](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-02)] [[2022-01](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-01)] [[2021-12](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-12)] [[2021-11](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-11)] [[2021-10](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-10)] [[2021-09](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-09)] [[2021-08](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-08)] [[2021-07](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-07)]
 
+*Updated at 2022-06-23:*
+
+- [Few-Max: Few-Shot Domain Adaptation for Unsupervised Contrastive Representation Learning](https://arxiv.org/abs/2206.10137)
+  - Few-shot DA for unsupervised constrastive learning 小样本DA用于无监督对比学习
+
+- [The Importance of Background Information for Out of Distribution Generalization](https://arxiv.org/abs/2206.08794)
+  - Background information for OOD generalization 背景信息对于OOD泛化的重要性
+
+- [Zero-Shot AutoML with Pretrained Models](https://arxiv.org/abs/2206.08476)
+  - 用预训练模型进行零样本的自动机器学习 
+
+- [How robust are pre-trained models to distribution shift?](https://arxiv.org/abs/2206.08871)
+  - How robust are pre-trained models to distribution shift 评估预训练模型对于distribution shift的鲁棒性
+
+- [FiT: Parameter Efficient Few-shot Transfer Learning for Personalized and Federated Image Classification](https://arxiv.org/abs/2206.08671)
+  - Few-shot transfer learning for image classification 小样本迁移学习用于图像分类
+
+- [COVID-19 Detection using Transfer Learning with Convolutional Neural Network](https://arxiv.org/abs/2206.08557)
+  - COVID-19 using transfer learning 用迁移学习进行COVID-19检测
+
 *Updated at 2022-06-14:*
 
 - [Wav2vec-S: Semi-Supervised Pre-Training for Speech Recognition](https://arxiv.org/abs/2110.04484)
