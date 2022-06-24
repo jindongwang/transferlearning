@@ -17,12 +17,12 @@
   <a href="https://github.com/jindongwang/transferlearning#2transfer-learning-areas-and-papers-研究领域与相关论文">Research areas</a> •
   <a href="https://github.com/jindongwang/transferlearning#3theory-and-survey-理论与综述">Theory</a> •
   <a href="https://github.com/jindongwang/transferlearning#3theory-and-survey-理论与综述">Survey</a> •
-  <strong><a href="https://github.com/jindongwang/transferlearning#4code-代码">Code</a></strong> •
-  <strong><a href="https://github.com/jindongwang/transferlearning#7datasets-and-benchmarks-数据集与评测结果">Dataset & benchmark</a></strong>
+  <strong><a href="https://github.com/jindongwang/transferlearning/tree/master/code">Code</a></strong> •
+  <strong><a href="https://github.com/jindongwang/transferlearning/tree/master/data">Dataset & benchmark</a></strong>
 </p>
 <p align="center">
   <a href="https://github.com/jindongwang/transferlearning#6transfer-learning-thesis-硕博士论文">Thesis</a> •
-  <a href="https://github.com/jindongwang/transferlearning#5transfer-learning-scholars-著名学者">Scholars</a> •
+  <a href="https://github.com/jindongwang/transferlearning/blob/master/doc/scholar_TL.md">Scholars</a> •
   <a href="https://github.com/jindongwang/transferlearning#8transfer-learning-challenges-迁移学习比赛">Contests</a> •
   <a href="https://github.com/jindongwang/transferlearning#journals-and-conferences">Journal/conference</a> •
   <a href="https://github.com/jindongwang/transferlearning#applications-迁移学习应用">Applications</a> •

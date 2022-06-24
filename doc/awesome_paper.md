@@ -2156,6 +2156,12 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ## Federated transfer learning
 
+- FL-IJCAI-22 [MetaFed: Federated Learning among Federations with Cyclic Knowledge Distillation for Personalized Healthcare](https://arxiv.org/abs/2206.08516)
+  - MetaFed: a new form of federated learning 联邦之联邦学习、新范式
+
+- Interspeech-22 [Decoupled Federated Learning for ASR with Non-IID Data](https://jd92.wang/assets/files/DecoupleFL-IS22.pdf)
+  - Decoupled federated learning for non IID 解耦的联邦架构用于Non-IID语音识别
+
 - [Test-Time Robust Personalization for Federated Learning](https://arxiv.org/abs/2205.10920)
   - Test-time robust personalization for FL 测试时鲁棒联邦学习
 

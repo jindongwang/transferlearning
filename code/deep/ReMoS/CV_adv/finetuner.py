@@ -1,8 +1,18 @@
+import os
 import os.path as osp
 import time
 from functools import partial
 import torch
 from advertorch.attacks import LinfPGDAttack
+
+from dataset.cub200 import CUB200Data
+from dataset.mit67 import MIT67Data
+from dataset.stanford_dog import SDog120Data
+from dataset.stanford_40 import Stanford40Data
+from dataset.flower102 import Flower102Data
+
+from model.fe_resnet import resnet18_dropout, resnet34_dropout, resnet50_dropout, resnet101_dropout
+from model.fe_resnet import feresnet18, feresnet34, feresnet50, feresnet101
 
 from eval_robustness import advtest, myloss
 from utils import *

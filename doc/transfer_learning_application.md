@@ -288,6 +288,9 @@ By reverse chronological order.
 
 ## Medical and healthcare
 
+- FL-IJCAI-22 [MetaFed: Federated Learning among Federations with Cyclic Knowledge Distillation for Personalized Healthcare](https://arxiv.org/abs/2206.08516)
+  - MetaFed: a new form of federated learning 联邦之联邦学习、新范式
+
 - [Parkinson's disease diagnostics using AI and natural language knowledge transfer](https://arxiv.org/abs/2204.12559)
   - Transfer learning for Parkinson's disease diagnostics 迁移学习用于帕金森诊断
 
@@ -759,6 +762,9 @@ By reverse chronological order.
 
 ## Speech
 
+- Interspeech-22 [Decoupled Federated Learning for ASR with Non-IID Data](https://jd92.wang/assets/files/DecoupleFL-IS22.pdf)
+  - Decoupled federated learning for non IID 解耦的联邦架构用于Non-IID语音识别
+
 - [A Likelihood Ratio based Domain Adaptation Method for E2E Models](2201.03655)
   - Domain adaptation for speech recognition
   - 用domain adaptation进行语音识别
@@ -960,6 +966,9 @@ By reverse chronological order.
     - 迁移学习用于自动驾驶车辆的策略迁移
 
 ## Others
+
+- FL-IJCAI-22 [MetaFed: Federated Learning among Federations with Cyclic Knowledge Distillation for Personalized Healthcare](https://arxiv.org/abs/2206.08516)
+  - MetaFed: a new form of federated learning 联邦之联邦学习、新范式
 
 - [On Transfer Learning in Functional Linear Regression](https://arxiv.org/abs/2206.04277)
   - Transfer learning in functional linear regression 迁移学习用于函数式线性回归

@@ -13,7 +13,7 @@
   <a href="#2transfer-learning-areas-and-papers-研究领域与相关论文">Research areas</a> •
   <a href="#3theory-and-survey-理论与综述">Theory</a> •
   <a href="#3theory-and-survey-理论与综述">Survey</a> •
-  <strong><a href="#4code-代码">Code</a></strong> •
+  <strong><a href="https://github.com/jindongwang/transferlearning/tree/master/code">Code</a></strong> •
   <strong><a href="#7datasets-and-benchmarks-数据集与评测结果">Dataset & benchmark</a></strong>
 </p>
 <p align="center">
@@ -56,6 +56,14 @@ Related repos：[[TorchSSL: a unified library for semi-supervised learning](http
 
 - By topic: [doc/awesome_papers.md](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md)
 - By date: [[2022-05](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-05)] [[2022-04](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-04)] [[2022-03](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-03)] [[2022-02](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-02)] [[2022-01](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-01)] [[2021-12](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-12)] [[2021-11](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-11)] [[2021-10](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-10)] [[2021-09](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-09)] [[2021-08](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-08)] [[2021-07](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-07)]
+
+*Updated at 2022-06-24:*
+
+- FL-IJCAI-22 [MetaFed: Federated Learning among Federations with Cyclic Knowledge Distillation for Personalized Healthcare](https://arxiv.org/abs/2206.08516)
+  - MetaFed: a new form of federated learning 联邦之联邦学习、新范式
+
+- Interspeech-22 [Decoupled Federated Learning for ASR with Non-IID Data](https://jd92.wang/assets/files/DecoupleFL-IS22.pdf)
+  - Decoupled federated learning for non IID 解耦的联邦架构用于Non-IID语音识别
 
 *Updated at 2022-06-23:*
 
@@ -228,6 +236,7 @@ _ _ _
 Unified codebases for:
 - [Deep domain adaptation](https://github.com/jindongwang/transferlearning/tree/master/code/DeepDA)
 - [Deep domain generalization](https://github.com/jindongwang/transferlearning/tree/master/code/DeepDG)
+- See all codes here: https://github.com/jindongwang/transferlearning/tree/master/code.
 
 More: see [HERE](https://github.com/jindongwang/transferlearning/tree/master/code) and [HERE](https://colab.research.google.com/drive/1MVuk95mMg4ecGyUAIG94vedF81HtWQAr?usp=sharing) for an instant run using Google's Colab.
 
