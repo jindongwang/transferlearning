@@ -58,6 +58,12 @@ Now you have setup the training environment.
 ### Prepare the dataset and trained models
 
 We have prepared the dataset and the trained models in a zip file. You can directly download zip file from [Google Drive](https://drive.google.com/file/d/1ps4fbbaGsHrONZiPjWdzK1UC53IK0Kwc/view?usp=sharing), put the downloaded file under ``ReMoS`` and run the ``unpack_downloads.sh`` script.
+
+**NOTE:** This file is too large (>30GB) since it contains all the CV datasets and trained models. Thus, if you only want to run the code, you can directly download the datasets and put them under `CV_adv/data/`:
+
+`wget https://transferlearningdrive.blob.core.windows.net/teamdrive/dataset/CUB200.zip` for CUB_200 dataset. And you can replace `CUB200` with `MIT67`/`StanfordDog`/`Stanford40`/`Flower102` to download other datasets.
+
+
 ```
 bash unpack_downloads.sh
 ```

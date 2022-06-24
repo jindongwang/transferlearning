@@ -1,36 +1,13 @@
 import argparse
 import torch
 import time
-import sys
-import numpy as np
-import torchvision
-import torch.nn as nn
-import torch.nn.functional as F
-import torch.optim as optim
-import torchcontrib
-
-from PIL import Image
-from pdb import set_trace as st
-
 from torchvision import transforms
-
-from dataset.cub200 import CUB200Data
-from dataset.mit67 import MIT67Data
-from dataset.stanford_dog import SDog120Data
-from dataset.stanford_40 import Stanford40Data
-from dataset.flower102 import Flower102Data
-
 from advertorch.attacks import LinfPGDAttack
-from model.fe_resnet import resnet18_dropout, resnet34_dropout, resnet50_dropout, resnet101_dropout
-from model.fe_resnet import feresnet18, feresnet34, feresnet50, feresnet101
+
 
 def advtest(model, loader, adversary, args):
     model.eval()
     model = model.cuda()
-
-    total_ce = 0
-    total = 0
-    top1 = 0
 
     total = 0
     top1_clean = 0
@@ -38,7 +15,7 @@ def advtest(model, loader, adversary, args):
     adv_success = 0
     adv_trial = 0
     for i, (batch, label) in enumerate(loader):
-        batch, label = batch.to('cuda'), label.to('cuda')
+        batch, label = batch.cuda(), label.cuda()
 
         total += batch.size(0)
         out_clean = model(batch)
@@ -60,9 +37,9 @@ def advtest(model, loader, adversary, args):
         top1_adv += int(pred_adv.eq(label).sum().detach().item())
 
         print('{}/{}...'.format(i+1, len(loader)))
-        if i > 5:
-            break
-
+        # if i > 5:
+        #     break
+    print(total, adv_trial)
     return float(top1_clean)/total*100, float(top1_adv)/total*100, float(adv_trial-adv_success) / adv_trial *100
 
 def record_act(self, input, output):
@@ -127,3 +104,4 @@ if __name__ == '__main__':
     clean_top1, adv_top1, adv_sr = advtest(transferred_model, test_loader, adversary, args)
 
     print('Clean Top-1: {:.2f} | Adv Top-1: {:.2f} | Attack Success Rate: {:.2f}'.format(clean_top1, adv_top1, adv_sr))
+

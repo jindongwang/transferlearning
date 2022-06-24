@@ -1,26 +1,11 @@
-import os
 import os.path as osp
-import sys
-import time
-import argparse
-from pdb import set_trace as st
-import json
-
 import torch
-import numpy as np
-import torchvision
 import torch.nn as nn
-import torch.nn.functional as F
-import torch.optim as optim
-import torchcontrib
-
-from torchvision import transforms
-
-
 
 
 class MovingAverageMeter(object):
     """Computes and stores the average and current value"""
+
     def __init__(self, name, fmt=':f', momentum=0.9):
         self.name = name
         self.fmt = fmt
@@ -40,6 +25,7 @@ class MovingAverageMeter(object):
         fmtstr = '{name} {val' + self.fmt + '} ({avg' + self.fmt + '})'
         return fmtstr.format(**self.__dict__)
 
+
 class ProgressMeter(object):
     def __init__(self, num_batches, meters, prefix="", output_dir=None):
         self.batch_fmtstr = self._get_batch_fmtstr(num_batches)
@@ -47,8 +33,6 @@ class ProgressMeter(object):
         self.prefix = prefix
         if output_dir is not None:
             self.filepath = osp.join(output_dir, "progress")
-
-            
 
     def display(self, batch):
         entries = [self.prefix + self.batch_fmtstr.format(batch)]
@@ -63,9 +47,10 @@ class ProgressMeter(object):
         num_digits = len(str(num_batches // 1))
         fmt = '{:' + str(num_digits) + 'd}'
         return '[' + fmt + '/' + fmt.format(num_batches) + ']'
-    
+
+
 class CrossEntropyLabelSmooth(nn.Module):
-    def __init__(self, num_classes, epsilon = 0.1):
+    def __init__(self, num_classes, epsilon=0.1):
         super(CrossEntropyLabelSmooth, self).__init__()
         self.num_classes = num_classes
         self.epsilon = epsilon
@@ -73,8 +58,10 @@ class CrossEntropyLabelSmooth(nn.Module):
 
     def forward(self, inputs, targets):
         log_probs = self.logsoftmax(inputs)
-        targets = torch.zeros_like(log_probs).scatter_(1, targets.unsqueeze(1), 1)
-        targets = (1 - self.epsilon) * targets + self.epsilon / self.num_classes
+        targets = torch.zeros_like(log_probs).scatter_(
+            1, targets.unsqueeze(1), 1)
+        targets = (1 - self.epsilon) * targets + \
+            self.epsilon / self.num_classes
         loss = (-targets * log_probs).sum(1)
         return loss.mean()
 
@@ -87,6 +74,7 @@ def linear_l2(model, beta_lmda):
             beta_loss += (m.bias).pow(2).sum()
     return 0.5*beta_loss*beta_lmda, beta_loss
 
+
 def l2sp(model, reg):
     reg_loss = 0
     dist = 0
@@ -94,18 +82,19 @@ def l2sp(model, reg):
         if hasattr(m, 'weight') and hasattr(m, 'old_weight'):
             diff = (m.weight - m.old_weight).pow(2).sum()
             dist += diff
-            reg_loss += diff 
+            reg_loss += diff
 
         if hasattr(m, 'bias') and hasattr(m, 'old_bias'):
             diff = (m.bias - m.old_bias).pow(2).sum()
             dist += diff
-            reg_loss += diff 
+            reg_loss += diff
 
     if dist > 0:
         dist = dist.sqrt()
-    
+
     loss = (reg * reg_loss)
     return loss, dist
+
 
 def advtest_fast(model, loader, adversary, args):
     advDataset = torch.load(args.adv_data_dir)
@@ -115,9 +104,7 @@ def advtest_fast(model, loader, adversary, args):
         num_workers=0, pin_memory=False)
     model.eval()
 
-    total_ce = 0
     total = 0
-    top1 = 0
 
     total = 0
     top1_clean = 0
@@ -136,7 +123,8 @@ def advtest_fast(model, loader, adversary, args):
 
         clean_correct = pred_clean.eq(label)
         adv_trial += int(clean_correct.sum().item())
-        adv_success += int(pred_adv[clean_correct].eq(label[clean_correct]).sum().detach().item())
+        adv_success += int(pred_adv[clean_correct].eq(
+            label[clean_correct]).sum().detach().item())
         top1_clean += int(pred_clean.eq(label).sum().detach().item())
         top1_adv += int(pred_adv.eq(label).sum().detach().item())
 
@@ -144,4 +132,4 @@ def advtest_fast(model, loader, adversary, args):
     print(f"Finish adv test fast")
     del test_loader
     del advDataset
-    return float(top1_clean)/total*100, float(top1_adv)/total*100, float(adv_trial-adv_success) / adv_trial *100
+    return float(top1_clean)/total*100, float(top1_adv)/total*100, float(adv_trial-adv_success) / adv_trial * 100

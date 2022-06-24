@@ -1,32 +1,8 @@
-import os
 import os.path as osp
-import sys
 import time
-import argparse
-from pdb import set_trace as st
-import json
-import random
 from functools import partial
-
 import torch
-import numpy as np
-import torchvision
-import torch.nn as nn
-import torch.nn.functional as F
-import torch.optim as optim
-import torchcontrib
-
-from torchvision import transforms
 from advertorch.attacks import LinfPGDAttack
-
-from dataset.cub200 import CUB200Data
-from dataset.mit67 import MIT67Data
-from dataset.stanford_dog import SDog120Data
-from dataset.stanford_40 import Stanford40Data
-from dataset.flower102 import Flower102Data
-
-from model.fe_resnet import resnet18_dropout, resnet34_dropout, resnet50_dropout, resnet101_dropout
-from model.fe_resnet import feresnet18, feresnet34, feresnet50, feresnet101
 
 from eval_robustness import advtest, myloss
 from utils import *
@@ -74,7 +50,7 @@ class Finetuner(object):
         model = self.model
         args = self.args
         clean_top1, adv_top1, adv_sr = self.adv_eval_fn(model)
-        result_sum = 'Clean Top-1: {:.2f} | Adv Top-1: {:.2f} | Attack Success Rate: {:.2f}'.format(clean_top1, adv_top1, adv_sr)
+        result_sum = f'Clean Top-1: {clean_top1:.2f} | Adv Top-1: {adv_top1:.2f} | Attack Success Rate: {adv_sr:.2f}'
         with open(osp.join(args.output_dir, "posttrain_eval.txt"), "w") as f:
             f.write(result_sum)
 
@@ -89,10 +65,8 @@ class Finetuner(object):
         loss = ce(out, label)
         return loss, top1
 
-    def test(self, ):
-        model = self.model
-        loader = self.test_loader
-        
+    def test(self, loader):
+        model = self.model        
         with torch.no_grad():
             model.eval()
             ce = CrossEntropyLabelSmooth(loader.dataset.num_classes)
@@ -110,7 +84,7 @@ class Finetuner(object):
 
         return float(top1)/total*100, total_ce/(i+1)
     
-    def train(self, ):
+    def train(self):
         model = self.model
         train_loader = self.train_loader
         iterations = self.args.iterations
@@ -121,8 +95,8 @@ class Finetuner(object):
         model = model.to('cuda')
         
         fc_module = model.fc
-        ignored_params = list(map(id, fc_module.parameters()))
-        base_params = filter(lambda p: id(p) not in ignored_params,
+        fc_params = list(map(id, fc_module.parameters()))
+        base_params = filter(lambda p: id(p) not in fc_params,
                         self.model.parameters())
         optimizer = torch.optim.SGD(
             [
@@ -133,12 +107,6 @@ class Finetuner(object):
             momentum=args.momentum,
             weight_decay=args.weight_decay,
         )
-        # optimizer = optim.SGD(
-        #     model.parameters(), 
-        #     lr=lr, 
-        #     momentum=args.momentum, 
-        #     weight_decay=args.weight_decay,
-        # )
 
         teacher.eval()
         ce = CrossEntropyLabelSmooth(train_loader.dataset.num_classes)
@@ -197,8 +165,8 @@ class Finetuner(object):
                 progress.display(i)
 
             if (i % args.test_interval == 0) or (i == iterations-1):
-                test_top1, test_ce_loss = self.test()
-                train_top1, train_ce_loss = self.test()
+                test_top1, test_ce_loss = self.test(self.train_loader)
+                train_top1, train_ce_loss = self.test(self.test_loader)
                 print(
                     'Eval Train | Iteration {}/{} | Top-1: {:.2f} | CE Loss: {:.3f} | PID {}'.format(i+1, iterations, train_top1, train_ce_loss, self.args.pid))
                 print(

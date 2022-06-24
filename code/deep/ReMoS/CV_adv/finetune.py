@@ -1,33 +1,10 @@
 import os
 import os.path as osp
-import sys
-import time
 import argparse
-from pdb import set_trace as st
-import json
 import random
-
 import torch
 import numpy as np
-import torchvision
-import torch.nn as nn
-import torch.nn.functional as F
-import torch.optim as optim
-import torchcontrib
-
 from torchvision import transforms
-
-from dataset.cub200 import CUB200Data
-from dataset.mit67 import MIT67Data
-from dataset.stanford_dog import SDog120Data
-from dataset.stanford_40 import Stanford40Data
-from dataset.flower102 import Flower102Data
-# from dataset.vis_da import VisDaDATA
-
-from model.fe_resnet import resnet18_dropout, resnet34_dropout, resnet50_dropout, resnet101_dropout
-from model.fe_resnet import feresnet18, feresnet34, feresnet50, feresnet101
-
-from eval_robustness import advtest, myloss
 from utils import *
 from finetuner import Finetuner
 from weight_pruner import WeightPruner
@@ -134,6 +111,7 @@ if __name__=="__main__":
         checkpoint = torch.load(args.checkpoint)
         model.load_state_dict(checkpoint['state_dict'])
         print(f"Loaded checkpoint from {args.checkpoint}")
+    
     # Pre-trained model
     teacher = eval('{}_dropout'.format(args.network))(
         pretrained=True, 
