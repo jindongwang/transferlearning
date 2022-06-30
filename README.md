@@ -57,6 +57,24 @@ Related repos：[[TorchSSL: a unified library for semi-supervised learning](http
 - By topic: [doc/awesome_papers.md](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md)
 - By date: [[2022-05](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-05)] [[2022-04](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-04)] [[2022-03](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-03)] [[2022-02](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-02)] [[2022-01](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-01)] [[2021-12](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-12)] [[2021-11](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-11)] [[2021-10](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-10)] [[2021-09](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-09)] [[2021-08](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-08)] [[2021-07](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-07)]
 
+*Updated at 2022-06-30:*
+
+- NeurIPS-21 [Parameterized Knowledge Transfer for Personalized Federated Learning](https://proceedings.neurips.cc/paper/2021/hash/5383c7318a3158b9bc261d0b6996f7c2-Abstract.html)
+  - personalized group knowledge transfer training
+  - 个性化群体知识迁移
+- ICML-21 [Federated Continual Learning with Weighted Inter-client Transfer](https://proceedings.mlr.press/v139/yoon21b.html)
+  - Federated Weighted Inter-client Transfer (FedWeIT) for Federated Continual Learning
+  - 联邦加权客户端间传输方法，用于联邦持续学习
+- SIGIR-21 [FedCT: Federated Collaborative Transfer for Recommendation](https://doi.org/10.1145/3404835.3462825)
+  - Federated learning for cross-domain recommendation 
+  - 使用联邦迁移学习执行跨域推荐任务
+- KDD-21 [Federated Adversarial Debiasing for Fair and Transferable Representations](https://doi.org/10.1145/3447548.3467281)
+  - Federated Adversarial DEbiasing (FADE)
+  - 通过对抗性学习对联邦学习过程去除偏见
+- NeurIPS-20 [Group Knowledge Transfer: Federated Learning of Large CNNs at the Edge](https://proceedings.neurips.cc/paper/2020/hash/a1d4c20b182ad7137ab3606f0e3fc8a4-Abstract.html)
+  - Group knowledge transfer training
+  - 群体知识迁移
+
 *Updated at 2022-06-24:*
 
 - FL-IJCAI-22 [MetaFed: Federated Learning among Federations with Cyclic Knowledge Distillation for Personalized Healthcare](https://arxiv.org/abs/2206.08516)

@@ -446,7 +446,7 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 - 20191222 AAAI-20 [Improved Knowledge Distillation via Teacher Assistant](https://arxiv.org/abs/1902.03393)
     - Teacher assistant helps knowledge distillation
 
-- - - 
+- - -
 
 ## Traditional domain adaptation
 
@@ -550,7 +550,7 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 - [学习迁移](https://arxiv.org/abs/1708.05629)(Learning to Transfer, L2T)
 	- 迁移学习领域的新方向：与在线、增量学习结合
 	- [我的解读](https://zhuanlan.zhihu.com/p/28888554)
-    
+  
 - 201707 [Mutual Alignment Transfer Learning](https://arxiv.org/abs/1707.07907)
 
 - 201708 [Learning Invariant Riemannian Geometric Representations Using Deep Nets](https://arxiv.org/abs/1708.09485)
@@ -2157,55 +2157,66 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 ## Federated transfer learning
 
 - FL-IJCAI-22 [MetaFed: Federated Learning among Federations with Cyclic Knowledge Distillation for Personalized Healthcare](https://arxiv.org/abs/2206.08516)
-  - MetaFed: a new form of federated learning 联邦之联邦学习、新范式
-
+  - MetaFed: a new form of federated learning 
+  - 联邦之联邦学习、新范式
 - Interspeech-22 [Decoupled Federated Learning for ASR with Non-IID Data](https://jd92.wang/assets/files/DecoupleFL-IS22.pdf)
-  - Decoupled federated learning for non IID 解耦的联邦架构用于Non-IID语音识别
-
+  - Decoupled federated learning for non IID 
+  - 解耦的联邦架构用于Non-IID语音识别
 - [Test-Time Robust Personalization for Federated Learning](https://arxiv.org/abs/2205.10920)
-  - Test-time robust personalization for FL 测试时鲁棒联邦学习
-
+  - Test-time robust personalization for FL 
+  - 测试时鲁棒联邦学习
 - IEEE TNNLS-22 [Towards Personalized Federated Learning](http://arxiv.org/abs/2103.00710)
-  - A survey on personalized federated learning 一个关于个性化联邦学习的综述
-
+  - A survey on personalized federated learning 
+  - 一个关于个性化联邦学习的综述
 - [Improving Generalization in Federated Learning by Seeking Flat Minima](https://arxiv.org/abs/2203.11834)
   - Seeking flat minima for domain generalization in federated learning
   - 通过寻找平坦值进行联邦学习领域泛化
-
 - [SemiPFL: Personalized Semi-Supervised Federated Learning Framework for Edge Intelligence](https://arxiv.org/abs/2203.08176)
   - Personalized federated learning
   - 个性化联邦学习
+- NeurIPS-21 [Parameterized Knowledge Transfer for Personalized Federated Learning](https://proceedings.neurips.cc/paper/2021/hash/5383c7318a3158b9bc261d0b6996f7c2-Abstract.html)
+    - personalized group knowledge transfer training
+    - 个性化群体知识迁移
+
+- ICML-21 [Federated Continual Learning with Weighted Inter-client Transfer](https://proceedings.mlr.press/v139/yoon21b.html)
+    - Federated Weighted Inter-client Transfer (FedWeIT) for Federated Continual Learning
+    - 联邦加权客户端间传输方法，用于联邦持续学习
+
+- SIGIR-21 [FedCT: Federated Collaborative Transfer for Recommendation](https://doi.org/10.1145/3404835.3462825)
+    - Federated learning for cross-domain recommendation 
+    - 使用联邦迁移学习执行跨域推荐任务
+
+- KDD-21 [Federated Adversarial Debiasing for Fair and Transferable Representations](https://doi.org/10.1145/3447548.3467281)
+    - Federated Adversarial DEbiasing (FADE)
+    - 通过对抗性学习对联邦学习过程去除偏见
 
 - [Federated Learning with Adaptive Batchnorm for Personalized Healthcare](https://arxiv.org/abs/2112.00734)
     - Federated learning with adaptive batchnorm
     - 用自适应BN进行个性化联邦学习
-
 - [FedZKT: Zero-Shot Knowledge Transfer towards Heterogeneous On-Device Models in Federated Learning](https://arxiv.org/abs/2109.03775)
     - Zero-shot transfer in heterogeneous federated learning
     - 零次迁移用于联邦学习
-
 - [Federated Multi-Task Learning under a Mixture of Distributions](https://arxiv.org/abs/2108.10252)
     - Federated multi-task learning
     - 联邦多任务学习
+- NeurIPS-20 [Group Knowledge Transfer: Federated Learning of Large CNNs at the Edge](https://proceedings.neurips.cc/paper/2020/hash/a1d4c20b182ad7137ab3606f0e3fc8a4-Abstract.html)
+    - Group knowledge transfer training
+    - 群体知识迁移
 
 - [Fine-tuning is Fine in Federated Learning](http://arxiv.org/abs/2108.07313)
     - Finetuning in federated learning
     - 在联邦学习中进行finetune
-
 - [Federated Multi-Target Domain Adaptation](http://arxiv.org/abs/2108.07792)
     - Federated multi-target DA
     - 联邦学习场景下的多目标DA
-
 - 20190909 IJCAI-FML-19 [FedHealth: A Federated Transfer Learning Framework for Wearable Healthcare](http://jd92.wang/assets/files/a15_ijcai19.pdf)
   	- The first work on federated transfer learning for wearable healthcare
   	- 第一个将联邦迁移学习用于可穿戴健康监护的工作
-
 - 20180605 arXiv 解决federated learning中的数据不同分布的问题：[Federated Learning with Non-IID Data](https://arxiv.org/abs/1806.00582)
-
 - 20190301 NeurIPS-18 workshp [One-Shot Federated Learning](https://arxiv.org/abs/1902.11175)
     - One-shot federated learning
 
-- - - 
+- - -
 
 ## Lifelong transfer learning
 
