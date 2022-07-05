@@ -88,8 +88,8 @@ class GFK:
         delta3_2 = np.hstack((np.zeros(shape=(N - dim, dim)), V2))
         delta3 = np.vstack((delta3_1, delta3_2)).T
 
-        delta = np.dot(np.dot(delta1, delta2), delta3)
-        G = np.dot(np.dot(Ps, delta), Ps.T)
+        delta = np.linalg.multi_dot([delta1, delta2, delta3])
+        G = np.linalg.multi_dot([Ps, delta, Ps.T])
         sqG = scipy.real(scipy.linalg.fractional_matrix_power(G, 0.5))
         Xs_new, Xt_new = np.dot(sqG, Xs.T).T, np.dot(sqG, Xt.T).T
         return G, Xs_new, Xt_new
