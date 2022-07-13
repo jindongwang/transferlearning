@@ -57,76 +57,25 @@ Related repos：[[TorchSSL: a unified library for semi-supervised learning](http
 - By topic: [doc/awesome_papers.md](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md)
 - By date: [[2022-05](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-05)] [[2022-04](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-04)] [[2022-03](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-03)] [[2022-02](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-02)] [[2022-01](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-01)] [[2021-12](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-12)] [[2021-11](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-11)] [[2021-10](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-10)] [[2021-09](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-09)] [[2021-08](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-08)] [[2021-07](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-07)]
 
-*Updated at 2022-06-30:*
+*Updated at 2022-07-13:*
 
-- NeurIPS-21 [Parameterized Knowledge Transfer for Personalized Federated Learning](https://proceedings.neurips.cc/paper/2021/hash/5383c7318a3158b9bc261d0b6996f7c2-Abstract.html)
-  - personalized group knowledge transfer training
-  - 个性化群体知识迁移
-- ICML-21 [Federated Continual Learning with Weighted Inter-client Transfer](https://proceedings.mlr.press/v139/yoon21b.html)
-  - Federated Weighted Inter-client Transfer (FedWeIT) for Federated Continual Learning
-  - 联邦加权客户端间传输方法，用于联邦持续学习
-- SIGIR-21 [FedCT: Federated Collaborative Transfer for Recommendation](https://doi.org/10.1145/3404835.3462825)
-  - Federated learning for cross-domain recommendation 
-  - 使用联邦迁移学习执行跨域推荐任务
-- KDD-21 [Federated Adversarial Debiasing for Fair and Transferable Representations](https://doi.org/10.1145/3447548.3467281)
-  - Federated Adversarial DEbiasing (FADE)
-  - 通过对抗性学习对联邦学习过程去除偏见
-- NeurIPS-20 [Group Knowledge Transfer: Federated Learning of Large CNNs at the Edge](https://proceedings.neurips.cc/paper/2020/hash/a1d4c20b182ad7137ab3606f0e3fc8a4-Abstract.html)
-  - Group knowledge transfer training
-  - 群体知识迁移
+- [Transferability-Guided Cross-Domain Cross-Task Transfer Learning](https://arxiv.org/abs/2207.05510)
+  - Cross-domain cross-task transfer learning 用迁移性指标指导跨领域跨任务迁移
 
-*Updated at 2022-06-24:*
+- [Cross-Architecture Knowledge Distillation](https://arxiv.org/abs/2207.05273)
+  - Cross-architecture knowledge distillation 跨架构的知识蒸馏
 
-- FL-IJCAI-22 [MetaFed: Federated Learning among Federations with Cyclic Knowledge Distillation for Personalized Healthcare](https://arxiv.org/abs/2206.08516)
-  - MetaFed: a new form of federated learning 联邦之联邦学习、新范式
+- ECCV-22 [Knowledge Condensation Distillation](https://arxiv.org/abs/2207.05409)
+  - Knowledge condensation distillation 知识压缩蒸馏
 
-- Interspeech-22 [Decoupled Federated Learning for ASR with Non-IID Data](https://jd92.wang/assets/files/DecoupleFL-IS22.pdf)
-  - Decoupled federated learning for non IID 解耦的联邦架构用于Non-IID语音识别
+- [An Information-Theoretic Analysis for Transfer Learning: Error Bounds and Applications](https://arxiv.org/abs/2207.05377)
+  - Information-theoretic analysis for transfer learning 用信息理论解释迁移学习
 
-*Updated at 2022-06-23:*
+- [A Data-Based Perspective on Transfer Learning](https://arxiv.org/abs/2207.05739)
+  - Analyze the data numbers in transfer learning 分析迁移学习中数据的重要性
 
-- [Few-Max: Few-Shot Domain Adaptation for Unsupervised Contrastive Representation Learning](https://arxiv.org/abs/2206.10137)
-  - Few-shot DA for unsupervised constrastive learning 小样本DA用于无监督对比学习
-
-- [The Importance of Background Information for Out of Distribution Generalization](https://arxiv.org/abs/2206.08794)
-  - Background information for OOD generalization 背景信息对于OOD泛化的重要性
-
-- [Zero-Shot AutoML with Pretrained Models](https://arxiv.org/abs/2206.08476)
-  - 用预训练模型进行零样本的自动机器学习 
-
-- [How robust are pre-trained models to distribution shift?](https://arxiv.org/abs/2206.08871)
-  - How robust are pre-trained models to distribution shift 评估预训练模型对于distribution shift的鲁棒性
-
-- [FiT: Parameter Efficient Few-shot Transfer Learning for Personalized and Federated Image Classification](https://arxiv.org/abs/2206.08671)
-  - Few-shot transfer learning for image classification 小样本迁移学习用于图像分类
-
-- [COVID-19 Detection using Transfer Learning with Convolutional Neural Network](https://arxiv.org/abs/2206.08557)
-  - COVID-19 using transfer learning 用迁移学习进行COVID-19检测
-
-*Updated at 2022-06-14:*
-
-- [Wav2vec-S: Semi-Supervised Pre-Training for Speech Recognition](https://arxiv.org/abs/2110.04484)
-  - Pretraining for speech recognition 用预训练模型进行语音识别
-
-- [Causal Balancing for Domain Generalization](https://arxiv.org/abs/2206.05263)
-  - Causal balancing for domain generalization 因果平衡用于领域泛化
-
-- NAACL-22 [Modularized Transfer Learning with Multiple Knowledge Graphs for Zero-shot Commonsense Reasoning](https://arxiv.org/abs/2206.03715)
-  - Transfer learning for zero-shot reasoning 迁移学习用于零次常识推理
-
-- [ConFUDA: Contrastive Fewshot Unsupervised Domain Adaptation for Medical Image Segmentation](https://arxiv.org/abs/2206.03888)
-  - Fewshot UDA for medical image segmentation 小样本域自适应用于医疗图像分割
-
-- [One Ring to Bring Them All: Towards Open-Set Recognition under Domain Shift](https://arxiv.org/abs/2206.03600)
-  - Open set recognition with domain shift 开放集+domain shift
-
-- [Toward Certified Robustness Against Real-World Distribution Shifts](https://arxiv.org/abs/2206.03669)
-  - Certified robustness against real-world distribution shifts 真实世界中的distribution shift
-
-*Updated at 2022-06-10:*
-
-- [On Transfer Learning in Functional Linear Regression](https://arxiv.org/abs/2206.04277)
-  - Transfer learning in functional linear regression 迁移学习用于函数式线性回归
+- [PAC-Bayesian Domain Adaptation Bounds for Multiclass Learners](https://arxiv.org/abs/2207.05685)
+  - PAC-Bayesian domain adaptation 基于PAC-Bayesian的domain adaptation
 
 - - -
 

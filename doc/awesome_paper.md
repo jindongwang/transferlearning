@@ -70,6 +70,12 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ## Theory
 
+- [An Information-Theoretic Analysis for Transfer Learning: Error Bounds and Applications](https://arxiv.org/abs/2207.05377)
+  - Information-theoretic analysis for transfer learning 用信息理论解释迁移学习
+
+- [PAC-Bayesian Domain Adaptation Bounds for Multiclass Learners](https://arxiv.org/abs/2207.05685)
+  - PAC-Bayesian domain adaptation 基于PAC-Bayesian的domain adaptation
+
 - [Optimal Representations for Covariate Shift](https://arxiv.org/abs/2201.00057)
   - Learning optimal representations for covariate shift
   - 为covariate shift学习最优的表达
@@ -396,6 +402,12 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ## Knowledge distillation
 
+- [Cross-Architecture Knowledge Distillation](https://arxiv.org/abs/2207.05273)
+  - Cross-architecture knowledge distillation 跨架构的知识蒸馏
+
+- ECCV-22 [Knowledge Condensation Distillation](https://arxiv.org/abs/2207.05409)
+  - Knowledge condensation distillation 知识压缩蒸馏
+
 - [FreeMatch: Self-adaptive Thresholding for Semi-supervised Learning](https://arxiv.org/abs/2205.07246)
   - Self-adaptive thresholding for semi-supervised learning 新的自适应阈值半监督方法
 
@@ -589,6 +601,12 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 	- 发表在IEEE Trans. Knowledge and Data Engineering期刊上
 
 ## Deep domain adaptation
+
+- [Transferability-Guided Cross-Domain Cross-Task Transfer Learning](https://arxiv.org/abs/2207.05510)
+  - Cross-domain cross-task transfer learning 用迁移性指标指导跨领域跨任务迁移
+
+- [A Data-Based Perspective on Transfer Learning](https://arxiv.org/abs/2207.05739)
+  - Analyze the data numbers in transfer learning 分析迁移学习中数据的重要性
 
 - [Few-Max: Few-Shot Domain Adaptation for Unsupervised Contrastive Representation Learning](https://arxiv.org/abs/2206.10137)
   - Few-shot DA for unsupervised constrastive learning 小样本DA用于无监督对比学习
