@@ -18,6 +18,9 @@ By reverse chronological order.
 
 ## Computer vision
 
+- CVPR-22 [Segmenting Across Places: The Need for Fair Transfer Learning With Satellite Imagery](https://openaccess.thecvf.com/content/CVPR2022W/FaDE-TCV/html/Zhang_Segmenting_Across_Places_The_Need_for_Fair_Transfer_Learning_With_CVPRW_2022_paper.html)
+  - Fair transfer learning with satellite imagery 公平迁移学习
+
 - [FiT: Parameter Efficient Few-shot Transfer Learning for Personalized and Federated Image Classification](https://arxiv.org/abs/2206.08671)
   - Few-shot transfer learning for image classification 小样本迁移学习用于图像分类
 
