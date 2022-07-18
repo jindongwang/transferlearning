@@ -18,6 +18,9 @@ By reverse chronological order.
 
 ## Computer vision
 
+- MM-22 [Source-Free Domain Adaptation for Real-world Image Dehazing](https://arxiv.org/abs/2207.06644)
+  - Source-free DA for image dehazing 无需源域的迁移用于图像去雾
+
 - CVPR-22 [Segmenting Across Places: The Need for Fair Transfer Learning With Satellite Imagery](https://openaccess.thecvf.com/content/CVPR2022W/FaDE-TCV/html/Zhang_Segmenting_Across_Places_The_Need_for_Fair_Transfer_Learning_With_CVPRW_2022_paper.html)
   - Fair transfer learning with satellite imagery 公平迁移学习
 

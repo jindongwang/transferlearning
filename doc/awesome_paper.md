@@ -70,6 +70,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ## Theory
 
+- [Improved OOD Generalization via Conditional Invariant Regularizer](https://arxiv.org/abs/2207.06687)
+  - Improved OOD generalization via conditional invariant regularizer 通过条件不变正则进行OOD泛化
+
 - [An Information-Theoretic Analysis for Transfer Learning: Error Bounds and Applications](https://arxiv.org/abs/2207.05377)
   - Information-theoretic analysis for transfer learning 用信息理论解释迁移学习
 
