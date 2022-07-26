@@ -9,6 +9,7 @@ from alg.algs.MLDG import MLDG
 from alg.algs.GroupDRO import GroupDRO
 from alg.algs.ANDMask import ANDMask
 from alg.algs.VREx import VREx
+from alg.algs.DIFEX import DIFEX
 
 ALGORITHMS = [
     'ERM',
@@ -20,7 +21,8 @@ ALGORITHMS = [
     'GroupDRO',
     'RSC',
     'ANDMask',
-    'VREx'
+    'VREx',
+    'DIFEX'
 ]
 
 

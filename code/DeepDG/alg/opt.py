@@ -2,7 +2,7 @@
 import torch
 
 
-def get_params(alg, args, inner=False, alias=True):
+def get_params(alg, args, inner=False, alias=True, isteacher=False):
     if args.schuse:
         if args.schusech == 'cos':
             initlr = args.lr
@@ -13,6 +13,13 @@ def get_params(alg, args, inner=False, alias=True):
             initlr = args.inner_lr
         else:
             initlr = args.lr
+    if isteacher:
+        params = [
+            {'params': alg[0].parameters(), 'lr': args.lr_decay1 * initlr},
+            {'params': alg[1].parameters(), 'lr': args.lr_decay2 * initlr},
+            {'params': alg[2].parameters(), 'lr': args.lr_decay2 * initlr}
+        ]
+        return params
     if inner:
         params = [
             {'params': alg[0].parameters(), 'lr': args.lr_decay1 *
@@ -39,8 +46,8 @@ def get_params(alg, args, inner=False, alias=True):
     return params
 
 
-def get_optimizer(alg, args, inner=False, alias=True):
-    params = get_params(alg, args, inner, alias)
+def get_optimizer(alg, args, inner=False, alias=True, isteacher=False):
+    params = get_params(alg, args, inner, alias, isteacher)
     optimizer = torch.optim.SGD(
         params, lr=args.lr, momentum=args.momentum, weight_decay=args.weight_decay, nesterov=True)
     return optimizer
