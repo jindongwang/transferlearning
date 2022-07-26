@@ -57,6 +57,23 @@ Related repos：[[TorchSSL: a unified library for semi-supervised learning](http
 - By topic: [doc/awesome_papers.md](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md)
 - By date: [[2022-05](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-05)] [[2022-04](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-04)] [[2022-03](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-03)] [[2022-02](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-02)] [[2022-01](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-01)] [[2021-12](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-12)] [[2021-11](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-11)] [[2021-10](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-10)] [[2021-09](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-09)] [[2021-08](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-08)] [[2021-07](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-07)]
 
+*Updated at 2022-07-26:*
+
+- TMLR-22 [Domain-invariant Feature Exploration for Domain Generalization](https://arxiv.org/abs/2207.12020)
+  - Exploring domain-invariant feature for domain generalization 探索领域不变特征在领域泛化中的应用
+
+- TIST-22 [Domain Generalization for Activity Recognition via Adaptive Feature Fusion](https://arxiv.org/abs/2207.11221)
+  - Domain generalization for activity recognition 领域泛化用于行为识别
+
+- ECCV-22 [Prototype-Guided Continual Adaptation for Class-Incremental Unsupervised Domain Adaptation](https://arxiv.org/abs/2207.10856)
+  - Prototype continual domain adaptation 基于原型的类增量domain adaptation
+
+- [Federated Semi-Supervised Domain Adaptation via Knowledge Transfer](https://arxiv.org/abs/2207.10727)
+  - Federated semi-supervised DA 联邦半监督DA
+
+- [Hyper-Representations for Pre-Training and Transfer Learning](https://arxiv.org/abs/2207.10951)
+  - Hyper-representation for pre-training and fine-tuning 对于预训练和微调的超表示
+
 *Updated at 2022-07-18:*
 
 - MM-22 [Source-Free Domain Adaptation for Real-world Image Dehazing](https://arxiv.org/abs/2207.06644)

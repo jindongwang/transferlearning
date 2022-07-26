@@ -150,6 +150,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ## Per-training/Finetuning
 
+- [Hyper-Representations for Pre-Training and Transfer Learning](https://arxiv.org/abs/2207.10951)
+  - Hyper-representation for pre-training and fine-tuning 对于预训练和微调的超表示
+
 - [Zero-Shot AutoML with Pretrained Models](https://arxiv.org/abs/2206.08476)
   - 用预训练模型进行零样本的自动机器学习 
 
@@ -604,6 +607,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 	- 发表在IEEE Trans. Knowledge and Data Engineering期刊上
 
 ## Deep domain adaptation
+
+- ECCV-22 [Prototype-Guided Continual Adaptation for Class-Incremental Unsupervised Domain Adaptation](https://arxiv.org/abs/2207.10856)
+  - Prototype continual domain adaptation 基于原型的类增量domain adaptation
 
 - [Transferability-Guided Cross-Domain Cross-Task Transfer Learning](https://arxiv.org/abs/2207.05510)
   - Cross-domain cross-task transfer learning 用迁移性指标指导跨领域跨任务迁移
@@ -1525,6 +1531,12 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ## Domain generalization
 
+- TMLR-22 [Domain-invariant Feature Exploration for Domain Generalization](https://arxiv.org/abs/2207.12020)
+  - Exploring domain-invariant feature for domain generalization 探索领域不变特征在领域泛化中的应用
+
+- TIST-22 [Domain Generalization for Activity Recognition via Adaptive Feature Fusion](https://arxiv.org/abs/2207.11221)
+  - Domain generalization for activity recognition 领域泛化用于行为识别
+
 - [The Importance of Background Information for Out of Distribution Generalization](https://arxiv.org/abs/2206.08794)
   - Background information for OOD generalization 背景信息对于OOD泛化的重要性
 
@@ -2176,6 +2188,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 - - -
 
 ## Federated transfer learning
+
+- [Federated Semi-Supervised Domain Adaptation via Knowledge Transfer](https://arxiv.org/abs/2207.10727)
+  - Federated semi-supervised DA 联邦半监督DA
 
 - FL-IJCAI-22 [MetaFed: Federated Learning among Federations with Cyclic Knowledge Distillation for Personalized Healthcare](https://arxiv.org/abs/2206.08516)
   - MetaFed: a new form of federated learning 
