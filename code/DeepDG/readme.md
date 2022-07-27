@@ -18,6 +18,7 @@ We currently support the following algoirthms. We are working on more algorithms
 8. GroupDRO (ICLR-20) [7]
 9. ANDMask (ICLR-21) [8]
 10. VREx (ICML-21) [9]
+11. DIFEX (TMLR-22) [10]
 
 ## Installation
 
@@ -92,6 +93,8 @@ We present results of our implementations on 2 popular benchmarks: **PACS** and 
 | GroupDRO | 79.15 | 76.75 | 91.32 | 81.52 | 82.19 |
 | ANDMask  | 80.81 | 73.29 | 95.81 | 71.95 | 80.47 |
 | Vrex     | 81.54 | 78.11 | 95.39 | 80.35 | 83.85 |
+|DIFEX-ori | 82.86 | 78.46 | 94.97 | 79.41 | 83.93 |
+|DIFEX-norm| 83.40 | 79.74 | 95.03 | 79.10 | 84.32 |
 
 ### Results on Office-Home (ResNet-18)
 
@@ -162,6 +165,8 @@ Great thanks to [DomainBed](https://github.com/facebookresearch/DomainBed). We s
 [8] Parascandolo G, Neitz A, ORVIETO A, et al. Learning explanations that are hard to vary[C]//International Conference on Learning Representations. 2020.
 
 [9] Krueger D, Caballero E, Jacobsen J H, et al. Out-of-distribution generalization via risk extrapolation (rex)[C]//International Conference on Machine Learning. PMLR, 2021.
+
+[10] Wang Lu, Jindong Wang, et al. Domain-invariant Feature Exploration for Domain Generalization. TMLR, 2022.
 
 ## Citation
 

@@ -21,8 +21,11 @@ def get_args():
                         default=500, help='Penalty anneal iters used in VREx')
     parser.add_argument('--batch_size', type=int,
                         default=32, help='batch_size')
+    parser.add_argument('--beta', type=float,
+                        default=1, help='DIFEX beta')
     parser.add_argument('--beta1', type=float, default=0.5,
                         help='Adam hyper-param')
+    parser.add_argument('--bottleneck', type=int, default=256)
     parser.add_argument('--checkpoint_freq', type=int,
                         default=3, help='Checkpoint every N epoch')
     parser.add_argument('--classifier', type=str,
@@ -33,6 +36,8 @@ def get_args():
     parser.add_argument('--data_dir', type=str, default='', help='data dir')
     parser.add_argument('--dis_hidden', type=int,
                         default=256, help='dis hidden dimension')
+    parser.add_argument('--disttype', type=str, default='2-norm',
+                        choices=['1-norm', '2-norm', 'cos', 'norm-2-norm', 'norm-1-norm'])
     parser.add_argument('--gpu_id', type=str, nargs='?',
                         default='0', help="device id to run")
     parser.add_argument('--groupdro_eta', type=float,
@@ -41,6 +46,8 @@ def get_args():
                         default=1e-2, help="learning rate used in MLDG")
     parser.add_argument('--lam', type=float,
                         default=1, help="tradeoff hyperparameter used in VREx")
+    parser.add_argument('--layer', type=str, default="bn",
+                        choices=["ori", "bn"])
     parser.add_argument('--lr', type=float, default=1e-2, help="learning rate")
     parser.add_argument('--lr_decay', type=float, default=0.75, help='for sgd')
     parser.add_argument('--lr_decay1', type=float,
@@ -108,6 +115,16 @@ if __name__ == '__main__':
     s = print_args(args, [])
     print('=======hyper-parameter used========')
     print(s)
+
+    if 'DIFEX' in args.algorithm:
+        ms = time.time()
+        n_steps = args.max_epoch*args.steps_per_epoch
+        print('start training fft teacher net')
+        opt1 = get_optimizer(algorithm.teaNet, args, isteacher=True)
+        sch1 = get_scheduler(opt1, args)
+        algorithm.teanettrain(train_loaders, n_steps, opt1, sch1)
+        print('complet time:%.4f' % (time.time()-ms))
+
     acc_record = {}
     acc_type_list = ['train', 'valid', 'target']
     train_minibatches_iterator = zip(*train_loaders)
