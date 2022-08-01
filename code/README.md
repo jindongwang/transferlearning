@@ -57,6 +57,8 @@ To run it instantly without any configuration, I also put it to Google's Colab: 
 - **DeepDG** (Deep domain generalization toolkit) [Pytorch](https://github.com/jindongwang/transferlearning/tree/master/code/DeepDG)
   - Including: ERM, MMD, DANN, CORAL, Mixup, RSC, GroupDRO, etc.
 
+- **DIFEX** (Domain-Invariant Feature EXploration, TMLR-22) [88] [Pytorch](https://github.com/jindongwang/transferlearning/tree/master/code/DeepDG)
+
 ## Traditional transfer learning methods  非深度迁移
 
 - **SVM** (baseline) [Matlab](https://github.com/jindongwang/transferlearning/tree/master/code/traditional/SVM.m)
@@ -328,3 +330,5 @@ accepted in International Conference on Computer Vision (ICCV 2015), Santiago, C
 [86] Yongchun Zhu, ZhenWei Tang, Yudan Liu, et al. Personalized Transfer of User Preferences for Cross-domain Recommendation[C]. WSDM, 2022.
 
 [87] Chang Liu, Xinwei Sun, Jindong Wang, et al. Learning Causal Semantic Representation for Out-of-Distribution Prediction. NeurIPS 2021.
+
+[88] Lu et al. Domain-invariant feature exploration for domain generalization. TMLR 2022.

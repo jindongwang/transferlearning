@@ -55,57 +55,12 @@ Related repos：[[TorchSSL: a unified library for semi-supervised learning](http
 **Latest papers**: 
 
 - By topic: [doc/awesome_papers.md](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md)
-- By date: [[2022-05](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-05)] [[2022-04](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-04)] [[2022-03](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-03)] [[2022-02](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-02)] [[2022-01](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-01)] [[2021-12](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-12)] [[2021-11](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-11)] [[2021-10](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-10)] [[2021-09](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-09)] [[2021-08](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-08)] [[2021-07](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-07)]
+- By date: [[2022-07](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-07)] [[2022-06](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-06)] [[2022-05](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-05)] [[2022-04](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-04)] [[2022-03](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-03)] [[2022-02](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-02)] [[2022-01](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-01)] [[2021-12](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-12)] [[2021-11](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-11)] [[2021-10](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-10)] [[2021-09](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-09)] [[2021-08](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-08)] [[2021-07](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-07)]
 
-*Updated at 2022-07-26:*
+*Updated at 2022-08-01:*
 
-- TMLR-22 [Domain-invariant Feature Exploration for Domain Generalization](https://arxiv.org/abs/2207.12020)
-  - Exploring domain-invariant feature for domain generalization 探索领域不变特征在领域泛化中的应用
-
-- TIST-22 [Domain Generalization for Activity Recognition via Adaptive Feature Fusion](https://arxiv.org/abs/2207.11221)
-  - Domain generalization for activity recognition 领域泛化用于行为识别
-
-- ECCV-22 [Prototype-Guided Continual Adaptation for Class-Incremental Unsupervised Domain Adaptation](https://arxiv.org/abs/2207.10856)
-  - Prototype continual domain adaptation 基于原型的类增量domain adaptation
-
-- [Federated Semi-Supervised Domain Adaptation via Knowledge Transfer](https://arxiv.org/abs/2207.10727)
-  - Federated semi-supervised DA 联邦半监督DA
-
-- [Hyper-Representations for Pre-Training and Transfer Learning](https://arxiv.org/abs/2207.10951)
-  - Hyper-representation for pre-training and fine-tuning 对于预训练和微调的超表示
-
-*Updated at 2022-07-18:*
-
-- MM-22 [Source-Free Domain Adaptation for Real-world Image Dehazing](https://arxiv.org/abs/2207.06644)
-  - Source-free DA for image dehazing 无需源域的迁移用于图像去雾
-
-- [Improved OOD Generalization via Conditional Invariant Regularizer](https://arxiv.org/abs/2207.06687)
-  - Improved OOD generalization via conditional invariant regularizer 通过条件不变正则进行OOD泛化
-
-*Updated at 2022-07-15:*
-
-- CVPR-22 [Segmenting Across Places: The Need for Fair Transfer Learning With Satellite Imagery](https://openaccess.thecvf.com/content/CVPR2022W/FaDE-TCV/html/Zhang_Segmenting_Across_Places_The_Need_for_Fair_Transfer_Learning_With_CVPRW_2022_paper.html)
-  - Fair transfer learning with satellite imagery 公平迁移学习
-
-*Updated at 2022-07-13:*
-
-- [Transferability-Guided Cross-Domain Cross-Task Transfer Learning](https://arxiv.org/abs/2207.05510)
-  - Cross-domain cross-task transfer learning 用迁移性指标指导跨领域跨任务迁移
-
-- [Cross-Architecture Knowledge Distillation](https://arxiv.org/abs/2207.05273)
-  - Cross-architecture knowledge distillation 跨架构的知识蒸馏
-
-- ECCV-22 [Knowledge Condensation Distillation](https://arxiv.org/abs/2207.05409)
-  - Knowledge condensation distillation 知识压缩蒸馏
-
-- [An Information-Theoretic Analysis for Transfer Learning: Error Bounds and Applications](https://arxiv.org/abs/2207.05377)
-  - Information-theoretic analysis for transfer learning 用信息理论解释迁移学习
-
-- [A Data-Based Perspective on Transfer Learning](https://arxiv.org/abs/2207.05739)
-  - Analyze the data numbers in transfer learning 分析迁移学习中数据的重要性
-
-- [PAC-Bayesian Domain Adaptation Bounds for Multiclass Learners](https://arxiv.org/abs/2207.05685)
-  - PAC-Bayesian domain adaptation 基于PAC-Bayesian的domain adaptation
+- [Transfer Learning for Segmentation Problems: Choose the Right Encoder and Skip the Decoder](https://arxiv.org/abs/2207.14508)
+  - Transfer learning for segmentation problems 统一表示迁移学习于分割问题的思路
 
 - - -
 
