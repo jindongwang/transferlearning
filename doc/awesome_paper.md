@@ -608,6 +608,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ## Deep domain adaptation
 
+- NeurIPS-21 [The balancing principle for parameter choice in distance-regularized domain adaptation](https://papers.nips.cc/paper/2021/hash/ae0909a324fb2530e205e52d40266418-Abstract.html)
+  - Hyperparameter selection for domain adaptation 对adaptation中的正则项系数进行选择
+
 - ECCV-22 [Prototype-Guided Continual Adaptation for Class-Incremental Unsupervised Domain Adaptation](https://arxiv.org/abs/2207.10856)
   - Prototype continual domain adaptation 基于原型的类增量domain adaptation
 
@@ -1530,6 +1533,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 - - -
 
 ## Domain generalization
+
+- [Self-Distilled Vision Transformer for Domain Generalization](http://arxiv.org/abs/2207.12392)
+  - Vision transformer for domain generalization 用ViT做domain generalization
 
 - TMLR-22 [Domain-invariant Feature Exploration for Domain Generalization](https://arxiv.org/abs/2207.12020)
   - Exploring domain-invariant feature for domain generalization 探索领域不变特征在领域泛化中的应用
