@@ -17,6 +17,20 @@ Testing **dataset** can be found [here](https://github.com/jindongwang/transferl
 
 - - -
 
+- [code_transfer_learning](#code_transfer_learning)
+	- [Notebooks](#notebooks)
+	- [Fine-tune](#fine-tune)
+	- [Deep feature extractor 提取深度网络特征用于传统方法](#deep-feature-extractor-提取深度网络特征用于传统方法)
+	- [Basic distance 常用的距离度量](#basic-distance-常用的距离度量)
+	- [Semi-supervised learning](#semi-supervised-learning)
+	- [Personalized federated learning](#personalized-federated-learning)
+	- [Useful tools 常用工具](#useful-tools-常用工具)
+	- [Domain generalization 领域泛化](#domain-generalization-领域泛化)
+	- [Traditional transfer learning methods  非深度迁移](#traditional-transfer-learning-methods--非深度迁移)
+	- [Deep transfer learning methods  深度迁移](#deep-transfer-learning-methods--深度迁移)
+	- [Applications](#applications)
+			- [References](#references)
+
 ## Notebooks
 
 **There's even no need to install a library or package, which will make things worse.** I've already put everything you need into a jupyter notebook, which you can access in Google's colab or just see it in this repo [here](https://github.com/jindongwang/transferlearning/tree/master/notebooks/deep_transfer_tutorial.ipynb).
@@ -44,6 +58,14 @@ To run it instantly without any configuration, I also put it to Google's Colab: 
 	- Scipy built-in function: [scipy.stats.wasserstein_distance](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.wasserstein_distance.html)
 	- OpenCV built-in function: `cv.CalcEMD2`
 	- Google's implementation: [Tensorflow](https://github.com/google/wasserstein-dist)
+
+## Semi-supervised learning
+
+[[TorchSSL: a unified library for semi-supervised learning](https://github.com/TorchSSL/TorchSSL)]
+
+## Personalized federated learning
+
+[[PersonalizedFL: a unified library for personalized federated learning](https://github.com/microsoft/PersonalizedFL)]
 
 ## Useful tools 常用工具
 
