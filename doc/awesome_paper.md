@@ -1534,6 +1534,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ## Domain generalization
 
+- [Adaptive Domain Generalization via Online Disagreement Minimization](https://arxiv.org/abs/2208.01996)
+  - Online domain generalization via disagreement minimization 在线DG
+
 - [Self-Distilled Vision Transformer for Domain Generalization](http://arxiv.org/abs/2207.12392)
   - Vision transformer for domain generalization 用ViT做domain generalization
 
