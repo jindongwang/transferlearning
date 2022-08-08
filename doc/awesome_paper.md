@@ -608,6 +608,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ## Deep domain adaptation
 
+- MM-22 [Making the Best of Both Worlds: A Domain-Oriented Transformer for Unsupervised Domain Adaptation](https://arxiv.org/abs/2208.01195)
+  - Transformer for domain adaptation 用transformer进行DA
+
 - NeurIPS-21 [The balancing principle for parameter choice in distance-regularized domain adaptation](https://papers.nips.cc/paper/2021/hash/ae0909a324fb2530e205e52d40266418-Abstract.html)
   - Hyperparameter selection for domain adaptation 对adaptation中的正则项系数进行选择
 
@@ -1533,6 +1536,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 - - -
 
 ## Domain generalization
+
+- IJCAI-22 [Domain Generalization through the Lens of Angular Invariance](https://www.ijcai.org/proceedings/2022/0139.pdf)
+  - Using angular invariance for domain generalization 使用角度不变性进行domain generalization
 
 - [Adaptive Domain Generalization via Online Disagreement Minimization](https://arxiv.org/abs/2208.01996)
   - Online domain generalization via disagreement minimization 在线DG
