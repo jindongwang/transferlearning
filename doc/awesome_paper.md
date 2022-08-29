@@ -1537,6 +1537,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ## Domain generalization
 
+- ECCV-22 workshop [Domain-Specific Risk Minimization](https://arxiv.org/abs/2208.08661)
+  - Domain-specific risk minization for OOD 领域特异性风险最小化用于域泛化
+
 - IJCAI-22 [Domain Generalization through the Lens of Angular Invariance](https://www.ijcai.org/proceedings/2022/0139.pdf)
   - Using angular invariance for domain generalization 使用角度不变性进行domain generalization
 

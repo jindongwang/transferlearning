@@ -59,6 +59,9 @@ Related repos：[[TorchSSL: a unified library for semi-supervised learning](http
 
 *Updated at 2022-08-29:*
 
+- ECCV-22 workshop [Domain-Specific Risk Minimization](https://arxiv.org/abs/2208.08661)
+  - Domain-specific risk minization for OOD 领域特异性风险最小化用于域泛化
+
 - TPAMI [Semi-Supervised and Unsupervised Deep Visual Learning: A Survey](https://arxiv.org/abs/2208.11296)
   - Survey on semi and unsupervsed learning 半监督和无监督综述
 
