@@ -150,6 +150,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ## Per-training/Finetuning
 
+- [Conv-Adapter: Exploring Parameter Efficient Transfer Learning for ConvNets](https://arxiv.org/pdf/2208.07463.pdf)
+  - Parameter efficient CNN adapter for transfer learning 参数高效的CNN adapter用于迁移学习
+
 - [Hyper-Representations for Pre-Training and Transfer Learning](https://arxiv.org/abs/2207.10951)
   - Hyper-representation for pre-training and fine-tuning 对于预训练和微调的超表示
 
@@ -1536,6 +1539,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 - - -
 
 ## Domain generalization
+
+- [Equivariant Disentangled Transformation for Domain Generalization under Combination Shift](https://arxiv.org/abs/2208.02011)
+  - Equivariant disentangled transformation for domain generalization 新的建模domain generalization的思路
 
 - ECCV-22 workshop [Domain-Specific Risk Minimization](https://arxiv.org/abs/2208.08661)
   - Domain-specific risk minization for OOD 领域特异性风险最小化用于域泛化

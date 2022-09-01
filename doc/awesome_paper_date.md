@@ -3,6 +3,7 @@
 Here, we list some papers related to transfer learning by date (starting from 2021-07). For papers older than 2021-07, please refer to the [papers by topic](awesome_paper.md), which contains more papers.
 
 - [Awesome papers by date](#awesome-papers-by-date)
+  - [2022-08](#2022-08)
   - [2022-07](#2022-07)
   - [2022-06](#2022-06)
   - [2022-05](#2022-05)
@@ -16,6 +17,38 @@ Here, we list some papers related to transfer learning by date (starting from 20
   - [2021-09](#2021-09)
   - [2021-08](#2021-08)
   - [2021-07](#2021-07)
+
+## 2022-08
+
+- ECCV-22 workshop [Domain-Specific Risk Minimization](https://arxiv.org/abs/2208.08661)
+  - Domain-specific risk minization for OOD 领域特异性风险最小化用于域泛化
+
+- TPAMI [Semi-Supervised and Unsupervised Deep Visual Learning: A Survey](https://arxiv.org/abs/2208.11296)
+  - Survey on semi and unsupervsed learning 半监督和无监督综述
+
+- [Improving video retrieval using multilingual knowledge transfer](https://arxiv.org/abs/2208.11553)
+  - Video retrieval using multilingual knowledge transfer 多语言知识迁移用于视频检索
+
+- [Transfer Learning-based State of Health Estimation for Lithium-ion Battery with Cycle Synchronization](https://arxiv.org/abs/2208.11204)
+  - Battery health estimation using transfer learning 用迁移学习进行电池健康估计
+
+- IJCAI-22 [Domain Generalization through the Lens of Angular Invariance](https://www.ijcai.org/proceedings/2022/0139.pdf)
+  - Using angular invariance for domain generalization 使用角度不变性进行domain generalization
+
+- MM-22 [Making the Best of Both Worlds: A Domain-Oriented Transformer for Unsupervised Domain Adaptation](https://arxiv.org/abs/2208.01195)
+  - Transformer for domain adaptation 用transformer进行DA
+
+- [Adaptive Domain Generalization via Online Disagreement Minimization](https://arxiv.org/abs/2208.01996)
+  - Online domain generalization via disagreement minimization 在线DG
+
+- [Self-Distilled Vision Transformer for Domain Generalization](http://arxiv.org/abs/2207.12392)
+  - Vision transformer for domain generalization 用ViT做domain generalization
+
+- NeurIPS-21 [The balancing principle for parameter choice in distance-regularized domain adaptation](https://papers.nips.cc/paper/2021/hash/ae0909a324fb2530e205e52d40266418-Abstract.html)
+  - Hyperparameter selection for domain adaptation 对adaptation中的正则项系数进行选择
+
+- [Transfer Learning for Segmentation Problems: Choose the Right Encoder and Skip the Decoder](https://arxiv.org/abs/2207.14508)
+  - Transfer learning for segmentation problems 统一表示迁移学习于分割问题的思路
 
 ## 2022-07 
 

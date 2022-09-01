@@ -40,7 +40,7 @@ author = {Wang, Jindong and others}
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![MIT License](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT) [![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE) [![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu) 
 
-Related repos：[[TorchSSL: a unified library for semi-supervised learning](https://github.com/TorchSSL/TorchSSL)] | [[PersonalizedFL: a unified library for personalized federated learning](https://github.com/microsoft/PersonalizedFL)] | [[Activity recognition](https://github.com/jindongwang/activityrecognition)]｜[[Machine learning](https://github.com/jindongwang/MachineLearning)]
+Related repos：[[USB: unified semi-supervised learning benchmark](https://github.com/microsoft/Semi-supervised-learning)] | [[TorchSSL: a unified SSL library](https://github.com/TorchSSL/TorchSSL)] | [[PersonalizedFL: library for personalized federated learning](https://github.com/microsoft/PersonalizedFL)] | [[Activity recognition](https://github.com/jindongwang/activityrecognition)]｜[[Machine learning](https://github.com/jindongwang/MachineLearning)]
 
 - - -
 
@@ -55,47 +55,15 @@ Related repos：[[TorchSSL: a unified library for semi-supervised learning](http
 **Latest papers**: 
 
 - By topic: [doc/awesome_papers.md](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md)
-- By date: [[2022-07](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-07)] [[2022-06](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-06)] [[2022-05](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-05)] [[2022-04](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-04)] [[2022-03](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-03)] [[2022-02](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-02)] [[2022-01](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-01)] [[2021-12](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-12)] [[2021-11](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-11)] [[2021-10](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-10)] [[2021-09](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-09)] [[2021-08](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-08)] [[2021-07](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-07)]
+- By date: [[2022-08](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-08)] [[2022-07](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-07)] [[2022-06](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-06)] [[2022-05](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-05)] [[2022-04](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-04)] [[2022-03](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-03)] [[2022-02](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-02)] [[2022-01](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-01)] [[2021-12](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-12)] [[2021-11](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-11)] [[2021-10](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-10)] [[2021-09](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-09)] [[2021-08](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-08)] [[2021-07](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-07)]
 
-*Updated at 2022-08-29:*
+*Updated at 2022-09-01:*
 
-- ECCV-22 workshop [Domain-Specific Risk Minimization](https://arxiv.org/abs/2208.08661)
-  - Domain-specific risk minization for OOD 领域特异性风险最小化用于域泛化
+- [Conv-Adapter: Exploring Parameter Efficient Transfer Learning for ConvNets](https://arxiv.org/pdf/2208.07463.pdf)
+  - Parameter efficient CNN adapter for transfer learning 参数高效的CNN adapter用于迁移学习
 
-- TPAMI [Semi-Supervised and Unsupervised Deep Visual Learning: A Survey](https://arxiv.org/abs/2208.11296)
-  - Survey on semi and unsupervsed learning 半监督和无监督综述
-
-- [Improving video retrieval using multilingual knowledge transfer](https://arxiv.org/abs/2208.11553)
-  - Video retrieval using multilingual knowledge transfer 多语言知识迁移用于视频检索
-
-- [Transfer Learning-based State of Health Estimation for Lithium-ion Battery with Cycle Synchronization](https://arxiv.org/abs/2208.11204)
-  - Battery health estimation using transfer learning 用迁移学习进行电池健康估计
-
-*Updated at 2022-08-08:*
-
-- IJCAI-22 [Domain Generalization through the Lens of Angular Invariance](https://www.ijcai.org/proceedings/2022/0139.pdf)
-  - Using angular invariance for domain generalization 使用角度不变性进行domain generalization
-
-- MM-22 [Making the Best of Both Worlds: A Domain-Oriented Transformer for Unsupervised Domain Adaptation](https://arxiv.org/abs/2208.01195)
-  - Transformer for domain adaptation 用transformer进行DA
-
-*Updated at 2022-08-05:*
-
-- [Adaptive Domain Generalization via Online Disagreement Minimization](https://arxiv.org/abs/2208.01996)
-  - Online domain generalization via disagreement minimization 在线DG
-
-*Updated at 2022-08-04:*
-
-- [Self-Distilled Vision Transformer for Domain Generalization](http://arxiv.org/abs/2207.12392)
-  - Vision transformer for domain generalization 用ViT做domain generalization
-
-- NeurIPS-21 [The balancing principle for parameter choice in distance-regularized domain adaptation](https://papers.nips.cc/paper/2021/hash/ae0909a324fb2530e205e52d40266418-Abstract.html)
-  - Hyperparameter selection for domain adaptation 对adaptation中的正则项系数进行选择
-
-*Updated at 2022-08-01:*
-
-- [Transfer Learning for Segmentation Problems: Choose the Right Encoder and Skip the Decoder](https://arxiv.org/abs/2207.14508)
-  - Transfer learning for segmentation problems 统一表示迁移学习于分割问题的思路
+- [Equivariant Disentangled Transformation for Domain Generalization under Combination Shift](https://arxiv.org/abs/2208.02011)
+  - Equivariant disentangled transformation for domain generalization 新的建模domain generalization的思路
 
 - - -
 
@@ -110,16 +78,20 @@ Want to quickly learn transfer learning？想尽快入门迁移学习？看下�
 - Blogs 博客
   - [Zhihu blogs - 知乎专栏《小王爱迁移》系列文章](https://zhuanlan.zhihu.com/p/130244395)
 	
-- Video tutorials 视频教程 
-  - [IJCAI-ECAI'22 tutorial on domain generalization - 领域泛化tutorial](https://dgresearch.github.io/)
-  - [Recent advance of transfer learning - 2021年最新迁移学习发展现状探讨](https://www.bilibili.com/video/BV1N5411T7Sb)
-  - [Definitions of transfer learning area - 迁移学习领域名词解释](https://www.bilibili.com/video/BV1fu411o7BW) [[Article](https://zhuanlan.zhihu.com/p/428097044)]
-  - [Domain generalization - 迁移学习新兴研究方向领域泛化](https://www.bilibili.com/video/BV1ro4y1S7dd/)
-  - [Domain adaptation - 迁移学习中的领域自适应方法(中文)](https://www.bilibili.com/video/BV1T7411R75a/) 
-  - [Transfer learning by Hung-yi Lee @ NTU - 台湾大学李宏毅的视频讲解(中文视频)](https://www.youtube.com/watch?v=qD6iD4TFsdQ)
+- Video tutorials 视频教程
+  - Transfer learning 迁移学习:
+    - [Recent advance of transfer learning - 2022年最新迁移学习发展现状探讨](https://www.bilibili.com/video/BV1nY411E7Uc/)
+    - [Definitions of transfer learning area - 迁移学习领域名词解释](https://www.bilibili.com/video/BV1fu411o7BW) [[Article](https://zhuanlan.zhihu.com/p/428097044)]
+    - [Transfer learning by Hung-yi Lee @ NTU - 台湾大学李宏毅的视频讲解(中文视频)](https://www.youtube.com/watch?v=qD6iD4TFsdQ)
+  - Domain generalization 领域泛化：
+    - [IJCAI-ECAI'22 tutorial on domain generalization - 领域泛化tutorial](https://dgresearch.github.io/)
+    - [Domain generalization - 迁移学习新兴研究方向领域泛化](https://www.bilibili.com/video/BV1ro4y1S7dd/)
+  - Domain adaptation 领域自适应：
+    - [Domain adaptation - 迁移学习中的领域自适应方法(中文)](https://www.bilibili.com/video/BV1T7411R75a/) 
+  
 
 - Brief introduction and slides 简介与ppt资料
-  - [Recent advance of transfer learning](http://jd92.wang/assets/files/l15_jiqizhixin.pdf)
+  - [Recent advance of transfer learning](https://jd92.wang/assets/files/l16_aitime.pdf)
   - [Domain generalization survey](http://jd92.wang/assets/files/DGSurvey-ppt.pdf)
   - [Brief introduction in Chinese](https://github.com/jindongwang/transferlearning/blob/master/doc/%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0%E7%AE%80%E4%BB%8B.md)
 	- [PPT (English)](http://jd92.wang/assets/files/l03_transferlearning.pdf) | [PPT (中文)](http://jd92.wang/assets/files/l08_tl_zh.pdf)
