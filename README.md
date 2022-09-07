@@ -1,11 +1,14 @@
-# 迁移学习 Transfer Learning  
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
 
 <h1 align="center">
   <br>
   <img src="png/logo.jpg" alt="Transfer Leanring" width="500">
 </h1>
 
-<h4 align="center">Everything about Transfer Learning.</h4>
+<h4 align="center">Everything about Transfer Learning. 迁移学习.</h4>
 
 <p align="center">
   <strong><a href="#0papers-论文">Papers</a></strong> •
@@ -291,3 +294,14 @@ If you are interested in contributing, please refer to [HERE](https://github.com
 ### Copyright notice
 
 > ***[Notes]This Github repo can be used by following the corresponding licenses. I want to emphasis that it may contain some PDFs or thesis, which were downloaded by me and can only be used for academic purposes. The copyrights of these materials are owned by corresponding publishers or organizations. All this are for better adademic research. If any of the authors or publishers have concerns, please contact me to delete or replace them.***
+
+[contributors-shield]: https://img.shields.io/github/contributors/jindongwang/transferlearning.svg?style=for-the-badge
+[contributors-url]: https://github.com/jindongwang/transferlearning/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/jindongwang/transferlearning.svg?style=for-the-badge
+[forks-url]: https://github.com/jindongwang/transferlearning/network/members
+[stars-shield]: https://img.shields.io/github/stars/jindongwang/transferlearning.svg?style=for-the-badge
+[stars-url]: https://github.com/jindongwang/transferlearning/stargazers
+[issues-shield]: https://img.shields.io/github/issues/jindongwang/transferlearning.svg?style=for-the-badge
+[issues-url]: https://github.com/jindongwang/transferlearning/issues
+[license-shield]: https://img.shields.io/github/license/jindongwang/transferlearning.svg?style=for-the-badge
+[license-url]: https://github.com/jindongwang/transferlearning/blob/main/LICENSE.txt
