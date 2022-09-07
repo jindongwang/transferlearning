@@ -1540,6 +1540,18 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ## Domain generalization
 
+- Improving Robustness to Out-of-Distribution Data by Frequency-based Augmentation [arxiv](https://arxiv.org/abs/2209.02369)
+  - OOD by frequency-based augmentation 通过基于频率的数据增强进行OOD
+
+- Domain Generalization for Prostate Segmentation in Transrectal Ultrasound Images: A Multi-center Study [arxiv](https://arxiv.org/abs/2209.02126)
+  - Domain generalizationfor prostate segmentation 领域泛化用于前列腺分割
+
+- Domain Adaptation from Scratch [arxiv](https://arxiv.org/abs/2209.00830)
+  - Domain adaptation from scratch
+
+- Towards Optimization and Model Selection for Domain Generalization: A Mixup-guided Solution [arxiv](https://arxiv.org/abs/2209.00652)
+  - Model selection for domain generalization 域泛化中的模型选择问题
+
 - [Equivariant Disentangled Transformation for Domain Generalization under Combination Shift](https://arxiv.org/abs/2208.02011)
   - Equivariant disentangled transformation for domain generalization 新的建模domain generalization的思路
 
