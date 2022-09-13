@@ -150,6 +150,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ## Per-training/Finetuning
 
+- TeST: test-time self-training under distribution shift [[arxiv](https://assets.amazon.science/02/1c/b469914c4732a9c29ac765f948f9/test-test-time-self-training-under-distribution-shift.pdf)]
+  - Test-time self-training 测试时的self-training
+
 - [Conv-Adapter: Exploring Parameter Efficient Transfer Learning for ConvNets](https://arxiv.org/pdf/2208.07463.pdf)
   - Parameter efficient CNN adapter for transfer learning 参数高效的CNN adapter用于迁移学习
 
@@ -610,6 +613,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 	- 发表在IEEE Trans. Knowledge and Data Engineering期刊上
 
 ## Deep domain adaptation
+
+- IEEE-TMM'22 Uncertainty Modeling for Robust Domain Adaptation Under Noisy Environments [[IEEE](https://ieeexplore.ieee.org/abstract/document/9882310)]
+  - Uncertainty modeling for domain adaptation 噪声环境下的domain adaptation
 
 - MM-22 [Making the Best of Both Worlds: A Domain-Oriented Transformer for Unsupervised Domain Adaptation](https://arxiv.org/abs/2208.01195)
   - Transformer for domain adaptation 用transformer进行DA
@@ -1539,6 +1545,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 - - -
 
 ## Domain generalization
+
+- Language-aware Domain Generalization Network for Cross-Scene Hyperspectral Image Classification [[arxiv](https://arxiv.org/pdf/2209.02700.pdf)]
+  - Domain generalization for cross-scene hyperspectral image classification 域泛化用于高光谱图像分类
 
 - Improving Robustness to Out-of-Distribution Data by Frequency-based Augmentation [arxiv](https://arxiv.org/abs/2209.02369)
   - OOD by frequency-based augmentation 通过基于频率的数据增强进行OOD

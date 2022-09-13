@@ -18,6 +18,9 @@ By reverse chronological order.
 
 ## Computer vision
 
+- Language-aware Domain Generalization Network for Cross-Scene Hyperspectral Image Classification [[arxiv](https://arxiv.org/pdf/2209.02700.pdf)]
+  - Domain generalization for cross-scene hyperspectral image classification 域泛化用于高光谱图像分类
+
 - MM-22 [Source-Free Domain Adaptation for Real-world Image Dehazing](https://arxiv.org/abs/2207.06644)
   - Source-free DA for image dehazing 无需源域的迁移用于图像去雾
 
