@@ -61,6 +61,20 @@ Related repos：[[USB: unified semi-supervised learning benchmark](https://githu
 - By date: [[2022-08](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-08)] [[2022-07](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-07)] [[2022-06](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-06)] [[2022-05](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-05)] [[2022-04](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-04)] [[2022-03](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-03)] [[2022-02](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-02)] [[2022-01](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-01)] [[2021-12](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-12)] [[2021-11](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-11)] [[2021-10](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-10)] [[2021-09](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-09)] [[2021-08](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-08)] [[2021-07](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-07)]
 
 
+*Updated at 2022-09-18:*
+
+- Generalized representations learning for time series classification[[arxiv](https://arxiv.org/abs/2209.07027)]
+  - OOD for time series classification 域泛化用于时间序列分类
+
+- USB: A Unified Semi-supervised Learning Benchmark [[arxiv](https://arxiv.org/abs/2208.07204)] [[code](https://github.com/microsoft/Semi-supervised-learning)]
+  - Unified semi-supervised learning codebase 半监督学习统一代码库
+
+- Test-Time Training with Masked Autoencoders [[arxiv](https://arxiv.org/abs/2209.07522)]
+  - Test-time training with MAE MAE的测试时训练
+
+- Test-Time Prompt Tuning for Zero-Shot Generalization in Vision-Language Models [[arxiv](https://arxiv.org/abs/2209.07511)]
+  - Test-time prompt tuning 测试时的prompt tuning
+
 *Updated at 2022-09-13:*
 
 - TeST: test-time self-training under distribution shift [[arxiv](https://assets.amazon.science/02/1c/b469914c4732a9c29ac765f948f9/test-test-time-self-training-under-distribution-shift.pdf)]

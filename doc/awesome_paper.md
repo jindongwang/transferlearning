@@ -150,6 +150,12 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ## Per-training/Finetuning
 
+- Test-Time Training with Masked Autoencoders [[arxiv](https://arxiv.org/abs/2209.07522)]
+  - Test-time training with MAE MAE的测试时训练
+
+- Test-Time Prompt Tuning for Zero-Shot Generalization in Vision-Language Models [[arxiv](https://arxiv.org/abs/2209.07511)]
+  - Test-time prompt tuning 测试时的prompt tuning
+
 - TeST: test-time self-training under distribution shift [[arxiv](https://assets.amazon.science/02/1c/b469914c4732a9c29ac765f948f9/test-test-time-self-training-under-distribution-shift.pdf)]
   - Test-time self-training 测试时的self-training
 
@@ -914,8 +920,6 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 - 20180628 arXiv 提出Office数据集的实验室又放出一个数据集用于close set、open set、以及object detection的迁移学习：[Syn2Real: A New Benchmark forSynthetic-to-Real Visual Domain Adaptation](https://arxiv.org/abs/1806.09755)
 
-
-
 - 20180604 arXiv 在Open set domain adaptation中，用共享和私有部分重建进行问题的解决：[Learning Factorized Representations for Open-set Domain Adaptation](https://arxiv.org/abs/1805.12277)
 
 - 20210706 CVPR-21 [Multi-Target Domain Adaptation With Collaborative Consistency Learning](https://openaccess.thecvf.com/content/CVPR2021/html/Isobe_Multi-Target_Domain_Adaptation_With_Collaborative_Consistency_Learning_CVPR_2021_paper.html)
@@ -1545,6 +1549,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 - - -
 
 ## Domain generalization
+
+- Generalized representations learning for time series classification[[arxiv](https://arxiv.org/abs/2209.07027)]
+  - OOD for time series classification 域泛化用于时间序列分类
 
 - Language-aware Domain Generalization Network for Cross-Scene Hyperspectral Image Classification [[arxiv](https://arxiv.org/pdf/2209.02700.pdf)]
   - Domain generalization for cross-scene hyperspectral image classification 域泛化用于高光谱图像分类
