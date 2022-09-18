@@ -63,7 +63,7 @@ Related repos：[[USB: unified semi-supervised learning benchmark](https://githu
 
 *Updated at 2022-09-18:*
 
-- Generalized representations learning for time series classification[[arxiv](https://arxiv.org/abs/2209.07027)]
+- Generalized representations learning for time series classification [[arxiv](https://arxiv.org/abs/2209.07027)]
   - OOD for time series classification 域泛化用于时间序列分类
 
 - USB: A Unified Semi-supervised Learning Benchmark [[arxiv](https://arxiv.org/abs/2208.07204)] [[code](https://github.com/microsoft/Semi-supervised-learning)]

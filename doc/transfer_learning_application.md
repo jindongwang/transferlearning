@@ -742,7 +742,7 @@ By reverse chronological order.
 
 ## Time series
 
-- Generalized representations learning for time series classification[[arxiv](https://arxiv.org/abs/2209.07027)]
+- Generalized representations learning for time series classification [[arxiv](https://arxiv.org/abs/2209.07027)]
   - OOD for time series classification 域泛化用于时间序列分类
 
 - [Time-Series Domain Adaptation via Sparse Associative Structure Alignment: Learning Invariance and Variance](https://arxiv.org/abs/2205.03554)
