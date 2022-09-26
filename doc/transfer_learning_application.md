@@ -18,6 +18,9 @@ By reverse chronological order.
 
 ## Computer vision
 
+- Deep Domain Adaptation for Detecting Bomb Craters in Aerial Images [[arxiv](https://arxiv.org/abs/2209.11299)]
+  - Bomb craters detection using domain adaptation 用DA检测遥感图像中的炮弹弹坑
+
 - Language-aware Domain Generalization Network for Cross-Scene Hyperspectral Image Classification [[arxiv](https://arxiv.org/pdf/2209.02700.pdf)]
   - Domain generalization for cross-scene hyperspectral image classification 域泛化用于高光谱图像分类
 
@@ -507,9 +510,10 @@ By reverse chronological order.
 
 - 20180402 arXiv 将迁移学习用于癌症检测：[Improve the performance of transfer learning without fine-tuning using dissimilarity-based multi-view learning for breast cancer histology images](https://arxiv.org/abs/1803.11241)
 
-
-
 ## Natural language processing
+
+- Robust Domain Adaptation for Machine Reading Comprehension [[arxiv](https://arxiv.org/abs/2209.11615)]
+  - Domain adaptation for machine reading comprehension 机器阅读理解的domain adaptation
 
 - NAACL-22 [Modularized Transfer Learning with Multiple Knowledge Graphs for Zero-shot Commonsense Reasoning](https://arxiv.org/abs/2206.03715)
   - Transfer learning for zero-shot reasoning 迁移学习用于零次常识推理
@@ -733,14 +737,15 @@ By reverse chronological order.
 
 - 20180516 ACL-18 将对抗迁移学习用于危机状态下的舆情分析：[Domain Adaptation with Adversarial Training and Graph Embeddings](https://arxiv.org/abs/1805.05151)
 
-
-
 - 20180425 arXiv 迁移学习应用于自然语言任务：[Dropping Networks for Transfer Learning](https://arxiv.org/abs/1804.08501)
 
 - 20191214 NIPS-19 workshop [Cross-Language Aphasia Detection using Optimal Transport Domain Adaptation](https://arxiv.org/abs/1912.04370)
     - Optimal transport domain adaptation
 
 ## Time series
+
+- StyleTime: Style Transfer for Synthetic Time Series Generation [[arxiv](https://arxiv.org/abs/2209.11306)]
+  - Style transfer for time series generation 时间序列生成的风格迁移
 
 - Generalized representations learning for time series classification [[arxiv](https://arxiv.org/abs/2209.07027)]
   - OOD for time series classification 域泛化用于时间序列分类

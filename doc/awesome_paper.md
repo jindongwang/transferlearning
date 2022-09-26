@@ -620,6 +620,15 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ## Deep domain adaptation
 
+- Deep Domain Adaptation for Detecting Bomb Craters in Aerial Images [[arxiv](https://arxiv.org/abs/2209.11299)]
+  - Bomb craters detection using domain adaptation 用DA检测遥感图像中的炮弹弹坑
+
+- WACV-23 TeST: Test-time Self-Training under Distribution Shift [[arxiv](https://arxiv.org/abs/2209.11459)]
+  - Test-time self-training 测试时训练
+
+- Robust Domain Adaptation for Machine Reading Comprehension [[arxiv](https://arxiv.org/abs/2209.11615)]
+  - Domain adaptation for machine reading comprehension 机器阅读理解的domain adaptation
+
 - IEEE-TMM'22 Uncertainty Modeling for Robust Domain Adaptation Under Noisy Environments [[IEEE](https://ieeexplore.ieee.org/abstract/document/9882310)]
   - Uncertainty modeling for domain adaptation 噪声环境下的domain adaptation
 
