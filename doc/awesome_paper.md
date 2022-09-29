@@ -1559,6 +1559,12 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ## Domain generalization
 
+- Assaying Out-Of-Distribution Generalization in Transfer Learning [[arXiv](http://arxiv.org/abs/2207.09239)]
+  - A lot of experiments to show OOD performance 
+
+- ICML-21 Accuracy on the Line: on the Strong Correlation Between Out-of-Distribution and In-Distribution Generalization [[arxiv](https://proceedings.mlr.press/v139/miller21b.html)]
+  - Strong correlation between ID and OOD
+
 - Generalized representations learning for time series classification[[arxiv](https://arxiv.org/abs/2209.07027)]
   - OOD for time series classification 域泛化用于时间序列分类
 
