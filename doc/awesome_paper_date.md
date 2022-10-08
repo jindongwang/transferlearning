@@ -3,6 +3,7 @@
 Here, we list some papers related to transfer learning by date (starting from 2021-07). For papers older than 2021-07, please refer to the [papers by topic](awesome_paper.md), which contains more papers.
 
 - [Awesome papers by date](#awesome-papers-by-date)
+  - [2022-09](#2022-09)
   - [2022-08](#2022-08)
   - [2022-07](#2022-07)
   - [2022-06](#2022-06)
@@ -17,6 +18,65 @@ Here, we list some papers related to transfer learning by date (starting from 20
   - [2021-09](#2021-09)
   - [2021-08](#2021-08)
   - [2021-07](#2021-07)
+
+## 2022-09
+
+- Assaying Out-Of-Distribution Generalization in Transfer Learning [[arXiv](http://arxiv.org/abs/2207.09239)]
+  - A lot of experiments to show OOD performance 
+
+- ICML-21 Accuracy on the Line: on the Strong Correlation Between Out-of-Distribution and In-Distribution Generalization [[arxiv](https://proceedings.mlr.press/v139/miller21b.html)]
+  - Strong correlation between ID and OOD
+
+- Deep Domain Adaptation for Detecting Bomb Craters in Aerial Images [[arxiv](https://arxiv.org/abs/2209.11299)]
+  - Bomb craters detection using domain adaptation 用DA检测遥感图像中的炮弹弹坑
+
+- WACV-23 TeST: Test-time Self-Training under Distribution Shift [[arxiv](https://arxiv.org/abs/2209.11459)]
+  - Test-time self-training 测试时训练
+
+- StyleTime: Style Transfer for Synthetic Time Series Generation [[arxiv](https://arxiv.org/abs/2209.11306)]
+  - Style transfer for time series generation 时间序列生成的风格迁移
+
+- Robust Domain Adaptation for Machine Reading Comprehension [[arxiv](https://arxiv.org/abs/2209.11615)]
+  - Domain adaptation for machine reading comprehension 机器阅读理解的domain adaptation
+
+- Generalized representations learning for time series classification [[arxiv](https://arxiv.org/abs/2209.07027)]
+  - OOD for time series classification 域泛化用于时间序列分类
+
+- USB: A Unified Semi-supervised Learning Benchmark [[arxiv](https://arxiv.org/abs/2208.07204)] [[code](https://github.com/microsoft/Semi-supervised-learning)]
+  - Unified semi-supervised learning codebase 半监督学习统一代码库
+
+- Test-Time Training with Masked Autoencoders [[arxiv](https://arxiv.org/abs/2209.07522)]
+  - Test-time training with MAE MAE的测试时训练
+
+- Test-Time Prompt Tuning for Zero-Shot Generalization in Vision-Language Models [[arxiv](https://arxiv.org/abs/2209.07511)]
+  - Test-time prompt tuning 测试时的prompt tuning
+
+- TeST: test-time self-training under distribution shift [[arxiv](https://assets.amazon.science/02/1c/b469914c4732a9c29ac765f948f9/test-test-time-self-training-under-distribution-shift.pdf)]
+  - Test-time self-training 测试时的self-training
+
+- Language-aware Domain Generalization Network for Cross-Scene Hyperspectral Image Classification [[arxiv](https://arxiv.org/pdf/2209.02700.pdf)]
+  - Domain generalization for cross-scene hyperspectral image classification 域泛化用于高光谱图像分类
+
+- IEEE-TMM'22 Uncertainty Modeling for Robust Domain Adaptation Under Noisy Environments [[IEEE](https://ieeexplore.ieee.org/abstract/document/9882310)]
+  - Uncertainty modeling for domain adaptation 噪声环境下的domain adaptation
+
+- Improving Robustness to Out-of-Distribution Data by Frequency-based Augmentation [arxiv](https://arxiv.org/abs/2209.02369)
+  - OOD by frequency-based augmentation 通过基于频率的数据增强进行OOD
+
+- Domain Generalization for Prostate Segmentation in Transrectal Ultrasound Images: A Multi-center Study [arxiv](https://arxiv.org/abs/2209.02126)
+  - Domain generalizationfor prostate segmentation 领域泛化用于前列腺分割
+
+- Domain Adaptation from Scratch [arxiv](https://arxiv.org/abs/2209.00830)
+  - Domain adaptation from scratch
+
+- Towards Optimization and Model Selection for Domain Generalization: A Mixup-guided Solution [arxiv](https://arxiv.org/abs/2209.00652)
+  - Model selection for domain generalization 域泛化中的模型选择问题
+
+- [Conv-Adapter: Exploring Parameter Efficient Transfer Learning for ConvNets](https://arxiv.org/pdf/2208.07463.pdf)
+  - Parameter efficient CNN adapter for transfer learning 参数高效的CNN adapter用于迁移学习
+
+- [Equivariant Disentangled Transformation for Domain Generalization under Combination Shift](https://arxiv.org/abs/2208.02011)
+  - Equivariant disentangled transformation for domain generalization 新的建模domain generalization的思路
 
 ## 2022-08
 

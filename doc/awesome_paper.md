@@ -1559,6 +1559,12 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ## Domain generalization
 
+- TripleE: Easy Domain Generalization via Episodic Replay [[arxiv](https://arxiv.org/pdf/2210.01807.pdf)]
+  - Easy domain generalization by episodic replay
+
+- Deep Spatial Domain Generalization [[arxiv](https://web7.arxiv.org/pdf/2210.00729.pdf)]
+  - Deep spatial domain generalization
+
 - Assaying Out-Of-Distribution Generalization in Transfer Learning [[arXiv](http://arxiv.org/abs/2207.09239)]
   - A lot of experiments to show OOD performance 
 
