@@ -620,6 +620,15 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ## Deep domain adaptation
 
+- Unsupervised Domain Adaptation for COVID-19 Information Service with Contrastive Adversarial Domain Mixup [[arxiv](https://arxiv.org/abs/2210.03250)]
+  - Domain adaptation for COVID-19 用DA进行COVID-19预测
+
+- ICONIP'22 IDPL: Intra-subdomain adaptation adversarial learning segmentation method based on Dynamic Pseudo Labels [[arxiv](https://arxiv.org/abs/2210.03435)]
+  - Intra-domain adaptation for segmentation 子领域对抗Adaptation
+
+- NeurIPS'22 Polyhistor: Parameter-Efficient Multi-Task Adaptation for Dense Vision Tasks [[arxiv](https://arxiv.org/abs/2210.03265)]
+  - Parameter-efficient multi-task adaptation 参数高效的多任务adaptation
+
 - Deep Domain Adaptation for Detecting Bomb Craters in Aerial Images [[arxiv](https://arxiv.org/abs/2209.11299)]
   - Bomb craters detection using domain adaptation 用DA检测遥感图像中的炮弹弹坑
 
@@ -1558,6 +1567,12 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 - - -
 
 ## Domain generalization
+
+- Out-of-Distribution Generalization in Algorithmic Reasoning Through Curriculum Learning [[arxiv](https://arxiv.org/abs/2210.03275)]
+  - OOD in algorithmic reasoning 算法reasoning过程中的OOD
+
+- Towards Out-of-Distribution Adversarial Robustness [[arxiv](https://arxiv.org/abs/2210.03150)]
+  - OOD adversarial robustness OOD对抗鲁棒性
 
 - TripleE: Easy Domain Generalization via Episodic Replay [[arxiv](https://arxiv.org/pdf/2210.01807.pdf)]
   - Easy domain generalization by episodic replay

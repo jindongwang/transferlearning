@@ -18,6 +18,9 @@ By reverse chronological order.
 
 ## Computer vision
 
+- Unsupervised Domain Adaptation for COVID-19 Information Service with Contrastive Adversarial Domain Mixup [[arxiv](https://arxiv.org/abs/2210.03250)]
+  - Domain adaptation for COVID-19 用DA进行COVID-19预测
+
 - Deep Domain Adaptation for Detecting Bomb Craters in Aerial Images [[arxiv](https://arxiv.org/abs/2209.11299)]
   - Bomb craters detection using domain adaptation 用DA检测遥感图像中的炮弹弹坑
 
@@ -299,6 +302,9 @@ By reverse chronological order.
 
 
 ## Medical and healthcare
+
+- Unsupervised Domain Adaptation for COVID-19 Information Service with Contrastive Adversarial Domain Mixup [[arxiv](https://arxiv.org/abs/2210.03250)]
+  - Domain adaptation for COVID-19 用DA进行COVID-19预测
 
 - FL-IJCAI-22 [MetaFed: Federated Learning among Federations with Cyclic Knowledge Distillation for Personalized Healthcare](https://arxiv.org/abs/2206.08516)
   - MetaFed: a new form of federated learning 联邦之联邦学习、新范式

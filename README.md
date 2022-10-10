@@ -60,6 +60,23 @@ Related repos：[[USB: unified semi-supervised learning benchmark](https://githu
 - By topic: [doc/awesome_papers.md](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md)
 - By date: [[2022-09](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-09)] [[2022-08](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-08)] [[2022-07](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-07)] [[2022-06](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-06)] [[2022-05](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-05)] [[2022-04](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-04)] [[2022-03](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-03)] [[2022-02](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-02)] [[2022-01](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-01)] [[2021-12](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-12)] [[2021-11](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-11)] [[2021-10](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-10)] [[2021-09](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-09)] [[2021-08](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-08)] [[2021-07](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-07)]
 
+*Updated at 2022-10-10:*
+
+- Unsupervised Domain Adaptation for COVID-19 Information Service with Contrastive Adversarial Domain Mixup [[arxiv](https://arxiv.org/abs/2210.03250)]
+  - Domain adaptation for COVID-19 用DA进行COVID-19预测
+
+- ICONIP'22 IDPL: Intra-subdomain adaptation adversarial learning segmentation method based on Dynamic Pseudo Labels [[arxiv](https://arxiv.org/abs/2210.03435)]
+  - Intra-domain adaptation for segmentation 子领域对抗Adaptation
+
+- NeurIPS'22 Polyhistor: Parameter-Efficient Multi-Task Adaptation for Dense Vision Tasks [[arxiv](https://arxiv.org/abs/2210.03265)]
+  - Parameter-efficient multi-task adaptation 参数高效的多任务adaptation
+
+- Out-of-Distribution Generalization in Algorithmic Reasoning Through Curriculum Learning [[arxiv](https://arxiv.org/abs/2210.03275)]
+  - OOD in algorithmic reasoning 算法reasoning过程中的OOD
+
+- Towards Out-of-Distribution Adversarial Robustness [[arxiv](https://arxiv.org/abs/2210.03150)]
+  - OOD adversarial robustness OOD对抗鲁棒性
+
 *Updated at 2022-10-08:*
 
 - TripleE: Easy Domain Generalization via Episodic Replay [[arxiv](https://arxiv.org/pdf/2210.01807.pdf)]
