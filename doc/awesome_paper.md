@@ -1568,6 +1568,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ## Domain generalization
 
+- The Evolution of Out-of-Distribution Robustness Throughout Fine-Tuning [[arxiv](https://openreview.net/forum?id=Qs3EfpieOh)]
+  - Evolution of OOD robustness by fine-tuning 
+
 - Out-of-Distribution Generalization in Algorithmic Reasoning Through Curriculum Learning [[arxiv](https://arxiv.org/abs/2210.03275)]
   - OOD in algorithmic reasoning 算法reasoning过程中的OOD
 
@@ -1818,6 +1821,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 - - -
 
 ## Source-free domain adaptation
+
+- Visual Prompt Tuning for Test-time Domain Adaptation [[arxiv](http://arxiv.org/abs/2210.04831)]
+  - VPT for test-time adaptation 用prompt tuning进行test-time DA
 
 - [Active Source Free Domain Adaptation](https://arxiv.org/abs/2205.10711)
   - Active source-free DA 主动学习-无源域DA
