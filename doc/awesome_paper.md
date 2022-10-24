@@ -14,6 +14,8 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
   - [Traditional domain adaptation](#traditional-domain-adaptation)
   - [Deep domain adaptation](#deep-domain-adaptation)
   - [Domain generalization](#domain-generalization)
+    - [Survey](#survey-1)
+    - [Papers](#papers)
   - [Source-free domain adaptation](#source-free-domain-adaptation)
   - [Multi-source domain adaptation](#multi-source-domain-adaptation)
   - [Heterogeneous transfer learning](#heterogeneous-transfer-learning)
@@ -149,6 +151,12 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 	- 对迁移学习中无监督的WGAN进行了一些理论上的分析
 
 ## Per-training/Finetuning
+
+- CVPR-20 Regularizing CNN Transfer Learning With Randomised Regression [[arxiv](https://openaccess.thecvf.com/content_CVPR_2020/html/Zhong_Regularizing_CNN_Transfer_Learning_With_Randomised_Regression_CVPR_2020_paper.html)]
+  - Using randomized regression to regularize CNN 用随机回归约束CNN迁移学习
+
+- AAAI-21 TransTailor: Pruning the Pre-trained Model for Improved Transfer Learning [[arxiv](https://ojs.aaai.org/index.php/AAAI/article/view/17046)]
+  - Pruning pre-trained model for transfer learning 通过对预训练模型进行剪枝来进行迁移学习
 
 - Test-Time Training with Masked Autoencoders [[arxiv](https://arxiv.org/abs/2209.07522)]
   - Test-time training with MAE MAE的测试时训练
@@ -619,6 +627,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 	- 发表在IEEE Trans. Knowledge and Data Engineering期刊上
 
 ## Deep domain adaptation
+
+- WACV-23 ConfMix: Unsupervised Domain Adaptation for Object Detection via Confidence-based Mixing [[arxiv](https://arxiv.org/abs/2210.11539)]
+  - Domain adaptation for object detection using confidence mixing 用置信度mix做domain adaptation
 
 - Unsupervised Domain Adaptation for COVID-19 Information Service with Contrastive Adversarial Domain Mixup [[arxiv](https://arxiv.org/abs/2210.03250)]
   - Domain adaptation for COVID-19 用DA进行COVID-19预测
@@ -1250,8 +1261,6 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
   	- Curriculum dropout for domain adaptation
   	- 基于课程学习的dropout用于DA
 
-
-
 - 20190909 PAMI [Inferring Latent Domains for Unsupervised Deep Domain Adaptation](https://ieeexplore.ieee.org/abstract/document/8792192)
   	- Inferring latent domains for unsupervised deep domain
   	- 在深度迁移学习中推断隐含领域
@@ -1568,6 +1577,17 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ## Domain generalization
 
+### Survey
+
+- TKDE-22 [Generalizing to Unseen Domains: A Survey on Domain Generalization](https://arxiv.org/abs/2103.03097) | [知乎文章](https://zhuanlan.zhihu.com/p/354740610) | [微信公众号](https://mp.weixin.qq.com/s/DsoVDYqLB1N7gj9X5UnYqw) | [Code](https://github.com/jindongwang/transferlearning/tree/master/code/DeepDG)
+    - First survey on domain generalization
+    - 第一篇对Domain generalization (领域泛化)的综述
+
+### Papers
+
+- PhDthesis Generalizing in the Real World with Representation Learning [[arxiv](http://arxiv.org/abs/2210.09925)]
+  - A phd thesis about generalization in real world 一篇关于现实世界如何做Generalization的博士论文
+
 - The Evolution of Out-of-Distribution Robustness Throughout Fine-Tuning [[arxiv](https://openreview.net/forum?id=Qs3EfpieOh)]
   - Evolution of OOD robustness by fine-tuning 
 
@@ -1758,10 +1778,6 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 - CIKM-21 [AdaRNN: Adaptive Learning and Forecasting of Time Series](https://arxiv.org/abs/2108.04443) [Code](https://github.com/jindongwang/transferlearning/tree/master/code/deep/adarnn) [知乎文章](https://zhuanlan.zhihu.com/p/398036372) [Video](https://www.bilibili.com/video/BV1Gh411B7rj/)
     - A new perspective to using transfer learning for time series analysis
     - 一种新的建模时间序列的迁移学习视角
-
-- 2021 Domain generalization: IJCAI-21 [Generalizing to Unseen Domains: A Survey on Domain Generalization](https://arxiv.org/abs/2103.03097) | [知乎文章](https://zhuanlan.zhihu.com/p/354740610) | [微信公众号](https://mp.weixin.qq.com/s/DsoVDYqLB1N7gj9X5UnYqw)
-    - First survey on domain generalization
-    - 第一篇对Domain generalization (领域泛化)的综述
 
 - 20190531 arXiv [Image Alignment in Unseen Domains via Domain Deep Generalization](https://arxiv.org/abs/1905.12028)
   	- Deep domain generalization for image alignment

@@ -60,6 +60,20 @@ Related repos：[[USB: unified semi-supervised learning benchmark](https://githu
 - By topic: [doc/awesome_papers.md](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md)
 - By date: [[2022-09](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-09)] [[2022-08](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-08)] [[2022-07](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-07)] [[2022-06](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-06)] [[2022-05](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-05)] [[2022-04](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-04)] [[2022-03](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-03)] [[2022-02](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-02)] [[2022-01](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-01)] [[2021-12](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-12)] [[2021-11](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-11)] [[2021-10](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-10)] [[2021-09](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-09)] [[2021-08](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-08)] [[2021-07](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-07)]
 
+*Updated at 2022-10-24:*
+
+- WACV-23 ConfMix: Unsupervised Domain Adaptation for Object Detection via Confidence-based Mixing [[arxiv](https://arxiv.org/abs/2210.11539)]
+  - Domain adaptation for object detection using confidence mixing 用置信度mix做domain adaptation
+
+- CVPR-20 Regularizing CNN Transfer Learning With Randomised Regression [[arxiv](https://openaccess.thecvf.com/content_CVPR_2020/html/Zhong_Regularizing_CNN_Transfer_Learning_With_Randomised_Regression_CVPR_2020_paper.html)]
+  - Using randomized regression to regularize CNN 用随机回归约束CNN迁移学习
+
+- AAAI-21 TransTailor: Pruning the Pre-trained Model for Improved Transfer Learning [[arxiv](https://ojs.aaai.org/index.php/AAAI/article/view/17046)]
+  - Pruning pre-trained model for transfer learning 通过对预训练模型进行剪枝来进行迁移学习
+
+- PhDthesis Generalizing in the Real World with Representation Learning [[arxiv](http://arxiv.org/abs/2210.09925)]
+  - A phd thesis about generalization in real world 一篇关于现实世界如何做Generalization的博士论文
+
 *Updated at 2022-10-17:*
 
 - The Evolution of Out-of-Distribution Robustness Throughout Fine-Tuning [[arxiv](https://openreview.net/forum?id=Qs3EfpieOh)]
