@@ -19,26 +19,26 @@ CLIP_MODELS = [
 ]
 
 DATA_FOLDER = [
-    # 'OfficeHome/Art',
-    # 'OfficeHome/Clipart',
-    # 'OfficeHome/Product',
-    # 'OfficeHome/RealWorld',
+    'OfficeHome/Art',
+    'OfficeHome/Clipart',
+    'OfficeHome/Product',
+    'OfficeHome/RealWorld',
 
-    # 'OFFICE31/amazon',
-    # 'OFFICE31/webcam',
-    # 'OFFICE31/dslr',
+    'OFFICE31/amazon',
+    'OFFICE31/webcam',
+    'OFFICE31/dslr',
 
-    # 'VLCS/VLCS/Caltech101',
-    # 'VLCS/VLCS/LabelMe',
-    # 'VLCS/VLCS/SUN09',
-    # 'VLCS/VLCS/VOC2007',
+    'VLCS/VLCS/Caltech101',
+    'VLCS/VLCS/LabelMe',
+    'VLCS/VLCS/SUN09',
+    'VLCS/VLCS/VOC2007',
 
     'PACS/kfold/art_painting',
     'PACS/kfold/cartoon',
     'PACS/kfold/photo',
     'PACS/kfold/sketch',
 
-    # 'imagenet-r',
+    'imagenet-r',
 ]
 
 def get_args():
@@ -78,8 +78,6 @@ def load_model(modelname):
 
 def classify_imagenetr(imagenet_r, imagenetr_labels, model, preprocess, device):
     res = []
-    interv = 300
-    # Load the model
 
     for item in imagenet_r.imgs:
         img, label = item
@@ -93,20 +91,13 @@ def classify_imagenetr(imagenet_r, imagenetr_labels, model, preprocess, device):
             image_features = model.encode_image(image_input)
             text_features = model.encode_text(text_inputs)
 
-        # # Pick the top 5 most similar labels for the image
         image_features /= image_features.norm(dim=-1, keepdim=True)
         text_features /= text_features.norm(dim=-1, keepdim=True)
         similarity = (100.0 * image_features @ text_features.T).softmax(dim=-1)
         values, indices = similarity[0].topk(1)
 
-        # Print the result
-        # print("\nTop predictions:\n")
         for value, index in zip(values, indices):
-            # print(f"{cifar100.classes[index]:>16s}: {100 * value.item():.2f}%")
             res.append([index.cpu().numpy(), label])
-        # if len(res) % interv == 0:
-        #     acc = np.mean(np.array(res)[:, 0] == np.array(res)[:, 1])
-        #     print(f'Accuracy: {acc}, {len(res)}')
     res = np.array(res)
     acc = np.mean(np.array(res)[:, 0] == np.array(res)[:, 1])
     return res, acc
@@ -148,13 +139,17 @@ def test():
     np.savetxt('res.txt', res, fmt='%d')
     print(acc)
 
-
-if __name__ == '__main__':
+def sweep():
+    # Gives all results from all datasets across all models
     for mid in range(len(CLIP_MODELS)):
         for did in range(len(DATA_FOLDER)):
             print(CLIP_MODELS[mid], DATA_FOLDER[did])
             _, acc = perform_inference(mid, did)
             print(f'{acc:.2f}')
         gather_res(mid)
+
+
+if __name__ == '__main__':
+    test()
     
     
