@@ -152,6 +152,12 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ## Per-training/Finetuning
 
+- On Fine-Tuned Deep Features for Unsupervised Domain Adaptation [[arxiv](http://arxiv.org/abs/2210.14083)]
+  - Fine-tuned features for domain adaptation 微调的特征用于域自适应
+
+- Transfer of Machine Learning Fairness across Domains [[arxiv](http://arxiv.org/abs/1906.09688)]
+  - Fairness transfer in transfer learning 迁移学习中的公平性迁移
+
 - CVPR-20 Regularizing CNN Transfer Learning With Randomised Regression [[arxiv](https://openaccess.thecvf.com/content_CVPR_2020/html/Zhong_Regularizing_CNN_Transfer_Learning_With_Randomised_Regression_CVPR_2020_paper.html)]
   - Using randomized regression to regularize CNN 用随机回归约束CNN迁移学习
 
@@ -428,6 +434,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ## Knowledge distillation
 
+- NeurIPS'22 Respecting Transfer Gap in Knowledge Distillation [[arxiv](http://arxiv.org/abs/2210.12787)]
+  - Transfer gap in distillation 知识蒸馏中的迁移gap
+
 - [Cross-Architecture Knowledge Distillation](https://arxiv.org/abs/2207.05273)
   - Cross-architecture knowledge distillation 跨架构的知识蒸馏
 
@@ -627,6 +636,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 	- 发表在IEEE Trans. Knowledge and Data Engineering期刊上
 
 ## Deep domain adaptation
+
+- On Fine-Tuned Deep Features for Unsupervised Domain Adaptation [[arxiv](http://arxiv.org/abs/2210.14083)]
+  - Fine-tuned features for domain adaptation 微调的特征用于域自适应
 
 - WACV-23 ConfMix: Unsupervised Domain Adaptation for Object Detection via Confidence-based Mixing [[arxiv](https://arxiv.org/abs/2210.11539)]
   - Domain adaptation for object detection using confidence mixing 用置信度mix做domain adaptation
