@@ -3,6 +3,7 @@
 Here, we list some papers related to transfer learning by date (starting from 2021-07). For papers older than 2021-07, please refer to the [papers by topic](awesome_paper.md), which contains more papers.
 
 - [Awesome papers by date](#awesome-papers-by-date)
+  - [2022-10](#2022-10)
   - [2022-09](#2022-09)
   - [2022-08](#2022-08)
   - [2022-07](#2022-07)
@@ -18,6 +19,56 @@ Here, we list some papers related to transfer learning by date (starting from 20
   - [2021-09](#2021-09)
   - [2021-08](#2021-08)
   - [2021-07](#2021-07)
+
+## 2022-10
+
+- NeurIPS'22 Respecting Transfer Gap in Knowledge Distillation [[arxiv](http://arxiv.org/abs/2210.12787)]
+  - Transfer gap in distillation 知识蒸馏中的迁移gap
+
+- Transfer of Machine Learning Fairness across Domains [[arxiv](http://arxiv.org/abs/1906.09688)]
+  - Fairness transfer in transfer learning 迁移学习中的公平性迁移
+
+- On Fine-Tuned Deep Features for Unsupervised Domain Adaptation [[arxiv](http://arxiv.org/abs/2210.14083)]
+  - Fine-tuned features for domain adaptation 微调的特征用于域自适应
+
+- WACV-23 ConfMix: Unsupervised Domain Adaptation for Object Detection via Confidence-based Mixing [[arxiv](https://arxiv.org/abs/2210.11539)]
+  - Domain adaptation for object detection using confidence mixing 用置信度mix做domain adaptation
+
+- CVPR-20 Regularizing CNN Transfer Learning With Randomised Regression [[arxiv](https://openaccess.thecvf.com/content_CVPR_2020/html/Zhong_Regularizing_CNN_Transfer_Learning_With_Randomised_Regression_CVPR_2020_paper.html)]
+  - Using randomized regression to regularize CNN 用随机回归约束CNN迁移学习
+
+- AAAI-21 TransTailor: Pruning the Pre-trained Model for Improved Transfer Learning [[arxiv](https://ojs.aaai.org/index.php/AAAI/article/view/17046)]
+  - Pruning pre-trained model for transfer learning 通过对预训练模型进行剪枝来进行迁移学习
+
+- PhDthesis Generalizing in the Real World with Representation Learning [[arxiv](http://arxiv.org/abs/2210.09925)]
+  - A phd thesis about generalization in real world 一篇关于现实世界如何做Generalization的博士论文
+
+- The Evolution of Out-of-Distribution Robustness Throughout Fine-Tuning [[arxiv](https://openreview.net/forum?id=Qs3EfpieOh)]
+  - Evolution of OOD robustness by fine-tuning 
+
+- Visual Prompt Tuning for Test-time Domain Adaptation [[arxiv](http://arxiv.org/abs/2210.04831)]
+  - VPT for test-time adaptation 用prompt tuning进行test-time DA
+
+- Unsupervised Domain Adaptation for COVID-19 Information Service with Contrastive Adversarial Domain Mixup [[arxiv](https://arxiv.org/abs/2210.03250)]
+  - Domain adaptation for COVID-19 用DA进行COVID-19预测
+
+- ICONIP'22 IDPL: Intra-subdomain adaptation adversarial learning segmentation method based on Dynamic Pseudo Labels [[arxiv](https://arxiv.org/abs/2210.03435)]
+  - Intra-domain adaptation for segmentation 子领域对抗Adaptation
+
+- NeurIPS'22 Polyhistor: Parameter-Efficient Multi-Task Adaptation for Dense Vision Tasks [[arxiv](https://arxiv.org/abs/2210.03265)]
+  - Parameter-efficient multi-task adaptation 参数高效的多任务adaptation
+
+- Out-of-Distribution Generalization in Algorithmic Reasoning Through Curriculum Learning [[arxiv](https://arxiv.org/abs/2210.03275)]
+  - OOD in algorithmic reasoning 算法reasoning过程中的OOD
+
+- Towards Out-of-Distribution Adversarial Robustness [[arxiv](https://arxiv.org/abs/2210.03150)]
+  - OOD adversarial robustness OOD对抗鲁棒性
+
+- TripleE: Easy Domain Generalization via Episodic Replay [[arxiv](https://arxiv.org/pdf/2210.01807.pdf)]
+  - Easy domain generalization by episodic replay
+
+- Deep Spatial Domain Generalization [[arxiv](https://web7.arxiv.org/pdf/2210.00729.pdf)]
+  - Deep spatial domain generalization
 
 ## 2022-09
 

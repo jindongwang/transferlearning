@@ -637,6 +637,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ## Deep domain adaptation
 
+- NeurIPS'22 Test Time Adaptation via Conjugate Pseudo-labels [[openreview](https://openreview.net/forum?id=2yvUYc-YNUH)]
+  - Test-time adaptation with conjugate pseudo-labels 用伪标签进行测试时adaptation
+
 - On Fine-Tuned Deep Features for Unsupervised Domain Adaptation [[arxiv](http://arxiv.org/abs/2210.14083)]
   - Fine-tuned features for domain adaptation 微调的特征用于域自适应
 
@@ -1597,6 +1600,18 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ### Papers
 
+- NeurIPS'22 Domain Generalization without Excess Empirical Risk [[openreview](https://openreview.net/forum?id=pluyPFTiTeJ)]
+  - Domain generalization without excess empirical risk 
+
+- NeurIPS'22 FedSR: A Simple and Effective Domain Generalization Method for Federated Learning [[openreview](https://openreview.net/forum?id=mrt90D00aQX)]
+  - FedSR for federated learning domain generalization 用于联邦学习的domain generalization
+
+- NeurIPS'22 Probable Domain Generalization via Quantile Risk Minimization [[openreview](https://openreview.net/forum?id=6FkSHynJr1)]
+  - Domain generalization with quantile risk minimization 用quantile风险最小化的domain generalization
+
+- NeurIPS'22 Your Out-of-Distribution Detection Method is Not Robust! [[openreview](https://openreview.net/forum?id=YUEP3ZmkL1)]
+  - OOD models are not robust 分布外泛化模型不够鲁棒
+
 - PhDthesis Generalizing in the Real World with Representation Learning [[arxiv](http://arxiv.org/abs/2210.09925)]
   - A phd thesis about generalization in real world 一篇关于现实世界如何做Generalization的博士论文
 
@@ -2377,6 +2392,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 - - -
 
 ## Lifelong transfer learning
+
+- NeurIPS'22 Beyond Not-Forgetting: Continual Learning with Backward Knowledge Transfer [[arxiv](http://arxiv.org/abs/2211.00789)]
+  - Continual learning with backward knowledge transfer 反向知识迁移的持续学习
 
 - [Mixture of basis for interpretable continual learning with distribution shifts](https://arxiv.org/abs/2201.01853)
   - Incremental learning with mixture of basis
