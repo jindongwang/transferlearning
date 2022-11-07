@@ -2,7 +2,7 @@
 
 An easy-to-learn, easy-to-extend, and for-fair-comparison toolkit based on PyTorch for domain generalization (DG).
 
-For a complete survey on these and more DG algorithms, please refer to this survey published at IJCAI 2021 survey track: [Generalizing to Unseen Domains: A Survey on Domain Generalization](https://arxiv.org/abs/2103.03097).
+For a complete survey on these and more DG algorithms, please refer to this survey published at *IEEE TKDE 2022*: [Generalizing to Unseen Domains: A Survey on Domain Generalization](https://arxiv.org/abs/2103.03097). More recent news can be obtained from our [IJCAI 2022 tutorial on domain generalization](https://dgresearch.github.io/).
 
 ## Implemented Algorithms
 
