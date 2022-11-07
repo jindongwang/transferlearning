@@ -152,6 +152,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ## Per-training/Finetuning
 
+- NeurIPS'22 Improved Fine-Tuning by Better Leveraging Pre-Training Data [[openreview](https://openreview.net/forum?id=YTXIIc7cAQ)]
+  - Using pre-training data for fine-tuning 用预训练数据来做微调
+
 - On Fine-Tuned Deep Features for Unsupervised Domain Adaptation [[arxiv](http://arxiv.org/abs/2210.14083)]
   - Fine-tuned features for domain adaptation 微调的特征用于域自适应
 
@@ -636,6 +639,15 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 	- 发表在IEEE Trans. Knowledge and Data Engineering期刊上
 
 ## Deep domain adaptation
+
+- NeurIPS'22 Divide and Contrast: Source-free Domain Adaptation via Adaptive Contrastive Learning [[openreview](https://openreview.net/forum?id=NjImFaBEHl)]
+  - Adaptive contrastive learning for source-free DA 自适应的对比学习用于source-free DA
+
+- NeurIPS'22 MetaTeacher: Coordinating Multi-Model Domain Adaptation for Medical Image Classification [[openreview](https://openreview.net/forum?id=AQd4ugzALQ1)]
+  - Multi-model domain adaptation mor medical image classification 多模型DA用于医疗数据
+
+- NeurIPS'22 Domain Adaptation under Open Set Label Shift [[openreview](https://openreview.net/forum?id=OMZG4vsKmm7)]
+  - Domain adaptation under open set label shift 在开放集的label shift中的DA
 
 - NeurIPS'22 Test Time Adaptation via Conjugate Pseudo-labels [[openreview](https://openreview.net/forum?id=2yvUYc-YNUH)]
   - Test-time adaptation with conjugate pseudo-labels 用伪标签进行测试时adaptation
@@ -1599,6 +1611,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
     - 第一篇对Domain generalization (领域泛化)的综述
 
 ### Papers
+
+- NeurIPS'22 LOG: Active Model Adaptation for Label-Efficient OOD Generalization [[openreview](https://openreview.net/forum?id=VdQWVdT_8v)]
+  - Model adaptation for label-efficient OOD generalization
 
 - NeurIPS'22 Domain Generalization without Excess Empirical Risk [[openreview](https://openreview.net/forum?id=pluyPFTiTeJ)]
   - Domain generalization without excess empirical risk 

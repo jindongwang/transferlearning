@@ -60,6 +60,23 @@ Related repos：[[USB: unified semi-supervised learning benchmark](https://githu
 - By topic: [doc/awesome_papers.md](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md)
 - By date: [[2022-10](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-10)] [[2022-09](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-09)] [[2022-08](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-08)] [[2022-07](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-07)] [[2022-06](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-06)] [[2022-05](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-05)] [[2022-04](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-04)] [[2022-03](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-03)] [[2022-02](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-02)] [[2022-01](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-01)] [[2021-12](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-12)] [[2021-11](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-11)] [[2021-10](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-10)] [[2021-09](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-09)] [[2021-08](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-08)] [[2021-07](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-07)]
 
+*Updated at 2022-11-07:*
+
+- NeurIPS'22 Improved Fine-Tuning by Better Leveraging Pre-Training Data [[openreview](https://openreview.net/forum?id=YTXIIc7cAQ)]
+  - Using pre-training data for fine-tuning 用预训练数据来做微调
+
+- NeurIPS'22 Divide and Contrast: Source-free Domain Adaptation via Adaptive Contrastive Learning [[openreview](https://openreview.net/forum?id=NjImFaBEHl)]
+  - Adaptive contrastive learning for source-free DA 自适应的对比学习用于source-free DA
+
+- NeurIPS'22 LOG: Active Model Adaptation for Label-Efficient OOD Generalization [[openreview](https://openreview.net/forum?id=VdQWVdT_8v)]
+  - Model adaptation for label-efficient OOD generalization
+
+- NeurIPS'22 MetaTeacher: Coordinating Multi-Model Domain Adaptation for Medical Image Classification [[openreview](https://openreview.net/forum?id=AQd4ugzALQ1)]
+  - Multi-model domain adaptation mor medical image classification 多模型DA用于医疗数据
+
+- NeurIPS'22 Domain Adaptation under Open Set Label Shift [[openreview](https://openreview.net/forum?id=OMZG4vsKmm7)]
+  - Domain adaptation under open set label shift 在开放集的label shift中的DA
+
 *Updated at 2022-11-03:*
 
 - NeurIPS'22 Domain Generalization without Excess Empirical Risk [[openreview](https://openreview.net/forum?id=pluyPFTiTeJ)]
