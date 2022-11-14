@@ -44,9 +44,13 @@ To run it instantly without any configuration, I also put it to Google's Colab: 
 - Safe finetune 安全迁移学习
   - [PyTorch](https://github.com/jindongwang/transferlearning/tree/master/code/deep/ReMoS)
 
+- CLIP for zero-shot transfer 使用OpenAI的CLIP模型进行zero-shot迁移
+  - [PyTorch](https://github.com/jindongwang/transferlearning/tree/master/code/clip)
+
 ## Deep feature extractor 提取深度网络特征用于传统方法
 
-[Deep feature extractor](https://github.com/jindongwang/transferlearning/blob/master/code/feature_extractor/readme.md)
+- [Deep feature extractor](https://github.com/jindongwang/transferlearning/blob/master/code/feature_extractor/readme.md)
+- [Extract features using CLIP](https://github.com/jindongwang/transferlearning/tree/master/code/clip)
 
 ## Basic distance 常用的距离度量
 
@@ -61,7 +65,8 @@ To run it instantly without any configuration, I also put it to Google's Colab: 
 
 ## Semi-supervised learning
 
-[[TorchSSL: a unified library for semi-supervised learning](https://github.com/TorchSSL/TorchSSL)]
+- [[USB: A unified semi-supervised learning library (TorchSSL's update)](https://github.com/microsoft/Semi-supervised-learning)]
+- [[TorchSSL: a unified library for semi-supervised learning](https://github.com/TorchSSL/TorchSSL)]
 
 ## Personalized federated learning
 
