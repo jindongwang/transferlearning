@@ -1612,6 +1612,15 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ### Papers
 
+- Normalization Perturbation: A Simple Domain Generalization Method for Real-World Domain Shifts [[arxiv](https://arxiv.org/abs/2211.04393)]
+  - Normalization perturbation for domain generalization 通过归一化扰动来进行domain generalization
+
+- FIXED: Frustraitingly easy domain generalization using Mixup [[arxiv](https://arxiv.org/pdf/2211.05228.pdf)]
+  - 使用Mixup进行domain generalization
+
+- Learning to Learn Domain-invariant Parameters for Domain Generalization [[arxiv](https://arxiv.org/abs/2211.04582)]
+  - Learning to learn domain-invariant parameters for domain generalization
+
 - NeurIPS'22 LOG: Active Model Adaptation for Label-Efficient OOD Generalization [[openreview](https://openreview.net/forum?id=VdQWVdT_8v)]
   - Model adaptation for label-efficient OOD generalization
 

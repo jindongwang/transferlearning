@@ -60,6 +60,17 @@ Related repos：[[USB: unified semi-supervised learning benchmark](https://githu
 - By topic: [doc/awesome_papers.md](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md)
 - By date: [[2022-10](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-10)] [[2022-09](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-09)] [[2022-08](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-08)] [[2022-07](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-07)] [[2022-06](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-06)] [[2022-05](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-05)] [[2022-04](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-04)] [[2022-03](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-03)] [[2022-02](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-02)] [[2022-01](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-01)] [[2021-12](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-12)] [[2021-11](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-11)] [[2021-10](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-10)] [[2021-09](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-09)] [[2021-08](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-08)] [[2021-07](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-07)]
 
+*Updated at 2022-11-14:*
+
+- Normalization Perturbation: A Simple Domain Generalization Method for Real-World Domain Shifts [[arxiv](https://arxiv.org/abs/2211.04393)]
+  - Normalization perturbation for domain generalization 通过归一化扰动来进行domain generalization
+
+- FIXED: Frustraitingly easy domain generalization using Mixup [[arxiv](https://arxiv.org/pdf/2211.05228.pdf)]
+  - 使用Mixup进行domain generalization
+
+- Learning to Learn Domain-invariant Parameters for Domain Generalization [[arxiv](https://arxiv.org/abs/2211.04582)]
+  - Learning to learn domain-invariant parameters for domain generalization
+
 *Updated at 2022-11-07:*
 
 - NeurIPS'22 Improved Fine-Tuning by Better Leveraging Pre-Training Data [[openreview](https://openreview.net/forum?id=YTXIIc7cAQ)]
