@@ -21,6 +21,8 @@ Here, we provide benchmark results for the following datasets:
     - [Office-Home (Resnet-18)](#office-home-resnet-18)
   - [References](#references)
 
+**Update at 2022-11:** You may want to check the *zero-shot* results by CLIP in [HERE](https://github.com/jindongwang/transferlearning/tree/master/code/clip#results), which I believe will blow your mind:)
+
 ## Domain adaptation
 
 ### Adaptiope dataset 
