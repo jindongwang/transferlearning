@@ -18,6 +18,9 @@ By reverse chronological order.
 
 ## Computer vision
 
+- ECCV-22 DecoupleNet: Decoupled Network for Domain Adaptive Semantic Segmentation [[arXiv](https://arxiv.org/pdf/2207.09988.pdf)] [[Code](https://github.com/dvlab-research/DecoupleNet)]
+  - Domain adaptation in semantic segmentation 语义分割域适应
+
 - Unsupervised Domain Adaptation for COVID-19 Information Service with Contrastive Adversarial Domain Mixup [[arxiv](https://arxiv.org/abs/2210.03250)]
   - Domain adaptation for COVID-19 用DA进行COVID-19预测
 
