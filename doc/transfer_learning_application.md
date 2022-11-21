@@ -521,6 +521,9 @@ By reverse chronological order.
 
 ## Natural language processing
 
+- GLUE-X: Evaluating Natural Language Understanding Models from an Out-of-distribution Generalization Perspective [[arxiv](https://arxiv.org/abs/2211.08073)]
+  - OOD for natural language processing evaluation 提出GLUE-X用于OOD在NLP数据上的评估
+
 - Robust Domain Adaptation for Machine Reading Comprehension [[arxiv](https://arxiv.org/abs/2209.11615)]
   - Domain adaptation for machine reading comprehension 机器阅读理解的domain adaptation
 
