@@ -60,6 +60,20 @@ Related Codes: [[USB: unified semi-supervised learning benchmark](https://github
 - By topic: [doc/awesome_papers.md](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md)
 - By date: [[2022-10](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-10)] [[2022-09](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-09)] [[2022-08](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-08)] [[2022-07](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-07)] [[2022-06](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-06)] [[2022-05](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-05)] [[2022-04](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-04)] [[2022-03](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-03)] [[2022-02](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-02)] [[2022-01](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-01)] [[2021-12](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-12)] [[2021-11](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-11)] [[2021-10](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-10)] [[2021-09](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-09)] [[2021-08](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-08)] [[2021-07](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-07)]
 
+*Updated at 2022-11-25:*
+
+- Robust Mean Teacher for Continual and Gradual Test-Time Adaptation [[arxiv](https://arxiv.org/abs/2211.13081)]
+  - Mean teacher for test-time adaptation 在测试时用mean teacher进行适配
+
+- Learning to Learn Domain-invariant Parameters for Domain Generalization [[arxiv](Learning to Learn Domain-invariant Parameters for Domain Generalization)]
+  - Learning to learn domain-invariant parameters for DG 元学习进行domain generalization
+
+- HMOE: Hypernetwork-based Mixture of Experts for Domain Generalization [[arxiv](https://arxiv.org/abs/2211.08253)]
+  - Hypernetwork-based ensembling for domain generalization 超网络构成的集成学习用于domain generalization
+
+- The Evolution of Out-of-Distribution Robustness Throughout Fine-Tuning [[arxiv](https://arxiv.org/abs/2106.15831)]
+  - OOD using fine-tuning 系统总结了基于fine-tuning进行OOD的一些结果
+
 *Updated at 2022-11-21:*
 
 - GLUE-X: Evaluating Natural Language Understanding Models from an Out-of-distribution Generalization Perspective [[arxiv](https://arxiv.org/abs/2211.08073)]

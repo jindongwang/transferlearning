@@ -7,27 +7,27 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 这里收录了迁移学习各个研究领域的最新文章。
 
 - [Awesome Transfer Learning Papers](#awesome-transfer-learning-papers)
-  - [Survey](#survey)
-  - [Theory](#theory)
-  - [Per-training/Finetuning](#per-trainingfinetuning)
-  - [Knowledge distillation](#knowledge-distillation)
-  - [Traditional domain adaptation](#traditional-domain-adaptation)
-  - [Deep domain adaptation](#deep-domain-adaptation)
-  - [Domain generalization](#domain-generalization)
-    - [Survey](#survey-1)
-    - [Papers](#papers)
-  - [Source-free domain adaptation](#source-free-domain-adaptation)
-  - [Multi-source domain adaptation](#multi-source-domain-adaptation)
-  - [Heterogeneous transfer learning](#heterogeneous-transfer-learning)
-  - [Online transfer learning](#online-transfer-learning)
-  - [Zero-shot / few-shot learning](#zero-shot--few-shot-learning)
-  - [Multi-task learning](#multi-task-learning)
-  - [Transfer reinforcement learning](#transfer-reinforcement-learning)
-  - [Transfer metric learning](#transfer-metric-learning)
-  - [Federated transfer learning](#federated-transfer-learning)
-  - [Lifelong transfer learning](#lifelong-transfer-learning)
-  - [Safe transfer learning](#safe-transfer-learning)
-  - [Transfer learning applications](#transfer-learning-applications)
+	- [Survey](#survey)
+	- [Theory](#theory)
+	- [Per-training/Finetuning](#per-trainingfinetuning)
+	- [Knowledge distillation](#knowledge-distillation)
+	- [Traditional domain adaptation](#traditional-domain-adaptation)
+	- [Deep domain adaptation](#deep-domain-adaptation)
+	- [Domain generalization](#domain-generalization)
+		- [Survey](#survey-1)
+		- [Papers](#papers)
+	- [Source-free domain adaptation](#source-free-domain-adaptation)
+	- [Multi-source domain adaptation](#multi-source-domain-adaptation)
+	- [Heterogeneous transfer learning](#heterogeneous-transfer-learning)
+	- [Online transfer learning](#online-transfer-learning)
+	- [Zero-shot / few-shot learning](#zero-shot--few-shot-learning)
+	- [Multi-task learning](#multi-task-learning)
+	- [Transfer reinforcement learning](#transfer-reinforcement-learning)
+	- [Transfer metric learning](#transfer-metric-learning)
+	- [Federated transfer learning](#federated-transfer-learning)
+	- [Lifelong transfer learning](#lifelong-transfer-learning)
+	- [Safe transfer learning](#safe-transfer-learning)
+	- [Transfer learning applications](#transfer-learning-applications)
 
 
 ## Survey
@@ -642,6 +642,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 	- 发表在IEEE Trans. Knowledge and Data Engineering期刊上
 
 ## Deep domain adaptation
+
+- Robust Mean Teacher for Continual and Gradual Test-Time Adaptation [[arxiv](https://arxiv.org/abs/2211.13081)]
+  - Mean teacher for test-time adaptation 在测试时用mean teacher进行适配
 
 - ECCV-22 DecoupleNet: Decoupled Network for Domain Adaptive Semantic Segmentation [[arXiv](https://arxiv.org/pdf/2207.09988.pdf)] [[Code](https://github.com/dvlab-research/DecoupleNet)]
   - Domain adaptation in semantic segmentation 语义分割域适应
@@ -1617,6 +1620,15 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
     - 第一篇对Domain generalization (领域泛化)的综述
 
 ### Papers
+
+- Learning to Learn Domain-invariant Parameters for Domain Generalization [[arxiv](Learning to Learn Domain-invariant Parameters for Domain Generalization)]
+  - Learning to learn domain-invariant parameters for DG 元学习进行domain generalization
+
+- HMOE: Hypernetwork-based Mixture of Experts for Domain Generalization [[arxiv](https://arxiv.org/abs/2211.08253)]
+  - Hypernetwork-based ensembling for domain generalization 超网络构成的集成学习用于domain generalization
+
+- The Evolution of Out-of-Distribution Robustness Throughout Fine-Tuning [[arxiv](https://arxiv.org/abs/2106.15831)]
+  - OOD using fine-tuning 系统总结了基于fine-tuning进行OOD的一些结果
 
 - GLUE-X: Evaluating Natural Language Understanding Models from an Out-of-distribution Generalization Perspective [[arxiv](https://arxiv.org/abs/2211.08073)]
   - OOD for natural language processing evaluation 提出GLUE-X用于OOD在NLP数据上的评估
