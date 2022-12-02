@@ -984,6 +984,9 @@ By reverse chronological order.
 
 ## Autonomous driving
 
+- CONDA: Continual Unsupervised Domain Adaptation Learning in Visual Perception for Self-Driving Cars [[arxiv](https://arxiv.org/abs/2212.00621)]
+  - Continual DA for self-driving cars 连续的domain adaptation用于自动驾驶
+
 - 20180909 arXiv [Driving Experience Transfer Method for End-to-End Control of Self-Driving Cars](https://arxiv.org/abs/1809.01822)
 	- Driving experience transfer on self-driving cars
 	- 自动驾驶车上的驾驶经验迁移

@@ -7,27 +7,27 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 这里收录了迁移学习各个研究领域的最新文章。
 
 - [Awesome Transfer Learning Papers](#awesome-transfer-learning-papers)
-	- [Survey](#survey)
-	- [Theory](#theory)
-	- [Per-training/Finetuning](#per-trainingfinetuning)
-	- [Knowledge distillation](#knowledge-distillation)
-	- [Traditional domain adaptation](#traditional-domain-adaptation)
-	- [Deep domain adaptation](#deep-domain-adaptation)
-	- [Domain generalization](#domain-generalization)
-		- [Survey](#survey-1)
-		- [Papers](#papers)
-	- [Source-free domain adaptation](#source-free-domain-adaptation)
-	- [Multi-source domain adaptation](#multi-source-domain-adaptation)
-	- [Heterogeneous transfer learning](#heterogeneous-transfer-learning)
-	- [Online transfer learning](#online-transfer-learning)
-	- [Zero-shot / few-shot learning](#zero-shot--few-shot-learning)
-	- [Multi-task learning](#multi-task-learning)
-	- [Transfer reinforcement learning](#transfer-reinforcement-learning)
-	- [Transfer metric learning](#transfer-metric-learning)
-	- [Federated transfer learning](#federated-transfer-learning)
-	- [Lifelong transfer learning](#lifelong-transfer-learning)
-	- [Safe transfer learning](#safe-transfer-learning)
-	- [Transfer learning applications](#transfer-learning-applications)
+  - [Survey](#survey)
+  - [Theory](#theory)
+  - [Per-training/Finetuning](#per-trainingfinetuning)
+  - [Knowledge distillation](#knowledge-distillation)
+  - [Traditional domain adaptation](#traditional-domain-adaptation)
+  - [Deep domain adaptation](#deep-domain-adaptation)
+  - [Domain generalization](#domain-generalization)
+    - [Survey](#survey-1)
+    - [Papers](#papers)
+  - [Source-free domain adaptation](#source-free-domain-adaptation)
+  - [Multi-source domain adaptation](#multi-source-domain-adaptation)
+  - [Heterogeneous transfer learning](#heterogeneous-transfer-learning)
+  - [Online transfer learning](#online-transfer-learning)
+  - [Zero-shot / few-shot learning](#zero-shot--few-shot-learning)
+  - [Multi-task learning](#multi-task-learning)
+  - [Transfer reinforcement learning](#transfer-reinforcement-learning)
+  - [Transfer metric learning](#transfer-metric-learning)
+  - [Federated transfer learning](#federated-transfer-learning)
+  - [Lifelong transfer learning](#lifelong-transfer-learning)
+  - [Safe transfer learning](#safe-transfer-learning)
+  - [Transfer learning applications](#transfer-learning-applications)
 
 
 ## Survey
@@ -151,6 +151,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 	- 对迁移学习中无监督的WGAN进行了一些理论上的分析
 
 ## Per-training/Finetuning
+
+- Finetune like you pretrain: Improved finetuning of zero-shot vision models [[arxiv]](http://arxiv.org/abs/2212.00638)]
+  - Improved fine-tuning of zero-shot models 针对zero-shot model提高fine-tuneing
 
 - CVPR'22 Does Robustness on ImageNet Transfer to Downstream Tasks? [[arxiv](https://openaccess.thecvf.com/content/CVPR2022/papers/Yamada_Does_Robustness_on_ImageNet_Transfer_to_Downstream_Tasks_CVPR_2022_paper.pdf)]
   - Does robustness on imagenet transfer lto downstream tasks?
@@ -642,6 +645,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 	- 发表在IEEE Trans. Knowledge and Data Engineering期刊上
 
 ## Deep domain adaptation
+
+- CONDA: Continual Unsupervised Domain Adaptation Learning in Visual Perception for Self-Driving Cars [[arxiv](https://arxiv.org/abs/2212.00621)]
+  - Continual DA for self-driving cars 连续的domain adaptation用于自动驾驶
 
 - Robust Mean Teacher for Continual and Gradual Test-Time Adaptation [[arxiv](https://arxiv.org/abs/2211.13081)]
   - Mean teacher for test-time adaptation 在测试时用mean teacher进行适配
