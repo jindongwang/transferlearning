@@ -1627,6 +1627,15 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ### Papers
 
+- TMLR'22 A Unified Survey on Anomaly, Novelty, Open-Set, and Out of-Distribution Detection: Solutions and Future Challenges [[openreview](https://openreview.net/forum?id=aRtjVZvbpK)]
+  - A recent survey on OOD/anomaly detection 一篇最新的关于OOD/anomaly detection的综述
+
+- NeurIPS'18 A Simple Unified Framework for Detecting Out-of-Distribution Samples and Adversarial Attacks [[paper](https://proceedings.neurips.cc/paper/2018/hash/abdeb6f575ac5c6676b747bca8d09cc2-Abstract.html)]
+  - Using class-conditional distribution for OOD detection 使用类条件概率进行OOD检测
+
+- ICLR'22 Discrete Representations Strengthen Vision Transformer Robustness [[arxiv](http://arxiv.org/abs/2111.10493)]
+  - Embed discrete representation for OOD generalization 在ViT中加入离散表征增强OOD性能
+
 - Learning to Learn Domain-invariant Parameters for Domain Generalization [[arxiv](Learning to Learn Domain-invariant Parameters for Domain Generalization)]
   - Learning to learn domain-invariant parameters for DG 元学习进行domain generalization
 
