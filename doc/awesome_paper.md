@@ -646,6 +646,12 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ## Deep domain adaptation
 
+- WACV'23 Cross-Domain Video Anomaly Detection without Target Domain Adaptation [[arxiv](https://arxiv.org/abs/2212.07010)]
+  - Cross-domain video anomaly detection without target domain adaptation 跨域视频异常检测
+
+- Co-Learning with Pre-Trained Networks Improves Source-Free Domain Adaptation [[arxiv](https://arxiv.org/abs/2212.07585)]
+  - Pre-trained models for source-free domain adaptation 用预训练模型进行source-free DA
+
 - CONDA: Continual Unsupervised Domain Adaptation Learning in Visual Perception for Self-Driving Cars [[arxiv](https://arxiv.org/abs/2212.00621)]
   - Continual DA for self-driving cars 连续的domain adaptation用于自动驾驶
 
