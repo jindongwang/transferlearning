@@ -152,9 +152,10 @@ class ClipModel(object):
             pred = torch.squeeze(indices)
             result = torch.cat([pred.view(-1, 1), label.view(-1, 1)], dim=1)
             if res is None:
-                res = torch.zeros_like(result)
-            res = torch.cat([res, result], dim=0)
-        res = res[1:, :].cpu().numpy()
+                res = result
+            else:
+                res = torch.cat([res, result], dim=0)
+        res = res.cpu().numpy()
         acc = np.mean(np.array(res)[:, 0] == np.array(res)[:, 1])
         return acc, res
 
