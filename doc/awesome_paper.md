@@ -646,6 +646,12 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ## Deep domain adaptation
 
+- TPAMI'23 Source-Free Unsupervised Domain Adaptation: A Survey [[arxiv](http://arxiv.org/abs/2301.00265)]
+  - A survey on source-free domain adaptation 关于source-free DA的一个最新综述
+
+- Discriminative Radial Domain Adaptation [[arxiv](http://arxiv.org/abs/2301.00383)]
+  - Discriminative radial domain adaptation 判别性的放射式domain adaptation
+
 - WACV'23 Cross-Domain Video Anomaly Detection without Target Domain Adaptation [[arxiv](https://arxiv.org/abs/2212.07010)]
   - Cross-domain video anomaly detection without target domain adaptation 跨域视频异常检测
 

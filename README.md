@@ -58,110 +58,15 @@ Related Codes: [[USB: unified semi-supervised learning benchmark](https://github
 **Latest papers**: 
 
 - By topic: [doc/awesome_papers.md](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md)
-- By date: [[2022-10](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-10)] [[2022-09](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-09)] [[2022-08](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-08)] [[2022-07](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-07)] [[2022-06](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-06)] [[2022-05](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-05)] [[2022-04](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-04)] [[2022-03](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-03)] [[2022-02](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-02)] [[2022-01](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-01)] [[2021-12](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-12)] [[2021-11](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-11)] [[2021-10](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-10)] [[2021-09](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-09)] [[2021-08](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-08)] [[2021-07](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-07)]
+- By date: [[2022-12](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-12)] [[2022-11](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-11)] [[2022-10](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-10)] [[2022-09](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-09)] [[2022-08](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-08)] [[2022-07](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-07)] [[2022-06](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-06)] [[2022-05](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-05)] [[2022-04](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-04)] [[2022-03](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-03)] [[2022-02](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-02)] [[2022-01](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-01)] [[2021-12](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-12)] [[2021-11](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-11)] [[2021-10](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-10)] [[2021-09](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-09)] [[2021-08](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-08)] [[2021-07](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-07)]
 
-*Updated at 2022-12-16:*
+*Updated at 2023-01-05:*
 
-- WACV'23 Cross-Domain Video Anomaly Detection without Target Domain Adaptation [[arxiv](https://arxiv.org/abs/2212.07010)]
-  - Cross-domain video anomaly detection without target domain adaptation 跨域视频异常检测
+- TPAMI'23 Source-Free Unsupervised Domain Adaptation: A Survey [[arxiv](http://arxiv.org/abs/2301.00265)]
+  - A survey on source-free domain adaptation 关于source-free DA的一个最新综述
 
-- Co-Learning with Pre-Trained Networks Improves Source-Free Domain Adaptation [[arxiv](https://arxiv.org/abs/2212.07585)]
-  - Pre-trained models for source-free domain adaptation 用预训练模型进行source-free DA
-
-*Updated at 2022-12-07:*
-
-- TMLR'22 A Unified Survey on Anomaly, Novelty, Open-Set, and Out of-Distribution Detection: Solutions and Future Challenges [[openreview](https://openreview.net/forum?id=aRtjVZvbpK)]
-  - A recent survey on OOD/anomaly detection 一篇最新的关于OOD/anomaly detection的综述
-
-- NeurIPS'18 A Simple Unified Framework for Detecting Out-of-Distribution Samples and Adversarial Attacks [[paper](https://proceedings.neurips.cc/paper/2018/hash/abdeb6f575ac5c6676b747bca8d09cc2-Abstract.html)]
-  - Using class-conditional distribution for OOD detection 使用类条件概率进行OOD检测
-
-- ICLR'22 Discrete Representations Strengthen Vision Transformer Robustness [[arxiv](http://arxiv.org/abs/2111.10493)]
-  - Embed discrete representation for OOD generalization 在ViT中加入离散表征增强OOD性能
-
-*Updated at 2022-12-02:*
-
-- CONDA: Continual Unsupervised Domain Adaptation Learning in Visual Perception for Self-Driving Cars [[arxiv](https://arxiv.org/abs/2212.00621)]
-  - Continual DA for self-driving cars 连续的domain adaptation用于自动驾驶
-
-- Finetune like you pretrain: Improved finetuning of zero-shot vision models [[arxiv]](http://arxiv.org/abs/2212.00638)]
-  - Improved fine-tuning of zero-shot models 针对zero-shot model提高fine-tuneing
-
-*Updated at 2022-11-25:*
-
-- Robust Mean Teacher for Continual and Gradual Test-Time Adaptation [[arxiv](https://arxiv.org/abs/2211.13081)]
-  - Mean teacher for test-time adaptation 在测试时用mean teacher进行适配
-
-- Learning to Learn Domain-invariant Parameters for Domain Generalization [[arxiv](Learning to Learn Domain-invariant Parameters for Domain Generalization)]
-  - Learning to learn domain-invariant parameters for DG 元学习进行domain generalization
-
-- HMOE: Hypernetwork-based Mixture of Experts for Domain Generalization [[arxiv](https://arxiv.org/abs/2211.08253)]
-  - Hypernetwork-based ensembling for domain generalization 超网络构成的集成学习用于domain generalization
-
-- The Evolution of Out-of-Distribution Robustness Throughout Fine-Tuning [[arxiv](https://arxiv.org/abs/2106.15831)]
-  - OOD using fine-tuning 系统总结了基于fine-tuning进行OOD的一些结果
-
-*Updated at 2022-11-21:*
-
-- GLUE-X: Evaluating Natural Language Understanding Models from an Out-of-distribution Generalization Perspective [[arxiv](https://arxiv.org/abs/2211.08073)]
-  - OOD for natural language processing evaluation 提出GLUE-X用于OOD在NLP数据上的评估
-
-- CVPR'22 Delving Deep Into the Generalization of Vision Transformers Under Distribution Shifts [[arxiv](https://openaccess.thecvf.com/content/CVPR2022/html/Zhang_Delving_Deep_Into_the_Generalization_of_Vision_Transformers_Under_Distribution_CVPR_2022_paper.html)]
-  - Vision transformers generalization under distribution shifts 评估ViT的分布漂移
-
-- NeurIPS'22 Models Out of Line: A Fourier Lens on Distribution Shift Robustness [[arxiv](https://openreview.net/forum?id=YZ-N-sejjwO)]
-  - A fourier lens on distribution shift robustness 通过傅里叶视角来看分布漂移的鲁棒性
-
-- CVPR'22 Does Robustness on ImageNet Transfer to Downstream Tasks? [[arxiv](https://openaccess.thecvf.com/content/CVPR2022/papers/Yamada_Does_Robustness_on_ImageNet_Transfer_to_Downstream_Tasks_CVPR_2022_paper.pdf)]
-  - Does robustness on imagenet transfer lto downstream tasks?
-
-*Updated at 2022-11-14:*
-
-- Normalization Perturbation: A Simple Domain Generalization Method for Real-World Domain Shifts [[arxiv](https://arxiv.org/abs/2211.04393)]
-  - Normalization perturbation for domain generalization 通过归一化扰动来进行domain generalization
-
-- FIXED: Frustraitingly easy domain generalization using Mixup [[arxiv](https://arxiv.org/pdf/2211.05228.pdf)]
-  - 使用Mixup进行domain generalization
-
-- Learning to Learn Domain-invariant Parameters for Domain Generalization [[arxiv](https://arxiv.org/abs/2211.04582)]
-  - Learning to learn domain-invariant parameters for domain generalization
-
-*Updated at 2022-11-07:*
-
-- NeurIPS'22 Improved Fine-Tuning by Better Leveraging Pre-Training Data [[openreview](https://openreview.net/forum?id=YTXIIc7cAQ)]
-  - Using pre-training data for fine-tuning 用预训练数据来做微调
-
-- NeurIPS'22 Divide and Contrast: Source-free Domain Adaptation via Adaptive Contrastive Learning [[openreview](https://openreview.net/forum?id=NjImFaBEHl)]
-  - Adaptive contrastive learning for source-free DA 自适应的对比学习用于source-free DA
-
-- NeurIPS'22 LOG: Active Model Adaptation for Label-Efficient OOD Generalization [[openreview](https://openreview.net/forum?id=VdQWVdT_8v)]
-  - Model adaptation for label-efficient OOD generalization
-
-- NeurIPS'22 MetaTeacher: Coordinating Multi-Model Domain Adaptation for Medical Image Classification [[openreview](https://openreview.net/forum?id=AQd4ugzALQ1)]
-  - Multi-model domain adaptation mor medical image classification 多模型DA用于医疗数据
-
-- NeurIPS'22 Domain Adaptation under Open Set Label Shift [[openreview](https://openreview.net/forum?id=OMZG4vsKmm7)]
-  - Domain adaptation under open set label shift 在开放集的label shift中的DA
-
-*Updated at 2022-11-03:*
-
-- NeurIPS'22 Domain Generalization without Excess Empirical Risk [[openreview](https://openreview.net/forum?id=pluyPFTiTeJ)]
-  - Domain generalization without excess empirical risk 
-
-- NeurIPS'22 FedSR: A Simple and Effective Domain Generalization Method for Federated Learning [[openreview](https://openreview.net/forum?id=mrt90D00aQX)]
-  - FedSR for federated learning domain generalization 用于联邦学习的domain generalization
-
-- NeurIPS'22 Probable Domain Generalization via Quantile Risk Minimization [[openreview](https://openreview.net/forum?id=6FkSHynJr1)]
-  - Domain generalization with quantile risk minimization 用quantile风险最小化的domain generalization
-
-- NeurIPS'22 Beyond Not-Forgetting: Continual Learning with Backward Knowledge Transfer [[arxiv](http://arxiv.org/abs/2211.00789)]
-  - Continual learning with backward knowledge transfer 反向知识迁移的持续学习
-
-- NeurIPS'22 Test Time Adaptation via Conjugate Pseudo-labels [[openreview](https://openreview.net/forum?id=2yvUYc-YNUH)]
-  - Test-time adaptation with conjugate pseudo-labels 用伪标签进行测试时adaptation
-
-- NeurIPS'22 Your Out-of-Distribution Detection Method is Not Robust! [[openreview](https://openreview.net/forum?id=YUEP3ZmkL1)]
-  - OOD models are not robust 分布外泛化模型不够鲁棒
+- Discriminative Radial Domain Adaptation [[arxiv](http://arxiv.org/abs/2301.00383)]
+  - Discriminative radial domain adaptation 判别性的放射式domain adaptation
 
 - - -
 
@@ -238,6 +143,7 @@ Here are some articles on transfer learning theory and survey.
 
 **Survey (综述文章)：**
 
+- 2023 Source-Free Unsupervised Domain Adaptation: A Survey [[arxiv](http://arxiv.org/abs/2301.00265)]
 - 2022 [Transfer Learning for Future Wireless Networks: A Comprehensive Survey](https://arxiv.org/abs/2102.07572)
 - 2022 [A Review of Deep Transfer Learning and Recent Advancements](https://arxiv.org/abs/2201.09679)
 - 2022 [Transferability in Deep Learning: A Survey](https://paperswithcode.com/paper/transferability-in-deep-learning-a-survey), from Mingsheng Long in THU.
