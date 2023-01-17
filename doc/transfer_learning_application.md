@@ -18,6 +18,9 @@ By reverse chronological order.
 
 ## Computer vision
 
+- CLIP the Gap: A Single Domain Generalization Approach for Object Detection [[arxiv](https://arxiv.org/abs/2301.05499)]
+  - Using CLIP for domain generalization object detection 使用CLIP进行域泛化的目标检测
+
 - ECCV-22 DecoupleNet: Decoupled Network for Domain Adaptive Semantic Segmentation [[arXiv](https://arxiv.org/pdf/2207.09988.pdf)] [[Code](https://github.com/dvlab-research/DecoupleNet)]
   - Domain adaptation in semantic segmentation 语义分割域适应
 
@@ -998,6 +1001,9 @@ By reverse chronological order.
     - 迁移学习用于自动驾驶车辆的策略迁移
 
 ## Others
+
+- Language-Informed Transfer Learning for Embodied Household Activities [[arxiv](https://arxiv.org/abs/2301.05318)]
+  - Transfer learning for robust control in household 在家居机器人上使用强化迁移学习
 
 - FL-IJCAI-22 [MetaFed: Federated Learning among Federations with Cyclic Knowledge Distillation for Personalized Healthcare](https://arxiv.org/abs/2206.08516)
   - MetaFed: a new form of federated learning 联邦之联邦学习、新范式

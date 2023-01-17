@@ -1639,6 +1639,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ### Papers
 
+- CLIP the Gap: A Single Domain Generalization Approach for Object Detection [[arxiv](https://arxiv.org/abs/2301.05499)]
+  - Using CLIP for domain generalization object detection 使用CLIP进行域泛化的目标检测
+
 - TMLR'22 A Unified Survey on Anomaly, Novelty, Open-Set, and Out of-Distribution Detection: Solutions and Future Challenges [[openreview](https://openreview.net/forum?id=aRtjVZvbpK)]
   - A recent survey on OOD/anomaly detection 一篇最新的关于OOD/anomaly detection的综述
 
