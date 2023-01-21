@@ -67,6 +67,14 @@ Related Codes: [[USB: unified semi-supervised learning benchmark](https://github
 
 - ICLR'23 FreeMatch: Self-adaptive Thresholding for Semi-supervised Learning [[arxiv](https://arxiv.org/abs/2205.07246)]
   - New baseline for semi-supervised learning 半监督学习新算法
+  
+*Updated at 2023-01-17:*
+
+- CLIP the Gap: A Single Domain Generalization Approach for Object Detection [[arxiv](https://arxiv.org/abs/2301.05499)]
+  - Using CLIP for domain generalization object detection 使用CLIP进行域泛化的目标检测
+
+- Language-Informed Transfer Learning for Embodied Household Activities [[arxiv](https://arxiv.org/abs/2301.05318)]
+  - Transfer learning for robust control in household 在家居机器人上使用强化迁移学习
 
 *Updated at 2023-01-12:*
 
