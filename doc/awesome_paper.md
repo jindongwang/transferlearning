@@ -1639,6 +1639,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ### Papers
 
+- ICLR'23 Out-of-distribution Representation Learning for Time Series Classification [[arxiv](https://arxiv.org/abs/2209.07027)]
+  - OOD for time series classification 时间序列分类的OOD算法
+
 - TMLR'22 A Unified Survey on Anomaly, Novelty, Open-Set, and Out of-Distribution Detection: Solutions and Future Challenges [[openreview](https://openreview.net/forum?id=aRtjVZvbpK)]
   - A recent survey on OOD/anomaly detection 一篇最新的关于OOD/anomaly detection的综述
 
