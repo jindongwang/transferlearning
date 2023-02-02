@@ -1639,6 +1639,15 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ### Papers
 
+- ICLR'23 SoftMatch: Addressing the Quantity-Quality Tradeoff in Semi-supervised Learning [[arxiv](https://arxiv.org/abs/2301.10921)]
+  - Semi-supervised learning algorithm 解决标签质量问题的半监督学习方法
+
+- Empirical Study on Optimizer Selection for Out-of-Distribution Generalization [[arxiv](http://arxiv.org/abs/2211.08583)]
+  - Opimizer selection for OOD generalization OOD泛化中的学习器选择
+
+- ICML'22 Understanding the failure modes of out-of-distribution generalization [[arxiv](https://openreview.net/forum?id=fSTD6NFIW_b)]
+  - Understand the failure modes of OOD generalization 探索OOD泛化中的失败现象
+
 - ICLR'23 Out-of-distribution Representation Learning for Time Series Classification [[arxiv](https://arxiv.org/abs/2209.07027)]
   - OOD for time series classification 时间序列分类的OOD算法
 - CLIP the Gap: A Single Domain Generalization Approach for Object Detection [[arxiv](https://arxiv.org/abs/2301.05499)]

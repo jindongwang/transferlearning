@@ -3,6 +3,7 @@
 Here, we list some papers related to transfer learning by date (starting from 2021-07). For papers older than 2021-07, please refer to the [papers by topic](awesome_paper.md), which contains more papers.
 
 - [Awesome papers by date](#awesome-papers-by-date)
+  - [2023-01](#2023-01)
   - [2022-12](#2022-12)
   - [2022-11](#2022-11)
   - [2022-10](#2022-10)
@@ -21,6 +22,26 @@ Here, we list some papers related to transfer learning by date (starting from 20
   - [2021-09](#2021-09)
   - [2021-08](#2021-08)
   - [2021-07](#2021-07)
+
+## 2023-01
+
+- ICLR'23 FreeMatch: Self-adaptive Thresholding for Semi-supervised Learning [[arxiv](https://arxiv.org/abs/2205.07246)]
+  - New baseline for semi-supervised learning 半监督学习新算法
+
+- CLIP the Gap: A Single Domain Generalization Approach for Object Detection [[arxiv](https://arxiv.org/abs/2301.05499)]
+  - Using CLIP for domain generalization object detection 使用CLIP进行域泛化的目标检测
+
+- Language-Informed Transfer Learning for Embodied Household Activities [[arxiv](https://arxiv.org/abs/2301.05318)]
+  - Transfer learning for robust control in household 在家居机器人上使用强化迁移学习
+
+- Does progress on ImageNet transfer to real-world datasets? [[arxiv](https://arxiv.org/abs/2301.04644)]
+  - ImageNet accuracy does not transfer to down-stream tasks
+
+- TPAMI'23 Source-Free Unsupervised Domain Adaptation: A Survey [[arxiv](http://arxiv.org/abs/2301.00265)]
+  - A survey on source-free domain adaptation 关于source-free DA的一个最新综述
+
+- Discriminative Radial Domain Adaptation [[arxiv](http://arxiv.org/abs/2301.00383)]
+  - Discriminative radial domain adaptation 判别性的放射式domain adaptation
 
 ## 2022-12
 
