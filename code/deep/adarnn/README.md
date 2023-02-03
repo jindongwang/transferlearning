@@ -1,6 +1,8 @@
 # AdaRNN: Adaptive Learning and Forecasting for Time Series
 
-This project implements our paper [AdaRNN: Adaptive Learning and Forecasting for Time Series](https://arxiv.org/abs/2108.04443) at CIKM 2021. Please refer to our paper [1] for the method and technical details.  [Paper video](https://www.bilibili.com/video/BV1Gh411B7rj/) | [Zhihu article](https://zhuanlan.zhihu.com/p/398036372)
+This project implements our paper [AdaRNN: Adaptive Learning and Forecasting for Time Series](https://arxiv.org/abs/2108.04443) at CIKM 2021. Please refer to our paper [1] for the method and technical details.  [Paper video](https://www.bilibili.com/video/BV1Gh411B7rj/) | [Zhihu](https://zhuanlan.zhihu.com/p/398036372)
+
+**Update at 2023/02:** The new end-to-end version of AdaRNN is accepted by ICLR 2023. Check the new paper and code in [Out-of-distribution representation learning of time series classification](https://arxiv.org/abs/2209.07027)!
 
 <img src = "https://z3.ax1x.com/2021/08/13/fslCgH.png" align = "right" width = "400">
 
