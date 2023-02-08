@@ -759,6 +759,12 @@ By reverse chronological order.
 
 ## Time series
 
+- ICLR'23 Out-of-distribution Representation Learning for Time Series Classification [[arxiv](https://arxiv.org/abs/2209.07027)]
+  - OOD for time series classification 时间序列分类的OOD算法
+
+- Domain Adaptation for Time Series Under Feature and Label Shifts [[arxiv](https://arxiv.org/abs/2302.03133)]
+  - Domain adaptation for time series 用于时间序列的domain adaptation
+
 - StyleTime: Style Transfer for Synthetic Time Series Generation [[arxiv](https://arxiv.org/abs/2209.11306)]
   - Style transfer for time series generation 时间序列生成的风格迁移
 
@@ -1001,6 +1007,9 @@ By reverse chronological order.
     - 迁移学习用于自动驾驶车辆的策略迁移
 
 ## Others
+
+- Transfer learning for process design with reinforcement learning [[arxiv](https://arxiv.org/abs/2302.03375)]
+  - Transfer learning for process design with reinforcement learning 使用强化迁移学习进行过程设计
 
 - Language-Informed Transfer Learning for Embodied Household Activities [[arxiv](https://arxiv.org/abs/2301.05318)]
   - Transfer learning for robust control in household 在家居机器人上使用强化迁移学习

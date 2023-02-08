@@ -646,6 +646,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ## Deep domain adaptation
 
+- Domain Adaptation for Time Series Under Feature and Label Shifts [[arxiv](https://arxiv.org/abs/2302.03133)]
+  - Domain adaptation for time series 用于时间序列的domain adaptation
+
 - TPAMI'23 Source-Free Unsupervised Domain Adaptation: A Survey [[arxiv](http://arxiv.org/abs/2301.00265)]
   - A survey on source-free domain adaptation 关于source-free DA的一个最新综述
 
@@ -1638,6 +1641,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
     - 第一篇对Domain generalization (领域泛化)的综述
 
 ### Papers
+
+- How Reliable is Your Regression Model's Uncertainty Under Real-World Distribution Shifts? [[arxiv](https://arxiv.org/abs/2302.03679)]
+  - Regression models uncertainty for distribution shift 回归模型对于分布漂移的不确定性
 
 - ICLR'23 SoftMatch: Addressing the Quantity-Quality Tradeoff in Semi-supervised Learning [[arxiv](https://arxiv.org/abs/2301.10921)]
   - Semi-supervised learning algorithm 解决标签质量问题的半监督学习方法

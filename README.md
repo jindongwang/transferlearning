@@ -60,6 +60,17 @@ Related Codes: [[USB: unified semi-supervised learning benchmark](https://github
 - By topic: [doc/awesome_papers.md](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md)
 - By date: [[2023-01](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2023-01)] [[2022-12](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-12)] [[2022-11](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-11)] [[2022-10](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-10)] [[2022-09](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-09)] [[2022-08](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-08)] [[2022-07](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-07)] [[2022-06](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-06)] [[2022-05](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-05)] [[2022-04](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-04)] [[2022-03](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-03)] [[2022-02](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-02)] [[2022-01](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-01)] [[2021-12](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-12)] [[2021-11](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-11)] [[2021-10](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-10)] [[2021-09](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-09)] [[2021-08](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-08)] [[2021-07](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-07)]
 
+*Updated at 2023-02-08:*
+
+- Transfer learning for process design with reinforcement learning [[arxiv](https://arxiv.org/abs/2302.03375)]
+  - Transfer learning for process design with reinforcement learning 使用强化迁移学习进行过程设计
+
+- Domain Adaptation for Time Series Under Feature and Label Shifts [[arxiv](https://arxiv.org/abs/2302.03133)]
+  - Domain adaptation for time series 用于时间序列的domain adaptation
+
+- How Reliable is Your Regression Model's Uncertainty Under Real-World Distribution Shifts? [[arxiv](https://arxiv.org/abs/2302.03679)]
+  - Regression models uncertainty for distribution shift 回归模型对于分布漂移的不确定性
+
 *Updated at 2023-02-02:*
 
 - ICLR'23 SoftMatch: Addressing the Quantity-Quality Tradeoff in Semi-supervised Learning [[arxiv](https://arxiv.org/abs/2301.10921)]
