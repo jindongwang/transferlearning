@@ -1642,6 +1642,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ### Papers
 
+- On the Robustness of ChatGPT: An Adversarial and Out-of-distribution Perspective [[arxiv](https://arxiv.org/abs/2302.12095)] | [[code](https://github.com/microsoft/robustlearn)]
+  - Adversarial and OOD evaluation of ChatGPT 对ChatGPT鲁棒性的评测
+
 - How Reliable is Your Regression Model's Uncertainty Under Real-World Distribution Shifts? [[arxiv](https://arxiv.org/abs/2302.03679)]
   - Regression models uncertainty for distribution shift 回归模型对于分布漂移的不确定性
 

@@ -524,6 +524,9 @@ By reverse chronological order.
 
 ## Natural language processing
 
+- On the Robustness of ChatGPT: An Adversarial and Out-of-distribution Perspective [[arxiv](https://arxiv.org/abs/2302.12095)] | [[code](https://github.com/microsoft/robustlearn)]
+  - Adversarial and OOD evaluation of ChatGPT 对ChatGPT鲁棒性的评测
+
 - GLUE-X: Evaluating Natural Language Understanding Models from an Out-of-distribution Generalization Perspective [[arxiv](https://arxiv.org/abs/2211.08073)]
   - OOD for natural language processing evaluation 提出GLUE-X用于OOD在NLP数据上的评估
 

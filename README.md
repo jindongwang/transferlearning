@@ -43,7 +43,11 @@ author = {Wang, Jindong and others}
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![MIT License](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT) [![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE) [![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu) 
 
-Related Codes: [[USB: unified semi-supervised learning benchmark](https://github.com/microsoft/Semi-supervised-learning)] | [[TorchSSL: a unified SSL library](https://github.com/TorchSSL/TorchSSL)] | [[PersonalizedFL: library for personalized federated learning](https://github.com/microsoft/PersonalizedFL)] | [[Activity recognition](https://github.com/jindongwang/activityrecognition)]｜[[Machine learning](https://github.com/jindongwang/MachineLearning)]
+Related Codes: 
+  - Robust machine learning: [[robustlearn: robust machine learning](https://github.com/microsoft/robustlearn)]
+  - Semi-supervised learning: [[USB: unified semi-supervised learning benchmark](https://github.com/microsoft/Semi-supervised-learning)] | [[TorchSSL: a unified SSL library](https://github.com/TorchSSL/TorchSSL)] 
+  - Federated learning: [[PersonalizedFL: library for personalized federated learning](https://github.com/microsoft/PersonalizedFL)]
+  - Activity recognition and machine learning [[Activity recognition](https://github.com/jindongwang/activityrecognition)]｜[[Machine learning](https://github.com/jindongwang/MachineLearning)]
 
 - - -
 
@@ -59,6 +63,12 @@ Related Codes: [[USB: unified semi-supervised learning benchmark](https://github
 
 - By topic: [doc/awesome_papers.md](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md)
 - By date: [[2023-01](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2023-01)] [[2022-12](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-12)] [[2022-11](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-11)] [[2022-10](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-10)] [[2022-09](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-09)] [[2022-08](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-08)] [[2022-07](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-07)] [[2022-06](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-06)] [[2022-05](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-05)] [[2022-04](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-04)] [[2022-03](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-03)] [[2022-02](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-02)] [[2022-01](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-01)] [[2021-12](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-12)] [[2021-11](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-11)] [[2021-10](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-10)] [[2021-09](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-09)] [[2021-08](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-08)] [[2021-07](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-07)]
+
+*Updated at 2023-02-23:*
+
+- On the Robustness of ChatGPT: An Adversarial and Out-of-distribution Perspective [[arxiv](https://arxiv.org/abs/2302.12095)] | [[code](https://github.com/microsoft/robustlearn)]
+  - Adversarial and OOD evaluation of ChatGPT 对ChatGPT鲁棒性的评测
+
 
 *Updated at 2023-02-08:*
 
