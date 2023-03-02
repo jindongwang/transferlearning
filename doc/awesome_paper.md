@@ -15,6 +15,7 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
   - [Deep domain adaptation](#deep-domain-adaptation)
   - [Domain generalization](#domain-generalization)
     - [Survey](#survey-1)
+    - [Tutorial](#tutorial)
     - [Papers](#papers)
   - [Source-free domain adaptation](#source-free-domain-adaptation)
   - [Multi-source domain adaptation](#multi-source-domain-adaptation)
@@ -1640,7 +1641,18 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
     - First survey on domain generalization
     - 第一篇对Domain generalization (领域泛化)的综述
 
+### Tutorial
+
+- WSDM-23 A tutorial on domain generalization [[link](https://dl.acm.org/doi/10.1145/3539597.3572722)] | [[website](https://dgresearch.github.io/)]
+  - A tutorial on domain generalization
+
 ### Papers
+
+- Robust Representation Learning with Self-Distillation for Domain Generalization [[arxiv](http://arxiv.org/abs/2302.06874)]
+  - Robust representation learning with self-distillation
+
+- ICLR-23 Temporal Coherent Test-Time Optimization for Robust Video Classification [[arxiv](http://arxiv.org/abs/2302.14309)]
+  - Temporal distribution shift in video classification
 
 - On the Robustness of ChatGPT: An Adversarial and Out-of-distribution Perspective [[arxiv](https://arxiv.org/abs/2302.12095)] | [[code](https://github.com/microsoft/robustlearn)]
   - Adversarial and OOD evaluation of ChatGPT 对ChatGPT鲁棒性的评测

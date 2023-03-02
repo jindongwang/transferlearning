@@ -64,6 +64,17 @@ Related Codes:
 - By topic: [doc/awesome_papers.md](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md)
 - By date: [[2023-01](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2023-01)] [[2022-12](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-12)] [[2022-11](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-11)] [[2022-10](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-10)] [[2022-09](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-09)] [[2022-08](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-08)] [[2022-07](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-07)] [[2022-06](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-06)] [[2022-05](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-05)] [[2022-04](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-04)] [[2022-03](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-03)] [[2022-02](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-02)] [[2022-01](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2022-01)] [[2021-12](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-12)] [[2021-11](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-11)] [[2021-10](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-10)] [[2021-09](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-09)] [[2021-08](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-08)] [[2021-07](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper_date.md#2021-07)]
 
+*Updated at 2023-02-02:*
+
+- Robust Representation Learning with Self-Distillation for Domain Generalization [[arxiv](http://arxiv.org/abs/2302.06874)]
+  - Robust representation learning with self-distillation
+
+- ICLR-23 Temporal Coherent Test-Time Optimization for Robust Video Classification [[arxiv](http://arxiv.org/abs/2302.14309)]
+  - Temporal distribution shift in video classification
+
+- WSDM-23 A tutorial on domain generalization [[link](https://dl.acm.org/doi/10.1145/3539597.3572722)] | [[website](https://dgresearch.github.io/)]
+  - A tutorial on domain generalization
+
 *Updated at 2023-02-23:*
 
 - On the Robustness of ChatGPT: An Adversarial and Out-of-distribution Perspective [[arxiv](https://arxiv.org/abs/2302.12095)] | [[code](https://github.com/microsoft/robustlearn)]
