@@ -153,6 +153,12 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ## Per-training/Finetuning
 
+- To Stay or Not to Stay in the Pre-train Basin: Insights on Ensembling in Transfer Learning [[arxiv](https://arxiv.org/abs/2303.03374)]
+  - Ensembling in transfer learning 调研迁移学习中的集成
+
+- CVPR'13 Masked Images Are Counterfactual Samples for Robust Fine-tuning [[arxiv](https://arxiv.org/abs/2303.03052)]
+  - Masked images for robust fine-tuning 调研masked image对于fine-tuning的影响
+
 - Finetune like you pretrain: Improved finetuning of zero-shot vision models [[arxiv]](http://arxiv.org/abs/2212.00638)]
   - Improved fine-tuning of zero-shot models 针对zero-shot model提高fine-tuneing
 
@@ -1643,10 +1649,13 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ### Tutorial
 
-- WSDM-23 A tutorial on domain generalization [[link](https://dl.acm.org/doi/10.1145/3539597.3572722)] | [[website](https://dgresearch.github.io/)]
+- WSDM-23 and IJCAI-22 A tutorial on domain generalization [[link](https://dl.acm.org/doi/10.1145/3539597.3572722)] | [[website](https://dgresearch.github.io/)]
   - A tutorial on domain generalization
 
 ### Papers
+
+- FedCLIP: Fast Generalization and Personalization for CLIP in Federated Learning [[arxiv](https://arxiv.org/abs/2302.13485v1)]
+  - Fast generalization for federated CLIP 在联邦中进行快速的CLIP训练
 
 - Robust Representation Learning with Self-Distillation for Domain Generalization [[arxiv](http://arxiv.org/abs/2302.06874)]
   - Robust representation learning with self-distillation
@@ -2438,6 +2447,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 - - -
 
 ## Federated transfer learning
+
+- FedCLIP: Fast Generalization and Personalization for CLIP in Federated Learning [[arxiv](https://arxiv.org/abs/2302.13485v1)]
+  - Fast generalization for federated CLIP 在联邦中进行快速的CLIP训练
 
 - [Federated Semi-Supervised Domain Adaptation via Knowledge Transfer](https://arxiv.org/abs/2207.10727)
   - Federated semi-supervised DA 联邦半监督DA
