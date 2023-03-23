@@ -153,6 +153,15 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ## Per-training/Finetuning
 
+- ICLR'23 Contrastive Alignment of Vision to Language Through Parameter-Efficient Transfer Learning [[arxiv](http://arxiv.org/abs/2303.11866)]
+  - Contrastive alignment for vision language models using transfer learning 使用参数高效迁移进行视觉语言模型的对比对齐
+
+- ICLR'23 workshop SPDF: Sparse Pre-training and Dense Fine-tuning for Large Language Models [[arxiv](http://arxiv.org/abs/2303.10464)]
+  - Sparse pre-training and dense fine-tuning
+
+- A Unified Continual Learning Framework with General Parameter-Efficient Tuning [[arxiv](http://arxiv.org/abs/2303.10070)]
+  - A continual learning framework for parameter-efficient tuning 一个对于参数高效迁移的连续学习框架
+
 - Transfer Learning for Real-time Deployment of a Screening Tool for Depression Detection Using Actigraphy [[arxiv](https://arxiv.org/abs/2303.07847)]
   - Transfer learning for Depression detection 迁移学习用于脉动计焦虑检测
 
@@ -661,6 +670,18 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 	- 发表在IEEE Trans. Knowledge and Data Engineering期刊上
 
 ## Deep domain adaptation
+
+- TempT: Temporal consistency for Test-time adaptation [[arxiv](http://arxiv.org/abs/2303.10536)]
+  - Temporeal consistency for test-time adaptation 时间一致性用于test-time adaptation
+
+- CVPR'23 A New Benchmark: On the Utility of Synthetic Data with Blender for Bare Supervised Learning and Downstream Domain Adaptation [[arxiv](http://arxiv.org/abs/2303.09165)]
+  - A new benchmark for domain adaptation 一个对于domain adaptation最新的benchmark
+
+- Unsupervised domain adaptation by learning using privileged information [[arxiv](http://arxiv.org/abs/2303.09350)]
+  - Domain adaptation by privileged information 使用高级信息进行domain adaptation
+
+- Probabilistic Domain Adaptation for Biomedical Image Segmentation [[arxiv](http://arxiv.org/abs/2303.11790)]
+  - Probabilistic domain adaptation for biomedical image segmentation 概率的domain adaptation用于生物医疗图像分割
 
 - Unsupervised Cumulative Domain Adaptation for Foggy Scene Optical Flow [[arxiv](https://arxiv.org/abs/2303.07564)]
   - Domain adaptation for foggy scene optical flow 领域自适应用于雾场景的光流
@@ -1666,6 +1687,12 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ### Papers
 
+- CVPR'23 ALOFT: A Lightweight MLP-like Architecture with Dynamic Low-frequency Transform for Domain Generalization [[arxiv](http://arxiv.org/abs/2303.11674)]
+  - A lightweight module for domain generalization 一个用于DG的轻量级模块
+
+- CVPR'23 Sharpness-Aware Gradient Matching for Domain Generalization [[arxiv](http://arxiv.org/abs/2303.10353)]
+  - Sharpness-aware gradient matching for DG 利用梯度匹配进行domain generalization
+
 - Domain Generalization via Nuclear Norm Regularization [[arxiv](https://arxiv.org/abs/2303.07527)]
   - Domain generalization via nuclear norm regularization 使用核归一化进行domain generalization
 
@@ -2535,6 +2562,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 - - -
 
 ## Lifelong transfer learning
+
+- TMLR'23 Learn, Unlearn and Relearn: An Online Learning Paradigm for Deep Neural Networks [[arxiv](http://arxiv.org/abs/2303.10455)]
+  - A framework for online learning 一个在线学习的框架
 
 - NeurIPS'22 Beyond Not-Forgetting: Continual Learning with Backward Knowledge Transfer [[arxiv](http://arxiv.org/abs/2211.00789)]
   - Continual learning with backward knowledge transfer 反向知识迁移的持续学习

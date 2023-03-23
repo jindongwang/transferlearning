@@ -315,6 +315,9 @@ By reverse chronological order.
 
 ## Medical and healthcare
 
+- Probabilistic Domain Adaptation for Biomedical Image Segmentation [[arxiv](http://arxiv.org/abs/2303.11790)]
+  - Probabilistic domain adaptation for biomedical image segmentation 概率的domain adaptation用于生物医疗图像分割
+
 - Transfer Learning for Real-time Deployment of a Screening Tool for Depression Detection Using Actigraphy [[arxiv](https://arxiv.org/abs/2303.07847)]
   - Transfer learning for Depression detection 迁移学习用于脉动计焦虑检测
 
