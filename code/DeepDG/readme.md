@@ -42,7 +42,7 @@ Our code supports the following dataset:
 * [Office-Home](https://github.com/jindongwang/transferlearning/tree/master/data#office-home)
 * [Office-Caltech](https://github.com/jindongwang/transferlearning/tree/master/data#office-caltech10)
 * [PACS](https://drive.google.com/uc?id=0B6x7gtvErXgfbF9CSk53UkRxVzg)
-* [Digit-Five](https://transferlearningdrive.blob.core.windows.net/teamdrive/dataset/dg5.tar.gz)
+* [Digit-Five](https://wjdcloud.blob.core.windows.net/dataset/dg5.tar.gz)
 * [VLCS](https://drive.google.com/uc?id=1skwblH1_okBwxWxmRsp9_qi15hyPpxg8)
 
 If you want to use your own dataset, please organize your data in the following structure.
