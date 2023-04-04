@@ -153,6 +153,12 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ## Per-training/Finetuning
 
+- Parameter-Efficient Tuning Makes a Good Classification Head [[arxiv](http://arxiv.org/abs/2210.16771)]
+  - Parameter-efficient tuning makes a good classification head 参数高效的迁移学习成就一个好的分类头
+
+- CVPR'23 Trainable Projected Gradient Method for Robust Fine-tuning [[arxiv](http://arxiv.org/abs/2303.10720)]
+  - Trainable PGD for robust fine-tuning 可训练的pgd用于鲁棒的微调技术
+
 - ICLR'23 Contrastive Alignment of Vision to Language Through Parameter-Efficient Transfer Learning [[arxiv](http://arxiv.org/abs/2303.11866)]
   - Contrastive alignment for vision language models using transfer learning 使用参数高效迁移进行视觉语言模型的对比对齐
 
@@ -670,6 +676,12 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 	- 发表在IEEE Trans. Knowledge and Data Engineering期刊上
 
 ## Deep domain adaptation
+
+- Complementary Domain Adaptation and Generalization for Unsupervised Continual Domain Shift Learning [[arxiv](http://arxiv.org/abs/2303.15833)]
+  - Continual domain shift learning using adaptation and generalization 使用 adaptation和DG进行持续分布变化的学习
+
+- CVPR'23 Feature Alignment and Uniformity for Test Time Adaptation [[arxiv](http://arxiv.org/abs/2303.10902)]
+  - Feature alignment for test-time adaptation 使用特征对齐进行测试时adaptation
 
 - TempT: Temporal consistency for Test-time adaptation [[arxiv](http://arxiv.org/abs/2303.10536)]
   - Temporeal consistency for test-time adaptation 时间一致性用于test-time adaptation
@@ -1687,6 +1699,15 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ### Papers
 
+- Complementary Domain Adaptation and Generalization for Unsupervised Continual Domain Shift Learning [[arxiv](http://arxiv.org/abs/2303.15833)]
+  - Continual domain shift learning using adaptation and generalization 使用 adaptation和DG进行持续分布变化的学习
+
+- CVPR'23 TWINS: A Fine-Tuning Framework for Improved Transferability of Adversarial Robustness and Generalization [[arxiv](http://arxiv.org/abs/2303.11135)]
+  - Improve generalization and adversarial robustness 同时提高鲁棒性和泛化性
+
+- Finding Competence Regions in Domain Generalization [[arxiv](http://arxiv.org/abs/2303.09989)]
+  - Finding competence regions in domain generalization 在DG中发现能力区域
+
 - CVPR'23 ALOFT: A Lightweight MLP-like Architecture with Dynamic Low-frequency Transform for Domain Generalization [[arxiv](http://arxiv.org/abs/2303.11674)]
   - A lightweight module for domain generalization 一个用于DG的轻量级模块
 
@@ -2562,6 +2583,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 - - -
 
 ## Lifelong transfer learning
+
+- Complementary Domain Adaptation and Generalization for Unsupervised Continual Domain Shift Learning [[arxiv](http://arxiv.org/abs/2303.15833)]
+  - Continual domain shift learning using adaptation and generalization 使用 adaptation和DG进行持续分布变化的学习
 
 - TMLR'23 Learn, Unlearn and Relearn: An Online Learning Paradigm for Deep Neural Networks [[arxiv](http://arxiv.org/abs/2303.10455)]
   - A framework for online learning 一个在线学习的框架

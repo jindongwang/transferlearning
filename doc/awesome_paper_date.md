@@ -3,6 +3,8 @@
 Here, we list some papers related to transfer learning by date (starting from 2021-07). For papers older than 2021-07, please refer to the [papers by topic](awesome_paper.md), which contains more papers.
 
 - [Awesome papers by date](#awesome-papers-by-date)
+  - [2023-03](#2023-03)
+  - [2023-02](#2023-02)
   - [2023-01](#2023-01)
   - [2022-12](#2022-12)
   - [2022-11](#2022-11)
@@ -22,6 +24,100 @@ Here, we list some papers related to transfer learning by date (starting from 20
   - [2021-09](#2021-09)
   - [2021-08](#2021-08)
   - [2021-07](#2021-07)
+
+## 2023-03
+
+- CVPR'23 A New Benchmark: On the Utility of Synthetic Data with Blender for Bare Supervised Learning and Downstream Domain Adaptation [[arxiv](http://arxiv.org/abs/2303.09165)]
+  - A new benchmark for domain adaptation 一个对于domain adaptation最新的benchmark
+
+- Unsupervised domain adaptation by learning using privileged information [[arxiv](http://arxiv.org/abs/2303.09350)]
+  - Domain adaptation by privileged information 使用高级信息进行domain adaptation
+
+- A Unified Continual Learning Framework with General Parameter-Efficient Tuning [[arxiv](http://arxiv.org/abs/2303.10070)]
+  - A continual learning framework for parameter-efficient tuning 一个对于参数高效迁移的连续学习框架
+
+- CVPR'23 Sharpness-Aware Gradient Matching for Domain Generalization [[arxiv](http://arxiv.org/abs/2303.10353)]
+  - Sharpness-aware gradient matching for DG 利用梯度匹配进行domain generalization
+
+- TempT: Temporal consistency for Test-time adaptation [[arxiv](http://arxiv.org/abs/2303.10536)]
+  - Temporeal consistency for test-time adaptation 时间一致性用于test-time adaptation
+
+- TMLR'23 Learn, Unlearn and Relearn: An Online Learning Paradigm for Deep Neural Networks [[arxiv](http://arxiv.org/abs/2303.10455)]
+  - A framework for online learning 一个在线学习的框架
+
+- ICLR'23 workshop SPDF: Sparse Pre-training and Dense Fine-tuning for Large Language Models [[arxiv](http://arxiv.org/abs/2303.10464)]
+  - Sparse pre-training and dense fine-tuning
+
+- CVPR'23 ALOFT: A Lightweight MLP-like Architecture with Dynamic Low-frequency Transform for Domain Generalization [[arxiv](http://arxiv.org/abs/2303.11674)]
+  - A lightweight module for domain generalization 一个用于DG的轻量级模块
+
+- ICLR'23 Contrastive Alignment of Vision to Language Through Parameter-Efficient Transfer Learning [[arxiv](http://arxiv.org/abs/2303.11866)]
+  - Contrastive alignment for vision language models using transfer learning 使用参数高效迁移进行视觉语言模型的对比对齐
+
+- Probabilistic Domain Adaptation for Biomedical Image Segmentation [[arxiv](http://arxiv.org/abs/2303.11790)]
+  - Probabilistic domain adaptation for biomedical image segmentation 概率的domain adaptation用于生物医疗图像分割
+
+- Imbalanced Domain Generalization for Robust Single Cell Classification in Hematological Cytomorphology [[arxiv](https://arxiv.org/abs/2303.07771)]
+  - Imbalanced domain generalization for single cell classification 不平衡的DG用于单细胞分类
+
+- Revisit Parameter-Efficient Transfer Learning: A Two-Stage Paradigm [[arxiv](https://arxiv.org/abs/2303.07910)]
+  - Parameter-efficient transfer learning: a two-stage approach 一种两阶段的参数高效迁移学习
+
+- Unsupervised Cumulative Domain Adaptation for Foggy Scene Optical Flow [[arxiv](https://arxiv.org/abs/2303.07564)]
+  - Domain adaptation for foggy scene optical flow 领域自适应用于雾场景的光流
+
+- ICLR'23 AutoTransfer: AutoML with Knowledge Transfer -- An Application to Graph Neural Networks [[arxiv](https://arxiv.org/abs/2303.07669)]
+  - GNN with autoML transfer learning 用于GNN的自动迁移学习
+
+- Transfer Learning for Real-time Deployment of a Screening Tool for Depression Detection Using Actigraphy [[arxiv](https://arxiv.org/abs/2303.07847)]
+  - Transfer learning for Depression detection 迁移学习用于脉动计焦虑检测
+
+- Domain Generalization via Nuclear Norm Regularization [[arxiv](https://arxiv.org/abs/2303.07527)]
+  - Domain generalization via nuclear norm regularization 使用核归一化进行domain generalization
+
+- To Stay or Not to Stay in the Pre-train Basin: Insights on Ensembling in Transfer Learning [[arxiv](https://arxiv.org/abs/2303.03374)]
+  - Ensembling in transfer learning 调研迁移学习中的集成
+
+- CVPR'13 Masked Images Are Counterfactual Samples for Robust Fine-tuning [[arxiv](https://arxiv.org/abs/2303.03052)]
+  - Masked images for robust fine-tuning 调研masked image对于fine-tuning的影响
+
+- FedCLIP: Fast Generalization and Personalization for CLIP in Federated Learning [[arxiv](https://arxiv.org/abs/2302.13485v1)]
+  - Fast generalization for federated CLIP 在联邦中进行快速的CLIP训练
+
+- Robust Representation Learning with Self-Distillation for Domain Generalization [[arxiv](http://arxiv.org/abs/2302.06874)]
+  - Robust representation learning with self-distillation
+
+- ICLR-23 Temporal Coherent Test-Time Optimization for Robust Video Classification [[arxiv](http://arxiv.org/abs/2302.14309)]
+  - Temporal distribution shift in video classification
+
+- WSDM-23 A tutorial on domain generalization [[link](https://dl.acm.org/doi/10.1145/3539597.3572722)] | [[website](https://dgresearch.github.io/)]
+  - A tutorial on domain generalization
+
+## 2023-02
+
+- On the Robustness of ChatGPT: An Adversarial and Out-of-distribution Perspective [[arxiv](https://arxiv.org/abs/2302.12095)] | [[code](https://github.com/microsoft/robustlearn)]
+  - Adversarial and OOD evaluation of ChatGPT 对ChatGPT鲁棒性的评测
+
+- Transfer learning for process design with reinforcement learning [[arxiv](https://arxiv.org/abs/2302.03375)]
+  - Transfer learning for process design with reinforcement learning 使用强化迁移学习进行过程设计
+
+- Domain Adaptation for Time Series Under Feature and Label Shifts [[arxiv](https://arxiv.org/abs/2302.03133)]
+  - Domain adaptation for time series 用于时间序列的domain adaptation
+
+- How Reliable is Your Regression Model's Uncertainty Under Real-World Distribution Shifts? [[arxiv](https://arxiv.org/abs/2302.03679)]
+  - Regression models uncertainty for distribution shift 回归模型对于分布漂移的不确定性
+
+- ICLR'23 SoftMatch: Addressing the Quantity-Quality Tradeoff in Semi-supervised Learning [[arxiv](https://arxiv.org/abs/2301.10921)]
+  - Semi-supervised learning algorithm 解决标签质量问题的半监督学习方法
+
+- Empirical Study on Optimizer Selection for Out-of-Distribution Generalization [[arxiv](http://arxiv.org/abs/2211.08583)]
+  - Opimizer selection for OOD generalization OOD泛化中的学习器选择
+
+- ICML'22 Understanding the failure modes of out-of-distribution generalization [[arxiv](https://openreview.net/forum?id=fSTD6NFIW_b)]
+  - Understand the failure modes of OOD generalization 探索OOD泛化中的失败现象
+
+- ICLR'23 Out-of-distribution Representation Learning for Time Series Classification [[arxiv](https://arxiv.org/abs/2209.07027)]
+  - OOD for time series classification 时间序列分类的OOD算法
 
 ## 2023-01
 
