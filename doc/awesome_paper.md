@@ -1699,6 +1699,18 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ### Papers
 
+- Beyond Empirical Risk Minimization: Local Structure Preserving Regularization for Improving Adversarial Robustness [[arxiv](http://arxiv.org/abs/2303.16861)]
+  - Local structure preserving for adversarial robustness 通过保留局部结构来进行对抗鲁棒性
+
+- TFS-ViT: Token-Level Feature Stylization for Domain Generalization [[arxiv](http://arxiv.org/abs/2303.15698)]
+  - Token-level feature stylization for domain generalization 用token-level特征变换进行domain generalization
+
+- Are Data-driven Explanations Robust against Out-of-distribution Data? [[arxiv](http://arxiv.org/abs/2303.16390)]
+  - Data-driven explanations robust? 探索数据驱动的解释是否是OOD鲁棒的
+
+- ERM++: An Improved Baseline for Domain Generalization [[arxiv](http://arxiv.org/abs/2304.01973)]
+  - Improved ERM for domain generalization 提高的ERM用于domain generalization
+
 - Complementary Domain Adaptation and Generalization for Unsupervised Continual Domain Shift Learning [[arxiv](http://arxiv.org/abs/2303.15833)]
   - Continual domain shift learning using adaptation and generalization 使用 adaptation和DG进行持续分布变化的学习
 

@@ -64,6 +64,20 @@ Related Codes:
 - By topic: [doc/awesome_papers.md](/doc/awesome_paper.md)
 - By date: [doc/awesome_paper_date.md](/doc/awesome_paper_date.md)
 
+*Updated at 2023-04-10:*
+
+- Beyond Empirical Risk Minimization: Local Structure Preserving Regularization for Improving Adversarial Robustness [[arxiv](http://arxiv.org/abs/2303.16861)]
+  - Local structure preserving for adversarial robustness 通过保留局部结构来进行对抗鲁棒性
+
+- TFS-ViT: Token-Level Feature Stylization for Domain Generalization [[arxiv](http://arxiv.org/abs/2303.15698)]
+  - Token-level feature stylization for domain generalization 用token-level特征变换进行domain generalization
+
+- Are Data-driven Explanations Robust against Out-of-distribution Data? [[arxiv](http://arxiv.org/abs/2303.16390)]
+  - Data-driven explanations robust? 探索数据驱动的解释是否是OOD鲁棒的
+
+- ERM++: An Improved Baseline for Domain Generalization [[arxiv](http://arxiv.org/abs/2304.01973)]
+  - Improved ERM for domain generalization 提高的ERM用于domain generalization
+
 *Updated at 2023-04-04:*
 
 - CVPR'23 Feature Alignment and Uniformity for Test Time Adaptation [[arxiv](http://arxiv.org/abs/2303.10902)]
@@ -91,6 +105,7 @@ Related Codes:
 Want to quickly learn transfer learning？想尽快入门迁移学习？看下面的教程。
 
 - Books 书籍
+  - **Introduction to Transfer Learning: Algorithms and Practice** [[Buy or read](https://link.springer.com/book/9789811975837)]
   - **《迁移学习》（杨强）** [[Buy](https://item.jd.com/12930984.html)] [[English version](https://www.cambridge.org/core/books/transfer-learning/CCFFAFE3CDBC245047F1DEC71D9EF3C7)]
   - **《迁移学习导论》(王晋东、陈益强著)** [[Homepage](http://jd92.wang/tlbook)] [[Buy](https://item.jd.com/13272157.html)]
 
