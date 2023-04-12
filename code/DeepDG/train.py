@@ -90,7 +90,7 @@ def get_args():
     args = parser.parse_args()
     args.steps_per_epoch = 100
     args.data_dir = args.data_file+args.data_dir
-    os.environ['CUDA_VISIBLE_DEVICS'] = args.gpu_id
+    os.environ['CUDA_VISIBLE_DEVICES'] = args.gpu_id
     os.makedirs(args.output, exist_ok=True)
     sys.stdout = Tee(os.path.join(args.output, 'out.txt'))
     sys.stderr = Tee(os.path.join(args.output, 'err.txt'))
