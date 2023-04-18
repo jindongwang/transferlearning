@@ -677,6 +677,12 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ## Deep domain adaptation
 
+- CVPR'23 Zero-shot Generative Model Adaptation via Image-specific Prompt Learning [[arxiv](http://arxiv.org/abs/2304.03119)]
+  - Zero-shot generative model adaptation via image-specific prompt learning 零样本的生成模型adaptation
+
+- Source-free Domain Adaptation Requires Penalized Diversity [[arxiv](http://arxiv.org/abs/2304.02798)]
+  - Source-free DA requires penalized diversity
+
 - Complementary Domain Adaptation and Generalization for Unsupervised Continual Domain Shift Learning [[arxiv](http://arxiv.org/abs/2303.15833)]
   - Continual domain shift learning using adaptation and generalization 使用 adaptation和DG进行持续分布变化的学习
 
@@ -1698,6 +1704,15 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
   - A tutorial on domain generalization
 
 ### Papers
+
+- Domain Generalization with Adversarial Intensity Attack for Medical Image Segmentation [[arxiv](http://arxiv.org/abs/2304.02720)]
+  - Domain generalization for medical segmentation 用domain generalization进行医学分割
+
+- CVPR'23 Meta-causal Learning for Single Domain Generalization [[arxiv](http://arxiv.org/abs/2304.03709)]
+  - Meta-causal learning for domain generalization
+
+- Domain Generalization In Robust Invariant Representation [[arxiv](http://arxiv.org/abs/2304.03431)]
+  - Domain generalization in robust invariant representation
 
 - Beyond Empirical Risk Minimization: Local Structure Preserving Regularization for Improving Adversarial Robustness [[arxiv](http://arxiv.org/abs/2303.16861)]
   - Local structure preserving for adversarial robustness 通过保留局部结构来进行对抗鲁棒性

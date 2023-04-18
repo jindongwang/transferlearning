@@ -315,6 +315,9 @@ By reverse chronological order.
 
 ## Medical and healthcare
 
+- Domain Generalization with Adversarial Intensity Attack for Medical Image Segmentation [[arxiv](http://arxiv.org/abs/2304.02720)]
+  - Domain generalization for medical segmentation 用domain generalization进行医学分割
+
 - Probabilistic Domain Adaptation for Biomedical Image Segmentation [[arxiv](http://arxiv.org/abs/2303.11790)]
   - Probabilistic domain adaptation for biomedical image segmentation 概率的domain adaptation用于生物医疗图像分割
 
