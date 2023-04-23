@@ -64,6 +64,14 @@ Related Codes:
 - By topic: [doc/awesome_papers.md](/doc/awesome_paper.md)
 - By date: [doc/awesome_paper_date.md](/doc/awesome_paper_date.md)
 
+*Updated at 2023-04-23:*
+
+- Improved Test-Time Adaptation for Domain Generalization [[arxiv](http://arxiv.org/abs/2304.04494)]
+  - Improved test-time adaptation for domain generalization
+
+- Reweighted Mixup for Subpopulation Shift [[arxiv](http://arxiv.org/abs/2304.04148)]
+  - Reweighted mixup for subpopulation shift
+
 *Updated at 2023-04-18:*
 
 - CVPR'23 Zero-shot Generative Model Adaptation via Image-specific Prompt Learning [[arxiv](http://arxiv.org/abs/2304.03119)]

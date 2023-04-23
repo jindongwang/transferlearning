@@ -1705,6 +1705,12 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ### Papers
 
+- Improved Test-Time Adaptation for Domain Generalization [[arxiv](http://arxiv.org/abs/2304.04494)]
+  - Improved test-time adaptation for domain generalization
+
+- Reweighted Mixup for Subpopulation Shift [[arxiv](http://arxiv.org/abs/2304.04148)]
+  - Reweighted mixup for subpopulation shift
+
 - Domain Generalization with Adversarial Intensity Attack for Medical Image Segmentation [[arxiv](http://arxiv.org/abs/2304.02720)]
   - Domain generalization for medical segmentation 用domain generalization进行医学分割
 
