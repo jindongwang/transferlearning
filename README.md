@@ -64,6 +64,14 @@ Related Codes:
 - By topic: [doc/awesome_papers.md](/doc/awesome_paper.md)
 - By date: [doc/awesome_paper_date.md](/doc/awesome_paper_date.md)
 
+*Updated at 2023-04-27:*
+
+- Multi-Source to Multi-Target Decentralized Federated Domain Adaptation [[arxiv](https://arxiv.org/abs/2304.12422)]
+  - Multi-source to multi-target federated domain adaptation 多源多目标的联邦域自适应
+
+- ICML'23 AdaNPC: Exploring Non-Parametric Classifier for Test-Time Adaptation [[arxiv](https://arxiv.org/abs/2304.12566)]
+  - Adaptive test-time adaptation 非参数化分类器进行测试时adaptation
+
 *Updated at 2023-04-23:*
 
 - Improved Test-Time Adaptation for Domain Generalization [[arxiv](http://arxiv.org/abs/2304.04494)]

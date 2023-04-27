@@ -677,6 +677,12 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ## Deep domain adaptation
 
+- Multi-Source to Multi-Target Decentralized Federated Domain Adaptation [[arxiv](https://arxiv.org/abs/2304.12422)]
+  - Multi-source to multi-target federated domain adaptation 多源多目标的联邦域自适应
+
+- ICML'23 AdaNPC: Exploring Non-Parametric Classifier for Test-Time Adaptation [[arxiv](https://arxiv.org/abs/2304.12566)]
+  - Adaptive test-time adaptation 非参数化分类器进行测试时adaptation
+
 - CVPR'23 Zero-shot Generative Model Adaptation via Image-specific Prompt Learning [[arxiv](http://arxiv.org/abs/2304.03119)]
   - Zero-shot generative model adaptation via image-specific prompt learning 零样本的生成模型adaptation
 
