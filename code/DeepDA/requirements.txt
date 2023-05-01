@@ -4,4 +4,4 @@ torchvision==0.9.1
 scikit-learn
 matplotlib
 xlwt
-yaml
+pyyaml
