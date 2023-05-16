@@ -64,72 +64,10 @@ Related Codes:
 - By topic: [doc/awesome_papers.md](/doc/awesome_paper.md)
 - By date: [doc/awesome_paper_date.md](/doc/awesome_paper_date.md)
 
-*Updated at 2023-04-27:*
+*Updated at 2023-05-16:*
 
-- Multi-Source to Multi-Target Decentralized Federated Domain Adaptation [[arxiv](https://arxiv.org/abs/2304.12422)]
-  - Multi-source to multi-target federated domain adaptation 多源多目标的联邦域自适应
-
-- ICML'23 AdaNPC: Exploring Non-Parametric Classifier for Test-Time Adaptation [[arxiv](https://arxiv.org/abs/2304.12566)]
-  - Adaptive test-time adaptation 非参数化分类器进行测试时adaptation
-
-*Updated at 2023-04-23:*
-
-- Improved Test-Time Adaptation for Domain Generalization [[arxiv](http://arxiv.org/abs/2304.04494)]
-  - Improved test-time adaptation for domain generalization
-
-- Reweighted Mixup for Subpopulation Shift [[arxiv](http://arxiv.org/abs/2304.04148)]
-  - Reweighted mixup for subpopulation shift
-
-*Updated at 2023-04-18:*
-
-- CVPR'23 Zero-shot Generative Model Adaptation via Image-specific Prompt Learning [[arxiv](http://arxiv.org/abs/2304.03119)]
-  - Zero-shot generative model adaptation via image-specific prompt learning 零样本的生成模型adaptation
-
-- Source-free Domain Adaptation Requires Penalized Diversity [[arxiv](http://arxiv.org/abs/2304.02798)]
-  - Source-free DA requires penalized diversity
-
-- Domain Generalization with Adversarial Intensity Attack for Medical Image Segmentation [[arxiv](http://arxiv.org/abs/2304.02720)]
-  - Domain generalization for medical segmentation 用domain generalization进行医学分割
-
-- CVPR'23 Meta-causal Learning for Single Domain Generalization [[arxiv](http://arxiv.org/abs/2304.03709)]
-  - Meta-causal learning for domain generalization
-
-- Domain Generalization In Robust Invariant Representation [[arxiv](http://arxiv.org/abs/2304.03431)]
-  - Domain generalization in robust invariant representation
-
-*Updated at 2023-04-10:*
-
-- Beyond Empirical Risk Minimization: Local Structure Preserving Regularization for Improving Adversarial Robustness [[arxiv](http://arxiv.org/abs/2303.16861)]
-  - Local structure preserving for adversarial robustness 通过保留局部结构来进行对抗鲁棒性
-
-- TFS-ViT: Token-Level Feature Stylization for Domain Generalization [[arxiv](http://arxiv.org/abs/2303.15698)]
-  - Token-level feature stylization for domain generalization 用token-level特征变换进行domain generalization
-
-- Are Data-driven Explanations Robust against Out-of-distribution Data? [[arxiv](http://arxiv.org/abs/2303.16390)]
-  - Data-driven explanations robust? 探索数据驱动的解释是否是OOD鲁棒的
-
-- ERM++: An Improved Baseline for Domain Generalization [[arxiv](http://arxiv.org/abs/2304.01973)]
-  - Improved ERM for domain generalization 提高的ERM用于domain generalization
-
-*Updated at 2023-04-04:*
-
-- CVPR'23 Feature Alignment and Uniformity for Test Time Adaptation [[arxiv](http://arxiv.org/abs/2303.10902)]
-  - Feature alignment for test-time adaptation 使用特征对齐进行测试时adaptation
-
-- Finding Competence Regions in Domain Generalization [[arxiv](http://arxiv.org/abs/2303.09989)]
-  - Finding competence regions in domain generalization 在DG中发现能力区域
-
-- CVPR'23 TWINS: A Fine-Tuning Framework for Improved Transferability of Adversarial Robustness and Generalization [[arxiv](http://arxiv.org/abs/2303.11135)]
-  - Improve generalization and adversarial robustness 同时提高鲁棒性和泛化性
-
-- CVPR'23 Trainable Projected Gradient Method for Robust Fine-tuning [[arxiv](http://arxiv.org/abs/2303.10720)]
-  - Trainable PGD for robust fine-tuning 可训练的pgd用于鲁棒的微调技术
-
-- Parameter-Efficient Tuning Makes a Good Classification Head [[arxiv](http://arxiv.org/abs/2210.16771)]
-  - Parameter-efficient tuning makes a good classification head 参数高效的迁移学习成就一个好的分类头
-
-- Complementary Domain Adaptation and Generalization for Unsupervised Continual Domain Shift Learning [[arxiv](http://arxiv.org/abs/2303.15833)]
-  - Continual domain shift learning using adaptation and generalization 使用 adaptation和DG进行持续分布变化的学习
+- Benchmarking Low-Shot Robustness to Natural Distribution Shifts [[arxiv](http://arxiv.org/abs/2304.11263)]
+  - Low-shot robustness to distribution shifts
 
 - - -
 
