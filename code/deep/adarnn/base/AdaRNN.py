@@ -26,7 +26,7 @@ class AdaRNN(nn.Module):
             rnn = nn.GRU(
                 input_size=in_size,
                 num_layers=1,
-                hidden_size=hidden,
+                hidden_size=len_seq * hidden,
                 batch_first=True,
                 dropout=dropout
             )
