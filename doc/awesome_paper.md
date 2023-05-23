@@ -153,6 +153,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ## Per-training/Finetuning
 
+- Ahead-of-Time P-Tuning [[arxiv](http://arxiv.org/abs/2305.10835)]
+  - Ahead-ot-time P-tuning for language models
+
 - Parameter-Efficient Tuning Makes a Good Classification Head [[arxiv](http://arxiv.org/abs/2210.16771)]
   - Parameter-efficient tuning makes a good classification head 参数高效的迁移学习成就一个好的分类头
 
@@ -676,6 +679,12 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 	- 发表在IEEE Trans. Knowledge and Data Engineering期刊上
 
 ## Deep domain adaptation
+
+- Universal Domain Adaptation from Foundation Models [[arxiv](http://arxiv.org/abs/2305.11092)]
+  - Using foundation models for universal domain adaptation
+
+- Multi-Source to Multi-Target Decentralized Federated Domain Adaptation [[arxiv](http://arxiv.org/abs/2304.12422)]
+  - Decentralized federated domain adaptation 
 
 - Multi-Source to Multi-Target Decentralized Federated Domain Adaptation [[arxiv](https://arxiv.org/abs/2304.12422)]
   - Multi-source to multi-target federated domain adaptation 多源多目标的联邦域自适应

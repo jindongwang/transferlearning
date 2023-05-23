@@ -64,6 +64,17 @@ Related Codes:
 - By topic: [doc/awesome_papers.md](/doc/awesome_paper.md)
 - By date: [doc/awesome_paper_date.md](/doc/awesome_paper_date.md)
 
+*Updated at 2023-05-23:*
+
+- Universal Domain Adaptation from Foundation Models [[arxiv](http://arxiv.org/abs/2305.11092)]
+  - Using foundation models for universal domain adaptation
+
+- Ahead-of-Time P-Tuning [[arxiv](http://arxiv.org/abs/2305.10835)]
+  - Ahead-ot-time P-tuning for language models
+
+- Multi-Source to Multi-Target Decentralized Federated Domain Adaptation [[arxiv](http://arxiv.org/abs/2304.12422)]
+  - Decentralized federated domain adaptation 
+
 *Updated at 2023-05-16:*
 
 - Benchmarking Low-Shot Robustness to Natural Distribution Shifts [[arxiv](http://arxiv.org/abs/2304.11263)]
