@@ -64,6 +64,15 @@ Related Codes:
 - By topic: [doc/awesome_papers.md](/doc/awesome_paper.md)
 - By date: [doc/awesome_paper_date.md](/doc/awesome_paper_date.md)
 
+*Updated at 2023-05-29:*
+
+- Selective Mixup Helps with Distribution Shifts, But Not (Only) because of Mixup [[arxiv](https://arxiv.org/abs/2305.16817)]
+  - Why mixup works for domain generalization? 系统性研究为啥mixup对OOD很work
+
+- ACL'23 Parameter-Efficient Fine-Tuning without Introducing New Latency [[arxiv](http://arxiv.org/abs/2305.16742)]
+  - Parameter-efficient finetuning 参数高效的finetune
+
+
 *Updated at 2023-05-23:*
 
 - Universal Domain Adaptation from Foundation Models [[arxiv](http://arxiv.org/abs/2305.11092)]

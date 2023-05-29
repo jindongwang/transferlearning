@@ -153,6 +153,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ## Per-training/Finetuning
 
+- ACL'23 Parameter-Efficient Fine-Tuning without Introducing New Latency [[arxiv](http://arxiv.org/abs/2305.16742)]
+  - Parameter-efficient finetuning 参数高效的finetune
+
 - Ahead-of-Time P-Tuning [[arxiv](http://arxiv.org/abs/2305.10835)]
   - Ahead-ot-time P-tuning for language models
 
@@ -1719,6 +1722,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
   - A tutorial on domain generalization
 
 ### Papers
+
+- Selective Mixup Helps with Distribution Shifts, But Not (Only) because of Mixup [[arxiv](https://arxiv.org/abs/2305.16817)]
+  - Why mixup works for domain generalization? 系统性研究为啥mixup对OOD很work
 
 - Improved Test-Time Adaptation for Domain Generalization [[arxiv](http://arxiv.org/abs/2304.04494)]
   - Improved test-time adaptation for domain generalization
