@@ -3,6 +3,7 @@
 Here, we list some papers related to transfer learning by date (starting from 2021-07). For papers older than 2021-07, please refer to the [papers by topic](awesome_paper.md), which contains more papers.
 
 - [Awesome papers by date](#awesome-papers-by-date)
+  - [2023-05](#2023-05)
   - [2023-04](#2023-04)
   - [2023-03](#2023-03)
   - [2023-02](#2023-02)
@@ -25,6 +26,26 @@ Here, we list some papers related to transfer learning by date (starting from 20
   - [2021-09](#2021-09)
   - [2021-08](#2021-08)
   - [2021-07](#2021-07)
+
+## 2023-05
+
+- Selective Mixup Helps with Distribution Shifts, But Not (Only) because of Mixup [[arxiv](https://arxiv.org/abs/2305.16817)]
+  - Why mixup works for domain generalization? 系统性研究为啥mixup对OOD很work
+
+- ACL'23 Parameter-Efficient Fine-Tuning without Introducing New Latency [[arxiv](http://arxiv.org/abs/2305.16742)]
+  - Parameter-efficient finetuning 参数高效的finetune
+
+- Universal Domain Adaptation from Foundation Models [[arxiv](http://arxiv.org/abs/2305.11092)]
+  - Using foundation models for universal domain adaptation
+
+- Ahead-of-Time P-Tuning [[arxiv](http://arxiv.org/abs/2305.10835)]
+  - Ahead-ot-time P-tuning for language models
+
+- Multi-Source to Multi-Target Decentralized Federated Domain Adaptation [[arxiv](http://arxiv.org/abs/2304.12422)]
+  - Decentralized federated domain adaptation 
+
+- Benchmarking Low-Shot Robustness to Natural Distribution Shifts [[arxiv](http://arxiv.org/abs/2304.11263)]
+  - Low-shot robustness to distribution shifts
 
 ## 2023-04
 

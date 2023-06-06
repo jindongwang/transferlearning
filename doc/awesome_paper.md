@@ -153,6 +153,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ## Per-training/Finetuning
 
+- Adapting Pre-trained Language Models to Vision-Language Tasks via Dynamic Visual Prompting [[arxiv](http://arxiv.org/abs/2306.00409)]
+  - Using dynamic visual prompting for model adaptation 用动态视觉prompt进行模型适配
+
 - ACL'23 Parameter-Efficient Fine-Tuning without Introducing New Latency [[arxiv](http://arxiv.org/abs/2305.16742)]
   - Parameter-efficient finetuning 参数高效的finetune
 
@@ -682,6 +685,12 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 	- 发表在IEEE Trans. Knowledge and Data Engineering期刊上
 
 ## Deep domain adaptation
+
+- Can We Evaluate Domain Adaptation Models Without Target-Domain Labels? A Metric for Unsupervised Evaluation of Domain Adaptation [[arxiv](http://arxiv.org/abs/2305.18712)]
+  - Evaluate domain adaptation models 评测domain adaptation的模型
+
+- Universal Test-time Adaptation through Weight Ensembling, Diversity Weighting, and Prior Correction [[arxiv](http://arxiv.org/abs/2306.00650)]
+  - Universal test-time adaptation
 
 - Universal Domain Adaptation from Foundation Models [[arxiv](http://arxiv.org/abs/2305.11092)]
   - Using foundation models for universal domain adaptation
@@ -1716,12 +1725,18 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
     - First survey on domain generalization
     - 第一篇对Domain generalization (领域泛化)的综述
 
+- Federated Domain Generalization: A Survey [[arxiv](http://arxiv.org/abs/2306.01334)]
+  - A survey on federated domain generalization 一篇关于联邦域泛化的综述
+
 ### Tutorial
 
 - WSDM-23 and IJCAI-22 A tutorial on domain generalization [[link](https://dl.acm.org/doi/10.1145/3539597.3572722)] | [[website](https://dgresearch.github.io/)]
   - A tutorial on domain generalization
 
 ### Papers
+
+- Domain Generalization for Domain-Linked Classes [[arxiv](http://arxiv.org/abs/2306.00879)]
+  - Domain generalization for domain-linked classes
 
 - Selective Mixup Helps with Distribution Shifts, But Not (Only) because of Mixup [[arxiv](https://arxiv.org/abs/2305.16817)]
   - Why mixup works for domain generalization? 系统性研究为啥mixup对OOD很work
