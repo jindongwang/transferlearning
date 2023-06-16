@@ -46,6 +46,7 @@ author = {Wang, Jindong and others}
 Related Codes: 
   - Robust machine learning: [[robustlearn: robust machine learning](https://github.com/microsoft/robustlearn)]
   - Semi-supervised learning: [[USB: unified semi-supervised learning benchmark](https://github.com/microsoft/Semi-supervised-learning)] | [[TorchSSL: a unified SSL library](https://github.com/TorchSSL/TorchSSL)] 
+  - Prompt benchmark: [[PromptBench: adverarial robustness of prompts of LLMs](https://github.com/microsoft/promptbench)]
   - Federated learning: [[PersonalizedFL: library for personalized federated learning](https://github.com/microsoft/PersonalizedFL)]
   - Activity recognition and machine learning [[Activity recognition](https://github.com/jindongwang/activityrecognition)]｜[[Machine learning](https://github.com/jindongwang/MachineLearning)]
 
@@ -63,6 +64,26 @@ Related Codes:
 
 - By topic: [doc/awesome_papers.md](/doc/awesome_paper.md)
 - By date: [doc/awesome_paper_date.md](/doc/awesome_paper_date.md)
+
+*Updated at 2023-06-16:*
+
+- TMLR'23 Generalizability of Adversarial Robustness Under Distribution Shifts [[openreview](https://openreview.net/forum?id=XNFo3dQiCJ)]
+  - Evaluate the OOD perormance of adversarial training 评测对抗训练模型的OOD鲁棒性
+
+- Scaling Down to Scale Up: A Guide to Parameter-Efficient Fine-Tuning [[arxiv](http://arxiv.org/abs/2303.15647)]
+  - A guide for parameter-efficient fine-tuning 一个对parameter efficient fine-tuning的全面介绍
+
+- ICML'23 A Kernel-Based View of Language Model Fine-Tuning [[arxiv](http://arxiv.org/abs/2210.05643)]
+  - A kernel-based view of language model fine-tuning 一种以kernel的视角来看待fine-tuning的方法
+
+- ICML'23 Improving Visual Prompt Tuning for Self-supervised Vision Transformers [[arxiv](http://arxiv.org/abs/2306.05067)]
+  - Improving visual prompt tuning for self-supervision 为自监督模型提高其 prompt tuning 表现
+
+- Cross-Database and Cross-Channel ECG Arrhythmia Heartbeat Classification Based on Unsupervised Domain Adaptation [[arxiv](http://arxiv.org/abs/2306.04433)]
+  - EEG using unsupervised domain adaptation 用无监督DA来进行EEG心跳分类
+
+- Real-Time Online Unsupervised Domain Adaptation for Real-World Person Re-identification [[arxiv](http://arxiv.org/abs/2306.03993)]
+  - Real-time online unsupervised domain adaptation for REID 无监督DA用于REID
 
 *Updated at 2023-06-06:*
 

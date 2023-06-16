@@ -153,6 +153,15 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ## Per-training/Finetuning
 
+- Scaling Down to Scale Up: A Guide to Parameter-Efficient Fine-Tuning [[arxiv](http://arxiv.org/abs/2303.15647)]
+  - A guide for parameter-efficient fine-tuning 一个对parameter efficient fine-tuning的全面介绍
+
+- ICML'23 A Kernel-Based View of Language Model Fine-Tuning [[arxiv](http://arxiv.org/abs/2210.05643)]
+  - A kernel-based view of language model fine-tuning 一种以kernel的视角来看待fine-tuning的方法
+
+- ICML'23 Improving Visual Prompt Tuning for Self-supervised Vision Transformers [[arxiv](http://arxiv.org/abs/2306.05067)]
+  - Improving visual prompt tuning for self-supervision 为自监督模型提高其 prompt tuning 表现
+
 - Adapting Pre-trained Language Models to Vision-Language Tasks via Dynamic Visual Prompting [[arxiv](http://arxiv.org/abs/2306.00409)]
   - Using dynamic visual prompting for model adaptation 用动态视觉prompt进行模型适配
 
@@ -685,6 +694,12 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 	- 发表在IEEE Trans. Knowledge and Data Engineering期刊上
 
 ## Deep domain adaptation
+
+- Cross-Database and Cross-Channel ECG Arrhythmia Heartbeat Classification Based on Unsupervised Domain Adaptation [[arxiv](http://arxiv.org/abs/2306.04433)]
+  - EEG using unsupervised domain adaptation 用无监督DA来进行EEG心跳分类
+
+- Real-Time Online Unsupervised Domain Adaptation for Real-World Person Re-identification [[arxiv](http://arxiv.org/abs/2306.03993)]
+  - Real-time online unsupervised domain adaptation for REID 无监督DA用于REID
 
 - Can We Evaluate Domain Adaptation Models Without Target-Domain Labels? A Metric for Unsupervised Evaluation of Domain Adaptation [[arxiv](http://arxiv.org/abs/2305.18712)]
   - Evaluate domain adaptation models 评测domain adaptation的模型
@@ -1734,6 +1749,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
   - A tutorial on domain generalization
 
 ### Papers
+
+- TMLR'23 Generalizability of Adversarial Robustness Under Distribution Shifts [[openreview](https://openreview.net/forum?id=XNFo3dQiCJ)]
+  - Evaluate the OOD perormance of adversarial training 评测对抗训练模型的OOD鲁棒性
 
 - Domain Generalization for Domain-Linked Classes [[arxiv](http://arxiv.org/abs/2306.00879)]
   - Domain generalization for domain-linked classes
