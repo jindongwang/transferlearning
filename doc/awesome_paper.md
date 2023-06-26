@@ -1750,6 +1750,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ### Papers
 
+- Pruning for Better Domain Generalizability [[arxiv](http://arxiv.org/abs/2306.13237)]
+  - Using pruning for better domain generalization 使用剪枝操作进行domain generalization
+
 - TMLR'23 Generalizability of Adversarial Robustness Under Distribution Shifts [[openreview](https://openreview.net/forum?id=XNFo3dQiCJ)]
   - Evaluate the OOD perormance of adversarial training 评测对抗训练模型的OOD鲁棒性
 

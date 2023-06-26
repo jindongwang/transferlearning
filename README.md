@@ -65,6 +65,11 @@ Related Codes:
 - By topic: [doc/awesome_papers.md](/doc/awesome_paper.md)
 - By date: [doc/awesome_paper_date.md](/doc/awesome_paper_date.md)
 
+*Updated at 2023-06-26:*
+
+- Pruning for Better Domain Generalizability [[arxiv](http://arxiv.org/abs/2306.13237)]
+  - Using pruning for better domain generalization 使用剪枝操作进行domain generalization
+
 *Updated at 2023-06-16:*
 
 - TMLR'23 Generalizability of Adversarial Robustness Under Distribution Shifts [[openreview](https://openreview.net/forum?id=XNFo3dQiCJ)]
