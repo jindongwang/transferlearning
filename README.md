@@ -65,47 +65,19 @@ Related Codes:
 - By topic: [doc/awesome_papers.md](/doc/awesome_paper.md)
 - By date: [doc/awesome_paper_date.md](/doc/awesome_paper_date.md)
 
-*Updated at 2023-06-26:*
+*Updated at 2023-07-05:*
 
-- Pruning for Better Domain Generalizability [[arxiv](http://arxiv.org/abs/2306.13237)]
-  - Using pruning for better domain generalization 使用剪枝操作进行domain generalization
+- Review of Large Vision Models and Visual Prompt Engineering [[arxiv](https://arxiv.org/abs/2307.00855)]
+  - A survey of large vision model and prompt tuning 一个关于大视觉模型的prompt tuning的综述
 
-*Updated at 2023-06-16:*
+- Intra- & Extra-Source Exemplar-Based Style Synthesis for Improved Domain Generalization [[arxiv](https://arxiv.org/abs/2307.00648)]
+  - Exemplar-based style synthesis for domain generalization 样例格式合成用于DG
 
-- TMLR'23 Generalizability of Adversarial Robustness Under Distribution Shifts [[openreview](https://openreview.net/forum?id=XNFo3dQiCJ)]
-  - Evaluate the OOD perormance of adversarial training 评测对抗训练模型的OOD鲁棒性
+- SAM-DA: UAV Tracks Anything at Night with SAM-Powered Domain Adaptation [[arxiv](https://arxiv.org/abs/2307.01024)]
+  - Using SAM for domain adaptation 使用segment anything进行domain adaptation
 
-- Scaling Down to Scale Up: A Guide to Parameter-Efficient Fine-Tuning [[arxiv](http://arxiv.org/abs/2303.15647)]
-  - A guide for parameter-efficient fine-tuning 一个对parameter efficient fine-tuning的全面介绍
-
-- ICML'23 A Kernel-Based View of Language Model Fine-Tuning [[arxiv](http://arxiv.org/abs/2210.05643)]
-  - A kernel-based view of language model fine-tuning 一种以kernel的视角来看待fine-tuning的方法
-
-- ICML'23 Improving Visual Prompt Tuning for Self-supervised Vision Transformers [[arxiv](http://arxiv.org/abs/2306.05067)]
-  - Improving visual prompt tuning for self-supervision 为自监督模型提高其 prompt tuning 表现
-
-- Cross-Database and Cross-Channel ECG Arrhythmia Heartbeat Classification Based on Unsupervised Domain Adaptation [[arxiv](http://arxiv.org/abs/2306.04433)]
-  - EEG using unsupervised domain adaptation 用无监督DA来进行EEG心跳分类
-
-- Real-Time Online Unsupervised Domain Adaptation for Real-World Person Re-identification [[arxiv](http://arxiv.org/abs/2306.03993)]
-  - Real-time online unsupervised domain adaptation for REID 无监督DA用于REID
-
-*Updated at 2023-06-06:*
-
-- Federated Domain Generalization: A Survey [[arxiv](http://arxiv.org/abs/2306.01334)]
-  - A survey on federated domain generalization 一篇关于联邦域泛化的综述
-
-- Domain Generalization for Domain-Linked Classes [[arxiv](http://arxiv.org/abs/2306.00879)]
-  - Domain generalization for domain-linked classes
-
-- Can We Evaluate Domain Adaptation Models Without Target-Domain Labels? A Metric for Unsupervised Evaluation of Domain Adaptation [[arxiv](http://arxiv.org/abs/2305.18712)]
-  - Evaluate domain adaptation models 评测domain adaptation的模型
-
-- Universal Test-time Adaptation through Weight Ensembling, Diversity Weighting, and Prior Correction [[arxiv](http://arxiv.org/abs/2306.00650)]
-  - Universal test-time adaptation
-
-- Adapting Pre-trained Language Models to Vision-Language Tasks via Dynamic Visual Prompting [[arxiv](http://arxiv.org/abs/2306.00409)]
-  - Using dynamic visual prompting for model adaptation 用动态视觉prompt进行模型适配
+- Unified Transfer Learning Models for High-Dimensional Linear Regression [[arxiv](https://arxiv.org/abs/2307.00238)]
+  - Transfer learning for high-dimensional linar regression 迁移学习用于高维线性回归
 
 - - -
 

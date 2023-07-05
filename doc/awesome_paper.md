@@ -33,6 +33,8 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ## Survey
 
+- Review of Large Vision Models and Visual Prompt Engineering [[arxiv](https://arxiv.org/abs/2307.00855)]
+  - A survey of large vision model and prompt tuning 一个关于大视觉模型的prompt tuning的综述
 - IEEE TNNLS-22 [Towards Personalized Federated Learning](http://arxiv.org/abs/2103.00710)
   - A survey on personalized federated learning 一个关于个性化联邦学习的综述
 - 2022 [Transfer Learning for Future Wireless Networks: A Comprehensive Survey](https://arxiv.org/abs/2102.07572)
@@ -152,6 +154,12 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 	- 对迁移学习中无监督的WGAN进行了一些理论上的分析
 
 ## Per-training/Finetuning
+
+- Unified Transfer Learning Models for High-Dimensional Linear Regression [[arxiv](https://arxiv.org/abs/2307.00238)]
+  - Transfer learning for high-dimensional linar regression 迁移学习用于高维线性回归
+
+- Review of Large Vision Models and Visual Prompt Engineering [[arxiv](https://arxiv.org/abs/2307.00855)]
+  - A survey of large vision model and prompt tuning 一个关于大视觉模型的prompt tuning的综述
 
 - Scaling Down to Scale Up: A Guide to Parameter-Efficient Fine-Tuning [[arxiv](http://arxiv.org/abs/2303.15647)]
   - A guide for parameter-efficient fine-tuning 一个对parameter efficient fine-tuning的全面介绍
@@ -694,6 +702,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 	- 发表在IEEE Trans. Knowledge and Data Engineering期刊上
 
 ## Deep domain adaptation
+
+- SAM-DA: UAV Tracks Anything at Night with SAM-Powered Domain Adaptation [[arxiv](https://arxiv.org/abs/2307.01024)]
+  - Using SAM for domain adaptation 使用segment anything进行domain adaptation
 
 - Cross-Database and Cross-Channel ECG Arrhythmia Heartbeat Classification Based on Unsupervised Domain Adaptation [[arxiv](http://arxiv.org/abs/2306.04433)]
   - EEG using unsupervised domain adaptation 用无监督DA来进行EEG心跳分类
@@ -1749,6 +1760,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
   - A tutorial on domain generalization
 
 ### Papers
+
+- Intra- & Extra-Source Exemplar-Based Style Synthesis for Improved Domain Generalization [[arxiv](https://arxiv.org/abs/2307.00648)]
+  - Exemplar-based style synthesis for domain generalization 样例格式合成用于DG
 
 - Pruning for Better Domain Generalizability [[arxiv](http://arxiv.org/abs/2306.13237)]
   - Using pruning for better domain generalization 使用剪枝操作进行domain generalization
