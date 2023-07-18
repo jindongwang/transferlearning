@@ -1761,6 +1761,12 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ### Papers
 
+- Benchmarking Algorithms for Federated Domain Generalization [[arxiv](http://arxiv.org/abs/2307.04942)]
+  - Benchmark algorthms for federated domain generalization 对联邦域泛化算法进行的benchmark
+
+- DISPEL: Domain Generalization via Domain-Specific Liberating [[arxiv](http://arxiv.org/abs/2307.07181)]
+  - Domain generalization via domain-specific liberating
+
 - Intra- & Extra-Source Exemplar-Based Style Synthesis for Improved Domain Generalization [[arxiv](https://arxiv.org/abs/2307.00648)]
   - Exemplar-based style synthesis for domain generalization 样例格式合成用于DG
 
@@ -2618,7 +2624,10 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ## Federated transfer learning
 
-- FedCLIP: Fast Generalization and Personalization for CLIP in Federated Learning [[arxiv](https://arxiv.org/abs/2302.13485v1)]
+- Benchmarking Algorithms for Federated Domain Generalization [[arxiv](http://arxiv.org/abs/2307.04942)]
+  - Benchmark algorthms for federated domain generalization 对联邦域泛化算法进行的benchmark
+
+- IEEE'23 FedCLIP: Fast Generalization and Personalization for CLIP in Federated Learning [[arxiv](https://arxiv.org/abs/2302.13485v1)]
   - Fast generalization for federated CLIP 在联邦中进行快速的CLIP训练
 
 - [Federated Semi-Supervised Domain Adaptation via Knowledge Transfer](https://arxiv.org/abs/2207.10727)

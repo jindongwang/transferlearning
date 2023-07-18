@@ -43,7 +43,8 @@ author = {Wang, Jindong and others}
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![MIT License](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT) [![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE) [![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu) 
 
-Related Codes: 
+Related Codes:
+  - Large language model evaluation: [[llm-eval](https://llm-eval.github.io/)]
   - Robust machine learning: [[robustlearn: robust machine learning](https://github.com/microsoft/robustlearn)]
   - Semi-supervised learning: [[USB: unified semi-supervised learning benchmark](https://github.com/microsoft/Semi-supervised-learning)] | [[TorchSSL: a unified SSL library](https://github.com/TorchSSL/TorchSSL)] 
   - Prompt benchmark: [[PromptBench: adverarial robustness of prompts of LLMs](https://github.com/microsoft/promptbench)]
@@ -64,6 +65,14 @@ Related Codes:
 
 - By topic: [doc/awesome_papers.md](/doc/awesome_paper.md)
 - By date: [doc/awesome_paper_date.md](/doc/awesome_paper_date.md)
+
+*Updated at 2023-07-18:*
+
+- Benchmarking Algorithms for Federated Domain Generalization [[arxiv](http://arxiv.org/abs/2307.04942)]
+  - Benchmark algorthms for federated domain generalization 对联邦域泛化算法进行的benchmark
+
+- DISPEL: Domain Generalization via Domain-Specific Liberating [[arxiv](http://arxiv.org/abs/2307.07181)]
+  - Domain generalization via domain-specific liberating
 
 *Updated at 2023-07-05:*
 
