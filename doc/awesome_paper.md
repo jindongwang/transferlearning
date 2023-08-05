@@ -1761,6 +1761,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ### Papers
 
+- ICCV'23 PromptStyler: Prompt-driven Style Generation for Source-free Domain Generalization [[arxiv](https://arxiv.org/abs/2307.15199)] | [[website](https://promptstyler.github.io/)]
+  - Prompt-driven style generation for source-free domain generalization
+
 - Benchmarking Algorithms for Federated Domain Generalization [[arxiv](http://arxiv.org/abs/2307.04942)]
   - Benchmark algorthms for federated domain generalization 对联邦域泛化算法进行的benchmark
 
