@@ -3,6 +3,7 @@
 Here, we list some papers related to transfer learning by date (starting from 2021-07). For papers older than 2021-07, please refer to the [papers by topic](awesome_paper.md), which contains more papers.
 
 - [Awesome papers by date](#awesome-papers-by-date)
+  - [2023-07](#2023-07)
   - [2023-06](#2023-06)
   - [2023-05](#2023-05)
   - [2023-04](#2023-04)
@@ -28,6 +29,11 @@ Here, we list some papers related to transfer learning by date (starting from 20
   - [2021-08](#2021-08)
   - [2021-07](#2021-07)
 
+## 2023-07
+
+- ICCV'23 PromptStyler: Prompt-driven Style Generation for Source-free Domain Generalization [[arxiv](https://arxiv.org/abs/2307.15199)]  |  [[website](https://promptstyler.github.io/)]
+  - Prompt-driven style generation for source-free domain generalization
+    
 ## 2023-06
 
 - Pruning for Better Domain Generalizability [[arxiv](http://arxiv.org/abs/2306.13237)]
