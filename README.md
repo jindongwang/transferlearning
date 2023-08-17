@@ -66,6 +66,17 @@ Related Codes:
 - By topic: [doc/awesome_papers.md](/doc/awesome_paper.md)
 - By date: [doc/awesome_paper_date.md](/doc/awesome_paper_date.md)
 
+*Updated at 2023-08-16:*
+
+- Exploring Transfer Learning in Medical Image Segmentation using Vision-Language Models [[arxiv](http://arxiv.org/abs/2308.07706)]
+  - Transfer learning for medical image segmentation
+
+- Transfer Learning for Portfolio Optimization [[arxiv](http://arxiv.org/abs/2307.13546)]
+  - Transfer learning for portfolio optimization
+
+- NormAUG: Normalization-guided Augmentation for Domain Generalization [[arxiv](http://arxiv.org/abs/2307.13492)]
+  - Normalization augmentation for domain generalization
+
 *Updated at 2023-07-18:*
 
 - Benchmarking Algorithms for Federated Domain Generalization [[arxiv](http://arxiv.org/abs/2307.04942)]

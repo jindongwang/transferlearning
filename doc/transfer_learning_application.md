@@ -18,6 +18,12 @@ By reverse chronological order.
 
 ## Computer vision
 
+- Exploring Transfer Learning in Medical Image Segmentation using Vision-Language Models [[arxiv](http://arxiv.org/abs/2308.07706)]
+  - Transfer learning for medical image segmentation
+
+- Transfer Learning for Portfolio Optimization [[arxiv](http://arxiv.org/abs/2307.13546)]
+  - Transfer learning for portfolio optimization
+
 - Imbalanced Domain Generalization for Robust Single Cell Classification in Hematological Cytomorphology [[arxiv](https://arxiv.org/abs/2303.07771)]
   - Imbalanced domain generalization for single cell classification 不平衡的DG用于单细胞分类
 
