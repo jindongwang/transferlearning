@@ -3,6 +3,7 @@
 Here, we list some papers related to transfer learning by date (starting from 2021-07). For papers older than 2021-07, please refer to the [papers by topic](awesome_paper.md), which contains more papers.
 
 - [Awesome papers by date](#awesome-papers-by-date)
+  - [2023-07](#2023-07)
   - [2023-06](#2023-06)
   - [2023-05](#2023-05)
   - [2023-04](#2023-04)
@@ -27,6 +28,26 @@ Here, we list some papers related to transfer learning by date (starting from 20
   - [2021-09](#2021-09)
   - [2021-08](#2021-08)
   - [2021-07](#2021-07)
+
+## 2023-07
+
+- Benchmarking Algorithms for Federated Domain Generalization [[arxiv](http://arxiv.org/abs/2307.04942)]
+  - Benchmark algorthms for federated domain generalization 对联邦域泛化算法进行的benchmark
+
+- DISPEL: Domain Generalization via Domain-Specific Liberating [[arxiv](http://arxiv.org/abs/2307.07181)]
+  - Domain generalization via domain-specific liberating
+
+- Review of Large Vision Models and Visual Prompt Engineering [[arxiv](https://arxiv.org/abs/2307.00855)]
+  - A survey of large vision model and prompt tuning 一个关于大视觉模型的prompt tuning的综述
+
+- Intra- & Extra-Source Exemplar-Based Style Synthesis for Improved Domain Generalization [[arxiv](https://arxiv.org/abs/2307.00648)]
+  - Exemplar-based style synthesis for domain generalization 样例格式合成用于DG
+
+- SAM-DA: UAV Tracks Anything at Night with SAM-Powered Domain Adaptation [[arxiv](https://arxiv.org/abs/2307.01024)]
+  - Using SAM for domain adaptation 使用segment anything进行domain adaptation
+
+- Unified Transfer Learning Models for High-Dimensional Linear Regression [[arxiv](https://arxiv.org/abs/2307.00238)]
+  - Transfer learning for high-dimensional linar regression 迁移学习用于高维线性回归
 
 ## 2023-06
 

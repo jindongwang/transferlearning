@@ -8,6 +8,7 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 - [Awesome Transfer Learning Papers](#awesome-transfer-learning-papers)
   - [Survey](#survey)
+  - [Large models](#large-models)
   - [Theory](#theory)
   - [Per-training/Finetuning](#per-trainingfinetuning)
   - [Knowledge distillation](#knowledge-distillation)
@@ -72,6 +73,17 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 - [Data-Free Knowledge Transfer: A Survey](https://arxiv.org/abs/2112.15278)
   - A survey on data-free distillation and source-free DA
   - 一篇关于data-free蒸馏和source-free DA的综述
+
+## Large models
+
+- IJCV'23 Exploring Vision-Language Models for Imbalanced Learning [[arxiv](https://arxiv.org/abs/2304.01457)] [[code](https://github.com/Imbalance-VLM/Imbalance-VLM)]
+  - Explore vision-language models for imbalanced learning 探索视觉大模型在不平衡问题上的表现
+
+- ICCV'23 Improving Generalization of Adversarial Training via Robust Critical Fine-Tuning [[arxiv](https://arxiv.org/abs/2308.02533)] [[code](https://github.com/microsoft/robustlearn)]
+  - 达到对抗鲁棒性和泛化能力的trade off 
+
+- Towards Realistic Unsupervised Fine-tuning with CLIP [[arxiv](http://arxiv.org/abs/2308.12919)]
+  - Unsupervised fine-tuning of CLIP
 
 ## Theory
 
@@ -154,6 +166,12 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 	- 对迁移学习中无监督的WGAN进行了一些理论上的分析
 
 ## Per-training/Finetuning
+
+- Towards Realistic Unsupervised Fine-tuning with CLIP [[arxiv](http://arxiv.org/abs/2308.12919)]
+  - Unsupervised fine-tuning of CLIP
+
+- Fine-tuning can cripple your foundation model; preserving features may be the solution [[arxiv](http://arxiv.org/abs/2308.13320)]
+  - Fine-tuning will cripple foundation model
 
 - Unified Transfer Learning Models for High-Dimensional Linear Regression [[arxiv](https://arxiv.org/abs/2307.00238)]
   - Transfer learning for high-dimensional linar regression 迁移学习用于高维线性回归
@@ -702,6 +720,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 	- 发表在IEEE Trans. Knowledge and Data Engineering期刊上
 
 ## Deep domain adaptation
+
+- Unsupervised Domain Adaptation via Domain-Adaptive Diffusion [[arxiv](http://arxiv.org/abs/2308.13893)]
+  - Domain-adaptive diffusion for domain adaptation 领域自适应的diffusion
 
 - SAM-DA: UAV Tracks Anything at Night with SAM-Powered Domain Adaptation [[arxiv](https://arxiv.org/abs/2307.01024)]
   - Using SAM for domain adaptation 使用segment anything进行domain adaptation
@@ -1761,6 +1782,12 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ### Papers
 
+- Multi-Scale and Multi-Layer Contrastive Learning for Domain Generalization [[arxiv](http://arxiv.org/abs/2308.14418)]
+  - Multi-scale and multi-layer contrastive learning for DG 多尺度和多层对比学习用于DG
+
+- Exploring the Transfer Learning Capabilities of CLIP in Domain Generalization for Diabetic Retinopathy [[arxiv](http://arxiv.org/abs/2308.14212)]
+  - Domain generalization for diabetic retinopathy 用领域泛化进行糖尿病视网膜病
+
 - NormAUG: Normalization-guided Augmentation for Domain Generalization [[arxiv](http://arxiv.org/abs/2307.13492)]
   - Normalization augmentation for domain generalization
 
@@ -2165,6 +2192,12 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 - - -
 
 ## Source-free domain adaptation
+
+- Source-Free Collaborative Domain Adaptation via Multi-Perspective Feature Enrichment for Functional MRI Analysis [[arxiv](http://arxiv.org/abs/2308.12495)]
+  - Source-free domain adaptation for MRI analysis
+
+- ICCV'23 Domain-Specificity Inducing Transformers for Source-Free Domain Adaptation [[arxiv](https://arxiv.org/abs/2308.14023)]
+  - Domain-specificity for source-free DA 用领域特异性驱动的source-free DA
 
 - Visual Prompt Tuning for Test-time Domain Adaptation [[arxiv](http://arxiv.org/abs/2210.04831)]
   - VPT for test-time adaptation 用prompt tuning进行test-time DA

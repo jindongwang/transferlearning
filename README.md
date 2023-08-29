@@ -66,6 +66,38 @@ Related Codes:
 - By topic: [doc/awesome_papers.md](/doc/awesome_paper.md)
 - By date: [doc/awesome_paper_date.md](/doc/awesome_paper_date.md)
 
+*Updated at 2023-08-29:*
+
+- IJCV'23 Exploring Vision-Language Models for Imbalanced Learning [[arxiv](https://arxiv.org/abs/2304.01457)] [[code](https://github.com/Imbalance-VLM/Imbalance-VLM)]
+  - Explore vision-language models for imbalanced learning 探索视觉大模型在不平衡问题上的表现
+
+- ICCV'23 Improving Generalization of Adversarial Training via Robust Critical Fine-Tuning [[arxiv](https://arxiv.org/abs/2308.02533)] [[code](https://github.com/microsoft/robustlearn)]
+  - 达到对抗鲁棒性和泛化能力的trade off 
+
+- ICCV'23 Domain-Specificity Inducing Transformers for Source-Free Domain Adaptation [[arxiv](https://arxiv.org/abs/2308.14023)]
+  - Domain-specificity for source-free DA 用领域特异性驱动的source-free DA
+
+- Unsupervised Domain Adaptation via Domain-Adaptive Diffusion [[arxiv](http://arxiv.org/abs/2308.13893)]
+  - Domain-adaptive diffusion for domain adaptation 领域自适应的diffusion
+
+- Multi-Scale and Multi-Layer Contrastive Learning for Domain Generalization [[arxiv](http://arxiv.org/abs/2308.14418)]
+  - Multi-scale and multi-layer contrastive learning for DG 多尺度和多层对比学习用于DG
+
+- Exploring the Transfer Learning Capabilities of CLIP in Domain Generalization for Diabetic Retinopathy [[arxiv](http://arxiv.org/abs/2308.14212)]
+  - Domain generalization for diabetic retinopathy 用领域泛化进行糖尿病视网膜病
+
+- Federated Fine-tuning of Billion-Sized Language Models across Mobile Devices [[arxiv](http://arxiv.org/abs/2308.13894)]
+  - Federated fine-tuning for large models 大模型联邦微调
+
+- Source-Free Collaborative Domain Adaptation via Multi-Perspective Feature Enrichment for Functional MRI Analysis [[arxiv](http://arxiv.org/abs/2308.12495)]
+  - Source-free domain adaptation for MRI analysis
+
+- Towards Realistic Unsupervised Fine-tuning with CLIP [[arxiv](http://arxiv.org/abs/2308.12919)]
+  - Unsupervised fine-tuning of CLIP
+
+- Fine-tuning can cripple your foundation model; preserving features may be the solution [[arxiv](http://arxiv.org/abs/2308.13320)]
+  - Fine-tuning will cripple foundation model
+
 *Updated at 2023-08-16:*
 
 - Exploring Transfer Learning in Medical Image Segmentation using Vision-Language Models [[arxiv](http://arxiv.org/abs/2308.07706)]
@@ -76,28 +108,6 @@ Related Codes:
 
 - NormAUG: Normalization-guided Augmentation for Domain Generalization [[arxiv](http://arxiv.org/abs/2307.13492)]
   - Normalization augmentation for domain generalization
-
-*Updated at 2023-07-18:*
-
-- Benchmarking Algorithms for Federated Domain Generalization [[arxiv](http://arxiv.org/abs/2307.04942)]
-  - Benchmark algorthms for federated domain generalization 对联邦域泛化算法进行的benchmark
-
-- DISPEL: Domain Generalization via Domain-Specific Liberating [[arxiv](http://arxiv.org/abs/2307.07181)]
-  - Domain generalization via domain-specific liberating
-
-*Updated at 2023-07-05:*
-
-- Review of Large Vision Models and Visual Prompt Engineering [[arxiv](https://arxiv.org/abs/2307.00855)]
-  - A survey of large vision model and prompt tuning 一个关于大视觉模型的prompt tuning的综述
-
-- Intra- & Extra-Source Exemplar-Based Style Synthesis for Improved Domain Generalization [[arxiv](https://arxiv.org/abs/2307.00648)]
-  - Exemplar-based style synthesis for domain generalization 样例格式合成用于DG
-
-- SAM-DA: UAV Tracks Anything at Night with SAM-Powered Domain Adaptation [[arxiv](https://arxiv.org/abs/2307.01024)]
-  - Using SAM for domain adaptation 使用segment anything进行domain adaptation
-
-- Unified Transfer Learning Models for High-Dimensional Linear Regression [[arxiv](https://arxiv.org/abs/2307.00238)]
-  - Transfer learning for high-dimensional linar regression 迁移学习用于高维线性回归
 
 - - -
 
