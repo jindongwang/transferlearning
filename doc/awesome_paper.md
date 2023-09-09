@@ -721,6 +721,15 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ## Deep domain adaptation
 
+- Better Practices for Domain Adaptation [[arxiv](http://arxiv.org/abs/2309.03879)]
+  - Better practice for domain adaptation
+
+- Domain Adaptation for Efficiently Fine-tuning Vision Transformer with Encrypted Images [[arxiv](http://arxiv.org/abs/2309.02556)]
+  - Domain adaptation for efficient ViT
+
+- Robust Activity Recognition for Adaptive Worker-Robot Interaction using Transfer Learning [[arxiv](http://arxiv.org/abs/2308.14843)]
+  - Activity recognition using domain adaptation
+
 - Unsupervised Domain Adaptation via Domain-Adaptive Diffusion [[arxiv](http://arxiv.org/abs/2308.13893)]
   - Domain-adaptive diffusion for domain adaptation 领域自适应的diffusion
 

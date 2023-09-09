@@ -66,6 +66,17 @@ Related Codes:
 - By topic: [doc/awesome_papers.md](/doc/awesome_paper.md)
 - By date: [doc/awesome_paper_date.md](/doc/awesome_paper_date.md)
 
+*Updated at 2023-09-09:*
+
+- Better Practices for Domain Adaptation [[arxiv](http://arxiv.org/abs/2309.03879)]
+  - Better practice for domain adaptation
+
+- Domain Adaptation for Efficiently Fine-tuning Vision Transformer with Encrypted Images [[arxiv](http://arxiv.org/abs/2309.02556)]
+  - Domain adaptation for efficient ViT
+
+- Robust Activity Recognition for Adaptive Worker-Robot Interaction using Transfer Learning [[arxiv](http://arxiv.org/abs/2308.14843)]
+  - Activity recognition using domain adaptation
+
 *Updated at 2023-08-29:*
 
 - IJCV'23 Exploring Vision-Language Models for Imbalanced Learning [[arxiv](https://arxiv.org/abs/2304.01457)] [[code](https://github.com/Imbalance-VLM/Imbalance-VLM)]
