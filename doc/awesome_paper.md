@@ -167,6 +167,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ## Per-training/Finetuning
 
+- DePT: Decomposed Prompt Tuning for Parameter-Efficient Fine-tuning [[arxiv](http://arxiv.org/abs/2309.05173)]
+  - Decomposed prompt tuning for parameter-efficient fine-tuning 基于分解prompt tuning的参数高效微调
+
 - Towards Realistic Unsupervised Fine-tuning with CLIP [[arxiv](http://arxiv.org/abs/2308.12919)]
   - Unsupervised fine-tuning of CLIP
 
@@ -1786,10 +1789,15 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ### Tutorial
 
+- KDD 2023 tutorial: trustworthy machine learning: robustness, generalization, and interpretability [[link](https://mltrust.github.io/)]
+
 - WSDM-23 and IJCAI-22 A tutorial on domain generalization [[link](https://dl.acm.org/doi/10.1145/3539597.3572722)] | [[website](https://dgresearch.github.io/)]
   - A tutorial on domain generalization
 
 ### Papers
+
+- Domain Generalization with Fourier Transform and Soft Thresholding [[arxiv](http://arxiv.org/abs/2309.09866)]
+  - Domain generalization with Fourier transform 基于傅里叶变换和软阈值进行domain generalization
 
 - Multi-Scale and Multi-Layer Contrastive Learning for Domain Generalization [[arxiv](http://arxiv.org/abs/2308.14418)]
   - Multi-scale and multi-layer contrastive learning for DG 多尺度和多层对比学习用于DG

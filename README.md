@@ -66,6 +66,14 @@ Related Codes:
 - By topic: [doc/awesome_papers.md](/doc/awesome_paper.md)
 - By date: [doc/awesome_paper_date.md](/doc/awesome_paper_date.md)
 
+*Updated at 2023-09-21:*
+
+- Domain Generalization with Fourier Transform and Soft Thresholding [[arxiv](http://arxiv.org/abs/2309.09866)]
+  - Domain generalization with Fourier transform 基于傅里叶变换和软阈值进行domain generalization
+
+- DePT: Decomposed Prompt Tuning for Parameter-Efficient Fine-tuning [[arxiv](http://arxiv.org/abs/2309.05173)]
+  - Decomposed prompt tuning for parameter-efficient fine-tuning 基于分解prompt tuning的参数高效微调
+
 *Updated at 2023-09-09:*
 
 - Better Practices for Domain Adaptation [[arxiv](http://arxiv.org/abs/2309.03879)]
@@ -76,49 +84,6 @@ Related Codes:
 
 - Robust Activity Recognition for Adaptive Worker-Robot Interaction using Transfer Learning [[arxiv](http://arxiv.org/abs/2308.14843)]
   - Activity recognition using domain adaptation
-
-*Updated at 2023-08-29:*
-
-- IJCV'23 Exploring Vision-Language Models for Imbalanced Learning [[arxiv](https://arxiv.org/abs/2304.01457)] [[code](https://github.com/Imbalance-VLM/Imbalance-VLM)]
-  - Explore vision-language models for imbalanced learning 探索视觉大模型在不平衡问题上的表现
-
-- ICCV'23 Improving Generalization of Adversarial Training via Robust Critical Fine-Tuning [[arxiv](https://arxiv.org/abs/2308.02533)] [[code](https://github.com/microsoft/robustlearn)]
-  - 达到对抗鲁棒性和泛化能力的trade off 
-
-- ICCV'23 Domain-Specificity Inducing Transformers for Source-Free Domain Adaptation [[arxiv](https://arxiv.org/abs/2308.14023)]
-  - Domain-specificity for source-free DA 用领域特异性驱动的source-free DA
-
-- Unsupervised Domain Adaptation via Domain-Adaptive Diffusion [[arxiv](http://arxiv.org/abs/2308.13893)]
-  - Domain-adaptive diffusion for domain adaptation 领域自适应的diffusion
-
-- Multi-Scale and Multi-Layer Contrastive Learning for Domain Generalization [[arxiv](http://arxiv.org/abs/2308.14418)]
-  - Multi-scale and multi-layer contrastive learning for DG 多尺度和多层对比学习用于DG
-
-- Exploring the Transfer Learning Capabilities of CLIP in Domain Generalization for Diabetic Retinopathy [[arxiv](http://arxiv.org/abs/2308.14212)]
-  - Domain generalization for diabetic retinopathy 用领域泛化进行糖尿病视网膜病
-
-- Federated Fine-tuning of Billion-Sized Language Models across Mobile Devices [[arxiv](http://arxiv.org/abs/2308.13894)]
-  - Federated fine-tuning for large models 大模型联邦微调
-
-- Source-Free Collaborative Domain Adaptation via Multi-Perspective Feature Enrichment for Functional MRI Analysis [[arxiv](http://arxiv.org/abs/2308.12495)]
-  - Source-free domain adaptation for MRI analysis
-
-- Towards Realistic Unsupervised Fine-tuning with CLIP [[arxiv](http://arxiv.org/abs/2308.12919)]
-  - Unsupervised fine-tuning of CLIP
-
-- Fine-tuning can cripple your foundation model; preserving features may be the solution [[arxiv](http://arxiv.org/abs/2308.13320)]
-  - Fine-tuning will cripple foundation model
-
-*Updated at 2023-08-16:*
-
-- Exploring Transfer Learning in Medical Image Segmentation using Vision-Language Models [[arxiv](http://arxiv.org/abs/2308.07706)]
-  - Transfer learning for medical image segmentation
-
-- Transfer Learning for Portfolio Optimization [[arxiv](http://arxiv.org/abs/2307.13546)]
-  - Transfer learning for portfolio optimization
-
-- NormAUG: Normalization-guided Augmentation for Domain Generalization [[arxiv](http://arxiv.org/abs/2307.13492)]
-  - Normalization augmentation for domain generalization
 
 - - -
 
