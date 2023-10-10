@@ -167,6 +167,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ## Per-training/Finetuning
 
+- Understanding and Mitigating the Label Noise in Pre-training on Downstream Tasks [[arxiv](https://arxiv.org/abs/2309.17002)]
+  - Noisy model learning: fine-tuning to supress the bad effect of noisy pretraining data 通过使用轻量级finetune减少噪音预训练数据对下游任务的影响
+
 - DePT: Decomposed Prompt Tuning for Parameter-Efficient Fine-tuning [[arxiv](http://arxiv.org/abs/2309.05173)]
   - Decomposed prompt tuning for parameter-efficient fine-tuning 基于分解prompt tuning的参数高效微调
 
@@ -2676,6 +2679,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 - - -
 
 ## Federated transfer learning
+
+- ZooPFL: Exploring Black-box Foundation Models for Personalized Federated Learning [[arxiv](https://arxiv.org/abs/2310.05143)]
+  - Black-box foundation models for personalized federated learning 黑盒的blackbox模型进行个性化迁移学习
 
 - Benchmarking Algorithms for Federated Domain Generalization [[arxiv](http://arxiv.org/abs/2307.04942)]
   - Benchmark algorthms for federated domain generalization 对联邦域泛化算法进行的benchmark

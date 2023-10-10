@@ -66,24 +66,13 @@ Related Codes:
 - By topic: [doc/awesome_papers.md](/doc/awesome_paper.md)
 - By date: [doc/awesome_paper_date.md](/doc/awesome_paper_date.md)
 
-*Updated at 2023-09-21:*
+*Updated at 2023-10-10:*
 
-- Domain Generalization with Fourier Transform and Soft Thresholding [[arxiv](http://arxiv.org/abs/2309.09866)]
-  - Domain generalization with Fourier transform 基于傅里叶变换和软阈值进行domain generalization
+- Understanding and Mitigating the Label Noise in Pre-training on Downstream Tasks [[arxiv](https://arxiv.org/abs/2309.17002)]
+  - Noisy model learning: fine-tuning to supress the bad effect of noisy pretraining data 通过使用轻量级finetune减少噪音预训练数据对下游任务的影响
 
-- DePT: Decomposed Prompt Tuning for Parameter-Efficient Fine-tuning [[arxiv](http://arxiv.org/abs/2309.05173)]
-  - Decomposed prompt tuning for parameter-efficient fine-tuning 基于分解prompt tuning的参数高效微调
-
-*Updated at 2023-09-09:*
-
-- Better Practices for Domain Adaptation [[arxiv](http://arxiv.org/abs/2309.03879)]
-  - Better practice for domain adaptation
-
-- Domain Adaptation for Efficiently Fine-tuning Vision Transformer with Encrypted Images [[arxiv](http://arxiv.org/abs/2309.02556)]
-  - Domain adaptation for efficient ViT
-
-- Robust Activity Recognition for Adaptive Worker-Robot Interaction using Transfer Learning [[arxiv](http://arxiv.org/abs/2308.14843)]
-  - Activity recognition using domain adaptation
+- ZooPFL: Exploring Black-box Foundation Models for Personalized Federated Learning [[arxiv](https://arxiv.org/abs/2310.05143)]
+  - Black-box foundation models for personalized federated learning 黑盒的blackbox模型进行个性化迁移学习
 
 - - -
 
