@@ -3,7 +3,7 @@
 Here, we list some papers related to transfer learning by date (starting from 2021-07). For papers older than 2021-07, please refer to the [papers by topic](awesome_paper.md), which contains more papers.
 
 - [Awesome papers by date](#awesome-papers-by-date)
-  - [203-09](#203-09)
+  - [2023-09](#2023-09)
   - [2023-08](#2023-08)
   - [2023-07](#2023-07)
   - [2023-06](#2023-06)
@@ -31,7 +31,7 @@ Here, we list some papers related to transfer learning by date (starting from 20
   - [2021-08](#2021-08)
   - [2021-07](#2021-07)
 
-## 203-09
+## 2023-09
 
 - Domain Generalization with Fourier Transform and Soft Thresholding [[arxiv](http://arxiv.org/abs/2309.09866)]
   - Domain generalization with Fourier transform 基于傅里叶变换和软阈值进行domain generalization

@@ -34,6 +34,8 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ## Survey
 
+- A Survey of Heterogeneous Transfer Learning [[arxiv](https://arxiv.org/abs/2310.08459v2)]
+  - A recent survey of heterogeneous transfer learning 一篇最近的关于异构迁移学习的综述
 - Review of Large Vision Models and Visual Prompt Engineering [[arxiv](https://arxiv.org/abs/2307.00855)]
   - A survey of large vision model and prompt tuning 一个关于大视觉模型的prompt tuning的综述
 - IEEE TNNLS-22 [Towards Personalized Federated Learning](http://arxiv.org/abs/2103.00710)
@@ -75,6 +77,12 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
   - 一篇关于data-free蒸馏和source-free DA的综述
 
 ## Large models
+
+- Understanding and Mitigating the Label Noise in Pre-training on Downstream Tasks [[arxiv](https://arxiv.org/abs/2309.17002)]
+  - Noisy model learning: fine-tuning to supress the bad effect of noisy pretraining data 通过使用轻量级finetune减少噪音预训练数据对下游任务的影响
+
+- ZooPFL: Exploring Black-box Foundation Models for Personalized Federated Learning [[arxiv](https://arxiv.org/abs/2310.05143)]
+  - Black-box foundation models for personalized federated learning 黑盒的blackbox模型进行个性化迁移学习
 
 - IJCV'23 Exploring Vision-Language Models for Imbalanced Learning [[arxiv](https://arxiv.org/abs/2304.01457)] [[code](https://github.com/Imbalance-VLM/Imbalance-VLM)]
   - Explore vision-language models for imbalanced learning 探索视觉大模型在不平衡问题上的表现
@@ -166,6 +174,12 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 	- 对迁移学习中无监督的WGAN进行了一些理论上的分析
 
 ## Per-training/Finetuning
+
+- Equivariant Adaptation of Large Pre-Trained Models [[arxiv](http://arxiv.org/abs/2310.01647)]
+  - Equivariant adaptation of large pre-trained models 对大模型进行等边自适应
+
+- Effective and Parameter-Efficient Reusing Fine-Tuned Models [[arxiv](http://arxiv.org/abs/2310.01886)]
+  - Effective and parameter-efficient reusing fine-tuned models 高效使用预训练模型
 
 - Understanding and Mitigating the Label Noise in Pre-training on Downstream Tasks [[arxiv](https://arxiv.org/abs/2309.17002)]
   - Noisy model learning: fine-tuning to supress the bad effect of noisy pretraining data 通过使用轻量级finetune减少噪音预训练数据对下游任务的影响
@@ -1798,6 +1812,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
   - A tutorial on domain generalization
 
 ### Papers
+
+- Prompting-based Efficient Temporal Domain Generalization [[arxiv](http://arxiv.org/abs/2310.02473)]
+  - Prompt based temporal domain generalization 基于prompt的时间域domain generalization
 
 - Domain Generalization with Fourier Transform and Soft Thresholding [[arxiv](http://arxiv.org/abs/2309.09866)]
   - Domain generalization with Fourier transform 基于傅里叶变换和软阈值进行domain generalization

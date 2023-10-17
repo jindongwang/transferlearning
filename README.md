@@ -66,6 +66,20 @@ Related Codes:
 - By topic: [doc/awesome_papers.md](/doc/awesome_paper.md)
 - By date: [doc/awesome_paper_date.md](/doc/awesome_paper_date.md)
 
+*Updated at 2023-10-17:*
+
+- A Survey of Heterogeneous Transfer Learning [[arxiv](https://arxiv.org/abs/2310.08459v2)]
+  - A recent survey of heterogeneous transfer learning 一篇最近的关于异构迁移学习的综述
+
+- Equivariant Adaptation of Large Pre-Trained Models [[arxiv](http://arxiv.org/abs/2310.01647)]
+  - Equivariant adaptation of large pre-trained models 对大模型进行等边自适应
+
+- Effective and Parameter-Efficient Reusing Fine-Tuned Models [[arxiv](http://arxiv.org/abs/2310.01886)]
+  - Effective and parameter-efficient reusing fine-tuned models 高效使用预训练模型
+  
+- Prompting-based Efficient Temporal Domain Generalization [[arxiv](http://arxiv.org/abs/2310.02473)]
+  - Prompt based temporal domain generalization 基于prompt的时间域domain generalization
+
 *Updated at 2023-10-10:*
 
 - Understanding and Mitigating the Label Noise in Pre-training on Downstream Tasks [[arxiv](https://arxiv.org/abs/2309.17002)]
