@@ -2230,6 +2230,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ## Source-free domain adaptation
 
+- PromptStyler: Prompt-driven Style Generation for Source-free Domain Generalization [[arxiv](https://arxiv.org/abs/2307.15199)]
+  - Prompt-driven style generation for source-free domain generalization
+
 - Source-Free Collaborative Domain Adaptation via Multi-Perspective Feature Enrichment for Functional MRI Analysis [[arxiv](http://arxiv.org/abs/2308.12495)]
   - Source-free domain adaptation for MRI analysis
 
