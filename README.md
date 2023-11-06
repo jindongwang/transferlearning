@@ -66,6 +66,14 @@ Related Codes:
 - By topic: [doc/awesome_papers.md](/doc/awesome_paper.md)
 - By date: [doc/awesome_paper_date.md](/doc/awesome_paper_date.md)
 
+*Updated at 2023-11-06:*
+
+- NeurIPS 2023 Distilling Out-of-Distribution Robustness from Vision-Language Foundation Models [[arxiv](https://arxiv.org/abs/2311.01441)]
+  - Distill OOD robustness from vision-language foundational models 从VLM模型中蒸馏出OOD鲁棒性
+
+- UbiComp 2024 Optimization-Free Test-Time Adaptation for Cross-Person Activity Recognition [[arxiv](https://arxiv.org/abs/2310.18562)]
+  - Test-time adaptation for activity recognition 测试时adaptation用于行为识别
+
 *Updated at 2023-10-18:*
 
 - PromptStyler: Prompt-driven Style Generation for Source-free Domain Generalization [[arxiv](https://arxiv.org/abs/2307.15199)]

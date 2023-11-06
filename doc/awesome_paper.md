@@ -1813,6 +1813,12 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ### Papers
 
+- NeurIPS 2023 Distilling Out-of-Distribution Robustness from Vision-Language Foundation Models [[arxiv](https://arxiv.org/abs/2311.01441)]
+  - Distill OOD robustness from vision-language foundational models 从VLM模型中蒸馏出OOD鲁棒性
+
+- UbiComp 2024 Optimization-Free Test-Time Adaptation for Cross-Person Activity Recognition [[arxiv](https://arxiv.org/abs/2310.18562)]
+  - Test-time adaptation for activity recognition 测试时adaptation用于行为识别
+
 - Prompting-based Efficient Temporal Domain Generalization [[arxiv](http://arxiv.org/abs/2310.02473)]
   - Prompt based temporal domain generalization 基于prompt的时间域domain generalization
 
