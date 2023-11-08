@@ -66,6 +66,20 @@ Related Codes:
 - By topic: [doc/awesome_papers.md](/doc/awesome_paper.md)
 - By date: [doc/awesome_paper_date.md](/doc/awesome_paper_date.md)
 
+*Updated at 2023-11-08:*
+
+- SSL-DG: Rethinking and Fusing Semi-supervised Learning and Domain Generalization in Medical Image Segmentation [[arxiv](https://arxiv.org/abs/2311.02583)]
+  - Semi-supervised learning + domain generalization 把半监督和领域泛化结合在一起
+
+- WACV'24 Learning Class and Domain Augmentations for Single-Source Open-Domain Generalization [[arxiv](https://arxiv.org/abs/2311.02599)]
+  - Class and domain augmentation for single-source open-domain DG 结合类和domain增强做单源DG
+
+- Proposal-Level Unsupervised Domain Adaptation for Open World Unbiased Detector [[arxiv](https://arxiv.org/abs/2311.02342)]
+  - Proposal-level unsupervised domain adaptation
+
+- Robust Fine-Tuning of Vision-Language Models for Domain Generalization [[arxiv](https://arxiv.org/abs/2311.02236)]
+  - Robust fine-tuning for domain generalization 用于领域泛化的鲁棒微调
+
 *Updated at 2023-11-06:*
 
 - NeurIPS 2023 Distilling Out-of-Distribution Robustness from Vision-Language Foundation Models [[arxiv](https://arxiv.org/abs/2311.01441)]

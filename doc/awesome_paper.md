@@ -741,6 +741,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ## Deep domain adaptation
 
+- Proposal-Level Unsupervised Domain Adaptation for Open World Unbiased Detector [[arxiv](https://arxiv.org/abs/2311.02342)]
+  - Proposal-level unsupervised domain adaptation
+
 - Better Practices for Domain Adaptation [[arxiv](http://arxiv.org/abs/2309.03879)]
   - Better practice for domain adaptation
 
@@ -1812,6 +1815,15 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
   - A tutorial on domain generalization
 
 ### Papers
+
+- SSL-DG: Rethinking and Fusing Semi-supervised Learning and Domain Generalization in Medical Image Segmentation [[arxiv](https://arxiv.org/abs/2311.02583)]
+  - Semi-supervised learning + domain generalization 把半监督和领域泛化结合在一起
+
+- WACV'24 Learning Class and Domain Augmentations for Single-Source Open-Domain Generalization [[arxiv](https://arxiv.org/abs/2311.02599)]
+  - Class and domain augmentation for single-source open-domain DG 结合类和domain增强做单源DG
+
+- Robust Fine-Tuning of Vision-Language Models for Domain Generalization [[arxiv](https://arxiv.org/abs/2311.02236)]
+  - Robust fine-tuning for domain generalization 用于领域泛化的鲁棒微调
 
 - NeurIPS 2023 Distilling Out-of-Distribution Robustness from Vision-Language Foundation Models [[arxiv](https://arxiv.org/abs/2311.01441)]
   - Distill OOD robustness from vision-language foundational models 从VLM模型中蒸馏出OOD鲁棒性
