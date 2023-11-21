@@ -45,9 +45,10 @@ author = {Wang, Jindong and others}
 
 Related Codes:
   - Large language model evaluation: [[llm-eval](https://llm-eval.github.io/)]
+  - Large language model enhancement: [[llm-enhance](https://llm-enhance.github.io/)]
   - Robust machine learning: [[robustlearn: robust machine learning](https://github.com/microsoft/robustlearn)]
   - Semi-supervised learning: [[USB: unified semi-supervised learning benchmark](https://github.com/microsoft/Semi-supervised-learning)] | [[TorchSSL: a unified SSL library](https://github.com/TorchSSL/TorchSSL)] 
-  - Prompt benchmark: [[PromptBench: adverarial robustness of prompts of LLMs](https://github.com/microsoft/promptbench)]
+  - LLM benchmark: [[PromptBench: adverarial robustness of prompts of LLMs](https://github.com/microsoft/promptbench)]
   - Federated learning: [[PersonalizedFL: library for personalized federated learning](https://github.com/microsoft/PersonalizedFL)]
   - Activity recognition and machine learning [[Activity recognition](https://github.com/jindongwang/activityrecognition)]｜[[Machine learning](https://github.com/jindongwang/MachineLearning)]
 
@@ -65,6 +66,17 @@ Related Codes:
 
 - By topic: [doc/awesome_papers.md](/doc/awesome_paper.md)
 - By date: [doc/awesome_paper_date.md](/doc/awesome_paper_date.md)
+
+*Updated at 2023-11-21:*
+
+- A2XP: Towards Private Domain Generalization [[arxiv](https://arxiv.org/abs/2311.10339)]
+  - Private domain generalization 隐私保护的domain generalization
+
+- Layer-wise Auto-Weighting for Non-Stationary Test-Time Adaptation [[arxiv](http://arxiv.org/abs/2311.05858)]
+  - Auto-weighting for test-time adaptation 自动权重的TTA
+
+- Domain Generalization by Learning from Privileged Medical Imaging Information [[arxiv](http://arxiv.org/abs/2311.05861)]
+  - Domain generalizaiton by learning from privileged medical imageing inforamtion
 
 *Updated at 2023-11-08:*
 
@@ -87,33 +99,6 @@ Related Codes:
 
 - UbiComp 2024 Optimization-Free Test-Time Adaptation for Cross-Person Activity Recognition [[arxiv](https://arxiv.org/abs/2310.18562)]
   - Test-time adaptation for activity recognition 测试时adaptation用于行为识别
-
-*Updated at 2023-10-18:*
-
-- PromptStyler: Prompt-driven Style Generation for Source-free Domain Generalization [[arxiv](https://arxiv.org/abs/2307.15199)]
-  - Prompt-driven style generation for source-free domain generalization
-
-*Updated at 2023-10-17:*
-
-- A Survey of Heterogeneous Transfer Learning [[arxiv](https://arxiv.org/abs/2310.08459v2)]
-  - A recent survey of heterogeneous transfer learning 一篇最近的关于异构迁移学习的综述
-
-- Equivariant Adaptation of Large Pre-Trained Models [[arxiv](http://arxiv.org/abs/2310.01647)]
-  - Equivariant adaptation of large pre-trained models 对大模型进行等边自适应
-
-- Effective and Parameter-Efficient Reusing Fine-Tuned Models [[arxiv](http://arxiv.org/abs/2310.01886)]
-  - Effective and parameter-efficient reusing fine-tuned models 高效使用预训练模型
-  
-- Prompting-based Efficient Temporal Domain Generalization [[arxiv](http://arxiv.org/abs/2310.02473)]
-  - Prompt based temporal domain generalization 基于prompt的时间域domain generalization
-
-*Updated at 2023-10-10:*
-
-- Understanding and Mitigating the Label Noise in Pre-training on Downstream Tasks [[arxiv](https://arxiv.org/abs/2309.17002)]
-  - Noisy model learning: fine-tuning to supress the bad effect of noisy pretraining data 通过使用轻量级finetune减少噪音预训练数据对下游任务的影响
-
-- ZooPFL: Exploring Black-box Foundation Models for Personalized Federated Learning [[arxiv](https://arxiv.org/abs/2310.05143)]
-  - Black-box foundation models for personalized federated learning 黑盒的blackbox模型进行个性化迁移学习
 
 - - -
 

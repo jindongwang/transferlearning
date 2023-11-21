@@ -3,6 +3,7 @@
 Here, we list some papers related to transfer learning by date (starting from 2021-07). For papers older than 2021-07, please refer to the [papers by topic](awesome_paper.md), which contains more papers.
 
 - [Awesome papers by date](#awesome-papers-by-date)
+  - [2023-10](#2023-10)
   - [2023-09](#2023-09)
   - [2023-08](#2023-08)
   - [2023-07](#2023-07)
@@ -30,6 +31,29 @@ Here, we list some papers related to transfer learning by date (starting from 20
   - [2021-09](#2021-09)
   - [2021-08](#2021-08)
   - [2021-07](#2021-07)
+
+## 2023-10
+
+- PromptStyler: Prompt-driven Style Generation for Source-free Domain Generalization [[arxiv](https://arxiv.org/abs/2307.15199)]
+  - Prompt-driven style generation for source-free domain generalization
+
+- A Survey of Heterogeneous Transfer Learning [[arxiv](https://arxiv.org/abs/2310.08459v2)]
+  - A recent survey of heterogeneous transfer learning 一篇最近的关于异构迁移学习的综述
+
+- Equivariant Adaptation of Large Pre-Trained Models [[arxiv](http://arxiv.org/abs/2310.01647)]
+  - Equivariant adaptation of large pre-trained models 对大模型进行等边自适应
+
+- Effective and Parameter-Efficient Reusing Fine-Tuned Models [[arxiv](http://arxiv.org/abs/2310.01886)]
+  - Effective and parameter-efficient reusing fine-tuned models 高效使用预训练模型
+  
+- Prompting-based Efficient Temporal Domain Generalization [[arxiv](http://arxiv.org/abs/2310.02473)]
+  - Prompt based temporal domain generalization 基于prompt的时间域domain generalization
+
+- Understanding and Mitigating the Label Noise in Pre-training on Downstream Tasks [[arxiv](https://arxiv.org/abs/2309.17002)]
+  - Noisy model learning: fine-tuning to supress the bad effect of noisy pretraining data 通过使用轻量级finetune减少噪音预训练数据对下游任务的影响
+
+- ZooPFL: Exploring Black-box Foundation Models for Personalized Federated Learning [[arxiv](https://arxiv.org/abs/2310.05143)]
+  - Black-box foundation models for personalized federated learning 黑盒的blackbox模型进行个性化迁移学习
 
 ## 2023-09
 

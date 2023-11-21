@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="https://github.com/jindongwang/transferlearning"><img src="https://s1.ax1x.com/2022/04/29/LvNzM8.jpg" alt="Transfer Leanring" width="500"></a>
+  <a href="https://github.com/jindongwang/transferlearning"><img src="https://github.com/jindongwang/transferlearning/blob/master/png/logo.jpg?raw=true" alt="Transfer Leanring" width="500"></a>
 </h1>
 
 
@@ -46,6 +46,10 @@ author = {Wang, Jindong and others}
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![MIT License](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT) [![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE) [![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu) 
 
 Related repos：
-- [[TorchSSL: a unified library for semi-supervised learning](https://github.com/TorchSSL/TorchSSL)]
-- [[Activity recognition](https://github.com/jindongwang/activityrecognition)]
-- [[Machine learning](https://github.com/jindongwang/MachineLearning)]
+  - Large language model evaluation: [[llm-eval](https://llm-eval.github.io/)]
+  - Large language model enhancement: [[llm-enhance](https://llm-enhance.github.io/)]
+  - Robust machine learning: [[robustlearn: robust machine learning](https://github.com/microsoft/robustlearn)]
+  - Semi-supervised learning: [[USB: unified semi-supervised learning benchmark](https://github.com/microsoft/Semi-supervised-learning)] | [[TorchSSL: a unified SSL library](https://github.com/TorchSSL/TorchSSL)] 
+  - LLM benchmark: [[PromptBench: adverarial robustness of prompts of LLMs](https://github.com/microsoft/promptbench)]
+  - Federated learning: [[PersonalizedFL: library for personalized federated learning](https://github.com/microsoft/PersonalizedFL)]
+  - Activity recognition and machine learning [[Activity recognition](https://github.com/jindongwang/activityrecognition)]｜[[Machine learning](https://github.com/jindongwang/MachineLearning)]

@@ -1816,6 +1816,15 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ### Papers
 
+- A2XP: Towards Private Domain Generalization [[arxiv](https://arxiv.org/abs/2311.10339)]
+  - Private domain generalization 隐私保护的domain generalization
+
+- Layer-wise Auto-Weighting for Non-Stationary Test-Time Adaptation [[arxiv](http://arxiv.org/abs/2311.05858)]
+  - Auto-weighting for test-time adaptation 自动权重的TTA
+
+- Domain Generalization by Learning from Privileged Medical Imaging Information [[arxiv](http://arxiv.org/abs/2311.05861)]
+  - Domain generalizaiton by learning from privileged medical imageing inforamtion
+
 - SSL-DG: Rethinking and Fusing Semi-supervised Learning and Domain Generalization in Medical Image Segmentation [[arxiv](https://arxiv.org/abs/2311.02583)]
   - Semi-supervised learning + domain generalization 把半监督和领域泛化结合在一起
 
