@@ -741,6 +741,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ## Deep domain adaptation
 
+- Target-agnostic Source-free Domain Adaptation for Regression Tasks [[arxiv](http://arxiv.org/abs/2312.00540)]
+  - Target-agnostic source-free DA for regression 用于回归任务的source-free DA
+
 - Proposal-Level Unsupervised Domain Adaptation for Open World Unbiased Detector [[arxiv](https://arxiv.org/abs/2311.02342)]
   - Proposal-level unsupervised domain adaptation
 
@@ -1815,6 +1818,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
   - A tutorial on domain generalization
 
 ### Papers
+
+- On the Out-Of-Distribution Robustness of Self-Supervised Representation Learning for Phonocardiogram Signals [[arxiv](http://arxiv.org/abs/2312.00502)]
+  - OOD robustness for self-supervised learning for phonocardiogram 心音图信号自监督的OOD鲁棒性
 
 - A2XP: Towards Private Domain Generalization [[arxiv](https://arxiv.org/abs/2311.10339)]
   - Private domain generalization 隐私保护的domain generalization

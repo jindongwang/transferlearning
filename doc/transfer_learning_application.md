@@ -321,6 +321,9 @@ By reverse chronological order.
 
 ## Medical and healthcare
 
+- On the Out-Of-Distribution Robustness of Self-Supervised Representation Learning for Phonocardiogram Signals [[arxiv](http://arxiv.org/abs/2312.00502)]
+  - OOD robustness for self-supervised learning for phonocardiogram 心音图信号自监督的OOD鲁棒性
+
 - Domain Generalization with Adversarial Intensity Attack for Medical Image Segmentation [[arxiv](http://arxiv.org/abs/2304.02720)]
   - Domain generalization for medical segmentation 用domain generalization进行医学分割
 
@@ -1034,6 +1037,9 @@ By reverse chronological order.
     - 迁移学习用于自动驾驶车辆的策略迁移
 
 ## Others
+
+- Student Activity Recognition in Classroom Environments using Transfer Learning [[arxiv](http://arxiv.org/abs/2312.00348)]
+  - Using transfer learning to recognize student activities 用迁移学习来识别学生课堂行为
 
 - Transfer learning for process design with reinforcement learning [[arxiv](https://arxiv.org/abs/2302.03375)]
   - Transfer learning for process design with reinforcement learning 使用强化迁移学习进行过程设计

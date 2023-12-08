@@ -67,6 +67,17 @@ Related Codes:
 - By topic: [doc/awesome_papers.md](/doc/awesome_paper.md)
 - By date: [doc/awesome_paper_date.md](/doc/awesome_paper_date.md)
 
+*Updates at 2023-12-08:*
+
+- Target-agnostic Source-free Domain Adaptation for Regression Tasks [[arxiv](http://arxiv.org/abs/2312.00540)]
+  - Target-agnostic source-free DA for regression 用于回归任务的source-free DA
+
+- On the Out-Of-Distribution Robustness of Self-Supervised Representation Learning for Phonocardiogram Signals [[arxiv](http://arxiv.org/abs/2312.00502)]
+  - OOD robustness for self-supervised learning for phonocardiogram 心音图信号自监督的OOD鲁棒性
+
+- Student Activity Recognition in Classroom Environments using Transfer Learning [[arxiv](http://arxiv.org/abs/2312.00348)]
+  - Using transfer learning to recognize student activities 用迁移学习来识别学生课堂行为
+
 *Updated at 2023-11-21:*
 
 - A2XP: Towards Private Domain Generalization [[arxiv](https://arxiv.org/abs/2311.10339)]
