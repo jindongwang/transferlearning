@@ -49,7 +49,11 @@ Related repos：
   - Large language model evaluation: [[llm-eval](https://llm-eval.github.io/)]
   - Large language model enhancement: [[llm-enhance](https://llm-enhance.github.io/)]
   - Robust machine learning: [[robustlearn: robust machine learning](https://github.com/microsoft/robustlearn)]
-  - Semi-supervised learning: [[USB: unified semi-supervised learning benchmark](https://github.com/microsoft/Semi-supervised-learning)] | [[TorchSSL: a unified SSL library](https://github.com/TorchSSL/TorchSSL)] 
+  - Semi-supervised learning: 
+    - [[USB: unified semi-supervised learning benchmark](https://github.com/microsoft/Semi-supervised-learning)]
+    - [[TorchSSL: a unified SSL library](https://github.com/TorchSSL/TorchSSL)] 
   - LLM benchmark: [[PromptBench: adverarial robustness of prompts of LLMs](https://github.com/microsoft/promptbench)]
   - Federated learning: [[PersonalizedFL: library for personalized federated learning](https://github.com/microsoft/PersonalizedFL)]
-  - Activity recognition and machine learning [[Activity recognition](https://github.com/jindongwang/activityrecognition)]｜[[Machine learning](https://github.com/jindongwang/MachineLearning)]
+  - Activity recognition and machine learning:
+    - [[Activity recognition](https://github.com/jindongwang/activityrecognition)]
+    - [[Machine learning](https://github.com/jindongwang/MachineLearning)]

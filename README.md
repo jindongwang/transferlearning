@@ -67,7 +67,21 @@ Related Codes:
 - By topic: [doc/awesome_papers.md](/doc/awesome_paper.md)
 - By date: [doc/awesome_paper_date.md](/doc/awesome_paper_date.md)
 
-*Updates at 2023-12-08:*
+*Updated at 2023-12-12:*
+
+- Open Domain Generalization with a Single Network by Regularization Exploiting Pre-trained Features [[arxiv](http://arxiv.org/abs/2312.05141)]
+  - Open domain generalization with a single network 用单一网络结构进行开放式domain generalizaition
+
+- Stronger, Fewer, & Superior: Harnessing Vision Foundation Models for Domain Generalized Semantic Segmentation [[arxiv](http://arxiv.org/abs/2312.04265)]
+  - Using vision foundation models for domain genealized semantic segmentation 用视觉基础模型进行域泛化语义分割
+
+- DARNet: Bridging Domain Gaps in Cross-Domain Few-Shot Segmentation with Dynamic Adaptation [[arxiv](http://arxiv.org/abs/2312.04813)]
+  - Dynamic adaptation for cross-domain few-shot segmentation 动态适配用于跨领域小样本分割
+
+- A Unified Framework for Unsupervised Domain Adaptation based on Instance Weighting [[arxiv](http://arxiv.org/abs/2312.05024)]
+  - Instance weighting for domain adaptation 样本加权用于领域自适应
+
+*Updated at 2023-12-08:*
 
 - Target-agnostic Source-free Domain Adaptation for Regression Tasks [[arxiv](http://arxiv.org/abs/2312.00540)]
   - Target-agnostic source-free DA for regression 用于回归任务的source-free DA
@@ -77,39 +91,6 @@ Related Codes:
 
 - Student Activity Recognition in Classroom Environments using Transfer Learning [[arxiv](http://arxiv.org/abs/2312.00348)]
   - Using transfer learning to recognize student activities 用迁移学习来识别学生课堂行为
-
-*Updated at 2023-11-21:*
-
-- A2XP: Towards Private Domain Generalization [[arxiv](https://arxiv.org/abs/2311.10339)]
-  - Private domain generalization 隐私保护的domain generalization
-
-- Layer-wise Auto-Weighting for Non-Stationary Test-Time Adaptation [[arxiv](http://arxiv.org/abs/2311.05858)]
-  - Auto-weighting for test-time adaptation 自动权重的TTA
-
-- Domain Generalization by Learning from Privileged Medical Imaging Information [[arxiv](http://arxiv.org/abs/2311.05861)]
-  - Domain generalizaiton by learning from privileged medical imageing inforamtion
-
-*Updated at 2023-11-08:*
-
-- SSL-DG: Rethinking and Fusing Semi-supervised Learning and Domain Generalization in Medical Image Segmentation [[arxiv](https://arxiv.org/abs/2311.02583)]
-  - Semi-supervised learning + domain generalization 把半监督和领域泛化结合在一起
-
-- WACV'24 Learning Class and Domain Augmentations for Single-Source Open-Domain Generalization [[arxiv](https://arxiv.org/abs/2311.02599)]
-  - Class and domain augmentation for single-source open-domain DG 结合类和domain增强做单源DG
-
-- Proposal-Level Unsupervised Domain Adaptation for Open World Unbiased Detector [[arxiv](https://arxiv.org/abs/2311.02342)]
-  - Proposal-level unsupervised domain adaptation
-
-- Robust Fine-Tuning of Vision-Language Models for Domain Generalization [[arxiv](https://arxiv.org/abs/2311.02236)]
-  - Robust fine-tuning for domain generalization 用于领域泛化的鲁棒微调
-
-*Updated at 2023-11-06:*
-
-- NeurIPS 2023 Distilling Out-of-Distribution Robustness from Vision-Language Foundation Models [[arxiv](https://arxiv.org/abs/2311.01441)]
-  - Distill OOD robustness from vision-language foundational models 从VLM模型中蒸馏出OOD鲁棒性
-
-- UbiComp 2024 Optimization-Free Test-Time Adaptation for Cross-Person Activity Recognition [[arxiv](https://arxiv.org/abs/2310.18562)]
-  - Test-time adaptation for activity recognition 测试时adaptation用于行为识别
 
 - - -
 

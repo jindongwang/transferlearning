@@ -3,6 +3,7 @@
 Here, we list some papers related to transfer learning by date (starting from 2021-07). For papers older than 2021-07, please refer to the [papers by topic](awesome_paper.md), which contains more papers.
 
 - [Awesome papers by date](#awesome-papers-by-date)
+  - [2023-11](#2023-11)
   - [2023-10](#2023-10)
   - [2023-09](#2023-09)
   - [2023-08](#2023-08)
@@ -31,6 +32,35 @@ Here, we list some papers related to transfer learning by date (starting from 20
   - [2021-09](#2021-09)
   - [2021-08](#2021-08)
   - [2021-07](#2021-07)
+
+## 2023-11
+
+- A2XP: Towards Private Domain Generalization [[arxiv](https://arxiv.org/abs/2311.10339)]
+  - Private domain generalization 隐私保护的domain generalization
+
+- Layer-wise Auto-Weighting for Non-Stationary Test-Time Adaptation [[arxiv](http://arxiv.org/abs/2311.05858)]
+  - Auto-weighting for test-time adaptation 自动权重的TTA
+
+- Domain Generalization by Learning from Privileged Medical Imaging Information [[arxiv](http://arxiv.org/abs/2311.05861)]
+  - Domain generalizaiton by learning from privileged medical imageing inforamtion
+
+- SSL-DG: Rethinking and Fusing Semi-supervised Learning and Domain Generalization in Medical Image Segmentation [[arxiv](https://arxiv.org/abs/2311.02583)]
+  - Semi-supervised learning + domain generalization 把半监督和领域泛化结合在一起
+
+- WACV'24 Learning Class and Domain Augmentations for Single-Source Open-Domain Generalization [[arxiv](https://arxiv.org/abs/2311.02599)]
+  - Class and domain augmentation for single-source open-domain DG 结合类和domain增强做单源DG
+
+- Proposal-Level Unsupervised Domain Adaptation for Open World Unbiased Detector [[arxiv](https://arxiv.org/abs/2311.02342)]
+  - Proposal-level unsupervised domain adaptation
+
+- Robust Fine-Tuning of Vision-Language Models for Domain Generalization [[arxiv](https://arxiv.org/abs/2311.02236)]
+  - Robust fine-tuning for domain generalization 用于领域泛化的鲁棒微调
+
+- NeurIPS 2023 Distilling Out-of-Distribution Robustness from Vision-Language Foundation Models [[arxiv](https://arxiv.org/abs/2311.01441)]
+  - Distill OOD robustness from vision-language foundational models 从VLM模型中蒸馏出OOD鲁棒性
+
+- UbiComp 2024 Optimization-Free Test-Time Adaptation for Cross-Person Activity Recognition [[arxiv](https://arxiv.org/abs/2310.18562)]
+  - Test-time adaptation for activity recognition 测试时adaptation用于行为识别
 
 ## 2023-10
 
