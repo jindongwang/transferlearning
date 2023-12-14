@@ -67,7 +67,10 @@ Related Codes:
 - By topic: [doc/awesome_papers.md](/doc/awesome_paper.md)
 - By date: [doc/awesome_paper_date.md](/doc/awesome_paper_date.md)
 
-*Updated at 2023-12-12:*
+*Updated at 2023-12-14:*
+
+- AAAI24 Relax Image-Specific Prompt Requirement in SAM: A Single Generic Prompt for Segmenting Camouflaged Objects [[arxiv](https://arxiv.org/abs/2312.07374)][[code](https://github.com/jyLin8100/GenSAM)]
+  - A training-free test-time adaptation approach to relax the instance-specific prompts requirment in SAM.
 
 - Open Domain Generalization with a Single Network by Regularization Exploiting Pre-trained Features [[arxiv](http://arxiv.org/abs/2312.05141)]
   - Open domain generalization with a single network 用单一网络结构进行开放式domain generalizaition
