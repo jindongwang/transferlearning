@@ -67,6 +67,14 @@ Related Codes:
 - By topic: [doc/awesome_papers.md](/doc/awesome_paper.md)
 - By date: [doc/awesome_paper_date.md](/doc/awesome_paper_date.md)
 
+*Updated at 2023-12-22:*
+
+- Prompt-based Domain Discrimination for Multi-source Time Series Domain Adaptation [[arxiv](https://arxiv.org/abs/2312.12276v1)]
+  - Prompt-based domain discrimination for time series domain adaptation 基于prompt的时间序列域自适应
+
+- NeurIPS'23 SwapPrompt: Test-Time Prompt Adaptation for Vision-Language Models [[arxiv](https://openreview.net/forum?id=EhdNQiOWgQ)]
+  - Test-time prompt adaptation for vision language models 对视觉-语言大模型的测试时prompt自适应
+
 *Updated at 2023-12-14:*
 
 - AAAI24 Relax Image-Specific Prompt Requirement in SAM: A Single Generic Prompt for Segmenting Camouflaged Objects [[arxiv](https://arxiv.org/abs/2312.07374)][[code](https://github.com/jyLin8100/GenSAM)]

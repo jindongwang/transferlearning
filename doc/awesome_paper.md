@@ -741,6 +741,12 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ## Deep domain adaptation
 
+- Prompt-based Domain Discrimination for Multi-source Time Series Domain Adaptation [[arxiv](https://arxiv.org/abs/2312.12276v1)]
+  - Prompt-based domain discrimination for time series domain adaptation 基于prompt的时间序列域自适应
+
+- NeurIPS'23 SwapPrompt: Test-Time Prompt Adaptation for Vision-Language Models [[arxiv](https://openreview.net/forum?id=EhdNQiOWgQ)]
+  - Test-time prompt adaptation for vision language models 对视觉-语言大模型的测试时prompt自适应
+
 - DARNet: Bridging Domain Gaps in Cross-Domain Few-Shot Segmentation with Dynamic Adaptation [[arxiv](http://arxiv.org/abs/2312.04813)]
   - Dynamic adaptation for cross-domain few-shot segmentation 动态适配用于跨领域小样本分割
 
