@@ -67,6 +67,17 @@ Related Codes:
 - By topic: [doc/awesome_papers.md](/doc/awesome_paper.md)
 - By date: [doc/awesome_paper_date.md](/doc/awesome_paper_date.md)
 
+*Updated at 2023-12-25:*
+
+- Multi-Modal Domain Adaptation Across Video Scenes for Temporal Video Grounding [[arxiv](https://arxiv.org/abs/2312.13633)]
+  - Multi-modal domain adaptation 多模态领域自适应
+
+- Domain Adaptive Graph Classification [[arxiv](https://arxiv.org/abs/2312.13536)]
+  - Domain adaptive graph classification 域适应的图分类
+
+- Understanding and Estimating Domain Complexity Across Domains [[arxiv](https://arxiv.org/abs/2312.13487)]
+  - Understanding and estimating domain complexity 解释领域复杂性
+
 *Updated at 2023-12-22:*
 
 - Prompt-based Domain Discrimination for Multi-source Time Series Domain Adaptation [[arxiv](https://arxiv.org/abs/2312.12276v1)]
