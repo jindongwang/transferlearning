@@ -67,52 +67,13 @@ Related Codes:
 - By topic: [doc/awesome_papers.md](/doc/awesome_paper.md)
 - By date: [doc/awesome_paper_date.md](/doc/awesome_paper_date.md)
 
-*Updated at 2023-12-25:*
+*Updated at 2024-01-05:*
 
-- Multi-Modal Domain Adaptation Across Video Scenes for Temporal Video Grounding [[arxiv](https://arxiv.org/abs/2312.13633)]
-  - Multi-modal domain adaptation 多模态领域自适应
+- Leveraging SAM for Single-Source Domain Generalization in Medical Image Segmentation [[arxiv](https://arxiv.org/abs/2401.02076)]
+  - SAM for single-source domain generalization
 
-- Domain Adaptive Graph Classification [[arxiv](https://arxiv.org/abs/2312.13536)]
-  - Domain adaptive graph classification 域适应的图分类
-
-- Understanding and Estimating Domain Complexity Across Domains [[arxiv](https://arxiv.org/abs/2312.13487)]
-  - Understanding and estimating domain complexity 解释领域复杂性
-
-*Updated at 2023-12-22:*
-
-- Prompt-based Domain Discrimination for Multi-source Time Series Domain Adaptation [[arxiv](https://arxiv.org/abs/2312.12276v1)]
-  - Prompt-based domain discrimination for time series domain adaptation 基于prompt的时间序列域自适应
-
-- NeurIPS'23 SwapPrompt: Test-Time Prompt Adaptation for Vision-Language Models [[arxiv](https://openreview.net/forum?id=EhdNQiOWgQ)]
-  - Test-time prompt adaptation for vision language models 对视觉-语言大模型的测试时prompt自适应
-
-*Updated at 2023-12-14:*
-
-- AAAI24 Relax Image-Specific Prompt Requirement in SAM: A Single Generic Prompt for Segmenting Camouflaged Objects [[arxiv](https://arxiv.org/abs/2312.07374)][[code](https://github.com/jyLin8100/GenSAM)]
-  - A training-free test-time adaptation approach to relax the instance-specific prompts requirment in SAM.
-
-- Open Domain Generalization with a Single Network by Regularization Exploiting Pre-trained Features [[arxiv](http://arxiv.org/abs/2312.05141)]
-  - Open domain generalization with a single network 用单一网络结构进行开放式domain generalizaition
-
-- Stronger, Fewer, & Superior: Harnessing Vision Foundation Models for Domain Generalized Semantic Segmentation [[arxiv](http://arxiv.org/abs/2312.04265)]
-  - Using vision foundation models for domain genealized semantic segmentation 用视觉基础模型进行域泛化语义分割
-
-- DARNet: Bridging Domain Gaps in Cross-Domain Few-Shot Segmentation with Dynamic Adaptation [[arxiv](http://arxiv.org/abs/2312.04813)]
-  - Dynamic adaptation for cross-domain few-shot segmentation 动态适配用于跨领域小样本分割
-
-- A Unified Framework for Unsupervised Domain Adaptation based on Instance Weighting [[arxiv](http://arxiv.org/abs/2312.05024)]
-  - Instance weighting for domain adaptation 样本加权用于领域自适应
-
-*Updated at 2023-12-08:*
-
-- Target-agnostic Source-free Domain Adaptation for Regression Tasks [[arxiv](http://arxiv.org/abs/2312.00540)]
-  - Target-agnostic source-free DA for regression 用于回归任务的source-free DA
-
-- On the Out-Of-Distribution Robustness of Self-Supervised Representation Learning for Phonocardiogram Signals [[arxiv](http://arxiv.org/abs/2312.00502)]
-  - OOD robustness for self-supervised learning for phonocardiogram 心音图信号自监督的OOD鲁棒性
-
-- Student Activity Recognition in Classroom Environments using Transfer Learning [[arxiv](http://arxiv.org/abs/2312.00348)]
-  - Using transfer learning to recognize student activities 用迁移学习来识别学生课堂行为
+- Multi-Source Domain Adaptation with Transformer-based Feature Generation for Subject-Independent EEG-based Emotion Recognition [[arxiv](https://arxiv.org/abs/2401.02344)]
+  - Multi-source DA with Transformer-based feature generation
 
 - - -
 
