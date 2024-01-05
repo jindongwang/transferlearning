@@ -1843,6 +1843,12 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ### Papers
 
+- CPAL'24 FIXED: Frustratingly Easy Domain Generalization with Mixup [[arxiv](https://arxiv.org/abs/2211.05228)]
+  - Easy domain generalization with mixup
+
+- SDM'24 Towards Optimization and Model Selection for Domain Generalization: A Mixup-guided Solution [[arxiv](https://arxiv.org/abs/2209.00652)]
+  - Optimization and model selection for domain generalization
+
 - Leveraging SAM for Single-Source Domain Generalization in Medical Image Segmentation [[arxiv](https://arxiv.org/abs/2401.02076)]
   - SAM for single-source domain generalization
 
