@@ -175,6 +175,12 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ## Per-training/Finetuning
 
+- NeurIPS'23 Geodesic Multi-Modal Mixup for Robust Fine-Tuning [[paper](https://openreview.net/forum?id=iAAXq60Bw1)]
+  - Geodesic mixup for robust fine-tuning
+
+- NeurIPS'23 Parameter and Computation Efficient Transfer Learning for Vision-Language Pre-trained Models [[paper](https://openreview.net/forum?id=TPeAmxwPK2)]
+  - Parameter and computation efficient transfer learning by reinforcement learning
+
 - Equivariant Adaptation of Large Pre-Trained Models [[arxiv](http://arxiv.org/abs/2310.01647)]
   - Equivariant adaptation of large pre-trained models 对大模型进行等边自适应
 
@@ -1843,6 +1849,12 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ### Papers
 
+- NeurIPS'23 Test-Time Distribution Normalization for Contrastively Learned Visual-language Models [[paper](https://openreview.net/forum?id=VKbEO2eh5w)]
+  - Test-time distribution normalization for contrastively learned VLM
+
+- NeurIPS'23 A Closer Look at the Robustness of Contrastive Language-Image Pre-Training (CLIP) [[paper](https://openreview.net/forum?id=wMNpMe0vp3)]
+  - A fine-gained analysis of CLIP robustness
+
 - NeurIPS'23 CODA: Generalizing to Open and Unseen Domains with Compaction and Disambiguation [[arxiv](https://openreview.net/forum?id=Jw0KRTjsGA)]
   - Open set domain generalization using extra classes
 
@@ -2304,6 +2316,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 - - -
 
 ## Source-free domain adaptation
+
+- NeurIPS'23 When Visual Prompt Tuning Meets Source-Free Domain Adaptive Semantic Segmentation [[paper](https://openreview.net/forum?id=ChGGbmTNgE)]
+  - Source-free domain adaptation using visual prompt tuning
 
 - PromptStyler: Prompt-driven Style Generation for Source-free Domain Generalization [[arxiv](https://arxiv.org/abs/2307.15199)]
   - Prompt-driven style generation for source-free domain generalization

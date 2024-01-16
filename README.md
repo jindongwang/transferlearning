@@ -67,7 +67,24 @@ Related Codes:
 - By topic: [doc/awesome_papers.md](/doc/awesome_paper.md)
 - By date: [doc/awesome_paper_date.md](/doc/awesome_paper_date.md)
 
-*Updated at 2023-01-08:*
+*Updated at 2024-01-16:*
+
+- NeurIPS'23 Geodesic Multi-Modal Mixup for Robust Fine-Tuning [[paper](https://openreview.net/forum?id=iAAXq60Bw1)]
+  - Geodesic mixup for robust fine-tuning
+
+- NeurIPS'23 Parameter and Computation Efficient Transfer Learning for Vision-Language Pre-trained Models [[paper](https://openreview.net/forum?id=TPeAmxwPK2)]
+  - Parameter and computation efficient transfer learning by reinforcement learning
+
+- NeurIPS'23 Test-Time Distribution Normalization for Contrastively Learned Visual-language Models [[paper](https://openreview.net/forum?id=VKbEO2eh5w)]
+  - Test-time distribution normalization for contrastively learned VLM
+
+- NeurIPS'23 A Closer Look at the Robustness of Contrastive Language-Image Pre-Training (CLIP) [[paper](https://openreview.net/forum?id=wMNpMe0vp3)]
+  - A fine-gained analysis of CLIP robustness
+
+- NeurIPS'23 When Visual Prompt Tuning Meets Source-Free Domain Adaptive Semantic Segmentation [[paper](https://openreview.net/forum?id=ChGGbmTNgE)]
+  - Source-free domain adaptation using visual prompt tuning
+ 
+*Updated at 2024-01-08:*
 
 - NeurIPS'23 CODA: Generalizing to Open and Unseen Domains with Compaction and Disambiguation [[arxiv](https://openreview.net/forum?id=Jw0KRTjsGA)]
   - Open set domain generalization using extra classes
