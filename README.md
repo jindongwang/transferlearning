@@ -67,6 +67,14 @@ Related Codes:
 - By topic: [doc/awesome_papers.md](/doc/awesome_paper.md)
 - By date: [doc/awesome_paper_date.md](/doc/awesome_paper_date.md)
 
+*Updated at 2024-01-17:*
+
+- ICLR'24 spotlight Understanding and Mitigating the Label Noise in Pre-training on Downstream Tasks [[arxiv](https://arxiv.org/abs/2309.17002)]
+  - A new research direction of transfer learning in the era of foundation models 大模型时代一个新研究方向：研究预训练数据的噪声对下游任务影响
+
+- ICLR'24 Supervised Knowledge Makes Large Language Models Better In-context Learners [[arxiv](https://arxiv.org/abs/2312.15918)]
+  - Small models help large language models for better OOD 用小模型帮助大模型进行更好的OOD
+
 *Updated at 2024-01-16:*
 
 - NeurIPS'23 Geodesic Multi-Modal Mixup for Robust Fine-Tuning [[paper](https://openreview.net/forum?id=iAAXq60Bw1)]
