@@ -78,7 +78,7 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ## Large models
 
-- Understanding and Mitigating the Label Noise in Pre-training on Downstream Tasks [[arxiv](https://arxiv.org/abs/2309.17002)]
+- ICLR'24-spotlight Understanding and Mitigating the Label Noise in Pre-training on Downstream Tasks [[arxiv](https://arxiv.org/abs/2309.17002)]
   - Noisy model learning: fine-tuning to supress the bad effect of noisy pretraining data 通过使用轻量级finetune减少噪音预训练数据对下游任务的影响
 
 - ZooPFL: Exploring Black-box Foundation Models for Personalized Federated Learning [[arxiv](https://arxiv.org/abs/2310.05143)]
@@ -174,6 +174,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 	- 对迁移学习中无监督的WGAN进行了一些理论上的分析
 
 ## Per-training/Finetuning
+
+- Facing the Elephant in the Room: Visual Prompt Tuning or Full Finetuning? [[arxiv](https://arxiv.org/abs/2401.12902)]
+  - A comparison between visual prompt tuning and full finetuning 比较prompt tuning和全finetune
 
 - ICLR'24 spotlight Understanding and Mitigating the Label Noise in Pre-training on Downstream Tasks [[arxiv](https://arxiv.org/abs/2309.17002)]
   - A new research direction of transfer learning in the era of foundation models 大模型时代一个新研究方向：研究预训练数据的噪声对下游任务影响
@@ -749,6 +752,18 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 	- 发表在IEEE Trans. Knowledge and Data Engineering期刊上
 
 ## Deep domain adaptation
+
+- LanDA: Language-Guided Multi-Source Domain Adaptation [[arxiv](https://arxiv.org/abs/2401.14148)]
+  - Language guided multi-source DA  在多源域自适应中使用语言指导
+
+- AdaEmbed: Semi-supervised Domain Adaptation in the Embedding Space [[arxiv](https://arxiv.org/abs/2401.12421)]
+  - Semi-spuervised domain adaptation in the embedding space 在嵌入空间中进行半监督域自适应
+
+- Inter-Domain Mixup for Semi-Supervised Domain Adaptation [[arxiv](https://arxiv.org/abs/2401.11453)]
+  - Inter-domain mixup for semi-supervised domain adaptation 跨领域mixup用于半监督域自适应
+
+- Source-Free and Image-Only Unsupervised Domain Adaptation for Category Level Object Pose Estimation [[arxiv](https://arxiv.org/abs/2401.10848)]
+  - Source-free and image-only unsupervised domain adaptation 
 
 - Multi-Source Domain Adaptation with Transformer-based Feature Generation for Subject-Independent EEG-based Emotion Recognition [[arxiv](https://arxiv.org/abs/2401.02344)]
   - Multi-source DA with Transformer-based feature generation
@@ -1851,6 +1866,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
   - A tutorial on domain generalization
 
 ### Papers
+
+- Out-of-Distribution Detection & Applications With Ablated Learned Temperature Energy [[arxiv](https://arxiv.org/abs/2401.12129)]
+  - OOD detection for ablated learned temperature energy
 
 - ICLR'24 Supervised Knowledge Makes Large Language Models Better In-context Learners [[arxiv](https://arxiv.org/abs/2312.15918)]
   - Small models help large language models for better OOD 用小模型帮助大模型进行更好的OOD

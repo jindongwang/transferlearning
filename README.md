@@ -67,6 +67,26 @@ Related Codes:
 - By topic: [doc/awesome_papers.md](/doc/awesome_paper.md)
 - By date: [doc/awesome_paper_date.md](/doc/awesome_paper_date.md)
 
+*Updated at 2024-01-26:*
+
+- Facing the Elephant in the Room: Visual Prompt Tuning or Full Finetuning? [[arxiv](https://arxiv.org/abs/2401.12902)]
+  - A comparison between visual prompt tuning and full finetuning 比较prompt tuning和全finetune
+
+- Out-of-Distribution Detection & Applications With Ablated Learned Temperature Energy [[arxiv](https://arxiv.org/abs/2401.12129)]
+  - OOD detection for ablated learned temperature energy
+
+- LanDA: Language-Guided Multi-Source Domain Adaptation [[arxiv](https://arxiv.org/abs/2401.14148)]
+  - Language guided multi-source DA  在多源域自适应中使用语言指导
+
+- AdaEmbed: Semi-supervised Domain Adaptation in the Embedding Space [[arxiv](https://arxiv.org/abs/2401.12421)]
+  - Semi-spuervised domain adaptation in the embedding space 在嵌入空间中进行半监督域自适应
+
+- Inter-Domain Mixup for Semi-Supervised Domain Adaptation [[arxiv](https://arxiv.org/abs/2401.11453)]
+  - Inter-domain mixup for semi-supervised domain adaptation 跨领域mixup用于半监督域自适应
+
+- Source-Free and Image-Only Unsupervised Domain Adaptation for Category Level Object Pose Estimation [[arxiv](https://arxiv.org/abs/2401.10848)]
+  - Source-free and image-only unsupervised domain adaptation 
+
 *Updated at 2024-01-17:*
 
 - ICLR'24 spotlight Understanding and Mitigating the Label Noise in Pre-training on Downstream Tasks [[arxiv](https://arxiv.org/abs/2309.17002)]
