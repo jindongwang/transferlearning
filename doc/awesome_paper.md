@@ -754,7 +754,7 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 ## Deep domain adaptation
 
 - SPA: A Graph Spectral Alignment Perspective for Domain Adaptation [[NeurIPS 2023]](https://arxiv.org/abs/2310.17594) [[Pytorch]](https://github.com/CrownX/SPA)
-  - Graph spectral alignment and Neighbor-aware propagation for domain adaptation
+  - Graph spectral alignment and neighbor-aware propagation for domain adaptation
 
 - Unsupervised Domain Adaptation within Deep Foundation Latent Spaces [[arxiv](https://arxiv.org/abs/2402.14976)]
   - Domain adaptation using foundation models
