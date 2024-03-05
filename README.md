@@ -67,6 +67,10 @@ Related Codes:
 - By topic: [doc/awesome_papers.md](/doc/awesome_paper.md)
 - By date: [doc/awesome_paper_date.md](/doc/awesome_paper_date.md)
 
+*Updated at 2024-03-05:*
+- SPA: A Graph Spectral Alignment Perspective for Domain Adaptation [[NeurIPS 2023]](https://arxiv.org/abs/2310.17594) [[Pytorch]](https://github.com/CrownX/SPA)
+  - Graph spectral alignment and Neighbor-aware propagation for domain adaptation
+  
 *Updated at 2024-02-26:*
 
 - Unsupervised Domain Adaptation within Deep Foundation Latent Spaces [[arxiv](https://arxiv.org/abs/2402.14976)]
