@@ -175,6 +175,12 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ## Per-training/Finetuning
 
+- Learning with Noisy Foundation Models [[arxiv](https://arxiv.org/abs/2403.06869)]
+  - Learning with noisy foundation models
+
+- Attention Prompt Tuning: Parameter-efficient Adaptation of Pre-trained Models for Spatiotemporal Modeling [[arxiv](https://arxiv.org/abs/2403.06978)]
+  - Parameter-efficient adaptation for spatiotemporal modeling
+
 - Facing the Elephant in the Room: Visual Prompt Tuning or Full Finetuning? [[arxiv](https://arxiv.org/abs/2401.12902)]
   - A comparison between visual prompt tuning and full finetuning 比较prompt tuning和全finetune
 
@@ -1869,6 +1875,15 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
   - A tutorial on domain generalization
 
 ### Papers
+
+- ICASSP'24 Test-time Distribution Learning Adapter for Cross-modal Visual Reasoning [[arxiv](https://arxiv.org/abs/2403.06059)]
+  - Test-time distribution learning adapter
+
+- A Study on Domain Generalization for Failure Detection through Human Reactions in HRI [[arxiv](https://arxiv.org/abs/2403.06315)]
+  - Domain generalization for failure detection through human reactions in HRI
+
+- ICLR'24 Towards Robust Out-of-Distribution Generalization Bounds via Sharpness [[arxiv](https://arxiv.org/abs/2403.06392)]
+  - Robust OOD generalization bounds
 
 - Out-of-Distribution Detection & Applications With Ablated Learned Temperature Energy [[arxiv](https://arxiv.org/abs/2401.12129)]
   - OOD detection for ablated learned temperature energy

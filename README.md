@@ -67,6 +67,24 @@ Related Codes:
 - By topic: [doc/awesome_papers.md](/doc/awesome_paper.md)
 - By date: [doc/awesome_paper_date.md](/doc/awesome_paper_date.md)
 
+*Updated at 2024-03-12:*
+
+- Attention Prompt Tuning: Parameter-efficient Adaptation of Pre-trained Models for Spatiotemporal Modeling [[arxiv](https://arxiv.org/abs/2403.06978)]
+  - Parameter-efficient adaptation for spatiotemporal modeling
+
+- ICASSP'24 Test-time Distribution Learning Adapter for Cross-modal Visual Reasoning [[arxiv](https://arxiv.org/abs/2403.06059)]
+  - Test-time distribution learning adapter
+
+- A Study on Domain Generalization for Failure Detection through Human Reactions in HRI [[arxiv](https://arxiv.org/abs/2403.06315)]
+  - Domain generalization for failure detection through human reactions in HRI
+
+- ICLR'24 Towards Robust Out-of-Distribution Generalization Bounds via Sharpness [[arxiv](https://arxiv.org/abs/2403.06392)]
+  - Robust OOD generalization bounds
+
+- Learning with Noisy Foundation Models [[arxiv](https://arxiv.org/abs/2403.06869)]
+  - Learning with noisy foundation models
+
+
 *Updated at 2024-02-26:*
 
 - Unsupervised Domain Adaptation within Deep Foundation Latent Spaces [[arxiv](https://arxiv.org/abs/2402.14976)]
