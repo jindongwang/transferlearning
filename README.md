@@ -67,6 +67,15 @@ Related Codes:
 - By topic: [doc/awesome_papers.md](/doc/awesome_paper.md)
 - By date: [doc/awesome_paper_date.md](/doc/awesome_paper_date.md)
 
+*Updated at 2024-03-18:*
+
+- ICLR'24 扩展版 Learning with Noisy Foundation Models [[arxiv](https://arxiv.org/abs/2403.06869)]
+  - Fine-tune a noisy foundation model 基础模型有noisy的时候如何finetune
+
+- Visual Foundation Models Boost Cross-Modal Unsupervised Domain Adaptation for 3D Semantic Segmentation [[arxiv](https://arxiv.org/abs/2403.10001)]
+  - Foundation models help domain adaptation 基础模型帮助领域自适应
+
+
 *Updated at 2024-03-12:*
 
 - Attention Prompt Tuning: Parameter-efficient Adaptation of Pre-trained Models for Spatiotemporal Modeling [[arxiv](https://arxiv.org/abs/2403.06978)]

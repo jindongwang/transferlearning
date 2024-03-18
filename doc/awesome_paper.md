@@ -175,6 +175,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ## Per-training/Finetuning
 
+- ICLR'24 扩展版 Learning with Noisy Foundation Models [[arxiv](https://arxiv.org/abs/2403.06869)]
+  - Fine-tune a noisy foundation model 基础模型有noisy的时候如何finetune
+
 - Learning with Noisy Foundation Models [[arxiv](https://arxiv.org/abs/2403.06869)]
   - Learning with noisy foundation models
 
@@ -758,6 +761,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 	- 发表在IEEE Trans. Knowledge and Data Engineering期刊上
 
 ## Deep domain adaptation
+
+- Visual Foundation Models Boost Cross-Modal Unsupervised Domain Adaptation for 3D Semantic Segmentation [[arxiv](https://arxiv.org/abs/2403.10001)]
+  - Foundation models help domain adaptation 基础模型帮助领域自适应
 
 - Unsupervised Domain Adaptation within Deep Foundation Latent Spaces [[arxiv](https://arxiv.org/abs/2402.14976)]
   - Domain adaptation using foundation models
