@@ -67,6 +67,11 @@ Related Codes:
 - By topic: [doc/awesome_papers.md](/doc/awesome_paper.md)
 - By date: [doc/awesome_paper_date.md](/doc/awesome_paper_date.md)
 
+*Updated at 2024-03-20:*
+
+- Addressing Source Scale Bias via Image Warping for Domain Adaptation [[arxiv](https://arxiv.org/abs/2403.12712)]
+  - Address the source scale bias for domain adaptation 解决源域的scale bias
+
 *Updated at 2024-03-18:*
 
 - ICLR'24 扩展版 Learning with Noisy Foundation Models [[arxiv](https://arxiv.org/abs/2403.06869)]
@@ -92,76 +97,6 @@ Related Codes:
 
 - Learning with Noisy Foundation Models [[arxiv](https://arxiv.org/abs/2403.06869)]
   - Learning with noisy foundation models
-
-
-*Updated at 2024-02-26:*
-
-- Unsupervised Domain Adaptation within Deep Foundation Latent Spaces [[arxiv](https://arxiv.org/abs/2402.14976)]
-  - Domain adaptation using foundation models
-
-*Updated at 2024-01-26:*
-
-- Facing the Elephant in the Room: Visual Prompt Tuning or Full Finetuning? [[arxiv](https://arxiv.org/abs/2401.12902)]
-  - A comparison between visual prompt tuning and full finetuning 比较prompt tuning和全finetune
-
-- Out-of-Distribution Detection & Applications With Ablated Learned Temperature Energy [[arxiv](https://arxiv.org/abs/2401.12129)]
-  - OOD detection for ablated learned temperature energy
-
-- LanDA: Language-Guided Multi-Source Domain Adaptation [[arxiv](https://arxiv.org/abs/2401.14148)]
-  - Language guided multi-source DA  在多源域自适应中使用语言指导
-
-- AdaEmbed: Semi-supervised Domain Adaptation in the Embedding Space [[arxiv](https://arxiv.org/abs/2401.12421)]
-  - Semi-spuervised domain adaptation in the embedding space 在嵌入空间中进行半监督域自适应
-
-- Inter-Domain Mixup for Semi-Supervised Domain Adaptation [[arxiv](https://arxiv.org/abs/2401.11453)]
-  - Inter-domain mixup for semi-supervised domain adaptation 跨领域mixup用于半监督域自适应
-
-- Source-Free and Image-Only Unsupervised Domain Adaptation for Category Level Object Pose Estimation [[arxiv](https://arxiv.org/abs/2401.10848)]
-  - Source-free and image-only unsupervised domain adaptation 
-
-*Updated at 2024-01-17:*
-
-- ICLR'24 spotlight Understanding and Mitigating the Label Noise in Pre-training on Downstream Tasks [[arxiv](https://arxiv.org/abs/2309.17002)]
-  - A new research direction of transfer learning in the era of foundation models 大模型时代一个新研究方向：研究预训练数据的噪声对下游任务影响
-
-- ICLR'24 Supervised Knowledge Makes Large Language Models Better In-context Learners [[arxiv](https://arxiv.org/abs/2312.15918)]
-  - Small models help large language models for better OOD 用小模型帮助大模型进行更好的OOD
-
-*Updated at 2024-01-16:*
-
-- NeurIPS'23 Geodesic Multi-Modal Mixup for Robust Fine-Tuning [[paper](https://openreview.net/forum?id=iAAXq60Bw1)]
-  - Geodesic mixup for robust fine-tuning
-
-- NeurIPS'23 Parameter and Computation Efficient Transfer Learning for Vision-Language Pre-trained Models [[paper](https://openreview.net/forum?id=TPeAmxwPK2)]
-  - Parameter and computation efficient transfer learning by reinforcement learning
-
-- NeurIPS'23 Test-Time Distribution Normalization for Contrastively Learned Visual-language Models [[paper](https://openreview.net/forum?id=VKbEO2eh5w)]
-  - Test-time distribution normalization for contrastively learned VLM
-
-- NeurIPS'23 A Closer Look at the Robustness of Contrastive Language-Image Pre-Training (CLIP) [[paper](https://openreview.net/forum?id=wMNpMe0vp3)]
-  - A fine-gained analysis of CLIP robustness
-
-- NeurIPS'23 When Visual Prompt Tuning Meets Source-Free Domain Adaptive Semantic Segmentation [[paper](https://openreview.net/forum?id=ChGGbmTNgE)]
-  - Source-free domain adaptation using visual prompt tuning
- 
-*Updated at 2024-01-08:*
-
-- NeurIPS'23 CODA: Generalizing to Open and Unseen Domains with Compaction and Disambiguation [[arxiv](https://openreview.net/forum?id=Jw0KRTjsGA)]
-  - Open set domain generalization using extra classes
-
-*Updated at 2024-01-05:*
-
-- CPAL'24 FIXED: Frustratingly Easy Domain Generalization with Mixup [[arxiv](https://arxiv.org/abs/2211.05228)]
-  - Easy domain generalization with mixup
-
-- SDM'24 Towards Optimization and Model Selection for Domain Generalization: A Mixup-guided Solution [[arxiv](https://arxiv.org/abs/2209.00652)]
-  - Optimization and model selection for domain generalization
-
-- Leveraging SAM for Single-Source Domain Generalization in Medical Image Segmentation [[arxiv](https://arxiv.org/abs/2401.02076)]
-  - SAM for single-source domain generalization
-
-- Multi-Source Domain Adaptation with Transformer-based Feature Generation for Subject-Independent EEG-based Emotion Recognition [[arxiv](https://arxiv.org/abs/2401.02344)]
-  - Multi-source DA with Transformer-based feature generation
 
 - - -
 
