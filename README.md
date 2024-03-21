@@ -99,6 +99,9 @@ Related Codes:
 - MedMerge: Merging Models for Effective Transfer Learning to Medical Imaging Tasks [[arxiv](https://arxiv.org/abs/2403.11646)]
   - Model merge for medical transfer learning 通过模型合并进行医学迁移学习
 
+*Updated at 2024-03-05:*
+- SPA: A Graph Spectral Alignment Perspective for Domain Adaptation [[NeurIPS 2023]](https://arxiv.org/abs/2310.17594) [[Pytorch]](https://github.com/CrownX/SPA)
+  - Graph spectral alignment and neighbor-aware propagation for domain adaptation
 
 *Updated at 2024-03-20:*
 

@@ -763,6 +763,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ## Deep domain adaptation
 
+- SPA: A Graph Spectral Alignment Perspective for Domain Adaptation [[NeurIPS 2023]](https://arxiv.org/abs/2310.17594) [[Pytorch]](https://github.com/CrownX/SPA)
+  - Graph spectral alignment and neighbor-aware propagation for domain adaptation
+
 - Neurocomputing'24 Uncertainty-Aware Pseudo-Label Filtering for Source-Free Unsupervised Domain Adaptation [[arxiv](https://arxiv.org/abs/2403.11256)]
   - Unvertainty-aware source-free domain adaptation 基于不确定性伪标签的domain adaptation
 
