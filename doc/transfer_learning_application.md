@@ -321,6 +321,18 @@ By reverse chronological order.
 
 ## Medical and healthcare
 
+- Efficient Domain Adaptation for Endoscopic Visual Odometry [[arxiv](https://arxiv.org/abs/2403.10860)]
+  - Efficient domain adaptation for visual odometry 高效DA用于odometry
+
+- MedMerge: Merging Models for Effective Transfer Learning to Medical Imaging Tasks [[arxiv](https://arxiv.org/abs/2403.11646)]
+  - Model merge for medical transfer learning 通过模型合并进行医学迁移学习
+
+- Domain Adaptation Using Pseudo Labels for COVID-19 Detection [[arxiv](https://arxiv.org/abs/2403.11498)]
+  - Domain adaptation for COVID-19 detection 用DA进行covid-19检查
+
+- Ensembling and Test Augmentation for Covid-19 Detection and Covid-19 Domain Adaptation from 3D CT-Scans [[arxiv](https://arxiv.org/abs/2403.11338)]
+  - Covid-19 test using domain adaptation 使用集成和测试增强用于DA covid-19
+
 - On the Out-Of-Distribution Robustness of Self-Supervised Representation Learning for Phonocardiogram Signals [[arxiv](http://arxiv.org/abs/2312.00502)]
   - OOD robustness for self-supervised learning for phonocardiogram 心音图信号自监督的OOD鲁棒性
 
@@ -1037,6 +1049,12 @@ By reverse chronological order.
     - 迁移学习用于自动驾驶车辆的策略迁移
 
 ## Others
+
+- V2X-DGW: Domain Generalization for Multi-agent Perception under Adverse Weather Conditions [[arxiv](https://arxiv.org/abs/2403.11371)]
+  - DG for multi-agent perception 领域泛化用于极端天气
+
+- Potential of Domain Adaptation in Machine Learning in Ecology and Hydrology to Improve Model Extrapolability [[arxiv](https://arxiv.org/abs/2403.11331)]
+  - Domain adaptation in ecology and hydrology 研究生态学和水文学中的DA
 
 - Student Activity Recognition in Classroom Environments using Transfer Learning [[arxiv](http://arxiv.org/abs/2312.00348)]
   - Using transfer learning to recognize student activities 用迁移学习来识别学生课堂行为

@@ -3,8 +3,8 @@
 Here, we list some papers related to transfer learning by date (starting from 2021-07). For papers older than 2021-07, please refer to the [papers by topic](awesome_paper.md), which contains more papers.
 
 - [Awesome papers by date](#awesome-papers-by-date)
-  - [202402](#202402)
-  - [202401](#202401)
+  - [2024-02](#2024-02)
+  - [2024-01](#2024-01)
   - [2023-12](#2023-12)
   - [2023-11](#2023-11)
   - [2023-10](#2023-10)
@@ -36,12 +36,12 @@ Here, we list some papers related to transfer learning by date (starting from 20
   - [2021-08](#2021-08)
   - [2021-07](#2021-07)
 
-## 202402
+## 2024-02
 
 - Unsupervised Domain Adaptation within Deep Foundation Latent Spaces [[arxiv](https://arxiv.org/abs/2402.14976)]
   - Domain adaptation using foundation models
 
-## 202401
+## 2024-01
 
 - Facing the Elephant in the Room: Visual Prompt Tuning or Full Finetuning? [[arxiv](https://arxiv.org/abs/2401.12902)]
   - A comparison between visual prompt tuning and full finetuning 比较prompt tuning和全finetune

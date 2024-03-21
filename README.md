@@ -67,6 +67,39 @@ Related Codes:
 - By topic: [doc/awesome_papers.md](/doc/awesome_paper.md)
 - By date: [doc/awesome_paper_date.md](/doc/awesome_paper_date.md)
 
+*Updated at 2024-03-21:*
+
+- Neurocomputing'24 Uncertainty-Aware Pseudo-Label Filtering for Source-Free Unsupervised Domain Adaptation [[arxiv](https://arxiv.org/abs/2403.11256)]
+  - Unvertainty-aware source-free domain adaptation 基于不确定性伪标签的domain adaptation
+
+- Efficient Domain Adaptation for Endoscopic Visual Odometry [[arxiv](https://arxiv.org/abs/2403.10860)]
+  - Efficient domain adaptation for visual odometry 高效DA用于odometry
+
+- Potential of Domain Adaptation in Machine Learning in Ecology and Hydrology to Improve Model Extrapolability [[arxiv](https://arxiv.org/abs/2403.11331)]
+  - Domain adaptation in ecology and hydrology 研究生态学和水文学中的DA
+
+- ICLR'24 SF(DA)2: Source-free Domain Adaptation Through the Lens of Data Augmentation [[arxiv](https://arxiv.org/abs/2403.10834)]
+  - Source-free DA by data augmentation 通过数据增强来进行source-free DA
+
+- CVPR'24 Universal Semi-Supervised Domain Adaptation by Mitigating Common-Class Bias [[arxiv](https://arxiv.org/abs/2403.11234)]
+  - Unviersal semi-supervised DA 通过公共类bias进行半监督DA
+
+- Domain Adaptation Using Pseudo Labels for COVID-19 Detection [[arxiv](https://arxiv.org/abs/2403.11498)]
+  - Domain adaptation for COVID-19 detection 用DA进行covid-19检查
+
+- Ensembling and Test Augmentation for Covid-19 Detection and Covid-19 Domain Adaptation from 3D CT-Scans [[arxiv](https://arxiv.org/abs/2403.11338)]
+  - Covid-19 test using domain adaptation 使用集成和测试增强用于DA covid-19
+
+- V2X-DGW: Domain Generalization for Multi-agent Perception under Adverse Weather Conditions [[arxiv](https://arxiv.org/abs/2403.11371)]
+  - DG for multi-agent perception 领域泛化用于极端天气
+
+- Bidirectional Multi-Step Domain Generalization for Visible-Infrared Person Re-Identification [[arxiv](https://arxiv.org/abs/2403.10782)]
+  - Bidirectional multi-step DG for REID 双向领域泛化用于REID
+
+- MedMerge: Merging Models for Effective Transfer Learning to Medical Imaging Tasks [[arxiv](https://arxiv.org/abs/2403.11646)]
+  - Model merge for medical transfer learning 通过模型合并进行医学迁移学习
+
+
 *Updated at 2024-03-20:*
 
 - Addressing Source Scale Bias via Image Warping for Domain Adaptation [[arxiv](https://arxiv.org/abs/2403.12712)]
