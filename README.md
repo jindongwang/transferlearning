@@ -67,6 +67,17 @@ Related Codes:
 - By topic: [doc/awesome_papers.md](/doc/awesome_paper.md)
 - By date: [doc/awesome_paper_date.md](/doc/awesome_paper_date.md)
 
+*Updated at 2024-03-26:*
+
+- Deep Domain Adaptation: A Sim2Real Neural Approach for Improving Eye-Tracking Systems [[arxiv](https://arxiv.org/abs/2403.15947)]
+  - Domain adaptation for eye-tracking systems 用DA进行眼球追踪
+
+- EAGLE: A Domain Generalization Framework for AI-generated Text Detection [[arxiv](https://arxiv.org/abs/2403.15690)]
+  - Domain generalization for AI content detection 用DG进行AI生成内容检测
+
+- DPStyler: Dynamic PromptStyler for Source-Free Domain Generalization [[arxiv](https://arxiv.org/abs/2403.16697)]
+  - Dynamic propmtstyler for source-free DG 动态prompt分格化用于source-free DG
+
 *Updated at 2024-03-21:*
 
 - Neurocomputing'24 Uncertainty-Aware Pseudo-Label Filtering for Source-Free Unsupervised Domain Adaptation [[arxiv](https://arxiv.org/abs/2403.11256)]

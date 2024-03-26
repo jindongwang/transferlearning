@@ -763,6 +763,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ## Deep domain adaptation
 
+- Deep Domain Adaptation: A Sim2Real Neural Approach for Improving Eye-Tracking Systems [[arxiv](https://arxiv.org/abs/2403.15947)]
+  - Domain adaptation for eye-tracking systems 用DA进行眼球追踪
+
 - SPA: A Graph Spectral Alignment Perspective for Domain Adaptation [[NeurIPS 2023]](https://arxiv.org/abs/2310.17594) [[Pytorch]](https://github.com/CrownX/SPA)
   - Graph spectral alignment and neighbor-aware propagation for domain adaptation
 
@@ -1909,6 +1912,12 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
   - A tutorial on domain generalization
 
 ### Papers
+
+- EAGLE: A Domain Generalization Framework for AI-generated Text Detection [[arxiv](https://arxiv.org/abs/2403.15690)]
+  - Domain generalization for AI content detection 用DG进行AI生成内容检测
+
+- DPStyler: Dynamic PromptStyler for Source-Free Domain Generalization [[arxiv](https://arxiv.org/abs/2403.16697)]
+  - Dynamic propmtstyler for source-free DG 动态prompt分格化用于source-free DG
 
 - V2X-DGW: Domain Generalization for Multi-agent Perception under Adverse Weather Conditions [[arxiv](https://arxiv.org/abs/2403.11371)]
   - DG for multi-agent perception 领域泛化用于极端天气
