@@ -763,6 +763,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ## Deep domain adaptation
 
+- CoDA: Instructive Chain-of-Domain Adaptation with Severity-Aware Visual Prompt Tuning [[arxiv](http://arxiv.org/abs/2403.17369)]
+  - Chain-of-domain adaptation with visual prompt tuning 领域链adaptation
+
 - Deep Domain Adaptation: A Sim2Real Neural Approach for Improving Eye-Tracking Systems [[arxiv](https://arxiv.org/abs/2403.15947)]
   - Domain adaptation for eye-tracking systems 用DA进行眼球追踪
 
@@ -1912,6 +1915,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
   - A tutorial on domain generalization
 
 ### Papers
+
+- On the Benefits of Over-parameterization for Out-of-Distribution Generalization [[arxiv](http://arxiv.org/abs/2403.17592)]
+  - Over-parameterazation for OOD generalizaiton 分析了过参数化对OOD的影响
 
 - EAGLE: A Domain Generalization Framework for AI-generated Text Detection [[arxiv](https://arxiv.org/abs/2403.15690)]
   - Domain generalization for AI content detection 用DG进行AI生成内容检测

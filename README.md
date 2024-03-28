@@ -67,6 +67,14 @@ Related Codes:
 - By topic: [doc/awesome_papers.md](/doc/awesome_paper.md)
 - By date: [doc/awesome_paper_date.md](/doc/awesome_paper_date.md)
 
+*Updated at 2024-03-28:*
+
+- On the Benefits of Over-parameterization for Out-of-Distribution Generalization [[arxiv](http://arxiv.org/abs/2403.17592)]
+  - Over-parameterazation for OOD generalizaiton 分析了过参数化对OOD的影响
+
+- CoDA: Instructive Chain-of-Domain Adaptation with Severity-Aware Visual Prompt Tuning [[arxiv](http://arxiv.org/abs/2403.17369)]
+  - Chain-of-domain adaptation with visual prompt tuning 领域链adaptation
+
 *Updated at 2024-03-26:*
 
 - Deep Domain Adaptation: A Sim2Real Neural Approach for Improving Eye-Tracking Systems [[arxiv](https://arxiv.org/abs/2403.15947)]
