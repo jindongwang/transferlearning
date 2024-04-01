@@ -1916,6 +1916,33 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ### Papers
 
+- ICASSP'24 Learning Inference-Time Drift Sensor-Actuator for Domain Generalization [[IEEE](https://ieeexplore.ieee.org/abstract/document/10447537?casa_token=6xrw2hE7cVEAAAAA:9i_ITqbfyLTzQYjdp4Oi16ziD8uheMMZJHRn4gHmzl9nN_j2c5u8MBxUtYYdzlj1Vn4l8F5OJnrw3BY)]
+  - Inference-time drift actuator for OOD generalization
+
+- ICASSP'24 SBM: Smoothness-Based Minimization for Domain Generalization [[IEEE](https://ieeexplore.ieee.org/abstract/document/10446613?casa_token=kO10uC18NMQAAAAA:6WJvMr57dSMyORMAnBgFGXi01aE_AmIAA6CQINztT7pHG2u8RmojDxMdV09UO6O9IfFsVEJDrYl1uiU)]
+  - Smoothness-based minimization for OOD generalization
+
+- ICASSP'24 G2G: Generalized Learning by Cross-Domain Knowledge Transfer for Federated Domain Generalization [[IEEE](https://ieeexplore.ieee.org/abstract/document/10447043?casa_token=ihJ_LaxqnfUAAAAA:8Petax0UdQ9bvJLrRbFrujWcVjDzIckhYLDvIk-rUZxo-S7pa6xgbGBxkLWjs8c8H1jR4E8Rop8e7cc)]
+  - Federated domain generalization
+
+- ICASSP'24 Single-Source Domain Generalization in Fundus Image Segmentation Via Moderating and Interpolating Input Space Augmentation [[IEEE](https://ieeexplore.ieee.org/abstract/document/10447741?casa_token=t0FGpPfYxeoAAAAA:yyZ1zKhXstoaxNOtP6zKBj1ArLF8JZ7gGQOtR-k6DAHCO9SWTIOwLG5TF71BrcenWvO002MYku-wtQI)]
+  - Single-source DG in fundus image segmentation
+
+- ICASSP'24 Style Factorization: Explore Diverse Style Variation for Domain Generalization [[IEEE](https://ieeexplore.ieee.org/abstract/document/10447540?casa_token=inLqNDEGEjQAAAAA:7jNUOViyS9PIn-BwIV0LJ-5oCzmM7BXpMLfyLosedaxmxZ-_c_2sA615GlCgrlwaspjdVKa4eogm6Z4)]
+  - Style variation for domain generalization
+
+- ICASSP'24 SPDG-Net: Semantics Preserving Domain Augmentation through Style Interpolation for Multi-Source Domain Generalization [[IEEE](https://ieeexplore.ieee.org/abstract/document/10447210?casa_token=NSBeXUg0AdUAAAAA:4rrMR38UcDN2YRzD9Fvm42gT3dyEX5lO0arFkmVIu3VwQLT9UFLAmU3a5ZOfxtr812_Fic1SCcw9mr0)]
+  - Domain augmentation for multi-source DG
+
+- ICASSP'24 Domaindiff: Boost out-of-Distribution Generalization with Synthetic Data [[IEEE](https://ieeexplore.ieee.org/abstract/document/10446788?casa_token=Rh3MGM6szOQAAAAA:0GRegU3dIidLVvIYtJb97m2ZDCl0wwKVTmTZH7XTE0fzEBmRuwJHSn_T1U6NgwSYHFPKlWHox_BO4Eg)]
+  - Using synthetic data for OOD generalization
+
+- ICASSP'24 Multi-Level Augmentation Consistency Learning and Sample Selection for Semi-Supervised Domain Generalization [[IEEE](https://ieeexplore.ieee.org/abstract/document/10446462?casa_token=vfAJ1GINr0AAAAAA:YS4NVt-kR8-sJqhfo6H7d04ZmckxUUpsIYuy2agnB4IpgCnR7xOzyrNv59MZ2lcbVhNvsN6Cl4p_7YI)]
+  - Multi-level augmentation for semi-supervised domain generalization
+
+- ICASSP'24 MMS: Morphology-Mixup Stylized Data Generation for Single Domain Generalization in Medical Image Segmentation [[IEEE](https://ieeexplore.ieee.org/abstract/document/10448305?casa_token=14-2Vm39RD4AAAAA:Zmzm9KTl3INP2I83T2MLwQXtHUZKwXYfhDOPU9F0Eu9SrznInqGpSBrMYH0ek3eemDKdyL4bBU6EVaY)]
+  - Morphology-mixup for domain generalization
+
 - On the Benefits of Over-parameterization for Out-of-Distribution Generalization [[arxiv](http://arxiv.org/abs/2403.17592)]
   - Over-parameterazation for OOD generalizaiton 分析了过参数化对OOD的影响
 

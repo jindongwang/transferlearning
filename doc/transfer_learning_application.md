@@ -321,6 +321,9 @@ By reverse chronological order.
 
 ## Medical and healthcare
 
+- ICASSP'24 Single-Source Domain Generalization in Fundus Image Segmentation Via Moderating and Interpolating Input Space Augmentation [[IEEE](https://ieeexplore.ieee.org/abstract/document/10447741?casa_token=t0FGpPfYxeoAAAAA:yyZ1zKhXstoaxNOtP6zKBj1ArLF8JZ7gGQOtR-k6DAHCO9SWTIOwLG5TF71BrcenWvO002MYku-wtQI)]
+  - Single-source DG in fundus image segmentation
+
 - Efficient Domain Adaptation for Endoscopic Visual Odometry [[arxiv](https://arxiv.org/abs/2403.10860)]
   - Efficient domain adaptation for visual odometry 高效DA用于odometry
 
