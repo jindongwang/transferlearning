@@ -67,6 +67,14 @@ Related Codes:
 - By topic: [doc/awesome_papers.md](/doc/awesome_paper.md)
 - By date: [doc/awesome_paper_date.md](/doc/awesome_paper_date.md)
 
+*Updated at 2024-04-16:*
+
+- DGMamba: Domain Generalization via Generalized State Space Model [[arXiv](https://arxiv.org/abs/2404.07794)]
+  - Domain generalization using mamba 用Mamba结构进行DG
+
+- CVPR'24 Unified Language-driven Zero-shot Domain Adaptation [[arxiv](https://arxiv.org/abs/2404.07155)]
+  - Language-driven zero-shot domain adaptation 语言驱动的零样本 DA
+
 *Updated at 2024-04-01:*
 
 - ICASSP'24 Learning Inference-Time Drift Sensor-Actuator for Domain Generalization [[IEEE](https://ieeexplore.ieee.org/abstract/document/10447537?casa_token=6xrw2hE7cVEAAAAA:9i_ITqbfyLTzQYjdp4Oi16ziD8uheMMZJHRn4gHmzl9nN_j2c5u8MBxUtYYdzlj1Vn4l8F5OJnrw3BY)]

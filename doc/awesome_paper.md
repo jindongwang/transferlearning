@@ -763,6 +763,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ## Deep domain adaptation
 
+- CVPR'24 Unified Language-driven Zero-shot Domain Adaptation [[arxiv](https://arxiv.org/abs/2404.07155)]
+  - Language-driven zero-shot domain adaptation 语言驱动的零样本 DA
+
 - CoDA: Instructive Chain-of-Domain Adaptation with Severity-Aware Visual Prompt Tuning [[arxiv](http://arxiv.org/abs/2403.17369)]
   - Chain-of-domain adaptation with visual prompt tuning 领域链adaptation
 
@@ -1915,6 +1918,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
   - A tutorial on domain generalization
 
 ### Papers
+
+- DGMamba: Domain Generalization via Generalized State Space Model [[arXiv](https://arxiv.org/abs/2404.07794)]
+  - Domain generalization using mamba 用Mamba结构进行DG
 
 - ICASSP'24 Learning Inference-Time Drift Sensor-Actuator for Domain Generalization [[IEEE](https://ieeexplore.ieee.org/abstract/document/10447537?casa_token=6xrw2hE7cVEAAAAA:9i_ITqbfyLTzQYjdp4Oi16ziD8uheMMZJHRn4gHmzl9nN_j2c5u8MBxUtYYdzlj1Vn4l8F5OJnrw3BY)]
   - Inference-time drift actuator for OOD generalization
