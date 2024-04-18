@@ -175,6 +175,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ## Per-training/Finetuning
 
+- CVPR'24 Exploring the Transferability of Visual Prompting for Multimodal Large Language Models [[arxiv](https://arxiv.org/abs/2404.11207)]
+  - Explore the transferability of visual prompting for multimodal LLM 探索多模态大模型visual prompt tuning的可迁移性
+
 - MedMerge: Merging Models for Effective Transfer Learning to Medical Imaging Tasks [[arxiv](https://arxiv.org/abs/2403.11646)]
   - Model merge for medical transfer learning 通过模型合并进行医学迁移学习
 
@@ -762,6 +765,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 	- 发表在IEEE Trans. Knowledge and Data Engineering期刊上
 
 ## Deep domain adaptation
+
+- DACAD: Domain Adaptation Contrastive Learning for Anomaly Detection in Multivariate Time Series [[arxiv](https://arxiv.org/abs/2404.11269)]
+  - Domain adaptation for anomaly detection 使用域自适应进行时间序列异常检测
 
 - CVPR'24 Unified Language-driven Zero-shot Domain Adaptation [[arxiv](https://arxiv.org/abs/2404.07155)]
   - Language-driven zero-shot domain adaptation 语言驱动的零样本 DA

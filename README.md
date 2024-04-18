@@ -67,6 +67,14 @@ Related Codes:
 - By topic: [doc/awesome_papers.md](/doc/awesome_paper.md)
 - By date: [doc/awesome_paper_date.md](/doc/awesome_paper_date.md)
 
+*Updated at 2024-04-18:*
+
+- DACAD: Domain Adaptation Contrastive Learning for Anomaly Detection in Multivariate Time Series [[arxiv](https://arxiv.org/abs/2404.11269)]
+  - Domain adaptation for anomaly detection 使用域自适应进行时间序列异常检测
+
+- CVPR'24 Exploring the Transferability of Visual Prompting for Multimodal Large Language Models [[arxiv](https://arxiv.org/abs/2404.11207)]
+  - Explore the transferability of visual prompting for multimodal LLM 探索多模态大模型visual prompt tuning的可迁移性
+
 *Updated at 2024-04-16:*
 
 - DGMamba: Domain Generalization via Generalized State Space Model [[arXiv](https://arxiv.org/abs/2404.07794)]
