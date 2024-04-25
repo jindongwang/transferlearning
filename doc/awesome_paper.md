@@ -766,6 +766,15 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ## Deep domain adaptation
 
+- MDDD: Manifold-based Domain Adaptation with Dynamic Distribution for Non-Deep Transfer Learning in Cross-subject and Cross-session EEG-based Emotion Recognition [[arxiv](https://arxiv.org/abs/2404.15615)]
+  - Manifold-based domain adaptation for EEG-based emotion recognition 基于流形的DA用于EEG情绪识别
+
+- Domain Adaptation for Learned Image Compression with Supervised Adapters [[arxiv](https://arxiv.org/abs/2404.15591)]
+  - Domain adaptation for learned image compression DA用于图片压缩
+
+- Test-Time Training on Graphs with Large Language Models (LLMs) [[arxiv](https://arxiv.org/abs/2404.13571)]
+  - Test-time training on graphs with LLMs 使用大语言模型在图上进行测试时训练
+
 - DACAD: Domain Adaptation Contrastive Learning for Anomaly Detection in Multivariate Time Series [[arxiv](https://arxiv.org/abs/2404.11269)]
   - Domain adaptation for anomaly detection 使用域自适应进行时间序列异常检测
 
