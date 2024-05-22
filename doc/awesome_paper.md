@@ -175,6 +175,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ## Per-training/Finetuning
 
+- Transfer Learning for CSI-based Positioning with Multi-environment Meta-learning [[arxiv](https://arxiv.org/abs/2405.11816)]
+  - Transfer learning for CSI-based positioning 用迁移学习进行基于CSI的定位
+
 - CVPR'24 Exploring the Transferability of Visual Prompting for Multimodal Large Language Models [[arxiv](https://arxiv.org/abs/2404.11207)]
   - Explore the transferability of visual prompting for multimodal LLM 探索多模态大模型visual prompt tuning的可迁移性
 
@@ -765,6 +768,12 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 	- 发表在IEEE Trans. Knowledge and Data Engineering期刊上
 
 ## Deep domain adaptation
+
+- Versatile Teacher: A Class-aware Teacher-student Framework for Cross-domain Adaptation [[arxiv](https://arxiv.org/abs/2405.11754)]
+  - Teacher-student framework for cross-domain adaptation 教师-学生框架进行跨领域适配
+
+- MICCAI'24 MediCLIP: Adapting CLIP for Few-shot Medical Image Anomaly Detection [[arxiv](https://arxiv.org/abs/2405.11315)]
+  - Adapting clip for few-shot medical image anomaly detection 对CLIP模型进行适配，以用于少样本图片异常检测
 
 - MDDD: Manifold-based Domain Adaptation with Dynamic Distribution for Non-Deep Transfer Learning in Cross-subject and Cross-session EEG-based Emotion Recognition [[arxiv](https://arxiv.org/abs/2404.15615)]
   - Manifold-based domain adaptation for EEG-based emotion recognition 基于流形的DA用于EEG情绪识别

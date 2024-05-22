@@ -3,6 +3,7 @@
 Here, we list some papers related to transfer learning by date (starting from 2021-07). For papers older than 2021-07, please refer to the [papers by topic](awesome_paper.md), which contains more papers.
 
 - [Awesome papers by date](#awesome-papers-by-date)
+  - [2024-04](#2024-04)
   - [2024-03](#2024-03)
   - [2024-02](#2024-02)
   - [2024-01](#2024-01)
@@ -36,6 +37,57 @@ Here, we list some papers related to transfer learning by date (starting from 20
   - [2021-09](#2021-09)
   - [2021-08](#2021-08)
   - [2021-07](#2021-07)
+
+
+## 2024-04
+
+- MDDD: Manifold-based Domain Adaptation with Dynamic Distribution for Non-Deep Transfer Learning in Cross-subject and Cross-session EEG-based Emotion Recognition [[arxiv](https://arxiv.org/abs/2404.15615)]
+  - Manifold-based domain adaptation for EEG-based emotion recognition 基于流形的DA用于EEG情绪识别
+
+- Domain Adaptation for Learned Image Compression with Supervised Adapters [[arxiv](https://arxiv.org/abs/2404.15591)]
+  - Domain adaptation for learned image compression DA用于图片压缩
+
+- Test-Time Training on Graphs with Large Language Models (LLMs) [[arxiv](https://arxiv.org/abs/2404.13571)]
+  - Test-time training on graphs with LLMs 使用大语言模型在图上进行测试时训练
+
+- DACAD: Domain Adaptation Contrastive Learning for Anomaly Detection in Multivariate Time Series [[arxiv](https://arxiv.org/abs/2404.11269)]
+  - Domain adaptation for anomaly detection 使用域自适应进行时间序列异常检测
+
+- CVPR'24 Exploring the Transferability of Visual Prompting for Multimodal Large Language Models [[arxiv](https://arxiv.org/abs/2404.11207)]
+  - Explore the transferability of visual prompting for multimodal LLM 探索多模态大模型visual prompt tuning的可迁移性
+
+- DGMamba: Domain Generalization via Generalized State Space Model [[arXiv](https://arxiv.org/abs/2404.07794)]
+  - Domain generalization using mamba 用Mamba结构进行DG
+
+- CVPR'24 Unified Language-driven Zero-shot Domain Adaptation [[arxiv](https://arxiv.org/abs/2404.07155)]
+  - Language-driven zero-shot domain adaptation 语言驱动的零样本 DA
+
+- ICASSP'24 Learning Inference-Time Drift Sensor-Actuator for Domain Generalization [[IEEE](https://ieeexplore.ieee.org/abstract/document/10447537?casa_token=6xrw2hE7cVEAAAAA:9i_ITqbfyLTzQYjdp4Oi16ziD8uheMMZJHRn4gHmzl9nN_j2c5u8MBxUtYYdzlj1Vn4l8F5OJnrw3BY)]
+  - Inference-time drift actuator for OOD generalization
+
+- ICASSP'24 SBM: Smoothness-Based Minimization for Domain Generalization [[IEEE](https://ieeexplore.ieee.org/abstract/document/10446613?casa_token=kO10uC18NMQAAAAA:6WJvMr57dSMyORMAnBgFGXi01aE_AmIAA6CQINztT7pHG2u8RmojDxMdV09UO6O9IfFsVEJDrYl1uiU)]
+  - Smoothness-based minimization for OOD generalization
+
+- ICASSP'24 G2G: Generalized Learning by Cross-Domain Knowledge Transfer for Federated Domain Generalization [[IEEE](https://ieeexplore.ieee.org/abstract/document/10447043?casa_token=ihJ_LaxqnfUAAAAA:8Petax0UdQ9bvJLrRbFrujWcVjDzIckhYLDvIk-rUZxo-S7pa6xgbGBxkLWjs8c8H1jR4E8Rop8e7cc)]
+  - Federated domain generalization
+
+- ICASSP'24 Single-Source Domain Generalization in Fundus Image Segmentation Via Moderating and Interpolating Input Space Augmentation [[IEEE](https://ieeexplore.ieee.org/abstract/document/10447741?casa_token=t0FGpPfYxeoAAAAA:yyZ1zKhXstoaxNOtP6zKBj1ArLF8JZ7gGQOtR-k6DAHCO9SWTIOwLG5TF71BrcenWvO002MYku-wtQI)]
+  - Single-source DG in fundus image segmentation
+
+- ICASSP'24 Style Factorization: Explore Diverse Style Variation for Domain Generalization [[IEEE](https://ieeexplore.ieee.org/abstract/document/10447540?casa_token=inLqNDEGEjQAAAAA:7jNUOViyS9PIn-BwIV0LJ-5oCzmM7BXpMLfyLosedaxmxZ-_c_2sA615GlCgrlwaspjdVKa4eogm6Z4)]
+  - Style variation for domain generalization
+
+- ICASSP'24 SPDG-Net: Semantics Preserving Domain Augmentation through Style Interpolation for Multi-Source Domain Generalization [[IEEE](https://ieeexplore.ieee.org/abstract/document/10447210?casa_token=NSBeXUg0AdUAAAAA:4rrMR38UcDN2YRzD9Fvm42gT3dyEX5lO0arFkmVIu3VwQLT9UFLAmU3a5ZOfxtr812_Fic1SCcw9mr0)]
+  - Domain augmentation for multi-source DG
+
+- ICASSP'24 Domaindiff: Boost out-of-Distribution Generalization with Synthetic Data [[IEEE](https://ieeexplore.ieee.org/abstract/document/10446788?casa_token=Rh3MGM6szOQAAAAA:0GRegU3dIidLVvIYtJb97m2ZDCl0wwKVTmTZH7XTE0fzEBmRuwJHSn_T1U6NgwSYHFPKlWHox_BO4Eg)]
+  - Using synthetic data for OOD generalization
+
+- ICASSP'24 Multi-Level Augmentation Consistency Learning and Sample Selection for Semi-Supervised Domain Generalization [[IEEE](https://ieeexplore.ieee.org/abstract/document/10446462?casa_token=vfAJ1GINr0AAAAAA:YS4NVt-kR8-sJqhfo6H7d04ZmckxUUpsIYuy2agnB4IpgCnR7xOzyrNv59MZ2lcbVhNvsN6Cl4p_7YI)]
+  - Multi-level augmentation for semi-supervised domain generalization
+
+- ICASSP'24 MMS: Morphology-Mixup Stylized Data Generation for Single Domain Generalization in Medical Image Segmentation [[IEEE](https://ieeexplore.ieee.org/abstract/document/10448305?casa_token=14-2Vm39RD4AAAAA:Zmzm9KTl3INP2I83T2MLwQXtHUZKwXYfhDOPU9F0Eu9SrznInqGpSBrMYH0ek3eemDKdyL4bBU6EVaY)]
+  - Morphology-mixup for domain generalization
 
 ## 2024-03
 
