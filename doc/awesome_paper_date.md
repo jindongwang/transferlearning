@@ -3,6 +3,7 @@
 Here, we list some papers related to transfer learning by date (starting from 2021-07). For papers older than 2021-07, please refer to the [papers by topic](awesome_paper.md), which contains more papers.
 
 - [Awesome papers by date](#awesome-papers-by-date)
+  - [2024-05](#2024-05)
   - [2024-04](#2024-04)
   - [2024-03](#2024-03)
   - [2024-02](#2024-02)
@@ -38,6 +39,17 @@ Here, we list some papers related to transfer learning by date (starting from 20
   - [2021-08](#2021-08)
   - [2021-07](#2021-07)
 
+
+## 2024-05
+
+- Transfer Learning for CSI-based Positioning with Multi-environment Meta-learning [[arxiv](https://arxiv.org/abs/2405.11816)]
+  - Transfer learning for CSI-based positioning 用迁移学习进行基于CSI的定位
+
+- Versatile Teacher: A Class-aware Teacher-student Framework for Cross-domain Adaptation [[arxiv](https://arxiv.org/abs/2405.11754)]
+  - Teacher-student framework for cross-domain adaptation 教师-学生框架进行跨领域适配
+
+- MICCAI'24 MediCLIP: Adapting CLIP for Few-shot Medical Image Anomaly Detection [[arxiv](https://arxiv.org/abs/2405.11315)]
+  - Adapting clip for few-shot medical image anomaly detection 对CLIP模型进行适配，以用于少样本图片异常检测
 
 ## 2024-04
 

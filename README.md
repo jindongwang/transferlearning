@@ -67,16 +67,13 @@ Related Codes:
 - By topic: [doc/awesome_papers.md](/doc/awesome_paper.md)
 - By date: [doc/awesome_paper_date.md](/doc/awesome_paper_date.md)
 
-*Updated at 2024-05-22:*
+*Updated at 2024-07-09:*
 
-- Transfer Learning for CSI-based Positioning with Multi-environment Meta-learning [[arxiv](https://arxiv.org/abs/2405.11816)]
-  - Transfer learning for CSI-based positioning 用迁移学习进行基于CSI的定位
+- SAFT: Towards Out-of-Distribution Generalization in Fine-Tuning [[arxiv](https://arxiv.org/abs/2407.03036)]
+  - OOD fine-tuning for foundation models 大模型的OOD微调
 
-- Versatile Teacher: A Class-aware Teacher-student Framework for Cross-domain Adaptation [[arxiv](https://arxiv.org/abs/2405.11754)]
-  - Teacher-student framework for cross-domain adaptation 教师-学生框架进行跨领域适配
-
-- MICCAI'24 MediCLIP: Adapting CLIP for Few-shot Medical Image Anomaly Detection [[arxiv](https://arxiv.org/abs/2405.11315)]
-  - Adapting clip for few-shot medical image anomaly detection 对CLIP模型进行适配，以用于少样本图片异常检测
+- Multi-Task Domain Adaptation for Language Grounding with 3D Objects [[arxiv](https://arxiv.org/abs/2407.02846)]
+  - Multi-task domain adaptation for language grounding
 
 - - -
 

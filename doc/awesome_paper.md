@@ -175,6 +175,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ## Per-training/Finetuning
 
+- SAFT: Towards Out-of-Distribution Generalization in Fine-Tuning [[arxiv](https://arxiv.org/abs/2407.03036)]
+  - OOD fine-tuning for foundation models 大模型的OOD微调
+
 - Transfer Learning for CSI-based Positioning with Multi-environment Meta-learning [[arxiv](https://arxiv.org/abs/2405.11816)]
   - Transfer learning for CSI-based positioning 用迁移学习进行基于CSI的定位
 
@@ -768,6 +771,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 	- 发表在IEEE Trans. Knowledge and Data Engineering期刊上
 
 ## Deep domain adaptation
+
+- Multi-Task Domain Adaptation for Language Grounding with 3D Objects [[arxiv](https://arxiv.org/abs/2407.02846)]
+  - Multi-task domain adaptation for language grounding
 
 - Versatile Teacher: A Class-aware Teacher-student Framework for Cross-domain Adaptation [[arxiv](https://arxiv.org/abs/2405.11754)]
   - Teacher-student framework for cross-domain adaptation 教师-学生框架进行跨领域适配
