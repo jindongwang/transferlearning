@@ -67,6 +67,14 @@ Related Codes:
 - By topic: [doc/awesome_papers.md](/doc/awesome_paper.md)
 - By date: [doc/awesome_paper_date.md](/doc/awesome_paper_date.md)
 
+*Updated at 2024-07-29:*
+
+- Rethinking Domain Adaptation and Generalization in the Era of CLIP [[arxiv](http://arxiv.org/abs/2407.15173)]
+  - Rethinking domain adaptation in CLIP era
+
+- Training-Free Model Merging for Multi-target Domain Adaptation [[arxiv](http://arxiv.org/abs/2407.13771)]
+  - Model merging for multi-target domain adaptation 
+
 *Updated at 2024-07-09:*
 
 - SAFT: Towards Out-of-Distribution Generalization in Fine-Tuning [[arxiv](https://arxiv.org/abs/2407.03036)]

@@ -772,6 +772,12 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ## Deep domain adaptation
 
+- Rethinking Domain Adaptation and Generalization in the Era of CLIP [[arxiv](http://arxiv.org/abs/2407.15173)]
+  - Rethinking domain adaptation in CLIP era
+
+- Training-Free Model Merging for Multi-target Domain Adaptation [[arxiv](http://arxiv.org/abs/2407.13771)]
+  - Model merging for multi-target domain adaptation 
+
 - Multi-Task Domain Adaptation for Language Grounding with 3D Objects [[arxiv](https://arxiv.org/abs/2407.02846)]
   - Multi-task domain adaptation for language grounding
 
