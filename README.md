@@ -67,6 +67,18 @@ Related Codes:
 - By topic: [doc/awesome_papers.md](/doc/awesome_paper.md)
 - By date: [doc/awesome_paper_date.md](/doc/awesome_paper_date.md)
 
+*Updated at 2024-07-31:*
+
+- Reducing Spurious Correlation for Federated Domain Generalization [[arxiv](https://arxiv.org/abs/2407.19174)]
+  - Federated domain generalization by reducing spurious correlation
+
+- Can Modifying Data Address Graph Domain Adaptation? [[arxiv](https://arxiv.org/abs/2407.19311)]
+  - Alignment and rescaling for graph DA
+
+- Improving Domain Adaptation Through Class Aware Frequency Transformation [[arxiv](https://arxiv.org/abs/2407.19551)]
+  - Class aware frequency transformation for domain adaptation
+
+
 *Updated at 2024-07-29:*
 
 - Rethinking Domain Adaptation and Generalization in the Era of CLIP [[arxiv](http://arxiv.org/abs/2407.15173)]

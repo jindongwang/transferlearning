@@ -772,6 +772,12 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ## Deep domain adaptation
 
+- Can Modifying Data Address Graph Domain Adaptation? [[arxiv](https://arxiv.org/abs/2407.19311)]
+  - Alignment and rescaling for graph DA
+
+- Improving Domain Adaptation Through Class Aware Frequency Transformation [[arxiv](https://arxiv.org/abs/2407.19551)]
+  - Class aware frequency transformation for domain adaptation
+
 - Rethinking Domain Adaptation and Generalization in the Era of CLIP [[arxiv](http://arxiv.org/abs/2407.15173)]
   - Rethinking domain adaptation in CLIP era
 
@@ -1954,6 +1960,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
   - A tutorial on domain generalization
 
 ### Papers
+
+- Reducing Spurious Correlation for Federated Domain Generalization [[arxiv](https://arxiv.org/abs/2407.19174)]
+  - Federated domain generalization by reducing spurious correlation
 
 - DGMamba: Domain Generalization via Generalized State Space Model [[arXiv](https://arxiv.org/abs/2404.07794)]
   - Domain generalization using mamba 用Mamba结构进行DG
