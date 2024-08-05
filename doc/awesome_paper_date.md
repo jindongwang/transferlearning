@@ -3,6 +3,7 @@
 Here, we list some papers related to transfer learning by date (starting from 2021-07). For papers older than 2021-07, please refer to the [papers by topic](awesome_paper.md), which contains more papers.
 
 - [Awesome papers by date](#awesome-papers-by-date)
+  - [2024-07](#2024-07)
   - [2024-05](#2024-05)
   - [2024-04](#2024-04)
   - [2024-03](#2024-03)
@@ -39,6 +40,29 @@ Here, we list some papers related to transfer learning by date (starting from 20
   - [2021-08](#2021-08)
   - [2021-07](#2021-07)
 
+
+## 2024-07
+
+- Reducing Spurious Correlation for Federated Domain Generalization [[arxiv](https://arxiv.org/abs/2407.19174)]
+  - Federated domain generalization by reducing spurious correlation
+
+- Can Modifying Data Address Graph Domain Adaptation? [[arxiv](https://arxiv.org/abs/2407.19311)]
+  - Alignment and rescaling for graph DA
+
+- Improving Domain Adaptation Through Class Aware Frequency Transformation [[arxiv](https://arxiv.org/abs/2407.19551)]
+  - Class aware frequency transformation for domain adaptation
+
+- Rethinking Domain Adaptation and Generalization in the Era of CLIP [[arxiv](http://arxiv.org/abs/2407.15173)]
+  - Rethinking domain adaptation in CLIP era
+
+- Training-Free Model Merging for Multi-target Domain Adaptation [[arxiv](http://arxiv.org/abs/2407.13771)]
+  - Model merging for multi-target domain adaptation 
+
+- SAFT: Towards Out-of-Distribution Generalization in Fine-Tuning [[arxiv](https://arxiv.org/abs/2407.03036)]
+  - OOD fine-tuning for foundation models 大模型的OOD微调
+
+- Multi-Task Domain Adaptation for Language Grounding with 3D Objects [[arxiv](https://arxiv.org/abs/2407.02846)]
+  - Multi-task domain adaptation for language grounding
 
 ## 2024-05
 

@@ -15,8 +15,7 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
   - [Traditional domain adaptation](#traditional-domain-adaptation)
   - [Deep domain adaptation](#deep-domain-adaptation)
   - [Domain generalization](#domain-generalization)
-    - [Survey](#survey-1)
-    - [Tutorial](#tutorial)
+    - [Survey \& tutorial](#survey--tutorial)
     - [Papers](#papers)
   - [Source-free domain adaptation](#source-free-domain-adaptation)
   - [Multi-source domain adaptation](#multi-source-domain-adaptation)
@@ -1943,7 +1942,7 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ## Domain generalization
 
-### Survey
+### Survey & tutorial
 
 - TKDE-22 [Generalizing to Unseen Domains: A Survey on Domain Generalization](https://arxiv.org/abs/2103.03097) | [知乎文章](https://zhuanlan.zhihu.com/p/354740610) | [微信公众号](https://mp.weixin.qq.com/s/DsoVDYqLB1N7gj9X5UnYqw) | [Code](https://github.com/jindongwang/transferlearning/tree/master/code/DeepDG)
     - First survey on domain generalization
@@ -1952,14 +1951,15 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 - Federated Domain Generalization: A Survey [[arxiv](http://arxiv.org/abs/2306.01334)]
   - A survey on federated domain generalization 一篇关于联邦域泛化的综述
 
-### Tutorial
-
 - KDD 2023 tutorial: trustworthy machine learning: robustness, generalization, and interpretability [[link](https://mltrust.github.io/)]
 
 - WSDM-23 and IJCAI-22 A tutorial on domain generalization [[link](https://dl.acm.org/doi/10.1145/3539597.3572722)] | [[website](https://dgresearch.github.io/)]
   - A tutorial on domain generalization
 
 ### Papers
+
+- Weighted Risk Invariance: Domain Generalization under Invariant Feature Shift [[arxiv](http://arxiv.org/abs/2407.18428)]
+  - Domain generalization under invariant feature shift
 
 - Reducing Spurious Correlation for Federated Domain Generalization [[arxiv](https://arxiv.org/abs/2407.19174)]
   - Federated domain generalization by reducing spurious correlation
