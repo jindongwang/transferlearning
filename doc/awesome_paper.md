@@ -771,6 +771,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ## Deep domain adaptation
 
+- Unsupervised Domain Adaption Harnessing Vision-Language Pre-training [[arxiv](https://arxiv.org/abs/2408.02192)]
+  - Domain adaptation using vision-language pre-training
+
 - Can Modifying Data Address Graph Domain Adaptation? [[arxiv](https://arxiv.org/abs/2407.19311)]
   - Alignment and rescaling for graph DA
 
@@ -1957,6 +1960,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
   - A tutorial on domain generalization
 
 ### Papers
+
+- Domain penalisation for improved Out-of-Distribution Generalisation [[arxiv](https://arxiv.org/abs/2408.01746)]
+  - OOD using domain penalization
 
 - Weighted Risk Invariance: Domain Generalization under Invariant Feature Shift [[arxiv](http://arxiv.org/abs/2407.18428)]
   - Domain generalization under invariant feature shift

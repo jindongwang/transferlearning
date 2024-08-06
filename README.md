@@ -67,6 +67,14 @@ Related Codes:
 - By topic: [doc/awesome_papers.md](/doc/awesome_paper.md)
 - By date: [doc/awesome_paper_date.md](/doc/awesome_paper_date.md)
 
+*Updated at 2024-08-06:*
+
+- Unsupervised Domain Adaption Harnessing Vision-Language Pre-training [[arxiv](https://arxiv.org/abs/2408.02192)]
+  - Domain adaptation using vision-language pre-training
+
+- Domain penalisation for improved Out-of-Distribution Generalisation [[arxiv](https://arxiv.org/abs/2408.01746)]
+  - OOD using domain penalization
+
 *Updated at 2024-08-05:*
 
 - Weighted Risk Invariance: Domain Generalization under Invariant Feature Shift [[arxiv](http://arxiv.org/abs/2407.18428)]
