@@ -67,6 +67,12 @@ Related Codes:
 - By topic: [doc/awesome_papers.md](/doc/awesome_paper.md)
 - By date: [doc/awesome_paper_date.md](/doc/awesome_paper_date.md)
 
+*Updated at 2024-08-15:*
+
+- COD: Learning Conditional Invariant Representation for Domain Adaptation Regression [[arxiv](https://arxiv.org/abs/2408.06638)]
+  - Conditional invariant representation for domain adaptation regression
+
+
 *Updated at 2024-08-05:*
 
 - Weighted Risk Invariance: Domain Generalization under Invariant Feature Shift [[arxiv](http://arxiv.org/abs/2407.18428)]

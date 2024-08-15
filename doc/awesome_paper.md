@@ -771,6 +771,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ## Deep domain adaptation
 
+- COD: Learning Conditional Invariant Representation for Domain Adaptation Regression [[arxiv](https://arxiv.org/abs/2408.06638)]
+  - Conditional invariant representation for domain adaptation regression
+
 - Can Modifying Data Address Graph Domain Adaptation? [[arxiv](https://arxiv.org/abs/2407.19311)]
   - Alignment and rescaling for graph DA
 
