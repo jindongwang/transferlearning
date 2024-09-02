@@ -67,18 +67,22 @@ Related Codes:
 - By topic: [doc/awesome_papers.md](/doc/awesome_paper.md)
 - By date: [doc/awesome_paper_date.md](/doc/awesome_paper_date.md)
 
-*Updated at 2024-08-06:*
+*Updated at 2024-09-02:*
 
-- Unsupervised Domain Adaption Harnessing Vision-Language Pre-training [[arxiv](https://arxiv.org/abs/2408.02192)]
-  - Domain adaptation using vision-language pre-training
+- Transfer Learning from Simulated to Real Scenes for Monocular 3D Object Detection [[arxiv](https://arxiv.org/abs/2408.15637)]
+  - Transfer learning from simulated to real scens for monocular 3D
 
-- Domain penalisation for improved Out-of-Distribution Generalisation [[arxiv](https://arxiv.org/abs/2408.01746)]
-  - OOD using domain penalization
+- Multi-source Domain Adaptation for Panoramic Semantic Segmentation [[arxiv](https://arxiv.org/abs/2408.16469)]
+  - Multi-source domain adaptation for panoramic semantic segmentation
 
-*Updated at 2024-08-05:*
+- Adapting Vision-Language Models to Open Classes via Test-Time Prompt Tuning [[arxiv](https://arxiv.org/abs/2408.16486)]
+  - Test-time prompt tuning for open classes
 
-- Weighted Risk Invariance: Domain Generalization under Invariant Feature Shift [[arxiv](http://arxiv.org/abs/2407.18428)]
-  - Domain generalization under invariant feature shift
+- A More Unified Theory of Transfer Learning [[arxiv](https://arxiv.org/abs/2408.16189)]
+  - More unified theory of transfer learning
+
+- Low Saturation Confidence Distribution-based Test-Time Adaptation for Cross-Domain Remote Sensing Image Classification [[arxiv](https://arxiv.org/abs/2408.16265)]
+  - Test-time adaptation for remote sensing image classification
 
 - - -
 

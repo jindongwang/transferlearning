@@ -174,6 +174,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ## Per-training/Finetuning
 
+- Adapting Vision-Language Models to Open Classes via Test-Time Prompt Tuning [[arxiv](https://arxiv.org/abs/2408.16486)]
+  - Test-time prompt tuning for open classes
+
 - SAFT: Towards Out-of-Distribution Generalization in Fine-Tuning [[arxiv](https://arxiv.org/abs/2407.03036)]
   - OOD fine-tuning for foundation models 大模型的OOD微调
 
@@ -770,6 +773,18 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 	- 发表在IEEE Trans. Knowledge and Data Engineering期刊上
 
 ## Deep domain adaptation
+
+- Transfer Learning from Simulated to Real Scenes for Monocular 3D Object Detection [[arxiv](https://arxiv.org/abs/2408.15637)]
+  - Transfer learning from simulated to real scens for monocular 3D
+
+- Multi-source Domain Adaptation for Panoramic Semantic Segmentation [[arxiv](https://arxiv.org/abs/2408.16469)]
+  - Multi-source domain adaptation for panoramic semantic segmentation
+
+- A More Unified Theory of Transfer Learning [[arxiv](https://arxiv.org/abs/2408.16189)]
+  - More unified theory of transfer learning
+
+- Low Saturation Confidence Distribution-based Test-Time Adaptation for Cross-Domain Remote Sensing Image Classification [[arxiv](https://arxiv.org/abs/2408.16265)]
+  - Test-time adaptation for remote sensing image classification
 
 - COD: Learning Conditional Invariant Representation for Domain Adaptation Regression [[arxiv](https://arxiv.org/abs/2408.06638)]
   - Conditional invariant representation for domain adaptation regression
