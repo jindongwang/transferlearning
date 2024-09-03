@@ -67,6 +67,14 @@ Related Codes:
 - By topic: [doc/awesome_papers.md](/doc/awesome_paper.md)
 - By date: [doc/awesome_paper_date.md](/doc/awesome_paper_date.md)
 
+*updated at 2024-09-03:*
+
+- Dual-Path Adversarial Lifting for Domain Shift Correction in Online Test-time Adaptation [[arxiv](https://arxiv.org/abs/2408.13983)]
+  - Online test-time adaptation using dual-path adversarial lifting
+
+- Rethinking Knowledge Transfer in Learning Using Privileged Information [[arxiv](https://arxiv.org/abs/2408.14319)]
+  - Using privileged information for knowledge transfer
+
 *Updated at 2024-09-02:*
 
 - Transfer Learning from Simulated to Real Scenes for Monocular 3D Object Detection [[arxiv](https://arxiv.org/abs/2408.15637)]

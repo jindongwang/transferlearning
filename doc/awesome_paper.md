@@ -174,6 +174,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ## Per-training/Finetuning
 
+- Rethinking Knowledge Transfer in Learning Using Privileged Information [[arxiv](https://arxiv.org/abs/2408.14319)]
+  - Using privileged information for knowledge transfer
+
 - Adapting Vision-Language Models to Open Classes via Test-Time Prompt Tuning [[arxiv](https://arxiv.org/abs/2408.16486)]
   - Test-time prompt tuning for open classes
 
@@ -1978,6 +1981,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
   - A tutorial on domain generalization
 
 ### Papers
+
+- Dual-Path Adversarial Lifting for Domain Shift Correction in Online Test-time Adaptation [[arxiv](https://arxiv.org/abs/2408.13983)]
+  - Online test-time adaptation using dual-path adversarial lifting
 
 - Domain penalisation for improved Out-of-Distribution Generalisation [[arxiv](https://arxiv.org/abs/2408.01746)]
   - OOD using domain penalization
