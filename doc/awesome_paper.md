@@ -77,6 +77,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ## Large models
 
+- Fine-tuning large language models for domain adaptation: Exploration of training strategies, scaling, model merging and synergistic capabilities [[arxiv](http://arxiv.org/abs/2409.03444)]
+  - Fine-tuning LLMs for domain adaptation
+
 - ICLR'24-spotlight Understanding and Mitigating the Label Noise in Pre-training on Downstream Tasks [[arxiv](https://arxiv.org/abs/2309.17002)]
   - Noisy model learning: fine-tuning to supress the bad effect of noisy pretraining data 通过使用轻量级finetune减少噪音预训练数据对下游任务的影响
 
@@ -173,6 +176,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 	- 对迁移学习中无监督的WGAN进行了一些理论上的分析
 
 ## Per-training/Finetuning
+
+- Can Your Generative Model Detect Out-of-Distribution Covariate Shift? [[arxiv](http://arxiv.org/abs/2409.03043)]
+  - Can your generative models detect OOD covariate shift?
 
 - Rethinking Knowledge Transfer in Learning Using Privileged Information [[arxiv](https://arxiv.org/abs/2408.14319)]
   - Using privileged information for knowledge transfer

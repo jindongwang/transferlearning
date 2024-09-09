@@ -67,6 +67,14 @@ Related Codes:
 - By topic: [doc/awesome_papers.md](/doc/awesome_paper.md)
 - By date: [doc/awesome_paper_date.md](/doc/awesome_paper_date.md)
 
+*Updated at 2024-09-09:*
+
+- Can Your Generative Model Detect Out-of-Distribution Covariate Shift? [[arxiv](http://arxiv.org/abs/2409.03043)]
+  - Can your generative models detect OOD covariate shift?
+
+- Fine-tuning large language models for domain adaptation: Exploration of training strategies, scaling, model merging and synergistic capabilities [[arxiv](http://arxiv.org/abs/2409.03444)]
+  - Fine-tuning LLMs for domain adaptation
+
 *updated at 2024-09-03:*
 
 - Dual-Path Adversarial Lifting for Domain Shift Correction in Online Test-time Adaptation [[arxiv](https://arxiv.org/abs/2408.13983)]
