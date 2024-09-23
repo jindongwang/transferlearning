@@ -67,6 +67,15 @@ Related Codes:
 - By topic: [doc/awesome_papers.md](/doc/awesome_paper.md)
 - By date: [doc/awesome_paper_date.md](/doc/awesome_paper_date.md)
 
+*Updated at 2024-09-23:*
+
+- Unsupervised Domain Adaptation Via Data Pruning [[arxiv](https://arxiv.org/abs/2409.12076)]
+  - Using pruning for domain adaptation
+
+- LLM-wrapper: Black-Box Semantic-Aware Adaptation of Vision-Language Foundation Models [[arxiv](https://arxiv.org/abs/2409.11919)]
+  - Black-box adaptation of vision language models
+
+
 *Updated at 2024-09-09:*
 
 - Can Your Generative Model Detect Out-of-Distribution Covariate Shift? [[arxiv](http://arxiv.org/abs/2409.03043)]

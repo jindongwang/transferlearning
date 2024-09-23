@@ -783,6 +783,12 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ## Deep domain adaptation
 
+- Unsupervised Domain Adaptation Via Data Pruning [[arxiv](https://arxiv.org/abs/2409.12076)]
+  - Using pruning for domain adaptation
+
+- LLM-wrapper: Black-Box Semantic-Aware Adaptation of Vision-Language Foundation Models [[arxiv](https://arxiv.org/abs/2409.11919)]
+  - Black-box adaptation of vision language models
+
 - Transfer Learning from Simulated to Real Scenes for Monocular 3D Object Detection [[arxiv](https://arxiv.org/abs/2408.15637)]
   - Transfer learning from simulated to real scens for monocular 3D
 
