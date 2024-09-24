@@ -67,6 +67,10 @@ Related Codes:
 - By topic: [doc/awesome_papers.md](/doc/awesome_paper.md)
 - By date: [doc/awesome_paper_date.md](/doc/awesome_paper_date.md)
 
+*Updated at 2024-09-24:*
+- DICS: Find Domain-Invariant and Class-Specific Features for Out-of-Distribution Generalization [[arxiv](https://arxiv.org/abs/2409.08557)]
+  - Domain-invariant and class-specific features for OOD generalization
+
 *Updated at 2024-09-23:*
 
 - Unsupervised Domain Adaptation Via Data Pruning [[arxiv](https://arxiv.org/abs/2409.12076)]

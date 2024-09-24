@@ -1994,6 +1994,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ### Papers
 
+- DICS: Find Domain-Invariant and Class-Specific Features for Out-of-Distribution Generalization [[arxiv](https://arxiv.org/abs/2409.08557)]
+  - Domain-invariant and class-specific features for OOD generalization
+
 - Dual-Path Adversarial Lifting for Domain Shift Correction in Online Test-time Adaptation [[arxiv](https://arxiv.org/abs/2408.13983)]
   - Online test-time adaptation using dual-path adversarial lifting
 
