@@ -33,6 +33,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ## Survey
 
+- Transfer Learning Applied to Computer Vision Problems: Survey on Current Progress, Limitations, and Opportunities [[arxiv](https://arxiv.org/abs/2409.07736)]
+  - Transfer learning for computer vision survey
+
 - A Survey of Heterogeneous Transfer Learning [[arxiv](https://arxiv.org/abs/2310.08459v2)]
   - A recent survey of heterogeneous transfer learning 一篇最近的关于异构迁移学习的综述
 - Review of Large Vision Models and Visual Prompt Engineering [[arxiv](https://arxiv.org/abs/2307.00855)]
@@ -782,6 +785,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 	- 发表在IEEE Trans. Knowledge and Data Engineering期刊上
 
 ## Deep domain adaptation
+
+- Spatial Adaptation Layer: Interpretable Domain Adaptation For Biosignal Sensor Array Applications [[arxiv](https://arxiv.org/abs/2409.08058)]
+  - Interpretable domain adaptation
 
 - Unsupervised Domain Adaptation Via Data Pruning [[arxiv](https://arxiv.org/abs/2409.12076)]
   - Using pruning for domain adaptation
