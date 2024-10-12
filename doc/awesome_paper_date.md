@@ -3,6 +3,7 @@
 Here, we list some papers related to transfer learning by date (starting from 2021-07). For papers older than 2021-07, please refer to the [papers by topic](awesome_paper.md), which contains more papers.
 
 - [Awesome papers by date](#awesome-papers-by-date)
+  - [2024-09](#2024-09)
   - [2024-08](#2024-08)
   - [2024-07](#2024-07)
   - [2024-05](#2024-05)
@@ -41,6 +42,49 @@ Here, we list some papers related to transfer learning by date (starting from 20
   - [2021-08](#2021-08)
   - [2021-07](#2021-07)
 
+## 2024-09
+
+- Transfer Learning Applied to Computer Vision Problems: Survey on Current Progress, Limitations, and Opportunities [[arxiv](https://arxiv.org/abs/2409.07736)]
+  - Transfer learning for computer vision survey
+
+- Spatial Adaptation Layer: Interpretable Domain Adaptation For Biosignal Sensor Array Applications [[arxiv](https://arxiv.org/abs/2409.08058)]
+  - Interpretable domain adaptation
+
+- DICS: Find Domain-Invariant and Class-Specific Features for Out-of-Distribution Generalization [[arxiv](https://arxiv.org/abs/2409.08557)]
+  - Domain-invariant and class-specific features for OOD generalization
+
+- Unsupervised Domain Adaptation Via Data Pruning [[arxiv](https://arxiv.org/abs/2409.12076)]
+  - Using pruning for domain adaptation
+
+- LLM-wrapper: Black-Box Semantic-Aware Adaptation of Vision-Language Foundation Models [[arxiv](https://arxiv.org/abs/2409.11919)]
+  - Black-box adaptation of vision language models
+
+- Can Your Generative Model Detect Out-of-Distribution Covariate Shift? [[arxiv](http://arxiv.org/abs/2409.03043)]
+  - Can your generative models detect OOD covariate shift?
+
+- Fine-tuning large language models for domain adaptation: Exploration of training strategies, scaling, model merging and synergistic capabilities [[arxiv](http://arxiv.org/abs/2409.03444)]
+  - Fine-tuning LLMs for domain adaptation
+
+- Dual-Path Adversarial Lifting for Domain Shift Correction in Online Test-time Adaptation [[arxiv](https://arxiv.org/abs/2408.13983)]
+  - Online test-time adaptation using dual-path adversarial lifting
+
+- Rethinking Knowledge Transfer in Learning Using Privileged Information [[arxiv](https://arxiv.org/abs/2408.14319)]
+  - Using privileged information for knowledge transfer
+
+- Transfer Learning from Simulated to Real Scenes for Monocular 3D Object Detection [[arxiv](https://arxiv.org/abs/2408.15637)]
+  - Transfer learning from simulated to real scens for monocular 3D
+
+- Multi-source Domain Adaptation for Panoramic Semantic Segmentation [[arxiv](https://arxiv.org/abs/2408.16469)]
+  - Multi-source domain adaptation for panoramic semantic segmentation
+
+- Adapting Vision-Language Models to Open Classes via Test-Time Prompt Tuning [[arxiv](https://arxiv.org/abs/2408.16486)]
+  - Test-time prompt tuning for open classes
+
+- A More Unified Theory of Transfer Learning [[arxiv](https://arxiv.org/abs/2408.16189)]
+  - More unified theory of transfer learning
+
+- Low Saturation Confidence Distribution-based Test-Time Adaptation for Cross-Domain Remote Sensing Image Classification [[arxiv](https://arxiv.org/abs/2408.16265)]
+  - Test-time adaptation for remote sensing image classification
 
 ## 2024-08
 
