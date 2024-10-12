@@ -67,6 +67,17 @@ Related Codes:
 - By topic: [doc/awesome_papers.md](/doc/awesome_paper.md)
 - By date: [doc/awesome_paper_date.md](/doc/awesome_paper_date.md)
 
+*Updated at 2024-10-12:*
+
+- Efficiently Learning at Test-Time: Active Fine-Tuning of LLMs [[arxiv](https://arxiv.org/abs/2410.08020)]
+  - Active fine-tuning of LLMs
+
+- LLM Embeddings Improve Test-time Adaptation to Tabular Y|X shifts [[arxiv](https://arxiv.org/abs/2410.07395)]
+  - Test-time adaptation via LLMs
+
+- AHA: Human-Assisted Out-of-Distribution Generalization and Detection [[arxiv](https://arxiv.org/abs/2410.08000)]
+  - Human-assisted OOD generalization and detection
+
 *Updated at 2024-09-25:*
 - Transfer Learning Applied to Computer Vision Problems: Survey on Current Progress, Limitations, and Opportunities [[arxiv](https://arxiv.org/abs/2409.07736)]
   - Transfer learning for computer vision survey

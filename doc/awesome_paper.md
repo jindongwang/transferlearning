@@ -180,6 +180,12 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ## Per-training/Finetuning
 
+- Efficiently Learning at Test-Time: Active Fine-Tuning of LLMs [[arxiv](https://arxiv.org/abs/2410.08020)]
+  - Active fine-tuning of LLMs
+
+- LLM Embeddings Improve Test-time Adaptation to Tabular Y|X shifts [[arxiv](https://arxiv.org/abs/2410.07395)]
+  - Test-time adaptation via LLMs
+
 - Can Your Generative Model Detect Out-of-Distribution Covariate Shift? [[arxiv](http://arxiv.org/abs/2409.03043)]
   - Can your generative models detect OOD covariate shift?
 
@@ -1999,6 +2005,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
   - A tutorial on domain generalization
 
 ### Papers
+
+- AHA: Human-Assisted Out-of-Distribution Generalization and Detection [[arxiv](https://arxiv.org/abs/2410.08000)]
+  - Human-assisted OOD generalization and detection
 
 - DICS: Find Domain-Invariant and Class-Specific Features for Out-of-Distribution Generalization [[arxiv](https://arxiv.org/abs/2409.08557)]
   - Domain-invariant and class-specific features for OOD generalization
