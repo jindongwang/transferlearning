@@ -180,6 +180,14 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ## Per-training/Finetuning
 
+- Safety-Aware Fine-Tuning of Large Language Models [[arxiv](https://arxiv.org/abs/2410.10014)]
+  - Fine-tuning with safety in LLMs
+- - Deep Transfer Learning: Model Framework and Error Analysis [[arxiv](https://arxiv.org/abs/2410.09383)]
+  - Deep transfer learning framework
+
+- Cross-Domain Distribution Alignment for Segmentation of Private Unannotated 3D Medical Images [[arxiv](https://arxiv.org/abs/2410.09210)]
+  - Cross-domain adaptation of private unannotated 3D medical images
+
 - Efficiently Learning at Test-Time: Active Fine-Tuning of LLMs [[arxiv](https://arxiv.org/abs/2410.08020)]
   - Active fine-tuning of LLMs
 
@@ -791,6 +799,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 	- 发表在IEEE Trans. Knowledge and Data Engineering期刊上
 
 ## Deep domain adaptation
+
+- Stratified Domain Adaptation: A Progressive Self-Training Approach for Scene Text Recognition [[arxiv](https://arxiv.org/abs/2410.09913)]
+  - Stratified domain adaptation
 
 - Spatial Adaptation Layer: Interpretable Domain Adaptation For Biosignal Sensor Array Applications [[arxiv](https://arxiv.org/abs/2409.08058)]
   - Interpretable domain adaptation
@@ -2005,6 +2016,12 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
   - A tutorial on domain generalization
 
 ### Papers
+
+- Can In-context Learning Really Generalize to Out-of-distribution Tasks? [[arxiv](https://arxiv.org/abs/2410.09695)]
+  - Can in-context learning generalize to OOD tasks?
+
+- Domain-Conditioned Transformer for Fully Test-time Adaptation [[arxiv](https://arxiv.org/abs/2410.10442)]
+  - Fully test-tim adaptation with domain-conditioned transformer
 
 - AHA: Human-Assisted Out-of-Distribution Generalization and Detection [[arxiv](https://arxiv.org/abs/2410.08000)]
   - Human-assisted OOD generalization and detection

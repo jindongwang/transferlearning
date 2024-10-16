@@ -67,6 +67,25 @@ Related Codes:
 - By topic: [doc/awesome_papers.md](/doc/awesome_paper.md)
 - By date: [doc/awesome_paper_date.md](/doc/awesome_paper_date.md)
 
+*Updated at 2024-10-16:*
+
+- Can In-context Learning Really Generalize to Out-of-distribution Tasks? [[arxiv](https://arxiv.org/abs/2410.09695)]
+  - Can in-context learning generalize to OOD tasks?
+
+- Domain-Conditioned Transformer for Fully Test-time Adaptation [[arxiv](https://arxiv.org/abs/2410.10442)]
+  - Fully test-tim adaptation with domain-conditioned transformer
+
+- Safety-Aware Fine-Tuning of Large Language Models [[arxiv](https://arxiv.org/abs/2410.10014)]
+  - Fine-tuning with safety in LLMs
+- - Deep Transfer Learning: Model Framework and Error Analysis [[arxiv](https://arxiv.org/abs/2410.09383)]
+  - Deep transfer learning framework
+
+- Cross-Domain Distribution Alignment for Segmentation of Private Unannotated 3D Medical Images [[arxiv](https://arxiv.org/abs/2410.09210)]
+  - Cross-domain adaptation of private unannotated 3D medical images
+
+- Stratified Domain Adaptation: A Progressive Self-Training Approach for Scene Text Recognition [[arxiv](https://arxiv.org/abs/2410.09913)]
+  - Stratified domain adaptation
+
 *Updated at 2024-10-12:*
 
 - Efficiently Learning at Test-Time: Active Fine-Tuning of LLMs [[arxiv](https://arxiv.org/abs/2410.08020)]
