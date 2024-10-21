@@ -67,6 +67,20 @@ Related Codes:
 - By topic: [doc/awesome_papers.md](/doc/awesome_paper.md)
 - By date: [doc/awesome_paper_date.md](/doc/awesome_paper_date.md)
 
+*Updated at 2024-10-21:*
+
+- Transfer Learning on Multi-Dimensional Data: A Novel Approach to Neural Network-Based Surrogate Modeling [[arxiv](http://arxiv.org/abs/2410.12241)]
+  - Transfer learning on multi-dimensioal data
+
+- TransAgent: Transfer Vision-Language Foundation Models with Heterogeneous Agent Collaboration [[arxiv](http://arxiv.org/abs/2410.12183)]
+  - Transfer vision-language models for collaboration
+
+- Test-time adaptation for image compression with distribution regularization [[arxiv](http://arxiv.org/abs/2410.12191)]
+  - Test-time adaptation for image compression with distribution regularization
+
+- WeatherDG: LLM-assisted Procedural Weather Generation for Domain-Generalized Semantic Segmentation [[arxiv](http://arxiv.org/abs/2410.12075)]
+  - Weather domain generalization 
+
 *Updated at 2024-10-16:*
 
 - Can In-context Learning Really Generalize to Out-of-distribution Tasks? [[arxiv](https://arxiv.org/abs/2410.09695)]

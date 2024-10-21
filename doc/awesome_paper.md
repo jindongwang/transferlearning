@@ -80,6 +80,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ## Large models
 
+- TransAgent: Transfer Vision-Language Foundation Models with Heterogeneous Agent Collaboration [[arxiv](http://arxiv.org/abs/2410.12183)]
+  - Transfer vision-language models for collaboration
+
 - Fine-tuning large language models for domain adaptation: Exploration of training strategies, scaling, model merging and synergistic capabilities [[arxiv](http://arxiv.org/abs/2409.03444)]
   - Fine-tuning LLMs for domain adaptation
 
@@ -179,6 +182,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 	- 对迁移学习中无监督的WGAN进行了一些理论上的分析
 
 ## Per-training/Finetuning
+
+- Transfer Learning on Multi-Dimensional Data: A Novel Approach to Neural Network-Based Surrogate Modeling [[arxiv](http://arxiv.org/abs/2410.12241)]
+  - Transfer learning on multi-dimensioal data
 
 - Safety-Aware Fine-Tuning of Large Language Models [[arxiv](https://arxiv.org/abs/2410.10014)]
   - Fine-tuning with safety in LLMs
@@ -2016,6 +2022,12 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
   - A tutorial on domain generalization
 
 ### Papers
+
+- Test-time adaptation for image compression with distribution regularization [[arxiv](http://arxiv.org/abs/2410.12191)]
+  - Test-time adaptation for image compression with distribution regularization
+
+- WeatherDG: LLM-assisted Procedural Weather Generation for Domain-Generalized Semantic Segmentation [[arxiv](http://arxiv.org/abs/2410.12075)]
+  - Weather domain generalization 
 
 - Can In-context Learning Really Generalize to Out-of-distribution Tasks? [[arxiv](https://arxiv.org/abs/2410.09695)]
   - Can in-context learning generalize to OOD tasks?

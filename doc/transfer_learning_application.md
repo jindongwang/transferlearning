@@ -18,6 +18,9 @@ By reverse chronological order.
 
 ## Computer vision
 
+- WeatherDG: LLM-assisted Procedural Weather Generation for Domain-Generalized Semantic Segmentation [[arxiv](http://arxiv.org/abs/2410.12075)]
+  - Weather domain generalization 
+
 - Exploring Transfer Learning in Medical Image Segmentation using Vision-Language Models [[arxiv](http://arxiv.org/abs/2308.07706)]
   - Transfer learning for medical image segmentation
 
