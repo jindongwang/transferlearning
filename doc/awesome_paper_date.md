@@ -3,6 +3,7 @@
 Here, we list some papers related to transfer learning by date (starting from 2021-07). For papers older than 2021-07, please refer to the [papers by topic](awesome_paper.md), which contains more papers.
 
 - [Awesome papers by date](#awesome-papers-by-date)
+  - [2024-10](#2024-10)
   - [2024-09](#2024-09)
   - [2024-08](#2024-08)
   - [2024-07](#2024-07)
@@ -41,6 +42,46 @@ Here, we list some papers related to transfer learning by date (starting from 20
   - [2021-09](#2021-09)
   - [2021-08](#2021-08)
   - [2021-07](#2021-07)
+
+## 2024-10
+
+- Transfer Learning on Multi-Dimensional Data: A Novel Approach to Neural Network-Based Surrogate Modeling [[arxiv](http://arxiv.org/abs/2410.12241)]
+  - Transfer learning on multi-dimensioal data
+
+- TransAgent: Transfer Vision-Language Foundation Models with Heterogeneous Agent Collaboration [[arxiv](http://arxiv.org/abs/2410.12183)]
+  - Transfer vision-language models for collaboration
+
+- Test-time adaptation for image compression with distribution regularization [[arxiv](http://arxiv.org/abs/2410.12191)]
+  - Test-time adaptation for image compression with distribution regularization
+
+- WeatherDG: LLM-assisted Procedural Weather Generation for Domain-Generalized Semantic Segmentation [[arxiv](http://arxiv.org/abs/2410.12075)]
+  - Weather domain generalization 
+
+- Can In-context Learning Really Generalize to Out-of-distribution Tasks? [[arxiv](https://arxiv.org/abs/2410.09695)]
+  - Can in-context learning generalize to OOD tasks?
+
+- Domain-Conditioned Transformer for Fully Test-time Adaptation [[arxiv](https://arxiv.org/abs/2410.10442)]
+  - Fully test-tim adaptation with domain-conditioned transformer
+
+- Safety-Aware Fine-Tuning of Large Language Models [[arxiv](https://arxiv.org/abs/2410.10014)]
+  - Fine-tuning with safety in LLMs
+- - Deep Transfer Learning: Model Framework and Error Analysis [[arxiv](https://arxiv.org/abs/2410.09383)]
+  - Deep transfer learning framework
+
+- Cross-Domain Distribution Alignment for Segmentation of Private Unannotated 3D Medical Images [[arxiv](https://arxiv.org/abs/2410.09210)]
+  - Cross-domain adaptation of private unannotated 3D medical images
+
+- Stratified Domain Adaptation: A Progressive Self-Training Approach for Scene Text Recognition [[arxiv](https://arxiv.org/abs/2410.09913)]
+  - Stratified domain adaptation
+
+- Efficiently Learning at Test-Time: Active Fine-Tuning of LLMs [[arxiv](https://arxiv.org/abs/2410.08020)]
+  - Active fine-tuning of LLMs
+
+- LLM Embeddings Improve Test-time Adaptation to Tabular Y|X shifts [[arxiv](https://arxiv.org/abs/2410.07395)]
+  - Test-time adaptation via LLMs
+
+- AHA: Human-Assisted Out-of-Distribution Generalization and Detection [[arxiv](https://arxiv.org/abs/2410.08000)]
+  - Human-assisted OOD generalization and detection
 
 ## 2024-09
 
