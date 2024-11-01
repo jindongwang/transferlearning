@@ -2023,6 +2023,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ### Papers
 
+- Unified Domain Generalization and Adaptation for Multi-View 3D Object Detection [[arxiv](https://arxiv.org/abs/2410.22461)]
+  - Unified domain generalization and adaptation for multi-view 3D object detection
+
 - Test-time adaptation for image compression with distribution regularization [[arxiv](http://arxiv.org/abs/2410.12191)]
   - Test-time adaptation for image compression with distribution regularization
 
