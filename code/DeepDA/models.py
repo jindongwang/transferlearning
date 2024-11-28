@@ -82,8 +82,9 @@ class TransferNet(nn.Module):
 
     def predict(self, x):
         features = self.base_network(x)
-        x = self.bottleneck_layer(features)
-        clf = self.classifier_layer(x)
+        if self.use_bottleneck:
+            features = self.bottleneck_layer(features)
+        clf = self.classifier_layer(features)
         return clf
 
     def epoch_based_processing(self, *args, **kwargs):
