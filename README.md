@@ -67,6 +67,11 @@ Related Codes:
 - By topic: [doc/awesome_papers.md](/doc/awesome_paper.md)
 - By date: [doc/awesome_paper_date.md](/doc/awesome_paper_date.md)
 
+*Updated at 2024-11-29:*
+
+- Generating Out-Of-Distribution Scenarios Using Language Models [[arxiv](https://arxiv.org/abs/2411.16554)]
+  - Generating OOD settings using language models 
+
 *Updated at 2024-11-01:*
 
 - Unified Domain Generalization and Adaptation for Multi-View 3D Object Detection [[arxiv](https://arxiv.org/abs/2410.22461)]

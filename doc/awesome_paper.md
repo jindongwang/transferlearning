@@ -2023,6 +2023,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ### Papers
 
+- Generating Out-Of-Distribution Scenarios Using Language Models [[arxiv](https://arxiv.org/abs/2411.16554)]
+  - Generating OOD settings using language models 
+
 - Unified Domain Generalization and Adaptation for Multi-View 3D Object Detection [[arxiv](https://arxiv.org/abs/2410.22461)]
   - Unified domain generalization and adaptation for multi-view 3D object detection
 
