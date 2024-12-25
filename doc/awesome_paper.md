@@ -183,6 +183,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ## Per-training/Finetuning
 
+- Privacy in Fine-tuning Large Language Models: Attacks, Defenses, and Future Directions [[arxiv](http://arxiv.org/abs/2412.16504)]
+  - Privacy in LLM fine-tuning 
+
 - Transfer Learning on Multi-Dimensional Data: A Novel Approach to Neural Network-Based Surrogate Modeling [[arxiv](http://arxiv.org/abs/2410.12241)]
   - Transfer learning on multi-dimensioal data
 
@@ -2022,6 +2025,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
   - A tutorial on domain generalization
 
 ### Papers
+
+- Learning to Generate Gradients for Test-Time Adaptation via Test-Time Training Layers [[arxiv](http://arxiv.org/abs/2412.16901)]
+  - Generate gradients for TTA 
 
 - Is Large-Scale Pretraining the Secret to Good Domain Generalization? [[arxiv](https://arxiv.org/abs/2412.02856)]
   - Large-scale pre-training vs domain generalization 

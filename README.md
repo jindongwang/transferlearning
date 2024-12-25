@@ -67,6 +67,13 @@ Related Codes:
 - By topic: [doc/awesome_papers.md](/doc/awesome_paper.md)
 - By date: [doc/awesome_paper_date.md](/doc/awesome_paper_date.md)
 
+*Updated at 2024-12-25:*
+
+- Privacy in Fine-tuning Large Language Models: Attacks, Defenses, and Future Directions [[arxiv](http://arxiv.org/abs/2412.16504)]
+  - Privacy in LLM fine-tuning 
+
+- Learning to Generate Gradients for Test-Time Adaptation via Test-Time Training Layers [[arxiv](http://arxiv.org/abs/2412.16901)]
+  - Generate gradients for TTA 
 
 *Updated at 2024-12-19:*
 
