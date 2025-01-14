@@ -1,7 +1,0 @@
-ConfigArgParse==1.4.1
-torch==1.13.1
-torchvision==0.9.1
-scikit-learn
-matplotlib
-xlwt
-pyyaml

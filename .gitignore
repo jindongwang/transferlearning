@@ -1,9 +1,0 @@
-.idea/
-*~
-*/*~
-code/.DS_Store
-.DS_Store
-*.pyc
-*.pkl
-outputs/
-__pycache__/
