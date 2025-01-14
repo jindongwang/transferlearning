@@ -52,11 +52,11 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
   - 第一篇对Domain generalization (领域泛化)的综述
 - 2021 Vision-based activity recognition: [A Survey of Vision-Based Transfer Learning in Human Activity Recognition](https://www.mdpi.com/2079-9292/10/19/2412)
 - 2021 ICSAI [A State-of-the-Art Survey of Transfer Learning in Structural Health Monitoring](https://ieeexplore.ieee.org/abstract/document/9664171)
-- 2020 [Transfer learning: survey and classification](https://link.springer.com/chapter/10.1007/978-981-15-5345-5_13), Advances in Intelligent Systems and Computing. 
+- 2020 [Transfer learning: survey and classification](https://link.springer.com/chapter/10.1007/978-981-15-5345-5_13), Advances in Intelligent Systems and Computing.
 - 2020 迁移学习最新survey，来自中科院计算所庄福振团队，发表在Proceedings of the IEEE: [A Comprehensive Survey on Transfer Learning](https://arxiv.org/abs/1911.02685)
 - 2020 负迁移的综述：[Overcoming Negative Transfer: A Survey](https://arxiv.org/abs/2009.00909)
 - 2020 知识蒸馏的综述: [Knowledge Distillation: A Survey](https://arxiv.org/abs/2006.05525)
-- 用transfer learning进行sentiment classification的综述：[A Survey of Sentiment Analysis Based on Transfer Learning](https://ieeexplore.ieee.org/abstract/document/8746210) 
+- 用transfer learning进行sentiment classification的综述：[A Survey of Sentiment Analysis Based on Transfer Learning](https://ieeexplore.ieee.org/abstract/document/8746210)
 - 2019 一篇新survey：[Transfer Adaptation Learning: A Decade Survey](https://arxiv.org/abs/1903.04687)
 - 2018 一篇迁移度量学习的综述: [Transfer Metric Learning: Algorithms, Applications and Outlooks](https://arxiv.org/abs/1810.03944)
 - 2018 一篇最近的非对称情况下的异构迁移学习综述：[Asymmetric Heterogeneous Transfer Learning: A Survey](https://arxiv.org/abs/1804.10834)
@@ -96,7 +96,7 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
   - Explore vision-language models for imbalanced learning 探索视觉大模型在不平衡问题上的表现
 
 - ICCV'23 Improving Generalization of Adversarial Training via Robust Critical Fine-Tuning [[arxiv](https://arxiv.org/abs/2308.02533)] [[code](https://github.com/microsoft/robustlearn)]
-  - 达到对抗鲁棒性和泛化能力的trade off 
+  - 达到对抗鲁棒性和泛化能力的trade off
 
 - Towards Realistic Unsupervised Fine-tuning with CLIP [[arxiv](http://arxiv.org/abs/2308.12919)]
   - Unsupervised fine-tuning of CLIP
@@ -172,7 +172,7 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 - 20181117 arXiv [Theoretical Perspective of Deep Domain Adaptation](https://arxiv.org/abs/1811.06199)
 	-  Providing some theory analysis on deep domain adaptation
 	- 对deep domain adaptaiton做出了一些理论上的分析
-  
+
 - 20181106 workshop [GENERALIZATION BOUNDS FOR DOMAIN ADAPTATION VIA DOMAIN TRANSFORMATIONS](https://ieeexplore.ieee.org/abstract/document/8517092)
 	-  Analyze some generalization bound for domain adaptation
 	- 对domain adaptation进行了一些理论上的分析
@@ -184,7 +184,7 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 ## Per-training/Finetuning
 
 - Privacy in Fine-tuning Large Language Models: Attacks, Defenses, and Future Directions [[arxiv](http://arxiv.org/abs/2412.16504)]
-  - Privacy in LLM fine-tuning 
+  - Privacy in LLM fine-tuning
 
 - Transfer Learning on Multi-Dimensional Data: A Novel Approach to Neural Network-Based Surrogate Modeling [[arxiv](http://arxiv.org/abs/2410.12241)]
   - Transfer learning on multi-dimensioal data
@@ -354,7 +354,7 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
   - Hyper-representation for pre-training and fine-tuning 对于预训练和微调的超表示
 
 - [Zero-Shot AutoML with Pretrained Models](https://arxiv.org/abs/2206.08476)
-  - 用预训练模型进行零样本的自动机器学习 
+  - 用预训练模型进行零样本的自动机器学习
 
 - [How robust are pre-trained models to distribution shift?](https://arxiv.org/abs/2206.08871)
   - How robust are pre-trained models to distribution shift 评估预训练模型对于distribution shift的鲁棒性
@@ -751,7 +751,7 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 - 20180326 ICMLA-17 利用subsapce alignment进行迁移学习：[Transfer Learning for Large Scale Data Using Subspace Alignment](http://ieeexplore.ieee.org/abstract/document/8260772)
 
 - 20180228 arXiv 一篇通过标签一致性和MMD准则进行domain adaptation的文章: [Discriminative Label Consistent Domain Adaptation](https://arxiv.org/abs/1802.08077)
-  
+
 - 20180110 arXiv 一篇比较新的传统方法做domain adaptation的文章 [Close Yet Discriminative Domain Adaptation](https://arxiv.org/abs/1704.04235)
 
 - 20180105 arXiv 最优的贝叶斯迁移学习 [Optimal Bayesian Transfer Learning](https://arxiv.org/abs/1801.00857)
@@ -760,7 +760,7 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
     - 第一篇将Tensor与domain adaptation结合的文章。[代码](https://github.com/poppinace/TAISL)
     - [我的解读](https://zhuanlan.zhihu.com/p/31834244)
 
-- 201711 ICCV-17 [Open set domain adaptation](http://openaccess.thecvf.com/content_iccv_2017/html/Busto_Open_Set_Domain_ICCV_2017_paper.html)。
+- 201711 ICCV-17 [Open set domain adaptation](http://openaccess.thecvf.com/content_iccv_2017/html/Busto_Open_Set_Domain_ICCV_2017_paper.html)。
     - 当source和target只共享某一些类别时，怎么处理？这个文章获得了ICCV 2017的Marr Prize Honorable Mention，值得好好研究。
     - [我的解读](https://zhuanlan.zhihu.com/p/31230331)
 
@@ -769,7 +769,7 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 - [学习迁移](https://arxiv.org/abs/1708.05629)(Learning to Transfer, L2T)
 	- 迁移学习领域的新方向：与在线、增量学习结合
 	- [我的解读](https://zhuanlan.zhihu.com/p/28888554)
-  
+
 - 201707 [Mutual Alignment Transfer Learning](https://arxiv.org/abs/1707.07907)
 
 - 201708 [Learning Invariant Riemannian Geometric Representations Using Deep Nets](https://arxiv.org/abs/1708.09485)
@@ -849,7 +849,7 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
   - Rethinking domain adaptation in CLIP era
 
 - Training-Free Model Merging for Multi-target Domain Adaptation [[arxiv](http://arxiv.org/abs/2407.13771)]
-  - Model merging for multi-target domain adaptation 
+  - Model merging for multi-target domain adaptation
 
 - Multi-Task Domain Adaptation for Language Grounding with 3D Objects [[arxiv](https://arxiv.org/abs/2407.02846)]
   - Multi-task domain adaptation for language grounding
@@ -924,7 +924,7 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
   - Inter-domain mixup for semi-supervised domain adaptation 跨领域mixup用于半监督域自适应
 
 - Source-Free and Image-Only Unsupervised Domain Adaptation for Category Level Object Pose Estimation [[arxiv](https://arxiv.org/abs/2401.10848)]
-  - Source-free and image-only unsupervised domain adaptation 
+  - Source-free and image-only unsupervised domain adaptation
 
 - Multi-Source Domain Adaptation with Transformer-based Feature Generation for Subject-Independent EEG-based Emotion Recognition [[arxiv](https://arxiv.org/abs/2401.02344)]
   - Multi-source DA with Transformer-based feature generation
@@ -987,7 +987,7 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
   - Using foundation models for universal domain adaptation
 
 - Multi-Source to Multi-Target Decentralized Federated Domain Adaptation [[arxiv](http://arxiv.org/abs/2304.12422)]
-  - Decentralized federated domain adaptation 
+  - Decentralized federated domain adaptation
 
 - Multi-Source to Multi-Target Decentralized Federated Domain Adaptation [[arxiv](https://arxiv.org/abs/2304.12422)]
   - Multi-source to multi-target federated domain adaptation 多源多目标的联邦域自适应
@@ -1148,7 +1148,7 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 - [Unsupervised Domain Adaptation: A Reality Check](https://arxiv.org/abs/2111.15672)
     - Doing experiments to show the progress of DA methods over the years
     - 用大量的实验来验证近几年来DA方法的进展
-  
+
 - [Hierarchical Optimal Transport for Unsupervised Domain Adaptation](https://arxiv.org/abs/2112.02073)
     - hierarchical optimal transport for UDA
     - 层次性的最优传输用于domain adaptation
@@ -1528,7 +1528,7 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
   	- 自监督DA
 
 - 20190809 arXiv [Hidden Covariate Shift: A Minimal Assumption For Domain Adaptation](https://arxiv.org/abs/1907.12299)
-  	- Hidden covariate shift 
+  	- Hidden covariate shift
   	- 一种新的DA假设
 
 - 20190809 PR-19 [Cross-domain Network Representations](https://arxiv.org/abs/1908.00205)
@@ -1585,7 +1585,7 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 - 20190515 CVPR-19 [Diversify and Match: A Domain Adaptive Representation Learning Paradigm for Object Detection](https://arxiv.org/abs/1905.05396)
   	- Domain adaptation for object detection
   	- 领域自适应用于物体检测
-  
+
 - 20190507 NAACL-HLT 19 [Transfer of Adversarial Robustness Between Perturbation Types](https://arxiv.org/abs/1905.01034)
   	- Transfer of Adversarial Robustness Between Perturbation Types
 
@@ -1646,7 +1646,7 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 - 20171214 arXiv [Investigating the Impact of Data Volume and Domain Similarity on Transfer Learning Applications](https://arxiv.org/abs/1712.04008)
     - 在实验中探索了数据量多少，和相似度这两个因素对迁移学习效果的影响
 
-- NIPS-17 [Learning Multiple Tasks with Multilinear Relationship Networks](http://papers.nips.cc/paper/6757-learning-multiple-tasks-with-deep-relationship-networks) 
+- NIPS-17 [Learning Multiple Tasks with Multilinear Relationship Networks](http://papers.nips.cc/paper/6757-learning-multiple-tasks-with-deep-relationship-networks)
 
 - 20210420 arXiv [On Universal Black-Box Domain Adaptation](https://arxiv.org/abs/2104.04665)
     - Universal black-box domain adaptation
@@ -1783,7 +1783,7 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 - 20180731 ECCV-18 [DeepJDOT: Deep Joint Distribution Optimal Transport for Unsupervised Domain Adaptation](https://arxiv.org/abs/1803.10081)
 	-  Deep + Joint distribution adaptation + optimal transport
 	- 深度 + 联合分布适配 + optimal transport
-	
+
 - 20180731 ICLR-18 [Few Shot Learning with Simplex](https://arxiv.org/abs/1807.10726)
 	-  Represent deep learning using the simplex
 	- 用单纯性表征深度学习
@@ -1793,7 +1793,7 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 	- 将深度迁移学习应用于跨数据集的Re-ID
 
 - 20180724 ECCV-18 [Zero-Shot Deep Domain Adaptation](https://arxiv.org/abs/1707.01922)
-	-  Perform zero-shot domain adaptation when there is no target domain data available 
+	-  Perform zero-shot domain adaptation when there is no target domain data available
 	- 当目标领域的数据不可用时如何进行domain adaptation :
 
 - 20180724 ICCSE-18 [Deep Transfer Learning for Cross-domain Activity Recognition](https://arxiv.org/abs/1807.07963)
@@ -1854,7 +1854,7 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 - 20171222 ICCV 2017 对于target中只有很少量的标记数据，用深度网络结合孪生网络的思想进行泛化：[Unified Deep Supervised Domain Adaptation and Generalization](http://openaccess.thecvf.com/content_ICCV_2017/papers/Motiian_Unified_Deep_Supervised_ICCV_2017_paper.pdf) | [代码和数据](https://github.com/samotiian/CCSA)
 
-- 20171126 NIPS-17 [Label Efficient Learning of Transferable Representations acrosss Domains and Tasks](http://papers.nips.cc/paper/6621-label-efficient-learning-of-transferable-representations-acrosss-domains-and-tasks)    
+- 20171126 NIPS-17 [Label Efficient Learning of Transferable Representations acrosss Domains and Tasks](http://papers.nips.cc/paper/6621-label-efficient-learning-of-transferable-representations-acrosss-domains-and-tasks)
     - 李飞飞小组发在NIPS 2017的文章。针对不同的domain、不同的feature、不同的label space，统一学习一个深度网络进行表征。
 
 - 201711 一个很好的深度学习+迁移学习的实践教程，有代码有数据，可以直接上手：[基于深度学习和迁移学习的识花实践](https://cosx.org/2017/10/transfer-learning/)
@@ -1970,7 +1970,7 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 - 20180508 arXiv 利用GAN，从有限数据中生成另一个domain的数据：[Transferring GANs: generating images from limited data](https://arxiv.org/abs/1805.01677)
 
-- 20180501 arXiv Open set domain adaptation的对抗网络版本：[Open Set Domain Adaptation by Backpropagation](https://arxiv.org/abs/1804.10427)
+-[O 20180501 arXiv Open set domain adaptation的对抗网络版本：[Open Set Domain Adaptation by Backpropagation](https://arxiv.org/abs/1804.10427)
 
 - 20180427 arXiv 提出了adversarial residual的概念，进行深度对抗迁移：[Unsupervised Domain Adaptation with Adversarial Residual Transform Networks](https://arxiv.org/abs/1804.09578)
 
@@ -2026,14 +2026,17 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ### Papers
 
+- Cross-Domain Ensemble Distillation for Domain Generalization [[arxiv](https://arxiv.org/pdf/2211.14058)]
+  - Cross-domain ensemble distillation for domain generalization
+
 - Learning to Generate Gradients for Test-Time Adaptation via Test-Time Training Layers [[arxiv](http://arxiv.org/abs/2412.16901)]
-  - Generate gradients for TTA 
+  - Generate gradients for TTA
 
 - Is Large-Scale Pretraining the Secret to Good Domain Generalization? [[arxiv](https://arxiv.org/abs/2412.02856)]
-  - Large-scale pre-training vs domain generalization 
+  - Large-scale pre-training vs domain generalization
 
 - Generating Out-Of-Distribution Scenarios Using Language Models [[arxiv](https://arxiv.org/abs/2411.16554)]
-  - Generating OOD settings using language models 
+  - Generating OOD settings using language models
 
 - Unified Domain Generalization and Adaptation for Multi-View 3D Object Detection [[arxiv](https://arxiv.org/abs/2410.22461)]
   - Unified domain generalization and adaptation for multi-view 3D object detection
@@ -2042,7 +2045,7 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
   - Test-time adaptation for image compression with distribution regularization
 
 - WeatherDG: LLM-assisted Procedural Weather Generation for Domain-Generalized Semantic Segmentation [[arxiv](http://arxiv.org/abs/2410.12075)]
-  - Weather domain generalization 
+  - Weather domain generalization
 
 - Can In-context Learning Really Generalize to Out-of-distribution Tasks? [[arxiv](https://arxiv.org/abs/2410.09695)]
   - Can in-context learning generalize to OOD tasks?
@@ -2332,7 +2335,7 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
   - Model adaptation for label-efficient OOD generalization
 
 - NeurIPS'22 Domain Generalization without Excess Empirical Risk [[openreview](https://openreview.net/forum?id=pluyPFTiTeJ)]
-  - Domain generalization without excess empirical risk 
+  - Domain generalization without excess empirical risk
 
 - NeurIPS'22 FedSR: A Simple and Effective Domain Generalization Method for Federated Learning [[openreview](https://openreview.net/forum?id=mrt90D00aQX)]
   - FedSR for federated learning domain generalization 用于联邦学习的domain generalization
@@ -2347,7 +2350,7 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
   - A phd thesis about generalization in real world 一篇关于现实世界如何做Generalization的博士论文
 
 - The Evolution of Out-of-Distribution Robustness Throughout Fine-Tuning [[arxiv](https://openreview.net/forum?id=Qs3EfpieOh)]
-  - Evolution of OOD robustness by fine-tuning 
+  - Evolution of OOD robustness by fine-tuning
 
 - Out-of-Distribution Generalization in Algorithmic Reasoning Through Curriculum Learning [[arxiv](https://arxiv.org/abs/2210.03275)]
   - OOD in algorithmic reasoning 算法reasoning过程中的OOD
@@ -2362,7 +2365,7 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
   - Deep spatial domain generalization
 
 - Assaying Out-Of-Distribution Generalization in Transfer Learning [[arXiv](http://arxiv.org/abs/2207.09239)]
-  - A lot of experiments to show OOD performance 
+  - A lot of experiments to show OOD performance
 
 - ICML-21 Accuracy on the Line: on the Strong Correlation Between Out-of-Distribution and In-Distribution Generalization [[arxiv](https://proceedings.mlr.press/v139/miller21b.html)]
   - Strong correlation between ID and OOD
@@ -2715,7 +2718,7 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 - 20180326 考虑主动获取label的budget情况下的在线迁移学习：[Online domain adaptation by exploiting labeled features and pro-active learning](https://dl.acm.org/citation.cfm?id=3152507)
 
-- 20180128 **第一篇**在线迁移学习的文章，发表在ICML-10上，系统性地定义了在线迁移学习的任务，给出了进行在线同构和异构迁移学习的两种学习模式。[Online Transfer Learning](https://dl.acm.org/citation.cfm?id=3104478) 
+- 20180128 **第一篇**在线迁移学习的文章，发表在ICML-10上，系统性地定义了在线迁移学习的任务，给出了进行在线同构和异构迁移学习的两种学习模式。[Online Transfer Learning](https://dl.acm.org/citation.cfm?id=3104478)
     - 扩充的期刊文章发在2014年的AIJ上：[Online Transfer Learning](https://www.sciencedirect.com/science/article/pii/S0004370214000800)
     - [我的解读](https://zhuanlan.zhihu.com/p/33557802?group_id=943152232741535744)
 	- 文章代码：[OTL](http://stevenhoi.org/otl)
@@ -2848,13 +2851,13 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 - 20171022 ICCVW-17 [Zero-shot learning posed as a missing data problem](http://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w38/Zhao_Zero-Shot_Learning_Posed_ICCV_2017_paper.pdf)
     - 算法首先学习 semantic embeddings 的结构性知识，利用学习到的知识和已知类的 image features 合成未知类的 image features。再利用无标记的未知类数据对合成数据进行修正。 算法假设未知类数据呈混合高斯分布，用 GMM-EM 算法进行无监督修正。
-    
+
 - 20180516 arXiv-18 [A Large-scale Attribute Dataset for Zero-shot Learning](https://arxiv.org/pdf/1804.04314v2.pdf)
     - 传统 ZSL 数据集（如 AwA, CUB）存在规模小，属性标注不丰富等问题。本文提出一个新的属性数据集 LAD 用于测试零样本学习算法。新数据集包含 230 类， 78,017 张图片，标注了 359 种属性。基于此数据集举办了 AI Challenger 零样本学习竞赛。 110+ 支来自海内外的参赛队伍提交了成绩。
-    
+
 - 20180710 ICML-18 [MSplit LBI: Realizing Feature Selection and Dense Estimation Simultaneously in Few-shot and Zero-shot Learning](https://arxiv.org/pdf/1806.04360.pdf)
     - 针对 L1 （欠拟合） 和 L2 （无特征选择、有偏） 正则项存在的问题，提出 MSplit LBI 用于同时实现特征选择和密集估计。在 Few-shot Learning 和 Zero-shot Learning 两个问题上进行了实验。实验表明 MSplit LBI 由优于 L1 和 L2。针对 ZSL 进行了特征可视化实验。
-    
+
 - 20190108 WACV-19 [Zero-shot Learning via Recurrent Knowledge Transfer](https://drive.google.com/open?id=1cUsQWX80zeCxTyVSCcYlqEWZP-Hq0KzR)
     - 基于样本合成的零样本学习算法通常将 semantic embeddings 的知识迁移到 image features 以实现 ZSL。然而，这种 training 和 testing space 的不一致，会导致这种迁移失效。因此，本文提出 Space Shift Problem，并针对此问题，提出一种（在 image feature space 和 semantic embedding space 之间）递归传递知识的解决方案。
 
@@ -3005,7 +3008,7 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 - 20180926 arXiv [Target Transfer Q-Learning and Its Convergence Analysis](https://arxiv.org/abs/1809.08923)
 	-  Analyze the risk of transfer q-learning
-	- 提供了在Q learning的任务迁移中一些理论分析
+	- 提供了在Q learning的任务迁移中一些理论分析
 
 - 20180926 arXiv [Domain Adaptation in Robot Fault Diagnostic Systems](https://arxiv.org/abs/1809.08626)
 	-  Apply domain adaptation in robot fault diagnostic system
@@ -3082,16 +3085,16 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
   - Federated semi-supervised DA 联邦半监督DA
 
 - FL-IJCAI-22 [MetaFed: Federated Learning among Federations with Cyclic Knowledge Distillation for Personalized Healthcare](https://arxiv.org/abs/2206.08516)
-  - MetaFed: a new form of federated learning 
+  - MetaFed: a new form of federated learning
   - 联邦之联邦学习、新范式
 - Interspeech-22 [Decoupled Federated Learning for ASR with Non-IID Data](https://jd92.wang/assets/files/DecoupleFL-IS22.pdf)
-  - Decoupled federated learning for non IID 
+  - Decoupled federated learning for non IID
   - 解耦的联邦架构用于Non-IID语音识别
 - [Test-Time Robust Personalization for Federated Learning](https://arxiv.org/abs/2205.10920)
-  - Test-time robust personalization for FL 
+  - Test-time robust personalization for FL
   - 测试时鲁棒联邦学习
 - IEEE TNNLS-22 [Towards Personalized Federated Learning](http://arxiv.org/abs/2103.00710)
-  - A survey on personalized federated learning 
+  - A survey on personalized federated learning
   - 一个关于个性化联邦学习的综述
 - [Improving Generalization in Federated Learning by Seeking Flat Minima](https://arxiv.org/abs/2203.11834)
   - Seeking flat minima for domain generalization in federated learning
@@ -3108,7 +3111,7 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
     - 联邦加权客户端间传输方法，用于联邦持续学习
 
 - SIGIR-21 [FedCT: Federated Collaborative Transfer for Recommendation](https://doi.org/10.1145/3404835.3462825)
-    - Federated learning for cross-domain recommendation 
+    - Federated learning for cross-domain recommendation
     - 使用联邦迁移学习执行跨域推荐任务
 
 - KDD-21 [Federated Adversarial Debiasing for Fair and Transferable Representations](https://doi.org/10.1145/3447548.3467281)

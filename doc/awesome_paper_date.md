@@ -55,7 +55,7 @@ Here, we list some papers related to transfer learning by date (starting from 20
   - Test-time adaptation for image compression with distribution regularization
 
 - WeatherDG: LLM-assisted Procedural Weather Generation for Domain-Generalized Semantic Segmentation [[arxiv](http://arxiv.org/abs/2410.12075)]
-  - Weather domain generalization 
+  - Weather domain generalization
 
 - Can In-context Learning Really Generalize to Out-of-distribution Tasks? [[arxiv](https://arxiv.org/abs/2410.09695)]
   - Can in-context learning generalize to OOD tasks?
@@ -153,7 +153,7 @@ Here, we list some papers related to transfer learning by date (starting from 20
   - Rethinking domain adaptation in CLIP era
 
 - Training-Free Model Merging for Multi-target Domain Adaptation [[arxiv](http://arxiv.org/abs/2407.13771)]
-  - Model merging for multi-target domain adaptation 
+  - Model merging for multi-target domain adaptation
 
 - SAFT: Towards Out-of-Distribution Generalization in Fine-Tuning [[arxiv](https://arxiv.org/abs/2407.03036)]
   - OOD fine-tuning for foundation models 大模型的OOD微调
@@ -319,7 +319,7 @@ Here, we list some papers related to transfer learning by date (starting from 20
   - Inter-domain mixup for semi-supervised domain adaptation 跨领域mixup用于半监督域自适应
 
 - Source-Free and Image-Only Unsupervised Domain Adaptation for Category Level Object Pose Estimation [[arxiv](https://arxiv.org/abs/2401.10848)]
-  - Source-free and image-only unsupervised domain adaptation 
+  - Source-free and image-only unsupervised domain adaptation
 
 - ICLR'24 spotlight Understanding and Mitigating the Label Noise in Pre-training on Downstream Tasks [[arxiv](https://arxiv.org/abs/2309.17002)]
   - A new research direction of transfer learning in the era of foundation models 大模型时代一个新研究方向：研究预训练数据的噪声对下游任务影响
@@ -440,7 +440,7 @@ Here, we list some papers related to transfer learning by date (starting from 20
 
 - Effective and Parameter-Efficient Reusing Fine-Tuned Models [[arxiv](http://arxiv.org/abs/2310.01886)]
   - Effective and parameter-efficient reusing fine-tuned models 高效使用预训练模型
-  
+
 - Prompting-based Efficient Temporal Domain Generalization [[arxiv](http://arxiv.org/abs/2310.02473)]
   - Prompt based temporal domain generalization 基于prompt的时间域domain generalization
 
@@ -474,7 +474,7 @@ Here, we list some papers related to transfer learning by date (starting from 20
   - Explore vision-language models for imbalanced learning 探索视觉大模型在不平衡问题上的表现
 
 - ICCV'23 Improving Generalization of Adversarial Training via Robust Critical Fine-Tuning [[arxiv](https://arxiv.org/abs/2308.02533)] [[code](https://github.com/microsoft/robustlearn)]
-  - 达到对抗鲁棒性和泛化能力的trade off 
+  - 达到对抗鲁棒性和泛化能力的trade off
 
 - ICCV'23 Domain-Specificity Inducing Transformers for Source-Free Domain Adaptation [[arxiv](https://arxiv.org/abs/2308.14023)]
   - Domain-specificity for source-free DA 用领域特异性驱动的source-free DA
@@ -582,7 +582,7 @@ Here, we list some papers related to transfer learning by date (starting from 20
   - Ahead-ot-time P-tuning for language models
 
 - Multi-Source to Multi-Target Decentralized Federated Domain Adaptation [[arxiv](http://arxiv.org/abs/2304.12422)]
-  - Decentralized federated domain adaptation 
+  - Decentralized federated domain adaptation
 
 - Benchmarking Low-Shot Robustness to Natural Distribution Shifts [[arxiv](http://arxiv.org/abs/2304.11263)]
   - Low-shot robustness to distribution shifts
@@ -785,6 +785,9 @@ Here, we list some papers related to transfer learning by date (starting from 20
 
 ## 2022-11
 
+- Cross-Domain Ensemble Distillation for Domain Generalization [[arXiv](https://arxiv.org/pdf/2211.14058)] [[Code](https://github.com/leekyungmoon/XDED)]
+  - Cross-domain ensemble distillation for domain generalization for domain generalization
+
 - ECCV-22 DecoupleNet: Decoupled Network for Domain Adaptive Semantic Segmentation [[arXiv](https://arxiv.org/pdf/2207.09988.pdf)] [[Code](https://github.com/dvlab-research/DecoupleNet)]
   - Domain adaptation in semantic segmentation 语义分割域适应
 
@@ -837,7 +840,7 @@ Here, we list some papers related to transfer learning by date (starting from 20
   - Domain adaptation under open set label shift 在开放集的label shift中的DA
 
 - NeurIPS'22 Domain Generalization without Excess Empirical Risk [[openreview](https://openreview.net/forum?id=pluyPFTiTeJ)]
-  - Domain generalization without excess empirical risk 
+  - Domain generalization without excess empirical risk
 
 - NeurIPS'22 FedSR: A Simple and Effective Domain Generalization Method for Federated Learning [[openreview](https://openreview.net/forum?id=mrt90D00aQX)]
   - FedSR for federated learning domain generalization 用于联邦学习的domain generalization
@@ -879,7 +882,7 @@ Here, we list some papers related to transfer learning by date (starting from 20
   - A phd thesis about generalization in real world 一篇关于现实世界如何做Generalization的博士论文
 
 - The Evolution of Out-of-Distribution Robustness Throughout Fine-Tuning [[arxiv](https://openreview.net/forum?id=Qs3EfpieOh)]
-  - Evolution of OOD robustness by fine-tuning 
+  - Evolution of OOD robustness by fine-tuning
 
 - Visual Prompt Tuning for Test-time Domain Adaptation [[arxiv](http://arxiv.org/abs/2210.04831)]
   - VPT for test-time adaptation 用prompt tuning进行test-time DA
@@ -908,7 +911,7 @@ Here, we list some papers related to transfer learning by date (starting from 20
 ## 2022-09
 
 - Assaying Out-Of-Distribution Generalization in Transfer Learning [[arXiv](http://arxiv.org/abs/2207.09239)]
-  - A lot of experiments to show OOD performance 
+  - A lot of experiments to show OOD performance
 
 - ICML-21 Accuracy on the Line: on the Strong Correlation Between Out-of-Distribution and In-Distribution Generalization [[arxiv](https://proceedings.mlr.press/v139/miller21b.html)]
   - Strong correlation between ID and OOD
@@ -996,7 +999,7 @@ Here, we list some papers related to transfer learning by date (starting from 20
 - [Transfer Learning for Segmentation Problems: Choose the Right Encoder and Skip the Decoder](https://arxiv.org/abs/2207.14508)
   - Transfer learning for segmentation problems 统一表示迁移学习于分割问题的思路
 
-## 2022-07 
+## 2022-07
 
 - TMLR-22 [Domain-invariant Feature Exploration for Domain Generalization](https://arxiv.org/abs/2207.12020)
   - Exploring domain-invariant feature for domain generalization 探索领域不变特征在领域泛化中的应用
@@ -1049,7 +1052,7 @@ Here, we list some papers related to transfer learning by date (starting from 20
   - Federated Weighted Inter-client Transfer (FedWeIT) for Federated Continual Learning
   - 联邦加权客户端间传输方法，用于联邦持续学习
 - SIGIR-21 [FedCT: Federated Collaborative Transfer for Recommendation](https://doi.org/10.1145/3404835.3462825)
-  - Federated learning for cross-domain recommendation 
+  - Federated learning for cross-domain recommendation
   - 使用联邦迁移学习执行跨域推荐任务
 - KDD-21 [Federated Adversarial Debiasing for Fair and Transferable Representations](https://doi.org/10.1145/3447548.3467281)
   - Federated Adversarial DEbiasing (FADE)
@@ -1071,7 +1074,7 @@ Here, we list some papers related to transfer learning by date (starting from 20
   - Background information for OOD generalization 背景信息对于OOD泛化的重要性
 
 - [Zero-Shot AutoML with Pretrained Models](https://arxiv.org/abs/2206.08476)
-  - 用预训练模型进行零样本的自动机器学习 
+  - 用预训练模型进行零样本的自动机器学习
 
 - [How robust are pre-trained models to distribution shift?](https://arxiv.org/abs/2206.08871)
   - How robust are pre-trained models to distribution shift 评估预训练模型对于distribution shift的鲁棒性
@@ -1517,7 +1520,7 @@ Here, we list some papers related to transfer learning by date (starting from 20
   - NeurIPS-21 workshop [CytoImageNet: A large-scale pretraining dataset for bioimage transfer learning](https://arxiv.org/abs/2111.11646)
     - A large-scale dataset for bioimage transfer learning
     - 一个大规模的生物图像数据集用于迁移学习
-  
+
   - NeurIPS-21 workshop [Component Transfer Learning for Deep RL Based on Abstract Representations](https://arxiv.org/abs/2111.11525)
     - Deep transfer learning for RL
     - 深度迁移学习用于强化学习
@@ -1553,7 +1556,7 @@ Here, we list some papers related to transfer learning by date (starting from 20
   - [Action Recognition using Transfer Learning and Majority Voting for CSGO](https://arxiv.org/abs/2111.03882)
     - Using transfer learning and majority voting for action recognition
     - 使用迁移学习和多数投票进行动作识别
-  
+
   - [Open-Set Crowdsourcing using Multiple-Source Transfer Learning](https://arxiv.org/abs/2111.04073)
     - Open-set crowdsourcing using multiple-source transfer learning
     - 使用多源迁移进行开放集的crowdsourcing
@@ -1863,4 +1866,4 @@ Here, we list some papers related to transfer learning by date (starting from 20
 
   - 20210716 ICML-21 workshop [Leveraging Domain Adaptation for Low-Resource Geospatial Machine Learning](https://arxiv.org/abs/2107.04983)
     - Using domain adaptation for geospatial ML
-    - 用domain adaptation进行地理空间的机器学习 
+    - 用domain adaptation进行地理空间的机器学习

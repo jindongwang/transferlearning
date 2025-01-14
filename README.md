@@ -29,25 +29,25 @@
   <a href="#contributing-欢迎参与贡献">Contributing</a>
 </p>
 
-**Widely used by top conferences and journals:** 
+**Widely used by top conferences and journals:**
 - Conferences: [[CVPR'22](https://openaccess.thecvf.com/content/CVPR2022W/FaDE-TCV/html/Zhang_Segmenting_Across_Places_The_Need_for_Fair_Transfer_Learning_With_CVPRW_2022_paper.html)] [[NeurIPS'21](https://proceedings.neurips.cc/paper/2021/file/731b03008e834f92a03085ef47061c4a-Paper.pdf)] [[IJCAI'21](https://arxiv.org/abs/2103.03097)] [[ESEC/FSE'20](https://dl.acm.org/doi/abs/10.1145/3368089.3409696)] [[IJCNN'20](https://ieeexplore.ieee.org/abstract/document/9207556)] [[ACMMM'18](https://dl.acm.org/doi/abs/10.1145/3240508.3240512)] [[ICME'19](https://ieeexplore.ieee.org/abstract/document/8784776/)]
 - Journals: [[IEEE TKDE](https://ieeexplore.ieee.org/abstract/document/9782500/)] [[ACM TIST](https://dl.acm.org/doi/abs/10.1145/3360309)] [[Information sciences](https://www.sciencedirect.com/science/article/pii/S0020025520308458)] [[Neurocomputing](https://www.sciencedirect.com/science/article/pii/S0925231221007025)] [[IEEE Transactions on Cognitive and Developmental Systems](https://ieeexplore.ieee.org/abstract/document/9659817)]
 
 ```
 @Misc{transferlearning.xyz,
-howpublished = {\url{http://transferlearning.xyz}},   
-title = {Everything about Transfer Learning and Domain Adapation},  
-author = {Wang, Jindong and others}  
-}  
+howpublished = {\url{http://transferlearning.xyz}},
+title = {Everything about Transfer Learning and Domain Adapation},
+author = {Wang, Jindong and others}
+}
 ```
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![MIT License](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT) [![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE) [![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu) 
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![MIT License](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT) [![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE) [![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
 
 Related Codes:
   - Large language model evaluation: [[llm-eval](https://llm-eval.github.io/)]
   - Large language model enhancement: [[llm-enhance](https://llm-enhance.github.io/)]
   - Robust machine learning: [[robustlearn: robust machine learning](https://github.com/microsoft/robustlearn)]
-  - Semi-supervised learning: [[USB: unified semi-supervised learning benchmark](https://github.com/microsoft/Semi-supervised-learning)] | [[TorchSSL: a unified SSL library](https://github.com/TorchSSL/TorchSSL)] 
+  - Semi-supervised learning: [[USB: unified semi-supervised learning benchmark](https://github.com/microsoft/Semi-supervised-learning)] | [[TorchSSL: a unified SSL library](https://github.com/TorchSSL/TorchSSL)]
   - LLM benchmark: [[PromptBench: adversarial robustness of prompts of LLMs](https://github.com/microsoft/promptbench)]
   - Federated learning: [[PersonalizedFL: library for personalized federated learning](https://github.com/microsoft/PersonalizedFL)]
   - Activity recognition and machine learning [[Activity recognition](https://github.com/jindongwang/activityrecognition)]｜[[Machine learning](https://github.com/jindongwang/MachineLearning)]
@@ -62,28 +62,32 @@ Related Codes:
 
 - [Paperweekly](http://www.paperweekly.site/collections/231/papers): A website to recommend and read paper notes
 
-**Latest papers**: 
+**Latest papers**:
 
 - By topic: [doc/awesome_papers.md](/doc/awesome_paper.md)
 - By date: [doc/awesome_paper_date.md](/doc/awesome_paper_date.md)
 
+*Updated at 2025-01-14:*
+- Cross-Domain Ensemble Distillation for Domain Generalization [[arxiv](https://arxiv.org/pdf/2211.14058)]
+  - Cross-domain ensemble distillation for domain generalization
+
 *Updated at 2024-12-25:*
 
 - Privacy in Fine-tuning Large Language Models: Attacks, Defenses, and Future Directions [[arxiv](http://arxiv.org/abs/2412.16504)]
-  - Privacy in LLM fine-tuning 
+  - Privacy in LLM fine-tuning
 
 - Learning to Generate Gradients for Test-Time Adaptation via Test-Time Training Layers [[arxiv](http://arxiv.org/abs/2412.16901)]
-  - Generate gradients for TTA 
+  - Generate gradients for TTA
 
 *Updated at 2024-12-19:*
 
 - Is Large-Scale Pretraining the Secret to Good Domain Generalization? [[arxiv](https://arxiv.org/abs/2412.02856)]
-  - Large-scale pre-training vs domain generalization 
+  - Large-scale pre-training vs domain generalization
 
 *Updated at 2024-11-29:*
 
 - Generating Out-Of-Distribution Scenarios Using Language Models [[arxiv](https://arxiv.org/abs/2411.16554)]
-  - Generating OOD settings using language models 
+  - Generating OOD settings using language models
 
 *Updated at 2024-11-01:*
 
@@ -103,7 +107,7 @@ Want to quickly learn transfer learning？想尽快入门迁移学习？看下�
 
 - Blogs 博客
   - [Zhihu blogs - 知乎专栏《小王爱迁移》系列文章](https://zhuanlan.zhihu.com/p/130244395)
-	
+
 - Video tutorials 视频教程
   - Transfer learning 迁移学习:
     - [Recent advance of transfer learning - 2022年最新迁移学习发展现状探讨](https://www.bilibili.com/video/BV1nY411E7Uc/)
@@ -113,8 +117,8 @@ Want to quickly learn transfer learning？想尽快入门迁移学习？看下�
     - [IJCAI-ECAI'22 tutorial on domain generalization - 领域泛化tutorial](https://dgresearch.github.io/)
     - [Domain generalization - 迁移学习新兴研究方向领域泛化](https://www.bilibili.com/video/BV1ro4y1S7dd/)
   - Domain adaptation 领域自适应：
-    - [Domain adaptation - 迁移学习中的领域自适应方法(中文)](https://www.bilibili.com/video/BV1T7411R75a/) 
-  
+    - [Domain adaptation - 迁移学习中的领域自适应方法(中文)](https://www.bilibili.com/video/BV1T7411R75a/)
+
 
 - Brief introduction and slides 简介与ppt资料
   - [Recent advance of transfer learning](https://jd92.wang/assets/files/l16_aitime.pdf)
@@ -124,7 +128,7 @@ Want to quickly learn transfer learning？想尽快入门迁移学习？看下�
   - 迁移学习中的领域自适应方法 Domain adaptation: [PDF](http://jd92.wang/assets/files/l12_da.pdf) ｜ [Video on Bilibili](https://www.bilibili.com/video/BV1T7411R75a/) | [Video on Youtube](https://www.youtube.com/watch?v=RbIsHNtluwQ&t=22s)
   - Tutorial on transfer learning by Qiang Yang: [IJCAI'13](http://ijcai13.org/files/tutorial_slides/td2.pdf) | [2016 version](http://kddchina.org/file/IntroTL2016.pdf)
 
-- Talk is cheap, show me the code 动手教程、代码、数据 
+- Talk is cheap, show me the code 动手教程、代码、数据
   - [Pytorch tutorial on transfer learning](https://pytorch.org/tutorials/beginner/transfer_learning_tutorial.html)
 	- [Pytorch finetune](https://github.com/jindongwang/transferlearning/tree/master/code/AlexNet_ResNet)
 	- [DeepDA: a unified deep domain adaptation toolbox](https://github.com/jindongwang/transferlearning/tree/master/code/DeepDA)
@@ -175,11 +179,11 @@ Here are some articles on transfer learning theory and survey.
   - 第一篇对Domain generalization (领域泛化)的综述
 - 2021 Vision-based activity recognition: [A Survey of Vision-Based Transfer Learning in Human Activity Recognition](https://www.mdpi.com/2079-9292/10/19/2412)
 - 2021 ICSAI [A State-of-the-Art Survey of Transfer Learning in Structural Health Monitoring](https://ieeexplore.ieee.org/abstract/document/9664171)
-- 2020 [Transfer learning: survey and classification](https://link.springer.com/chapter/10.1007/978-981-15-5345-5_13), Advances in Intelligent Systems and Computing. 
+- 2020 [Transfer learning: survey and classification](https://link.springer.com/chapter/10.1007/978-981-15-5345-5_13), Advances in Intelligent Systems and Computing.
 - 2020 迁移学习最新survey，来自中科院计算所庄福振团队，发表在Proceedings of the IEEE: [A Comprehensive Survey on Transfer Learning](https://arxiv.org/abs/1911.02685)
 - 2020 负迁移的综述：[Overcoming Negative Transfer: A Survey](https://arxiv.org/abs/2009.00909)
 - 2020 知识蒸馏的综述: [Knowledge Distillation: A Survey](https://arxiv.org/abs/2006.05525)
-- 用transfer learning进行sentiment classification的综述：[A Survey of Sentiment Analysis Based on Transfer Learning](https://ieeexplore.ieee.org/abstract/document/8746210) 
+- 用transfer learning进行sentiment classification的综述：[A Survey of Sentiment Analysis Based on Transfer Learning](https://ieeexplore.ieee.org/abstract/document/8746210)
 - 2019 一篇新survey：[Transfer Adaptation Learning: A Decade Survey](https://arxiv.org/abs/1903.04687)
 - 2018 一篇迁移度量学习的综述: [Transfer Metric Learning: Algorithms, Applications and Outlooks](https://arxiv.org/abs/1810.03944)
 - 2018 一篇最近的非对称情况下的异构迁移学习综述：[Asymmetric Heterogeneous Transfer Learning: A Survey](https://arxiv.org/abs/1804.10834)
@@ -232,7 +236,7 @@ _ _ _
 
 Here are some transfer learning scholars and labs.
 
-**全部列表以及代表工作性见[这里](https://github.com/jindongwang/transferlearning/blob/master/doc/scholar_TL.md)** 
+**全部列表以及代表工作性见[这里](https://github.com/jindongwang/transferlearning/blob/master/doc/scholar_TL.md)**
 
 Please note that this list is far not complete. A full list can be seen in [here](https://github.com/jindongwang/transferlearning/blob/master/doc/scholar_TL.md). Transfer learning is an active field. *If you are aware of some scholars, please add them here.*
 
