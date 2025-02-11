@@ -809,6 +809,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ## Deep domain adaptation
 
+- Beyond Batch Learning: Global Awareness Enhanced Domain Adaptation [[arxiv](https://arxiv.org/abs/2502.06272)]
+  - Global awareness for enhanced domain adaptation
+
 - Stratified Domain Adaptation: A Progressive Self-Training Approach for Scene Text Recognition [[arxiv](https://arxiv.org/abs/2410.09913)]
   - Stratified domain adaptation
 

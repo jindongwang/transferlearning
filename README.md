@@ -67,28 +67,11 @@ Related Codes:
 - By topic: [doc/awesome_papers.md](/doc/awesome_paper.md)
 - By date: [doc/awesome_paper_date.md](/doc/awesome_paper_date.md)
 
-*Updated at 2024-12-25:*
 
-- Privacy in Fine-tuning Large Language Models: Attacks, Defenses, and Future Directions [[arxiv](http://arxiv.org/abs/2412.16504)]
-  - Privacy in LLM fine-tuning 
+*Updated at 2024-02-11:*
 
-- Learning to Generate Gradients for Test-Time Adaptation via Test-Time Training Layers [[arxiv](http://arxiv.org/abs/2412.16901)]
-  - Generate gradients for TTA 
-
-*Updated at 2024-12-19:*
-
-- Is Large-Scale Pretraining the Secret to Good Domain Generalization? [[arxiv](https://arxiv.org/abs/2412.02856)]
-  - Large-scale pre-training vs domain generalization 
-
-*Updated at 2024-11-29:*
-
-- Generating Out-Of-Distribution Scenarios Using Language Models [[arxiv](https://arxiv.org/abs/2411.16554)]
-  - Generating OOD settings using language models 
-
-*Updated at 2024-11-01:*
-
-- Unified Domain Generalization and Adaptation for Multi-View 3D Object Detection [[arxiv](https://arxiv.org/abs/2410.22461)]
-  - Unified domain generalization and adaptation for multi-view 3D object detection
+- Beyond Batch Learning: Global Awareness Enhanced Domain Adaptation [[arxiv](https://arxiv.org/abs/2502.06272)]
+  - Global awareness for enhanced domain adaptation
 
 - - -
 

@@ -3,6 +3,8 @@
 Here, we list some papers related to transfer learning by date (starting from 2021-07). For papers older than 2021-07, please refer to the [papers by topic](awesome_paper.md), which contains more papers.
 
 - [Awesome papers by date](#awesome-papers-by-date)
+  - [2024-12](#2024-12)
+  - [2024-11](#2024-11)
   - [2024-10](#2024-10)
   - [2024-09](#2024-09)
   - [2024-08](#2024-08)
@@ -42,6 +44,26 @@ Here, we list some papers related to transfer learning by date (starting from 20
   - [2021-09](#2021-09)
   - [2021-08](#2021-08)
   - [2021-07](#2021-07)
+
+
+## 2024-12
+
+- Privacy in Fine-tuning Large Language Models: Attacks, Defenses, and Future Directions [[arxiv](http://arxiv.org/abs/2412.16504)]
+  - Privacy in LLM fine-tuning 
+
+- Learning to Generate Gradients for Test-Time Adaptation via Test-Time Training Layers [[arxiv](http://arxiv.org/abs/2412.16901)]
+  - Generate gradients for TTA 
+
+- Is Large-Scale Pretraining the Secret to Good Domain Generalization? [[arxiv](https://arxiv.org/abs/2412.02856)]
+  - Large-scale pre-training vs domain generalization 
+
+## 2024-11
+
+- Generating Out-Of-Distribution Scenarios Using Language Models [[arxiv](https://arxiv.org/abs/2411.16554)]
+  - Generating OOD settings using language models 
+
+- Unified Domain Generalization and Adaptation for Multi-View 3D Object Detection [[arxiv](https://arxiv.org/abs/2410.22461)]
+  - Unified domain generalization and adaptation for multi-view 3D object detection
 
 ## 2024-10
 
