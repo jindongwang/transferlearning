@@ -67,6 +67,20 @@ Related Codes:
 - By topic: [doc/awesome_papers.md](/doc/awesome_paper.md)
 - By date: [doc/awesome_paper_date.md](/doc/awesome_paper_date.md)
 
+*Updated at 2024-02-18:*
+
+- Simulations of Common Unsupervised Domain Adaptation Algorithms for Image Classification [[arxiv](https://arxiv.org/abs/2502.10694)]
+  - Unsupervised domain adaptaiton for image classification
+
+- Semantics-aware Test-time Adaptation for 3D Human Pose Estimation [[arxiv](https://arxiv.org/abs/2502.10724)]
+  - Test-time adaptation for3D human pose estimation
+
+- Transfer Learning of CATE with Kernel Ridge Regression [[arxiv](https://arxiv.org/abs/2502.11331)]
+  - Transfer learning with kernel ridge regression
+
+- Why Domain Generalization Fail? A View of Necessity and Sufficiency [[arxiv](https://arxiv.org/abs/2502.10716)] 
+  - Analyze why domain generalization fail from the view of necessity and sufficiency
+
 
 *Updated at 2024-02-11:*
 

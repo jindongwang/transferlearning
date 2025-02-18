@@ -183,6 +183,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 
 ## Per-training/Finetuning
 
+- Transfer Learning of CATE with Kernel Ridge Regression [[arxiv](https://arxiv.org/abs/2502.11331)]
+  - Transfer learning with kernel ridge regression
+
 - Privacy in Fine-tuning Large Language Models: Attacks, Defenses, and Future Directions [[arxiv](http://arxiv.org/abs/2412.16504)]
   - Privacy in LLM fine-tuning 
 
@@ -808,6 +811,12 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
 	- 发表在IEEE Trans. Knowledge and Data Engineering期刊上
 
 ## Deep domain adaptation
+
+- Simulations of Common Unsupervised Domain Adaptation Algorithms for Image Classification [[arxiv](https://arxiv.org/abs/2502.10694)]
+  - Unsupervised domain adaptaiton for image classification
+
+- Semantics-aware Test-time Adaptation for 3D Human Pose Estimation [[arxiv](https://arxiv.org/abs/2502.10724)]
+  - Test-time adaptation for3D human pose estimation
 
 - Beyond Batch Learning: Global Awareness Enhanced Domain Adaptation [[arxiv](https://arxiv.org/abs/2502.06272)]
   - Global awareness for enhanced domain adaptation
@@ -2028,6 +2037,9 @@ Here, we list some papers by topic. For list by date, please refer to [papers by
   - A tutorial on domain generalization
 
 ### Papers
+
+- Why Domain Generalization Fail? A View of Necessity and Sufficiency [[arxiv](https://arxiv.org/abs/2502.10716)] 
+  - Analyze why domain generalization fail from the view of necessity and sufficiency
 
 - Learning to Generate Gradients for Test-Time Adaptation via Test-Time Training Layers [[arxiv](http://arxiv.org/abs/2412.16901)]
   - Generate gradients for TTA 
